@@ -4,7 +4,7 @@
     "game": "listeyi-tamamla",
     "title": "Milli takımın Euro 2008 kadrosunda yer alan futbolcular?",
     "type": "player",
-    "activeDate": "2026-04-01",
+    "activeDate": "2026-03-24",
     "targets": [
       "Volkan Demirel", "Gökhan Zan", "Emre Güngör", "Emre Aşık", 
       "Colin Kazım Richards", "Gökdeniz Karadeniz", "Tümer Metin", 
@@ -19,7 +19,7 @@
     "game": "listeyi-tamamla",
     "title": "1959'dan bugüne Süper Lig'de mücadele etmiş olan tüm İstanbul ekipleri?",
     "type": "team-tr",
-    "activeDate": "2026-04-02",
+    "activeDate": "2026-03-25",
     "targets":  [
       "Beşiktaş", "Fenerbahçe", "Galatasaray", "Başakşehir", "Kasımpaşa", 
       "İstanbulspor", "Fatih Karagümrük", "Eyüpspor", "Sarıyer", "Zeytinburnuspor", 
@@ -31,7 +31,7 @@
     "game": "listeyi-tamamla",
     "title": "Fenerbahçe forması giymiş Brezilyalı futbolcular?",
     "type": "player",
-    "activeDate": "2026-04-03",
+    "activeDate": "2026-03-26",
     "targets": [
       "Ederson", "Anderson Talisca", "Diego Carlos", "Fred", "Rodrigo Becao", "Lincoln Henrique", "Luan Peres", "Gustavo Henrique", "Willian Arao", "Luiz Gustavo", "Jailson", "Giuliano", "Josef De Souza", "Fernandao", "Diego Ribas", "Fabio Bilica", "Andre Santos", "Cristian Baroni", "Roberto Carlos", "Deivid De Souza", "Mateus Parana", "Edu Dracena", "Fabiano Lima", "Alex De Souza", "Marcio Nobre", "Fabio Luciano", "Washington", "Reinaldo Simao", "Serginho Messias", "Gerson Cacapa"
     ]
@@ -40,7 +40,7 @@
     "game": "listeyi-tamamla",
     "title": "Beşiktaş formasıyla Şampiyonlar Ligi'nde gol atmış futbolcular? (Grup aşaması ve sonrası)",
     "type": "player",
-    "activeDate": "2026-04-04",
+    "activeDate": "2026-03-27",
     "targets": [
       "Javi Montero", "Rachid Ghezzal", "Cyle Larin", "Anderson Talisca", "Cenk Tosun", "Ryan Babel", "Alvaro Negredo", "Vagner Love", "Ricardo Quaresma", "Adriano", "Vincent Aboubakar", "Rodrigo Tello", "Bobo", "Ekrem Dağ", "Sergen Yalçın", "Daniel Pancu", "Ronaldo Guiaro", "Tayfur Havutçu", "Ahmet Dursun", "Pascal Nouma", "Oktay Derelioğlu", "Ertuğrul Sağlam", "Mehmet Özdilek"
     ]
@@ -49,7 +49,7 @@
     "game": "listeyi-tamamla",
     "title": "2005/06 sezonunda Süper Lig'de mücadele eden takımlar?",
     "type": "team-tr",
-    "activeDate": "2026-04-05",
+    "activeDate": "2026-03-28",
     "targets": [
       "Galatasaray", "Fenerbahçe", "Beşiktaş", "Trabzonspor", "Kayserispor", "Gençlerbirliği", "Konyaspor", "Sivasspor", "Çaykur Rizespor", "Manisaspor", "Kayseri Erciyesspor", "Gaziantepspor", "Ankaragücü", "Ankaraspor", "Denizlispor", "Malatyaspor", "Samsunspor", "Diyarbakırspor"
     ]
@@ -58,7 +58,7 @@
     "game": "listeyi-tamamla",
     "title": "Süper Lig'de 200'den fazla maça çıkan Afrikalı futbolcular?",
     "type": "player",
-    "activeDate": "2026-04-06",
+    "activeDate": "2026-03-29",
     "targets": [
       "Alioum Saidou", "Souleymanou Hamidou", "Alioum Boukar", "Andre Kona", "Abdelzaher El Saka", "Ayman Abdelaziz", "Ahmed Hassan", "Samuel Johnson", "Stephen Baidoo", "Mustapha Yatabare", "Aatif Chahechouhe", "Isaac Promise", "Uche Okechukwu", "Badou Ndiaye", "John Moshoeu"
     ]
@@ -67,7 +67,7 @@
     "game": "listeyi-tamamla",
     "title": "Galatasaray'ın Avrupa kupalarında Okan Buruk yönetiminde mağlup ettiği takımlar?",
     "type": "team-eu",
-    "activeDate": "2026-04-07",
+    "activeDate": "2026-03-30",
     "targets": [
       "Liverpool", "Juventus", "Bodo Glimt", "Ajax", "Elfsborg", "PAOK", "Tottenham", "Manchester United", "Molde", "Olimpija Ljubljana", "Zalgiris", "Sparta Prag"
     ]
@@ -76,7 +76,7 @@
     "game": "listeyi-tamamla",
     "title": "Süper Lig'de 50'den fazla maça çıkmış Fransız futbolcular?",
     "type": "player",
-    "activeDate": "2026-04-08",
+    "activeDate": "2026-03-31",
     "targets": [
       "Lionel Carole", "Olivier Veigneau", "Rayane Aabid", "Valentin Rosier", "Oumar Dieng", "Valentin Eysseric", "Leo Schwechlen", "Ludovic Sylvestre", "Gael Clichy", "Nicolas Janvier", "Benjamin Stambouli", "Enzo Crivelli", "Bafetimbi Gomis", "Sacha Boey", "Batista Mendy", "Leo Dubois","Yannick Kamanan", "Edouard Cisse", "Aly Cissokho", "Salem M'bakata", "Mathieu Valbuena"
     ]
@@ -85,7 +85,7 @@
     "game": "listeyi-tamamla",
     "title": "Başakşehir FK'nın Avrupa kupalarında mağlup ettiği takımlar? (Ön elemeler dahil)",
     "type": "team-eu",
-    "activeDate": "2026-04-09",
+    "activeDate": "2026-04-01",
     "targets": [
       "Club Brugge", "Braga", "Ludogorets", "Monchengladbach","Wolfsberger", "Sporting", "Kopenhag", "Manchester United", "Maccabi Netanya", "Breidablik", "Antwerp", "Fiorentina", "Hearts", "Rigas FS", "La Fiorita", "Iberia", "St. Patricks Athletic", "Heidenheim", "Cherno More", "Viking"
     ]
@@ -95,7 +95,7 @@
     "game": "top10",
     "title": "Galatasaray tarihinde en çok maça çıkan 10 yabancı oyuncu?",
     "type": "player",
-    "activeDate": "2026-04-01",
+    "activeDate": "2026-03-24",
     "targets": ["Fernando Muslera", "Faryd Mondragon", "Cevad Prekazi", "Zoran Simovic", "Gheorghe Hagi", "Gheorghe Popescu", "Wesley Sneijder", "Lucas Torreira", "Sofiane Feghouli", "Ryan Donk"]
   },
   {
@@ -103,7 +103,7 @@
     "game": "top10",
     "title": "Süper Lig tarihinin en golcü 10 Brezilyalı oyuncusu?",
     "type": "player",
-    "activeDate": "2026-04-02",
+    "activeDate": "2026-03-25",
     "targets": ["Alex De Souza", "Marcio Nobre", "Bobo", "Tita", "Fernandao", "Jaba", "Anderson Talisca", "Vagner Love", "Wederson", "Doka Madureira"]
   },
   {
@@ -111,7 +111,7 @@
     "game": "top10",
     "title": "Beşiktaş'ın Avrupa kupalarında mağlup ettiği son 10 takım?",
     "type": "team-eu",
-    "activeDate": "2026-04-03",
+    "activeDate": "2026-03-26",
     "targets": ["St. Patricks Athletic", "Athletic Bilbao", "Malmö", "Lyon", "Lugano", "Dinamo Kiev", "Neftçi Bakü", "Tirana", "Slovan Bratislava", "Sarpsborg"]
   },
   {
@@ -119,7 +119,7 @@
     "game": "top10",
     "title": "Fenerbahçe formasıyla en çok maça çıkan 10 oyuncu?",
     "type": "player",
-    "activeDate": "2026-04-04",
+    "activeDate": "2026-03-27",
     "targets": ["Müjdat Yetkiner", "Volkan Demirel", "Cem Pamiroğlu", "Şeref Has", "Rüştü Reçber","Gökhan Gönül", "Lefter Küçükandonyadis", "Ziya Şengül", "Alex De Souza", "Selçık Şahin"]
   }, 
   {
@@ -127,7 +127,7 @@
     "game": "top10",
     "title": "Süper Lig tarihinde en çok maça çıkan 10 Hollandalı futbolcu?",
     "type": "player",
-    "activeDate": "2026-04-05",
+    "activeDate": "2026-03-28",
     "targets": ["Ryan Babel", "Wesley Sneijder", "Jeremain Lens", "Dirk Kuyt", "Rick van Drongelen", "Sander van de Streek", "Leroy Fer", "Eljero Elia", "Jayden Oosterwolde", "Robin van Persie"]
   },
   {
@@ -135,7 +135,7 @@
     "game": "top10",
     "title": "Süper Lig'de gol krallığı yaşayan son 10 yerli futbolcu?",
     "type": "player",
-    "activeDate": "2026-04-06",
+    "activeDate": "2026-03-29",
     "targets": ["Umut Bozok", "Burak Yılmaz", "Semih Şentürk", "Gökhan Ünal", "Fatih Tekke", "Zafer Biryol", "Okan Yılmaz", "Arif Erdem", "İlhan Mansız", "Serkan Aykut"]
   }, 
 
@@ -144,7 +144,7 @@
     "game": "top10",
     "title": "Beşiktaş tarihinde en çok maça çıkan 10 kaleci?",
     "type": "player",
-    "activeDate": "2026-04-07",
+    "activeDate": "2026-03-30",
     "targets": ["Ersin Destanoğlu", "Fevzi Tuncay", "Oscar Cordoba", "Mert Günok", "Tolga Zengin", "Necmi Mutlu", "Rüştü Reçber", "Cenk Gönen", "Rade Zalad", "Fabri"]
   }, 
 
@@ -153,7 +153,7 @@
     "game": "top10",
     "title": "Trabzonspor'un Avrupa kupalarında mağlup ettiği son 10 takım? (Ön elemeler dahil)",
     "type": "team-eu",
-    "activeDate": "2026-04-08",
+    "activeDate": "2026-03-31",
     "targets": ["Ruzomberok", "Basel", "Ferencvaros", "Monaco", "Kızılyıldız", "AEK", "Sparta Prag", "Differdange", "Metalist", "Lokeren"]
   },
 
@@ -162,7 +162,7 @@
     "game": "top10",
     "title": "Süper Lig tarihinde en çok gol atan 10 Arjantinli futbolcu?",
     "type": "player",
-    "activeDate": "2026-04-09",
+    "activeDate": "2026-04-01",
     "targets": ["Mauro Icardi", "Pablo Batalla", "Oscar Scarione", "Jose Sosa", "Franco Cangele", "Gustavo Colman", "Matias Delgado", "Leo Iglesias", "Adolfo Gaich "]
   },
 
@@ -171,7 +171,7 @@
     "game": "top10",
     "title": "Süper Lig'i son sırada bitiren son 10 takım?'",
     "type": "team-tr",
-    "activeDate": "2026-04-10",
+    "activeDate": "2026-04-02",
     "targets": ["Adana Demirspor", "İstanbulspor", "Hatayspor", "Yeni Malatyaspor", "Denizlispor", "Ankaragücü", "Akhisar Belediyespor", "Karabükspor", "Adanaspor", "Mersin İdman Yurdu"]
   }, 
 
@@ -180,7 +180,7 @@
     "game": "top10",
     "title": "Süper Lig'de 2020/21 sezonunda en çok gol atan 10 futbolcu?",
     "type": "player",
-    "activeDate": "2026-04-11",
+    "activeDate": "2026-04-03",
     "targets": ["Aaron Boupendza", "Cyle Larin", "Mame Diouf", "Adem Büyük", "Alexandru Maxim", "Muhammet Demir", "Vincent Aboubakar", "Hugo Rodallega", "Anastasios Bakasetas", "Enner Valencia"]
   }, 
   {
@@ -188,7 +188,7 @@
     "game": "top10",
     "title": "Süper Lig tarihinde en çok maça çıkan 10 Portekizli futbolcu?",
     "type": "player",
-    "activeDate": "2026-04-12",
+    "activeDate": "2026-04-04",
     "targets": ["Andre Castro", "Ricardo Quaresma", "Tiago Pinto", "Daniel Candeias", "Miguel Cardoso", "Gedson Fernandes", "Miguel Lopes", "Joao Pereira", "Tiago Lopes", "Manuel Fernandes"]
   }, 
 
@@ -197,7 +197,7 @@
     "game": "top10",
     "title": "Süper Lig'de 2023/24 sezonunda en çok gol atan 10 futbolcu?",
     "type": "player",
-    "activeDate": "2026-04-18",
+    "activeDate": "2026-04-10",
     "targets": ["Mauro Icardi", "Edin Dzeko", "Mame Thiam", "Rey Manaj", "Krzysztof Piatek", "Adam Buksa", "Paul Onuachu", "Denis Draguş", "Nuno Da Costa", "Aytaç Kara"]
   }
 
