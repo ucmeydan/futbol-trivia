@@ -4,23 +4,30 @@ import { useState, useEffect, useRef } from 'react';
 import playersData from '@/data/players.json';
 import teamsData from '@/data/teams.json';
 import europeanTeamsData from '@/data/european_teams.json';
-import allQuestions from '@/data/questions.json'; // Soruları dışarıdan çekiyoruz
+import allQuestions from '@/data/questions.json';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
 
-// İsim formatlama fonksiyonu (Her kelimenin ilk harfi büyük)
 const formatName = (name: string) => {
   return name.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 };
 
-// Türkçe karakter uyumlu normalizasyon
 const normalizeText = (text: string) => {
-  return text.toLocaleLowerCase('tr-TR').trim();
+  if (!text) return "";
+  return text
+    .trim()
+    .replace(/İ/g, 'i')
+    .replace(/I/g, 'i')
+    .replace(/ı/g, 'i')
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 };
 
 export default function Top10Page() {
-  // Sadece 'top10' oyununa ait soruları filtrele
-  const gameQuestions = allQuestions.filter(q => q.game === "top10");
+  const today = new Date().toISOString().split('T')[0];
+  const gameQuestions = allQuestions.filter(q => 
+    q.game === "top10" && q.activeDate <= today
+  );
   
   const [currentIndex, setCurrentIndex] = useState(gameQuestions.length - 1);
   const currentQ = gameQuestions[currentIndex];
@@ -71,7 +78,8 @@ export default function Top10Page() {
   }, []);
 
   const shareScore = () => {
-    const text = `Top 10 #${currentQ.id} skorum: ${foundIndices.length}/${currentQ.targets.length}\nhttps://tr-trivia.vercel.app/top10`;
+    // LINK GÜNCELLENDİ
+    const text = `Top 10 #${currentQ.id} skorum: ${foundIndices.length}/${currentQ.targets.length}\nhttps://futbol-trivia.vercel.app/top10`;
     navigator.clipboard.writeText(text);
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);
@@ -150,7 +158,7 @@ export default function Top10Page() {
     }
   }, [query, foundIndices, currentQ]);
 
-  if (!currentQ) return <div className="text-white text-center p-10 font-sans">Soru Yükleniyor...</div>;
+  if (!currentQ) return <div className="text-white text-center p-10 font-sans">Bugünün sorusu henüz yayında değil...</div>;
 
   const maxDist = Math.max(...stats.distribution, 1);
   const correctRate = Math.round((stats.totalCorrect / (stats.totalGames * 10 || 1)) * 100);
@@ -165,11 +173,10 @@ export default function Top10Page() {
         </div>
       )}
 
-      {/* Üst Menü */}
-      <div className="flex justify-between items-start mb-2 relative z-10">
+      <div className="flex justify-between items-start mb-2 relative z-10 font-sans">
         <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1">← Geri Dön</Link>
-        <div className="flex flex-col items-end font-sans">
-          <div className="flex gap-1 mb-1">
+        <div className="flex flex-col items-end">
+          <div className="flex gap-1 mb-1 font-sans">
             {[...Array(3)].map((_, i) => (
               <span key={i} className={`text-base transition-all duration-300 ${i < lives ? "opacity-100" : "opacity-20 grayscale"}`}>❤️</span>
             ))}
@@ -187,7 +194,6 @@ export default function Top10Page() {
         <h2 className="text-base font-bold leading-tight mb-2 px-2 text-slate-100 tracking-tight">{currentQ.title}</h2>
       </div>
 
-      {/* Liste */}
       <div className="flex-grow overflow-y-hidden mb-3 px-1 relative z-10 space-y-1">
         {currentQ.targets.map((name, i) => {
           const isFound = foundIndices.includes(i);
@@ -207,31 +213,24 @@ export default function Top10Page() {
         })}
       </div>
 
-      {/* İstatistik Pop-up */}
       {showStatsPopup && (
-        <div className="absolute inset-0 bg-slate-950/90 z-[110] flex items-center justify-center p-6 animate-in fade-in duration-500">
-          <div className="w-full bg-slate-900 border-2 border-slate-800 rounded-3xl p-6 shadow-2xl font-sans relative text-white">
-            <button 
-              onClick={() => setShowStatsPopup(false)}
-              className="absolute top-4 right-4 text-slate-500 hover:text-white transition-colors"
-            >
-              <span className="font-bebas text-xl">✕</span>
-            </button>
-
+        <div className="absolute inset-0 bg-slate-950/90 z-[110] flex items-center justify-center p-6 animate-in fade-in duration-500 font-sans">
+          <div className="w-full bg-slate-900 border-2 border-slate-800 rounded-3xl p-6 shadow-2xl relative text-white">
+            <button onClick={() => setShowStatsPopup(false)} className="absolute top-4 right-4 text-slate-500 hover:text-white transition-colors">✕</button>
             <h3 className="text-center font-bold text-lg mb-6 italic">İstatistik</h3>
             
             <div className="flex justify-between mb-8 border-b border-slate-800 pb-6 text-center">
               <div className="flex-1">
                 <div className="text-2xl font-bold">{stats.totalGames}</div>
-                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight">Oynanan Oyun</div>
+                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight uppercase">Oynanan</div>
               </div>
               <div className="flex-1 border-x border-slate-800">
                 <div className="text-2xl font-bold text-green-500">{Math.round((stats.wins / (stats.totalGames || 1)) * 100)}%</div>
-                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight">Kazanma Oranı</div>
+                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight uppercase">Kazanma</div>
               </div>
               <div className="flex-1">
                 <div className="text-2xl font-bold text-sky-500">{correctRate}%</div>
-                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight">Doğru Cevap Oranı</div>
+                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight uppercase">Doğru Oranı</div>
               </div>
             </div>
 
@@ -251,18 +250,13 @@ export default function Top10Page() {
               ))}
             </div>
 
-            <div className="flex items-center justify-between p-3 bg-slate-950/50 rounded-2xl border border-slate-800 mb-4 font-sans">
-                <div className="text-left">
-                    <p className="text-slate-500 text-[10px] font-semibold">Sonraki Oyun</p>
-                    <p className="font-bold text-lg text-white leading-none mt-1">{nextGameTime}</p>
+            <div className="flex items-center justify-between p-3 bg-slate-950/50 rounded-2xl border border-slate-800 mb-4">
+                <div className="text-left font-sans">
+                    <p className="text-slate-500 text-[10px] font-semibold uppercase">Sonraki Oyun</p>
+                    <p className="font-bold text-lg text-white mt-1 leading-none">{nextGameTime}</p>
                 </div>
                 {!isWin && !showAll && (
-                  <button 
-                    onClick={() => {setShowAll(true); setShowStatsPopup(false);}} 
-                    className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-semibold transition-colors"
-                  >
-                    Cevapları Göster
-                  </button>
+                  <button onClick={() => {setShowAll(true); setShowStatsPopup(false);}} className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-semibold transition-colors">Cevapları Göster</button>
                 )}
             </div>
 
@@ -273,12 +267,11 @@ export default function Top10Page() {
         </div>
       )}
 
-      {/* Alt Panel */}
       <div className="mt-auto relative z-10 font-sans">
         {!isGameOver ? (
           <div className="relative font-sans">
             {suggestions.length > 0 && (
-              <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden z-50">
+              <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden z-50 shadow-2xl">
                 {suggestions.map((s, i) => (
                   <button key={i} onClick={() => handleGuess(s)} className={`w-full p-3.5 text-left border-b border-slate-700 last:border-0 font-semibold text-white text-sm ${selectedIndex === i ? "bg-red-600" : "hover:bg-red-600"}`}>{formatName(s)}</button>
                 ))}
@@ -290,7 +283,7 @@ export default function Top10Page() {
               onKeyDown={(e) => {
                 if (e.key === 'ArrowDown') { e.preventDefault(); setSelectedIndex(prev => (prev < suggestions.length - 1 ? prev + 1 : prev)); }
                 if (e.key === 'ArrowUp') { e.preventDefault(); setSelectedIndex(prev => (prev > 0 ? prev - 1 : prev)); }
-                if (e.key === 'Enter') { e.preventDefault(); if (suggestions[selectedIndex]) handleGuess(suggestions[selectedIndex]); }
+                if (e.key === 'Enter' && suggestions[selectedIndex]) handleGuess(suggestions[selectedIndex]);
               }}
               placeholder={currentQ.type.startsWith('team') ? "TAKIM ARA..." : "FUTBOLCU ARA..."} 
               className={`w-full p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 focus:border-red-600 outline-none font-bold text-base ${isError ? "border-red-600 animate-shake" : ""}`} 
@@ -300,22 +293,12 @@ export default function Top10Page() {
           <div className="p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 animate-in zoom-in duration-300 relative font-sans">
             <div className="flex items-center justify-between mb-3 bg-slate-950/50 p-3 rounded-xl border border-slate-800">
                 <div className="text-left font-sans">
-                    <p className="text-slate-500 text-[10px] font-semibold">Sonraki Oyun</p>
-                    <p className="font-bold text-lg text-white leading-none mt-1">{nextGameTime}</p>
+                    <p className="text-slate-500 text-[10px] font-semibold uppercase">Sonraki Oyun</p>
+                    <p className="font-bold text-lg text-white mt-1 leading-none">{nextGameTime}</p>
                 </div>
-                <div className="flex gap-2 font-sans">
-                  <button 
-                    onClick={() => setShowStatsPopup(true)} 
-                    className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-semibold transition-colors"
-                  >
-                    İstatistik
-                  </button>
-                </div>
+                <button onClick={() => setShowStatsPopup(true)} className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-semibold transition-colors">İstatistik</button>
             </div>
-            <button 
-              onClick={shareScore} 
-              className="w-full bg-white text-black py-3 rounded-xl font-bold text-xs hover:bg-slate-200 transition-all active:scale-95"
-            >
+            <button onClick={shareScore} className="w-full bg-white text-black py-3 rounded-xl font-bold text-xs hover:bg-slate-200 transition-all active:scale-95">
               {copySuccess ? "KOPYALANDI!" : "Skoru Paylaş"}
             </button>
           </div>
