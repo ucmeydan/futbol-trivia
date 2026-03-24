@@ -12,12 +12,25 @@ const formatName = (name: string) => {
   return name.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 };
 
+// I-İ sorununu kökten çözen kesin çözüm fonksiyonu
 const normalizeText = (text: string) => {
-  return text.toLocaleLowerCase('tr-TR').trim();
+  if (!text) return "";
+  return text
+    .trim()
+    .replace(/İ/g, 'i')
+    .replace(/I/g, 'i')
+    .replace(/ı/g, 'i')
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 };
 
 export default function ListeyiTamamlaPage() {
-  const gameQuestions = allQuestions.filter(q => q.game === "listeyi-tamamla");
+  // Tarih Filtresi: Sadece bugünün tarihi veya geçmiş olan soruları al
+  const today = new Date().toISOString().split('T')[0];
+  const gameQuestions = allQuestions.filter(q => 
+    q.game === "listeyi-tamamla" && q.activeDate <= today
+  );
+
   const [currentIndex, setCurrentIndex] = useState(gameQuestions.length - 1);
   const currentQ = gameQuestions[currentIndex];
 
@@ -140,7 +153,8 @@ export default function ListeyiTamamlaPage() {
   };
 
   const handleShare = () => {
-    const text = `Listeyi Tamamla #${currentQ.id} skorum: ${foundItems.length}/${currentQ.targets.length}\nEn yüksek doğru: ${stats.bestScore}\nhttps://tr-trivia.vercel.app/listeyi-tamamla`;
+    // LINK GÜNCELLENDİ
+    const text = `Listeyi Tamamla #${currentQ.id} skorum: ${foundItems.length}/${currentQ.targets.length}\nEn yüksek doğru: ${stats.bestScore}\nhttps://futbol-trivia.vercel.app/listeyi-tamamla`;
     navigator.clipboard.writeText(text);
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);
@@ -150,7 +164,7 @@ export default function ListeyiTamamlaPage() {
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (timeLeft / TOTAL_TIME) * circumference;
 
-  if (!currentQ) return <div className="text-white text-center p-10 font-sans">Soru Yükleniyor...</div>;
+  if (!currentQ) return <div className="text-white text-center p-10 font-sans">Bugünün sorusu henüz yayında değil...</div>;
 
   return (
     <div className="max-w-md mx-auto h-screen flex flex-col p-4 text-white bg-slate-950 overflow-hidden font-sans relative">
@@ -176,7 +190,7 @@ export default function ListeyiTamamlaPage() {
         </div>
         <h2 className="text-lg font-bold leading-tight mb-4 px-2 text-slate-100">{currentQ.title}</h2>
         
-        <div className="flex justify-between items-center mb-4 px-6">
+        <div className="flex justify-between items-center mb-4 px-6 font-sans">
             <div className="text-left font-sans">
                 <span className="font-bebas text-xs text-slate-500 block uppercase tracking-widest">Bulunan</span>
                 <span className="font-bebas text-4xl text-white">{foundItems.length}<span className="text-slate-700 text-2xl">/{currentQ.targets.length}</span></span>
@@ -258,7 +272,7 @@ export default function ListeyiTamamlaPage() {
 
       <div className="mt-auto relative z-10 font-sans">
         {!isGameOver ? (
-          <div className="relative">
+          <div className="relative font-sans">
             {suggestions.length > 0 && (
               <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden z-50 shadow-2xl">
                 {suggestions.map((s, i) => (
@@ -270,8 +284,8 @@ export default function ListeyiTamamlaPage() {
               ref={inputRef} value={query} 
               onChange={(e) => { setQuery(e.target.value); if (e.target.value.length > 0 && !isActive) setIsActive(true); }}
               onKeyDown={(e) => {
-                if (e.key === 'ArrowDown') { e.preventDefault(); setSelectedIndex(p => (p < suggestions.length - 1 ? p + 1 : p)); }
-                if (e.key === 'ArrowUp') { e.preventDefault(); setSelectedIndex(p => (p > 0 ? p - 1 : 0)); }
+                if (e.key === 'ArrowDown') { e.preventDefault(); setSelectedIndex(prev => (prev < suggestions.length - 1 ? prev + 1 : prev)); }
+                if (e.key === 'ArrowUp') { e.preventDefault(); setSelectedIndex(prev => (prev > 0 ? prev - 1 : prev)); }
                 if (e.key === 'Enter' && suggestions[selectedIndex]) handleGuess(suggestions[selectedIndex]);
               }} 
               placeholder={currentQ.type.startsWith('team') ? "TAKIM ARA..." : "FUTBOLCU ARA..."} 
