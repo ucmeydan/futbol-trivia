@@ -62,10 +62,10 @@ export default function Home() {
             <div className="space-y-3 max-w-[85%] font-sans">
               <p className="text-white/90 text-sm font-semibold italic">Nasıl oynanır?</p>
               <p className="text-slate-400 text-sm leading-relaxed">
-                Günlük soruda kaç doğru cevap bulabilirsin? "Başla" butonuna bastıktan sonra 90 saniyelik süren başlayacak ve soru açılacak. 
+                Günlük soruda kaç doğru cevap bulabilirsin? Tahmin yapmaya başladıktan sonra 90 saniyelik süren başlayacak.
               </p>
               <p className="text-slate-400 text-sm leading-relaxed">
-                Hedefin, süre dolmadan listeyi doldurmak. Her doğru cevap sana <span className="text-red-500 font-bold">+5 saniye</span> kazandırır.
+                Hedefin, süre dolmadan listeyi tamamlamak. Her doğru cevap sana <span className="text-red-500 font-bold">+5 saniye</span> kazandırır.
               </p>
             </div>
 
