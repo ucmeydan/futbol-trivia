@@ -13,7 +13,7 @@ export default function Home() {
       <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4 duration-1000 relative z-10">
         
         {/* Futbol Trivia Başlığı ve Kupa Logosu */}
-        <div className="flex items-center justify-center gap-6 mb-4">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 md:gap-0 mb-6">
           <h1 className="text-5xl md:text-7xl font-semibold tracking-tighter bg-gradient-to-b from-white to-slate-500 bg-clip-text text-transparent">
             Futbol Trivia
           </h1>
