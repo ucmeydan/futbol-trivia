@@ -29,22 +29,7 @@ export default function Top10Page() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [lastFoundIdx, setLastFoundIdx] = useState<number | null>(null);
   
-  useEffect(() => {
-    const d = new Date();
-    const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-    setToday(dateStr);
-
-    const filtered = allQuestions.filter(q => 
-      q.game === "top10" && q.activeDate <= dateStr
-    );
-    setGameQuestions(filtered);
-    if (filtered.length > 0) {
-      setCurrentIndex(filtered.length - 1);
-    }
-  }, []);
-
-  const currentQ = gameQuestions[currentIndex];
-
+  // State'ler
   const [query, setQuery] = useState('');
   const [foundIndices, setFoundIndices] = useState<number[]>([]);
   const [lives, setLives] = useState(3);
@@ -70,6 +55,37 @@ export default function Top10Page() {
   const inputRef = useRef<HTMLInputElement>(null);
   const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
 
+  // 1. ADIM: Tarih, Sorular ve Günlük Kilit Kontrolü
+  useEffect(() => {
+    const d = new Date();
+    const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    setToday(dateStr);
+
+    const filtered = allQuestions.filter(q => 
+      q.game === "top10" && q.activeDate <= dateStr
+    );
+    setGameQuestions(filtered);
+    
+    if (filtered.length > 0) {
+      const latestIdx = filtered.length - 1;
+      setCurrentIndex(latestIdx);
+      
+      // Bu soru bugün oynandı mı?
+      const lastPlayed = localStorage.getItem(`top10_last_played_${filtered[latestIdx].id}`);
+      if (lastPlayed === dateStr) {
+        setIsGameOver(true);
+        // Kayıtlı oturum verilerini (bulunan cevaplar, can vb.) çek
+        const savedSession = localStorage.getItem(`top10_session_${filtered[latestIdx].id}`);
+        if (savedSession) {
+            const data = JSON.parse(savedSession);
+            setFoundIndices(data.foundIndices || []);
+            setIsWin(data.isWin || false);
+            setLives(data.lives ?? 3);
+        }
+      }
+    }
+  }, []);
+
   useEffect(() => {
     setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
     const savedStats = localStorage.getItem('top10_stats_v2');
@@ -92,12 +108,13 @@ export default function Top10Page() {
 
   const shareScore = () => {
     if (!currentQ) return;
-    // URL GÜNCELLENDİ: futboltrivia.com.tr
     const text = `Top 10 #${currentQ.id} skorum: ${foundIndices.length}/${currentQ.targets.length}\nhttps://futboltrivia.com.tr/top10`;
     navigator.clipboard.writeText(text);
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);
   };
+
+  const currentQ = gameQuestions[currentIndex];
 
   const finishGame = (winStatus: boolean) => {
     setIsGameOver(true);
@@ -105,13 +122,25 @@ export default function Top10Page() {
     setIsWin(winStatus);
     const finalScore = winStatus ? 10 : foundIndices.length;
     
-    const newStats = { ...stats };
-    newStats.totalGames += 1;
-    if (winStatus) newStats.wins += 1;
-    newStats.totalCorrect += finalScore;
-    newStats.distribution[finalScore] += 1;
-    setStats(newStats);
-    localStorage.setItem('top10_stats_v2', JSON.stringify(newStats));
+    if (currentQ) {
+        // Bugün oynandığına dair kilit
+        localStorage.setItem(`top10_last_played_${currentQ.id}`, today);
+        
+        // Oturum verilerini kaydet
+        localStorage.setItem(`top10_session_${currentQ.id}`, JSON.stringify({
+            foundIndices: foundIndices,
+            isWin: winStatus,
+            lives: lives
+        }));
+
+        const newStats = { ...stats };
+        newStats.totalGames += 1;
+        if (winStatus) newStats.wins += 1;
+        newStats.totalCorrect += finalScore;
+        newStats.distribution[finalScore] += 1;
+        setStats(newStats);
+        localStorage.setItem('top10_stats_v2', JSON.stringify(newStats));
+    }
     
     setShowStatsPopup(true);
   };
@@ -178,8 +207,8 @@ export default function Top10Page() {
   if (!currentQ) {
     return (
       <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 font-sans text-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600 mb-4"></div>
-        <p>Soru yükleniyor...</p>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600 mb-4 font-sans"></div>
+        <p className="font-sans font-sans">Soru yükleniyor...</p>
         <Link href="/" className="mt-8 text-red-500 font-bold underline font-sans">Anasayfaya Dön</Link>
       </div>
     );
@@ -194,32 +223,32 @@ export default function Top10Page() {
       
       {showBigX && (
         <div className="absolute inset-0 flex items-center justify-center z-[100] pointer-events-none font-sans">
-          <span className="text-red-600 text-9xl font-bebas animate-pop-out opacity-80 select-none font-sans">✕</span>
+          <span className="text-red-600 text-9xl font-bebas animate-pop-out opacity-80 select-none font-sans font-sans">✕</span>
         </div>
       )}
 
       <div className="flex justify-between items-start mb-2 relative z-10 font-sans">
-        <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1 font-sans">← Geri Dön</Link>
+        <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1 font-sans font-sans">← Geri Dön</Link>
         <div className="flex flex-col items-end font-sans">
           <div className="flex gap-1 mb-1 font-sans">
             {[...Array(3)].map((_, i) => (
               <span key={i} className={`text-base transition-all duration-300 ${i < lives ? "opacity-100" : "opacity-20 grayscale"}`}>❤️</span>
             ))}
           </div>
-          {lives === 1 && !isGameOver && <span className="text-[10px] font-bold text-red-500 animate-pulse italic uppercase font-sans">SON HAKKIN!</span>}
+          {lives === 1 && !isGameOver && <span className="text-[10px] font-bold text-red-500 animate-pulse italic uppercase font-sans font-sans">SON HAKKIN!</span>}
         </div>
       </div>
 
       <div className="text-center mb-3 relative z-10 font-sans">
-        <div className="flex items-center justify-center gap-4 mb-0.5">
-          <button onClick={() => resetGame(currentIndex - 1)} disabled={currentIndex === 0 || isActive} className="text-slate-700 hover:text-red-600 disabled:opacity-0 font-bebas text-xl transition-colors font-sans">‹</button>
-          <div className="font-bebas text-sm text-red-600 tracking-tighter uppercase font-sans">#{currentQ.id}</div>
-          <button onClick={() => resetGame(currentIndex + 1)} disabled={currentIndex === gameQuestions.length - 1 || isActive} className="text-slate-700 hover:text-red-600 disabled:opacity-0 font-bebas text-xl transition-colors font-sans">›</button>
+        <div className="flex items-center justify-center gap-4 mb-0.5 font-sans">
+          <button onClick={() => resetGame(currentIndex - 1)} disabled={currentIndex === 0 || isActive || isGameOver} className="text-slate-700 hover:text-red-600 disabled:opacity-0 font-bebas text-xl transition-colors font-sans font-sans">‹</button>
+          <div className="font-bebas text-sm text-red-600 tracking-tighter uppercase font-sans font-sans">#{currentQ.id}</div>
+          <button onClick={() => resetGame(currentIndex + 1)} disabled={currentIndex === gameQuestions.length - 1 || isActive || isGameOver} className="text-slate-700 hover:text-red-600 disabled:opacity-0 font-bebas text-xl transition-colors font-sans font-sans">›</button>
         </div>
-        <h2 className="text-base font-bold leading-tight mb-2 px-2 text-slate-100 tracking-tight font-sans">{currentQ.title}</h2>
+        <h2 className="text-base font-bold leading-tight mb-2 px-2 text-slate-100 tracking-tight font-sans font-sans">{currentQ.title}</h2>
       </div>
 
-      <div className="flex-grow overflow-y-hidden mb-3 px-1 relative z-10 space-y-1 font-sans">
+      <div className="flex-grow overflow-y-hidden mb-3 px-1 relative z-10 space-y-1 font-sans font-sans">
         {currentQ.targets.map((name: string, i: number) => {
           const isFound = foundIndices.includes(i);
           const isJustFound = lastFoundIdx === i;
@@ -230,17 +259,17 @@ export default function Top10Page() {
               className={`relative flex items-center justify-center h-9 px-4 rounded-xl border transition-all duration-500 overflow-hidden ${isFound ? "bg-green-600/10 border-green-500/40" : (showAll ? "bg-red-600/10 border-red-500/40" : "bg-slate-900/40 border-slate-900")}`}
             >
               {isJustFound && (
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-green-500 to-transparent animate-shimmer z-20 font-sans" />
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-green-500 to-transparent animate-shimmer z-20 font-sans font-sans" />
               )}
 
               {isFound || showAll ? (
-                <div className="flex items-center w-full animate-slide-in font-sans">
-                  <span className="font-bold text-xs w-5 text-red-600 font-sans">{i + 1}.</span>
-                  <span className="text-xs font-semibold tracking-tight text-white truncate font-sans">{formatName(name)}</span>
-                  {isFound ? <span className="ml-auto text-green-500 text-[10px] font-sans">✓</span> : <span className="ml-auto text-red-500 text-[10px] font-sans">✕</span>}
+                <div className="flex items-center w-full animate-slide-in font-sans font-sans">
+                  <span className="font-bold text-xs w-5 text-red-600 font-sans font-sans">{i + 1}.</span>
+                  <span className="text-xs font-semibold tracking-tight text-white truncate font-sans font-sans">{formatName(name)}</span>
+                  {isFound ? <span className="ml-auto text-green-500 text-[10px] font-sans font-sans">✓</span> : <span className="ml-auto text-red-500 text-[10px] font-sans font-sans">✕</span>}
                 </div>
               ) : (
-                <span className="font-sans font-bold text-white text-lg opacity-80 select-none font-sans">{i + 1}</span>
+                <span className="font-sans font-bold text-white text-lg opacity-80 select-none font-sans font-sans">{i + 1}</span>
               )}
             </div>
           );
@@ -248,66 +277,66 @@ export default function Top10Page() {
       </div>
 
       {showStatsPopup && (
-        <div className="absolute inset-0 bg-slate-950/90 z-[110] flex items-center justify-center p-6 animate-in fade-in duration-500 font-sans">
-          <div className="w-full bg-slate-900 border-2 border-slate-800 rounded-3xl p-6 shadow-2xl relative text-white font-sans text-center">
-            <button onClick={() => setShowStatsPopup(false)} className="absolute top-4 right-4 text-slate-500 hover:text-white transition-colors font-sans">✕</button>
-            <h3 className="font-bold text-lg mb-6 italic font-sans">İstatistik</h3>
+        <div className="absolute inset-0 bg-slate-950/90 z-[110] flex items-center justify-center p-6 animate-in fade-in duration-500 font-sans font-sans">
+          <div className="w-full bg-slate-900 border-2 border-slate-800 rounded-3xl p-6 shadow-2xl relative text-white font-sans text-center font-sans">
+            <button onClick={() => setShowStatsPopup(false)} className="absolute top-4 right-4 text-slate-500 hover:text-white transition-colors font-sans font-sans">✕</button>
+            <h3 className="font-bold text-lg mb-6 italic font-sans font-sans font-sans font-sans">İstatistik</h3>
             
-            <div className="flex justify-between mb-8 border-b border-slate-800 pb-6 text-center font-sans">
-              <div className="flex-1 font-sans">
-                <div className="text-2xl font-bold font-sans">{stats.totalGames}</div>
-                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight font-sans">Oynanan oyun</div>
+            <div className="flex justify-between mb-8 border-b border-slate-800 pb-6 text-center font-sans font-sans">
+              <div className="flex-1 font-sans font-sans">
+                <div className="text-2xl font-bold font-sans font-sans">{stats.totalGames}</div>
+                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight font-sans font-sans">Oynanan oyun</div>
               </div>
-              <div className="flex-1 border-x border-slate-800 font-sans">
-                <div className="text-2xl font-bold text-green-500 font-sans">{Math.round((stats.wins / (stats.totalGames || 1)) * 100)}%</div>
-                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight font-sans">Kazanma yüzdesi</div>
+              <div className="flex-1 border-x border-slate-800 font-sans font-sans">
+                <div className="text-2xl font-bold text-green-500 font-sans font-sans">{Math.round((stats.wins / (stats.totalGames || 1)) * 100)}%</div>
+                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight font-sans font-sans">Kazanma yüzdesi</div>
               </div>
-              <div className="flex-1 font-sans">
-                <div className="text-2xl font-bold text-sky-500 font-sans">{correctRate}%</div>
-                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight font-sans">Doğru cevap yüzdesi</div>
+              <div className="flex-1 font-sans font-sans font-sans">
+                <div className="text-2xl font-bold text-sky-500 font-sans font-sans">{correctRate}%</div>
+                <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight font-sans font-sans font-sans">Doğru cevap yüzdesi</div>
               </div>
             </div>
 
-            <div className="space-y-1.5 mb-8 font-sans">
+            <div className="space-y-1.5 mb-8 font-sans font-sans font-sans">
               {stats.distribution.map((count, i) => (
-                <div key={i} className="flex items-center gap-3 font-sans">
-                  <span className="text-[10px] font-bold w-2 text-slate-500 font-sans">{i}</span>
-                  <div className="flex-grow bg-slate-950/50 h-5 rounded overflow-hidden font-sans">
+                <div key={i} className="flex items-center gap-3 font-sans font-sans font-sans">
+                  <span className="text-[10px] font-bold w-2 text-slate-500 font-sans font-sans font-sans">{i}</span>
+                  <div className="flex-grow bg-slate-950/50 h-5 rounded overflow-hidden font-sans font-sans">
                     <div 
-                      className={`h-full transition-all duration-1000 font-sans ${i === (isWin ? 10 : foundIndices.length) ? 'bg-red-600' : 'bg-slate-700'}`}
+                      className={`h-full transition-all duration-1000 font-sans font-sans ${i === (isWin ? 10 : foundIndices.length) ? 'bg-red-600' : 'bg-slate-700'}`}
                       style={{ width: `${(count / maxDist) * 100 || 5}%` }}
                     >
-                      <span className="text-[9px] font-bold px-2 flex items-center h-full text-white font-sans">{count}</span>
+                      <span className="text-[9px] font-bold px-2 flex items-center h-full text-white font-sans font-sans font-sans">{count}</span>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
 
-            <div className="flex items-center justify-between p-3 bg-slate-950/50 rounded-2xl border border-slate-800 mb-4 font-sans">
-                <div className="text-left font-sans">
-                    <p className="text-slate-500 text-[10px] font-semibold font-sans">Sıradaki soru</p>
-                    <p className="font-bold text-lg text-white mt-1 leading-none font-sans">{nextGameTime}</p>
+            <div className="flex items-center justify-between p-3 bg-slate-950/50 rounded-2xl border border-slate-800 mb-4 font-sans font-sans font-sans">
+                <div className="text-left font-sans font-sans font-sans">
+                    <p className="text-slate-500 text-[10px] font-semibold font-sans font-sans font-sans font-sans">Sıradaki soru</p>
+                    <p className="font-bold text-lg text-white mt-1 leading-none font-sans font-sans font-sans font-sans">{nextGameTime}</p>
                 </div>
                 {!isWin && !showAll && (
-                  <button onClick={() => {setShowAll(true); setShowStatsPopup(false);}} className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors font-sans">Cevapları Gör</button>
+                  <button onClick={() => {setShowAll(true); setShowStatsPopup(false);}} className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors font-sans font-sans">Cevapları Gör</button>
                 )}
             </div>
 
-            <button onClick={shareScore} className="w-full bg-white text-black py-4 rounded-2xl font-bold text-sm active:scale-95 transition-all font-sans">
+            <button onClick={shareScore} className="w-full bg-white text-black py-4 rounded-2xl font-bold text-sm active:scale-95 transition-all font-sans font-sans font-sans font-sans">
               {copySuccess ? "Kopyalandı!" : "Skoru Paylaş"}
             </button>
           </div>
         </div>
       )}
 
-      <div className="mt-auto relative z-10 font-sans">
+      <div className="mt-auto relative z-10 font-sans font-sans font-sans">
         {!isGameOver ? (
-          <div className="relative font-sans">
+          <div className="relative font-sans font-sans font-sans font-sans">
             {suggestions.length > 0 && (
-              <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden z-50 shadow-2xl font-sans">
+              <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden z-50 shadow-2xl font-sans font-sans font-sans font-sans">
                 {suggestions.map((s, i) => (
-                  <button key={i} onClick={() => handleGuess(s)} className={`w-full p-3.5 text-left border-b border-slate-700 last:border-0 font-semibold text-white text-sm font-sans ${selectedIndex === i ? "bg-red-600" : "hover:bg-red-600"}`}>{formatName(s)}</button>
+                  <button key={i} onClick={() => handleGuess(s)} className={`w-full p-3.5 text-left border-b border-slate-700 last:border-0 font-semibold text-white text-sm font-sans font-sans font-sans font-sans ${selectedIndex === i ? "bg-red-600" : "hover:bg-red-600"}`}>{formatName(s)}</button>
                 ))}
               </div>
             )}
@@ -320,19 +349,19 @@ export default function Top10Page() {
                 if (e.key === 'Enter' && suggestions[selectedIndex]) handleGuess(suggestions[selectedIndex]);
               }}
               placeholder={currentQ?.type.startsWith('team') ? "Takım ara..." : "Futbolcu ara..."} 
-              className={`w-full p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 focus:border-red-600 outline-none font-bold text-base font-sans text-white font-sans ${isError ? "border-red-600 animate-shake" : ""}`} 
+              className={`w-full p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 focus:border-red-600 outline-none font-bold text-base font-sans text-white font-sans font-sans ${isError ? "border-red-600 animate-shake" : ""}`} 
             />
           </div>
         ) : (
-          <div className="p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 animate-in zoom-in duration-300 relative font-sans">
-            <div className="flex items-center justify-between mb-3 bg-slate-950/50 p-3 rounded-xl border border-slate-800 font-sans">
-                <div className="text-left font-sans">
-                    <p className="text-slate-500 text-[10px] font-semibold font-sans">Sıradaki soru</p>
-                    <p className="font-bold text-lg text-white mt-1 leading-none font-sans">{nextGameTime}</p>
+          <div className="p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 animate-in zoom-in duration-300 relative font-sans font-sans font-sans font-sans font-sans">
+            <div className="flex items-center justify-between mb-3 bg-slate-950/50 p-3 rounded-xl border border-slate-800 font-sans font-sans font-sans">
+                <div className="text-left font-sans font-sans font-sans font-sans">
+                    <p className="text-slate-500 text-[10px] font-semibold font-sans font-sans font-sans font-sans font-sans">Sıradaki soru</p>
+                    <p className="font-bold text-lg text-white mt-1 leading-none font-sans font-sans font-sans font-sans font-sans">{nextGameTime}</p>
                 </div>
-                <button onClick={() => setShowStatsPopup(true)} className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors font-sans">İstatistik</button>
+                <button onClick={() => setShowStatsPopup(true)} className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors font-sans font-sans font-sans font-sans font-sans">İstatistik</button>
             </div>
-            <button onClick={shareScore} className="w-full bg-white text-black py-3 rounded-xl font-bold text-xs hover:bg-slate-200 transition-all active:scale-95 font-sans">
+            <button onClick={shareScore} className="w-full bg-white text-black py-3 rounded-xl font-bold text-xs hover:bg-slate-200 transition-all active:scale-95 font-sans font-sans font-sans font-sans font-sans">
               {copySuccess ? "Kopyalandı!" : "Skoru Paylaş"}
             </button>
           </div>
