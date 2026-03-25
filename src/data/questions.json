@@ -91,6 +91,36 @@
     ]
   },
   {
+    "id": 10,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde en az bir sezonu ilk 3 sırada tamamlayan takımlar? (1959-60 sezonundan itibaren)",
+    "type": "team-tr",
+    "activeDate": "2026-04-02",
+    "targets": [
+      "Beşiktaş", "Fenerbahçe", "Galatasaray", "Trabzonspor", "Bursaspor", "Başakşehir", "Konyaspor", "Sivasspor", "Eskişehirspor", "Gaziantepspor", "Altay", "Gençlerbirliği", "Göztepe", "Zonguldakspor", "Malatyaspor", "Samsunspor", "Boluspor", "Adanaspor"
+    ]
+}, 
+{
+    "id": 11,
+    "game": "listeyi-tamamla",
+    "title": "2025/26 sezonunda TFF 1. Lig'de mücadele eden takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-04-03",
+    "targets": [
+      "Amed SK", "Iğdır FK", "Bandırmaspor", "Erzurumspor", "Çorum FK", "Boluspor", "Vanspor FK", "Sarıyer", "Manisa FK", "Keçiörengücü", "Pendikspor", "Ümraniyespor", "Sakaryaspor", "Serikspor", "İstanbulspor", "Esenler Erokspor", "Adana Demirspor", "Bodrum FK", "Sivasspor", "Hatayspor"
+    ]
+},
+{
+    "id": 12,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de 2024-25 sezonunda 5 ve üzeri sayıda gol atan Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-04-04",
+    "targets": [
+      "Barış Alper Yılmaz", "Ahmed Kutucu", "Yusuf Barası", "Soner Aydoğdu", "Yunus Akgün", "Oğuz Aydın", "Emre Akbaba", "Aytaç Kara", "Umut Nayir", "Deniz Türüç", "Yusuf Özdemir", "Tayfur Bingöl"
+    ]
+},
+  {
     "id": 1,
     "game": "top10",
     "title": "Galatasaray tarihinde en çok maça çıkan 10 yabancı oyuncu?",
