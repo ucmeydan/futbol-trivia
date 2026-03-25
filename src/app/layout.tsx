@@ -1,15 +1,10 @@
 import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
-// SEO VE META BİLGİLERİ GÜNCELLEMESİ
 export const metadata = {
-  // Tarayıcı sekmesinde ve Google arama sonuçlarında görünecek ana başlık
   title: "Futbol Trivia | Günlük Süper Lig Bilgi Yarışması",
-  
-  // Google arama sonuçlarındaki o küçük açıklama metni
   description: "Her gün yenilenen sorularla futbol bilgini test et! Türkiye liglerine özel Top 10 ve Listeyi Tamamla oyunlarını hemen oyna.",
-  
-  // Sosyal medya ve WhatsApp paylaşımları için (OpenGraph)
   openGraph: {
     title: "Futbol Trivia | Günlük Süper Lig Bilgi Yarışması",
     description: "Her gün yenilenen sorularla futbol bilgini test et! Türkiye liglerine özel Top 10 ve Listeyi Tamamla oyunlarını hemen oyna.",
@@ -30,8 +25,17 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    // lang="en" kısmını "tr" olarak güncelledim, Google için önemlidir
     <html lang="tr">
+      <head>
+        {/* GOOGLE ADSENSE KODU BAŞLANGIÇ */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9343989966072677"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+        {/* GOOGLE ADSENSE KODU BİTİŞ */}
+      </head>
       <body className={`${inter.className} ${bebasNeue.variable} bg-slate-950 text-white antialiased`}>
         {children}
       </body>
