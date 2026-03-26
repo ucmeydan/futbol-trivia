@@ -1,7 +1,7 @@
 import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-import { Analytics } from "@vercel/analytics/react"; // 1. Yeni Eklenen
+import { Analytics } from "@vercel/analytics/next"; // 1. Yeni Eklenen
 import { SpeedInsights } from "@vercel/speed-insights/next"; // 2. Yeni Eklenen
 
 export const metadata = {
