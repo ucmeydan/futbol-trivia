@@ -1,6 +1,8 @@
 import { Bebas_Neue, Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react"; // 1. Yeni Eklenen
+import { SpeedInsights } from "@vercel/speed-insights/next"; // 2. Yeni Eklenen
 
 export const metadata = {
   title: "Futbol Trivia | Günlük Süper Lig Bilgi Yarışması",
@@ -38,6 +40,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className={`${inter.className} ${bebasNeue.variable} bg-slate-950 text-white antialiased`}>
         {children}
+        <Analytics />       {/* Vercel Trafik Analizi Bileşeni */}
+        <SpeedInsights />    {/* Vercel Hız Analizi Bileşeni */}
       </body>
     </html>
   );
