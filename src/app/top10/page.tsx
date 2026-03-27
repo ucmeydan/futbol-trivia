@@ -199,7 +199,7 @@ export default function Top10Page() {
   // ZORLUK SEÇİM EKRANI
   if (!difficulty && !isGameOver) {
     return (
-      <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-start pt-12 p-6 text-white bg-slate-950 font-sans text-center">
+      <div className="max-w-md mx-auto min-h-screen flex flex-col items-center justify-start pt-12 p-6 text-white bg-slate-950 font-sans text-center overflow-y-auto pb-10">
         {/* 1. Üst Kısım: Sadece Numara ve Oklar */}
         <div className="mb-2 flex items-center justify-center gap-6">
           <button 
@@ -272,7 +272,7 @@ export default function Top10Page() {
   const correctRate = Math.round((stats.totalCorrect / (stats.totalGames * 10 || 1)) * 100);
 
   return (
-    <div className="max-w-md mx-auto h-screen flex flex-col p-3 text-white bg-slate-950 overflow-hidden font-sans relative">
+    <div className="max-w-md mx-auto min-h-screen flex flex-col p-3 text-white bg-slate-950 font-sans relative overflow-y-auto">
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} numberOfPieces={300} style={{ zIndex: 150 }} />}
       
       {showBigX && (
@@ -302,7 +302,7 @@ export default function Top10Page() {
         <h2 className="text-base font-bold leading-tight mb-2 px-2 text-slate-100 tracking-tight font-sans">{currentQ.title}</h2>
       </div>
 
-      <div className="flex-grow overflow-y-hidden mb-3 px-1 relative z-10 space-y-1 font-sans">
+      <div className="flex-grow mb-3 px-1 relative z-10 space-y-1 font-sans">
         {currentQ.targets.map((name: string, i: number) => {
           const isFound = foundIndices.includes(i);
           const isJustFound = lastFoundIdx === i;
@@ -389,7 +389,7 @@ export default function Top10Page() {
         </div>
       )}
 
-      <div className="mt-auto relative z-10 font-sans">
+      <div className="mt-auto relative z-10 font-sans pb-20">
         {!isGameOver ? (
           <div className="relative font-sans">
             {suggestions.length > 0 && (
