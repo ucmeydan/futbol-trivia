@@ -156,7 +156,7 @@
   {
     "id": 5,
     "game": "top10",
-    "title": "Türkiye Kupası'nı kazanan son 10 takım?",
+    "title": "Türkiye Kupasını kazanan son 10 takım?",
     "type": "team-tr",
     "activeDate": "2026-03-28",
     "targets": [
@@ -182,20 +182,20 @@
   }, 
 
   {
-    "id": 7,
+    "id": 8,
     "game": "top10",
     "title": "Beşiktaş tarihinde en çok maça çıkan 10 kaleci?",
     "type": "player",
-    "activeDate": "2026-03-30",
+    "activeDate": "2026-03-31",
     "targets": ["Ersin Destanoğlu", "Fevzi Tuncay", "Oscar Cordoba", "Mert Günok", "Tolga Zengin", "Necmi Mutlu", "Rüştü Reçber", "Cenk Gönen", "Rade Zalad", "Fabri"]
   }, 
 
   {
-    "id": 8,
+    "id": 7,
     "game": "top10",
     "title": "Trabzonspor'un Avrupa kupalarında mağlup ettiği son 10 takım? (Ön elemeler dahil)",
     "type": "team-eu",
-    "activeDate": "2026-03-31",
+    "activeDate": "2026-03-30",
     "targets": ["Ruzomberok", "Basel", "Ferencvaros", "Monaco", "Kızılyıldız", "AEK", "Sparta Prag", "Differdange", "Metalist", "Lokeren"]
   },
 
