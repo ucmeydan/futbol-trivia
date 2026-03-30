@@ -184,10 +184,10 @@
   {
     "id": 8,
     "game": "top10",
-    "title": "Beşiktaş tarihinde en çok maça çıkan 10 kaleci?",
+    "title": "Bu sezon Süper Lig'de en çok süre alan 10 kaleci?",
     "type": "player",
     "activeDate": "2026-03-31",
-    "targets": ["Ersin Destanoğlu", "Fevzi Tuncay", "Oscar Cordoba", "Mert Günok", "Tolga Zengin", "Necmi Mutlu", "Rüştü Reçber", "Cenk Gönen", "Rade Zalad", "Fabri"]
+    "targets": ["Ivo Grbic", "Andreas Gianniotis", "Mateusz Lis", "Muhammed Şengezer", "Okan Kocuk", "Uğurcan Çakır", "Andre Onana", "Bilal Bayazıt", "Ederson", "Ertuğrul Taşkıran"]
   }, 
 
   {
