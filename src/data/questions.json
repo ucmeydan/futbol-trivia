@@ -182,15 +182,6 @@
   }, 
 
   {
-    "id": 8,
-    "game": "top10",
-    "title": "Bu sezon Süper Lig'de en çok süre alan 10 kaleci?",
-    "type": "player",
-    "activeDate": "2026-03-31",
-    "targets": ["Ivo Grbic", "Andreas Gianniotis", "Mateusz Lis", "Muhammed Şengezer", "Okan Kocuk", "Uğurcan Çakır", "Andre Onana", "Bilal Bayazıt", "Ederson", "Ertuğrul Taşkıran"]
-  }, 
-
-  {
     "id": 7,
     "game": "top10",
     "title": "Trabzonspor'un Avrupa kupalarında mağlup ettiği son 10 takım? (Ön elemeler dahil)",
@@ -198,6 +189,15 @@
     "activeDate": "2026-03-30",
     "targets": ["Ruzomberok", "Basel", "Ferencvaros", "Monaco", "Kızılyıldız", "AEK", "Sparta Prag", "Differdange", "Metalist", "Lokeren"]
   },
+
+   {
+    "id": 8,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de en çok süre alan 10 kaleci?",
+    "type": "player",
+    "activeDate": "2026-03-31",
+    "targets": ["Ivo Grbic", "Andreas Gianniotis", "Mateusz Lis", "Muhammed Şengezer", "Okan Kocuk", "Uğurcan Çakır", "Andre Onana", "Bilal Bayazıt", "Ederson", "Ertuğrul Taşkıran"]
+  }, 
 
   {
     "id": 9,
