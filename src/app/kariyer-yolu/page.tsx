@@ -1,0 +1,303 @@
+'use client';
+
+import { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
+import Confetti from 'react-confetti';
+import playersData from '@/data/players.json';
+import allQuestions from '@/data/questions.json'; // Questions dosyasını içe aktardık
+
+// Baş harfleri büyük yapan yardımcı fonksiyon
+const toTitleCase = (str: string) => {
+  if (!str) return "";
+  return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
+};
+
+export default function KariyerYolu() {
+  const [gameQuestions, setGameQuestions] = useState<any[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(-1);
+  const [visibleRows, setVisibleRows] = useState(1);
+  const [finalAttempt, setFinalAttempt] = useState(0);
+  const [query, setQuery] = useState('');
+  const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [selectedIndex, setSelectedIndex] = useState(-1);
+  const [isGameOver, setIsGameOver] = useState(false);
+  const [isWin, setIsWin] = useState(false);
+  const [isError, setIsError] = useState(false);
+  const [showStatsPage, setShowStatsPage] = useState(false);
+  const [copySuccess, setCopySuccess] = useState(false);
+  const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
+
+  const [stats, setStats] = useState({
+    totalGames: 0,
+    wins: 0,
+    distribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, "7+": 0 }
+  });
+
+  // 1. SORULARI YÜKLE VE FİLTRELE
+  useEffect(() => {
+    const d = new Date();
+    const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    
+    // Sadece kariyer-yolu olan ve tarihi geçmiş veya bugün olan sorular
+    const filtered = allQuestions.filter(q => q.game === "kariyer-yolu" && q.activeDate <= dateStr);
+    setGameQuestions(filtered);
+    
+    if (filtered.length > 0) {
+      loadQuestion(filtered.length - 1, filtered); // En güncel soruyu aç
+    }
+  }, []);
+
+  // 2. SORU YÜKLEME FONKSİYONU (Oturum kontrolü dahil)
+  const loadQuestion = (index: number, questionsList: any[]) => {
+    if (index < 0 || index >= questionsList.length) return;
+    
+    const question = questionsList[index];
+    setCurrentIndex(index);
+    
+    const savedSession = localStorage.getItem(`kariyer_yolu_session_${question.id}`);
+    if (savedSession) {
+      const data = JSON.parse(savedSession);
+      setVisibleRows(data.visibleRows || question.career.length);
+      setIsGameOver(true);
+      setIsWin(data.isWin || false);
+      setFinalAttempt(data.finalAttempt || 0);
+    } else {
+      setVisibleRows(1);
+      setIsGameOver(false);
+      setIsWin(false);
+      setFinalAttempt(0);
+    }
+    setQuery('');
+    setSuggestions([]);
+  };
+
+  useEffect(() => {
+    setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
+    const savedStats = localStorage.getItem('kariyer_yolu_stats_v1');
+    if (savedStats) setStats(JSON.parse(savedStats));
+  }, []);
+
+  const normalizeText = (text: string) => {
+    return text.trim().toLowerCase()
+      .replace(/İ/g, 'i').replace(/I/g, 'i').replace(/ı/g, 'i')
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  };
+
+  const currentQ = gameQuestions[currentIndex];
+
+  const updateStats = (win: boolean, attempt: number) => {
+    if (!currentQ) return;
+    
+    const newStats = { ...stats };
+    newStats.totalGames += 1;
+    if (win) {
+      newStats.wins += 1;
+      const key = attempt >= 7 ? "7+" : attempt.toString();
+      newStats.distribution[key as keyof typeof stats.distribution] += 1;
+    }
+    setStats(newStats);
+    localStorage.setItem('kariyer_yolu_stats_v1', JSON.stringify(newStats));
+    
+    // Oturumu kaydet
+    localStorage.setItem(`kariyer_yolu_session_${currentQ.id}`, JSON.stringify({
+      visibleRows: win ? attempt : currentQ.career.length,
+      isWin: win,
+      finalAttempt: win ? attempt : 0
+    }));
+  };
+
+  const handleGuess = (guess: string) => {
+    if (isGameOver || !currentQ) return;
+    const normGuess = normalizeText(guess);
+    const normCorrect = normalizeText(currentQ.correctPlayer);
+
+    if (normGuess === normCorrect) {
+      setFinalAttempt(visibleRows); 
+      setIsWin(true);
+      setIsGameOver(true);
+      updateStats(true, visibleRows);
+      setVisibleRows(currentQ.career.length);
+      setTimeout(() => setShowStatsPage(true), 1500);
+    } else {
+      setIsError(true);
+      setTimeout(() => setIsError(false), 500);
+      if (visibleRows < currentQ.career.length) {
+        setVisibleRows(prev => prev + 1);
+      } else {
+        setIsGameOver(true);
+        setIsWin(false);
+        setFinalAttempt(0);
+        updateStats(false, 0);
+        setTimeout(() => setShowStatsPage(true), 1500);
+      }
+    }
+    setQuery('');
+    setSuggestions([]);
+    setSelectedIndex(-1);
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (suggestions.length === 0) return;
+    if (e.key === "ArrowDown") {
+      setSelectedIndex(prev => (prev < suggestions.length - 1 ? prev + 1 : prev));
+    } else if (e.key === "ArrowUp") {
+      setSelectedIndex(prev => (prev > 0 ? prev - 1 : 0));
+    } else if (e.key === "Enter" && selectedIndex >= 0) {
+      handleGuess(suggestions[selectedIndex]);
+    }
+  };
+
+  useEffect(() => {
+    if (query.length >= 2) {
+      const normalizedQuery = normalizeText(query);
+      const uniquePlayers = Array.from(new Set(playersData as string[]));
+      const filtered = uniquePlayers
+        .filter(p => normalizeText(p).includes(normalizedQuery))
+        .slice(0, 5);
+      setSuggestions(filtered);
+      setSelectedIndex(-1);
+    } else {
+      setSuggestions([]);
+    }
+  }, [query]);
+
+  const shareScore = () => {
+    if (!currentQ) return;
+    const scoreText = isWin ? `${finalAttempt}. denemede bildim!` : "Maalesef bilemedim.";
+    const text = `Futbol Trivia - Kariyer Yolu #${currentQ.id}\nSkorum: ${scoreText}\nhttps://futboltrivia.com.tr/kariyer-yolu`;
+    navigator.clipboard.writeText(text).then(() => {
+      setCopySuccess(true);
+      setTimeout(() => setCopySuccess(false), 2000);
+    });
+  };
+
+  const winPercentage = stats.totalGames > 0 ? Math.round((stats.wins / stats.totalGames) * 100) : 0;
+  const maxDist = Math.max(...Object.values(stats.distribution), 1);
+
+  if (!currentQ) return null;
+
+  if (showStatsPage) {
+    return (
+      <div className="max-w-md mx-auto min-h-screen flex flex-col p-6 text-white bg-slate-950 font-sans relative overflow-x-hidden justify-center">
+        <div className="w-full bg-slate-900 border-2 border-slate-800 rounded-3xl p-6 shadow-2xl relative text-white text-center">
+          <button onClick={() => setShowStatsPage(false)} className="absolute top-4 right-4 text-slate-500 hover:text-white transition-colors">✕</button>
+          <h3 className="font-bold text-lg mb-6 text-white">İstatistik</h3>
+          <div className="flex justify-between mb-8 border-b border-slate-800 pb-6 text-center">
+            <div className="flex-1 text-center"><div className="text-2xl font-bold">{stats.totalGames}</div><div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight">Oynanan oyun</div></div>
+            <div className="flex-1 border-x border-slate-800 text-center"><div className="text-2xl font-bold text-green-500">{winPercentage}%</div><div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight">Kazanma yüzdesi</div></div>
+            <div className="flex-1 text-center"><div className="text-2xl font-bold text-sky-500">{stats.wins}</div><div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight">Toplam galibiyet</div></div>
+          </div>
+          <div className="space-y-1.5 mb-8">
+            {Object.entries(stats.distribution).map(([attempt, count]) => (
+              <div key={attempt} className="flex items-center gap-3">
+                <span className="text-[10px] font-bold w-4 text-slate-500 text-left">{attempt}</span>
+                <div className="flex-grow bg-slate-950/50 h-5 rounded overflow-hidden">
+                  <div className={`h-full transition-all duration-1000 flex items-center px-2 ${isWin && (attempt === finalAttempt.toString() || (attempt === "7+" && finalAttempt >= 7)) ? 'bg-red-600' : 'bg-slate-700'}`} style={{ width: `${(count / maxDist) * 100 || 5}%` }}>
+                    <span className="text-[9px] font-bold text-white">{count}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <button onClick={shareScore} className="w-full bg-white text-black py-4 rounded-2xl font-bold text-sm active:scale-95 transition-all mb-3"> {copySuccess ? "Kopyalandı!" : "Skoru Paylaş"} </button>
+          <button onClick={() => setShowStatsPage(false)} className="w-full bg-slate-800 text-white py-3 rounded-xl text-xs font-semibold hover:bg-slate-700 transition-colors"> Kapat </button>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-md mx-auto min-h-screen flex flex-col p-4 text-white bg-slate-950 font-sans relative overflow-x-hidden">
+      {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} numberOfPieces={400} style={{ zIndex: 150 }} />}
+
+      <div className="flex justify-between items-start mb-6 relative z-10">
+        <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1">← Geri Dön</Link>
+      </div>
+
+      {/* ARŞİV GEZİNTİSİ VE BAŞLIK */}
+      <div className="text-center mb-16 relative z-10">
+        <div className="flex items-center justify-center gap-6 mb-2">
+          <button 
+            onClick={() => loadQuestion(currentIndex - 1, gameQuestions)} 
+            disabled={currentIndex <= 0} 
+            className="text-slate-700 hover:text-red-600 disabled:opacity-0 font-bebas text-3xl transition-colors"
+          >
+            ‹
+          </button>
+          <h1 className="font-bebas text-3xl tracking-normal text-red-600 leading-none">Kariyer Yolu</h1>
+          <button 
+            onClick={() => loadQuestion(currentIndex + 1, gameQuestions)} 
+            disabled={currentIndex >= gameQuestions.length - 1} 
+            className="text-slate-700 hover:text-red-600 disabled:opacity-0 font-bebas text-3xl transition-colors"
+          >
+            ›
+          </button>
+        </div>
+        <span className="text-red-600 font-bebas text-2xl leading-none tracking-tighter">#{currentQ.id}</span>
+      </div>
+
+      <div className="w-full bg-slate-900/40 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl mb-20 relative z-10">
+        <table className="w-full text-left border-collapse font-sans">
+          <thead>
+            <tr className="bg-slate-800/30 text-[11px] text-slate-400">
+              <th className="p-4 font-bold">Sezon</th>
+              <th className="p-4 font-bold">Takım</th>
+              <th className="p-4 font-bold text-center">Maç</th>
+              <th className="p-4 font-bold text-center">Gol</th>
+            </tr>
+          </thead>
+          <tbody>
+            {currentQ.career.map((step: any, index: number) => {
+              const isVisible = index < visibleRows;
+              return (
+                <tr key={index} className="border-t border-slate-700/30 transition-colors duration-500">
+                  <td className="p-4 text-xs font-mono text-slate-400">{isVisible ? step.season : "...."}</td>
+                  <td className="p-4 text-sm font-semibold text-slate-100">{isVisible ? step.team : "...."}</td>
+                  <td className="p-4 text-center text-xs font-mono text-slate-400">{isVisible ? step.apps : ".."}</td>
+                  <td className="p-4 text-center text-xs font-mono text-slate-400">{isVisible ? `(${step.goals})` : "(..)"}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+
+      <div className="mt-auto relative z-10 pb-20">
+        {!isGameOver ? (
+          <div className="relative font-sans">
+            {suggestions.length > 0 && (
+              <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden z-50 shadow-2xl">
+                {suggestions.map((s, i) => (
+                  <button key={i} onClick={() => handleGuess(s)} className={`w-full p-3.5 text-left border-b border-slate-700 last:border-0 font-semibold text-white text-sm ${selectedIndex === i ? "bg-red-600 text-white" : "hover:bg-red-600 text-white"}`}>
+                    {toTitleCase(s)}
+                  </button>
+                ))}
+              </div>
+            )}
+            <input 
+              value={query} onChange={(e) => setQuery(e.target.value)} onKeyDown={handleKeyDown}
+              placeholder="Futbolcu ara..." 
+              className={`w-full p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 focus:border-red-600 outline-none font-bold text-base text-white ${isError ? "border-red-600 animate-shake" : ""}`} 
+            />
+          </div>
+        ) : (
+          <div className="p-4 bg-slate-900 border-2 border-slate-800 animate-in zoom-in duration-300 relative font-sans">
+            <div className="flex items-center justify-between mb-3 bg-slate-950/50 p-3 rounded-xl border border-slate-800">
+                <div className="text-left">
+                    <p className={`font-bebas text-xl leading-none mb-1 ${isWin ? 'text-green-500' : 'text-red-500'}`}> {isWin ? 'Tebrikler!' : 'Maalesef!'} </p>
+                    <p className="font-bold text-lg text-white tracking-tight"> {toTitleCase(currentQ.correctPlayer)} </p>
+                </div>
+                <button onClick={() => setShowStatsPage(true)} className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors"> İstatistik </button>
+            </div>
+            <button onClick={shareScore} className="w-full bg-white text-black py-3 rounded-xl font-bold text-xs hover:bg-slate-200 transition-all active:scale-95"> {copySuccess ? "Kopyalandı!" : "Skoru Paylaş"} </button>
+          </div>
+        )}
+      </div>
+
+      <style jsx>{`
+        .animate-shake { animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both; }
+        @keyframes shake { 10%, 90% { transform: translate3d(-1px, 0, 0); } 20%, 80% { transform: translate3d(2px, 0, 0); } 30%, 50%, 70% { transform: translate3d(-4px, 0, 0); } 40%, 60% { transform: translate3d(4px, 0, 0); } }
+      `}</style>
+    </div>
+  );
+}
