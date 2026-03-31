@@ -208,7 +208,7 @@
     "title": "Süper Lig tarihinde en çok gol atan 10 Arjantinli futbolcu?",
     "type": "player",
     "activeDate": "2026-04-01",
-    "targets": ["Mauro Icardi", "Pablo Batalla", "Oscar Scarione", "Jose Sosa", "Franco Cangele", "Gustavo Colman", "Matias Delgado", "Leo Iglesias", "Adolfo Gaich"]
+    "targets": ["Mauro Icardi", "Pablo Batalla", "Oscar Scarione", "Jose Sosa", "Franco Cangele", "Gustavo Colman", "Matias Delgado", "Leo Iglesias", "Adolfo Gaich", "Osvaldo Nartallo"]
   },
   {
     "id": 10,
@@ -255,7 +255,21 @@
       
     ]
   }, 
-
+{
+    "id": 2,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-01",
+    "correctPlayer": "Marek Hamsik",
+    "career": [
+      { "season": "2004–2004", "team": "Slovan Bratislava", "apps": "6", "goals": "1" },
+      { "season": "2004–2007", "team": "Brescia", "apps": "74", "goals": "12" },
+      { "season": "2007–2019", "team": "Napoli", "apps": "520", "goals": "121" },
+      { "season": "2019–2021", "team": "Dalian Yifang", "apps": "45", "goals": "5" },
+      { "season": "2021–2021", "team": "Göteborg", "apps": "6", "goals": "1" },
+      { "season": "2021–2023", "team": "Trabzonspor", "apps": "65", "goals": "6" }
+      
+    ]
+  }, 
 
   {
     "id": 10,
