@@ -27,7 +27,8 @@
       "Ümraniyespor", "Beyoğluspor", "Adalet", "Yeşildirek"
     ]
   },
-  {"id": 3,
+  {
+    "id": 3,
     "game": "listeyi-tamamla",
     "title": "Fenerbahçe forması giymiş Brezilyalı futbolcular?",
     "type": "player",
@@ -36,7 +37,8 @@
       "Ederson", "Anderson Talisca", "Diego Carlos", "Fred", "Rodrigo Becao", "Lincoln Henrique", "Luan Peres", "Gustavo Henrique", "Willian Arao", "Luiz Gustavo", "Jailson", "Giuliano", "Josef De Souza", "Fernandao", "Diego Ribas", "Fabio Bilica", "Andre Santos", "Cristian Baroni", "Roberto Carlos", "Deivid De Souza", "Mateus Parana", "Edu Dracena", "Fabiano Lima", "Alex De Souza", "Marcio Nobre", "Fabio Luciano", "Washington", "Reinaldo Simao", "Serginho Messias", "Gerson Cacapa", "Wederson", "Mehmet Aurelio"
     ]
   },
-  {"id": 4,
+  {
+    "id": 4,
     "game": "listeyi-tamamla",
     "title": "Beşiktaş formasıyla Şampiyonlar Ligi'nde gol atmış futbolcular? (Grup aşaması ve sonrası)",
     "type": "player",
@@ -45,7 +47,8 @@
       "Javi Montero", "Rachid Ghezzal", "Cyle Larin", "Anderson Talisca", "Cenk Tosun", "Ryan Babel", "Alvaro Negredo", "Vagner Love", "Ricardo Quaresma", "Adriano", "Vincent Aboubakar", "Rodrigo Tello", "Bobo", "Ekrem Dağ", "Sergen Yalçın", "Daniel Pancu", "Ronaldo Guiaro", "Tayfur Havutçu", "Ahmet Dursun", "Pascal Nouma", "Oktay Derelioğlu", "Ertuğrul Sağlam", "Mehmet Özdilek"
     ]
   },
-  {"id": 5,
+  {
+    "id": 5,
     "game": "listeyi-tamamla",
     "title": "2005/06 sezonunda Süper Lig'de mücadele eden takımlar?",
     "type": "team-tr",
@@ -54,7 +57,8 @@
       "Galatasaray", "Fenerbahçe", "Beşiktaş", "Trabzonspor", "Kayserispor", "Gençlerbirliği", "Konyaspor", "Sivasspor", "Çaykur Rizespor", "Manisaspor", "Kayseri Erciyesspor", "Gaziantepspor", "Ankaragücü", "Ankaraspor", "Denizlispor", "Malatyaspor", "Samsunspor", "Diyarbakırspor"
     ]
   },
-  {"id": 6,
+  {
+    "id": 6,
     "game": "listeyi-tamamla",
     "title": "Süper Lig'de 200'den fazla maça çıkan Afrikalı futbolcular?",
     "type": "player",
@@ -63,7 +67,8 @@
       "Alioum Saidou", "Souleymanou Hamidou", "Alioum Boukar", "Andre Kona", "Abdelzaher El Saka", "Ayman Abdelaziz", "Ahmed Hassan", "Samuel Johnson", "Stephen Baidoo", "Mustapha Yatabare", "Aatif Chahechouhe", "Isaac Promise", "Uche Okechukwu", "Badou Ndiaye", "John Moshoeu"
     ]
   },
-  {"id": 7,
+  {
+    "id": 7,
     "game": "listeyi-tamamla",
     "title": "Galatasaray'ın Avrupa kupalarında Okan Buruk yönetiminde mağlup ettiği takımlar?",
     "type": "team-eu",
@@ -72,7 +77,8 @@
       "Liverpool", "Juventus", "Bodo Glimt", "Ajax", "Elfsborg", "PAOK", "Tottenham", "Manchester United", "Molde", "Olimpija Ljubljana", "Zalgiris", "Sparta Prag"
     ]
   },
-  {"id": 8,
+  {
+    "id": 8,
     "game": "listeyi-tamamla",
     "title": "Süper Lig'de 50'den fazla maça çıkmış Fransız futbolcular?",
     "type": "player",
@@ -81,7 +87,8 @@
       "Lionel Carole", "Olivier Veigneau", "Rayane Aabid", "Valentin Rosier", "Oumar Dieng", "Valentin Eysseric", "Leo Schwechlen", "Ludovic Sylvestre", "Gael Clichy", "Nicolas Janvier", "Benjamin Stambouli", "Enzo Crivelli", "Bafetimbi Gomis", "Sacha Boey", "Batista Mendy", "Leo Dubois","Yannick Kamanan", "Edouard Cisse", "Aly Cissokho", "Salem M'bakata", "Mathieu Valbuena"
     ]
   },
-  {"id": 9,
+  {
+    "id": 9,
     "game": "listeyi-tamamla",
     "title": "Başakşehir FK'nın Avrupa kupalarında mağlup ettiği takımlar? (Ön elemeler dahil)",
     "type": "team-eu",
@@ -99,8 +106,8 @@
     "targets": [
       "Beşiktaş", "Fenerbahçe", "Galatasaray", "Trabzonspor", "Bursaspor", "Başakşehir", "Konyaspor", "Sivasspor", "Eskişehirspor", "Gaziantepspor", "Altay", "Gençlerbirliği", "Göztepe", "Zonguldakspor", "Malatyaspor", "Samsunspor", "Boluspor", "Adanaspor"
     ]
-}, 
-{
+  }, 
+  {
     "id": 11,
     "game": "listeyi-tamamla",
     "title": "2025/26 sezonunda TFF 1. Lig'de mücadele eden takımlar?",
@@ -109,8 +116,8 @@
     "targets": [
       "Amed SK", "Iğdır FK", "Bandırmaspor", "Erzurumspor", "Çorum FK", "Boluspor", "Vanspor FK", "Sarıyer", "Manisa FK", "Keçiörengücü", "Pendikspor", "Ümraniyespor", "Sakaryaspor", "Serikspor", "İstanbulspor", "Esenler Erokspor", "Adana Demirspor", "Bodrum FK", "Sivasspor", "Hatayspor"
     ]
-},
-{
+  },
+  {
     "id": 12,
     "game": "listeyi-tamamla",
     "title": "Süper Lig'de 2024-25 sezonunda 5 ve üzeri sayıda gol atan Türk futbolcular?",
@@ -119,7 +126,7 @@
     "targets": [
       "Barış Alper Yılmaz", "Ahmed Kutucu", "Yusuf Barası", "Soner Aydoğdu", "Yunus Akgün", "Oğuz Aydın", "Emre Akbaba", "Aytaç Kara", "Umut Nayir", "Deniz Türüç", "Yusuf Özdemir", "Tayfur Bingöl"
     ]
-},
+  },
   {
     "id": 1,
     "game": "top10",
@@ -144,7 +151,6 @@
     "activeDate": "2026-03-26",
     "targets": ["St. Patricks Athletic", "Athletic Bilbao", "Malmö", "Lyon", "Lugano", "Dinamo Kiev", "Neftçi Bakü", "Tirana", "Slovan Bratislava", "Sarpsborg"]
   },
-  
   {
     "id": 4,
     "game": "top10",
@@ -171,7 +177,7 @@
       "Kocaelispor", 
       "Gençlerbirliği"
     ]
-}, 
+  }, 
   {
     "id": 6,
     "game": "top10",
@@ -180,7 +186,6 @@
     "activeDate": "2026-03-29",
     "targets": ["Umut Bozok", "Burak Yılmaz", "Semih Şentürk", "Gökhan Ünal", "Fatih Tekke", "Zafer Biryol", "Okan Yılmaz", "Arif Erdem", "İlhan Mansız", "Serkan Aykut"]
   }, 
-
   {
     "id": 7,
     "game": "top10",
@@ -189,8 +194,7 @@
     "activeDate": "2026-03-30",
     "targets": ["Ruzomberok", "Basel", "Ferencvaros", "Monaco", "Kızılyıldız", "AEK", "Sparta Prag", "Differdange", "Metalist", "Lokeren"]
   },
-
-   {
+  {
     "id": 8,
     "game": "top10",
     "title": "Bu sezon Süper Lig'de en çok süre alan 10 kaleci?",
@@ -198,25 +202,22 @@
     "activeDate": "2026-03-31",
     "targets": ["Ivo Grbic", "Andreas Gianniotis", "Mateusz Lis", "Muhammed Şengezer", "Okan Kocuk", "Uğurcan Çakır", "Andre Onana", "Bilal Bayazıt", "Ederson", "Ertuğrul Taşkıran"]
   }, 
-
   {
     "id": 9,
     "game": "top10",
     "title": "Süper Lig tarihinde en çok gol atan 10 Arjantinli futbolcu?",
     "type": "player",
     "activeDate": "2026-04-01",
-    "targets": ["Mauro Icardi", "Pablo Batalla", "Oscar Scarione", "Jose Sosa", "Franco Cangele", "Gustavo Colman", "Matias Delgado", "Leo Iglesias", "Adolfo Gaich "]
+    "targets": ["Mauro Icardi", "Pablo Batalla", "Oscar Scarione", "Jose Sosa", "Franco Cangele", "Gustavo Colman", "Matias Delgado", "Leo Iglesias", "Adolfo Gaich"]
   },
-
   {
     "id": 10,
     "game": "top10",
-    "title": "Süper Lig'i son sırada bitiren son 10 takım?'",
+    "title": "Süper Lig'i son sırada bitiren son 10 takım?",
     "type": "team-tr",
     "activeDate": "2026-04-02",
     "targets": ["Adana Demirspor", "İstanbulspor", "Hatayspor", "Yeni Malatyaspor", "Denizlispor", "Ankaragücü", "Akhisar Belediyespor", "Karabükspor", "Adanaspor", "Mersin İdman Yurdu"]
   }, 
-
   {
     "id": 11,
     "game": "top10",
@@ -233,7 +234,6 @@
     "activeDate": "2026-04-04",
     "targets": ["Andre Castro", "Ricardo Quaresma", "Tiago Pinto", "Daniel Candeias", "Miguel Cardoso", "Gedson Fernandes", "Miguel Lopes", "Joao Pereira", "Tiago Lopes", "Manuel Fernandes"]
   }, 
-
   {
     "id": 18,
     "game": "top10",
@@ -241,8 +241,34 @@
     "type": "player",
     "activeDate": "2026-04-10",
     "targets": ["Mauro Icardi", "Edin Dzeko", "Mame Thiam", "Rey Manaj", "Krzysztof Piatek", "Adam Buksa", "Paul Onuachu", "Denis Draguş", "Nuno Da Costa", "Aytaç Kara"]
+  },
+
+  {
+    "id": 1,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-03-31",
+    "correctPlayer": "Pedro Malheiro",
+    "career": [
+      { "season": "2020–2024", "team": "Boavista", "apps": "79", "goals": "2" },
+      { "season": "2024–2025", "team": "Trabzonspor", "apps": "43", "goals": "6" },
+      { "season": "2025–", "team": "Al Wasl", "apps": "29", "goals": "3" }
+      
+    ]
+  }, 
+
+
+  {
+    "id": 10,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-10",
+    "correctPlayer": "Sacha Boey",
+    "career": [
+      { "season": "2017–2019", "team": "Rennes B", "apps": "29", "goals": "2" },
+      { "season": "2018–2021", "team": "Rennes", "apps": "12", "goals": "0" },
+      { "season": "2020–2021", "team": "Dijon (kiralık)", "apps": "24", "goals": "0" },
+      { "season": "2021–2024", "team": "Galatasaray", "apps": "83", "goals": "4" },
+      { "season": "2024–2026", "team": "Bayern Münih", "apps": "38", "goals": "1" },
+      { "season": "2026–", "team": "→ Galatasaray (kiralık)", "apps": "11", "goals": "2" }
+    ]
   }
-
-
-
 ]
