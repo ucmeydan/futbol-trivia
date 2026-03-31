@@ -14,12 +14,10 @@ export default function Home() {
         
         {/* Futbol Trivia Başlığı ve Kupa Logosu */}
         <div className="flex flex-col md:flex-row md:items-center justify-center gap-6 mb-4">
-          {/* SEO İÇİN ANA BAŞLIK (H1) */}
           <h1 className="text-5xl md:text-7xl font-semibold tracking-tighter bg-gradient-to-b from-white to-slate-500 bg-clip-text text-transparent">
             Futbol Trivia
           </h1>
 
-          {/* Sağ Logo: Kupa Sembolü */}
           <div className="flex w-14 h-14 md:w-16 md:h-16 mx-auto md:mx-0 border-2 border-slate-800 rounded-2xl items-center justify-center bg-slate-900 rotate-12 shadow-xl shrink-0">
              <svg className="w-8 h-8 md:w-10 md:h-10 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17M14 14.66V17M18 4H6v7a6 6 0 0 0 12 0V4Z" />
@@ -27,12 +25,10 @@ export default function Home() {
           </div>
         </div>
 
-        {/* İSTEDİĞİN ALT SLOGAN (H2) */}
         <h2 className="text-slate-500 text-sm md:text-base font-medium tracking-wide mb-8">
           Türkiye'nin en güncel futbol bilgi yarışması platformu
         </h2>
 
-        {/* Süper Lig Özel Logosu */}
         <div className="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-red-600/10 border border-red-500/20 mb-8 shadow-inner">
           <div className="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></div>
           <span className="text-base md:text-lg font-bold text-red-500 tracking-wide font-sans">
@@ -46,7 +42,7 @@ export default function Home() {
       </div>
 
       {/* Oyun Kartları Konteynırı */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl relative z-10 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl relative z-10 px-4">
         
         {/* Oyun 1: Listeyi Tamamla */}
         <Link href="/listeyi-tamamla" className="group relative overflow-hidden bg-slate-900/40 border border-slate-800 p-6 md:p-8 rounded-3xl hover:border-red-500/50 transition-all duration-500 hover:shadow-[0_0_40px_-10px_rgba(239,68,68,0.2)]">
@@ -59,11 +55,11 @@ export default function Home() {
               <div className="font-bebas text-3xl md:text-4xl text-white relative z-10 tracking-tighter">90</div>
             </div>
 
-            <h3 className="text-2xl md:text-3xl font-bold mb-4 group-hover:text-red-500 transition-colors pt-1 pr-16">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4 group-hover:text-red-500 transition-colors pt-1 pr-16 font-sans">
               Listeyi Tamamla
             </h3>
             
-            <div className="space-y-3 max-w-full md:max-w-[85%]">
+            <div className="space-y-3 max-w-full font-sans">
               <p className="text-white/90 text-sm font-semibold italic">Nasıl oynanır?</p>
               <p className="text-slate-400 text-sm leading-relaxed">
                 Günlük soruda kaç doğru cevap bulabilirsin? Tahmin yapmaya başladıktan sonra 90 saniyelik süren başlayacak.
@@ -73,11 +69,11 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex items-center text-xs font-semibold text-red-500 tracking-wider mt-8">
+            <div className="flex items-center text-xs font-semibold text-red-500 tracking-wider mt-8 font-sans">
               HEMEN OYNA <span className="ml-2 transition-transform group-hover:translate-x-2">→</span>
             </div>
           </div>
-          <div className="absolute -right-6 -bottom-6 text-[8rem] md:text-[11rem] font-black text-slate-800/5 md:text-slate-800/10 group-hover:text-red-500/5 transition-all duration-1000 font-mono pointer-events-none">90</div>
+          <div className="absolute -right-6 -bottom-6 text-[8rem] font-black text-slate-800/5 transition-all duration-1000 font-mono pointer-events-none">90</div>
         </Link>
 
         {/* Oyun 2: Top 10 */}
@@ -92,11 +88,11 @@ export default function Home() {
               ))}
             </div>
 
-            <h3 className="text-2xl md:text-3xl font-bold mb-4 group-hover:text-red-500 transition-colors pt-1 pr-16">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4 group-hover:text-red-500 transition-colors pt-1 pr-16 font-sans">
               Top 10
             </h3>
             
-            <div className="space-y-3 max-w-full md:max-w-[85%]">
+            <div className="space-y-3 max-w-full font-sans">
               <p className="text-white/90 text-sm font-semibold italic">Nasıl oynanır?</p>
               <p className="text-slate-400 text-sm leading-relaxed">
                 Hafızanı zorla! Belirli bir istatistik kategorisine ait 10 ismi tahmin etmeye çalış.
@@ -106,60 +102,63 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex items-center text-xs font-semibold text-red-500 tracking-wider mt-8">
+            <div className="flex items-center text-xs font-semibold text-red-500 tracking-wider mt-8 font-sans">
               HEMEN OYNA <span className="ml-2 transition-transform group-hover:translate-x-2">→</span>
             </div>
           </div>
-          <div className="absolute -right-6 -bottom-6 text-[8rem] md:text-[11rem] font-black text-slate-800/5 md:text-slate-800/10 group-hover:text-red-500/5 transition-all duration-1000 font-mono pointer-events-none">10</div>
+          <div className="absolute -right-6 -bottom-6 text-[8rem] font-black text-slate-800/5 transition-all duration-1000 font-mono pointer-events-none">10</div>
+        </Link>
+
+        {/* Oyun 3: Kariyer Yolu */}
+        <Link href="/kariyer-yolu" className="group relative overflow-hidden bg-slate-900/40 border border-slate-800 p-6 md:p-8 rounded-3xl hover:border-red-500/50 transition-all duration-500 hover:shadow-[0_0_40px_-10px_rgba(239,68,68,0.2)]">
+          <div className="relative z-10">
+            {/* YENİ LOGO: Patika simgesi yerine Tabela/Yol İşareti */}
+            <div className="absolute top-0 right-0 w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 transition-all duration-500 group-hover:scale-110 shrink-0">
+               <svg className="w-8 h-8 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <path d="M12 2v20" />
+                  <path d="M17 6l5 4-5 4H5V6h12z" strokeLinecap="round" strokeLinejoin="round"/>
+               </svg>
+            </div>
+
+            <h3 className="text-2xl md:text-3xl font-bold mb-4 group-hover:text-red-500 transition-colors pt-1 pr-16 font-sans">
+              Kariyer Yolu
+            </h3>
+            
+            <div className="space-y-3 max-w-full font-sans">
+              <p className="text-white/90 text-sm font-semibold italic">Nasıl oynanır?</p>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                Yolu Türkiye'den geçmiş oyuncuları daha önce oynadıkları takımlardan bulmaya çalış. 
+              </p>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                Her tahminde yeni bir takım açılacak. Bakalım doğru oyuncuyu kaçıncı denemede bulabileceksin.
+              </p>
+            </div>
+
+            <div className="flex items-center text-xs font-semibold text-red-500 tracking-wider mt-8 font-sans">
+              HEMEN OYNA <span className="ml-2 transition-transform group-hover:translate-x-2">→</span>
+            </div>
+          </div>
+          <div className="absolute -right-6 -bottom-6 text-[8rem] font-black text-slate-800/5 transition-all duration-1000 font-mono pointer-events-none">?</div>
         </Link>
 
       </div>
 
-      {/* Gelecek Oyunlar Mesajı */}
-      <div className="mt-16 text-center animate-pulse relative z-10">
-        <p className="text-slate-600 text-sm md:text-base font-medium tracking-normal font-sans">
-          Yeni oyunlar çok yakında...
-        </p>
-        <div className="mt-4 flex justify-center gap-2">
-          <div className="w-1 h-1 bg-slate-800 rounded-full"></div>
-          <div className="w-1 h-1 bg-slate-800 rounded-full"></div>
-          <div className="w-1 h-1 bg-slate-800 rounded-full"></div>
-        </div>
-      </div>
-
       {/* FOOTER ALANI */}
-      <footer className="w-full mt-auto pt-20 pb-12 relative z-10 border-t border-slate-900/50">
+      <footer className="w-full mt-auto pt-20 pb-12 relative z-10 border-t border-slate-900/50 font-sans">
         <div className="max-w-5xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-center gap-y-4 md:gap-x-12 mb-10 text-sm font-medium text-slate-500">
-            <Link href="/hakkimizda" className="hover:text-red-600 transition-colors px-2">
-              Hakkımızda
-            </Link>
-            
+            <Link href="/hakkimizda" className="hover:text-red-600 transition-colors px-2"> Hakkımızda </Link>
             <span className="hidden md:block text-slate-800">•</span>
-            
-            <Link href="/iletisim" className="hover:text-red-600 transition-colors px-2">
-              İletişim
-            </Link>
-            
+            <Link href="/iletisim" className="hover:text-red-600 transition-colors px-2"> İletişim </Link>
             <span className="hidden md:block text-slate-800">•</span>
-            
-            <Link href="/gizlilik-politikasi" className="hover:text-red-600 transition-colors px-2">
-              Gizlilik politikası
-            </Link>
+            <Link href="/gizlilik-politikasi" className="hover:text-red-600 transition-colors px-2"> Gizlilik politikası </Link>
           </div>
-          
           <div className="text-center space-y-3">
-            <p className="text-slate-700 text-[10px] tracking-[0.3em] uppercase font-mono">
-              © 2026 Futbol Trivia • Tüm hakları saklıdır.
-            </p>
-            <p className="text-[9px] text-slate-800 font-medium italic opacity-50 tracking-wide">
-              Veriler ve istatistikler bilgilendirme amaçlıdır.
-            </p>
+            <p className="text-slate-700 text-[10px] tracking-[0.3em] uppercase font-mono"> © 2026 Futbol Trivia • Tüm hakları saklıdır. </p>
           </div>
         </div>
       </footer>
 
-      {/* Bebas Neue Fontu */}
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
         .font-bebas { font-family: 'Bebas Neue', sans-serif; }
