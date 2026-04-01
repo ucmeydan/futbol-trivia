@@ -234,6 +234,26 @@
     "activeDate": "2026-04-04",
     "targets": ["Andre Castro", "Ricardo Quaresma", "Tiago Pinto", "Daniel Candeias", "Miguel Cardoso", "Gedson Fernandes", "Miguel Lopes", "Joao Pereira", "Tiago Lopes", "Manuel Fernandes"]
   }, 
+
+  {
+  "id": 13,
+  "game": "top10",
+  "title": "TFF 1. Lig'de sezonu ilk sırada tamamlayan son 10 takım?",
+  "type": "team-tr",
+  "activeDate": "2026-04-05",
+  "targets": [
+    "Kocaelispor",
+    "Eyüpspor",
+    "Samsunspor",
+    "Ankaragücü",
+    "Adana Demirspor",
+    "Hatayspor",
+    "Denizlispor",
+    "Çaykur Rizespor",
+    "Sivasspor",
+    "Adanaspor"
+  ]
+}, 
   {
     "id": 18,
     "game": "top10",
@@ -270,6 +290,57 @@
       
     ]
   }, 
+  {
+    "id": 3,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-02",
+    "correctPlayer": "Bright Osayi-Samuel",
+    "career": [
+      { "season": "2014–2018", "team": "Blackpool", "apps": "79", "goals": "5" },
+      { "season": "2018–2021", "team": "Queens Park Rangers", "apps": "115", "goals": "13" },
+      { "season": "2021–2025", "team": "Fenerbahçe", "apps": "175", "goals": "8" },
+      { "season": "2025–", "team": "Birmingham City", "apps": "22", "goals": "0" }
+    ]
+},
+
+{
+    "id": 4,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-03",
+    "correctPlayer": "Victor Nelsson",
+    "career": [
+      { "season": "2015–2019", "team": "Nordsjaelland", "apps": "98", "goals": "2" },
+      { "season": "2019–2021", "team": "Kopenhag", "apps": "87", "goals": "1" },
+      { "season": "2021–2024", "team": "Galatasaray", "apps": "144", "goals": "4" },
+      { "season": "2024–2025", "team": "Roma (kiralık)", "apps": "5", "goals": "0" },
+      { "season": "2025–", "team": "Verona (kiralık)", "apps": "30", "goals": "0" }
+    ]
+}, {
+    "id": 5,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-04",
+    "correctPlayer": "Adriano",
+    "career": [
+      { "season": "2002–2004", "team": "Gremio", "apps": "78", "goals": "3" },
+      { "season": "2004–2010", "team": "Sevilla", "apps": "222", "goals": "19" },
+      { "season": "2010–2016", "team": "Barcelona", "apps": "189", "goals": "17" },
+      { "season": "2016–2019", "team": "Beşiktaş", "apps": "111", "goals": "4" },
+      { "season": "2019–2020", "team": "Atletico Paranaense", "apps": "17", "goals": "1" },
+      { "season": "2020–2021", "team": "Eupen", "apps": "26", "goals": "0" }
+    ]
+}, 
+{
+    "id": 6,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-05",
+    "correctPlayer": "Darius Vassell",
+    "career": [
+      { "season": "1998–2006", "team": "Aston Villa", "apps": "201", "goals": "45" },
+      { "season": "2006–2009", "team": "Manchester City", "apps": "124", "goals": "22" },
+      { "season": "2009–2010", "team": "Ankaragücü", "apps": "25", "goals": "4" },
+      { "season": "2010–2011", "team": "Leicester City", "apps": "45", "goals": "6" }
+    ]
+}, 
 
   {
     "id": 10,
