@@ -128,6 +128,22 @@
     ]
   },
   {
+    "id": 13,
+    "game": "listeyi-tamamla",
+    "title": "A Milli Takımımızın Euro 2024 turnuvası kadrosunda yer alan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-04-05",
+    "targets": [
+      "Uğurcan Çakır", "Altay Bayındır", "Mert Günok", "Mert Müldür", 
+      "Zeki Çelik", "Abdülkerim Bardakçı", "Ahmetcan Kaplan", "Merih Demiral", 
+      "Samet Akaydın", "Ferdi Kadıoğlu", "İsmail Yüksek", "Orkun Kökçü", 
+      "Salih Özcan", "Hakan Çalhanoğlu", "Kaan Ayhan", "Okay Yokuşlu", 
+      "Yunus Akgün", "Barış Alper Yılmaz", "Semih Kılıçsoy", "Cenk Tosun", 
+      "Kerem Aktürkoğlu", "Bertuğ Yıldırım", "İrfan Can Kahveci", "Arda Güler", 
+      "Kenan Yıldız", "Yusuf Yazıcı"
+    ]
+}, 
+  {
     "id": 1,
     "game": "top10",
     "title": "Galatasaray tarihinde en çok maça çıkan 10 yabancı oyuncu?",
