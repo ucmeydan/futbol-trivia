@@ -42,7 +42,8 @@ export default function Home() {
       </div>
 
       {/* Oyun Kartları Konteynırı */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl relative z-10 px-4">
+      {/* 4. oyun eklendiği için grid yapısını 1'den 2'ye, md'den lg'ye geçişli hale getirdik */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 w-full max-w-7xl relative z-10 px-4">
         
         {/* Oyun 1: Listeyi Tamamla */}
         <Link href="/listeyi-tamamla" className="group relative overflow-hidden bg-slate-900/40 border border-slate-800 p-6 md:p-8 rounded-3xl hover:border-red-500/50 transition-all duration-500 hover:shadow-[0_0_40px_-10px_rgba(239,68,68,0.2)]">
@@ -112,7 +113,6 @@ export default function Home() {
         {/* Oyun 3: Kariyer Yolu */}
         <Link href="/kariyer-yolu" className="group relative overflow-hidden bg-slate-900/40 border border-slate-800 p-6 md:p-8 rounded-3xl hover:border-red-500/50 transition-all duration-500 hover:shadow-[0_0_40px_-10px_rgba(239,68,68,0.2)]">
           <div className="relative z-10">
-            {/* YENİ LOGO: Patika simgesi yerine Tabela/Yol İşareti */}
             <div className="absolute top-0 right-0 w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 transition-all duration-500 group-hover:scale-110 shrink-0">
                <svg className="w-8 h-8 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <path d="M12 2v20" />
@@ -139,6 +139,38 @@ export default function Home() {
             </div>
           </div>
           <div className="absolute -right-6 -bottom-6 text-[8rem] font-black text-slate-800/5 transition-all duration-1000 font-mono pointer-events-none">?</div>
+        </Link>
+
+        {/* YENİ OYUN: Takım Arkadaşı */}
+        <Link href="/takim-arkadasi" className="group relative overflow-hidden bg-slate-900/40 border border-slate-800 p-6 md:p-8 rounded-3xl hover:border-red-500/50 transition-all duration-500 hover:shadow-[0_0_40px_-10px_rgba(239,68,68,0.2)]">
+          <div className="relative z-10">
+            {/* LOGO: İki Çapraz Forma Simgeleyen SVG */}
+            <div className="absolute top-0 right-0 w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 transition-all duration-500 group-hover:rotate-12 group-hover:scale-110 shrink-0">
+               <svg className="w-8 h-8 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <path d="M16.5 2L19 4.5 16.5 7h-2.5V11L11 14l-3-1v-4H5.5L8 6.5 5.5 4H10V2H16.5z" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M7.5 22L5 19.5 7.5 17h2.5v-4l3-3 3 1v4h2.5L16 17.5 18.5 20h-4.5v2H7.5z" strokeLinecap="round" strokeLinejoin="round"/>
+               </svg>
+            </div>
+
+            <h3 className="text-2xl md:text-3xl font-bold mb-4 group-hover:text-red-500 transition-colors pt-1 pr-16 font-sans">
+              Takım Arkadaşı
+            </h3>
+            
+            <div className="space-y-3 max-w-full font-sans">
+              <p className="text-white/90 text-sm font-semibold italic">Nasıl oynanır?</p>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                Yolu Türkiye'den geçmiş oyuncuları, kulüp ya da milli takım kariyerindeki takım arkadaşlarından bulmaya çalış. 
+              </p>
+              <p className="text-slate-400 text-sm leading-relaxed">
+                Her yanlış tahminde yeni bir takım arkadaşı açılacak. Toplam 5 tahmin hakkın var.
+              </p>
+            </div>
+
+            <div className="flex items-center text-xs font-semibold text-red-500 tracking-wider mt-8 font-sans">
+              HEMEN OYNA <span className="ml-2 transition-transform group-hover:translate-x-2">→</span>
+            </div>
+          </div>
+          <div className="absolute -right-6 -bottom-6 text-[8rem] font-black text-slate-800/5 transition-all duration-1000 font-mono pointer-events-none">5</div>
         </Link>
 
       </div>
