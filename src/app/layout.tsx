@@ -5,9 +5,13 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
-  metadataBase: new URL('https://futboltrivia.com.tr'), // Görsel yollarını otomatik tamamlamak için kritik
+  metadataBase: new URL('https://futboltrivia.com.tr'),
   title: "Futbol Trivia | Günlük Süper Lig Bilgi Yarışması",
   description: "Her gün yenilenen sorularla futbol bilgini test et! Türkiye liglerine özel Top 10, Kariyer Yolu ve Listeyi Tamamla oyunlarını hemen oyna.",
+  // CANONICAL DÜZENLEMESİ: Next.js bu ayarla her sayfa için otomatik canonical oluşturur.
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: "Futbol Trivia | Günlük Süper Lig Bilgi Yarışması",
     description: "Her gün yenilenen sorularla futbol bilgini test et! Türkiye liglerine özel oyunları hemen oyna.",
@@ -17,7 +21,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: '/og-image.png', // Public klasöründeki görsel
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Futbol Trivia Logo',
@@ -25,11 +29,11 @@ export const metadata = {
     ],
   },
   twitter: {
-    card: 'summary_large_image', // Twitter'da görselin büyük ve dikkat çekici görünmesini sağlar
+    card: 'summary_large_image',
     title: 'Futbol Trivia | Günlük Süper Lig Bilgi Yarışması',
     description: 'Her gün yenilenen sorularla futbol bilgini test et!',
-    images: ['/og-image.png'], // metadataBase sayesinde tam URL'e dönüşür
-    creator: '@futboltrivia', // Varsa Twitter kullanıcı adın
+    images: ['/og-image.png'],
+    creator: '@futboltrivia',
   },
 };
 
