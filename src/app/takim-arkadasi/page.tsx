@@ -189,7 +189,7 @@ export default function TakimArkadasiPage() {
   }
 
   return (
-    <div className="max-w-md mx-auto h-screen flex flex-col p-4 text-white bg-slate-950 font-sans relative overflow-hidden">
+    <div className="max-w-md mx-auto min-h-screen flex flex-col p-4 text-white bg-slate-950 font-sans relative overflow-y-auto overflow-x-hidden">
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} />}
 
       <div className="flex flex-col items-center mb-8">
@@ -233,7 +233,8 @@ export default function TakimArkadasiPage() {
         </div>
       )}
 
-      <div className="mt-auto pb-6">
+      {/* Tahmin ve Alt Alan */}
+      <div className="mt-8 pb-10">
         {!isGameOver ? (
           <div className="relative">
              {suggestions.length > 0 && (
