@@ -489,5 +489,18 @@
    "Wesley Sneijder", 
    "Diego Angelo"
   ]
+},
+{
+  "id": 4,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-04-07",
+  "correctPlayer": "Samir Nasri",
+  "teammates": [
+   "Mamadou Niang",  
+   "Tomas Rosicky", 
+   "Thierry Henry",
+   "Sergio Aguero", 
+   "Nazım Sangare"
+  ]
 }
 ]
