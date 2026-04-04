@@ -130,7 +130,7 @@
   {
     "id": 13,
     "game": "listeyi-tamamla",
-    "title": "A Milli Takımımızın Euro 2024 turnuvası kadrosunda yer alan futbolcular?",
+    "title": "A Milli Takımımızın Euro 2024 kadrosunda yer alan futbolcular?",
     "type": "player",
     "activeDate": "2026-04-05",
     "targets": [
@@ -383,6 +383,19 @@
     "Raul Meireles",
     "Florent Malouda",
     "Oscar Cardozo"
+  ]
+}, 
+{
+  "id": 2,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-04-05",
+  "correctPlayer": "Cris",
+  "teammates": [
+    "Milan Baros",
+    "Yıldıray Baştürk",
+    "John Carew",
+    "Juninho Pernambucano",
+    "Felipe Melo"
   ]
 }
 ]
