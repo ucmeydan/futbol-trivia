@@ -9,8 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "canvas-confetti": "^1.9.4",
     "next": "16.1.6",
     "react": "19.2.3",
+    "react-confetti": "^6.4.0",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
