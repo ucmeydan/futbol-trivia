@@ -348,6 +348,7 @@ export default function TakimArkadasiClient() {
           <p>
             Süper Lig'in farklı dönemlerinden oyuncular, Avrupa kulüplerinde Türk
             futbolcularla aynı takımda oynamış yabancı isimler ve milli takım
+            
             tarihinin önemli figürleri sorularda karşına çıkabilir.
           </p>
           <p>

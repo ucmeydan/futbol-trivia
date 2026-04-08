@@ -1,26 +1,33 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-bebas: 'Bebas Neue', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Tenaball Tarzı Kutuların Açılma Animasyonu */
+@keyframes revealCorrect {
+  0% { transform: scale(1); background: #0f172a; }
+  50% { transform: scale(1.1); background: #ffffff; color: #000000; }
+  100% { transform: scale(1); background: #22c55e; color: #ffffff; }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.correct-reveal {
+  animation: revealCorrect 0.5s ease-in-out forwards;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Sarsıntı Efekti (Yanlış Cevap) */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+.animate-shake {
+  animation: shake 0.2s ease-in-out 0s 2;
+}
+
+.font-bebas {
+  font-family: var(--font-bebas);
 }
