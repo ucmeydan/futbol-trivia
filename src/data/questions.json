@@ -224,6 +224,15 @@
     "Mardin 1969"
   ]
 }, 
+{
+  "id": 17,
+  "game": "listeyi-tamamla",
+  "title": "Fenerbahçe'nin 2007/08 sezonunda Şampiyonlar Ligi çeyrek finalinde Sevilla'yı elediği çeyrek final rövanş maçı kadrosu?",
+  "type": "player",
+  "activeDate": "2026-04-09",
+  "targets": ["Volkan Demirel", "Wederson", "Diego Lugano", "Edu Dracena", "Gökhan Gönül", "Uğur Boral", "Selçuk Şahin", "Mehmet Aurelio", "Deivid De Souza", "Alex De Souza", "Mateja Kezman",
+  "Serdar Kulbilge", "Yasin Çakmak", "Colin Kazım Richards", "Can Arat", "Ali Bilgin", "Önder Turacı", "Semih Şentürk"]
+}, 
   {
     "id": 1,
     "game": "top10",
