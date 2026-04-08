@@ -4,8 +4,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: '/gizlilik-politikasi',
-        destination: '/gizlilik',
+        source: '/gizlilik',
+        destination: '/gizlilik-politikasi',
         permanent: true,
       },
       {
