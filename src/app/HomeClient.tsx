@@ -12,12 +12,12 @@ const GAMES = [
     decorNumber: '90',
     accentColor: 'green',
     icon: (
-      <div className="absolute top-0 right-0 w-16 h-16 md:w-20 md:h-20 flex items-center justify-center opacity-90 shrink-0">
-        <svg className="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 36 36" aria-hidden="true">
+      <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center opacity-90 shrink-0 relative" aria-hidden="true">
+        <svg className="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 36 36">
           <path className="text-slate-800" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" strokeWidth="2.5" />
           <path className="text-green-500" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" strokeWidth="2.5" strokeDasharray="80, 100" strokeLinecap="round" />
         </svg>
-        <div className="font-bebas text-3xl md:text-4xl text-white relative z-10 tracking-tighter" aria-hidden="true">90</div>
+        <div className="font-bebas text-3xl md:text-4xl text-white relative z-10 tracking-tighter">90</div>
       </div>
     ),
   },
@@ -30,7 +30,7 @@ const GAMES = [
     decorNumber: '10',
     accentColor: 'amber',
     icon: (
-      <div className="absolute top-0 right-0 w-14 h-14 md:w-16 md:h-16 flex flex-col gap-1 md:gap-1.5 p-2 md:p-3 bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 shrink-0" aria-hidden="true">
+      <div className="w-14 h-14 md:w-16 md:h-16 flex flex-col gap-1 md:gap-1.5 p-2 md:p-3 bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 shrink-0" aria-hidden="true">
         {[...Array(5)].map((_, i) => (
           <div key={i} className="flex gap-1 md:gap-1.5 items-center">
             <div className={`w-2.5 h-2.5 md:w-3 md:h-3 rounded-sm ${i < 2 ? 'bg-amber-400' : 'bg-slate-700'}`} />
@@ -49,7 +49,7 @@ const GAMES = [
     decorNumber: '?',
     accentColor: 'sky',
     icon: (
-      <div className="absolute top-0 right-0 w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 shrink-0" aria-hidden="true">
+      <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 shrink-0" aria-hidden="true">
         <svg className="w-7 h-7 text-sky-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
           <path d="M3 6h18M3 12h12M3 18h6" strokeLinecap="round" />
         </svg>
@@ -65,7 +65,7 @@ const GAMES = [
     decorNumber: '7',
     accentColor: 'red',
     icon: (
-      <div className="absolute top-0 right-0 w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 shrink-0" aria-hidden="true">
+      <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 shrink-0" aria-hidden="true">
         <svg className="w-7 h-7 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
           <circle cx="9" cy="7" r="3" strokeLinecap="round" />
           <path d="M3 20c0-4 2.7-6 6-6s6 2 6 6" strokeLinecap="round" />
@@ -142,13 +142,14 @@ export default function HomeClient() {
               className={`group relative overflow-hidden bg-slate-900/50 border border-slate-800/80 p-6 md:p-8 rounded-3xl transition-all duration-500 ${hoverClass}`}
             >
               <div className="relative z-10">
-                {game.icon}
+                <div className="flex items-start justify-between gap-3 mb-3">
+                  <h2 className={`text-2xl md:text-3xl font-bold transition-colors duration-300 pt-1 text-white ${hoverTitleColor}`}>
+                    {game.title}
+                  </h2>
+                  {game.icon}
+                </div>
 
-                <h2 className={`text-2xl md:text-3xl font-bold mb-3 transition-colors duration-300 pt-1 pr-20 text-white ${hoverTitleColor}`}>
-                  {game.title}
-                </h2>
-
-                <div className="space-y-2 pr-20">
+                <div className="space-y-2">
                   <p className="text-white/80 text-xs font-semibold uppercase tracking-widest">Nasıl oynanır?</p>
                   <p className="text-slate-400 text-sm leading-relaxed">{game.description}</p>
                   <p className="text-slate-400 text-sm leading-relaxed">
