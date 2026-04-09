@@ -7,8 +7,6 @@ import europeanTeamsData from '@/data/european_teams.json';
 import allQuestions from '@/data/questions.json';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
-import { useTheme } from '../ThemeProvider';
-import ThemeToggle from '../ThemeToggle';
 
 const formatName = (name: string) => {
   return name.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -56,7 +54,6 @@ export default function Top10Client() {
 
   const inputRef = useRef<HTMLInputElement>(null);
   const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
-  const { isDark } = useTheme();
 
   const getLetterHint = (name: string) => {
     return name.split('').map(char => (char === ' ' ? '\u00A0\u00A0' : '_')).join(' ');
@@ -200,8 +197,7 @@ export default function Top10Client() {
   // Zorluk seçim ekranı
   if (!difficulty && !isGameOver) {
     return (
-      <div className={`max-w-md mx-auto min-h-screen flex flex-col items-center justify-start pt-12 p-6 text-center overflow-y-auto pb-10 relative ${isDark ? 'bg-slate-950 text-white' : 'bg-slate-50 text-slate-900'}`}>
-        <ThemeToggle className="absolute top-4 right-4" />
+      <div className="max-w-md mx-auto min-h-screen flex flex-col items-center justify-start pt-12 p-6 text-white bg-slate-950 text-center overflow-y-auto pb-10">
         <div className="mb-2 flex items-center justify-center gap-6">
           <button
             onClick={() => checkAndLoadQuestion(currentIndex - 1, gameQuestions)}
@@ -249,13 +245,13 @@ export default function Top10Client() {
           </button>
         </div>
 
-        <Link href="/" className={`mt-10 text-slate-500 transition-colors text-xs font-semibold ${isDark ? 'hover:text-white' : 'hover:text-slate-900'}`}>
+        <Link href="/" className="mt-10 text-slate-600 hover:text-white transition-colors text-xs font-semibold">
           ← Vazgeç ve Geri Dön
         </Link>
 
-        <section className={`mt-16 pt-8 border-t w-full text-left ${isDark ? 'border-slate-900' : 'border-slate-200'}`}>
-          <h2 className={`text-xs tracking-[0.2em] uppercase mb-4 ${isDark ? 'text-slate-600' : 'text-slate-500'}`}>Top 10 hakkında</h2>
-          <div className={`space-y-3 text-xs leading-relaxed font-light ${isDark ? 'text-slate-700' : 'text-slate-600'}`}>
+        <section className="mt-16 pt-8 border-t border-slate-900 w-full text-left">
+          <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Top 10 hakkında</h2>
+          <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
             <p>
               Top 10, Süper Lig ve Türk futboluna ait istatistik listelerini tamamlamaya
               çalıştığın günlük bir bilgi yarışması oyunudur. Her soruda belirli bir
@@ -287,7 +283,7 @@ export default function Top10Client() {
   const correctRate = Math.round((stats.totalCorrect / (stats.totalGames * 10 || 1)) * 100);
 
   return (
-    <div className={`max-w-md mx-auto min-h-screen flex flex-col p-3 relative overflow-y-auto ${isDark ? 'bg-slate-950 text-white' : 'bg-slate-50 text-slate-900'}`}>
+    <div className="max-w-md mx-auto min-h-screen flex flex-col p-3 text-white bg-slate-950 relative overflow-y-auto">
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} numberOfPieces={300} style={{ zIndex: 150 }} />}
 
       {showBigX && (
@@ -298,10 +294,7 @@ export default function Top10Client() {
 
       {/* Üst bar */}
       <div className="flex justify-between items-start mb-2 relative z-10">
-        <div className="flex items-center gap-2 pt-1">
-          <Link href="/" className={`text-slate-500 font-bold text-xs transition-colors ${isDark ? 'hover:text-white' : 'hover:text-slate-900'}`}>← Geri Dön</Link>
-          <ThemeToggle />
-        </div>
+        <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1">← Geri Dön</Link>
         <div className="flex flex-col items-end">
           <div className="flex gap-1 mb-1" aria-label={`${lives} can kaldı`}>
             {[...Array(3)].map((_, i) => (
@@ -331,7 +324,7 @@ export default function Top10Client() {
             aria-label="Sonraki soru"
           >›</button>
         </div>
-        <h2 className={`text-base font-bold leading-tight mb-2 px-2 tracking-tight ${isDark ? 'text-slate-100' : 'text-slate-800'}`}>{currentQ.title}</h2>
+        <h2 className="text-base font-bold leading-tight mb-2 px-2 text-slate-100 tracking-tight">{currentQ.title}</h2>
       </div>
 
       {/* Liste */}
@@ -500,9 +493,9 @@ export default function Top10Client() {
       </div>
 
       {/* SEO içerik bloğu */}
-      <section className={`mt-6 pt-6 border-t pb-10 ${isDark ? 'border-slate-900' : 'border-slate-200'}`}>
-        <h2 className={`text-xs tracking-[0.2em] uppercase mb-4 ${isDark ? 'text-slate-600' : 'text-slate-500'}`}>Top 10 hakkında</h2>
-        <div className={`space-y-3 text-xs leading-relaxed font-light ${isDark ? 'text-slate-700' : 'text-slate-600'}`}>
+      <section className="mt-6 pt-6 border-t border-slate-900 pb-10">
+        <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Top 10 hakkında</h2>
+        <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
           <p>
             Top 10, Süper Lig ve Türk futboluna ait istatistik listelerini tamamlamaya
             çalıştığın günlük bir bilgi yarışması oyunudur. Her soruda belirli bir

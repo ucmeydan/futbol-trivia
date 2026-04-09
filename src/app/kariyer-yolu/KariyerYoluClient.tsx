@@ -5,8 +5,6 @@ import Link from 'next/link';
 import Confetti from 'react-confetti';
 import playersData from '@/data/players.json';
 import allQuestions from '@/data/questions.json';
-import { useTheme } from '../ThemeProvider';
-import ThemeToggle from '../ThemeToggle';
 
 const toTitleCase = (str: string) => {
   if (!str) return "";
@@ -162,7 +160,6 @@ export default function KariyerYoluClient() {
     });
   };
 
-  const { isDark } = useTheme();
   const winPercentage = stats.totalGames > 0 ? Math.round((stats.wins / stats.totalGames) * 100) : 0;
   const maxDist = Math.max(...Object.values(stats.distribution), 1);
 
@@ -170,7 +167,7 @@ export default function KariyerYoluClient() {
 
   if (showStatsPage) {
     return (
-      <div className={`max-w-md mx-auto min-h-screen flex flex-col p-6 font-sans relative overflow-x-hidden justify-center ${isDark ? 'bg-slate-950 text-white' : 'bg-slate-50 text-slate-900'}`}>
+      <div className="max-w-md mx-auto min-h-screen flex flex-col p-6 text-white bg-slate-950 font-sans relative overflow-x-hidden justify-center">
         <div className="w-full bg-slate-900 border-2 border-slate-800 rounded-3xl p-6 shadow-2xl relative text-white text-center">
           <button onClick={() => setShowStatsPage(false)} className="absolute top-4 right-4 text-slate-500 hover:text-white transition-colors">✕</button>
           <h3 className="font-bold text-lg mb-6 text-white">İstatistik</h3>
@@ -212,9 +209,9 @@ export default function KariyerYoluClient() {
         </div>
 
         {/* SEO bloğu — istatistik ekranı, koşulsuz */}
-        <section className={`mt-8 pt-6 border-t pb-4 ${isDark ? 'border-slate-900' : 'border-slate-200'}`}>
-          <h2 className={`text-xs tracking-[0.2em] uppercase mb-4 ${isDark ? 'text-slate-600' : 'text-slate-500'}`}>Kariyer Yolu hakkında</h2>
-          <div className={`space-y-3 text-xs leading-relaxed font-light ${isDark ? 'text-slate-700' : 'text-slate-600'}`}>
+        <section className="mt-8 pt-6 border-t border-slate-900 pb-4">
+          <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Kariyer Yolu hakkında</h2>
+          <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
             <p>
               Kariyer Yolu, yolu Türkiye'den geçmiş futbolcuları sezon sezon açılan
               kariyer tablosundan tahmin ettiğin günlük bir bilgi yarışması oyunudur.
@@ -242,12 +239,11 @@ export default function KariyerYoluClient() {
   }
 
   return (
-    <div className={`max-w-md mx-auto min-h-screen flex flex-col p-4 font-sans relative overflow-x-hidden ${isDark ? 'bg-slate-950 text-white' : 'bg-slate-50 text-slate-900'}`}>
+    <div className="max-w-md mx-auto min-h-screen flex flex-col p-4 text-white bg-slate-950 font-sans relative overflow-x-hidden">
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} numberOfPieces={400} style={{ zIndex: 150 }} />}
 
-      <div className="flex justify-between items-center mb-6 relative z-10">
-        <Link href="/" className={`text-slate-500 font-bold text-xs transition-colors pt-1 ${isDark ? 'hover:text-white' : 'hover:text-slate-900'}`}>← Geri Dön</Link>
-        <ThemeToggle />
+      <div className="flex justify-between items-start mb-6 relative z-10">
+        <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1">← Geri Dön</Link>
       </div>
 
       <div className="text-center mb-16 relative z-10">
@@ -334,9 +330,9 @@ export default function KariyerYoluClient() {
       </div>
 
       {/* SEO içerik bloğu — koşulsuz, her zaman görünür */}
-      <section className={`mt-6 pt-6 border-t pb-10 ${isDark ? 'border-slate-900' : 'border-slate-200'}`}>
-        <h2 className={`text-xs tracking-[0.2em] uppercase mb-4 ${isDark ? 'text-slate-600' : 'text-slate-500'}`}>Kariyer Yolu hakkında</h2>
-        <div className={`space-y-3 text-xs leading-relaxed font-light ${isDark ? 'text-slate-700' : 'text-slate-600'}`}>
+      <section className="mt-6 pt-6 border-t border-slate-900 pb-10">
+        <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Kariyer Yolu hakkında</h2>
+        <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
           <p>
             Kariyer Yolu, yolu Türkiye'den geçmiş futbolcuların kariyer geçmişlerini
             sezon sezon keşfettiğin günlük bir bilgi yarışması oyunudur. Her gün yeni
