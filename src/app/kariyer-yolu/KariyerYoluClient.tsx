@@ -256,24 +256,36 @@ export default function KariyerYoluClient() {
       </div>
 
       <div className="w-full bg-slate-900/40 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl mb-6 relative z-10">
-        <table className="w-full text-left border-collapse font-sans">
+        <table className="w-full text-left border-collapse">
           <thead>
-            <tr className="bg-slate-800/30 text-[11px] text-slate-400">
-              <th className="p-4 font-bold">Sezon</th>
-              <th className="p-4 font-bold">Takım</th>
-              <th className="p-4 font-bold text-center">Maç</th>
-              <th className="p-4 font-bold text-center">Gol</th>
+            <tr className="bg-slate-800/50 text-[11px] text-slate-400 uppercase tracking-wider">
+              <th className="px-4 py-3 font-semibold">Sezon</th>
+              <th className="px-4 py-3 font-semibold">Takım</th>
+              <th className="px-4 py-3 font-semibold text-center">Maç</th>
+              <th className="px-4 py-3 font-semibold text-center">Gol</th>
             </tr>
           </thead>
           <tbody>
             {currentQ.career.map((step: any, index: number) => {
               const isVisible = index < visibleRows;
+              const isEven = index % 2 === 0;
               return (
-                <tr key={index} className="border-t border-slate-700/30 transition-colors duration-500">
-                  <td className="p-4 text-xs font-mono text-slate-400">{isVisible ? step.season : "...."}</td>
-                  <td className="p-4 text-sm font-semibold text-slate-100">{isVisible ? step.team : "...."}</td>
-                  <td className="p-4 text-center text-xs font-mono text-slate-400">{isVisible ? step.apps : ".."}</td>
-                  <td className="p-4 text-center text-xs font-mono text-slate-400">{isVisible ? `(${step.goals})` : "(..)"}</td>
+                <tr
+                  key={index}
+                  className={`border-t border-slate-800/40 transition-colors duration-500 ${isEven ? '' : 'bg-slate-900/30'}`}
+                >
+                  <td className="px-4 py-3 text-xs font-mono text-slate-400 tabular-nums">
+                    {isVisible ? step.season : <span className="text-slate-700">····</span>}
+                  </td>
+                  <td className="px-4 py-3 text-sm font-semibold text-slate-100">
+                    {isVisible ? step.team : <span className="text-slate-700">····</span>}
+                  </td>
+                  <td className="px-4 py-3 text-center text-xs font-mono text-slate-400 tabular-nums">
+                    {isVisible ? step.apps : <span className="text-slate-700">··</span>}
+                  </td>
+                  <td className="px-4 py-3 text-center text-xs font-mono text-slate-400 tabular-nums">
+                    {isVisible ? `(${step.goals})` : <span className="text-slate-700">(··)</span>}
+                  </td>
                 </tr>
               );
             })}
@@ -300,7 +312,7 @@ export default function KariyerYoluClient() {
             />
           </div>
         ) : (
-          <div className="p-4 bg-slate-900 border-2 border-slate-800 animate-in zoom-in duration-300 relative font-sans">
+          <div className="p-4 bg-slate-900 border-2 border-slate-800 rounded-2xl animate-in zoom-in duration-300 relative font-sans">
             <div className="flex items-center justify-between mb-3 bg-slate-950/50 p-3 rounded-xl border border-slate-800">
               <div className="text-left">
                 <p className={`font-bebas text-xl leading-none mb-1 ${isWin ? 'text-green-500' : 'text-red-500'}`}>
@@ -358,10 +370,6 @@ export default function KariyerYoluClient() {
         </div>
       </section>
 
-      <style jsx>{`
-        .animate-shake { animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both; }
-        @keyframes shake { 10%, 90% { transform: translate3d(-1px, 0, 0); } 20%, 80% { transform: translate3d(2px, 0, 0); } 30%, 50%, 70% { transform: translate3d(-4px, 0, 0); } 40%, 60% { transform: translate3d(4px, 0, 0); } }
-      `}</style>
     </div>
   );
 }

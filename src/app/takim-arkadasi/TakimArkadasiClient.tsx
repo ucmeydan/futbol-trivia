@@ -255,22 +255,34 @@ export default function TakimArkadasiClient() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-2.5 mb-6">
+      <div className="flex flex-col gap-2 mb-6">
         {currentQ.teammates.map((teammate: any, index: number) => {
           const name = getTeammateName(teammate);
           const info = getTeammateInfo(teammate);
           const isOpened = index < visibleTeammateCount || isGameOver;
           return (
-            <div key={index} className={`flex flex-col justify-center rounded-xl border transition-all duration-500 ${isOpened ? 'border-slate-700 bg-slate-900 shadow-md px-4 py-3' : 'border-slate-900 bg-slate-950 h-14 items-center'}`}>
+            <div
+              key={index}
+              className={`flex items-center rounded-xl border transition-all duration-500 ${
+                isOpened
+                  ? 'border-slate-700/80 bg-slate-900 shadow-sm px-4 py-3 gap-3'
+                  : 'border-slate-900 bg-slate-950/60 h-12 justify-center'
+              }`}
+            >
               {isOpened ? (
                 <>
-                  <span className="text-base font-bold text-slate-100">{formatName(name)}</span>
-                  {isGameOver && info && (
-                    <span className="text-[11px] text-slate-500 mt-0.5">{info}</span>
-                  )}
+                  <div className="w-6 h-6 rounded-lg bg-red-600/10 border border-red-500/20 flex items-center justify-center shrink-0">
+                    <span className="text-[10px] font-bold text-red-500">{index + 1}</span>
+                  </div>
+                  <div className="min-w-0">
+                    <span className="text-sm font-bold text-slate-100 block leading-tight">{formatName(name)}</span>
+                    {isGameOver && info && (
+                      <span className="text-[11px] text-slate-500 leading-tight block mt-0.5">{info}</span>
+                    )}
+                  </div>
                 </>
               ) : (
-                <span className="text-slate-800 font-bold">{index + 1}</span>
+                <span className="text-slate-800 font-bold text-sm">{index + 1}</span>
               )}
             </div>
           );
@@ -359,10 +371,6 @@ export default function TakimArkadasiClient() {
         </div>
       </section>
 
-      <style jsx global>{`
-        @keyframes error-ping { 0% { transform: scale(0.5); opacity: 0; } 50% { opacity: 0.8; } 100% { transform: scale(1.2); opacity: 0; } }
-        .animate-error-ping { animation: error-ping 0.6s ease-out forwards; }
-      `}</style>
     </div>
   );
 }

@@ -1,31 +1,143 @@
-@import "tailwindcss"; 
+@import "tailwindcss";
 
 :root {
   --font-bebas: 'Bebas Neue', sans-serif;
 }
 
-/* Tenaball Tarzı Kutuların Açılma Animasyonu */
-@keyframes revealCorrect {
-  0% { transform: scale(1); background: #0f172a; }
-  50% { transform: scale(1.1); background: #ffffff; color: #000000; }
-  100% { transform: scale(1); background: #22c55e; color: #ffffff; }
+/* ============================================================
+   TEMEL YAZIM / TYPOGRAPHY
+   ============================================================ */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* ============================================================
+   FONT UTILITY
+   ============================================================ */
+
+.font-bebas {
+  font-family: var(--font-bebas);
+}
+
+/* ============================================================
+   ANİMASYONLAR
+   ============================================================ */
+
+/* Doğru cevap açılma animasyonu */
+@keyframes revealCorrect {
+  0%   { transform: scale(1);   background: #0f172a; }
+  50%  { transform: scale(1.1); background: #ffffff; color: #000000; }
+  100% { transform: scale(1);   background: #22c55e; color: #ffffff; }
+}
 .correct-reveal {
   animation: revealCorrect 0.5s ease-in-out forwards;
 }
 
-/* Sarsıntı Efekti (Yanlış Cevap) */
+/* Sarsıntı efekti — yanlış cevap */
 @keyframes shake {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  75% { transform: translateX(5px); }
+  10%, 90% { transform: translate3d(-1px, 0, 0); }
+  20%, 80%  { transform: translate3d(2px,  0, 0); }
+  30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+  40%, 60%  { transform: translate3d(4px,  0, 0); }
 }
-
 .animate-shake {
-  animation: shake 0.2s ease-in-out 0s 2;
+  animation: shake 0.4s cubic-bezier(.36, .07, .19, .97) both;
 }
 
-.font-bebas {
-  font-family: var(--font-bebas);
+/* Yukarı zıplama — +5 saniye bonusu */
+@keyframes bounce-up {
+  0%   { transform: translateY(0);    opacity: 0; }
+  50%  { transform: translateY(-20px); opacity: 1; }
+  100% { transform: translateY(-40px); opacity: 0; }
+}
+.animate-bounce-up {
+  animation: bounce-up 0.8s ease-out forwards;
+}
+
+/* Sola kayarak giriş — doğru cevap satırı */
+@keyframes slideIn {
+  from { transform: translateX(-20px); opacity: 0; }
+  to   { transform: translateX(0);     opacity: 1; }
+}
+.animate-slide-in {
+  animation: slideIn 0.4s ease-out forwards;
+}
+
+/* Dışa doğru patlama — büyük X hatası */
+@keyframes popOut {
+  0%   { transform: scale(0.5); opacity: 0;   }
+  50%  { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1.5); opacity: 0;   }
+}
+.animate-pop-out {
+  animation: popOut 0.5s ease-out forwards;
+}
+
+/* Ping efekti — takım arkadaşı hata X'i */
+@keyframes error-ping {
+  0%   { transform: scale(0.5); opacity: 0;   }
+  50%  {                        opacity: 0.8; }
+  100% { transform: scale(1.2); opacity: 0;   }
+}
+.animate-error-ping {
+  animation: error-ping 0.6s ease-out forwards;
+}
+
+/* Parıltı geçişi — doğru cevap vurgusu */
+@keyframes shimmer {
+  0%   { transform: translateX(-100%) skewX(-20deg); opacity: 0;   }
+  50%  {                                             opacity: 0.8; }
+  100% { transform: translateX(100%)  skewX(-20deg); opacity: 0;   }
+}
+.animate-shimmer {
+  animation: shimmer 0.6s ease-out forwards;
+}
+
+/* ============================================================
+   KAYDIRMA ÇUBUĞU (SCROLLBAR)
+   ============================================================ */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1e293b transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+/* Bileşen bazlı ince scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+/* ============================================================
+   GENEL SELECTION RENGİ
+   ============================================================ */
+
+::selection {
+  background-color: rgba(239, 68, 68, 0.3);
 }
