@@ -233,6 +233,27 @@
   "targets": ["Volkan Demirel", "Wederson", "Diego Lugano", "Edu Dracena", "Gökhan Gönül", "Uğur Boral", "Selçuk Şahin", "Mehmet Aurelio", "Deivid De Souza", "Alex De Souza", "Mateja Kezman",
   "Serdar Kulbilge", "Yasin Çakmak", "Colin Kazım Richards", "Can Arat", "Ali Bilgin", "Önder Turacı", "Semih Şentürk"]
 }, 
+
+{
+  "id": 18,
+  "game": "listeyi-tamamla",
+  "title": "Trabzonspor’un 2011/12 sezonunda Şampiyonlar Ligi’nde Inter’i mağlup ettiği maçtaki ilk 11’i?",
+  "type": "player",
+  "activeDate": "2026-04-10",
+  "targets": [
+    "Tolga Zengin", 
+    "Marek Cech", 
+    "Arkadiusz Glowacki", 
+    "Giray Kaçar", 
+    "Ondrej Celustka", 
+    "Serkan Balcı", 
+    "Halil Altıntop", 
+    "Didier Zokora", 
+    "Gustavo Colman", 
+    "Alanzinho", 
+    "Paulo Henrique"
+  ]
+}, 
   {
     "id": 1,
     "game": "top10",
@@ -437,18 +458,90 @@
       "Alex De Souza", "Elvir Bolic","Marcio Nobre","Edin Visca", "Andre Kona", "Bogdan Stancu", "Bobo", "Mbaye Diagne", "Fernand Coulibaly", "Elvir Baljic"
     ]
   },
+  
   {
     "id": 18,
     "game": "top10",
-    "title": "Süper Lig'de 2023/24 sezonunda en çok gol atan 10 futbolcu?",
+    "title": "Bu sezon Süper Lig'de Beşiktaş formasıyla en fazla süre alan 10 oyuncu? (10 Nisan itibarıyla)",
     "type": "player",
     "activeDate": "2026-04-10",
     "targets": [
+     "Orkun Kökçü", "Wilfried Ndidi", "Ersin Destanoğlu","Vaclav Cerny", "Rıdvan Yılmaz", 
+     "Emirhan Topçu", "Gökhan Sazdağı", "El Bilal Toure", "Tammy Abraham", "Tiago Djalo"
+    ]
+  },
+{
+    "id": 19,
+    "game": "top10",
+    "title": "Süper Lig'de 2023/24 sezonunda en çok gol atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-11",
+    "targets": [
       "Mauro Icardi", "Edin Dzeko", "Mame Thiam", "Rey Manaj",
-      "Krzysztof Piatek", "Adam Buksa", "Paul Onuachu", "Denis Draguş",
+      "Krzysztof Piatek", "Adam Buksa", "Paul Onuachu", "Denis Dragus",
       "Nuno Da Costa", "Aytaç Kara"
     ]
   },
+  {
+    "id": 20,
+    "game": "top10",
+    "title": "La Liga'da en çok maça çıkan 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-12",
+    "targets": [
+     "Enes Ünal", "Nihat Kahveci", "Arda Turan", "Tayfun Korkut", "Okay Yokuşlu", 
+     "Arda Güler", "Emre Çolak", "Cenk Özkaçar", "Emre Mor", "Mehmet Topal"
+    ]
+  },
+ {
+    "id": 21,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de en fazla süre alan 2004 ve sonrası doğumlu futbolcular? (13 Nisan itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-04-13",
+    "targets": [
+     "Anthony Dennis", "Felipe Augusto", "Ruan", "Christ Inao Oulai", "Adam Arous",
+     "Barış Kalaycı", "Baran Gezek", "Uchenna Ogundu", "Joseph Nonge", "Jankat Yılmaz"
+    ]
+  },
+  {
+    "id": 22,
+    "game": "top10",
+    "title": "Mevcut Süper Lig oyuncuları arasında Süper Lig tarihinin en golcü oyuncuları?",
+    "type": "player",
+    "activeDate": "2026-04-14",
+    "targets": [
+     "Cenk Tosun", "Edin Visca", "Emre Akbaba", "Mauro Icardi", "Alexandru Maxim", 
+     "Umut Nayir", "Anderson Talisca", "Deniz Türüç", "Kerem Aktürkoğlu", "İrfan Can Kahveci"
+    ]
+  },
+
+  {
+    "id": 23,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en çok maça çıkan yabancı futbolcular? (Sonradan Türk vatandaşı olanlar dahil)",
+    "type": "player",
+    "activeDate": "2026-04-15",
+    "targets": [
+     "Fernando Muslera", "Edin Visca", "Wederson", "Tita", "Misko Mirkovic",
+     "Abdelzaher El Saka", "Diego Angelo", "Marcio Nobre", "Elvir Bolic", "Roman Dabrowski"
+
+    ]
+  },
+
+  {
+    "id": 26,
+    "game": "top10",
+    "title": "Bundesliga'da en çok maça çıkan 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-18",
+    "targets": [
+     "Halil Altıntop", "Ömer Toprak", "Nuri Şahin", "Yıldıray Baştürk", "Yunus Mallı",
+     "Hamit Altıntop", "Salih Özcan", "Atakan Karazor", "Özcan Arkoç", "Ozan Kabak"
+    ]
+  },
+
+
   {
     "id": 1,
     "game": "kariyer-yolu",
