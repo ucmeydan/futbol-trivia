@@ -27,7 +27,7 @@ export default function ListeyiTamamlaClient() {
   const [today, setToday] = useState("");
   const [gameQuestions, setGameQuestions] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  
+
   const [query, setQuery] = useState('');
   const [foundItems, setFoundItems] = useState<string[]>([]);
   const [wrongGuesses, setWrongGuesses] = useState<string[]>([]);
@@ -43,7 +43,7 @@ export default function ListeyiTamamlaClient() {
   const [copySuccess, setCopySuccess] = useState(false);
   const [giveUpConfirm, setGiveUpConfirm] = useState(false);
   const [showStatsPopup, setShowStatsPopup] = useState(false);
-  
+
   const [stats, setStats] = useState({
     totalGames: 0,
     wins: 0,
@@ -63,11 +63,11 @@ export default function ListeyiTamamlaClient() {
       q.game === "listeyi-tamamla" && q.activeDate <= dateStr
     );
     setGameQuestions(filtered);
-    
+
     if (filtered.length > 0) {
       const latestIdx = filtered.length - 1;
       setCurrentIndex(latestIdx);
-      
+
       const lastPlayed = localStorage.getItem(`listeyi_tamamla_last_played_${filtered[latestIdx].id}`);
       if (lastPlayed === dateStr) {
         setIsGameOver(true);
@@ -79,7 +79,7 @@ export default function ListeyiTamamlaClient() {
         }
       }
     }
-    
+
     const savedStats = localStorage.getItem('listeyi_tamamla_stats');
     if (savedStats) setStats(JSON.parse(savedStats));
   }, []);
@@ -119,13 +119,13 @@ export default function ListeyiTamamlaClient() {
       if (currentQ.type === 'player') sourceData = playersData as string[];
       else if (currentQ.type === 'team-tr' || currentQ.type === 'team') sourceData = teamsData as string[];
       else if (currentQ.type === 'team-eu') sourceData = europeanTeamsData as string[];
-      
+
       const normalizedQuery = normalizeText(query);
       const uniqueItems = Array.from(new Set(sourceData));
       const filtered = uniqueItems
         .filter(item => normalizeText(item).includes(normalizedQuery))
         .filter(item => !foundItems.some(f => normalizeText(f) === normalizeText(item)))
-        .filter(item => !wrongGuesses.some(w => normalizeText(w) === normalizeText(query)))
+        .filter(item => !wrongGuesses.some(w => normalizeText(w) === normalizeText(item)))
         .slice(0, 5);
       setSuggestions(filtered);
       setSelectedIndex(0);
@@ -136,27 +136,34 @@ export default function ListeyiTamamlaClient() {
 
   const currentQ = gameQuestions[currentIndex];
 
-  const finishGame = (won: boolean) => {
+  // Bug fix: effectiveFoundItems parametresi eklendi — stale closure sorununu çözer.
+  // handleGuess'ten çağrıldığında state henüz güncellenmediği için
+  // yeni listeyi doğrudan argüman olarak iletiyoruz.
+  const finishGame = (won: boolean, effectiveFoundItems?: string[]) => {
     if (isGameOver) return;
+
+    const itemsToSave = effectiveFoundItems ?? foundItems;
 
     setIsGameOver(true);
     setIsActive(false);
     setIsWin(won);
-    
+
     if (currentQ) {
-      const finalScore = won ? currentQ.targets.length : foundItems.length;
-      
+      const finalScore = won ? currentQ.targets.length : itemsToSave.length;
+
       localStorage.setItem(`listeyi_tamamla_last_played_${currentQ.id}`, today);
       localStorage.setItem(`listeyi_tamamla_session_${currentQ.id}`, JSON.stringify({
-        found: foundItems,
+        found: itemsToSave,
         won: won
       }));
 
       const currentStatsRaw = localStorage.getItem('listeyi_tamamla_stats');
-      const currentStats = currentStatsRaw ? JSON.parse(currentStatsRaw) : { totalGames: 0, wins: 0, bestScore: 0, highestPercentage: 0 };
-      
+      const currentStats = currentStatsRaw
+        ? JSON.parse(currentStatsRaw)
+        : { totalGames: 0, wins: 0, bestScore: 0, highestPercentage: 0 };
+
       const currentPercentage = Math.round((finalScore / currentQ.targets.length) * 100);
-      
+
       const updatedStats = {
         totalGames: currentStats.totalGames + 1,
         wins: won ? currentStats.wins + 1 : currentStats.wins,
@@ -167,7 +174,7 @@ export default function ListeyiTamamlaClient() {
       setStats(updatedStats);
       localStorage.setItem('listeyi_tamamla_stats', JSON.stringify(updatedStats));
     }
-    
+
     setTimeout(() => setShowStatsPopup(true), 1000);
   };
 
@@ -184,9 +191,12 @@ export default function ListeyiTamamlaClient() {
       setTimeLeft(prev => prev + 5);
       setBonusAnim(true);
       setTimeout(() => setBonusAnim(false), 800);
-      if (newFound.length === currentQ.targets.length) finishGame(true);
+      // Bug fix: newFound geçiriliyor — state henüz güncellenmedi
+      if (newFound.length === currentQ.targets.length) finishGame(true, newFound);
     } else {
-      if (!wrongGuesses.some(w => normalizeText(w) === normalizeText(guess))) setWrongGuesses(prev => [...prev, guess]);
+      if (!wrongGuesses.some(w => normalizeText(w) === normalizeText(guess))) {
+        setWrongGuesses(prev => [...prev, guess]);
+      }
     }
     setQuery('');
     setSuggestions([]);
@@ -202,10 +212,10 @@ export default function ListeyiTamamlaClient() {
 
   if (!currentQ) {
     return (
-      <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 font-sans text-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600 mb-4"></div>
-        <p className="font-sans">Soru yükleniyor...</p>
-        <Link href="/" className="mt-8 text-red-500 font-bold underline font-sans">Anasayfaya Dön</Link>
+      <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 text-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600 mb-4" />
+        <p>Soru yükleniyor...</p>
+        <Link href="/" className="mt-8 text-red-500 font-bold underline">Anasayfaya Dön</Link>
       </div>
     );
   }
@@ -215,150 +225,231 @@ export default function ListeyiTamamlaClient() {
   const offset = circumference - (timeLeft / 90) * circumference;
 
   return (
-    <div className="max-w-md mx-auto min-h-screen flex flex-col p-4 text-white bg-slate-950 font-sans relative overflow-y-auto">
+    <div className="max-w-md mx-auto min-h-screen flex flex-col p-4 text-white bg-slate-950 relative overflow-y-auto">
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} />}
 
+      {/* Üst bar */}
       <div className="flex justify-between items-center mb-4 relative z-10">
         <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors">← Geri Dön</Link>
         {!isGameOver && isActive && (
           <button
-            onClick={() => giveUpConfirm ? finishGame(false) : (setGiveUpConfirm(true), setTimeout(() => setGiveUpConfirm(false), 3000))}
-            className={`text-xs font-bold px-3 py-1 rounded-lg border transition-all ${giveUpConfirm ? 'bg-red-600 border-red-600 text-white animate-pulse' : 'text-red-600 border-red-900/30'}`}
+            onClick={() => giveUpConfirm
+              ? finishGame(false)
+              : (setGiveUpConfirm(true), setTimeout(() => setGiveUpConfirm(false), 3000))
+            }
+            className={`text-xs font-bold px-3 py-1.5 rounded-lg border transition-all ${
+              giveUpConfirm
+                ? 'bg-red-600 border-red-600 text-white animate-pulse'
+                : 'text-red-600 border-red-900/30 hover:border-red-600/50'
+            }`}
           >
             {giveUpConfirm ? 'Emin misin?' : 'Pes Et'}
           </button>
         )}
       </div>
 
+      {/* Soru başlığı ve sayaç */}
       <div className="text-center mb-4 relative z-10">
         <div className="flex items-center justify-center gap-4 mb-2">
-          <button onClick={() => { setCurrentIndex(prev => Math.max(0, prev - 1)); setFoundItems([]); setWrongGuesses([]); setTimeLeft(90); setIsGameOver(false); }} disabled={currentIndex === 0 || isActive || isGameOver} className="text-slate-700 hover:text-red-600 disabled:opacity-0 font-bebas text-xl transition-colors">‹</button>
-          <div className="font-bebas text-sm text-red-600 tracking-tighter uppercase">#{currentQ.id}</div>
-          <button onClick={() => { setCurrentIndex(prev => Math.min(gameQuestions.length - 1, prev + 1)); setFoundItems([]); setWrongGuesses([]); setTimeLeft(90); setIsGameOver(false); }} disabled={currentIndex === gameQuestions.length - 1 || isActive || isGameOver} className="text-slate-700 hover:text-red-600 disabled:opacity-0 font-bebas text-xl transition-colors">›</button>
+          <button
+            onClick={() => {
+              setCurrentIndex(prev => Math.max(0, prev - 1));
+              setFoundItems([]);
+              setWrongGuesses([]);
+              setTimeLeft(90);
+              setIsGameOver(false);
+            }}
+            disabled={currentIndex === 0 || isActive || isGameOver}
+            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-xl transition-colors"
+            aria-label="Önceki soru"
+          >‹</button>
+          <div className="font-bebas text-sm text-red-500 tracking-tighter uppercase">#{currentQ.id}</div>
+          <button
+            onClick={() => {
+              setCurrentIndex(prev => Math.min(gameQuestions.length - 1, prev + 1));
+              setFoundItems([]);
+              setWrongGuesses([]);
+              setTimeLeft(90);
+              setIsGameOver(false);
+            }}
+            disabled={currentIndex === gameQuestions.length - 1 || isActive || isGameOver}
+            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-xl transition-colors"
+            aria-label="Sonraki soru"
+          >›</button>
         </div>
-        <h2 className="text-lg font-bold leading-tight mb-4 px-2 text-slate-100 tracking-tight">{currentQ.title}</h2>
-        
-        <div className="flex justify-between items-center mb-4 px-6">
+        <h2 className="text-base font-bold leading-snug mb-4 px-2 text-slate-100 tracking-tight">{currentQ.title}</h2>
+
+        {/* Sayaç + skor satırı */}
+        <div className="flex justify-between items-center mb-4 px-4">
           <div className="text-left">
             <span className="font-bebas text-xs text-slate-500 block uppercase tracking-widest">Bulunan</span>
-            <span className="font-bebas text-4xl text-white">{foundItems.length}<span className="text-slate-700 text-2xl">/{currentQ.targets.length}</span></span>
+            <span className="font-bebas text-4xl text-white leading-none">
+              {foundItems.length}
+              <span className="text-slate-700 text-2xl">/{currentQ.targets.length}</span>
+            </span>
           </div>
+
           <div className="relative w-24 h-24 flex items-center justify-center">
-            {bonusAnim && <div className="absolute -right-2 -top-2 text-green-500 font-bold text-xl animate-bounce-up z-20">+5</div>}
-            <svg className="transform -rotate-90 w-full h-full absolute inset-0">
+            {bonusAnim && (
+              <div className="absolute -right-2 -top-2 text-green-400 font-bold text-xl animate-bounce-up z-20">
+                +5
+              </div>
+            )}
+            <svg className="transform -rotate-90 w-full h-full absolute inset-0" aria-hidden="true">
               <circle cx="48" cy="48" r={radius} stroke="#0f172a" strokeWidth="5" fill="transparent" />
-              <circle cx="48" cy="48" r={radius} stroke={timeLeft <= 10 ? '#ef4444' : '#22c55e'} strokeWidth="5" fill="transparent" strokeDasharray={circumference} style={{ strokeDashoffset: isGameOver ? 0 : offset, transition: 'stroke-dashoffset 1s linear' }} strokeLinecap="round" />
+              <circle
+                cx="48" cy="48" r={radius}
+                stroke={timeLeft <= 10 ? '#ef4444' : '#22c55e'}
+                strokeWidth="5" fill="transparent"
+                strokeDasharray={circumference}
+                style={{ strokeDashoffset: isGameOver ? 0 : offset, transition: 'stroke-dashoffset 1s linear' }}
+                strokeLinecap="round"
+              />
             </svg>
-            <span className="font-bebas text-3xl text-white">{isGameOver ? "✓" : timeLeft}</span>
+            <span className="font-bebas text-3xl text-white">
+              {isGameOver ? '✓' : timeLeft}
+            </span>
           </div>
         </div>
       </div>
 
+      {/* Bulunan / yanlış cevaplar */}
       <div className="flex-grow overflow-y-auto mb-4 px-1 custom-scrollbar relative z-10">
         <div className="flex flex-wrap gap-2 mb-4">
           {foundItems.map((p, i) => (
-            <div key={i} className="bg-green-600/20 border border-green-500/40 px-3 py-1.5 rounded-lg animate-in zoom-in duration-200">
+            <div key={i} className="bg-green-600/15 border border-green-500/30 px-3 py-1.5 rounded-lg animate-in zoom-in duration-200">
               <span className="text-xs font-semibold text-green-400">{formatName(p)}</span>
             </div>
           ))}
-          {showAll && currentQ.targets.filter((t: string) => !foundItems.some(f => normalizeText(f) === normalizeText(t))).map((t: string, i: number) => (
-            <div key={i} className="bg-sky-900/30 border border-sky-400/30 px-3 py-1.5 rounded-lg">
-              <span className="text-xs font-semibold text-sky-400">{formatName(t)}</span>
-            </div>
-          ))}
+          {showAll && currentQ.targets
+            .filter((t: string) => !foundItems.some(f => normalizeText(f) === normalizeText(t)))
+            .map((t: string, i: number) => (
+              <div key={i} className="bg-sky-900/20 border border-sky-400/20 px-3 py-1.5 rounded-lg">
+                <span className="text-xs font-semibold text-sky-400">{formatName(t)}</span>
+              </div>
+            ))
+          }
         </div>
-        {!isGameOver && (
+
+        {!isGameOver && wrongGuesses.length > 0 && (
           <div className="flex flex-wrap gap-2 border-t border-slate-900 pt-4">
             {wrongGuesses.map((w, i) => (
-              <div key={i} className="bg-red-950/30 border border-red-900/40 px-3 py-1.5 rounded-lg animate-shake">
-                <span className="text-xs font-medium text-red-500">{formatName(w)}</span>
+              <div key={i} className="bg-red-950/20 border border-red-900/30 px-3 py-1.5 rounded-lg">
+                <span className="text-xs font-medium text-red-500/80">{formatName(w)}</span>
               </div>
             ))}
           </div>
         )}
       </div>
 
+      {/* İstatistik popup */}
       {showStatsPopup && (
         <div className="absolute inset-0 bg-slate-950/90 z-[110] flex items-center justify-center p-6 animate-in fade-in duration-500">
           <div className="w-full bg-slate-900 border-2 border-slate-800 rounded-3xl p-6 shadow-2xl relative text-white text-center">
-            <button onClick={() => setShowStatsPopup(false)} className="absolute top-4 right-4 text-slate-500 hover:text-white transition-colors">✕</button>
-            <h3 className="font-bold text-lg mb-6 italic">İstatistikler</h3>
-            
-            <div className="grid grid-cols-2 gap-4 mb-8">
-              <div className="bg-slate-950/50 p-4 rounded-2xl border border-slate-800">
-                <div className="text-2xl font-bold">{stats.totalGames}</div>
-                <div className="text-[10px] text-slate-500 font-medium mt-1">Toplam oyun</div>
-              </div>
-              <div className="bg-slate-950/50 p-4 rounded-2xl border border-slate-800">
-                <div className="text-2xl font-bold text-green-500">{stats.wins}</div>
-                <div className="text-[10px] text-slate-500 font-medium mt-1">Tamamlanan liste</div>
-              </div>
-              <div className="bg-slate-950/50 p-4 rounded-2xl border border-slate-800">
-                <div className="text-2xl font-bold text-red-500">{stats.bestScore}</div>
-                <div className="text-[10px] text-slate-500 font-medium mt-1">Doğru cevap rekoru</div>
-              </div>
-              <div className="bg-slate-950/50 p-4 rounded-2xl border border-slate-800">
-                <div className="text-2xl font-bold text-sky-500">%{stats.highestPercentage}</div>
-                <div className="text-[10px] text-slate-500 font-medium mt-1">En iyi yüzde</div>
-              </div>
+            <button
+              onClick={() => setShowStatsPopup(false)}
+              className="absolute top-4 right-4 text-slate-500 hover:text-white transition-colors text-lg"
+              aria-label="Kapat"
+            >✕</button>
+            <h3 className="font-bold text-lg mb-6">İstatistikler</h3>
+
+            <div className="grid grid-cols-2 gap-3 mb-6">
+              {[
+                { value: stats.totalGames, label: 'Toplam oyun', color: 'text-white' },
+                { value: stats.wins, label: 'Tamamlanan liste', color: 'text-green-400' },
+                { value: stats.bestScore, label: 'Doğru cevap rekoru', color: 'text-red-400' },
+                { value: `%${stats.highestPercentage}`, label: 'En iyi yüzde', color: 'text-sky-400' },
+              ].map(({ value, label, color }) => (
+                <div key={label} className="bg-slate-950/50 p-4 rounded-2xl border border-slate-800">
+                  <div className={`text-2xl font-bold ${color}`}>{value}</div>
+                  <div className="text-[10px] text-slate-500 font-medium mt-1">{label}</div>
+                </div>
+              ))}
             </div>
 
-            <div className="flex items-center justify-between p-3 bg-slate-950/50 rounded-2xl border border-slate-800 mb-6 text-left">
+            <div className="flex items-center justify-between p-3 bg-slate-950/50 rounded-2xl border border-slate-800 mb-4 text-left">
               <div>
                 <p className="text-slate-500 text-[10px] font-bold">Sıradaki soru</p>
-                <p className="font-bold text-lg text-white mt-1 leading-none">{nextGameTime}</p>
+                <p className="font-bold text-lg text-white mt-1 leading-none tabular-nums">{nextGameTime}</p>
               </div>
               {!isWin && !showAll && (
-                <button onClick={() => { setShowAll(true); setShowStatsPopup(false); }} className="px-4 py-2 bg-slate-800 text-white rounded-xl text-[11px] font-bold">Cevapları Gör</button>
+                <button
+                  onClick={() => { setShowAll(true); setShowStatsPopup(false); }}
+                  className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors"
+                >
+                  Cevapları Gör
+                </button>
               )}
             </div>
 
-            <button onClick={handleShare} className="w-full bg-white text-black py-4 rounded-2xl font-bold text-sm active:scale-95 transition-transform">
-              {copySuccess ? "Kopyalandı!" : "Paylaş"}
+            <button
+              onClick={handleShare}
+              className="w-full bg-white text-black py-4 rounded-2xl font-bold text-sm active:scale-95 transition-transform"
+            >
+              {copySuccess ? 'Kopyalandı!' : 'Paylaş'}
             </button>
           </div>
         </div>
       )}
 
+      {/* Giriş / oyun sonu */}
       <div className="mt-auto relative z-10 pb-4">
         {!isGameOver ? (
           <div className="relative">
             {suggestions.length > 0 && (
               <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden z-50 shadow-2xl">
                 {suggestions.map((s, i) => (
-                  <button key={i} onClick={() => handleGuess(s)} className={`w-full p-4 text-left border-b border-slate-700 last:border-0 text-sm font-semibold text-white ${selectedIndex === i ? "bg-red-600" : "hover:bg-red-600"}`}>{formatName(s)}</button>
+                  <button
+                    key={i}
+                    onClick={() => handleGuess(s)}
+                    className={`w-full p-3.5 text-left border-b border-slate-700/60 last:border-0 text-sm font-semibold text-white transition-colors ${selectedIndex === i ? 'bg-red-600' : 'hover:bg-red-600/80'}`}
+                  >
+                    {formatName(s)}
+                  </button>
                 ))}
               </div>
             )}
             <input
-              ref={inputRef} value={query}
-              onChange={(e) => { setQuery(e.target.value); if (e.target.value.length > 0 && !isActive) setIsActive(true); }}
+              ref={inputRef}
+              value={query}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                if (e.target.value.length > 0 && !isActive) setIsActive(true);
+              }}
               onKeyDown={(e) => {
-                if (e.key === 'ArrowDown') { e.preventDefault(); setSelectedIndex(prev => (prev < suggestions.length - 1 ? prev + 1 : prev)); }
-                if (e.key === 'ArrowUp') { e.preventDefault(); setSelectedIndex(prev => (prev > 0 ? prev - 1 : prev)); }
+                if (e.key === 'ArrowDown') { e.preventDefault(); setSelectedIndex(prev => Math.min(prev + 1, suggestions.length - 1)); }
+                if (e.key === 'ArrowUp')   { e.preventDefault(); setSelectedIndex(prev => Math.max(prev - 1, 0)); }
                 if (e.key === 'Enter' && suggestions[selectedIndex]) handleGuess(suggestions[selectedIndex]);
               }}
-              placeholder={currentQ?.type.startsWith('team') ? "Takım ara..." : "Futbolcu ara..."}
-              className="w-full p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 focus:border-red-600 outline-none font-bold text-base text-white"
+              placeholder={currentQ?.type.startsWith('team') ? 'Takım ara...' : 'Futbolcu ara...'}
+              className="w-full p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 focus:border-red-600 outline-none font-bold text-base text-white placeholder:text-slate-600 transition-colors"
             />
           </div>
         ) : (
           <div className="p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 animate-in zoom-in duration-300">
             <div className="flex items-center justify-between mb-3 bg-slate-950/50 p-3 rounded-xl border border-slate-800">
               <div className="text-left">
-                <p className="text-slate-500 text-[10px] font-semibold uppercase">Sıradaki soru</p>
-                <p className="font-bold text-lg text-white mt-1 leading-none">{nextGameTime}</p>
+                <p className="text-slate-500 text-[10px] font-semibold uppercase tracking-wide">Sıradaki soru</p>
+                <p className="font-bold text-lg text-white mt-1 leading-none tabular-nums">{nextGameTime}</p>
               </div>
-              <button onClick={() => setShowStatsPopup(true)} className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors">İstatistik</button>
+              <button
+                onClick={() => setShowStatsPopup(true)}
+                className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors"
+              >
+                İstatistik
+              </button>
             </div>
-            <button onClick={handleShare} className="w-full bg-white text-black py-3 rounded-xl font-bold text-xs hover:bg-slate-200 transition-all active:scale-95">
-              {copySuccess ? "KOPYALANDI" : "PAYLAŞ"}
+            <button
+              onClick={handleShare}
+              className="w-full bg-white text-black py-3 rounded-xl font-bold text-xs hover:bg-slate-100 transition-colors active:scale-95"
+            >
+              {copySuccess ? 'KOPYALANDI' : 'PAYLAŞ'}
             </button>
           </div>
         )}
       </div>
 
-      {/* SEO içerik bloğu — koşulsuz, her zaman görünür */}
+      {/* SEO içerik bloğu */}
       <section className="mt-8 pt-6 border-t border-slate-900 pb-10">
         <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">
           Listeyi Tamamla hakkında
@@ -368,41 +459,26 @@ export default function ListeyiTamamlaClient() {
             Listeyi Tamamla, Süper Lig ve Türk futboluna ait günlük listeleri
             belirli bir süre içinde tamamlamaya çalıştığın bilgi yarışması oyunudur.
             Her gün yeni bir konu açıklanır ve 90 saniyelik geri sayım başlar.
-            Amacın, listede yer alan tüm isimleri süre dolmadan bulmaktır.
           </p>
           <p>
-            Oyunun en kritik özelliği süre mekanizmasıdır. Tahmin yazmaya başladığın
-            anda geri sayım devreye girer. Her doğru cevap süreye 5 saniye ekler;
-            bu nedenle hızlı düşünmek kadar doğru düşünmek de önem taşır. Yanlış
-            tahminler süreyi etkilemez ancak ekranda görünür kalır.
+            Tahmin yazmaya başladığın anda geri sayım devreye girer. Her doğru
+            cevap süreye 5 saniye ekler; bu nedenle hızlı düşünmek kadar doğru
+            düşünmek de önem taşır. Yanlış tahminler süreyi etkilemez.
           </p>
           <p>
             Sorular Süper Lig tarihini, milli takım kadrosunu, Avrupa kupalarındaki
-            Türk kulüplerini ve belirli sezonlara ait istatistikleri kapsar. Bir
-            sezonun kadrosunu, belirli bir milliyetten gelen futbolcuları ya da
-            tarihin önemli listelerini konu alan sorularla karşılaşabilirsin.
+            Türk kulüplerini ve belirli sezonlara ait istatistikleri kapsar.
           </p>
           <p>
             İstatistik sayfasında toplam oyun sayını, kaç listeyi tamamladığını,
-            tek seferde en fazla kaç doğru bulduğunu ve en yüksek yüzde skorunu
-            görebilirsin. Geçmiş soruları arşiv navigasyonuyla tekrar oynayabilir,
-            farklı kategorilerdeki sorularda kendini test edebilirsin.
+            en fazla kaç doğru bulduğunu ve en yüksek yüzde skorunu görebilirsin.
           </p>
           <p>
-            Sorular her gün güncellenir. Günlük seriyi korumak ve istatistiklerini
-            geliştirmek için her gün geri dön.
+            Sorular her gün güncellenir. Arşiv navigasyonuyla geçmiş soruları da
+            oynayabilirsin.
           </p>
         </div>
       </section>
-
-      <style jsx>{`
-        .custom-scrollbar::-webkit-scrollbar { width: 3px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 10px; }
-        .animate-shake { animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both; }
-        @keyframes shake { 10%, 90% { transform: translate3d(-1px, 0, 0); } 20% { transform: translate3d(2px, 0, 0); } 30%, 50%, 70% { transform: translate3d(-4px, 0, 0); } 40%, 60% { transform: translate3d(4px, 0, 0); } }
-        @keyframes bounce-up { 0% { transform: translateY(0); opacity: 0; } 50% { transform: translateY(-20px); opacity: 1; } 100% { transform: translateY(-40px); opacity: 0; } }
-        .animate-bounce-up { animation: bounce-up 0.8s ease-out forwards; }
-      `}</style>
     </div>
   );
 }
