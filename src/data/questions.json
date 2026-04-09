@@ -427,6 +427,16 @@
     "Mauro Icardi"
   ]
 }, 
+{
+    "id": 17,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla gol atan 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-09",
+    "targets": [
+      "Alex De Souza", "Elvir Bolic","Marcio Nobre","Edin Visca", "Andre Kona", "Bogdan Stancu", "Bobo", "Mbaye Diagne", "Fernand Coulibaly", "Elvir Baljic"
+    ]
+  },
   {
     "id": 18,
     "game": "top10",
