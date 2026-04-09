@@ -5,6 +5,8 @@ import playersData from '@/data/players.json';
 import allQuestions from '@/data/questions.json';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
+import { useTheme } from '../ThemeProvider';
+import ThemeToggle from '../ThemeToggle';
 
 const normalizeText = (text: string) => {
   if (!text) return "";
@@ -154,7 +156,9 @@ export default function TakimArkadasiClient() {
     });
   };
 
-  if (!mounted || !currentQ) return <div className="min-h-screen bg-slate-950" />;
+  const { isDark } = useTheme();
+
+  if (!mounted || !currentQ) return <div className={`min-h-screen ${isDark ? 'bg-slate-950' : 'bg-slate-50'}`} />;
 
   const winPercentage = stats.totalGames > 0 ? Math.round((stats.wins / stats.totalGames) * 100) : 0;
   const maxDist = Math.max(...Object.values(stats.distribution), 1);
@@ -162,7 +166,7 @@ export default function TakimArkadasiClient() {
 
   if (showStatsPage) {
     return (
-      <div className="max-w-md mx-auto min-h-screen flex flex-col p-6 text-white bg-slate-950 font-sans justify-center">
+      <div className={`max-w-md mx-auto min-h-screen flex flex-col p-6 font-sans justify-center ${isDark ? 'bg-slate-950 text-white' : 'bg-slate-50 text-slate-900'}`}>
         <div className="w-full bg-slate-900 border-2 border-slate-800 rounded-[2.5rem] p-8 shadow-2xl relative text-center">
           <button onClick={() => setShowStatsPage(false)} className="absolute top-6 right-6 text-slate-500 hover:text-white transition-colors">✕</button>
           <h3 className="font-bold text-lg mb-8 italic">İstatistikler</h3>
@@ -205,9 +209,9 @@ export default function TakimArkadasiClient() {
           <button onClick={() => setShowStatsPage(false)} className="w-full bg-slate-800 text-white py-3 rounded-xl text-xs font-semibold">Kapat</button>
         </div>
 
-        <section className="mt-8 pt-6 border-t border-slate-900 pb-4">
-          <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Takım Arkadaşı hakkında</h2>
-          <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
+        <section className={`mt-8 pt-6 border-t pb-4 ${isDark ? 'border-slate-900' : 'border-slate-200'}`}>
+          <h2 className={`text-xs tracking-[0.2em] uppercase mb-4 ${isDark ? 'text-slate-600' : 'text-slate-500'}`}>Takım Arkadaşı hakkında</h2>
+          <div className={`space-y-3 text-xs leading-relaxed font-light ${isDark ? 'text-slate-700' : 'text-slate-600'}`}>
             <p>
               Takım Arkadaşı, yolu Türkiye'den geçmiş futbolcuları kulüp veya
               milli takım kariyerindeki eski takım arkadaşlarından tahmin ettiğin
@@ -226,12 +230,12 @@ export default function TakimArkadasiClient() {
   }
 
   return (
-    <div className="max-w-md mx-auto min-h-screen flex flex-col p-4 text-white bg-slate-950 font-sans relative overflow-y-auto overflow-x-hidden">
+    <div className={`max-w-md mx-auto min-h-screen flex flex-col p-4 font-sans relative overflow-y-auto overflow-x-hidden ${isDark ? 'bg-slate-950 text-white' : 'bg-slate-50 text-slate-900'}`}>
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} />}
 
       <div className="flex flex-col items-center mb-8">
         <div className="w-full flex justify-between items-center mb-4">
-          <Link href="/" className="text-slate-500 font-medium text-xs hover:text-white transition-colors">← Geri dön</Link>
+          <Link href="/" className={`text-slate-500 font-medium text-xs transition-colors ${isDark ? 'hover:text-white' : 'hover:text-slate-900'}`}>← Geri dön</Link>
           <div className="flex items-center gap-4">
             <button onClick={() => { setCurrentIndex(prev => Math.max(0, prev - 1)); setIsGameOver(false); setAttempts(1); }} disabled={currentIndex === 0 || isGameOver} className="text-slate-600 hover:text-white disabled:opacity-0 text-xl">‹</button>
             <div className="flex flex-col items-center">
@@ -240,7 +244,7 @@ export default function TakimArkadasiClient() {
             </div>
             <button onClick={() => { setCurrentIndex(prev => Math.min(gameQuestions.length - 1, prev + 1)); setIsGameOver(false); setAttempts(1); }} disabled={currentIndex === gameQuestions.length - 1 || isGameOver} className="text-slate-600 hover:text-white disabled:opacity-0 text-xl">›</button>
           </div>
-          <div className="w-10" />
+          <ThemeToggle />
         </div>
       </div>
 
@@ -250,7 +254,7 @@ export default function TakimArkadasiClient() {
             {isGameOver ? currentQ.correctPlayer : "?"}
           </span>
         </div>
-        <p className="text-slate-400 text-[13px] font-medium text-center mt-6 px-6 leading-snug">
+        <p className={`text-[13px] font-medium text-center mt-6 px-6 leading-snug ${isDark ? 'text-slate-400' : 'text-slate-600'}`}>
           Bu 5 futbolcuyla aynı takımda oynamış olan oyuncu kim?
         </p>
       </div>
@@ -341,9 +345,9 @@ export default function TakimArkadasiClient() {
         )}
       </div>
 
-      <section className="mt-6 pt-6 border-t border-slate-900 pb-10">
-        <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Takım Arkadaşı hakkında</h2>
-        <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
+      <section className={`mt-6 pt-6 border-t pb-10 ${isDark ? 'border-slate-900' : 'border-slate-200'}`}>
+        <h2 className={`text-xs tracking-[0.2em] uppercase mb-4 ${isDark ? 'text-slate-600' : 'text-slate-500'}`}>Takım Arkadaşı hakkında</h2>
+        <div className={`space-y-3 text-xs leading-relaxed font-light ${isDark ? 'text-slate-700' : 'text-slate-600'}`}>
           <p>
             Takım Arkadaşı, yolu Türkiye'den geçmiş futbolcuları kulüp veya milli
             takım kariyerindeki eski takım arkadaşlarından tahmin ettiğin günlük bir

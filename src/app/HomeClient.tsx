@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useTheme } from './ThemeProvider';
 
 type IconFn = (isDark: boolean) => React.ReactNode;
 
@@ -104,18 +104,7 @@ const ctaColorMap: Record<string, string> = {
 };
 
 export default function HomeClient() {
-  const [isDark, setIsDark] = useState(true);
-
-  useEffect(() => {
-    const saved = localStorage.getItem('ft-theme');
-    if (saved === 'light') setIsDark(false);
-  }, []);
-
-  const toggleTheme = () => {
-    const next = !isDark;
-    setIsDark(next);
-    localStorage.setItem('ft-theme', next ? 'dark' : 'light');
-  };
+  const { isDark, toggle: toggleTheme } = useTheme();
 
   const th = isDark ? {
     page: 'bg-slate-950 text-white',
@@ -144,17 +133,17 @@ export default function HomeClient() {
     titleGradient: 'from-slate-900 via-slate-700 to-slate-500',
     badge: 'bg-red-50 border-red-200',
     badgeText: 'text-red-600',
-    tagline: 'text-slate-600',
-    subtitle: 'text-slate-400',
+    tagline: 'text-slate-700',
+    subtitle: 'text-slate-500',
     card: 'bg-white border-slate-200 shadow-sm',
     cardTitle: 'text-slate-900',
-    cardLabel: 'text-slate-500',
-    cardText: 'text-slate-500',
+    cardLabel: 'text-slate-600',
+    cardText: 'text-slate-600',
     decorNum: 'text-slate-900/[0.04]',
     seoSection: 'border-slate-200',
-    seoHeading: 'text-slate-400',
-    seoSubHeading: 'text-slate-500',
-    seoText: 'text-slate-500',
+    seoHeading: 'text-slate-500',
+    seoSubHeading: 'text-slate-600',
+    seoText: 'text-slate-600',
     footerBorder: 'border-slate-200',
     footerNav: 'text-slate-400 hover:text-slate-900',
     footerDot: 'text-slate-300',

@@ -7,6 +7,8 @@ import europeanTeamsData from '@/data/european_teams.json';
 import allQuestions from '@/data/questions.json';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
+import { useTheme } from '../ThemeProvider';
+import ThemeToggle from '../ThemeToggle';
 
 const formatName = (name: string) => {
   return name.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -53,6 +55,7 @@ export default function ListeyiTamamlaClient() {
 
   const inputRef = useRef<HTMLInputElement>(null);
   const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
+  const { isDark } = useTheme();
 
   useEffect(() => {
     const d = new Date();
@@ -212,7 +215,7 @@ export default function ListeyiTamamlaClient() {
 
   if (!currentQ) {
     return (
-      <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 text-center">
+      <div className={`max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-center ${isDark ? 'bg-slate-950 text-white' : 'bg-slate-50 text-slate-900'}`}>
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600 mb-4" />
         <p>Soru yükleniyor...</p>
         <Link href="/" className="mt-8 text-red-500 font-bold underline">Anasayfaya Dön</Link>
@@ -225,12 +228,15 @@ export default function ListeyiTamamlaClient() {
   const offset = circumference - (timeLeft / 90) * circumference;
 
   return (
-    <div className="max-w-md mx-auto min-h-screen flex flex-col p-4 text-white bg-slate-950 relative overflow-y-auto">
+    <div className={`max-w-md mx-auto min-h-screen flex flex-col p-4 relative overflow-y-auto ${isDark ? 'bg-slate-950 text-white' : 'bg-slate-50 text-slate-900'}`}>
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} />}
 
       {/* Üst bar */}
       <div className="flex justify-between items-center mb-4 relative z-10">
-        <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors">← Geri Dön</Link>
+        <div className="flex items-center gap-2">
+          <Link href="/" className={`text-slate-500 font-bold text-xs transition-colors ${isDark ? 'hover:text-white' : 'hover:text-slate-900'}`}>← Geri Dön</Link>
+          <ThemeToggle />
+        </div>
         {!isGameOver && isActive && (
           <button
             onClick={() => giveUpConfirm
@@ -277,7 +283,7 @@ export default function ListeyiTamamlaClient() {
             aria-label="Sonraki soru"
           >›</button>
         </div>
-        <h2 className="text-base font-bold leading-snug mb-4 px-2 text-slate-100 tracking-tight">{currentQ.title}</h2>
+        <h2 className={`text-base font-bold leading-snug mb-4 px-2 tracking-tight ${isDark ? 'text-slate-100' : 'text-slate-800'}`}>{currentQ.title}</h2>
 
         {/* Sayaç + skor satırı */}
         <div className="flex justify-between items-center mb-4 px-4">
@@ -332,7 +338,7 @@ export default function ListeyiTamamlaClient() {
         </div>
 
         {!isGameOver && wrongGuesses.length > 0 && (
-          <div className="flex flex-wrap gap-2 border-t border-slate-900 pt-4">
+          <div className={`flex flex-wrap gap-2 border-t pt-4 ${isDark ? 'border-slate-900' : 'border-slate-200'}`}>
             {wrongGuesses.map((w, i) => (
               <div key={i} className="bg-red-950/20 border border-red-900/30 px-3 py-1.5 rounded-lg">
                 <span className="text-xs font-medium text-red-500/80">{formatName(w)}</span>
@@ -450,11 +456,11 @@ export default function ListeyiTamamlaClient() {
       </div>
 
       {/* SEO içerik bloğu */}
-      <section className="mt-8 pt-6 border-t border-slate-900 pb-10">
-        <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">
+      <section className={`mt-8 pt-6 border-t pb-10 ${isDark ? 'border-slate-900' : 'border-slate-200'}`}>
+        <h2 className={`text-xs tracking-[0.2em] uppercase mb-4 ${isDark ? 'text-slate-600' : 'text-slate-500'}`}>
           Listeyi Tamamla hakkında
         </h2>
-        <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
+        <div className={`space-y-3 text-xs leading-relaxed font-light ${isDark ? 'text-slate-700' : 'text-slate-600'}`}>
           <p>
             Listeyi Tamamla, Süper Lig ve Türk futboluna ait günlük listeleri
             belirli bir süre içinde tamamlamaya çalıştığın bilgi yarışması oyunudur.
