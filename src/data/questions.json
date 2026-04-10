@@ -254,6 +254,16 @@
     "Paulo Henrique"
   ]
 }, 
+{
+  "id": 19,
+  "game": "listeyi-tamamla",
+  "title": "Beşiktaş'ın 2016/17 sezonu Avrupa Ligi çeyrek final rövanş maçında Lyon ile oynadığı maçın 18 kişilik kadrosu?",
+  "type": "player",
+  "activeDate": "2026-04-11",
+  "targets": ["Fabri", "Adriano", "Dusko Tosic", "Matej Mitrovic", "Gökhan Gönül", "Atiba Hutchinson", "Oğuzhan Özyakup", "Ryan Babel", "Anderson Talisca", 
+  "Ricardo Quaresma", "Cenk Tosun", "Tolga Zengin", "Atınç Nukan", "Caner Erkin", "Andreas Beck", "Gökhan İnler", "Necip Uysal", "Tolgay Arslan"]
+}, 
+  
   {
     "id": 1,
     "game": "top10",
