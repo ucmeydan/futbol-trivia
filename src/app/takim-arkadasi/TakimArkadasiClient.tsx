@@ -46,6 +46,27 @@ export default function TakimArkadasiClient() {
     distribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0 }
   });
 
+  const loadQuestion = (index: number, questionsList: any[]) => {
+    if (index < 0 || index >= questionsList.length) return;
+    const question = questionsList[index];
+    setCurrentIndex(index);
+    setQuery('');
+    setSuggestions([]);
+    setSelectedIndex(-1);
+
+    const saved = localStorage.getItem(`takim_arkadasi_session_${question.id}`);
+    if (saved) {
+      const data = JSON.parse(saved);
+      setAttempts(data.attempts ?? 1);
+      setIsWin(data.isWin ?? false);
+      setIsGameOver(true);
+    } else {
+      setAttempts(1);
+      setIsWin(false);
+      setIsGameOver(false);
+    }
+  };
+
   useEffect(() => {
     setMounted(true);
     setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
@@ -58,7 +79,7 @@ export default function TakimArkadasiClient() {
     );
     setGameQuestions(filtered);
     if (filtered.length > 0) {
-      setCurrentIndex(filtered.length - 1);
+      loadQuestion(filtered.length - 1, filtered);
     }
 
     const savedStats = localStorage.getItem('takim_arkadasi_stats_v2');
@@ -95,6 +116,7 @@ export default function TakimArkadasiClient() {
   const visibleTeammateCount = Math.min(attempts, MAX_TEAMMATES);
 
   const updateStats = (won: boolean, attemptCount: number) => {
+    if (!currentQ) return;
     const newStats = { ...stats };
     newStats.totalGames += 1;
     if (won && attemptCount >= 1 && attemptCount <= 7) {
@@ -106,6 +128,10 @@ export default function TakimArkadasiClient() {
     }
     setStats(newStats);
     localStorage.setItem('takim_arkadasi_stats_v2', JSON.stringify(newStats));
+    localStorage.setItem(`takim_arkadasi_session_${currentQ.id}`, JSON.stringify({
+      attempts: won ? attemptCount : MAX_ATTEMPTS,
+      isWin: won,
+    }));
   };
 
   const handleGuess = (guess: string) => {
@@ -232,13 +258,23 @@ export default function TakimArkadasiClient() {
       <div className="flex flex-col items-center mb-8">
         <div className="w-full flex justify-between items-center mb-4">
           <Link href="/" className="text-slate-500 font-medium text-xs hover:text-white transition-colors">← Geri dön</Link>
-          <div className="flex items-center gap-4">
-            <button onClick={() => { setCurrentIndex(prev => Math.max(0, prev - 1)); setIsGameOver(false); setAttempts(1); }} disabled={currentIndex === 0 || isGameOver} className="text-slate-600 hover:text-white disabled:opacity-0 text-xl">‹</button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => loadQuestion(currentIndex - 1, gameQuestions)}
+              disabled={currentIndex === 0}
+              className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
+              aria-label="Önceki soru"
+            >‹</button>
             <div className="flex flex-col items-center">
               <h1 className="text-2xl font-light tracking-tight text-red-600">Takım Arkadaşı</h1>
               <span className="text-sm font-black text-red-600 tracking-widest mt-1">#{currentQ.id}</span>
             </div>
-            <button onClick={() => { setCurrentIndex(prev => Math.min(gameQuestions.length - 1, prev + 1)); setIsGameOver(false); setAttempts(1); }} disabled={currentIndex === gameQuestions.length - 1 || isGameOver} className="text-slate-600 hover:text-white disabled:opacity-0 text-xl">›</button>
+            <button
+              onClick={() => loadQuestion(currentIndex + 1, gameQuestions)}
+              disabled={currentIndex === gameQuestions.length - 1}
+              className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
+              aria-label="Sonraki soru"
+            >›</button>
           </div>
           <div className="w-10" />
         </div>
