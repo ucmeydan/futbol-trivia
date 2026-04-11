@@ -2697,16 +2697,6 @@
   },
 
   {
-    "id": 2,
-    "game": "listeyi-tamamla",
-    "title": "Galatasaray'ın bu sezon Avrupa kupalarında karşılaştığı takımlar?",
-    "type": "team-tr",
-    "activeDate": "2026-04-12",
-    "targets": ["Liverpool", "Manchester City", "Union SG", "Ajax", "Frankfurt", "Bodo Glimt", "Atletico Madrid", "Monaco", "Juventus" ]      
-    ,
-    "difficulty": "kolay"
-  },
-  {
     "id": 1,
     "game": "top10",
     "title": "Galatasaray tarihinde en çok maça çıkan 10 yabancı oyuncu?",
