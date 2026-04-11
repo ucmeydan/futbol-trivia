@@ -318,6 +318,9 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
               placeholder="Futbolcu ara..."
               className={`w-full p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 focus:border-red-600 outline-none font-bold text-base text-white ${isError ? "border-red-600 animate-shake" : ""}`}
             />
+            <div className="flex justify-end mt-3 px-1">
+              <button onClick={() => handleGuess("pas")} className="text-amber-400 hover:text-amber-300 font-bold text-xs underline tracking-widest transition-colors">Pas Geç</button>
+            </div>
           </div>
         ) : (
           <div className="p-4 bg-slate-900 border-2 border-slate-800 rounded-2xl animate-in zoom-in duration-300 relative font-sans">
