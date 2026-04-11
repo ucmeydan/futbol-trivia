@@ -533,8 +533,20 @@
       "Necip Uysal",
       "Tolgay Arslan"
     ],
+    "difficulty": "zor"
+  },
+{
+    "id": 1,
+    "game": "listeyi-tamamla",
+    "title": "Avrupa kupaları tarihinde grup aşamasında mücadele eden Türk takımları? (Şampiyonlar Ligi, Avrupa Ligi ve Konferans Ligi)",
+    "type": "team-tr",
+    "activeDate": "2026-04-11",
+    "targets": [ "Galatasaray", "Fenerbahçe", "Beşiktaş", "Trabzonspor", "Başakşehir", "Bursaspor", "Samsunspor",
+    "Konyaspor", "Sivasspor", "Osmanlıspor", "Akhisar Belediyespor"      
+    ],
     "difficulty": "kolay"
   },
+
   {
     "id": 20,
     "game": "listeyi-tamamla",
@@ -945,8 +957,20 @@
       "Nuno Da Costa",
       "Aytaç Kara"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
+
+ {
+    "id": 1,
+    "game": "top10",
+    "title": "2024/25 sezonunda Süper Lig'i ilk 10 sırada tamamlayan takımlar? ",
+    "type": "team-tr",
+    "activeDate": "2026-04-11",
+    "targets": [
+      "Galatasaray", "Fenerbahçe", "Samsunspor", "Beşiktaş", "Başakşehir", "Eyüpspor", "Trabzonspor", "Göztepe", "Rizespor", "Kasımpaşa"
+    ],
+    "difficulty": "kolay" }, 
+
   {
     "id": 20,
     "game": "top10",
@@ -1549,8 +1573,23 @@
         "goals": "61"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
+
+  {
+  "id": 1,
+  "game": "kariyer-yolu",
+  "activeDate": "2026-04-11",
+  "correctPlayer": "Rafa Silva",
+  "career": [
+    { "season": "2012–2013", "team": "Feirense", "apps": "47", "goals": "11" },
+    { "season": "2013–2017", "team": "Braga", "apps": "127", "goals": "26" },
+    { "season": "2017–2024", "team": "Benfica", "apps": "326", "goals": "94" },
+    { "season": "2024–2026", "team": "Beşiktaş", "apps": "65", "goals": "23" },
+    { "season": "2026–", "team": "Benfica", "apps": "12", "goals": "2" }
+  ], 
+   "difficulty": "kolay"
+},
   {
     "id": 13,
     "game": "kariyer-yolu",
@@ -1824,6 +1863,36 @@
       {
         "name": "Wilfried Bony",
         "info": "2017-19 yılları arasında Swansea'da oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 1,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-11",
+    "correctPlayer": "Mesut Özil",
+    "teammates": [
+      {
+        "name": "Thomas Müller",
+        "info": "Almanya Milli Takımında oynadılar"
+      },
+      {
+        "name": "Alexis Sanchez",
+        "info": "2014-18 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "İrfan Can Kahveci",
+        "info": "2021-22 yılları arasında Fenerbahçe'de oynadılar"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2010-14 yılları arasında Real Madrid'de oynadılar"
+      },
+      {
+        "name": "Iker Casillas",
+        "info": "2010-14 yılları arasında Real Madrid'de oynadılar"
       }
     ],
     "difficulty": "kolay"
