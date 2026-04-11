@@ -29,8 +29,8 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
   const [currentIndex, setCurrentIndex] = useState(0);
   const [lastFoundIdx, setLastFoundIdx] = useState<number | null>(null);
 
-  // hintMode: kolay → letter hints göster, zor → gösterme
-  const hintMode = difficulty === 'kolay' ? 'easy' : 'hard';
+  // hintMode: kullanıcı oyun başında seçer (her iki zorluk seviyesinde de mevcut)
+  const [hintMode, setHintMode] = useState<'easy' | 'hard' | null>(null);
   const [query, setQuery] = useState('');
   const [foundIndices, setFoundIndices] = useState<number[]>([]);
   const [lives, setLives] = useState(3);
@@ -86,12 +86,14 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
       setFoundIndices(data.foundIndices || []);
       setIsWin(data.isWin || false);
       setLives(data.lives ?? 3);
+      setHintMode(data.hintMode || 'hard');
       setIsGameOver(true);
     } else {
       setFoundIndices([]);
       setLives(3);
       setIsGameOver(false);
       setIsWin(false);
+      setHintMode(null);
     }
     setQuery('');
     setShowAll(false);
@@ -132,6 +134,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
         foundIndices: foundIndices,
         isWin: winStatus,
         lives: lives,
+        hintMode: hintMode,
       }));
 
       const newStats = { ...stats };
@@ -196,6 +199,78 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
         <div className="w-12 h-12 border-b-2 border-slate-700 rounded-full mb-6" />
         <p className="text-slate-500 text-sm mb-2">Bu zorluk seviyesi için henüz soru eklenmedi.</p>
         <Link href="/top10" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Geri Dön</Link>
+      </div>
+    );
+  }
+
+  // İpucu seçim ekranı — oyun başlamadan önce, her iki zorluk seviyesinde gösterilir
+  if (hintMode === null && !isGameOver) {
+    return (
+      <div className="max-w-md mx-auto min-h-screen flex flex-col items-center justify-start pt-10 p-5 text-white bg-slate-950 overflow-y-auto pb-10">
+
+        {/* Navigasyon */}
+        <div className="flex items-center justify-center gap-4 mb-2 w-full">
+          <button
+            onClick={() => checkAndLoadQuestion(currentIndex - 1, gameQuestions)}
+            disabled={currentIndex === 0}
+            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-4xl transition-colors"
+            aria-label="Önceki soru"
+          >‹</button>
+          <span className="text-red-500 font-bebas text-3xl leading-none">#{currentQ.id}</span>
+          <button
+            onClick={() => checkAndLoadQuestion(currentIndex + 1, gameQuestions)}
+            disabled={currentIndex === gameQuestions.length - 1}
+            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-4xl transition-colors"
+            aria-label="Sonraki soru"
+          >›</button>
+        </div>
+
+        <h2 className="mb-12 text-base font-bold text-slate-100 px-4 leading-tight text-center">
+          "{currentQ.title}"
+        </h2>
+
+        <p className="text-slate-500 text-[11px] font-bold tracking-[0.2em] uppercase mb-6">İpucu Tercihi</p>
+
+        <div className="flex flex-col gap-3 w-full">
+          <button
+            onClick={() => setHintMode('easy')}
+            className="group flex items-center gap-4 p-5 bg-slate-900/60 border border-slate-800 hover:border-green-500/50 hover:bg-green-600/5 rounded-2xl transition-all duration-300 active:scale-95 text-left"
+          >
+            <div className="w-10 h-10 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center shrink-0 group-hover:bg-green-500/20 transition-colors">
+              <svg className="w-5 h-5 text-green-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7Z" />
+              </svg>
+            </div>
+            <div>
+              <p className="font-bold text-base text-green-400 group-hover:text-green-300 transition-colors">İpucu Açık</p>
+              <p className="text-slate-500 text-xs mt-0.5 group-hover:text-slate-400 transition-colors">
+                Her cevabın kaç harften oluştuğunu görebilirsin.
+              </p>
+            </div>
+          </button>
+
+          <button
+            onClick={() => setHintMode('hard')}
+            className="group flex items-center gap-4 p-5 bg-slate-900/60 border border-slate-800 hover:border-red-500/50 hover:bg-red-600/5 rounded-2xl transition-all duration-300 active:scale-95 text-left"
+          >
+            <div className="w-10 h-10 rounded-xl bg-red-500/10 border border-red-500/20 flex items-center justify-center shrink-0 group-hover:bg-red-500/20 transition-colors">
+              <svg className="w-5 h-5 text-red-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M13.875 18.825A10.05 10.05 0 0 1 12 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 0 1 4.021-5.293M9.88 9.88a3 3 0 1 0 4.243 4.243M3 3l18 18" strokeLinecap="round" />
+              </svg>
+            </div>
+            <div>
+              <p className="font-bold text-base text-red-400 group-hover:text-red-300 transition-colors">İpucu Kapalı</p>
+              <p className="text-slate-500 text-xs mt-0.5 group-hover:text-slate-400 transition-colors">
+                Hiçbir ipucu yok. Tamamen hafızana güvenmelisin!
+              </p>
+            </div>
+          </button>
+        </div>
+
+        <Link href="/top10" className="mt-10 text-slate-600 hover:text-slate-400 transition-colors text-xs font-semibold">
+          ← Zorluk seçimine dön
+        </Link>
       </div>
     );
   }
