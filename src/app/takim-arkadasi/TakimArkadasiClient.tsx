@@ -117,21 +117,32 @@ export default function TakimArkadasiClient() {
 
   const updateStats = (won: boolean, attemptCount: number) => {
     if (!currentQ) return;
-    const newStats = { ...stats };
+    // Zaten oynanmışsa tekrar sayma
+    if (localStorage.getItem(`takim_arkadasi_session_${currentQ.id}`)) return;
+
+    // Stale closure'dan kaçınmak için localStorage'dan oku
+    const savedRaw = localStorage.getItem('takim_arkadasi_stats_v2');
+    const base = savedRaw
+      ? JSON.parse(savedRaw)
+      : { totalGames: 0, wins: 0, distribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0 } };
+
+    const newStats = {
+      ...base,
+      distribution: { ...base.distribution },
+    };
     newStats.totalGames += 1;
     if (won && attemptCount >= 1 && attemptCount <= 7) {
       newStats.wins += 1;
-      newStats.distribution = {
-        ...newStats.distribution,
-        [attemptCount]: (newStats.distribution[attemptCount as keyof typeof newStats.distribution] ?? 0) + 1
-      };
+      newStats.distribution[attemptCount] = (newStats.distribution[attemptCount] ?? 0) + 1;
     }
-    setStats(newStats);
-    localStorage.setItem('takim_arkadasi_stats_v2', JSON.stringify(newStats));
+
+    // Önce session'ı kaydet, sonra stats'ı güncelle
     localStorage.setItem(`takim_arkadasi_session_${currentQ.id}`, JSON.stringify({
       attempts: won ? attemptCount : MAX_ATTEMPTS,
       isWin: won,
     }));
+    localStorage.setItem('takim_arkadasi_stats_v2', JSON.stringify(newStats));
+    setStats(newStats);
   };
 
   const handleGuess = (guess: string) => {
@@ -139,11 +150,17 @@ export default function TakimArkadasiClient() {
     const normalizedGuess = normalizeText(guess);
     const normalizedCorrect = normalizeText(currentQ.correctPlayer);
 
+    const refreshAndShowStats = () => {
+      const saved = localStorage.getItem('takim_arkadasi_stats_v2');
+      if (saved) setStats(JSON.parse(saved));
+      setShowStatsPage(true);
+    };
+
     if (normalizedGuess === normalizedCorrect) {
       setIsWin(true);
       setIsGameOver(true);
       updateStats(true, attempts);
-      setTimeout(() => setShowStatsPage(true), 1500);
+      setTimeout(refreshAndShowStats, 1500);
     } else {
       setShowError(true);
       setTimeout(() => setShowError(false), 800);
@@ -152,7 +169,7 @@ export default function TakimArkadasiClient() {
       } else {
         setIsGameOver(true);
         updateStats(false, 0);
-        setTimeout(() => setShowStatsPage(true), 1500);
+        setTimeout(refreshAndShowStats, 1500);
       }
     }
     setQuery('');
@@ -370,7 +387,11 @@ export default function TakimArkadasiClient() {
                 </p>
                 <p className="font-bold text-base text-white tracking-tight">{formatName(currentQ.correctPlayer)}</p>
               </div>
-              <button onClick={() => setShowStatsPage(true)} className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors">İstatistik</button>
+              <button onClick={() => {
+            const saved = localStorage.getItem('takim_arkadasi_stats_v2');
+            if (saved) setStats(JSON.parse(saved));
+            setShowStatsPage(true);
+          }} className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors">İstatistik</button>
             </div>
             <button onClick={shareScore} className="w-full bg-white text-black py-3 rounded-xl font-bold text-xs hover:bg-slate-200 transition-all active:scale-95">Skoru Paylaş</button>
           </div>
