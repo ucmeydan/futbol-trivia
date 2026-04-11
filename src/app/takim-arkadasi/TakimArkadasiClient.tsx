@@ -25,7 +25,7 @@ const formatName = (name: string) => {
 const MAX_ATTEMPTS = 7;
 const MAX_TEAMMATES = 5;
 
-export default function TakimArkadasiClient() {
+export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay' | 'zor' }) {
   const [mounted, setMounted] = useState(false);
   const [query, setQuery] = useState('');
   const [suggestions, setSuggestions] = useState<string[]>([]);
@@ -54,7 +54,7 @@ export default function TakimArkadasiClient() {
     setSuggestions([]);
     setSelectedIndex(-1);
 
-    const saved = localStorage.getItem(`takim_arkadasi_session_${question.id}`);
+    const saved = localStorage.getItem(`takim_arkadasi_${difficulty}_session_${question.id}`);
     if (saved) {
       const data = JSON.parse(saved);
       setAttempts(data.attempts ?? 1);
@@ -75,14 +75,14 @@ export default function TakimArkadasiClient() {
     const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 
     const filtered = allQuestions.filter((q: any) =>
-      q.game === "takim-arkadasi" && q.activeDate <= dateStr
+      q.game === "takim-arkadasi" && q.activeDate <= dateStr && q.difficulty === difficulty
     );
     setGameQuestions(filtered);
     if (filtered.length > 0) {
       loadQuestion(filtered.length - 1, filtered);
     }
 
-    const savedStats = localStorage.getItem('takim_arkadasi_stats_v2');
+    const savedStats = localStorage.getItem(`takim_arkadasi_${difficulty}_stats_v2`);
     if (savedStats) setStats(JSON.parse(savedStats));
   }, []);
 
@@ -118,10 +118,10 @@ export default function TakimArkadasiClient() {
   const updateStats = (won: boolean, attemptCount: number) => {
     if (!currentQ) return;
     // Zaten oynanmışsa tekrar sayma
-    if (localStorage.getItem(`takim_arkadasi_session_${currentQ.id}`)) return;
+    if (localStorage.getItem(`takim_arkadasi_${difficulty}_session_${currentQ.id}`)) return;
 
     // Stale closure'dan kaçınmak için localStorage'dan oku
-    const savedRaw = localStorage.getItem('takim_arkadasi_stats_v2');
+    const savedRaw = localStorage.getItem(`takim_arkadasi_${difficulty}_stats_v2`);
     const base = savedRaw
       ? JSON.parse(savedRaw)
       : { totalGames: 0, wins: 0, distribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0 } };
@@ -137,11 +137,11 @@ export default function TakimArkadasiClient() {
     }
 
     // Önce session'ı kaydet, sonra stats'ı güncelle
-    localStorage.setItem(`takim_arkadasi_session_${currentQ.id}`, JSON.stringify({
+    localStorage.setItem(`takim_arkadasi_${difficulty}_session_${currentQ.id}`, JSON.stringify({
       attempts: won ? attemptCount : MAX_ATTEMPTS,
       isWin: won,
     }));
-    localStorage.setItem('takim_arkadasi_stats_v2', JSON.stringify(newStats));
+    localStorage.setItem(`takim_arkadasi_${difficulty}_stats_v2`, JSON.stringify(newStats));
     setStats(newStats);
   };
 
@@ -190,14 +190,24 @@ export default function TakimArkadasiClient() {
 
   const shareScore = () => {
     if (!currentQ) return;
-    const text = `Takım Arkadaşı #${currentQ.id} skorum: ${isWin ? attempts + ". denemede bildim!" : "bilemedim."}\nhttps://futboltrivia.com.tr/takim-arkadasi`;
+    const text = `Takım Arkadaşı #${currentQ.id} (${difficulty}) skorum: ${isWin ? attempts + ". denemede bildim!" : "bilemedim."}\nhttps://futboltrivia.com.tr/takim-arkadasi/${difficulty}`;
     navigator.clipboard.writeText(text).then(() => {
       setCopySuccess(true);
       setTimeout(() => setCopySuccess(false), 2000);
     });
   };
 
-  if (!mounted || !currentQ) return <div className="min-h-screen bg-slate-950" />;
+  if (!mounted) return <div className="min-h-screen bg-slate-950" />;
+
+  if (!currentQ) {
+    return (
+      <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 text-center">
+        <div className="w-12 h-12 border-b-2 border-slate-700 rounded-full mb-6" />
+        <p className="text-slate-500 text-sm mb-2">Bu zorluk seviyesi için henüz soru eklenmedi.</p>
+        <Link href="/takim-arkadasi" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Geri Dön</Link>
+      </div>
+    );
+  }
 
   const winPercentage = stats.totalGames > 0 ? Math.round((stats.wins / stats.totalGames) * 100) : 0;
   const maxDist = Math.max(...Object.values(stats.distribution), 1);
@@ -274,7 +284,7 @@ export default function TakimArkadasiClient() {
 
       <div className="flex flex-col items-center mb-8">
         <div className="w-full flex justify-between items-center mb-4">
-          <Link href="/" className="text-slate-500 font-medium text-xs hover:text-white transition-colors">← Geri dön</Link>
+          <Link href="/takim-arkadasi" className="text-slate-500 font-medium text-xs hover:text-white transition-colors">← Geri dön</Link>
           <div className="flex items-center gap-3">
             <button
               onClick={() => loadQuestion(currentIndex - 1, gameQuestions)}
@@ -388,7 +398,7 @@ export default function TakimArkadasiClient() {
                 <p className="font-bold text-base text-white tracking-tight">{formatName(currentQ.correctPlayer)}</p>
               </div>
               <button onClick={() => {
-            const saved = localStorage.getItem('takim_arkadasi_stats_v2');
+            const saved = localStorage.getItem(`takim_arkadasi_${difficulty}_stats_v2`);
             if (saved) setStats(JSON.parse(saved));
             setShowStatsPage(true);
           }} className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors">İstatistik</button>

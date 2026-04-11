@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import KariyerYoluClient from './KariyerYoluClient';
+import DifficultySelector from '../components/DifficultySelector';
 
 export const metadata: Metadata = {
   title: 'Kariyer Yolu | FutbolTrivia',
@@ -47,21 +47,7 @@ export default function KariyerYoluPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <noscript>
-        <div style={{ padding: '2rem', maxWidth: '480px', margin: '0 auto', color: '#94a3b8', fontFamily: 'sans-serif' }}>
-          <h1 style={{ color: '#ffffff', fontWeight: 300, fontSize: '2rem', marginBottom: '1rem' }}>Kariyer Yolu</h1>
-          <p style={{ marginBottom: '1rem', lineHeight: 1.7 }}>
-            Kariyer Yolu, yolu Türkiye'den geçmiş futbolcuları sezon sezon açılan kariyer
-            tablosundan bulduğun günlük bilgi yarışması oyunudur.
-          </p>
-          <p style={{ lineHeight: 1.7 }}>
-            Her yanlış tahminde bir sonraki sezon açılır. Kariyer tablosundaki takımları, maç
-            ve gol sayılarını ipucu olarak kullanarak doğru oyuncuyu bulmaya çalış.
-            Soru her gün yenilenir.
-          </p>
-        </div>
-      </noscript>
-      <KariyerYoluClient />
+      <DifficultySelector gameSlug="kariyer-yolu" gameTitle="Kariyer Yolu" />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import TakimArkadasiClient from './TakimArkadasiClient';
+import DifficultySelector from '../components/DifficultySelector';
 
 export const metadata: Metadata = {
   title: 'Takım Arkadaşı | FutbolTrivia',
@@ -47,20 +47,7 @@ export default function TakimArkadasiPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <noscript>
-        <div style={{ padding: '2rem', maxWidth: '480px', margin: '0 auto', color: '#94a3b8', fontFamily: 'sans-serif' }}>
-          <h1 style={{ color: '#ffffff', fontWeight: 300, fontSize: '2rem', marginBottom: '1rem' }}>Takım Arkadaşı</h1>
-          <p style={{ marginBottom: '1rem', lineHeight: 1.7 }}>
-            Takım Arkadaşı, yolu Türkiye'den geçmiş futbolcuları kulüp veya milli takım
-            kariyerindeki eski takım arkadaşlarından bulduğun günlük bilgi yarışması oyunudur.
-          </p>
-          <p style={{ lineHeight: 1.7 }}>
-            Her yanlış tahminde yeni bir takım arkadaşı ipucu açılır. Toplam 5 tahmin hakkın
-            vardır. Soru her gün yenilenir.
-          </p>
-        </div>
-      </noscript>
-      <TakimArkadasiClient />
+      <DifficultySelector gameSlug="takim-arkadasi" gameTitle="Takım Arkadaşı" />
     </>
   );
 }

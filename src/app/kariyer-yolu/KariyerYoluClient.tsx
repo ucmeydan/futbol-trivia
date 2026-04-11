@@ -11,7 +11,7 @@ const toTitleCase = (str: string) => {
   return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
 };
 
-export default function KariyerYoluClient() {
+export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' | 'zor' }) {
   const [gameQuestions, setGameQuestions] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(-1);
   const [visibleRows, setVisibleRows] = useState(1);
@@ -35,7 +35,7 @@ export default function KariyerYoluClient() {
   useEffect(() => {
     const d = new Date();
     const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-    const filtered = allQuestions.filter((q: any) => q.game === "kariyer-yolu" && q.activeDate <= dateStr);
+    const filtered = allQuestions.filter((q: any) => q.game === "kariyer-yolu" && q.activeDate <= dateStr && q.difficulty === difficulty);
     setGameQuestions(filtered);
     if (filtered.length > 0) {
       loadQuestion(filtered.length - 1, filtered);
@@ -46,7 +46,7 @@ export default function KariyerYoluClient() {
     if (index < 0 || index >= questionsList.length) return;
     const question = questionsList[index];
     setCurrentIndex(index);
-    const savedSession = localStorage.getItem(`kariyer_yolu_session_${question.id}`);
+    const savedSession = localStorage.getItem(`kariyer_yolu_${difficulty}_session_${question.id}`);
     if (savedSession) {
       const data = JSON.parse(savedSession);
       setVisibleRows(data.visibleRows || question.career.length);
@@ -65,7 +65,7 @@ export default function KariyerYoluClient() {
 
   useEffect(() => {
     setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
-    const savedStats = localStorage.getItem('kariyer_yolu_stats_v1');
+    const savedStats = localStorage.getItem(`kariyer_yolu_${difficulty}_stats_v1`);
     if (savedStats) setStats(JSON.parse(savedStats));
   }, []);
 
@@ -87,8 +87,8 @@ export default function KariyerYoluClient() {
       newStats.distribution[key as keyof typeof stats.distribution] += 1;
     }
     setStats(newStats);
-    localStorage.setItem('kariyer_yolu_stats_v1', JSON.stringify(newStats));
-    localStorage.setItem(`kariyer_yolu_session_${currentQ.id}`, JSON.stringify({
+    localStorage.setItem(`kariyer_yolu_${difficulty}_stats_v1`, JSON.stringify(newStats));
+    localStorage.setItem(`kariyer_yolu_${difficulty}_session_${currentQ.id}`, JSON.stringify({
       visibleRows: win ? attempt : currentQ.career.length,
       isWin: win,
       finalAttempt: win ? attempt : 0
@@ -153,7 +153,7 @@ export default function KariyerYoluClient() {
   const shareScore = () => {
     if (!currentQ) return;
     const scoreText = isWin ? `${finalAttempt}. denemede bildim!` : "Maalesef bilemedim.";
-    const text = `Futbol Trivia - Kariyer Yolu #${currentQ.id}\nSkorum: ${scoreText}\nhttps://futboltrivia.com.tr/kariyer-yolu`;
+    const text = `Futbol Trivia - Kariyer Yolu #${currentQ.id} (${difficulty})\nSkorum: ${scoreText}\nhttps://futboltrivia.com.tr/kariyer-yolu/${difficulty}`;
     navigator.clipboard.writeText(text).then(() => {
       setCopySuccess(true);
       setTimeout(() => setCopySuccess(false), 2000);
@@ -163,7 +163,15 @@ export default function KariyerYoluClient() {
   const winPercentage = stats.totalGames > 0 ? Math.round((stats.wins / stats.totalGames) * 100) : 0;
   const maxDist = Math.max(...Object.values(stats.distribution), 1);
 
-  if (!currentQ) return null;
+  if (!currentQ) {
+    return (
+      <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 text-center">
+        <div className="w-12 h-12 border-b-2 border-slate-700 rounded-full mb-6" />
+        <p className="text-slate-500 text-sm mb-2">Bu zorluk seviyesi için henüz soru eklenmedi.</p>
+        <Link href="/kariyer-yolu" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Geri Dön</Link>
+      </div>
+    );
+  }
 
   if (showStatsPage) {
     return (
@@ -243,7 +251,7 @@ export default function KariyerYoluClient() {
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} numberOfPieces={400} style={{ zIndex: 150 }} />}
 
       <div className="flex justify-between items-start mb-6 relative z-10">
-        <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1">← Geri Dön</Link>
+        <Link href="/kariyer-yolu" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1">← Geri Dön</Link>
       </div>
 
       <div className="text-center mb-16 relative z-10">

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Top10Client from './Top10Client';
+import DifficultySelector from '../components/DifficultySelector';
 
 export const metadata: Metadata = {
   title: 'Top 10 | FutbolTrivia',
@@ -47,21 +47,7 @@ export default function Top10Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      {/* SEO içerik bloğu — Googlebot okur, kullanıcı oyun alanının altında görür */}
-      <noscript>
-        <div style={{ padding: '2rem', maxWidth: '480px', margin: '0 auto', color: '#94a3b8', fontFamily: 'sans-serif' }}>
-          <h1 style={{ color: '#ffffff', fontWeight: 300, fontSize: '2rem', marginBottom: '1rem' }}>Top 10</h1>
-          <p style={{ marginBottom: '1rem', lineHeight: 1.7 }}>
-            Top 10, Süper Lig ve Türk futboluna ait istatistik listelerini tamamladığın günlük bir bilgi yarışması oyunudur.
-            Her soruda belirli bir kategoriye ait 10 ismi bulmaya çalışırsın.
-          </p>
-          <p style={{ lineHeight: 1.7 }}>
-            Süreli olmayan bu modda toplam 3 yanlış tahmin hakkın bulunur. Kolay modda her ismin kaç harften
-            oluştuğunu görebilirsin; zor modda tamamen hafızana güvenmen gerekir. Sorular her gün yenilenir.
-          </p>
-        </div>
-      </noscript>
-      <Top10Client />
+      <DifficultySelector gameSlug="top10" gameTitle="Top 10" />
     </>
   );
 }

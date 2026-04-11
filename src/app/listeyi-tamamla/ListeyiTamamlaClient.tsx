@@ -23,7 +23,7 @@ const normalizeText = (text: string) => {
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 };
 
-export default function ListeyiTamamlaClient() {
+export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kolay' | 'zor' }) {
   const [today, setToday] = useState("");
   const [gameQuestions, setGameQuestions] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -60,7 +60,7 @@ export default function ListeyiTamamlaClient() {
     setToday(dateStr);
 
     const filtered = allQuestions.filter((q: any) =>
-      q.game === "listeyi-tamamla" && q.activeDate <= dateStr
+      q.game === "listeyi-tamamla" && q.activeDate <= dateStr && q.difficulty === difficulty
     );
     setGameQuestions(filtered);
 
@@ -68,10 +68,10 @@ export default function ListeyiTamamlaClient() {
       const latestIdx = filtered.length - 1;
       setCurrentIndex(latestIdx);
 
-      const lastPlayed = localStorage.getItem(`listeyi_tamamla_last_played_${filtered[latestIdx].id}`);
+      const lastPlayed = localStorage.getItem(`listeyi_tamamla_${difficulty}_last_played_${filtered[latestIdx].id}`);
       if (lastPlayed === dateStr) {
         setIsGameOver(true);
-        const savedSession = localStorage.getItem(`listeyi_tamamla_session_${filtered[latestIdx].id}`);
+        const savedSession = localStorage.getItem(`listeyi_tamamla_${difficulty}_session_${filtered[latestIdx].id}`);
         if (savedSession) {
           const data = JSON.parse(savedSession);
           setFoundItems(data.found || []);
@@ -80,7 +80,7 @@ export default function ListeyiTamamlaClient() {
       }
     }
 
-    const savedStats = localStorage.getItem('listeyi_tamamla_stats');
+    const savedStats = localStorage.getItem(`listeyi_tamamla_${difficulty}_stats`);
     if (savedStats) setStats(JSON.parse(savedStats));
   }, []);
 
@@ -151,13 +151,13 @@ export default function ListeyiTamamlaClient() {
     if (currentQ) {
       const finalScore = won ? currentQ.targets.length : itemsToSave.length;
 
-      localStorage.setItem(`listeyi_tamamla_last_played_${currentQ.id}`, today);
-      localStorage.setItem(`listeyi_tamamla_session_${currentQ.id}`, JSON.stringify({
+      localStorage.setItem(`listeyi_tamamla_${difficulty}_last_played_${currentQ.id}`, today);
+      localStorage.setItem(`listeyi_tamamla_${difficulty}_session_${currentQ.id}`, JSON.stringify({
         found: itemsToSave,
         won: won
       }));
 
-      const currentStatsRaw = localStorage.getItem('listeyi_tamamla_stats');
+      const currentStatsRaw = localStorage.getItem(`listeyi_tamamla_${difficulty}_stats`);
       const currentStats = currentStatsRaw
         ? JSON.parse(currentStatsRaw)
         : { totalGames: 0, wins: 0, bestScore: 0, highestPercentage: 0 };
@@ -172,7 +172,7 @@ export default function ListeyiTamamlaClient() {
       };
 
       setStats(updatedStats);
-      localStorage.setItem('listeyi_tamamla_stats', JSON.stringify(updatedStats));
+      localStorage.setItem(`listeyi_tamamla_${difficulty}_stats`, JSON.stringify(updatedStats));
     }
 
     setTimeout(() => setShowStatsPopup(true), 1000);
@@ -204,7 +204,7 @@ export default function ListeyiTamamlaClient() {
 
   const handleShare = () => {
     if (!currentQ) return;
-    const text = `Listeyi Tamamla #${currentQ.id} skorum: ${foundItems.length}/${currentQ.targets.length}\nEn yüksek doğru: ${stats.bestScore}\nhttps://futboltrivia.com.tr/listeyi-tamamla`;
+    const text = `Listeyi Tamamla #${currentQ.id} (${difficulty}) skorum: ${foundItems.length}/${currentQ.targets.length}\nEn yüksek doğru: ${stats.bestScore}\nhttps://futboltrivia.com.tr/listeyi-tamamla/${difficulty}`;
     navigator.clipboard.writeText(text);
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);
@@ -213,9 +213,9 @@ export default function ListeyiTamamlaClient() {
   if (!currentQ) {
     return (
       <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 text-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600 mb-4" />
-        <p>Soru yükleniyor...</p>
-        <Link href="/" className="mt-8 text-red-500 font-bold underline">Anasayfaya Dön</Link>
+        <div className="w-12 h-12 border-b-2 border-slate-700 rounded-full mb-6" />
+        <p className="text-slate-500 text-sm mb-2">Bu zorluk seviyesi için henüz soru eklenmedi.</p>
+        <Link href="/listeyi-tamamla" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Geri Dön</Link>
       </div>
     );
   }
@@ -230,7 +230,7 @@ export default function ListeyiTamamlaClient() {
 
       {/* Üst bar */}
       <div className="flex justify-between items-center mb-4 relative z-10">
-        <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors">← Geri Dön</Link>
+        <Link href="/listeyi-tamamla" className="text-slate-500 font-bold text-xs hover:text-white transition-colors">← Geri Dön</Link>
         {!isGameOver && isActive && (
           <button
             onClick={() => giveUpConfirm

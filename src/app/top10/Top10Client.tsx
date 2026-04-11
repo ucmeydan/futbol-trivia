@@ -23,13 +23,14 @@ const normalizeText = (text: string) => {
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 };
 
-export default function Top10Client() {
+export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor' }) {
   const [today, setToday] = useState("");
   const [gameQuestions, setGameQuestions] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [lastFoundIdx, setLastFoundIdx] = useState<number | null>(null);
 
-  const [difficulty, setDifficulty] = useState<'easy' | 'hard' | null>(null);
+  // hintMode: kolay → letter hints göster, zor → gösterme
+  const hintMode = difficulty === 'kolay' ? 'easy' : 'hard';
   const [query, setQuery] = useState('');
   const [foundIndices, setFoundIndices] = useState<number[]>([]);
   const [lives, setLives] = useState(3);
@@ -64,7 +65,7 @@ export default function Top10Client() {
     const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     setToday(dateStr);
 
-    const filtered = allQuestions.filter((q: any) => q.game === "top10" && q.activeDate <= dateStr);
+    const filtered = allQuestions.filter((q: any) => q.game === "top10" && q.activeDate <= dateStr && q.difficulty === difficulty);
     setGameQuestions(filtered);
 
     if (filtered.length > 0) {
@@ -78,21 +79,19 @@ export default function Top10Client() {
 
     setCurrentIndex(index);
     const question = questionsList[index];
-    const savedSession = localStorage.getItem(`top10_session_${question.id}`);
+    const savedSession = localStorage.getItem(`top10_${difficulty}_session_${question.id}`);
 
     if (savedSession) {
       const data = JSON.parse(savedSession);
       setFoundIndices(data.foundIndices || []);
       setIsWin(data.isWin || false);
       setLives(data.lives ?? 3);
-      setDifficulty(data.difficulty || 'hard');
       setIsGameOver(true);
     } else {
       setFoundIndices([]);
       setLives(3);
       setIsGameOver(false);
       setIsWin(false);
-      setDifficulty(null);
     }
     setQuery('');
     setShowAll(false);
@@ -102,7 +101,7 @@ export default function Top10Client() {
 
   useEffect(() => {
     setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
-    const savedStats = localStorage.getItem('top10_stats_v2');
+    const savedStats = localStorage.getItem(`top10_${difficulty}_stats_v2`);
     if (savedStats) setStats(JSON.parse(savedStats));
   }, []);
 
@@ -129,11 +128,10 @@ export default function Top10Client() {
     const finalScore = winStatus ? 10 : foundIndices.length;
 
     if (currentQ) {
-      localStorage.setItem(`top10_session_${currentQ.id}`, JSON.stringify({
+      localStorage.setItem(`top10_${difficulty}_session_${currentQ.id}`, JSON.stringify({
         foundIndices: foundIndices,
         isWin: winStatus,
         lives: lives,
-        difficulty: difficulty
       }));
 
       const newStats = { ...stats };
@@ -142,7 +140,7 @@ export default function Top10Client() {
       newStats.totalCorrect += finalScore;
       newStats.distribution[finalScore] += 1;
       setStats(newStats);
-      localStorage.setItem('top10_stats_v2', JSON.stringify(newStats));
+      localStorage.setItem(`top10_${difficulty}_stats_v2`, JSON.stringify(newStats));
     }
     setShowStatsPopup(true);
   };
@@ -192,88 +190,19 @@ export default function Top10Client() {
     }
   }, [query, foundIndices, currentQ]);
 
-  if (!currentQ) return null;
-
-  // Zorluk seçim ekranı
-  if (!difficulty && !isGameOver) {
+  if (!currentQ) {
     return (
-      <div className="max-w-md mx-auto min-h-screen flex flex-col items-center justify-start pt-12 p-6 text-white bg-slate-950 text-center overflow-y-auto pb-10">
-        <div className="mb-2 flex items-center justify-center gap-6">
-          <button
-            onClick={() => checkAndLoadQuestion(currentIndex - 1, gameQuestions)}
-            disabled={currentIndex === 0}
-            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-4xl transition-colors"
-            aria-label="Önceki soru"
-          >‹</button>
-          <span className="text-red-500 font-bebas text-3xl leading-none">#{currentQ.id}</span>
-          <button
-            onClick={() => checkAndLoadQuestion(currentIndex + 1, gameQuestions)}
-            disabled={currentIndex === gameQuestions.length - 1}
-            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-4xl transition-colors"
-            aria-label="Sonraki soru"
-          >›</button>
-        </div>
-
-        <h2 className="mb-14 text-base font-bold text-slate-100 px-4 leading-tight">
-          "{currentQ.title}"
-        </h2>
-
-        <div className="mb-8">
-          <h3 className="text-red-500 font-bebas text-2xl tracking-[0.2em] uppercase leading-none">Oyun Zorluğu</h3>
-          <div className="h-0.5 w-6 bg-red-600 mx-auto rounded-full opacity-40 mt-2" />
-        </div>
-
-        <div className="flex flex-col gap-4 w-full max-w-sm">
-          <button
-            onClick={() => setDifficulty('easy')}
-            className="group flex flex-col items-center p-6 bg-green-600/5 border-2 border-green-500/10 hover:border-green-500 hover:bg-green-600/10 rounded-3xl transition-all duration-300 hover:scale-[1.02] active:scale-95"
-          >
-            <span className="text-green-400 font-bold text-xl mb-2 tracking-tight">KOLAY</span>
-            <span className="text-slate-500 text-xs leading-relaxed font-medium group-hover:text-slate-300 transition-colors px-4">
-              Bu modda cevaplardan her birinin kaçar harften oluştuğunu görebilirsin.
-            </span>
-          </button>
-
-          <button
-            onClick={() => setDifficulty('hard')}
-            className="group flex flex-col items-center p-6 bg-red-600/5 border-2 border-red-500/10 hover:border-red-500 hover:bg-red-600/10 rounded-3xl transition-all duration-300 hover:scale-[1.02] active:scale-95"
-          >
-            <span className="text-red-400 font-bold text-xl mb-2 tracking-tight">ZOR</span>
-            <span className="text-slate-500 text-xs leading-relaxed font-medium group-hover:text-slate-300 transition-colors px-4">
-              Bu modda herhangi bir ipucu bulunmamaktadır. Tamamen hafızana güvenmelisin!
-            </span>
-          </button>
-        </div>
-
-        <Link href="/" className="mt-10 text-slate-600 hover:text-white transition-colors text-xs font-semibold">
-          ← Vazgeç ve Geri Dön
-        </Link>
-
-        <section className="mt-16 pt-8 border-t border-slate-900 w-full text-left">
-          <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Top 10 hakkında</h2>
-          <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
-            <p>
-              Top 10, Süper Lig ve Türk futboluna ait istatistik listelerini tamamlamaya
-              çalıştığın günlük bir bilgi yarışması oyunudur. Her soruda belirli bir
-              kategoriye ait 10 ismi bulmak hedeflenir; doğru sıralama aranmaz.
-            </p>
-            <p>
-              Kolay modda her ismin kaç harften oluştuğunu gösteren ipuçları görünür.
-              Zor modda ise herhangi bir ipucu sunulmaz. Her iki modda 3 yanlış tahmin hakkın vardır.
-            </p>
-            <p>
-              Sorular Süper Lig tarihini, milli takım kadrosunu, Avrupa kupalarındaki
-              Türk kulüplerini ve özel kategorileri kapsar. Her gün yeni bir soru gelir.
-            </p>
-          </div>
-        </section>
+      <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 text-center">
+        <div className="w-12 h-12 border-b-2 border-slate-700 rounded-full mb-6" />
+        <p className="text-slate-500 text-sm mb-2">Bu zorluk seviyesi için henüz soru eklenmedi.</p>
+        <Link href="/top10" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Geri Dön</Link>
       </div>
     );
   }
 
   const shareScore = () => {
     if (!currentQ) return;
-    const text = `Top 10 #${currentQ.id} (${difficulty === 'easy' ? 'Kolay' : 'Zor'})\nSkorum: ${foundIndices.length}/${currentQ.targets.length}\nhttps://futboltrivia.com.tr/top10`;
+    const text = `Top 10 #${currentQ.id} (${difficulty === 'kolay' ? 'Kolay' : 'Zor'})\nSkorum: ${foundIndices.length}/${currentQ.targets.length}\nhttps://futboltrivia.com.tr/top10/${difficulty}`;
     navigator.clipboard.writeText(text);
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);
@@ -294,7 +223,7 @@ export default function Top10Client() {
 
       {/* Üst bar */}
       <div className="flex justify-between items-start mb-2 relative z-10">
-        <Link href="/" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1">← Geri Dön</Link>
+        <Link href="/top10" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1">← Geri Dön</Link>
         <div className="flex flex-col items-end">
           <div className="flex gap-1 mb-1" aria-label={`${lives} can kaldı`}>
             {[...Array(3)].map((_, i) => (
@@ -359,8 +288,8 @@ export default function Top10Client() {
               ) : (
                 <div className="flex items-center gap-3">
                   <span className="font-bold text-slate-700 text-xs">{i + 1}</span>
-                  <span className={`text-white transition-opacity duration-300 ${difficulty === 'easy' ? 'font-mono text-sm tracking-tighter opacity-40' : 'opacity-0'}`}>
-                    {difficulty === 'easy' ? getLetterHint(name) : '???'}
+                  <span className={`text-white transition-opacity duration-300 ${hintMode === 'easy' ? 'font-mono text-sm tracking-tighter opacity-40' : 'opacity-0'}`}>
+                    {hintMode === 'easy' ? getLetterHint(name) : '???'}
                   </span>
                 </div>
               )}
