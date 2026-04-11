@@ -30,7 +30,7 @@
       "Emre Belözoğlu",
       "Rüştü Reçber"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 2,
@@ -59,7 +59,7 @@
       "Adalet",
       "Yeşildirek"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 3,
@@ -101,7 +101,7 @@
       "Wederson",
       "Mehmet Aurelio"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 4,
@@ -134,7 +134,7 @@
       "Ertuğrul Sağlam",
       "Mehmet Özdilek"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 5,
@@ -162,7 +162,7 @@
       "Samsunspor",
       "Diyarbakırspor"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 6,
@@ -187,7 +187,7 @@
       "Badou Ndiaye",
       "John Moshoeu"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 7,
@@ -209,7 +209,7 @@
       "Zalgiris",
       "Sparta Prag"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 8,
@@ -240,7 +240,7 @@
       "Salem M'bakata",
       "Mathieu Valbuena"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 9,
@@ -270,7 +270,7 @@
       "Cherno More",
       "Viking"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 10,
@@ -298,7 +298,7 @@
       "Boluspor",
       "Adanaspor"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 11,
@@ -328,7 +328,7 @@
       "Sivasspor",
       "Hatayspor"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 12,
@@ -350,7 +350,7 @@
       "Yusuf Özdemir",
       "Tayfur Bingöl"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 13,
@@ -386,7 +386,7 @@
       "Kenan Yıldız",
       "Yusuf Yazıcı"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 14,
@@ -414,7 +414,7 @@
       "Colin Kazım Richards",
       "Daniel Guiza"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 15,
@@ -438,7 +438,7 @@
       "Sacha Boey",
       "Renato Nhaga"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 16,
@@ -456,7 +456,7 @@
       "Aliağa FK",
       "Mardin 1969"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 17,
@@ -484,7 +484,7 @@
       "Önder Turacı",
       "Semih Şentürk"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 18,
@@ -505,7 +505,7 @@
       "Alanzinho",
       "Paulo Henrique"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 19,
@@ -577,6 +577,17 @@
       "Bulvarspor",
       "İnkılapspor"
     ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 2,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın bu sezon Avrupa kupalarında karşılaştığı takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-04-12",
+    "targets": ["Liverpool", "Manchester City", "Union SG", "Ajax", "Frankfurt", "Bodo Glimt", "Atletico Madrid", "Monaco", "Juventus" ]      
+    ,
     "difficulty": "kolay"
   },
   {
@@ -597,7 +608,7 @@
       "Sofiane Feghouli",
       "Ryan Donk"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 2,
@@ -617,7 +628,7 @@
       "Wederson",
       "Doka Madureira"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 3,
@@ -637,7 +648,7 @@
       "Slovan Bratislava",
       "Sarpsborg"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 4,
@@ -657,7 +668,7 @@
       "Jayden Oosterwolde",
       "Robin van Persie"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 5,
@@ -677,7 +688,7 @@
       "Kocaelispor",
       "Gençlerbirliği"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 6,
@@ -697,7 +708,7 @@
       "İlhan Mansız",
       "Serkan Aykut"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 7,
@@ -717,7 +728,7 @@
       "Metalist",
       "Lokeren"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 8,
@@ -737,7 +748,7 @@
       "Ederson",
       "Ertuğrul Taşkıran"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 9,
@@ -757,7 +768,7 @@
       "Adolfo Gaich",
       "Osvaldo Nartallo"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 10,
@@ -777,7 +788,7 @@
       "Adanaspor",
       "Mersin İdman Yurdu"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 11,
@@ -797,7 +808,7 @@
       "Anastasios Bakasetas",
       "Enner Valencia"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 12,
@@ -817,7 +828,7 @@
       "Tiago Lopes",
       "Manuel Fernandes"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 13,
@@ -837,7 +848,7 @@
       "Sivasspor",
       "Adanaspor"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 14,
@@ -857,7 +868,7 @@
       "Pedro Malheiro",
       "Muhammed Cham"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 15,
@@ -877,7 +888,7 @@
       "Romulo",
       "Nuno Da Costa"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 16,
@@ -897,7 +908,7 @@
       "Mohamed Bayo",
       "Mauro Icardi"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 17,
@@ -917,7 +928,7 @@
       "Fernand Coulibaly",
       "Elvir Baljic"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 18,
@@ -937,7 +948,7 @@
       "Tammy Abraham",
       "Tiago Djalo"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 19,
@@ -972,6 +983,18 @@
     "difficulty": "kolay" }, 
 
   {
+    "id": 2,
+    "game": "top10",
+    "title": "A Milli takımımızda 2026 Dünya Kupası elemelerinde en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-12",
+    "targets": [
+     "Uğurcan Çakır", "Abdülkerim Bardakcı", "Kenan Yıldız", "Arda Güler", "Kerem Aktürkoğlu",
+     "Hakan Çalhanoğlu", "İsmail Yüksek", "Ferdi Kadıoğlu", "Uğurcan Çakır", "Mert Müldür"
+    ],
+    "difficulty": "kolay"
+  },
+{
     "id": 20,
     "game": "top10",
     "title": "La Liga'da en çok maça çıkan 10 Türk futbolcu?",
@@ -989,12 +1012,13 @@
       "Emre Mor",
       "Mehmet Topal"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
+
   {
     "id": 21,
     "game": "top10",
-    "title": "Bu sezon Süper Lig'de en fazla süre alan 2004 ve sonrası doğumlu futbolcular? (13 Nisan itibarıyla)",
+    "title": "Bu sezon Süper Lig'de en fazla süre alan 2004 ve sonrası doğumlu futbolcular? (10 Nisan itibarıyla)",
     "type": "player",
     "activeDate": "2026-04-13",
     "targets": [
@@ -1009,7 +1033,7 @@
       "Joseph Nonge",
       "Jankat Yılmaz"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 22,
@@ -1029,7 +1053,7 @@
       "Kerem Aktürkoğlu",
       "İrfan Can Kahveci"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 23,
@@ -1049,7 +1073,7 @@
       "Elvir Bolic",
       "Roman Dabrowski"
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 26,
@@ -1096,7 +1120,7 @@
         "goals": "3"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 2,
@@ -1141,7 +1165,7 @@
         "goals": "6"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 3,
@@ -1174,7 +1198,7 @@
         "goals": "0"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 4,
@@ -1213,7 +1237,7 @@
         "goals": "0"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 5,
@@ -1258,7 +1282,7 @@
         "goals": "0"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 6,
@@ -1291,7 +1315,7 @@
         "goals": "6"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 7,
@@ -1330,7 +1354,7 @@
         "goals": "1"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 8,
@@ -1369,7 +1393,7 @@
         "goals": "9"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 9,
@@ -1432,7 +1456,7 @@
         "goals": "0"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 10,
@@ -1477,7 +1501,7 @@
         "goals": "2"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 11,
@@ -1522,7 +1546,7 @@
         "goals": "2"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 12,
@@ -1590,6 +1614,23 @@
   ], 
    "difficulty": "kolay"
 },
+{
+  "id": 2,
+  "game": "kariyer-yolu",
+  "activeDate": "2026-04-12",
+  "correctPlayer": "Tuncay Şanlı",
+  "career": [
+    { "season": "2001–2002", "team": "Sakaryaspor", "apps": "37", "goals": "18" },
+    { "season": "2002–2007", "team": "Fenerbahçe", "apps": "207", "goals": "77" },
+    { "season": "2007–2010", "team": "Stoke City", "apps": "55", "goals": "7" },
+    { "season": "2010–2012", "team": "Wolfsburg", "apps": "5", "goals": "0" },
+    { "season": "2011–2012", "team": "Bolton (kiralık)", "apps": "22", "goals": "1" },
+    { "season": "2012–2014", "team": "Bursaspor", "apps": "47", "goals": "1" },
+    { "season": "2014–2015", "team": "Umm Salal", "apps": "26", "goals": "11" },
+    { "season": "2015–2015", "team": "Pune City", "apps": "11", "goals": "3" }
+  ],
+  "difficulty": "kolay"
+},
   {
     "id": 13,
     "game": "kariyer-yolu",
@@ -1633,8 +1674,125 @@
         "goals": "0"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
+  {
+  "id": 14,
+  "game": "kariyer-yolu",
+  "activeDate": "2026-04-13",
+  "correctPlayer": "Sebastien Frey",
+  "career": [
+    { "season": "1997–1998", "team": "Cannes", "apps": "23", "goals": "0" },
+    { "season": "1998–2003", "team": "Inter", "apps": "47", "goals": "0" },
+    { "season": "1999–2000", "team": "Hellas Verona (kiralık)", "apps": "31", "goals": "0" },
+    { "season": "2001–2003", "team": "Parma (kiralık)", "apps": "78", "goals": "0" },
+    { "season": "2003–2005", "team": "Parma", "apps": "80", "goals": "0" },
+    { "season": "2005–2006", "team": "Fiorentina (kiralık)", "apps": "23", "goals": "0" },
+    { "season": "2006–2011", "team": "Fiorentina", "apps": "195", "goals": "0" },
+    { "season": "2011–2013", "team": "Genoa", "apps": "76", "goals": "0" },
+    { "season": "2013–2015", "team": "Bursaspor", "apps": "39", "goals": "0" }
+  ],
+  "difficulty": "zor"
+},
+{
+  "id": 3,
+  "game": "kariyer-yolu",
+  "activeDate": "2026-04-13",
+  "correctPlayer": "Barış Alper Yılmaz",
+  "career": [
+    { "season": "2017–2020", "team": "Ankara Demirspor", "apps": "43", "goals": "1" },
+    { "season": "2020–2021", "team": "Keçiörengücü", "apps": "36", "goals": "8" },
+    { "season": "2021–", "team": "Galatasaray", "apps": "199", "goals": "36" }
+  ],
+
+  "difficulty": "kolay"
+},
+
+{
+  "id": 15,
+  "game": "kariyer-yolu",
+  "activeDate": "2026-04-14",
+  "correctPlayer": "Cedric Bakambu",
+  "career": [
+    { "season": "2010–2014", "team": "Sochaux", "apps": "107", "goals": "21" },
+    { "season": "2014–2015", "team": "Bursaspor", "apps": "40", "goals": "21" },
+    { "season": "2015–2018", "team": "Villarreal", "apps": "105", "goals": "47" },
+    { "season": "2018–2022", "team": "Beijing Guoan", "apps": "87", "goals": "58" },
+    { "season": "2022–2022", "team": "Marsilya", "apps": "24", "goals": "4" },
+    { "season": "2022–2023", "team": "Olympiakos", "apps": "37", "goals": "18" },
+    { "season": "2023–2024", "team": "Galatasaray", "apps": "16", "goals": "2" },
+    { "season": "2024–", "team": "Real Betis", "apps": "70", "goals": "15" }
+  ],
+  "difficulty": "zor"
+},
+{
+  "id": 4,
+  "game": "kariyer-yolu",
+  "activeDate": "2026-04-14",
+  "correctPlayer": "Andre Onana",
+  "career": [
+    { "season": "2013–2015", "team": "Barcelona U19", "apps": "6", "goals": "0" },
+    { "season": "2015–2016", "team": "Ajax U21", "apps": "39", "goals": "0" },
+    { "season": "2016–2022", "team": "Ajax", "apps": "214", "goals": "0" },
+    { "season": "2022–2023", "team": "Inter", "apps": "41", "goals": "0" },
+    { "season": "2023–2025", "team": "Manchester United", "apps": "102", "goals": "0" },
+    { "season": "2025–", "team": "Trabzonspor (kiralık)", "apps": "26", "goals": "0" }
+  ],
+  "difficulty": "kolay"
+},
+{
+  "id": 16,
+  "game": "kariyer-yolu",
+  "activeDate": "2026-04-15",
+  "correctPlayer": "Stephane Badji",
+  "career": [
+    { "season": "2009–2011", "team": "Casa Sport", "apps": "0", "goals": "0" },
+    { "season": "2011–2013", "team": "Sogndal", "apps": "25", "goals": "0" },
+    { "season": "2013–2015", "team": "Brann", "apps": "55", "goals": "0" },
+    { "season": "2015–2016", "team": "Başakşehir", "apps": "39", "goals": "0" },
+    { "season": "2016–2017", "team": "Anderlecht", "apps": "36", "goals": "0" },
+    { "season": "2017–2018", "team": "Kayserispor (kiralık)", "apps": "35", "goals": "3" },
+    { "season": "2018–2019", "team": "Bursaspor", "apps": "30", "goals": "0" },
+    { "season": "2019–2022", "team": "Ludogorets", "apps": "99", "goals": "0" },
+    { "season": "2022–2023", "team": "Eyüpspor", "apps": "14", "goals": "0" },
+    { "season": "2023–2024", "team": "Olympiacos Nicosia", "apps": "27", "goals": "0" },
+    { "season": "2024–2025", "team": "Omonia Aradippou", "apps": "9", "goals": "0" }
+  ],
+  "difficulty": "zor"
+},
+{
+  "id": 5,
+  "game": "kariyer-yolu",
+  "activeDate": "2026-04-15",
+  "correctPlayer": "Marco Asensio",
+  "career": [
+    { "season": "2013–2015", "team": "Mallorca", "apps": "56", "goals": "7" },
+    { "season": "2015–2023", "team": "Real Madrid", "apps": "286", "goals": "61" },
+    { "season": "2015–2016", "team": "Espanyol (kiralık)", "apps": "37", "goals": "4" },
+    { "season": "2023–2025", "team": "PSG", "apps": "47", "goals": "7" },
+    { "season": "2025–2025", "team": "Aston Villa (kiralık)", "apps": "21", "goals": "8" },
+    { "season": "2025–", "team": "Fenerbahçe", "apps": "37", "goals": "13" }
+  ],
+  "difficulty": "kolay"
+},
+{
+  "id": 17,
+  "game": "kariyer-yolu",
+  "activeDate": "2026-04-16",
+  "correctPlayer": "Balazs Dzsudzsak",
+  "career": [
+    { "season": "2004–2008", "team": "Debrecen", "apps": "55", "goals": "15" },
+    { "season": "2008–2011", "team": "PSV", "apps": "157", "goals": "54" },
+    { "season": "2011–2012", "team": "Anzhi", "apps": "8", "goals": "0" },
+    { "season": "2012–2015", "team": "Dinamo Moskova", "apps": "112", "goals": "13" },
+    { "season": "2015–2016", "team": "Bursaspor", "apps": "25", "goals": "4" },
+    { "season": "2016–2018", "team": "Al Wahda", "apps": "56", "goals": "15" },
+    { "season": "2018–2020", "team": "Ittihad Kalba", "apps": "40", "goals": "10" },
+    { "season": "2020–2020", "team": "Al Ain", "apps": "4", "goals": "1" },
+    { "season": "2020–", "team": "Debrecen", "apps": "196", "goals": "37" }
+  ],
+  "difficulty": "zor"
+}, 
   {
     "id": 1,
     "game": "takim-arkadasi",
@@ -1662,7 +1820,7 @@
         "info": "2014-16 arası Trabzonspor'da oynadılar"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 2,
@@ -1691,7 +1849,7 @@
         "info": "2012-13 sezonunda Galatasaray'da oynadılar"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 3,
@@ -1720,7 +1878,7 @@
         "info": "2016-18 arası Antalyaspor'da oynadılar"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 4,
@@ -1749,7 +1907,7 @@
         "info": "2017-18 sezonunda Antalyaspor'da oynadılar"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 5,
@@ -1778,7 +1936,7 @@
         "info": "2005-06 sezonunda Trabzonspor'da oynadılar"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 6,
@@ -1807,7 +1965,7 @@
         "info": "2007-11 yılları arasında Trabzonspor'da oynadılar"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 7,
@@ -1836,7 +1994,7 @@
         "info": "2013-16 yılları arasında Beşiktaş'ta oynadılar"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
   {
     "id": 8,
@@ -1865,7 +2023,7 @@
         "info": "2017-19 yılları arasında Swansea'da oynadılar"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   },
 
   {
@@ -1924,6 +2082,6 @@
         "info": "2023-24 sezonunda Fenerbahçe'de oynadılar"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
   }
 ]
