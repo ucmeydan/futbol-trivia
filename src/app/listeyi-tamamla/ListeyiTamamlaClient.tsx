@@ -277,7 +277,10 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
             aria-label="Sonraki soru"
           >›</button>
         </div>
-        <h2 className="text-base font-bold leading-snug mb-4 px-2 text-slate-100 tracking-tight">{currentQ.title}</h2>
+        <h2 className="text-base font-bold leading-snug px-2 text-slate-100 tracking-tight">{currentQ.title}</h2>
+        {currentQ.note && (
+          <p className="text-slate-500 text-xs px-2 mt-1 mb-4 font-light italic">{currentQ.note}</p>
+        )}
 
         {/* Sayaç + skor satırı */}
         <div className="flex justify-between items-center mb-4 px-4">
