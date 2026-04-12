@@ -624,6 +624,30 @@
     "difficulty": "kolay"
   },
   {
+    "id": 21,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'in son 4 sezonunda küme düşen takımlar? (2021/22 - 2024/25)",
+    "type": "team-tr",
+    "activeDate": "2026-04-13",
+    "targets": [
+      "Rizespor",
+      "Altay",
+      "Yeni Malatyaspor",
+      "Göztepe",
+      "Giresunspor",
+      "Ümraniyespor",
+      "Ankaragücü",
+      "Fatih Karagümrük",
+      "Pendikspor",
+      "İstanbulspor",
+      "Bodrum FK",
+      "Sivasspor",
+      "Hatayspor",
+      "Adana Demirspor"
+    ],
+    "difficulty": "zor"
+  },
+  {
     "id": 3,
     "game": "top10",
     "title": "Süper Lig 2025-26 sezonunda en çok gol atan 10 oyuncu?",
