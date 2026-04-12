@@ -77,7 +77,6 @@ export default function IletisimClient() {
               <span className="text-xl font-light">futboltriviatr@gmail.com</span>
               <svg width="14" height="14" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
             </a>
-            <p className="mt-4 text-slate-500 text-sm">Taleplerinize en geç 15 iş günü içinde yanıt vermeye çalışıyoruz.</p>
           </section>
 
           <section aria-labelledby="topluluk">
