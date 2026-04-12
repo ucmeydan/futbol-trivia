@@ -1,25 +1,5 @@
 [
-  {
-    "id": 3,
-    "game": "top10",
-    "title": "Süper Lig 2025-26 sezonunda en çok gol atan 10 oyuncu?",
-    "type": "player",
-    "activeDate": "2026-04-13",
-    "note": "Eşitlik durumunda daha az süre alan oyuncu daha üst sırada yer alır",
-    "targets": [
-      "Paul Onuachu",
-      "Eldor Shomurodov",
-      "Anderson Talisca",
-      "Mauro Icardi",
-      "Mohamed Bayo",
-      "Victor Osimhen",
-      "Felipe Augusto",
-      "Marco Asensio",
-      "Dorgeles Nene",
-      "Ernest Muçi"
-    ],
-    "difficulty": "kolay"
-  },
+  
   {
     "id": 1,
     "game": "top10",
@@ -57,6 +37,27 @@
       "Ferdi Kadıoğlu",
       "Merih Demiral",
       "Mert Müldür"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 3,
+    "game": "top10",
+    "title": "Süper Lig 2025-26 sezonunda en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-04-13",
+    "note": "Eşitlik durumunda daha az süre alan oyuncu daha üst sırada yer alır",
+    "targets": [
+      "Paul Onuachu",
+      "Eldor Shomurodov",
+      "Anderson Talisca",
+      "Mauro Icardi",
+      "Mohamed Bayo",
+      "Victor Osimhen",
+      "Felipe Augusto",
+      "Marco Asensio",
+      "Dorgeles Nene",
+      "Ernest Muçi"
     ],
     "difficulty": "kolay"
   }
