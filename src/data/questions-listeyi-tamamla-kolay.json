@@ -38,5 +38,26 @@
       "Juventus"
     ],
     "difficulty": "kolay"
-  }
+  }, 
+  {
+  "id": 3,
+  "game": "listeyi-tamamla",
+  "title": "Süper Lig'in son 5 sezonunda en az 1 kez sezonu ilk 5 sırada tamamlayan takımlar?",
+  "type": "team-tr",
+  "activeDate": "2026-04-13",
+  "targets": [
+    "Galatasaray",
+    "Fenerbahçe",
+    "Beşiktaş",
+    "Trabzonspor",
+    "Başakşehir",
+    "Alanyaspor",
+    "Sivasspor",
+    "Adana Demirspor",
+    "Kasımpaşa",
+    "Samsunspor",
+    "Konyaspor"
+  ],
+  "difficulty": "kolay"
+}
 ]
