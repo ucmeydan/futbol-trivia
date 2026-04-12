@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-11",
+    "correctPlayer": "Rafa Silva",
+    "career": [
+      {
+        "season": "2012–2013",
+        "team": "Feirense",
+        "apps": "47",
+        "goals": "11"
+      },
+      {
+        "season": "2013–2017",
+        "team": "Braga",
+        "apps": "127",
+        "goals": "26"
+      },
+      {
+        "season": "2017–2024",
+        "team": "Benfica",
+        "apps": "326",
+        "goals": "94"
+      },
+      {
+        "season": "2024–2026",
+        "team": "Beşiktaş",
+        "apps": "65",
+        "goals": "23"
+      },
+      {
+        "season": "2026–",
+        "team": "Benfica",
+        "apps": "12",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 2,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-12",
+    "correctPlayer": "Tuncay Şanlı",
+    "career": [
+      {
+        "season": "2001–2002",
+        "team": "Sakaryaspor",
+        "apps": "37",
+        "goals": "18"
+      },
+      {
+        "season": "2002–2007",
+        "team": "Fenerbahçe",
+        "apps": "207",
+        "goals": "77"
+      },
+      {
+        "season": "2007–2009",
+        "team": "Middlesbrough",
+        "apps": "78",
+        "goals": "18"
+      },
+      {
+        "season": "2009–2011",
+        "team": "Stoke City",
+        "apps": "55",
+        "goals": "8"
+      },
+      {
+        "season": "2011–2012",
+        "team": "Wolfsburg",
+        "apps": "5",
+        "goals": "0"
+      },
+      {
+        "season": "2011–2012",
+        "team": "Bolton (kiralık)",
+        "apps": "22",
+        "goals": "1"
+      },
+      {
+        "season": "2012–2014",
+        "team": "Bursaspor",
+        "apps": "47",
+        "goals": "1"
+      },
+      {
+        "season": "2014–2015",
+        "team": "Umm Salal",
+        "apps": "26",
+        "goals": "11"
+      },
+      {
+        "season": "2015–2015",
+        "team": "Pune City",
+        "apps": "11",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 3,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-13",
+    "correctPlayer": "Barış Alper Yılmaz",
+    "career": [
+      {
+        "season": "2017–2020",
+        "team": "Ankara Demirspor",
+        "apps": "43",
+        "goals": "1"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Keçiörengücü",
+        "apps": "36",
+        "goals": "8"
+      },
+      {
+        "season": "2021–",
+        "team": "Galatasaray",
+        "apps": "199",
+        "goals": "36"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 4,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-14",
+    "correctPlayer": "Andre Onana",
+    "career": [
+      {
+        "season": "2013–2015",
+        "team": "Barcelona U19",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Ajax U21",
+        "apps": "39",
+        "goals": "0"
+      },
+      {
+        "season": "2016–2022",
+        "team": "Ajax",
+        "apps": "214",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Inter",
+        "apps": "41",
+        "goals": "0"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Manchester United",
+        "apps": "102",
+        "goals": "0"
+      },
+      {
+        "season": "2025–",
+        "team": "Trabzonspor (kiralık)",
+        "apps": "26",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 5,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-15",
+    "correctPlayer": "Marco Asensio",
+    "career": [
+      {
+        "season": "2013–2015",
+        "team": "Mallorca",
+        "apps": "56",
+        "goals": "7"
+      },
+      {
+        "season": "2015–2023",
+        "team": "Real Madrid",
+        "apps": "286",
+        "goals": "61"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Espanyol (kiralık)",
+        "apps": "37",
+        "goals": "4"
+      },
+      {
+        "season": "2023–2025",
+        "team": "PSG",
+        "apps": "47",
+        "goals": "7"
+      },
+      {
+        "season": "2025–2025",
+        "team": "Aston Villa (kiralık)",
+        "apps": "21",
+        "goals": "8"
+      },
+      {
+        "season": "2025–",
+        "team": "Fenerbahçe",
+        "apps": "37",
+        "goals": "13"
+      }
+    ],
+    "difficulty": "kolay"
+  }
+]

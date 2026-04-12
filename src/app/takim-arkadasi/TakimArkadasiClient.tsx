@@ -2,7 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import playersData from '@/data/players.json';
-import allQuestions from '@/data/questions.json';
+import kolayQuestions from '@/data/questions-takim-arkadasi-kolay.json';
+import zorQuestions from '@/data/questions-takim-arkadasi-zor.json';
+const allQuestions = [...kolayQuestions, ...zorQuestions];
 import Link from 'next/link';
 import Confetti from 'react-confetti';
 

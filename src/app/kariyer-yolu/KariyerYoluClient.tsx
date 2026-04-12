@@ -4,7 +4,9 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
 import playersData from '@/data/players.json';
-import allQuestions from '@/data/questions.json';
+import kolayQuestions from '@/data/questions-kariyer-yolu-kolay.json';
+import zorQuestions from '@/data/questions-kariyer-yolu-zor.json';
+const allQuestions = [...kolayQuestions, ...zorQuestions];
 
 const toTitleCase = (str: string) => {
   if (!str) return "";

@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-11",
+    "correctPlayer": "Mesut Özil",
+    "teammates": [
+      {
+        "name": "Thomas Müller",
+        "info": "Almanya Milli Takımında oynadılar"
+      },
+      {
+        "name": "Alexis Sanchez",
+        "info": "2014-18 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "İrfan Can Kahveci",
+        "info": "2021-22 yılları arasında Fenerbahçe'de oynadılar"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2010-14 yılları arasında Real Madrid'de oynadılar"
+      },
+      {
+        "name": "Iker Casillas",
+        "info": "2010-14 yılları arasında Real Madrid'de oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 2,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-12",
+    "correctPlayer": "Orkun Kökçü",
+    "teammates": [
+      {
+        "name": "Vangelis Pavlidis",
+        "info": "2023-25 yılları arasında Benfica'da oynadılar"
+      },
+      {
+        "name": "Robin Van Persie",
+        "info": "2018-19 sezonunda Feyenoord'da oynadılar"
+      },
+      {
+        "name": "Uğurcan Çakır",
+        "info": "Milli takımda birlikte oynadılar"
+      },
+      {
+        "name": "Tammy Abraham",
+        "info": "2025-26 sezonunda Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Sebastian Szymanski",
+        "info": "2022-23 sezonunda Feyenoord'da oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  }
+]

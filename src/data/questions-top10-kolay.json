@@ -1,0 +1,83 @@
+[
+  {
+    "id": 3,
+    "game": "top10",
+    "title": "Süper Lig 2025-26 sezonunda en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-04-13",
+    "note": "Eşitlik durumunda daha az süre alan oyuncu daha üst sırada yer alır",
+    "targets": [
+      "Paul Onuachu",
+      "Eldor Shomurodov",
+      "Anderson Talisca",
+      "Mauro Icardi",
+      "Mohamed Bayo",
+      "Victor Osimhen",
+      "Felipe Augusto",
+      "Marco Asensio",
+      "Dorgeles Nene",
+      "Ernest Muçi"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 1,
+    "game": "top10",
+    "title": "2024/25 sezonunda Süper Lig'i ilk 10 sırada tamamlayan takımlar? ",
+    "type": "team-tr",
+    "activeDate": "2026-04-11",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Samsunspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Eyüpspor",
+      "Trabzonspor",
+      "Göztepe",
+      "Rizespor",
+      "Kasımpaşa"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 2,
+    "game": "top10",
+    "title": "A Milli takımımızda 2026 Dünya Kupası elemelerinde en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-12",
+    "targets": [
+      "Uğurcan Çakır",
+      "Abdülkerim Bardakcı",
+      "Kenan Yıldız",
+      "Arda Güler",
+      "Kerem Aktürkoğlu",
+      "Hakan Çalhanoğlu",
+      "İsmail Yüksek",
+      "Ferdi Kadıoğlu",
+      "Merih Demiral",
+      "Mert Müldür"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 26,
+    "game": "top10",
+    "title": "Bundesliga'da en çok maça çıkan 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-18",
+    "targets": [
+      "Halil Altıntop",
+      "Ömer Toprak",
+      "Nuri Şahin",
+      "Yıldıray Baştürk",
+      "Yunus Mallı",
+      "Hamit Altıntop",
+      "Salih Özcan",
+      "Atakan Karazor",
+      "Özcan Arkoç",
+      "Ozan Kabak"
+    ],
+    "difficulty": "kolay"
+  }
+]

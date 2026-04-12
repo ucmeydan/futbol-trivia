@@ -4,7 +4,9 @@ import { useState, useEffect, useRef } from 'react';
 import playersData from '@/data/players.json';
 import teamsData from '@/data/teams.json';
 import europeanTeamsData from '@/data/european_teams.json';
-import allQuestions from '@/data/questions.json';
+import kolayQuestions from '@/data/questions-top10-kolay.json';
+import zorQuestions from '@/data/questions-top10-zor.json';
+const allQuestions = [...kolayQuestions, ...zorQuestions];
 import Link from 'next/link';
 import Confetti from 'react-confetti';
 
