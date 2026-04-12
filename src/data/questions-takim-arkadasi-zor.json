@@ -259,5 +259,34 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 10,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-13",
+    "correctPlayer": "Trezeguet",
+    "teammates": [
+      {
+        "name": "Mohamed Salah",
+        "info": "Mısır Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Jack Grealish",
+        "info": "2019-21 yılları arasında Aston Villa'da oynadılar"
+      },
+      {
+        "name": "Nbaye Diagne",
+        "info": "2017-19 yılları arasında Kasımpaşa'da oynadılar"
+      },
+      {
+        "name": "Pizzi",
+        "info": "2021-22 sezonunda Başakşehir'de oynadılar"
+      },
+      {
+        "name": "Uğurcan Çakır",
+        "info": "2022-24 yılları arasında Trabzonspor'da oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
