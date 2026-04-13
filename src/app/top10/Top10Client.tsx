@@ -125,15 +125,16 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
 
   const currentQ = gameQuestions[currentIndex];
 
-  const finishGame = (winStatus: boolean) => {
+  const finishGame = (winStatus: boolean, latestFoundIndices?: number[]) => {
+    const indicesToSave = latestFoundIndices ?? foundIndices;
     setIsGameOver(true);
     setIsActive(false);
     setIsWin(winStatus);
-    const finalScore = winStatus ? 10 : foundIndices.length;
+    const finalScore = winStatus ? 10 : indicesToSave.length;
 
     if (currentQ) {
       localStorage.setItem(`top10_${difficulty}_session_${currentQ.id}`, JSON.stringify({
-        foundIndices: foundIndices,
+        foundIndices: indicesToSave,
         isWin: winStatus,
         lives: lives,
         hintMode: hintMode,
@@ -161,7 +162,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
         const newFound = [...foundIndices, idx];
         setFoundIndices(newFound);
         setLastFoundIdx(null);
-        if (newFound.length === currentQ.targets.length) finishGame(true);
+        if (newFound.length === currentQ.targets.length) finishGame(true, newFound);
       }, 600);
     } else {
       setIsError(true);
