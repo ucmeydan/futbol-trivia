@@ -59,5 +59,27 @@
     "Konyaspor"
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 4,
+  "game": "listeyi-tamamla",
+  "title": "Milli takımımızın Euro 2008 grup maçında Çekya'yı 3-2 mağlup ettiği maçtaki ilk 11'i?",
+  "type": "player",
+  "activeDate": "2026-04-14",
+  "targets": [
+    "Volkan Demirel",
+    "Hakan Balta",
+    "Servet Çetin",
+    "Emre Güngör",
+    "Hamit Altıntop",
+    "Mehmet Topal",
+    "Mehmet Aurelio",
+    "Arda Turan",
+    "Tuncay Şanlı",
+    "Nihat Kahveci",
+    "Semih Şentürk"
+  ],
+  "difficulty": "kolay"
 }
 ]
