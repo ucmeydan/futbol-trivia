@@ -182,7 +182,7 @@ export default function GizlilikClient() {
               href="mailto:iletisim@futboltrivia.com.tr"
               className="inline-flex items-center gap-2 text-red-500 hover:text-red-400 transition-colors text-sm"
             >
-              <span>iletisim@futboltrivia.com.tr</span>
+              <span>futboltriviatr@gmail.com</span>
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
                 <path
                   d="M2 10L10 2M10 2H4M10 2V8"
@@ -192,9 +192,6 @@ export default function GizlilikClient() {
                 />
               </svg>
             </a>
-            <p className="mt-3 text-slate-500 text-sm">
-              Taleplerinize en geç 15 iş günü içinde yanıt vermeye çalışıyoruz.
-            </p>
           </section>
 
         </div>
