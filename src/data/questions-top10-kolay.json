@@ -60,5 +60,27 @@
       "Ernest Muçi"
     ],
     "difficulty": "kolay"
+  }, 
+
+   {
+    "id": 4,
+    "game": "top10",
+    "title": "Fenerbahçe formasıyla Süper Lig'de en fazla gol atan 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-14",
+    "targets": [
+      "Alex De Souza",
+      "Elvir Bolic",
+      "Moussa Sow",
+      "Enner Valencia",
+      "Marcio Nobre",
+      "Fernandao",
+      "Edin Dzeko", 
+      "Michy Batshuayi",
+      "Deivid De Souza",
+      "Dirk Kuyt"
+
+    ],
+    "difficulty": "kolay"
   }
 ]
