@@ -288,5 +288,36 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 11,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-14",
+    "correctPlayer": "Anastasios Bakasetas",
+    "teammates": [
+      {
+        "name": "Samet Akaydın",
+        "info": "2023-24 sezonunda Trabzonspor'da oynadılar"
+      },
+      {
+        "name": "Junior Fernandes",
+        "info": "2019-20 sezonunda Alanyaspor'da oynadılar"
+      },
+      {
+        "name": "Anthony Nwakaeme",
+        "info": "2020-22 yılları arasında Trabzonspor'da oynadılar"
+      },
+      {
+        "name": "Willian Arao",
+        "info": "2023-25 yılları arasında Panathinaikos'ta oynadılar"
+      },
+      {
+        "name": "Marek Hamsik",
+        "info": "2021-23 yılları arasında Trabzonspor'da oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
+
 ]
