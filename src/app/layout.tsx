@@ -85,6 +85,34 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="tr">
       <head>
         <Script
+          id="consent-mode-init"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('consent', 'default', {
+                ad_storage: 'denied',
+                analytics_storage: 'denied',
+                ad_personalization: 'denied',
+                ad_user_data: 'denied',
+                wait_for_update: 500
+              });
+              try {
+                var c = localStorage.getItem('cookie_consent');
+                if (c === '1') {
+                  gtag('consent', 'update', {
+                    ad_storage: 'granted',
+                    analytics_storage: 'granted',
+                    ad_personalization: 'granted',
+                    ad_user_data: 'granted'
+                  });
+                }
+              } catch(e) {}
+            `,
+          }}
+        />
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9343989966072677"
           crossOrigin="anonymous"
