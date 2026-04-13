@@ -85,5 +85,34 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 4,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-14",
+    "correctPlayer": "Ederson",
+    "teammates": [
+      {
+        "name": "Kyle Walker",
+        "info": "2017-25 yılları arasında Manchester City'de oynadılar"
+      },
+      {
+        "name": "Victor Lindelöf",
+        "info": "2015-17 yılları arasında Benfica'da oynadılar"
+      },
+      {
+        "name": "Nicolas Otamendi",
+        "info": "2017-20 yılları arasında Manchester City'de oynadılar"
+      },
+      {
+        "name": "Neymar",
+        "info": "Brezilya Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Nelson Semedo",
+        "info": "2015-17 arasında Benfica'da ve 2025-26 sezonunda Fenerbahçe'de oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]
