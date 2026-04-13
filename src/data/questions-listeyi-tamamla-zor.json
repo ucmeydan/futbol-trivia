@@ -622,5 +622,33 @@
       "Adana Demirspor"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 22,
+    "game": "listeyi-tamamla",
+    "title": "2012-13 sezonunda Galatasaray'ın Şampiyonlar Ligi çeyrek final rövanş maçında Real Madrid'i 3-2 mağlup ettiği maçtaki 18 kişilik kadrosu?",
+    "type": "player",
+    "activeDate": "2026-04-14",
+    "targets": [
+      "Fernando Muslera",
+      "Albert Riera",
+      "Semih Kaya",
+      "Gökhan Zan",
+      "Emmanuel Eboue",
+      "Selçuk İnan",
+      "Felipe Melo",
+      "Hamit Altıntop",
+      "Wesley Sneijder",
+      "Umut Bulut",
+      "Didier Drogba",
+      "Eray İşcan",
+      "Hakan Balta",
+      "Sabri Sarıoğlu",
+      "Yekta Kurtuluş",
+      "Nordin Amrabat",
+      "Aydın Yılmaz",
+      "Johan Elmander"
+    ],
+    "difficulty": "zor"
   }
 ]
