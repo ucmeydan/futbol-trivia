@@ -81,5 +81,22 @@
     "Semih Şentürk"
   ],
   "difficulty": "kolay"
+},
+{
+  "id": 5,
+  "game": "listeyi-tamamla",
+  "title": "Bu sezon Süper Lig'de 15 ve üceri gol katkısı (Gol + asist) yapan oyuncular?",
+  "type": "player",
+  "activeDate": "2026-04-15",
+  "targets": [
+    "Paul Onuachu",
+    "Marco Asensio",
+    "Eldor Shomurodov",
+    "Anderson Talisca",
+    "Barış Alper Yılmaz",
+    "Victor Osimhen",
+    "Mohamed Bayo"
+  ],
+  "difficulty": "kolay"
 }
 ]

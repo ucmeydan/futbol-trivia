@@ -650,5 +650,22 @@
       "Johan Elmander"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 23,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 100'den fazla maça çıkan Arjantinli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-04-15",
+    "targets": [
+      "Pablo Batalla",
+      "Jose Sosa",
+      "Cristian Zurita",
+      "Gustavo Colman",
+      "Oscar Scarione",
+      "Franco Cangele"
+    ],
+    "difficulty": "zor"
   }
 ]
