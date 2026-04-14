@@ -298,7 +298,7 @@
     "teammates": [
       {
         "name": "Samet Akaydın",
-        "info": "2023-24 sezonunda Trabzonspor'da oynadılar"
+        "info": "2023-24 sezonunda Panathinaikos'ta oynadılar"
       },
       {
         "name": "Junior Fernandes",
@@ -318,6 +318,36 @@
       }
     ],
     "difficulty": "zor"
-  }
+  },
+
+  {
+  "id": 12,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-04-15",
+  "correctPlayer": "Cyle Larin",
+  "teammates": [
+    {
+      "name": "Kaká",
+      "info": "2015-17 yılları arasında Orlando City'de oynadılar"
+    },
+    {
+      "name": "Dorukhan Toköz",
+      "info": "2018-21 yılları arasında Beşiktaş'ta oynadılar"
+    },
+    {
+      "name": "Alphonso Davies",
+      "info": "Kanada Milli Takımı'nda birlikte oynadılar"
+    },
+    {
+      "name": "Vedat Muriqi",
+      "info": "2023-25 yılları arasında Mallorca'da oynadılar"
+    },
+    {
+      "name": "Rachid Ghezzal",
+      "info": "2020-22 yılları arasında Beşiktaş'ta oynadılar"
+    }
+  ],
+  "difficulty": "zor"
+}
 
 ]
