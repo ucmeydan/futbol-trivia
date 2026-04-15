@@ -217,5 +217,40 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 6,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-16",
+    "correctPlayer": "Mert Müldür",
+    "career": [
+      {
+        "season": "2017–2018",
+        "team": "Rapid Wien II",
+        "apps": "23",
+        "goals": "0"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Rapid Wien",
+        "apps": "47",
+        "goals": "2"
+      },
+      {
+        "season": "2019–2023",
+        "team": "Sassuolo",
+        "apps": "90",
+        "goals": "2"
+      },
+      {
+        "season": "2023–",
+        "team": "Fenerbahçe",
+        "apps": "113",
+        "goals": "5"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
 ]

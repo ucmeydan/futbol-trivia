@@ -460,11 +460,11 @@
     "difficulty": "zor"
   },
   {
-    "id": 26,
+    "id": 24,
     "game": "top10",
     "title": "Bundesliga'da en çok maça çıkan 10 Türk futbolcu?",
     "type": "player",
-    "activeDate": "2026-04-18",
+    "activeDate": "2026-04-16",
     "targets": [
       "Halil Altıntop",
       "Ömer Toprak",

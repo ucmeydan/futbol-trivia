@@ -143,5 +143,36 @@
     }
   ],
   "difficulty": "kolay"
+},
+
+ {
+  "id": 6,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-04-16",
+  "correctPlayer": "Ryan Babel",
+  "teammates": [
+    {
+      "name": "Steven Gerrard",
+      "info": "2007-11 yılları arasında Liverpool'da oynadılar"
+    },
+    {
+      "name": "Marcao",
+      "info": "2019-22 yılları arasında Galatasaray'da oynadılar"
+    },
+    {
+      "name": "Javier Mascherano",
+      "info": "2008-10 yılları arasında Liverpool'da oynadılar"
+    },
+    {
+      "name": "Tolgay Arslan",
+      "info": "2017-19 yılları arasında Beşiktaş'ta oynadılar"
+    },
+    {
+      "name": "Fernando Muslera",
+      "info": "2019-22 yılları arasında Galatasaray'da oynadılar"
+    }
+  ],
+  "difficulty": "kolay"
 }
+
 ]

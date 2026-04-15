@@ -348,6 +348,36 @@
     }
   ],
   "difficulty": "zor"
+},
+
+ {
+  "id": 13,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-04-16",
+  "correctPlayer": "Dede",
+  "teammates": [
+    {
+      "name": "Jan Koller",
+      "info": "2001-06 yılları arasında Dortmund'da oynadılar"
+    },
+    {
+      "name": "Dida",
+      "info": "Brezilya Milli takımında birlikte oynadılar"
+    },
+    {
+      "name": "Veysel Sarı",
+      "info": "2011-14 yılları arasında Eskişehirspor'da oynadılar"
+    },
+    {
+      "name": "Tomas Rosicky",
+      "info": "2001-06 yılları arasında Dortmund'da oynadılar"
+    },
+    {
+      "name": "Erkan Zengin",
+      "info": "2011-14 yılları arasında Eskişehirspor'da oynadılar"
+    }
+  ],
+  "difficulty": "zor"
 }
 
 ]

@@ -667,5 +667,32 @@
       "Franco Cangele"
     ],
     "difficulty": "zor"
-  }
+  },
+  {
+  "id": 24,
+  "game": "listeyi-tamamla",
+  "title": "Beşiktaş'ta Ricardo Quaresma ile birlikte en az 50 maça çıkan oyuncular?",
+  "type": "player",
+  "activeDate": "2026-04-16",
+  "targets": [
+    "Atiba Hutchinson",
+    "Necip Uysal",
+    "Oğuzhan Özyakup",
+    "Adriano",
+    "Gökhan Gönül",
+    "Dusko Tosic",
+    "Cenk Tosun",
+    "İsmail Köybaşı",
+    "Tolgay Arslan",
+    "Fabri",
+    "Ryan Babel",
+    "Andreas Beck",
+    "Talisca",
+    "Caner Erkin",
+    "Fabian Ernst",
+    "Gary Medel",
+    "Marcelo"
+  ],
+  "difficulty": "zor"
+}
 ]

@@ -103,5 +103,25 @@
 
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 6,
+    "game": "top10",
+    "title": "Fenerbahçe'de bu sezon en fazla süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-04-16",
+    "targets": [
+      "Jayden Oosterwolde",
+      "Milan Skriniar",
+      "Ederson",
+      "Marco Asensio",
+      "Kerem Aktürkoğlu",
+      "Nelson Semedo",
+      "İsmail Yüksek",
+      "Anderson Talisca",
+      "Mert Müldür",
+      "Archie Brown"
+    ],
+    "difficulty": "kolay"
   }
 ]

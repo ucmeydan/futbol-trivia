@@ -98,5 +98,26 @@
     "Mohamed Bayo"
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 6,
+  "game": "listeyi-tamamla",
+  "title": "Son 10 yılda Türkiye Kupası finalinde mücadele eden takımlar?",
+  "type": "team-tr",
+  "activeDate": "2026-04-16",
+  "targets": [
+    "Galatasaray",
+    "Fenerbahçe",
+    "Beşiktaş",
+    "Trabzonspor",
+    "Başakşehir",
+    "Sivasspor",
+    "Antalyaspor",
+    "Akhisar Belediyespor",
+    "Alanyaspor",
+    "Kayserispor"
+  ],
+  "difficulty": "kolay"
 }
 ]
