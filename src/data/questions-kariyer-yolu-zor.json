@@ -805,5 +805,91 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 18,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-17",
+    "correctPlayer": "Atınç Nukan",
+    "career": [
+      {
+        "season": "2009-2015",
+        "team": "Beşiktaş",
+        "apps": "21",
+        "goals": "1"
+      },
+      {
+        "season": "2013–2014",
+        "team": "Dardanelspor (kiralık)",
+        "apps": "20",
+        "goals": "1"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Leipzig",
+        "apps": "14",
+        "goals": "1"
+      },
+      {
+        "season": "2016–2018",
+        "team": "Beşiktaş (kiralık)",
+        "apps": "16",
+        "goals": "1"
+      },
+      {
+        "season": "2019–2024",
+        "team": "Göztepe",
+        "apps": "108",
+        "goals": "10"
+      },
+      {
+        "season": "2024–",
+        "team": "Bandırmaspor",
+        "apps": "72",
+        "goals": "5"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 19,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-18",
+    "correctPlayer": "Ivan Ergić",
+    "career": [
+      {
+        "season": "1999-2000",
+        "team": "Perth Glory",
+        "apps": "23",
+        "goals": "10"
+      },
+      {
+        "season": "2000–2001",
+        "team": "Juventus",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2000–2001",
+        "team": "Basel (kiralık)",
+        "apps": "26",
+        "goals": "1"
+      },
+      {
+        "season": "2001–2009",
+        "team": "Basel",
+        "apps": "256",
+        "goals": "44"
+      },
+      {
+        "season": "2009–2011",
+        "team": "Bursaspor",
+        "apps": "70",
+        "goals": "10"
+      }
+    ],
+    "difficulty": "zor"
   }
+
 ]
