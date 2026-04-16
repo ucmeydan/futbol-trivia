@@ -478,5 +478,25 @@
       "Ozan Kabak"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 25,
+    "game": "top10",
+    "title": "Galatasaray'da Fernando Muslera ile birlikte en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-17",
+    "targets": [
+      "Selçuk İnan",
+      "Semih Kaya",
+      "Hakan Balta",
+      "Sabri Sarıoğlu",
+      "Wesley Sneijder",
+      "Kerem Aktürkoğlu",
+      "Umut Bulut",
+      "Barış Alper Yılmaz",
+      "Felipe Melo",
+      "Burak Yılmaz"
+    ],
+    "difficulty": "zor"
   }
 ]

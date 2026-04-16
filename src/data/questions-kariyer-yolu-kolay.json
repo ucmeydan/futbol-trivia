@@ -251,6 +251,40 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 7,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-17",
+    "correctPlayer": "Edin Visca",
+    "career": [
+      {
+        "season": "2008–2009",
+        "team": "Buducnost Banovici",
+        "apps": "1",
+        "goals": "1"
+      },
+      {
+        "season": "2009–2011",
+        "team": "Zeljeznicar",
+        "apps": "50",
+        "goals": "13"
+      },
+      {
+        "season": "2011–2022",
+        "team": "Başakşehir",
+        "apps": "398",
+        "goals": "110"
+      },
+      {
+        "season": "2022–",
+        "team": "Trabzonspor",
+        "apps": "129",
+        "goals": "21"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 ]

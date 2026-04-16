@@ -119,5 +119,36 @@
     "Kayserispor"
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 7,
+  "game": "listeyi-tamamla",
+  "title": "Bu sezon Süper Lig'de 4 büyüklerin kendi aralarında oynadıkları maçlarda gol atan futbolcular?",
+  "type": "player",
+  "activeDate": "2026-04-17",
+  "targets": [
+    "El Bilal Toure",
+    "Emirhan Topçu",
+    "İsmail Yüksek",
+    "Marco Asensio",
+    "Jhon Duran",
+    "Kerem Aktürkoğlu",
+    "Tammy Abraham",
+    "Victor Osimhen",
+    "İlkay Gündoğan",
+    "Vaclav Cerny",
+    "Ernest Muçi",
+    "Christ Inao Oulai",
+    "Oleksandr Zubkov",
+    "Paul Onuachu",
+    "Wilfried Singo",
+    "Chibuike Nwaiwu",
+    "Youssef En Nesyri",
+    "Anderson Talisca",
+    "Leroy Sane"
+  ],
+  "difficulty": "kolay"
 }
+
 ]

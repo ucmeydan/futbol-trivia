@@ -378,6 +378,35 @@
     }
   ],
   "difficulty": "zor"
+},
+{
+  "id": 14,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-04-17",
+  "correctPlayer": "Fabian Ernst",
+  "teammates": [
+    {
+      "name": "Ailton",
+      "info": "2000-04 yılları arasında Werder Bremen'de oynadılar"
+    },
+    {
+      "name": "Filip Holosko",
+      "info": "2009-11 yılları arasında Beşiktaş'ta oynadılar"
+    },
+    {
+      "name": "Ümit Davala",
+      "info": "2003-05 yılları arasında Werder Bremen'de oynadılar"
+    },
+    {
+      "name": "Rüştü Reçber",
+      "info": "2009-12 yılları arasında Beşiktaş'ta oynadılar"
+    },
+    {
+      "name": "Kevin Kuranyi",
+      "info": "2005-09 yılları arasında Schalke'de oynadılar"
+    }
+  ],
+  "difficulty": "zor"
 }
 
 ]

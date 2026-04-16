@@ -890,6 +890,51 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 20,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-19",
+    "correctPlayer": "Lorik Cana",
+    "career": [
+      {
+        "season": "2002-2005",
+        "team": "PSG",
+        "apps": "81",
+        "goals": "2"
+      },
+      {
+        "season": "2005–2009",
+        "team": "Marsilya",
+        "apps": "175",
+        "goals": "8"
+      },
+      {
+        "season": "2009–2010",
+        "team": "Sunderland",
+        "apps": "35",
+        "goals": "0"
+      },
+      {
+        "season": "2010–2011",
+        "team": "Galatasaray",
+        "apps": "31",
+        "goals": "1"
+      },
+      {
+        "season": "2011-2015",
+        "team": "Lazio",
+        "apps": "111",
+        "goals": "4"
+      },
+      {
+        "season": "2015-2016",
+        "team": "Nantes",
+        "apps": "24",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 ]

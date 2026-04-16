@@ -123,5 +123,26 @@
       "Archie Brown"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 7,
+    "game": "top10",
+    "title": "Beşiktaş tarihinde en çok gol atan 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-17",
+    "targets": [
+      "Bobo",
+      "Vincent Aboubakar",
+      "Filip Holosko",
+      "Marcio Nobre",
+      "Hugo Almeida",
+      "Cyle Larin",
+      "Ricardo Quaresma",
+      "Anderson Talisca",
+      "Ahmed Hassan",
+      "Ryan Babel"
+    ],
+    "difficulty": "kolay"
   }
 ]

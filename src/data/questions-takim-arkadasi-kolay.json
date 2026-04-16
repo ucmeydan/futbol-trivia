@@ -173,6 +173,35 @@
     }
   ],
   "difficulty": "kolay"
-}
+},
 
+{
+  "id": 7,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-04-17",
+  "correctPlayer": "Robin Van Persie",
+  "teammates": [
+    {
+      "name": "Wayne Rooney",
+      "info": "2012-15 yılları arasında Manchester United'da oynadılar"
+    },
+    {
+      "name": "Emmanuel Adebayor",
+      "info": "2015-19 yılları arasında Arsenal'de oynadılar"
+    },
+    {
+      "name": "Nani",
+      "info": "2012-15 yılları arasında Manchester United'da ve 2015-16 sezonunda Fenerbahçe'de oynadılar"
+    },
+    {
+      "name": "Ruud Van Nistelrooy",
+      "info": "Hollanda Milli takımında birlikte oynadılar"
+    },
+    {
+      "name": "Simon Kjaer",
+      "info": "2015-17 yılları arasında Fenerbahçe'de oynadılar"
+    }
+  ],
+  "difficulty": "kolay"
+}
 ]
