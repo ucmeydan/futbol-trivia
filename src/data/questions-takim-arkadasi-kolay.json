@@ -203,5 +203,34 @@
     }
   ],
   "difficulty": "kolay"
+},
+{
+  "id": 8,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-04-18",
+  "correctPlayer": "Wesley Sneijder",
+  "teammates": [
+    {
+      "name": "Iker Casillas",
+      "info": "2007-09 yılları arasında Real Madrid'de oynadılar"
+    },
+    {
+      "name": "Samuel Eto'o",
+      "info": "2009-12 yılları arasında Inter'de oynadılar"
+    },
+    {
+      "name": "Gonzalo Higuain",
+      "info": "2007-09 yılları arasında Real Madrid'de oynadılar"
+    },
+    {
+      "name": "Burak Yılmaz",
+      "info": "2013-16 yılları arasında Galatasaray'da oynadılar"
+    },
+    {
+      "name": "Fernando Muslera",
+      "info": "2013-17 yılları arasında Galatasaray'da oynadılar"
+    }
+  ],
+  "difficulty": "kolay"
 }
 ]

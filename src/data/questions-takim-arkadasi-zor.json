@@ -407,6 +407,36 @@
     }
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 15,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-04-18",
+  "correctPlayer": "Gael Clichy",
+  "teammates": [
+    {
+      "name": "Thierry Henry",
+      "info": "2003-07 yılları arasında Arsenal'de oynadılar"
+    },
+    {
+      "name": "Carlos Tevez",
+      "info": "2011-13 yılları arasında Manchester City'de oynadılar"
+    },
+    {
+      "name": "Arda Turan",
+      "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
+    },
+    {
+      "name": "Aleksandr Hleb",
+      "info": "2005-18 yılları arasında Arsenal'de oynadılar"
+    },
+    {
+      "name": "Kerim Frei",
+      "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
+    }
+  ],
+  "difficulty": "zor"
 }
 
 ]
