@@ -935,6 +935,157 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 21,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-20",
+    "correctPlayer": "Ryan Mendes",
+    "career": [
+      {
+        "season": "2009-2012",
+        "team": "Le Havre",
+        "apps": "95",
+        "goals": "24"
+      },
+      {
+        "season": "2012–2017",
+        "team": "Lille",
+        "apps": "74",
+        "goals": "9"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Nottingham Forest(kiralık)",
+        "apps": "32",
+        "goals": "2"
+      },
+      {
+        "season": "2017–2018",
+        "team": "Kayserispor",
+        "apps": "46",
+        "goals": "8"
+      },
+      {
+        "season": "2018-2020",
+        "team": "Al Sharjah",
+        "apps": "50",
+        "goals": "22"
+      },
+      {
+        "season": "2020-2023",
+        "team": "Al-Nasr (BAE)",
+        "apps": "86",
+        "goals": "17"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Fatih Karagümrük",
+        "apps": "26",
+        "goals": "6"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Kocaelispor",
+        "apps": "39",
+        "goals": "12"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Iğdır FK",
+        "apps": "30",
+        "goals": "5"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 22,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-21",
+    "correctPlayer": "Loide Augusto",
+    "career": [
+      {
+        "season": "2020-2021",
+        "team": "Sporting B",
+        "apps": "17",
+        "goals": "3"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Farense",
+        "apps": "18",
+        "goals": "1"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Mafra",
+        "apps": "23",
+        "goals": "6"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Alanyaspor",
+        "apps": "48",
+        "goals": "5"
+      },
+      {
+        "season": "2025-",
+        "team": "Vasco",
+        "apps": "18",
+        "goals": "0"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Rizespor (kiralık)",
+        "apps": "21",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 23,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-22",
+    "correctPlayer": "Milan Škoda",
+    "career": [
+      {
+        "season": "2007-2012",
+        "team": "Bohemians",
+        "apps": "116",
+        "goals": "25"
+      },
+      {
+        "season": "2012–2020",
+        "team": "Slavia Prag",
+        "apps": "253",
+        "goals": "90"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Çaykur Rizespor",
+        "apps": "48",
+        "goals": "19"
+      },
+      {
+        "season": "2021–2023",
+        "team": "Mlada Boleslav",
+        "apps": "46",
+        "goals": "10"
+      },
+      {
+        "season": "2023-2025",
+        "team": "Slavia Prag B",
+        "apps": "37",
+        "goals": "8"
+      }
+    ],
+    "difficulty": "zor"
   }
+
 
 ]

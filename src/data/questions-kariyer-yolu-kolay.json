@@ -285,6 +285,264 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 8,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-18",
+    "correctPlayer": "Mehmet Topuz",
+    "career": [
+      {
+        "season": "2000–2004",
+        "team": "Kayseri Erciyesspor",
+        "apps": "63",
+        "goals": "14"
+      },
+      {
+        "season": "2004–2009",
+        "team": "Kayserispor",
+        "apps": "199",
+        "goals": "43"
+      },
+      {
+        "season": "2009–2016",
+        "team": "Fenerbahçe",
+        "apps": "217",
+        "goals": "13"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 9,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-19",
+    "correctPlayer": "İbrahim Toraman",
+    "career": [
+      {
+        "season": "2000–2001",
+        "team": "Gaziantep BB",
+        "apps": "1",
+        "goals": "0"
+      },
+      {
+        "season": "2001–2004",
+        "team": "Gaziantepspor",
+        "apps": "96",
+        "goals": "10"
+      },
+      {
+        "season": "2004–2015",
+        "team": "Beşiktaş",
+        "apps": "325",
+        "goals": "23"
+      },
+      {
+        "season": "2014–2015",
+        "team": "Sivasspor (kiralık)",
+        "apps": "13",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 10,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-20",
+    "correctPlayer": "Emre Çolak",
+    "career": [
+      {
+        "season": "2009–2016",
+        "team": "Galatasaray",
+        "apps": "180",
+        "goals": "19"
+      },
+      {
+        "season": "2016–2018",
+        "team": "Deportivo",
+        "apps": "63",
+        "goals": "5"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Al Wahda",
+        "apps": "16",
+        "goals": "1"
+      },
+      {
+        "season": "2019–2020",
+        "team": "Deportivo",
+        "apps": "16",
+        "goals": "2"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Fatih Karagümrük",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Hatayspor",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2022",
+        "team": "Başakşehir",
+        "apps": "7",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Göztepe",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2023–2023",
+        "team": "CF Intercity",
+        "apps": "9",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+{
+    "id": 11,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-21",
+    "correctPlayer": "Raul Meireles",
+    "career": [
+      {
+        "season": "2000–2004",
+        "team": "Boavista",
+        "apps": "29",
+        "goals": "0"
+      },
+      {
+        "season": "2001–2003",
+        "team": "Aves (kiralık)",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2004–2011",
+        "team": "Porto",
+        "apps": "194",
+        "goals": "19"
+      },
+      {
+        "season": "2011–2012",
+        "team": "Liverpool",
+        "apps": "44",
+        "goals": "5"
+      },
+      {
+        "season": "2012–2013",
+        "team": "Chelsea",
+        "apps": "48",
+        "goals": "6"
+      },
+      {
+        "season": "2013-2016",
+        "team": "Fenerbahçe",
+        "apps": "105",
+        "goals": "8"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+{
+    "id": 12,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-22",
+    "correctPlayer": "Gökdeniz Karadeniz",
+    "career": [
+      {
+        "season": "1997-2008",
+        "team": "Trabzonspor",
+        "apps": "294",
+        "goals": "80"
+      },
+      {
+        "season": "2008–2018",
+        "team": "Rubin Kazan",
+        "apps": "300",
+        "goals": "52"
+      }
+
+  ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 13,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-23",
+    "correctPlayer": "Mahmut Tekdemir",
+    "career": [
+      {
+        "season": "2006-2024",
+        "team": "Başakşehir",
+        "apps": "500",
+        "goals": "18"
+      },
+      {
+        "season": "2024–",
+        "team": "Ankaragücü",
+        "apps": "53",
+        "goals": "2"
+      }
+
+  ],
+    "difficulty": "kolay"
+  },
+
+
+{
+    "id": 14,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-24",
+    "correctPlayer": "Milot Rashica",
+    "career": [
+      {
+        "season": "2015–2018",
+        "team": "Vitesse",
+        "apps": "101",
+        "goals": "15"
+      },
+      {
+        "season": "2018–2021",
+        "team": "Werder Bremen",
+        "apps": "100",
+        "goals": "27"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Werder Bremen",
+        "apps": "40",
+        "goals": "2"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Galatasaray",
+        "apps": "30",
+        "goals": "6"
+      },
+      {
+        "season": "2023–",
+        "team": "Beşiktaş",
+        "apps": "112",
+        "goals": "12"
+      }
+
+      ],
+    "difficulty": "kolay"
   }
 
 ]
