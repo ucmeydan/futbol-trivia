@@ -498,5 +498,74 @@
       "Burak Yılmaz"
     ],
     "difficulty": "zor"
+  },
+{
+    "id": 26,
+    "game": "top10",
+    "title": "Bu sezon TFF 1.Lig'de en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-04-18",
+    "targets": [
+      "Mbaye Diagne",
+      "Eren Tozlu",
+      "Florent Hasani",
+      "Lois Diony",
+      "Mame Diouf",
+      "Olarenwaju Kayode",
+      "Taulant Seferi",
+      "Ivan Cedric",
+      "Gianni Bruno",
+      "Hamza Catakovic"
+
+    ],
+    "difficulty": "zor"
+  },
+  
+  {
+    "id": 27,
+    "game": "top10",
+    "title": "Trabzonspor tarihinde en yüksek bonservis ödenen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-19",
+    "targets": [
+      "Majeed Waris",
+      "Gökhan Ünal",
+      "Oleksandr Zubkov",
+      "Danylo Sikan",
+      "Paul Onuachu",
+      "Chibuike Nwaiwu",
+      "Christ Inao Oulai",
+      "Adrian Mierzejewski",
+      "Andreas Cornelius",
+      "Didier Zokora"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 28,
+    "game": "top10",
+    "title": "Süper Lig'de bu sezon en çok gol atan 10 türk futbolcu? (17 Nisan itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-04-20",
+    "targets": [
+      "Umut Nayir",
+      "Barış Alper Yılmaz",
+      "Orkun Kökçü",
+      "Güven Yalçın",
+      "Bertuğ Yıldırım",
+      "Yunus Akgün",
+      "Kerem Aktürkoğlu",
+      "Cengiz Ünder",
+      "Tayfur Bingöl",
+      "İbrahim Kaya"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
+  
 ]

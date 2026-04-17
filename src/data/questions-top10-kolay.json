@@ -144,5 +144,112 @@
       "Ryan Babel"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 8,
+    "game": "top10",
+    "title": "Fenerbahçe tarihinde en yüksek bonservis ödenen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-18",
+    "targets": [
+      "Matteo Guendouzi",
+      "Kerem Aktürkoğlu",
+      "Youssef En Nesyri",
+      "Sidiki Cherif",
+      "Dorgeles Nene",
+      "Cengiz Ünder",
+      "Daniel Guiza",
+      "Emmanuel Emenike",
+      "Sofyan Amrabat",
+      "Diego Carlos"
+    ],
+    "difficulty": "kolay"
+  },
+{
+    "id": 9,
+    "game": "top10",
+    "title": "Süper Lig'in son 5 sezonunun toplamında (2021-22 / 2025-26) en fazla puan alan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-04-19",
+    "targets": [
+      
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Konyaspor",
+      "Alanyaspor",
+      "Kasımpaşa",
+      "Antalyaspor",
+      "Kayserispor"
+    ],
+    "difficulty": "kolay"
+  },
+  
+{
+    "id": 10,
+    "game": "top10",
+    "title": "Beşiktaş tarihinde en yüksek bonservis ödenen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-20",
+    "targets": [
+      "Orkun Kökçü",
+      "Emmanuel Agbadou",
+      "Gedson Fernandes",
+      "Tammy Abraham",
+      "Hyeon Gyu Oh",
+      "Moatasem Al Musrati",
+      "Ernest Muçi",
+      "Wilfried Ndidi",
+      "Rodrigo Tabata",
+      "Ricardo Quaresma"
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 11,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en yüksek bonservis geliri elde edilen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-21",
+    "targets": [
+      "Sacha Boey",
+      "Badou Ndiaye",
+      "Bruma",
+      "Kerem Aktürkoğlu",
+      "Arda Turan",
+      "Marcao",
+      "Ozan Kabak",
+      "Garry Rodrigues",
+      "Abdul Kader Keita",
+      "Burak Yılmaz"
+
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 15,
+    "game": "top10",
+    "title": "Fenerbahçe tarihinde en yüksek bonservis geliri elde edilen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-25",
+    "targets": [
+      "Ferdi Kadıoğlu",
+      "Arda Güler",
+      "Yusuf Akçiçek",
+      "Vedat Muriqi",
+      "Elvir Baljic",
+      "Kim Min Jae",
+      "Eljif Elmas",
+      "Moussa Sow",
+      "Youssef En Nesyri",
+      "Simon Kjaer"
+
+    ],
+    "difficulty": "kolay"
   }
 ]

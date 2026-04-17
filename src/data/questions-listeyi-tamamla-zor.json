@@ -713,5 +713,151 @@
    "Ruan"
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 26,
+  "game": "listeyi-tamamla",
+  "title": "Galatasaray'ın Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
+  "type": "team-eu",
+  "activeDate": "2026-04-18",
+  "targets": [
+   "Barcelona",
+   "Sparta Prag",
+   "Athletic Bilbao",
+   "Rosenborg",
+   "Hertha Berlin",
+   "Milan",
+   "Monaco",
+   "Rangers",
+   "PSG",
+   "Deportivo",
+   "Real Madrid",
+   "Lazio",
+   "PSV",
+   "Nantes",
+   "Lokomotiv Moskova",
+   "Juventus",
+   "Olympiakos",
+   "Liverpool",
+   "Manchester United",
+   "Braga",
+   "Cluj",
+   "Schalke",
+   "Juventus",
+   "Kopenhag",
+   "Benfica",
+   "Bodo Glimt",
+   "Ajax"
+
+  ],
+  "difficulty": "zor"
+},
+
+{
+  "id": 27,
+  "game": "listeyi-tamamla",
+  "title": "Süper Lig tarihinde 1000'den fazla maça çıkan takımlar?",
+  "type": "team-tr",
+  "activeDate": "2026-04-19",
+  "targets": [
+    "Fenerbahçe",
+    "Galatasaray",
+    "Beşiktaş",
+    "Ankaragücü",
+    "Trabzonspor",
+    "Bursaspor",
+    "Gençlerbirliği",
+    "Altay",
+    "Samsunspor",
+    "Antalyaspor",
+    "Gaziantepspor",
+    "Göztepe"
+   
+  ],
+  "difficulty": "zor"
+},
+{
+  "id": 28,
+  "game": "listeyi-tamamla",
+  "title": "Fransa Ligue 1'de 50'den fazla maça çıkan TÜrk futbolcular?",
+  "type": "team-eu",
+  "activeDate": "2026-04-20",
+  "targets": [
+   "Mevlüt Erdinç",
+   "Zeki Çelik",
+   "Yusuf Yazıcı",
+   "Cengiz Ünder",
+   "Burak Yılmaz",
+   "Engin Verel"
+
+  ],
+  "difficulty": "zor"
+},
+
+
+{
+  "id": 30,
+  "game": "listeyi-tamamla",
+  "title": "Beşiktaş'ın Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
+  "type": "team-eu",
+  "activeDate": "2026-04-22",
+  "targets": [
+   "Barcelona",
+   "PSG",
+   "Göteborg",
+   "Chelsea",
+   "Sparta Prag",
+   "Liverpool",
+   "Marsilya",
+   "Manchester United",
+   "Napoli",
+   "Porto",
+   "Leipzig",
+   "Monaco"
+
+  ],
+  "difficulty": "zor"
+},
+
+{
+  "id": 31,
+  "game": "listeyi-tamamla",
+  "title": "Bu sezon Süper Lig'de maça çıkan 18 yaş altı futbolcular? (23 Nisan Ulusal Egemenlik ve Çocuk Bayramı kutlu olsun.)",
+  "type": "team-eu",
+  "activeDate": "2026-04-23",
+  "targets": [
+   "Ayaz Özcan",
+   "Tarık Buğra Kalpaklı",
+   "Hasan Yakub İlçin",
+   "Ali Demirbilek",
+   "Muhammet Akmelek",
+   "Deniz Dönmezer",
+   "Ali Osman Kalın",
+   "Kayra Cihan"
+
+  ],
+  "difficulty": "zor"
+},
+
+{
+  "id": 33,
+  "game": "listeyi-tamamla",
+  "title": "Fenerbahçe'nin Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
+  "type": "team-eu",
+  "activeDate": "2026-04-25",
+  "targets": [
+   "Rapid Wien",
+   "Sparta Prag",
+   "Manchester United",
+   "PSV",
+   "Inter",
+   "CSKA Moskova",
+   "Sevilla",
+   "Inter"
+
+
+  ],
+  "difficulty": "zor"
 }
 ]

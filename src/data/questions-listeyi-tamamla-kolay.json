@@ -149,6 +149,46 @@
     "Leroy Sane"
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 7,
+  "game": "listeyi-tamamla",
+  "title": "Süper Lig tarihinde 40 sezondan fazla mücadele eden takımlar?",
+  "type": "team-tr",
+  "activeDate": "2026-04-18",
+  "targets": [
+   "Fenerbahçe",
+   "Galatasaray",
+   "Beşiktaş",
+   "Ankaragücü",
+   "Trabzonspor",
+   "Bursaspor",
+   "Gençlerbirliği",
+   "Altay"
+  ],
+  "difficulty": "kolay"
+},
+
+{
+  "id": 8,
+  "game": "listeyi-tamamla",
+  "title": "Fenerbahçe'de Alex De Souza ile 150'den fazla maça çıkan futbolcular?",
+  "type": "team-tr",
+  "activeDate": "2026-04-19",
+  "targets": [
+  "Volkan Demirel",
+  "Selçuk Şahin",
+  "Semih Şentürk",
+  "Gökhan Gönül",
+  "Mehmet Aurelio",
+  "Diego Lugano",
+  "Önder Turacı"
+  ],
+  "difficulty": "kolay"
 }
+
+
+
 
 ]
