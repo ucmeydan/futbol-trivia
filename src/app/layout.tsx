@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://futboltrivia.com.tr/api/og",
+        url: "https://futboltrivia.com.tr/og.png",
         width: 1200,
         height: 630,
         alt: "FutbolTrivia — Günlük Süper Lig Bilgi Yarışması",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "FutbolTrivia | Günlük Süper Lig Bilgi Yarışması",
     description: "Her gün yenilenen sorularla futbol bilgini test et!",
-    images: ["https://futboltrivia.com.tr/api/og"],
+    images: ["https://futboltrivia.com.tr/og.png"],
     creator: "@futboltrivia",
   },
   verification: {
