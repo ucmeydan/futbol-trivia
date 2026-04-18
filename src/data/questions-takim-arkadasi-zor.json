@@ -437,6 +437,35 @@
     }
   ],
   "difficulty": "zor"
+},
+{
+    "id": 16,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-19",
+    "correctPlayer": "Leroy Sané",
+    "teammates": [
+      {
+        "name": "Pierre-Emile Højbjerg",
+        "info": "2015-16 sezonunda Schalke 04'te birlikte oynadılar"
+      },
+      {
+        "name": "Jesús Navas",
+        "info": "2016-17 sezonunda Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Fernandinho",
+        "info": "2016-20 yılları arasında Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Lucas Hernández",
+        "info": "2020-23 yılları arasında Bayern Münih'te birlikte oynadılar"
+      },
+      {
+        "name": "Davinson Sánchez",
+        "info": "2025-26 sezonunda Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

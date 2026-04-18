@@ -232,5 +232,34 @@
     }
   ],
   "difficulty": "kolay"
+},
+{
+    "id": 9,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-19",
+    "correctPlayer": "Tammy Abraham",
+    "teammates": [
+      {
+        "name": "N'Golo Kanté",
+        "info": "2017-19 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Paulo Dybala",
+        "info": "2022-25 yılları arasında Roma'da birlikte oynadılar"
+      },
+      {
+        "name": "Orkun Kökçü",
+        "info": "2025-26 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Ollie Watkins",
+        "info": "2026 yılında Aston Villa'da birlikte oynadılar"
+      },
+      {
+        "name": "Emirhan Topçu",
+        "info": "2025-26 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]
