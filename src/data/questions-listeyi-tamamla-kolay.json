@@ -186,6 +186,26 @@
   "Önder Turacı"
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 9,
+  "game": "listeyi-tamamla",
+  "title": "Sergen Yalçın'ın teknik direktörlük kariyerinde 60'dan fazla maçta görev verdiği oyuncular?",
+  "type": "player",
+  "activeDate": "2026-04-20",
+  "targets": [
+  "Ersin Destanoğlu",
+  "Welinton",
+  "Atiba Hutchinson",
+  "Domagoj Vida",
+  "Fabrice Nsakala",
+  "Rıdvan Yılmaz",
+  "Cyle Larin",
+  "Georges Kevin N'koudou"
+
+  ],
+  "difficulty": "kolay"
 }
 
 

@@ -261,5 +261,35 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 10,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-20",
+    "correctPlayer": "Mario Gomez",
+    "teammates": [
+      {
+        "name": "Franck Ribéry",
+        "info": "2009-13 yılları arasında Bayern Münih'te birlikte oynadılar"
+      },
+      {
+        "name": "Yıldıray Baştürk",
+        "info": "2007-09 yılları arasında Stuttgart'ta birlikte oynadılar"
+      },
+      {
+        "name": "Philipp Lahm",
+        "info": "2009-13 yılları arasında Bayern Münih'te ve Alman Milli Takımı'nda birlikte oynadılar"
+      },
+      {
+        "name": "Gökhan Töre",
+        "info": "2015-16 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Oğuzhan Özyakup",
+        "info": "2015-16 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]

@@ -466,6 +466,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 17,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-20",
+    "correctPlayer": "Stefan Savic",
+    "teammates": [
+      {
+        "name": "Samir Nasri",
+        "info": "2011-12 sezonunda Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Mirko Vučinić",
+        "info": "Karadağ Milli Takımı'nda birlikte oynadılar"
+      },
+      {
+        "name": "Mohamed Salah",
+        "info": "2014-15 sezonunda Fiorentina'da birlikte oynadılar"
+      },
+      {
+        "name": "Koke",
+        "info": "2015-24 yılları arasında Atletico Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Enis Destan",
+        "info": "2024-25 sezonunda Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]
