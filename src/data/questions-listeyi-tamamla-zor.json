@@ -1,37 +1,5 @@
 [
-  {
-    "id": 1,
-    "game": "listeyi-tamamla",
-    "title": "Milli takımın Euro 2008 kadrosunda yer alan futbolcular?",
-    "type": "player",
-    "activeDate": "2026-03-24",
-    "targets": [
-      "Volkan Demirel",
-      "Gökhan Zan",
-      "Emre Güngör",
-      "Emre Aşık",
-      "Colin Kazım Richards",
-      "Gökdeniz Karadeniz",
-      "Tümer Metin",
-      "Semih Şentürk",
-      "Sabri Sarıoğlu",
-      "Hakan Balta",
-      "Uğur Boral",
-      "Mehmet Aurelio",
-      "Mehmet Topal",
-      "Tolga Zengin",
-      "Servet Çetin",
-      "Arda Turan",
-      "Tuncay Şanlı",
-      "Ayhan Akman",
-      "Mevlüt Erdinç",
-      "Hamit Altıntop",
-      "Nihat Kahveci",
-      "Emre Belözoğlu",
-      "Rüştü Reçber"
-    ],
-    "difficulty": "zor"
-  },
+  
   {
     "id": 1,
     "game": "listeyi-tamamla",
@@ -853,7 +821,7 @@
    "Inter",
    "CSKA Moskova",
    "Sevilla",
-   "Inter"
+   "Chelsea"
 
 
   ],
