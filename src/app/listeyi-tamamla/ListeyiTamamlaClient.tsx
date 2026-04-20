@@ -255,26 +255,52 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
         <div className="flex items-center justify-center gap-4 mb-2">
           <button
             onClick={() => {
-              setCurrentIndex(prev => Math.max(0, prev - 1));
-              setFoundItems([]);
+              const newIdx = Math.max(0, currentIndex - 1);
+              const targetQ = gameQuestions[newIdx];
+              setCurrentIndex(newIdx);
               setWrongGuesses([]);
               setTimeLeft(90);
-              setIsGameOver(false);
+              setIsActive(false);
+              setShowAll(false);
+              const savedSession = localStorage.getItem(`listeyi_tamamla_${difficulty}_session_${targetQ.id}`);
+              if (savedSession) {
+                const data = JSON.parse(savedSession);
+                setFoundItems(data.found || []);
+                setIsWin(data.won || false);
+                setIsGameOver(true);
+              } else {
+                setFoundItems([]);
+                setIsWin(false);
+                setIsGameOver(false);
+              }
             }}
-            disabled={currentIndex === 0 || isActive || isGameOver}
+            disabled={currentIndex === 0 || isActive}
             className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-xl transition-colors"
             aria-label="Önceki soru"
           >‹</button>
           <div className="font-bebas text-sm text-red-500 tracking-tighter uppercase">#{currentQ.id}</div>
           <button
             onClick={() => {
-              setCurrentIndex(prev => Math.min(gameQuestions.length - 1, prev + 1));
-              setFoundItems([]);
+              const newIdx = Math.min(gameQuestions.length - 1, currentIndex + 1);
+              const targetQ = gameQuestions[newIdx];
+              setCurrentIndex(newIdx);
               setWrongGuesses([]);
               setTimeLeft(90);
-              setIsGameOver(false);
+              setIsActive(false);
+              setShowAll(false);
+              const savedSession = localStorage.getItem(`listeyi_tamamla_${difficulty}_session_${targetQ.id}`);
+              if (savedSession) {
+                const data = JSON.parse(savedSession);
+                setFoundItems(data.found || []);
+                setIsWin(data.won || false);
+                setIsGameOver(true);
+              } else {
+                setFoundItems([]);
+                setIsWin(false);
+                setIsGameOver(false);
+              }
             }}
-            disabled={currentIndex === gameQuestions.length - 1 || isActive || isGameOver}
+            disabled={currentIndex === gameQuestions.length - 1 || isActive}
             className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-xl transition-colors"
             aria-label="Sonraki soru"
           >›</button>
