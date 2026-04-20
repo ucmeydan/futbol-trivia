@@ -762,6 +762,26 @@
   "difficulty": "zor"
 },
 
+{
+  "id": 29,
+  "game": "listeyi-tamamla",
+  "title": "Fenerbahçe'nin Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
+  "type": "team-eu",
+  "activeDate": "2026-04-21",
+  "targets": [
+   "Rapid Wien",
+   "Sparta Prag",
+   "Manchester United",
+   "PSV",
+   "Inter",
+   "CSKA Moskova",
+   "Sevilla",
+   "Chelsea"
+
+
+  ],
+  "difficulty": "zor"
+},
 
 {
   "id": 30,
@@ -805,26 +825,6 @@
 
   ],
   "difficulty": "zor"
-},
-
-{
-  "id": 33,
-  "game": "listeyi-tamamla",
-  "title": "Fenerbahçe'nin Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
-  "type": "team-eu",
-  "activeDate": "2026-04-25",
-  "targets": [
-   "Rapid Wien",
-   "Sparta Prag",
-   "Manchester United",
-   "PSV",
-   "Inter",
-   "CSKA Moskova",
-   "Sevilla",
-   "Chelsea"
-
-
-  ],
-  "difficulty": "zor"
 }
+
 ]

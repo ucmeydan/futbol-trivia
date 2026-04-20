@@ -586,7 +586,28 @@
 
     ],
     "difficulty": "zor"
-  }
+  },
+
+  {
+    "id": 30,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-2026 sezonunda maça çıkan en yaşlı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-22",
+    "targets": [
+      "Paulo Victor",
+      "Veysel Sarı",
+      "Güray Vural",
+      "Anthony Nwakaeme",
+      "Mert Günok",
+      "Gökhan Değirmenci",
+      "İsmail Köybaşı",
+      "Efecan Karaca",
+      "Taras Stepanenko",
+      "Ertuğrul Taşkıran"
+    ],
+    "difficulty": "zor"
+}
 
 
 
