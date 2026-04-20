@@ -291,5 +291,35 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 11,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-21",
+    "correctPlayer": "Milan Skriniar",
+    "teammates": [
+      {
+        "name": "Kylian Mbappe",
+        "info": "2023-24 sezonunda PSG'de birlikte oynadılar"
+      },
+      {
+        "name": "Mauro Icardi",
+        "info": "2017-19 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Vitinha",
+        "info": "2023-25 yılları arasında PSG'de birlikte oynadılar"
+      },
+      {
+        "name": "Lautaro Martinez",
+        "info": "2018-23 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "İsmail Yüksek",
+        "info": "2025-26 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]

@@ -496,6 +496,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 18,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-21",
+    "correctPlayer": "Simao Sabrosa",
+    "teammates": [
+      {
+        "name": "Patrick Kluivert",
+        "info": "1999-2001 yılları arasında Barcelona'da birlikte oynadılar."
+      },
+      {
+        "name": "Luisao",
+        "info": "2003-07 yılları arasında Benfica'da birlikte oynadılar"
+      },
+      {
+        "name": "Diego Forlan",
+        "info": "2007-11 yılları arasında Atletico'da birlikte oynadılar"
+      },
+      {
+        "name": "Fabian Ernst",
+        "info": "2011-12 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Koke",
+        "info": "2009-11 yılları arasında Atletico'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]
