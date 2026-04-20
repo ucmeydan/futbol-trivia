@@ -564,7 +564,30 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 29,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en yüksek puan ortalamasına sahip teknik direktörler? (En az 50 maça çıkanlar arasında)",
+    "type": "td",
+    "activeDate": "2026-04-21",
+    "targets": [
+      "Fatih Terim",
+      "Okan Buruk",
+      "Şenol Güneş",
+      "Gündüz Kılıç",
+      "Mustafa Denizli",
+      "İsmail Kartal",
+      "Abdullah Avcı",
+      "Ahmet Suat Özyazıcı",
+      "Sergen Yalçın",
+      "Ertuğrul Sağlam"
+
+    ],
+    "difficulty": "zor"
   }
+
 
 
   
