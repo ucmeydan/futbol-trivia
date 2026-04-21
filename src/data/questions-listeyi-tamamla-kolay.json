@@ -225,8 +225,27 @@
 
   ],
   "difficulty": "kolay"
-}
+},
 
+
+{
+  "id": 12,
+  "game": "listeyi-tamamla",
+  "title": "Transfermarkt verilerine göre piyasa değeri 20M€'nun üzerinde olan Türk futbolcular?",
+  "type": "player",
+  "activeDate": "2026-04-22",
+  "targets": [
+  "Arda Güler",
+  "Kenan Yıldız",
+  "Can Uzun",
+  "Barış Alper Yılmaz",
+  "Ferdi Kadıoğlu",
+  "Orkun Kökçü",
+  "Kerem Aktürkoğlu"
+
+  ],
+  "difficulty": "kolay"
+}
 
 
 
