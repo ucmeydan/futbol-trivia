@@ -231,6 +231,30 @@
     ],
     "difficulty": "kolay"
   },
+
+  {
+    "id": 12,
+    "game": "top10",
+    "title": "Bu sezon Galatasaray formasıyla en fazla süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-22",
+    "targets": [
+      "Abdülkerim Bardakcı",
+      "Barış Alper Yılmaz",
+      "Davinson Sanchez",
+      "Roland Sallai",
+      "Uğurcan Çakır",
+      "Lucas Torreira",
+      "Leroy Sane",
+      "Gabriel Sara",
+      "Mario Lemina",
+      "Victor Osimhen"
+
+    ],
+    "difficulty": "kolay"
+  },
+
+
   {
     "id": 15,
     "game": "top10",
