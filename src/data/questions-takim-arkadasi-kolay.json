@@ -321,5 +321,35 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 12,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-22",
+    "correctPlayer": "Anderson Talisca",
+    "teammates": [
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2022-25 yılları arasında Al-Nassr'da birlikte oynadılar"
+      },
+      {
+        "name": "Ricardo Quaresma",
+        "info": "2016-18 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Sadio Mané",
+        "info": "2023-25 yılları arasında Al-Nassr'da birlikte oynadılar"
+      },
+      {
+        "name": "Domagoj Vida",
+        "info": "2017-18 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Edin Džeko",
+        "info": "2024-25 sezonununda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]

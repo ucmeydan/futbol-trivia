@@ -526,6 +526,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 19,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-22",
+    "correctPlayer": "Davinson Sánchez",
+    "teammates": [
+      {
+        "name": "Frenkie de Jong",
+        "info": "2016-17 sezonunda Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Georges Kevin N'koudou",
+        "info": "2017-20 yılları arasında Tottenham'da birlikte oynadılar"
+      },
+      {
+        "name": "André Onana",
+        "info": "2016-17 sezonunda Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Jan Vertonghen",
+        "info": "2017-20 yılları arasında Tottenham'da birlikte oynadılar"
+      },
+      {
+        "name": "Hakim Ziyech",
+        "info": "2023-25 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]
