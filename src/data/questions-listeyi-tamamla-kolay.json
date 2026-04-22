@@ -245,6 +245,25 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 13,
+  "game": "listeyi-tamamla",
+  "title": "İsmail Kartal yönetimindeki Fenerbahçe'de 45'ten fazla maça çıkan oyuncular?",
+  "type": "player",
+  "activeDate": "2026-04-23",
+  "targets": [
+  "Ferdi Kadıoğlu",
+  "İrfan Can Kahveci",
+  "Bright Osayi-Samuel",
+  "Dusan Tadic",
+  "Sebastian Szymanski",
+  "İsmail Yüksek",
+  "Edin Dzeko"
+
+  ],
+  "difficulty": "kolay"
 }
 
 

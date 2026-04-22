@@ -254,6 +254,29 @@
     "difficulty": "kolay"
   },
 
+  {
+    "id": 13,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de güncel piyasa değeri en yüksek 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-23",
+    "targets": [
+     "Victor Osimhen",
+     "Matteo Guendouzi",
+     "Barış Alper Yılmaz",
+     "Orkun Kökçü",
+     "Wilfried Singo",
+     "Noa Lang",
+     "Kerem Aktürkoğlu",
+     "Gabriel Sara",
+     "Leroy Sane",
+     "Edson Alvarez"
+
+    ],
+    "difficulty": "kolay"
+  },
+
+
 
   {
     "id": 15,

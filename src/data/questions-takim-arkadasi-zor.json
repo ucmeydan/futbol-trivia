@@ -556,6 +556,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 20,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-23",
+    "correctPlayer": "Nicolas Pepe",
+    "teammates": [
+      {
+        "name": "Eric Bailly",
+        "info": "2024-25 sezonunda Villarreal'de birlikte oynadılar"
+      },
+      {
+        "name": "Rafael Leao",
+        "info": "2018-19 sezonunda Lille'de birlikte oynadılar"
+      },
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "info": "2019-22 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Bukayo Saka",
+        "info": "2019-22 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Paul Onuachu",
+        "info": "2023-24 sezonunda Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

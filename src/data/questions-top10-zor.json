@@ -607,6 +607,27 @@
       "Ertuğrul Taşkıran"
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 31,
+    "game": "top10",
+    "title": "Şenol Güneş'in Beşiktaş'ın başında olduğu dönemde en fazla maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-23",
+    "targets": [
+      "Atiba Hutchinson",
+      "Ricardo Quaresma",
+      "Oğuzhan Özyakup",
+      "Cenk Tosun",
+      "Necip Uysal",
+      "Adriano",
+      "Gökhan Gönül",
+      "Tolgay Arslan",
+      "Dusko Tosic",
+      "Ryan Babel"
+    ],
+    "difficulty": "zor"
 }
 
 

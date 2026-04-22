@@ -1085,6 +1085,40 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 24,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-23",
+    "correctPlayer": "Jakub Kaluzinski",
+    "career": [
+      {
+        "season": "2018-2020",
+        "team": "Lechia Gdansk U19",
+        "apps": "19",
+        "goals": "3"
+      },
+      {
+        "season": "2020–2023",
+        "team": "Lechia Gdansk",
+        "apps": "67",
+        "goals": "3"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Antalyaspor",
+        "apps": "79",
+        "goals": "0"
+      },
+      {
+        "season": "2025-",
+        "team": "Başakşehir",
+        "apps": "12",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 
