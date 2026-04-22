@@ -543,6 +543,34 @@
 
       ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 15,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-25",
+    "correctPlayer": "Guti Hernandez",
+    "career": [
+      {
+        "season": "1995–1996",
+        "team": "Real Madrid Castilla",
+        "apps": "26",
+        "goals": "11"
+      },
+      {
+        "season": "1996–2010",
+        "team": "Real Madrid",
+        "apps": "542",
+        "goals": "77"
+      },
+      {
+        "season": "2010–2011",
+        "team": "Beşiktaş",
+        "apps": "40",
+        "goals": "12"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 ]
