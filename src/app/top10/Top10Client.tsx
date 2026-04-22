@@ -218,14 +218,14 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
           <button
             onClick={() => checkAndLoadQuestion(currentIndex - 1, gameQuestions)}
             disabled={currentIndex === 0}
-            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-4xl transition-colors"
+            className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
             aria-label="Önceki soru"
           >‹</button>
           <span className="text-red-500 font-bebas text-3xl leading-none">#{currentQ.id}</span>
           <button
             onClick={() => checkAndLoadQuestion(currentIndex + 1, gameQuestions)}
             disabled={currentIndex === gameQuestions.length - 1}
-            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-4xl transition-colors"
+            className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
             aria-label="Sonraki soru"
           >›</button>
         </div>
@@ -322,14 +322,14 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
           <button
             onClick={() => checkAndLoadQuestion(currentIndex - 1, gameQuestions)}
             disabled={currentIndex === 0 || isActive}
-            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-xl transition-colors"
+            className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
             aria-label="Önceki soru"
           >‹</button>
           <div className="font-bebas text-sm text-red-500 tracking-tighter uppercase">#{currentQ.id}</div>
           <button
             onClick={() => checkAndLoadQuestion(currentIndex + 1, gameQuestions)}
             disabled={currentIndex === gameQuestions.length - 1 || isActive}
-            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-xl transition-colors"
+            className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
             aria-label="Sonraki soru"
           >›</button>
         </div>

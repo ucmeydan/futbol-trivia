@@ -258,9 +258,9 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
 
       <div className="text-center mb-16 relative z-10">
         <div className="flex items-center justify-center gap-6 mb-2">
-          <button onClick={() => loadQuestion(currentIndex - 1, gameQuestions)} disabled={currentIndex <= 0} className="text-slate-700 hover:text-red-600 disabled:opacity-0 font-bebas text-3xl transition-colors">‹</button>
+          <button onClick={() => loadQuestion(currentIndex - 1, gameQuestions)} disabled={currentIndex <= 0} className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold">‹</button>
           <h1 className="font-bebas text-3xl tracking-normal text-red-600 leading-none">Kariyer Yolu</h1>
-          <button onClick={() => loadQuestion(currentIndex + 1, gameQuestions)} disabled={currentIndex >= gameQuestions.length - 1} className="text-slate-700 hover:text-red-600 disabled:opacity-0 font-bebas text-3xl transition-colors">›</button>
+          <button onClick={() => loadQuestion(currentIndex + 1, gameQuestions)} disabled={currentIndex >= gameQuestions.length - 1} className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold">›</button>
         </div>
         <span className="text-red-600 font-bebas text-2xl leading-none tracking-tighter">#{currentQ.id}</span>
       </div>

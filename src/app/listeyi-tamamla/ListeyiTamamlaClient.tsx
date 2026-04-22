@@ -277,7 +277,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
               }
             }}
             disabled={currentIndex === 0 || isActive}
-            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-xl transition-colors"
+            className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
             aria-label="Önceki soru"
           >‹</button>
           <div className="font-bebas text-sm text-red-500 tracking-tighter uppercase">#{currentQ.id}</div>
@@ -303,7 +303,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
               }
             }}
             disabled={currentIndex === gameQuestions.length - 1 || isActive}
-            className="text-slate-700 hover:text-red-500 disabled:opacity-0 font-bebas text-xl transition-colors"
+            className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
             aria-label="Sonraki soru"
           >›</button>
         </div>
