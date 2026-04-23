@@ -264,6 +264,27 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 14,
+  "game": "listeyi-tamamla",
+  "title": "Süper Lig'de bu sezon 15 ve üzeri gol katkısı (Gol + Asist) yapan futbolcular?",
+  "type": "player",
+  "activeDate": "2026-04-24",
+  "targets": [
+  "Paul Onuachu",
+  "Marco Asensio",
+  "Eldor Shomurodov",
+  "Anderson Talisca",
+  "Mohamed Bayo",
+  "Barış Alper Yılmaz",
+  "Victor Osimhen",
+  "Yunus Akgün"
+
+
+  ],
+  "difficulty": "kolay"
 }
 
 

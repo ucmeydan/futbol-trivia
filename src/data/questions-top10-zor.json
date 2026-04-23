@@ -631,6 +631,27 @@
 },
 
 {
+    "id": 32,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de en fazla şut atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-24",
+    "targets": [
+      "Anderson Talisca",
+      "Eldor Shomurodov",
+      "Orkun Kökçü",
+      "Paul Onuachu",
+      "Victor Osimhen",
+      "Ernest Muçi",
+      "Oleksandr Zubkov",
+      "Jackson Muleka",
+      "Marco Asensio",
+      "Miguel Cardoso"
+    ],
+    "difficulty": "zor"
+},
+
+{
     "id": 36,
     "game": "top10",
     "title": "Aykut Kocaman'ın Fenerbahçe'nin başında olduğu dönemde en fazla maça çıkan 10 futbolcu?",

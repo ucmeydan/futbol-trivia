@@ -276,6 +276,28 @@
     "difficulty": "kolay"
   },
 
+  {
+    "id": 14,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de en yüksek seyirci ortalamasına sahip 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-04-24",
+    "targets": [
+     "Galatasaray",
+     "Fenerbahçe",
+     "Beşiktaş",
+     "Trabzonspor",
+     "Kocaelispor",
+     "Göztepe",
+     "Konyaspor",
+     "Samsunspor",
+     "Gaziantep FK",
+     "Gençlerbirliği"
+
+    ],
+    "difficulty": "kolay"
+  },
+
 
 
   {

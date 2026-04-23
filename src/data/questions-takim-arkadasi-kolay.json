@@ -381,5 +381,35 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 14,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-24",
+    "correctPlayer": "Pepe",
+    "teammates": [
+      {
+        "name": "Karim Benzema",
+        "info": "2008-17 yılları arasında Real Madrid'de birlikte oynadılar."
+      },
+      {
+        "name": "Alvaro Negredo",
+        "info": "2017-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Mehdi Taremi",
+        "info": "2020-24 yılları arasında Porto'da birlikte oynadılar"
+      },
+      {
+        "name": "Domagoj Vida",
+        "info": "2017-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Luka Modric",
+        "info": "2012-17 yılları arasında Real Madrid'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]
