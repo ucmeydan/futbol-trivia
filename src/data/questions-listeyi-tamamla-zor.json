@@ -825,6 +825,25 @@
 
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 32,
+  "game": "listeyi-tamamla",
+  "title": "Bu sezon Türkiye profesyonel futbol liglerini ilk sırada tamamlayan takımlar? ",
+  "type": "team-tr",
+  "activeDate": "2026-04-24",
+  "targets": [
+   "Bursaspor",
+   "Batman Petrolspor",
+   "Erzurumspor",
+   "İnegöl Kafkasspor",
+   "12 Bingölspor",
+   "Sebat Gençlikspor",
+   "Kütahyaspor"
+
+  ],
+  "difficulty": "zor"
 }
 
 ]
