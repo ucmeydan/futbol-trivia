@@ -1189,7 +1189,55 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 27,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-26",
+    "correctPlayer": "Şener Özbayraklı",
+    "career": [
+      {
+        "season": "2009–2010",
+        "team": "Keçiörengücü",
+        "apps": "28",
+        "goals": "0"
+      },
+      {
+        "season": "2010-2013",
+        "team": "Bugsaşspor",
+        "apps": "71",
+        "goals": "3"
+      },
+      {
+        "season": "2013–2015",
+        "team": "Bursaspor",
+        "apps": "103",
+        "goals": "1"
+      },
+      {
+        "season": "2015–2019",
+        "team": "Fenerbahçe",
+        "apps": "110",
+        "goals": "5"
+      },
+      {
+        "season": "2019-2021",
+        "team": "Galatasaray",
+        "apps": "27",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2023",
+        "team": "Başakşehir",
+        "apps": "31",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
+  
+  
 
 
 ]

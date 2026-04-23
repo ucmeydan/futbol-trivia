@@ -320,5 +320,27 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 16,
+    "game": "top10",
+    "title": "Galatasaray - Fenerbahçe derbilerinde gol atan son 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-26",
+    "targets": [
+      "Jayden Oosterwolde",
+      "Matteo Guendouzi",
+      "Jhon Duran",
+      "Leroy Sane",
+      "Sebastian Szymanski",
+      "Victor Osimhen",
+      "Edin Dzeko",
+      "Gabriel Sara",
+      "Dries Mertens",
+      "Lucas Torreira"
+
+    ],
+    "difficulty": "kolay"
   }
 ]

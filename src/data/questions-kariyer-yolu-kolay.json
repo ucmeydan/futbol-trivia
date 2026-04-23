@@ -571,6 +571,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  
+  {
+    "id": 16,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-26",
+    "correctPlayer": "Serdar Aziz",
+    "career": [
+      {
+        "season": "2006–2016",
+        "team": "Bursaspor",
+        "apps": "171",
+        "goals": "11"
+      },
+      {
+        "season": "2016–2019",
+        "team": "Galatasaray",
+        "apps": "51",
+        "goals": "5"
+      },
+      {
+        "season": "2019–2025",
+        "team": "Fenerbahçe",
+        "apps": "135",
+        "goals": "11"
+      }
+    ],
+    "difficulty": "kolay"
   }
+  
 
 ]

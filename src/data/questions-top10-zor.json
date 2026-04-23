@@ -652,6 +652,27 @@
 },
 
 {
+    "id": 34,
+    "game": "top10",
+    "title": "Süper Lig'de oynanan Fenerbahçe - Galatasaray derbilerinde en çok galibiyet alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-26",
+    "targets": [
+      "Volkan Demirel",
+      "Fernando Muslera",
+      "Hakan Şükür",
+      "Bülent Korkmaz",
+      "Selçuk Şahin",
+      "Cüneyt Tanman",
+      "Metin Oktay",
+      "Müjdat Yetkiner",
+      "Ziya Şengül",
+      "Tugay Kerimoğlu"
+    ],
+    "difficulty": "zor"
+},
+
+{
     "id": 36,
     "game": "top10",
     "title": "Aykut Kocaman'ın Fenerbahçe'nin başında olduğu dönemde en fazla maça çıkan 10 futbolcu?",

@@ -844,6 +844,25 @@
 
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 34,
+  "game": "listeyi-tamamla",
+  "title": "Hem Fenerbahçe hem de Galatasaray forması giymiş yabancı futbolcular?",
+  "type": "player",
+  "activeDate": "2026-04-26",
+  "targets": [
+   "Haim Revivo",
+   "Elvir Bolic",
+   "Elvir Baljic",
+   "Stjepan Tomas",
+   "Garry Rodrigues",
+   "Bruma",
+   "Michy Batshuayi"
+
+  ],
+  "difficulty": "zor"
 }
 
 ]

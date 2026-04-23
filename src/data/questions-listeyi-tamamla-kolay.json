@@ -285,6 +285,30 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 16,
+  "game": "listeyi-tamamla",
+  "title": "Milli takımımızın Dünya Kupası play-off elemeleri kadrosundaki Fenerbahçe ya da Galatasaray forması giyen futbolcular?",
+  "type": "player",
+  "activeDate": "2026-04-26",
+  "targets": [
+  "Mert Günok",
+  "Uğurcan Çakır",
+  "Mert Müldür",
+  "Eren Elmalı",
+  "Abdülkerim Bardakçı",
+  "İsmail Yüksek",
+  "Oğuz Aydın",
+  "Kerem Aktürkoğlu",
+  "Yunus Akgün",
+  "Kaan Ayhan",
+  "Barış Alper Yılmaz"
+
+
+  ],
+  "difficulty": "kolay"
 }
 
 
