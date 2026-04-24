@@ -288,6 +288,26 @@
 },
 
 {
+  "id": 15,
+  "game": "listeyi-tamamla",
+  "title": "Tarihinde en az bir sezon Süper Lig'de mücadele etmiş Karadeniz takımları?",
+  "type": "team-tr",
+  "activeDate": "2026-04-25",
+  "targets": [
+   "Akçaabat Sebatspor",
+   "Giresunspor",
+   "Karabükspor",
+   "Orduspor",
+   "Zonguldakspor",
+   "Boluspor",
+   "Rizespor",
+   "Samsunspor",
+   "Trabzonspor"
+
+  ],
+  "difficulty": "kolay"
+},
+{
   "id": 16,
   "game": "listeyi-tamamla",
   "title": "Milli takımımızın Dünya Kupası play-off elemeleri kadrosundaki Fenerbahçe ya da Galatasaray forması giyen futbolcular?",

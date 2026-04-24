@@ -616,6 +616,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 22,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-25",
+    "correctPlayer": "Robinho",
+    "teammates": [
+      {
+        "name": "Ruud Van Nistelrooy",
+        "info": "2016-18 yılları arasında Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Zlatan Ibrahimovic",
+        "info": "2010-12 yılları arasında Milan'da birlikte oynadılar"
+      },
+      {
+        "name": "Vincent Kompany",
+        "info": "2008-10 yılları arasında Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Demba Ba",
+        "info": "2019-20 sezonunda Başakşehir'de birlikte oynadılar"
+      },
+      {
+        "name": "Ziya Erdal",
+        "info": "2017-19 yılları arasında Sivasspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

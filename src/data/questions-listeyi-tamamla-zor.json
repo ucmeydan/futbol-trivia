@@ -847,6 +847,26 @@
 },
 
 {
+  "id": 33,
+  "game": "listeyi-tamamla",
+  "title": "Bu sezon Türkiye profesyonel futbol liglerinde mücadele eden Ankara takımları? ",
+  "type": "team-tr",
+  "activeDate": "2026-04-25",
+  "targets": [
+   "Gençlerbirliği",
+   "Keçiörengücü",
+   "Ankaragücü",
+   "Ankara Demirspor",
+   "Sincan Belediyesi Ankaraspor",
+   "Polatlı 1926 SK",
+   "Çankaya SK",
+   "Etimesgut SK"
+
+  ],
+  "difficulty": "zor"
+},
+
+{
   "id": 34,
   "game": "listeyi-tamamla",
   "title": "Hem Fenerbahçe hem de Galatasaray forması giymiş yabancı futbolcular?",

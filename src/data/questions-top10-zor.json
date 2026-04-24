@@ -652,6 +652,27 @@
 },
 
 {
+    "id": 33,
+    "game": "top10",
+    "title": "Türkiye Kupasını finalde kaybeden son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-04-25",
+    "targets": [
+      "Trabzonspor",
+      "Başakşehir",
+      "Kayserispor",
+      "Antalyaspor",
+      "Alanyaspor",
+      "Akhisar Belediyespor",
+      "Fenerbahçe",
+      "Bursaspor",
+      "Eskişehirspor",
+      "Gençlerbirliği"
+    ],
+    "difficulty": "zor"
+},
+
+{
     "id": 34,
     "game": "top10",
     "title": "Süper Lig'de oynanan Fenerbahçe - Galatasaray derbilerinde en çok galibiyet alan 10 futbolcu?",

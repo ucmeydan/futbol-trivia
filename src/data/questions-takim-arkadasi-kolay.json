@@ -411,5 +411,35 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 15,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-25",
+    "correctPlayer": "Arda Turan",
+    "teammates": [
+      {
+        "name": "Neymar",
+        "info": "2015-17 yılları arasında Barcelona'da birlikte oynadılar."
+      },
+      {
+        "name": "Diego Godin",
+        "info": "2011-15 yılları arasında Atletico Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Radamel Falcao",
+        "info": "2011-13 yılları arasında Atletico Madrid'de ve 2020-21 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Sergio Busquets",
+        "info": "2015-17 yılları arasında Barcelona'da birlikte oynadılar"
+      },
+      {
+        "name": "Cassio Lincoln",
+        "info": "2007-09 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]
