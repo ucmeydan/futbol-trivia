@@ -252,6 +252,8 @@ export default function HomeClient() {
             <Link href="/iletisim" className="hover:text-white transition-colors px-2">İletişim</Link>
             <span className="hidden md:block text-slate-800" aria-hidden="true">•</span>
             <Link href="/gizlilik" className="hover:text-white transition-colors px-2">Gizlilik Politikası</Link>
+            <span className="hidden md:block text-slate-800" aria-hidden="true">•</span>
+            <Link href="/kullanim-sartlari" className="hover:text-white transition-colors px-2">Kullanım Koşulları</Link>
           </nav>
           <p className="text-center text-slate-700 text-[10px] tracking-[0.3em] uppercase font-mono">
             © 2026 Futbol Trivia · Tüm hakları saklıdır.

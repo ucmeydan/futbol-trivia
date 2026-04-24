@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { route: '/hakkimizda',         priority: 0.6, changeFrequency: 'monthly' },
     { route: '/iletisim',           priority: 0.6, changeFrequency: 'monthly' },
     { route: '/sss',                priority: 0.6, changeFrequency: 'monthly' },
+    { route: '/kullanim-sartlari',   priority: 0.4, changeFrequency: 'yearly'  },
     { route: '/gizlilik',           priority: 0.4, changeFrequency: 'yearly'  },
   ];
 
