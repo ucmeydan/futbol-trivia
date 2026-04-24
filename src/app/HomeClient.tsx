@@ -247,6 +247,8 @@ export default function HomeClient() {
           >
             <Link href="/hakkimizda" className="hover:text-white transition-colors px-2">Hakkımızda</Link>
             <span className="hidden md:block text-slate-800" aria-hidden="true">•</span>
+            <Link href="/sss" className="hover:text-white transition-colors px-2">SSS</Link>
+            <span className="hidden md:block text-slate-800" aria-hidden="true">•</span>
             <Link href="/iletisim" className="hover:text-white transition-colors px-2">İletişim</Link>
             <span className="hidden md:block text-slate-800" aria-hidden="true">•</span>
             <Link href="/gizlilik" className="hover:text-white transition-colors px-2">Gizlilik Politikası</Link>
