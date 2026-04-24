@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://futboltrivia.com.tr/sitemap.xml
