@@ -48,6 +48,36 @@ export default function TakimArkadasiPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <DifficultySelector gameSlug="takim-arkadasi" gameTitle="Takım Arkadaşı" />
+
+      <section className="max-w-2xl mx-auto px-6 py-12 text-slate-400 text-sm leading-relaxed space-y-4">
+        <h2 className="text-slate-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Takım Arkadaşı hakkında</h2>
+
+        <p>
+          Takım Arkadaşı, gizlenen futbolcuyu eski takım arkadaşlarından yola çıkarak bulmaya dayanan günlük bir bilgi yarışmasıdır.
+          Her gün bir futbolcu belirlenir ve bu futbolcunun kariyeri boyunca birlikte oynadığı isimler sana ipucu olarak verilir.
+        </p>
+
+        <p>
+          Oyunda 5 ipucu ve 7 tahmin hakkın bulunur. Her yanlış tahminde bir sonraki ipucu açılır. İpuçları genellikle zordan
+          kolaya doğru ilerler. İlk çıkan oyuncular, genellikle hedef oyuncuyla kısa süre oynamış veya az bilinen bir takımda
+          oynamış olurken, sonlarda çıkan oyuncular ise genellikle hedef oyuncunun en bilinen takımlarındaki takım arkadaşlarından oluşur.
+        </p>
+
+        <p>
+          Kolay seviyede Süper Lig'de uzun süre oynamış ve Türk futbolseverler tarafından tanınan isimler yer alırken,
+          Zor seviyede kariyerinin bir bölümünü Türkiye'de geçirmiş daha az bilinen futbolcular da karşına çıkabilir.
+        </p>
+
+        <p>
+          Tahmin ekranında otomatik tamamlama mevcuttur; ismin bir kısmını yazdığında sistem sana uygun önerileri listeler.
+          Eğer o an aklına herhangi bir oyuncu gelmiyorsa Pas Geç seçeneğini kullanabilirsin.
+        </p>
+
+        <p>
+          Her gün yeni bir futbolcu eklenir. Arşiv sayesinde geçmiş soruları da oynayabilir, istatistik ekranında
+          toplam oyun sayını ve en iyi serisini takip edebilirsin.
+        </p>
+      </section>
     </>
   );
 }
