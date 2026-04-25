@@ -280,7 +280,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
             className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
             aria-label="Önceki soru"
           >‹</button>
-          <div className="font-bebas text-sm text-red-500 tracking-tighter uppercase">#{currentQ.id}</div>
+          <div className="font-bebas text-2xl leading-none text-red-600">#{currentQ.id}</div>
           <button
             onClick={() => {
               const newIdx = Math.min(gameQuestions.length - 1, currentIndex + 1);

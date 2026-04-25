@@ -262,7 +262,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
           <h1 className="font-bebas text-3xl tracking-normal text-red-600 leading-none">Kariyer Yolu</h1>
           <button onClick={() => loadQuestion(currentIndex + 1, gameQuestions)} disabled={currentIndex >= gameQuestions.length - 1} className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 hover:text-white disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold">›</button>
         </div>
-        <span className="text-red-600 font-bebas text-2xl leading-none tracking-tighter">#{currentQ.id}</span>
+        <span className="font-bebas text-2xl leading-none text-red-600">#{currentQ.id}</span>
       </div>
 
       <div className="w-full bg-slate-900/40 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl mb-6 relative z-10">

@@ -296,7 +296,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
             >‹</button>
             <div className="flex flex-col items-center">
               <h1 className="text-2xl font-light tracking-tight text-red-600">Takım Arkadaşı</h1>
-              <span className="text-sm font-black text-red-600 tracking-widest mt-1">#{currentQ.id}</span>
+              <span className="font-bebas text-2xl leading-none text-red-600 mt-1">#{currentQ.id}</span>
             </div>
             <button
               onClick={() => loadQuestion(currentIndex + 1, gameQuestions)}
