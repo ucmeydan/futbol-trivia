@@ -694,6 +694,28 @@
 },
 
 {
+    "id": 35,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en yüksek puan ortalamasına sahip 10 yabancı teknik direktör? (En az 50 maça çıkanlar arasında)",
+    "type": "td",
+    "activeDate": "2026-04-27",
+    "targets": [
+     "Karl Heinz Feldkamp",
+     "Mircea Lucescu",
+     "Jozef Venglos",
+     "Zico",
+     "Gordon Milne",
+     "Christoph Daum",
+     "Laszlo Szekely",
+     "Eric Gerets",
+     "Jupp Derwall",
+     "Vitor Pereira"
+    ],
+    "difficulty": "zor"
+},
+
+
+{
     "id": 36,
     "game": "top10",
     "title": "Aykut Kocaman'ın Fenerbahçe'nin başında olduğu dönemde en fazla maça çıkan 10 futbolcu?",
