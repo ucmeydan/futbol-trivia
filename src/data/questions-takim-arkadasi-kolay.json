@@ -441,5 +441,35 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 16,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-26",
+    "correctPlayer": "Kerem Aktürkoğlu",
+    "teammates": [
+      {
+        "name": "Nicolas Otamendi",
+        "info": "2024-25 sezonunda Benfica'da birlikte oynadılar."
+      },
+      {
+        "name": "Ryan Babel",
+        "info": "2020-22 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Alvaro Carreras",
+        "info": "2024-25 sezonunda Benfica'da birlikte oynadılar."
+      },
+      {
+        "name": "Mauro Icardi",
+        "info": "2022-24 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Anderson Talisca",
+        "info": "2025-26 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]

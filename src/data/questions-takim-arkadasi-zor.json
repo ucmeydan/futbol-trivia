@@ -646,6 +646,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 23,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-26",
+    "correctPlayer": "Michy Batshuayi",
+    "teammates": [
+      {
+        "name": "Shinji Kagawa",
+        "info": "2017-18 sezonunda Dortmund'da birlikte oynadılar"
+      },
+      {
+        "name": "Eden Hazard",
+        "info": "2016-18 yılları arasında Chelsea'de ve Belçika Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Miralem Pjanic",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Dries Mertens",
+        "info": "2024-25 sezonunda Galatasaray'da ve Belçika Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Enner Valencia",
+        "info": "2022-23 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]
