@@ -676,6 +676,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 24,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-27",
+    "correctPlayer": "Alex Oxlade Chamberlain ",
+    "teammates": [
+      {
+        "name": "Oliver Giroud",
+        "info": "2012-18 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Ciro Immobile",
+        "info": "2024-25 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Georginio Wijnaldum",
+        "info": "2017-21 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Kasper Schmeichel",
+        "info": "2025-26 sezonunda Celtic'te birlikte oynadılar."
+      },
+      {
+        "name": "Sadio Mane",
+        "info": "2017-22 yılları arasında Liverpool'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

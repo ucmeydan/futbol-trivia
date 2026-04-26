@@ -471,5 +471,35 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 17,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-27",
+    "correctPlayer": "Edin Visca",
+    "teammates": [
+      {
+        "name": "Edin Džeko",
+        "info": "Bosna Hersek Milli takımında birlikte oynadılar."
+      },
+      {
+        "name": "Anthony Nwakaeme",
+        "info": "2021-22 sezonunda ve 2024-2026 yılları arasında Trabzonspor'da birlikte oynadılar."
+      },
+      {
+        "name": "Robinho",
+        "info": "2018-20 yılları arasında Başakşehir'de birlikte oynadılar."
+      },
+      {
+        "name": "Uğurcan Çakır",
+        "info": "2022-25 yılları arasında Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Mahmut Tekdemir",
+        "info": "2011-22 yılları arasında Başakşehir'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]

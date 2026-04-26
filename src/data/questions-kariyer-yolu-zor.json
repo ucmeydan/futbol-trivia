@@ -1288,6 +1288,46 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 28,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-27",
+    "correctPlayer": "Serdar Kurtuluş",
+    "career": [
+      {
+        "season": "2004–2006",
+        "team": "Bursaspor",
+        "apps": "27",
+        "goals": "1"
+      },
+      {
+        "season": "2006-2009",
+        "team": "Beşiktaş",
+        "apps": "93",
+        "goals": "0"
+      },
+      {
+        "season": "2009–2013",
+        "team": "Gaziantepspor",
+        "apps": "119",
+        "goals": "6"
+      },
+      {
+        "season": "2013–2016",
+        "team": "Beşiktaş",
+        "apps": "75",
+        "goals": "0"
+      },
+      {
+        "season": "2016-2017",
+        "team": "Bursaspor",
+        "apps": "6",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
   
   

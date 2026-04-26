@@ -342,5 +342,29 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 17,
+    "game": "top10",
+    "title": "2024-25 sezonunu ilk 10 sırada bitiren takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-04-27",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Samsunspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Eyüpspor",
+      "Trabzonspor",
+      "Göztepe",
+      "Rizespor",
+      "Kasımpaşa"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

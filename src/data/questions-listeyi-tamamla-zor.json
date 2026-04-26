@@ -912,6 +912,33 @@
    "Volkan Şen"
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 36,
+  "game": "listeyi-tamamla",
+  "title": "Milli takım formasıyla Avrupa şampiyonalarında gol atan oyuncular?",
+  "type": "player",
+  "activeDate": "2026-04-28",
+  "targets": [
+   "Semih Şentürk",
+   "Nihat Kahveci",
+   "Arda Turan",
+   "Merih Demiral",
+   "Hakan Şükür",
+   "Uğur Boral",
+   "İrfan Can Kahveci",
+   "Okan Buruk",
+   "Cenk Tosun",
+   "Samet Akaydın",
+   "Arda Güler",
+   "Kerem Aktürkoğlu",
+   "Mert Müldür",
+   "Ozan Tufan",
+   "Burak Yılmaz",
+   "Hakan Çalhanoğlu"
+  ],
+  "difficulty": "zor"
 }
 
 ]
