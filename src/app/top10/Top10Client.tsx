@@ -5,6 +5,7 @@ import playersData from '@/data/players.json';
 import teamsData from '@/data/teams.json';
 import europeanTeamsData from '@/data/european_teams.json';
 import tdData from '@/data/td.json';
+import countriesData from '@/data/countries.json';
 import kolayQuestions from '@/data/questions-top10-kolay.json';
 import zorQuestions from '@/data/questions-top10-zor.json';
 const allQuestions = [...kolayQuestions, ...zorQuestions];
@@ -184,6 +185,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
       else if (currentQ.type === 'team' || currentQ.type === 'team-tr') sourceData = teamsData as string[];
       else if (currentQ.type === 'team-eu') sourceData = europeanTeamsData as string[];
       else if (currentQ.type === 'td') sourceData = tdData as string[];
+      else if (currentQ.type === 'country') sourceData = countriesData as string[];
 
       const normalizedQuery = normalizeText(query);
       const filtered = Array.from(new Set(sourceData))
@@ -471,7 +473,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
                 if (e.key === 'ArrowUp')   { e.preventDefault(); setSelectedIndex(prev => Math.max(prev - 1, 0)); }
                 if (e.key === 'Enter' && suggestions[selectedIndex]) handleGuess(suggestions[selectedIndex]);
               }}
-              placeholder={currentQ?.type.startsWith('team') ? 'Takım ara...' : currentQ?.type === 'td' ? 'Teknik direktör ara...' : 'Futbolcu ara...'}
+              placeholder={currentQ?.type.startsWith('team') ? 'Takım ara...' : currentQ?.type === 'td' ? 'Teknik direktör ara...' : currentQ?.type === 'country' ? 'Ülke ara...' : 'Futbolcu ara...'}
               className={`w-full p-4 bg-slate-900 rounded-2xl border-2 outline-none font-bold text-base text-white placeholder:text-slate-600 transition-colors ${
                 isError ? 'border-red-600 animate-shake' : 'border-slate-800 focus:border-red-600'
               }`}
