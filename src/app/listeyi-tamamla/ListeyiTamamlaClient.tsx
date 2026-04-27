@@ -6,6 +6,7 @@ import teamsData from '@/data/teams.json';
 import europeanTeamsData from '@/data/european_teams.json';
 import tdData from '@/data/td.json';
 import countriesData from '@/data/countries.json';
+import citiesData from '@/data/cities.json';
 import kolayQuestions from '@/data/questions-listeyi-tamamla-kolay.json';
 import zorQuestions from '@/data/questions-listeyi-tamamla-zor.json';
 const allQuestions = [...kolayQuestions, ...zorQuestions];
@@ -125,6 +126,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
       else if (currentQ.type === 'team-eu') sourceData = europeanTeamsData as string[];
       else if (currentQ.type === 'td') sourceData = tdData as string[];
       else if (currentQ.type === 'country') sourceData = countriesData as string[];
+      else if (currentQ.type === 'city') sourceData = citiesData as string[];
 
       const normalizedQuery = normalizeText(query);
       const uniqueItems = Array.from(new Set(sourceData));
@@ -456,7 +458,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
                 if (e.key === 'ArrowUp')   { e.preventDefault(); setSelectedIndex(prev => Math.max(prev - 1, 0)); }
                 if (e.key === 'Enter' && suggestions[selectedIndex]) handleGuess(suggestions[selectedIndex]);
               }}
-              placeholder={currentQ?.type.startsWith('team') ? 'Takım ara...' : currentQ?.type === 'td' ? 'Teknik direktör ara...' : currentQ?.type === 'country' ? 'Ülke ara...' : 'Futbolcu ara...'}
+              placeholder={currentQ?.type.startsWith('team') ? 'Takım ara...' : currentQ?.type === 'td' ? 'Teknik direktör ara...' : currentQ?.type === 'country' ? 'Ülke ara...' : currentQ?.type === 'city' ? 'Şehir ara...' : 'Futbolcu ara...'}
               className="w-full p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 focus:border-red-600 outline-none font-bold text-base text-white placeholder:text-slate-600 transition-colors"
             />
           </div>
