@@ -706,6 +706,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 25,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-28",
+    "correctPlayer": "Ozan Tufan",
+    "teammates": [
+      {
+        "name": "Enes Ünal",
+        "info": "2013-15 yılları arasında Bursaspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Abdulkadir Ömür",
+        "info": "2023-24 sezonunda Hull City'de birlikte oynadılar"
+      },
+      {
+        "name": "Mahmoud Trezeguet",
+        "info": "2024-25 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Cedric Bakambu",
+        "info": "2014-15 sezonunda Bursaspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Demirel",
+        "info": "2015-18 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

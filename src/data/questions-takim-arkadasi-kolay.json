@@ -501,5 +501,35 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 18,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-28",
+    "correctPlayer": "Nelson Semedo",
+    "teammates": [
+      {
+        "name": "Lionel Messi",
+        "info": "2017-20 yılları arasında Barcelona'da birlikte oynadılar."
+      },
+      {
+        "name": "Emmanuel Agbadou",
+        "info": "2024-25 sezonunda Wolves'ta birlikte oynadılar."
+      },
+      {
+        "name": "Rafa Silva",
+        "info": "2016-17 sezonunda Benfica'da ve Portekiz Milli takımında birlikte oynadılar."
+      },
+      {
+        "name": "Luis Suarez",
+        "info": "2017-20 yılları arasında Barcelona'da birlikte oynadılar"
+      },
+      {
+        "name": "Milan Skriniar",
+        "info": "2025-26 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]

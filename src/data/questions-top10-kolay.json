@@ -364,6 +364,28 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 18,
+    "game": "top10",
+    "title": "A Milli futbol takımımızın Türkiye'de en fazla maç yaptığı 10 şehir?",
+    "type": "city",
+    "activeDate": "2026-04-28",
+    "targets": [
+      "İstanbul",
+      "İzmir",
+      "Ankara",
+      "Antalya",
+      "Bursa",
+      "Konya",
+      "Adana",
+      "Trabzon",
+      "Eskişehir",
+      "Kayseri"
+
+    ],
+    "difficulty": "kolay"
   }
 
 

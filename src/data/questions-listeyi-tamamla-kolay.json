@@ -347,6 +347,30 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 18,
+  "game": "listeyi-tamamla",
+  "title": "Türkiye A Milli futbol takımının Avrupa şampiyonaları ve Dünya kupalarında mağlup ettiği ülkeler?",
+  "type": "country",
+  "activeDate": "2026-04-28",
+  "targets": [
+
+"Çin",
+"Japonya",
+"Senegal",
+"Güney Kore",
+"Çekya",
+"Gürcistan",
+"Avusturya",
+"İsviçre",
+"Hırvatistan",
+"Belçika"
+  
+
+  ],
+  "difficulty": "kolay"
 }
 
 

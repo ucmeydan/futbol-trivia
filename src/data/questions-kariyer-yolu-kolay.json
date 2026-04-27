@@ -638,6 +638,46 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 18,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-28",
+    "correctPlayer": "Dorgeles Nene",
+    "career": [
+      {
+        "season": "2021–2026",
+        "team": "Salzburg",
+        "apps": "88",
+        "goals": "22"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Liefering (kiralık)",
+        "apps": "31",
+        "goals": "10"
+      },
+      {
+        "season": "2022–2022",
+        "team": "Ried (kiralık)",
+        "apps": "17",
+        "goals": "2"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Westerlo (kiralık)",
+        "apps": "36",
+        "goals": "13"
+      },
+      {
+        "season": "2025-",
+        "team": "Fenerbahçe",
+        "apps": "39",
+        "goals": "11"
+      }
+    ],
+    "difficulty": "kolay"
   }
   
 

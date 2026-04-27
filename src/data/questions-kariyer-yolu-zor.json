@@ -1328,6 +1328,58 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 29,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-28",
+    "correctPlayer": "Harun Tekin",
+    "career": [
+      {
+        "season": "2008–2010",
+        "team": "Güngören Belediyespor",
+        "apps": "23",
+        "goals": "0"
+      },
+      {
+        "season": "2010-2018",
+        "team": "Bursaspor",
+        "apps": "152",
+        "goals": "0"
+      },
+      {
+        "season": "2018–2021",
+        "team": "Fenerbahçe",
+        "apps": "47",
+        "goals": "0"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Kasımpaşa",
+        "apps": "10",
+        "goals": "0"
+      },
+      {
+        "season": "2022-2023",
+        "team": "Eyüpspor",
+        "apps": "38",
+        "goals": "0"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Kocaelispor",
+        "apps": "17",
+        "goals": "0"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Beykoz Anadolu",
+        "apps": "8",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
   
   
