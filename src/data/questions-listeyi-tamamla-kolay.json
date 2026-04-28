@@ -371,6 +371,28 @@
 
   ],
   "difficulty": "kolay"
+},
+
+
+{
+  "id": 19,
+  "game": "listeyi-tamamla",
+  "title": "Fatih Terim'in Süper Lig'de Galatasaray teknik direktörü olarak çıktığı maçlarda 150'den fazla kez sahaya çıkan oyuncular?",
+  "type": "player",
+  "activeDate": "2026-04-29",
+  "targets": [
+
+"Fernando Muslera",
+"Hakan Şükür",
+"Ergün Penbe",
+"Arif Erdem",
+"Bülent Korkmaz",
+"Hakan Ünsal",
+"Ümit Davala",
+"Gheorghe Hagi"
+
+  ],
+  "difficulty": "kolay"
 }
 
 

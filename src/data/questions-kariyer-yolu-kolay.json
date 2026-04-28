@@ -678,6 +678,46 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 19,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-29",
+    "correctPlayer": "Amir Hadziahmetovic",
+    "career": [
+      {
+        "season": "2014–2016",
+        "team": "Zeljeznicar",
+        "apps": "47",
+        "goals": "3"
+      },
+      {
+        "season": "2016-2023",
+        "team": "Konyaspor",
+        "apps": "199",
+        "goals": "17"
+      },
+      {
+        "season": "2023–",
+        "team": "Beşiktaş",
+        "apps": "57",
+        "goals": "1"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Rizespor (kiralık)",
+        "apps": "23",
+        "goals": "1"
+      },
+      {
+        "season": "2025-",
+        "team": "Hull City (kiralık)",
+        "apps": "39",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
   
 

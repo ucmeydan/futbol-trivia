@@ -531,5 +531,35 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 19,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-29",
+    "correctPlayer": "Burak Yılmaz",
+    "teammates": [
+      {
+        "name": "Jonathan David",
+        "info": "2020-22 yılları arasında Lille'de birlikte oynadılar."
+      },
+      {
+        "name": "Wesley Sneijder",
+        "info": "2012-16 yılları arasında Galatasaray'da birlikte oynadılar."
+      },
+      {
+        "name": "Matias Delgado",
+        "info": "2006-08 yılları arasında Beşiktaş'ta birlikte oynadılar."
+      },
+      {
+        "name": "Alanzinho",
+        "info": "2010-12 yılları arasında Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Atiba Hutchinson",
+        "info": "2018-20 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]

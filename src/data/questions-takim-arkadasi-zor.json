@@ -736,6 +736,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 26,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-29",
+    "correctPlayer": "Jason Denayer",
+    "teammates": [
+      {
+        "name": "Patrick van Aanholt",
+        "info": "2016-17 sezonunda  birlikte oynadılar"
+      },
+      {
+        "name": "Bafetimbi Gomis",
+        "info": "2017-18 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Memphis Depay",
+        "info": "2018-21 yılları arasında Lyon'da birlikte oynadılar"
+      },
+      {
+        "name": "Marcelo Guedes",
+        "info": "2018-22 yılları arasında Lyon'da birlikte oynadılar"
+      },
+      {
+        "name": "Yasin Öztekin",
+        "info": "2015-18 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

@@ -1380,6 +1380,52 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 30,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-29",
+    "correctPlayer": "Jan Durica",
+    "career": [
+      {
+        "season": "2003–2006",
+        "team": "FC Petrzalka",
+        "apps": "70",
+        "goals": "4"
+      },
+      {
+        "season": "2006-2009",
+        "team": "Saturn",
+        "apps": "83",
+        "goals": "3"
+      },
+      {
+        "season": "2009–2016",
+        "team": "Lokomotiv Moskova",
+        "apps": "150",
+        "goals": "6"
+      },
+      {
+        "season": "2010–2010",
+        "team": "Hannover (kiralık)",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2016-2018",
+        "team": "Trabzonspor",
+        "apps": "53",
+        "goals": "0"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Dukla Prag",
+        "apps": "18",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "zor"
   }
   
   

@@ -939,6 +939,31 @@
    "Hakan Çalhanoğlu"
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 37,
+  "game": "listeyi-tamamla",
+  "title": "2025-26 sezonunda Süper Lig'de görev alan yabancı teknik direktörler?",
+  "type": "td",
+  "activeDate": "2026-04-29",
+  "targets": [
+   "Ole Gunnar Solskjaer",
+   "Jose Mourinho",
+   "Domenico Tedesco",
+   "Joao Pereira",
+   "Erling Moe",
+   "Mirel Radoi",
+   "Marcel Licka",
+   "Radomir Djalovic",
+   "Stanimir Stoilov",
+   "Aleksandar Stanojevic",
+   "Thomas Reis",
+   "Thorsten Fink",
+   "Markus Gisdol",
+   "Shota Arveladze"
+  ],
+  "difficulty": "zor"
 }
 
 ]
