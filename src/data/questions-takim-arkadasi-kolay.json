@@ -561,5 +561,35 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 20,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-30",
+    "correctPlayer": "Radamel Falcao",
+    "teammates": [
+      {
+        "name": "Kylian Mbappe",
+        "info": "2013-14 yılları arasında Monaco'da birlikte oynadılar."
+      },
+      {
+        "name": "Sofiane Feghouli",
+        "info": "2019-21 yılları arasında Galatasaray'da birlikte oynadılar."
+      },
+      {
+        "name": "Gabi",
+        "info": "2011-13 yılları arasında Atletico'da birlikte oynadılar."
+      },
+      {
+        "name": "Hulk",
+        "info": "2009-11 yılları arasında Porto'da birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2019-21 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 ]

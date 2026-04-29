@@ -766,6 +766,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 27,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-30",
+    "correctPlayer": "Goran Pandev",
+    "teammates": [
+      {
+        "name": "Massimo Oddo",
+        "info": "2004-07 sezonunda  birlikte oynadılar"
+      },
+      {
+        "name": "Edinson Cavani",
+        "info": "2012-13 sezonunda Napoli'de birlikte oynadılar"
+      },
+      {
+        "name": "Yasin Öztekin",
+        "info": "2014-15 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Diego Milito",
+        "info": "2010-12 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2007-10 yılları arasında Lazio'da ve 2014-15 sezonunda Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]
