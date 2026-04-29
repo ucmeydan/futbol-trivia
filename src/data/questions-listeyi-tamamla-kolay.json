@@ -393,6 +393,30 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 20,
+  "game": "listeyi-tamamla",
+  "title": "Galatasaray'ın 2023-24 sezonunda Şampiyonlar Liginde Manchester United'ı 3-2 mağlup ettiği maçtaki ilk 11'i?",
+  "type": "player",
+  "activeDate": "2026-04-30",
+  "targets": [
+
+    "Fernando Muslera",
+    "Davinson Sanchez",
+    "Abdülkerim Bardakçı",
+    "Sacha Boey",
+    "Angelino",
+    "Lucas Torreira",
+    "Kaan Ayhan",
+    "Wilfried Zaha",
+    "Kerem Aktürkoğlu",
+    "Tete",
+    "Mauro Icardi"
+
+  ],
+  "difficulty": "kolay"
 }
 
 

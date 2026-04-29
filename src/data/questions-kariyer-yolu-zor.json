@@ -1426,6 +1426,52 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 31,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-30",
+    "correctPlayer": "Umut Güneş",
+    "career": [
+      {
+        "season": "2016–2017",
+        "team": "Stuttgart U17",
+        "apps": "30",
+        "goals": "6"
+      },
+      {
+        "season": "2017-2019",
+        "team": "Stuttgart U19",
+        "apps": "51",
+        "goals": "4"
+      },
+      {
+        "season": "2019-2019",
+        "team": "Stuttgart II",
+        "apps": "5",
+        "goals": "0"
+      },
+      {
+        "season": "2019–2023",
+        "team": "Alanyaspor",
+        "apps": "95",
+        "goals": "6"
+      },
+      {
+        "season": "2023-2025",
+        "team": "Trabzonspor",
+        "apps": "41",
+        "goals": "0"
+      },
+      {
+        "season": "2025-",
+        "team": "Başakşehir",
+        "apps": "48",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
   }
   
   

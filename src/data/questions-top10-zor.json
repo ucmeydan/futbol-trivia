@@ -757,8 +757,29 @@
       "Eskişehirspor"
     ],
     "difficulty": "zor"
-}
+},
 
+
+{
+    "id": 38,
+    "game": "top10",
+    "title": "TFF 1.Lig'de bu sezon en fazla gol atan 10 yerli futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-30",
+    "targets": [
+      "Eren Tozlu",
+      "Doğan Can Davas",
+      "Burak Çoban",
+      "Ali Habeşoğlu",
+      "Batuhan Çelik",
+      "Mustafa Fettahoğlu",
+      "Benhur Keser",
+      "Bekir Turaç Böke",
+      "Salih Kavrazlı",
+      "Recep Niyaz"
+    ],
+    "difficulty": "zor"
+}
 
 
   

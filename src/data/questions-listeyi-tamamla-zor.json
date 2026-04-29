@@ -964,6 +964,31 @@
    "Shota Arveladze"
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 38,
+  "game": "listeyi-tamamla",
+  "title": "TFF 1. Lig tarihinde gol krallığı yaşamış yabancı futbolcular?",
+  "type": "player",
+  "activeDate": "2026-04-30",
+  "targets": [
+    "Bruno Mezenga",
+    "Simon Zenke",
+    "Mbilla Etame",
+    "Severin Bikoko",
+    "Gerard Gohou",
+    "Jonathan Ayite",
+    "Slavko Perovic",
+    "Mickael Pote",
+    "Braian Samudio",
+    "Marco Paixao",
+    "Gianni Bruno",
+    "Yonathan Del Valle",
+    "Wesley Moraes"
+    
+  ],
+  "difficulty": "zor"
 }
 
 ]

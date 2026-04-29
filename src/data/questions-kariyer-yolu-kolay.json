@@ -718,6 +718,65 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 20,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-30",
+    "correctPlayer": "Gedson Fernandes",
+    "career": [
+      {
+        "season": "2016–2017",
+        "team": "Benfica U19",
+        "apps": "14",
+        "goals": "1"
+      },
+      {
+        "season": "2017-2028",
+        "team": "Benfica II",
+        "apps": "40",
+        "goals": "5"
+      },
+      {
+        "season": "2018–2022",
+        "team": "Benfica",
+        "apps": "63",
+        "goals": "3"
+      },
+      {
+        "season": "2020-2021",
+        "team": "Tottenham (kiralık)",
+        "apps": "14",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2021",
+        "team": "Galatasaray (kiralık)",
+        "apps": "18",
+        "goals": "1"
+      },
+
+      {
+        "season": "2022–2022",
+        "team": "Rizespor (kiralık)",
+        "apps": "11",
+        "goals": "3"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Beşiktaş",
+        "apps": "131",
+        "goals": "18"
+      },
+      {
+        "season": "2025-",
+        "team": "Spartak Moskova",
+        "apps": "31",
+        "goals": "6"
+      }
+    ],
+    "difficulty": "kolay"
   }
   
 

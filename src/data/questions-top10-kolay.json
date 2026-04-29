@@ -409,6 +409,29 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 20,
+    "game": "top10",
+    "title": "Süper Lig'in son 5 sezonunun toplamında (2021-22 / 2025-26) en çok gol atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-30",
+    "targets": [
+      "Mauro Icardi",
+      "Mame Thiam",
+      "Michy Batshuayi",
+      "Ali Sowe",
+      "Umut Nayir",
+      "Victor Osimhen",
+      "Kerem Aktürkoğlu",
+      "Krzysztof Piatek",
+      "Paul Onuachu",
+      "Umut Bozok"
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 
