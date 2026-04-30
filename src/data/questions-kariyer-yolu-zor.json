@@ -1472,6 +1472,73 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 32,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-01",
+    "correctPlayer": "João Figueiredo",
+    "career": [
+      {
+        "season": "2016–2018",
+        "team": "Atletico Mineiro",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2017-2017",
+        "team": "Democrata (kiralık)",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2018-2019",
+        "team": "Kauno Zalgiris",
+        "apps": "43",
+        "goals": "14"
+      },
+      {
+        "season": "2019–2020",
+        "team": "Ofi Girit",
+        "apps": "38",
+        "goals": "12"
+      },
+      {
+        "season": "2020-2022",
+        "team": "Al Wasl",
+        "apps": "31",
+        "goals": "13"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Gaziantep FK (kiralık)",
+        "apps": "38",
+        "goals": "10"
+      },
+
+      {
+        "season": "2022-2023",
+        "team": "Gaziantep FK",
+        "apps": "26",
+        "goals": "9"
+      },
+      {
+        "season": "2023-2025",
+        "team": "Başakşehir",
+        "apps": "102",
+        "goals": "24"
+      },
+
+      {
+        "season": "2025-",
+        "team": "Johor DT",
+        "apps": "20",
+        "goals": "11"
+      }
+
+    ],
+    "difficulty": "zor"
   }
   
   

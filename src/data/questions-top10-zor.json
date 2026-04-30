@@ -779,6 +779,28 @@
       "Recep Niyaz"
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 39,
+    "game": "top10",
+    "title": "Süper Lig'de en çok maça çıkan 10 İspanyol futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-01",
+    "targets": [
+     "Juanfran (1988)",
+     "Fabri",
+     "Daniel Guiza",
+     "Albert Riera",
+     "Samuel Saiz",
+     "Roberto Soldado",
+     "Alvaro Negredo",
+     "Javi Montero",
+     "Borja Sainz",
+     "Marc Bartra"
+
+    ],
+    "difficulty": "zor"
 }
 
 

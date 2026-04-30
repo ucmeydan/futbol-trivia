@@ -776,7 +776,7 @@
     "teammates": [
       {
         "name": "Massimo Oddo",
-        "info": "2004-07 sezonunda  birlikte oynadılar"
+        "info": "2004-07 sezonunda Lazio'da birlikte oynadılar"
       },
       {
         "name": "Edinson Cavani",
@@ -793,6 +793,36 @@
       {
         "name": "Fernando Muslera",
         "info": "2007-10 yılları arasında Lazio'da ve 2014-15 sezonunda Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+},
+
+{
+    "id": 28,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-01",
+    "correctPlayer": "Valentin Rosier",
+    "teammates": [
+      {
+        "name": "Khephren Thuram",
+        "info": "2023-24 sezonunda Nice'de birlikte oynadılar"
+      },
+      {
+        "name": "Miralem Pjanic",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "info": "2019-20 sezonunda Sporting'de birlikte oynadılar"
+      },
+      {
+        "name": "Gedson Fernandes",
+        "info": "2022-24 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Ante Budimir",
+        "info": "2025-26 sezonunda Osasuna'da birlikte oynadılar"
       }
     ],
     "difficulty": "zor"

@@ -432,6 +432,29 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 21,
+    "game": "top10",
+    "title": "Süper Lig tarihinde tüm sezonların toplamında en fazla gol atan 10 takım? ",
+    "type": "team-tr",
+    "activeDate": "2026-05-01",
+    "targets": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Gençlerbirliği",
+      "Ankaragücü",
+      "Bursaspor",
+      "Altay",
+      "Gaziantepspor",
+      "Samsunspor"
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 

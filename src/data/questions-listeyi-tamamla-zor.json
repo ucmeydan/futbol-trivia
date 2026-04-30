@@ -989,6 +989,26 @@
     
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 39,
+  "game": "listeyi-tamamla",
+  "title": "Süper Lig'de Bursaspor formasıyla 30 ve üzeri sayıda gol atan futbolcular?",
+  "type": "player",
+  "activeDate": "2026-05-01",
+  "targets": [
+    "Okan Yılmaz",
+    "Murat Sözkesen",
+    "Pablo Batalla",
+    "Elvir Baljic",
+    "Nenad Bijedic",
+    "Fernandao",
+    "Magid Mususi",
+    "Sercan Yıldırım"
+    
+  ],
+  "difficulty": "zor"
 }
 
 ]

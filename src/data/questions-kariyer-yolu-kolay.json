@@ -733,7 +733,7 @@
         "goals": "1"
       },
       {
-        "season": "2017-2028",
+        "season": "2017-2018",
         "team": "Benfica II",
         "apps": "40",
         "goals": "5"
@@ -774,6 +774,59 @@
         "team": "Spartak Moskova",
         "apps": "31",
         "goals": "6"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 21,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-01",
+    "correctPlayer": "Alper Potuk",
+    "career": [
+      {
+        "season": "2008-2013",
+        "team": "Eskişehirspor",
+        "apps": "126",
+        "goals": "6"
+      },
+      {
+        "season": "2013-2020",
+        "team": "Fenerbahçe",
+        "apps": "214",
+        "goals": "17"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Ankaragücü",
+        "apps": "25",
+        "goals": "2"
+      },
+      {
+        "season": "2021-2023",
+        "team": "Rizespor",
+        "apps": "54",
+        "goals": "1"
+      },
+      {
+        "season": "2023-2025",
+        "team": "Gostivar",
+        "apps": "51",
+        "goals": "11"
+      },
+
+      {
+        "season": "2025-2025",
+        "team": "Keçiörengücü",
+        "apps": "5",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Bodrumspor",
+        "apps": "7",
+        "goals": "0"
       }
     ],
     "difficulty": "kolay"

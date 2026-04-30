@@ -417,6 +417,30 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 21,
+  "game": "listeyi-tamamla",
+  "title": "Milli takımımızın Euro 2024 son 16 turunda Avusturya'yı 2-1 mağlup ettiği maçtaki ilk 11'i?",
+  "type": "player",
+  "activeDate": "2026-05-01",
+  "targets": [
+
+    "Mert Günok",
+    "Mert Müldür",
+    "Merih Demiral",
+    "Abdülkerim Bardakçı",
+    "Ferdi Kadıoğlu",
+    "İsmail Yüksek",
+    "Kaan Ayhan",
+    "Barış Alper Yılmaz",
+    "Orkun Kökçü",
+    "Kenan Yıldız",
+    "Arda Güler"
+
+  ],
+  "difficulty": "kolay"
 }
 
 
