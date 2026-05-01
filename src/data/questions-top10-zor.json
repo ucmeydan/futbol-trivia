@@ -801,7 +801,52 @@
 
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 40,
+    "game": "top10",
+    "title": "Kayserispor tarihinin en pahalı 10 oyuncu satışı?",
+    "type": "player",
+    "activeDate": "2026-05-02",
+    "targets": [
+     "Mehmet Topuz",
+     "Nordin Amrabat",
+     "Gökhan Ünal",
+     "Serdar Kesimal",
+     "Hasan Ali Kaldırım",
+     "Doğan Alemdar",
+     "Sefa Yılmaz",
+     "Pablo Mouche",
+     "Aleksandr Amisulashvili",
+     "Salih Dursun"
+
+    ],
+    "difficulty": "zor"
+},
+
+{
+    "id": 41,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre 2016 yılının en değerli 10 Türk futbolcusu?",
+    "type": "player",
+    "activeDate": "2026-05-03",
+    "targets": [
+     "Arda Turan",
+     "Ömer Toprak",
+     "Hakan Çalhanoğlu",
+     "Gökhan Töre",
+     "Oğuzhan Özyakup",
+     "Mehmet Topal",
+     "Caner Erkin",
+     "Yunus Mallı",
+     "Cenk Tosun",
+     "Volkan Babacan"
+
+    ],
+    "difficulty": "zor"
 }
+
 
 
   

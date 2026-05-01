@@ -830,7 +830,61 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 22,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-02",
+    "correctPlayer": "Dusan Tadic",
+    "career": [
+      {
+        "season": "2006-2010",
+        "team": "Vojvodina",
+        "apps": "97",
+        "goals": "27"
+      },
+      {
+        "season": "2010-2012",
+        "team": "Groningen",
+        "apps": "76",
+        "goals": "14"
+      },
+      {
+        "season": "2012–2014",
+        "team": "Twente",
+        "apps": "85",
+        "goals": "32"
+      },
+      {
+        "season": "2014-2018",
+        "team": "Southampton",
+        "apps": "162",
+        "goals": "23"
+      },
+      {
+        "season": "2018-2023",
+        "team": "Ajax",
+        "apps": "241",
+        "goals": "105"
+      },
+
+      {
+        "season": "2023-2025",
+        "team": "Fenerbahçe",
+        "apps": "109",
+        "goals": "29"
+      },
+      {
+        "season": "2025-",
+        "team": "Al Wahda",
+        "apps": "39",
+        "goals": "5"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
   
 
 ]

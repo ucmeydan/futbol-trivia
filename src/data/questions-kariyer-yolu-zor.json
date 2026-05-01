@@ -1539,6 +1539,35 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 33,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-02",
+    "correctPlayer": "Bilal Bayazıt",
+    "career": [
+      {
+        "season": "2015–2018",
+        "team": "Vitesse U19",
+        "apps": "48",
+        "goals": "0"
+      },
+      {
+        "season": "2018-2021",
+        "team": "Vitesse U21",
+        "apps": "40",
+        "goals": "0"
+      },
+      {
+        "season": "2021-",
+        "team": "Kayserispor",
+        "apps": "124",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
   
   

@@ -441,6 +441,30 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 22,
+  "game": "listeyi-tamamla",
+  "title": "Transfermarkt verilerine göre Süper Lig'de güncel piyasa değeri 6M€ ve üzerinde olan Türk futbolcular?",
+  "type": "player",
+  "activeDate": "2026-05-02",
+  "targets": [
+
+    "Barış Alper Yılmaz",
+    "Orkun Kökçü",
+    "Kerem Aktürkoğlu",
+    "Yunus Akgün",
+    "Uğurcan Çakır",
+    "İsmail Yüksek",
+    "Oğuz Aydın",
+    "Mert Müldür",
+    "Abdülkerim Bardakçı",
+    "Emirhan Topçu",
+    "Cengiz Ünder"
+
+  ],
+  "difficulty": "kolay"
 }
 
 

@@ -826,6 +826,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 29,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-02",
+    "correctPlayer": "Vedat Muriqi",
+    "teammates": [
+      {
+        "name": "Kang-in Lee",
+        "info": "2022-23 sezonunda Mallorca'da birlikte oynadılar"
+      },
+      {
+        "name": "Sergej Milinkovic Savic",
+        "info": "2020-22 yılları arasında Lazio'da birlikte oynadılar"
+      },
+      {
+        "name": "Deniz Türüç",
+        "info": "2019-20 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Cyle Larin",
+        "info": "2023-25 yılları arasında Mallorca'da birlikte oynadılar"
+      },
+      {
+        "name": "Braian Samudio",
+        "info": "2018-19 sezonunda Rizespor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

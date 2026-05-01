@@ -455,6 +455,28 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 22,
+    "game": "top10",
+    "title": "Bu sezon Trabzonspor formasıyla en fazla süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-02",
+    "targets": [
+      "Wagner Pina",
+      "Mustafa Eskihellaç",
+      "Andre Onana",
+      "Arseniy Batagov",
+      "Tim Jabol Folcarelli",
+      "Paul Onuachu",
+      "Felipe Augusto",
+      "Oleksandr Zubkov",
+      "Ernest Muçi",
+      "Christ Inao Oulai"
+
+    ],
+    "difficulty": "kolay"
   }
 
 

@@ -1009,6 +1009,32 @@
     
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 40,
+  "game": "listeyi-tamamla",
+  "title": "Transfermarkt verilerine göre 20104 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
+  "type": "player",
+  "activeDate": "2026-05-02",
+  "targets": [
+   "Nihat Kahveci",
+   "Emre Belözoğlu",
+   "Tuncay Şanlı",
+   "Gökdeniz Karadeniz",
+   "Rüştü Reçber",
+   "Necati Ateş",
+   "Fatih Tekke",
+   "Hasan Şaş",
+   "Yıldıray Baştürk",
+   "İbrahim Akın",
+   "Sabri Sarıoğlu",
+   "Servet Çetin",
+   "Okan Buruk",
+   "Ümit Davala"
+    
+  ],
+  "difficulty": "zor"
 }
 
 ]

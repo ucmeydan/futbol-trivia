@@ -609,7 +609,7 @@
       },
       {
         "name": "Ademola Lookman",
-        "info": "2022-23 sezonunda Atlalanta'da birlikte oynadılar."
+        "info": "2022-23 sezonunda Atalanta'da birlikte oynadılar."
       },
       {
         "name": "Cristiano Ronaldo",
@@ -621,5 +621,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 22,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-02",
+    "correctPlayer": "Çağlar Söyüncü",
+    "teammates": [
+      {
+        "name": "Onur Bulut",
+        "info": "2016-18 yılları arasında Freiburg'da birlikte oynadılar."
+      },
+      {
+        "name": "Cengiz Ünder",
+        "info": "2014-16 yılları arasında Altınordu'da, 2024-25 sezonunda Fenerbahçe'de ve Türk Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "info": "2023-24 sezonunda Atletico'da birlikte oynadılar."
+      },
+      {
+        "name": "Jamie Vardy",
+        "info": "2018-23 yılları arasında Leicester'da birlikte oynadılar"
+      },
+      {
+        "name": "Edin Džeko",
+        "info": "2024-25 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
+
 ]
