@@ -1059,6 +1059,26 @@
     
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 42,
+  "game": "listeyi-tamamla",
+  "title": "Miralem Pjanic'in futbolculuk kariyerinde forma giydiği takımlar?",
+  "type": "team-all",
+  "activeDate": "2026-05-04",
+  "targets": [
+  "Metz",
+  "Lyon",
+  "Roma",
+  "Juventus",
+  "Barcelona",
+  "Beşiktaş",
+  "Sharjah FC",
+  "CSKA Moskova"
+    
+  ],
+  "difficulty": "zor"
 }
 
 
