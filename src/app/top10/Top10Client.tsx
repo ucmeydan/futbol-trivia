@@ -7,6 +7,7 @@ import europeanTeamsData from '@/data/european_teams.json';
 import tdData from '@/data/td.json';
 import countriesData from '@/data/countries.json';
 import citiesData from '@/data/cities.json';
+import allTeamsData from '@/data/all_teams.json';
 import kolayQuestions from '@/data/questions-top10-kolay.json';
 import zorQuestions from '@/data/questions-top10-zor.json';
 const allQuestions = [...kolayQuestions, ...zorQuestions];
@@ -188,6 +189,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
       else if (currentQ.type === 'td') sourceData = tdData as string[];
       else if (currentQ.type === 'country') sourceData = countriesData as string[];
       else if (currentQ.type === 'city') sourceData = citiesData as string[];
+      else if (currentQ.type === 'team-all') sourceData = allTeamsData as string[];
 
       const normalizedQuery = normalizeText(query);
       const filtered = Array.from(new Set(sourceData))
