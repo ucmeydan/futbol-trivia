@@ -465,6 +465,24 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 23,
+  "game": "listeyi-tamamla",
+  "title": "Emre Belözoğlu'nun teknik direktörlük kariyerinde çalıştırdığı takımlar?",
+  "type": "team-tr",
+  "activeDate": "2026-05-03",
+  "targets": [
+
+    "Fenerbahçe",
+    "Başakşehir",
+    "Ankaragücü",
+    "Antalyaspor",
+    "Kasımpaşa"
+
+  ],
+  "difficulty": "kolay"
 }
 
 

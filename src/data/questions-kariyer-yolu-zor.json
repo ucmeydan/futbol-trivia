@@ -1568,6 +1568,119 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 34,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-03",
+    "correctPlayer": "Mamadou Fall",
+    "career": [
+      {
+        "season": "2013–2022",
+        "team": "Charleroi",
+        "apps": "141",
+        "goals": "28"
+      },
+      {
+        "season": "2013-2016",
+        "team": "White Star Brussels (kiralık)",
+        "apps": "93",
+        "goals": "24"
+      },
+      {
+        "season": "2018-2019",
+        "team": "Eupen (kiralık)",
+        "apps": "31",
+        "goals": "4"
+      },
+{
+        "season": "2022-2026",
+        "team": "Kasımpaşa",
+        "apps": "147",
+        "goals": "30"
+      },
+      {
+        "season": "2026-",
+        "team": "Bandırmaspor (kiralık)",
+        "apps": "14",
+        "goals": "1"
+      }
+
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 35,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-04",
+    "correctPlayer": "Ibrahim Olawoyin",
+    "career": [
+      {
+        "season": "2019–2019",
+        "team": "Abia Warriors",
+        "apps": "21",
+        "goals": "4"
+      },
+      {
+        "season": "2019-2021",
+        "team": "Rangers International",
+        "apps": "50",
+        "goals": "10"
+      },
+      {
+        "season": "2021-2023",
+        "team": "Keçiörengücü",
+        "apps": "51",
+        "goals": "12"
+      },
+      {
+        "season": "2023-",
+        "team": "Rizespor",
+        "apps": "119",
+        "goals": "19"
+      }
+
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 36,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-05",
+    "correctPlayer": "Obinna Nwobodo",
+    "career": [
+      {
+        "season": "2014-2017",
+        "team": "Rangers International",
+        "apps": "59",
+        "goals": "9"
+      }
+      ,{
+        "season": "2017–2020",
+        "team": "Ujpest",
+        "apps": "114",
+        "goals": "15"
+      },
+      {
+        "season": "2020-2022",
+        "team": "Göztepe",
+        "apps": "64",
+        "goals": "0"
+      },
+      {
+        "season": "2022-",
+        "team": "Cincinnati",
+        "apps": "138",
+        "goals": "2"
+      }
+
+    ],
+    "difficulty": "zor"
   }
   
   

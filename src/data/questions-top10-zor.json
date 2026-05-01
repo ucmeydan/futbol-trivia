@@ -845,6 +845,28 @@
 
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 42,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla maça çıkan 10 Rumen futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-04",
+    "targets": [
+     "Bogdan Stancu",
+     "Alexandru Maxim",
+     "Giani Kiriță",
+     "Gheorghe Hagi",
+     "Daniel Timofte",
+     "Silviu Lung Jr.",
+     "Dumitru Stângaciu",
+     "Daniel Pancu",
+     "Gheorghe Popescu",
+     "Cristian Săpunaru"
+
+    ],
+    "difficulty": "zor"
 }
 
 

@@ -1035,6 +1035,31 @@
     
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 41,
+  "game": "listeyi-tamamla",
+  "title": "Süper Lig tarihinde 100 ve üzeri sayıda maça çıkan Nijeryalı futbolcular?",
+  "type": "player",
+  "activeDate": "2026-05-03",
+  "targets": [
+  "Isaac Promise",
+  "Uche Okechukwu",
+  "Aminu Umar",
+  "Anthony Nwakaeme",
+  "David Akintola",
+  "Bright Osayi-Samuel",
+  "Raheem Lawal",
+  "Michael Eneramo",
+  "Kenneth Omeruo",
+  "Olarenwaju Kayode",
+  "Ike Shorunmu",
+  "Henry Onyekuru"
+    
+  ],
+  "difficulty": "zor"
 }
+
 
 ]

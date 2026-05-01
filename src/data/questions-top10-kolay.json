@@ -477,6 +477,30 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 23,
+    "game": "top10",
+    "title": "Burak Yılmaz'ın futbolculuk kariyerinde en çok maça çıktığı 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-05-03",
+    "targets": [
+      
+      "Galatasaray",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Lille",
+      "Antalyaspor",
+      "Beijing Guoan",
+      "Fortuna Sittard",
+      "Manisaspor",
+      "Eskişehirspor",
+      "Fenerbahçe"
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 

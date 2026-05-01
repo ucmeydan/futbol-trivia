@@ -883,7 +883,41 @@
       }
     ],
     "difficulty": "kolay"
+  },
+{
+    "id": 23,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-03",
+    "correctPlayer": "Hakan Balta",
+    "career": [
+      {
+        "season": "2000-2001",
+        "team": "Hertha Berlin U19",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2001-2003",
+        "team": "Hertha Berlin II",
+        "apps": "44",
+        "goals": "4"
+      },
+      {
+        "season": "2003–2007",
+        "team": "Manisaspor",
+        "apps": "128",
+        "goals": "21"
+      },
+      {
+        "season": "2007-2018",
+        "team": "Galatasaray",
+        "apps": "334",
+        "goals": "13"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
 
   
 
