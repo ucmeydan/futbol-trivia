@@ -916,6 +916,34 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 24,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-04",
+    "correctPlayer": "Wilfred Ndidi",
+    "career": [
+      {
+        "season": "2015-2017",
+        "team": "Genk",
+        "apps": "83",
+        "goals": "7"
+      },
+      {
+        "season": "2017-2025",
+        "team": "Leicester",
+        "apps": "303",
+        "goals": "18"
+      },
+      {
+        "season": "2025–",
+        "team": "Beşiktaş",
+        "apps": "28",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

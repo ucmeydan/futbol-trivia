@@ -651,6 +651,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 23,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-03",
+    "correctPlayer": "Selçuk İnan",
+    "teammates": [
+      {
+        "name": "Hasan Kabze",
+        "info": "2002-05 yılları arasında Dardanelspor'da birlikte oynadılar."
+      },
+      {
+        "name": "Rigobert Song",
+        "info": "2008-10 yılları arasında Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Emmanuel Eboue",
+        "info": "2011-15 yılları arasında Galatasaray'da birlikte oynadılar."
+      },
+      {
+        "name": "Sofiane Feghouli",
+        "info": "2017-20 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Wesley Sneijder",
+        "info": "2013-17 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 ]
