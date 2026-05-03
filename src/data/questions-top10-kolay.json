@@ -501,6 +501,29 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 24,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-26 sezonunda en çok gol atan takımlar? (32.hafta itibarıyla)",
+    "type": "team-tr",
+    "activeDate": "2026-05-04",
+    "targets": [
+      
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Rizespor",
+      "Samsunspor",
+      "Konyaspor",
+      "Gaziantep FK",
+      "Göztepe"
+
+    ],
+    "difficulty": "kolay"
   }
 
 

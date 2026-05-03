@@ -681,6 +681,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 24,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-04",
+    "correctPlayer": "Nani",
+    "teammates": [
+      {
+        "name": "Mario Balotelli",
+        "info": "2023-24 sezonunda Adana Demirspor'da birlikte oynadılar."
+      },
+      {
+        "name": "Simon Kjaer",
+        "info": "2015-16 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Maestro",
+        "info": "2023-24 sezonunda Adana Demirspor'da birlikte oynadılar."
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2007-09 yılları arasında Manchester United'da ve Portekiz Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Demirel",
+        "info": "2015-16 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 ]

@@ -886,6 +886,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 31,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-04",
+    "correctPlayer": "Mehmet Ekici",
+    "teammates": [
+      {
+        "name": "Marko Marin",
+        "info": "2011-12 sezonunda Werder Bremen'de ve 2015-16 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Eljif Elmas",
+        "info": "2017-19 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Giuliano",
+        "info": "2017-18 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "info": "2012-13 sezonunda Werder Bremen'de birlikte oynadılar"
+      },
+      {
+        "name": "Jose Bosingwa",
+        "info": "2014-16 yılları arasında Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

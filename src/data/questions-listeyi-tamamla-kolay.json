@@ -483,8 +483,33 @@
 
   ],
   "difficulty": "kolay"
-}
+},
 
+
+{
+  "id": 24,
+  "game": "listeyi-tamamla",
+  "title": "2025-26 sezonunda Galatasaray'ı mağlup eden takımlar? (Lig, kupalar ve Avrupa kupaları dahil)",
+  "type": "team-all",
+  "activeDate": "2026-05-04",
+  "targets": [
+"Kocaelispor",
+"Konyaspor",
+"Trabzonspor",
+"Samsunspor",
+"Fenerbahçe",
+"Gençlerbirliği",
+"Liverpool",
+"Juventus",
+"Union SG",
+"Manchester City",
+"Monaco",
+"Frankfurt"
+
+
+  ],
+  "difficulty": "kolay"
+}
 
 
 ]
