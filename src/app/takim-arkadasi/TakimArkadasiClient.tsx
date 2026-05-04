@@ -260,22 +260,6 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
           <button onClick={() => setShowStatsPage(false)} className="w-full bg-slate-800 text-white py-3 rounded-xl text-xs font-semibold">Kapat</button>
         </div>
 
-        <section className="mt-8 pt-6 border-t border-slate-900 pb-4">
-          <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Takım Arkadaşı hakkında</h2>
-          <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
-            <p>
-              Takım Arkadaşı, yolu Türkiye'den geçmiş futbolcuları kulüp veya
-              milli takım kariyerindeki eski takım arkadaşlarından tahmin ettiğin
-              günlük bir bilgi yarışması oyunudur.
-            </p>
-            <p>
-              Her gün yeni bir futbolcu gizlenir. Beş ipucu oyunun başından itibaren
-              sırayla açılır; her yanlış tahminde bir sonraki takım arkadaşı görünür
-              hale gelir. Tüm ipuçları açıldıktan sonra da tahmin yapmaya devam
-              edebilirsin — toplamda 7 tahmin hakkın var.
-            </p>
-          </div>
-        </section>
       </div>
     );
   }
@@ -409,36 +393,6 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
           </div>
         )}
       </div>
-
-      <section className="mt-6 pt-6 border-t border-slate-900 pb-10">
-        <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Takım Arkadaşı hakkında</h2>
-        <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
-          <p>
-            Takım Arkadaşı, yolu Türkiye'den geçmiş futbolcuları kulüp veya milli
-            takım kariyerindeki eski takım arkadaşlarından tahmin ettiğin günlük bir
-            bilgi yarışması oyunudur. Her gün farklı bir futbolcu gizlenir ve beş
-            ipucu ekrana sırayla gelir.
-          </p>
-          <p>
-            Her yanlış tahminde bir sonraki takım arkadaşı açılır. Tüm beş ipucu
-            görünür hale geldikten sonra iki ek tahmin hakkın daha bulunur — toplamda
-            7 tahmin hakkınla doğru ismi bulmaya çalışırsın. Oyun bittiğinde her
-            takım arkadaşının hangi takımda ve hangi sezonda birlikte oynadıkları da
-            gösterilir.
-          </p>
-          <p>
-            Süper Lig'in farklı dönemlerinden oyuncular, Avrupa kulüplerinde Türk
-            futbolcularla aynı takımda oynamış yabancı isimler ve milli takım
-            
-            tarihinin önemli figürleri sorularda karşına çıkabilir.
-          </p>
-          <p>
-            İstatistik sayfasında 1'den 7'ye kadar kaçıncı tahminde bulduğunu
-            gösteren dağılım grafiğini ve genel galibiyet yüzdeni takip edebilirsin.
-            Her gün yeni soru gelir.
-          </p>
-        </div>
-      </section>
 
     </div>
   );

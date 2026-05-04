@@ -507,31 +507,6 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
         )}
       </div>
 
-      {/* SEO içerik bloğu */}
-      <section className="mt-6 pt-6 border-t border-slate-900 pb-10">
-        <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Top 10 hakkında</h2>
-        <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
-          <p>
-            Top 10, Süper Lig ve Türk futboluna ait istatistik listelerini tamamlamaya
-            çalıştığın günlük bir bilgi yarışması oyunudur. Her soruda belirli bir
-            kategoriye ait 10 ismi bulmak hedeflenir; doğru sıralama aranmaz.
-          </p>
-          <p>
-            Kolay modda her ismin kaç harften oluştuğunu gösteren ipuçları görünür.
-            Zor modda ise herhangi bir ipucu sunulmaz. Her iki modda toplam 3 yanlış
-            tahmin hakkın vardır.
-          </p>
-          <p>
-            Sorular Süper Lig tarihini, gol krallıklarını, Türkiye Kupası
-            şampiyonlarını, milli takım kadrosunu ve Avrupa kupalarını kapsar.
-          </p>
-          <p>
-            İstatistik sayfasında toplam oyun sayını, kazanma yüzdeni ve doğru
-            cevap dağılım grafiğini görebilirsin. Arşiv navigasyonuyla geçmiş soruları
-            tekrar oynayabilirsin.
-          </p>
-        </div>
-      </section>
     </div>
   );
 }

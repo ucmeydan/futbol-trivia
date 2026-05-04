@@ -488,36 +488,6 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
         )}
       </div>
 
-      {/* SEO içerik bloğu */}
-      <section className="mt-8 pt-6 border-t border-slate-900 pb-10">
-        <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">
-          Listeyi Tamamla hakkında
-        </h2>
-        <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
-          <p>
-            Listeyi Tamamla, Süper Lig ve Türk futboluna ait günlük listeleri
-            belirli bir süre içinde tamamlamaya çalıştığın bilgi yarışması oyunudur.
-            Her gün yeni bir konu açıklanır ve 90 saniyelik geri sayım başlar.
-          </p>
-          <p>
-            Tahmin yazmaya başladığın anda geri sayım devreye girer. Her doğru
-            cevap süreye 5 saniye ekler; bu nedenle hızlı düşünmek kadar doğru
-            düşünmek de önem taşır. Yanlış tahminler süreyi etkilemez.
-          </p>
-          <p>
-            Sorular Süper Lig tarihini, milli takım kadrosunu, Avrupa kupalarındaki
-            Türk kulüplerini ve belirli sezonlara ait istatistikleri kapsar.
-          </p>
-          <p>
-            İstatistik sayfasında toplam oyun sayını, kaç listeyi tamamladığını,
-            en fazla kaç doğru bulduğunu ve en yüksek yüzde skorunu görebilirsin.
-          </p>
-          <p>
-            Sorular her gün güncellenir. Arşiv navigasyonuyla geçmiş soruları da
-            oynayabilirsin.
-          </p>
-        </div>
-      </section>
     </div>
   );
 }

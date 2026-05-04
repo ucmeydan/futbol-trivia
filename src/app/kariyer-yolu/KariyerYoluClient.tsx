@@ -218,32 +218,6 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
           </button>
         </div>
 
-        {/* SEO bloğu — istatistik ekranı, koşulsuz */}
-        <section className="mt-8 pt-6 border-t border-slate-900 pb-4">
-          <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Kariyer Yolu hakkında</h2>
-          <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
-            <p>
-              Kariyer Yolu, yolu Türkiye'den geçmiş futbolcuları sezon sezon açılan
-              kariyer tablosundan tahmin ettiğin günlük bir bilgi yarışması oyunudur.
-              Her tahminde yeni bir sezon görünür hale gelir; kariyer boyunca
-              geçtiği kulüpleri, maç sayılarını ve gol istatistiklerini ipucu olarak
-              kullanarak doğru oyuncuyu bulmaya çalışırsın.
-            </p>
-            <p>
-              Oyun, Süper Lig'de oynamış yerli ve yabancı futbolcuları kapsar.
-              Bazı sorularda yalnızca Türkiye'deki kariyeri değil, oyuncunun
-              dünya genelindeki tüm kariyer yolculuğu tabloya yansır. Bu sayede
-              bir oyuncunun hangi kulüplerden geçerek Süper Lig'e geldiğini ya
-              da Türkiye'den hangi kulüplere transfer olduğunu keşfedebilirsin.
-            </p>
-            <p>
-              İstatistik sayfasında kaçıncı tahminde bulduğunu gösteren dağılım
-              grafiğini, kazanma yüzdeni ve toplam galibiyet sayını görebilirsin.
-              Her gün yeni soru gelir. Arşiv navigasyonuyla geçmiş soruları da
-              oynayabilirsin.
-            </p>
-          </div>
-        </section>
       </div>
     );
   }
@@ -341,47 +315,6 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
           </div>
         )}
       </div>
-
-      {/* SEO içerik bloğu — koşulsuz, her zaman görünür */}
-      <section className="mt-6 pt-6 border-t border-slate-900 pb-10">
-        <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-4">Kariyer Yolu hakkında</h2>
-        <div className="space-y-3 text-slate-700 text-xs leading-relaxed font-light">
-          <p>
-            Kariyer Yolu, yolu Türkiye'den geçmiş futbolcuların kariyer geçmişlerini
-            sezon sezon keşfettiğin günlük bir bilgi yarışması oyunudur. Her gün yeni
-            bir futbolcunun kariyer tablosu önüne gelir; geçtiği takımları, maç
-            sayılarını ve gol istatistiklerini inceleyerek doğru ismi tahmin etmeye
-            çalışırsın.
-          </p>
-          <p>
-            Oyunun temel mekaniği şu şekilde işler: başlangıçta kariyer tablosunun
-            yalnızca ilk satırı görünürdür. Her yanlış tahminde bir sonraki sezon
-            açılır ve yeni ipuçları elde edersin. Kariyer tablosu tamamen açıldıktan
-            sonra da tahmin yapmaya devam edebilirsin. Ne kadar erken bulursan o kadar
-            iyi bir skor elde edersin.
-          </p>
-          <p>
-            Sorular Süper Lig'de iz bırakmış yerli ve yabancı futbolcuları kapsar.
-            Bazı sorularda oyuncunun yalnızca Türkiye'deki dönemi değil, dünya
-            genelindeki tüm kariyer yolculuğu tabloya yansır. Bu sayede hangi
-            kulüplerden geçerek Süper Lig'e geldiğini ya da Türkiye'den sonra
-            kariyerini nerede sürdürdüğünü keşfedebilirsin.
-          </p>
-          <p>
-            Süper Lig'in farklı dönemlerinden isimler, genç yaşta Türk kulüplerinden
-            Avrupa'ya açılan futbolcular ve dünyaca tanınan isimlerin Türkiye
-            serüvenleri bu oyunun soru havuzunu oluşturur. Tanıdık bir kariyer
-            silsilesi bile farklı bir perspektiften sorulduğunda zorlayıcı
-            olabilir.
-          </p>
-          <p>
-            İstatistik sayfasında kaçıncı tahminde bulduğunu gösteren dağılım
-            grafiğini, toplam galibiyet sayını ve kazanma yüzdeni takip
-            edebilirsin. Arşiv navigasyonuyla geçmiş soruları tekrar oynayabilir,
-            kaçırdığın günleri tamamlayabilirsin. Sorular her gün yenilenir.
-          </p>
-        </div>
-      </section>
 
     </div>
   );
