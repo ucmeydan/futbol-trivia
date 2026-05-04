@@ -711,6 +711,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 25,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-05",
+    "correctPlayer": "Caner Erkin",
+    "teammates": [
+      {
+        "name": "Ömer Ali Şahiner",
+        "info": "2022-23 sezonunda Başakşehir'de birlikte oynadılar."
+      },
+      {
+        "name": "Arda Turan",
+        "info": "2009-10 sezonunda Galatasaray'da ve Türk Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Adriano Correia",
+        "info": "2016-19 yılları arasında Beşiktaş'ta birlikte oynadılar."
+      },
+      {
+        "name": "Moussa Sow",
+        "info": "2012-16 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Alex de Souza",
+        "info": "2010-12 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 ]

@@ -944,6 +944,58 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 25,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-05",
+    "correctPlayer": "Mauro Icardi",
+    "career": [
+      {
+        "season": "2010-2012",
+        "team": "Sampdoria B",
+        "apps": "39",
+        "goals": "30"
+      },
+      {
+        "season": "2011-2013",
+        "team": "Sampdoria",
+        "apps": "33",
+        "goals": "11"
+      },
+      {
+        "season": "2013–2020",
+        "team": "Inter",
+        "apps": "219",
+        "goals": "124"
+      },
+      {
+        "season": "2019-2020",
+        "team": "PSG (kiralık)",
+        "apps": "34",
+        "goals": "20"
+      },
+      {
+        "season": "2020-2023",
+        "team": "PSG",
+        "apps": "92",
+        "goals": "38"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Galatasaray (kiralık)",
+        "apps": "26",
+        "goals": "23"
+      },
+      {
+        "season": "2023-",
+        "team": "Galatasaray",
+        "apps": "106",
+        "goals": "54"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

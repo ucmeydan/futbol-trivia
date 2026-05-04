@@ -867,6 +867,50 @@
 
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 43,
+    "game": "top10",
+    "title": "TFF 1.Lig'de sezonu ilk 2 sırada tamamlayarak doğrudan Süper Lig'e yükselen son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-05",
+    "targets": [
+     "Erzurumspor",
+     "Amed SK",
+     "Kocaelispor",
+     "Gençlerbirliği",
+     "Eyüpspor",
+     "Göztepe",
+     "Samsunspor",
+     "Rizespor",
+     "Ankaragücü",
+     "Ümraniyespor"
+
+    ],
+    "difficulty": "zor"
+},
+
+{
+    "id": 44,
+    "game": "top10",
+    "title": "Serdar Gürler'in Türkiye liglerinde en çok maça çıktığı 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-06",
+    "targets": [
+     "Başakşehir",
+     "Elazığspor",
+     "Gençlerbirliği",
+     "Göztepe",
+     "Osmanlıspor",
+     "Konyaspor",
+     "Eyüpspor",
+     "Çorum FK",
+     "Antalyaspor",
+     "Trabzonspor"
+
+    ],
+    "difficulty": "zor"
 }
 
 

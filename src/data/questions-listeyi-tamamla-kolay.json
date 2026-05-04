@@ -509,6 +509,26 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 25,
+  "game": "listeyi-tamamla",
+  "title": "Fatih Terim'in teknik direktör olarak çalıştığı kulüp takımları?",
+  "type": "team-all",
+  "activeDate": "2026-05-05",
+  "targets": [
+"Galatasaray",
+"Ankaragücü",
+"Göztepe",
+"Fiorentina",
+"Milan",
+"Panathinaikos",
+"Al Shabab"
+
+
+  ],
+  "difficulty": "kolay"
 }
 
 

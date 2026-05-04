@@ -916,6 +916,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 32,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-05",
+    "correctPlayer": "Florent Malouda",
+    "teammates": [
+      {
+        "name": "Fernando Torres",
+        "info": "2011-13 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Şen",
+        "info": "2013-14 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Didier Drogba",
+        "info": "2007-12 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Juninho Pernambucano",
+        "info": "2003-07 yılları arasında Lyon'da birlikte oynadılar"
+      },
+      {
+        "name": "Alanzinho",
+        "info": "2013-14 sezonunda Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

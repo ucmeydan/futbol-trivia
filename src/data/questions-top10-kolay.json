@@ -524,7 +524,30 @@
 
     ],
     "difficulty": "kolay"
-  }
+  },
+
+  {
+    "id": 43,
+    "game": "top10",
+    "title": "TFF 1.Lig'de bu sezon en çok gol atan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-05-05",
+    "targets": [
+     "Erzurumspor",
+     "Esenler Erokspor",
+     "Amed SK",
+     "Keçiörengücü",
+     "Bodrum FK",
+     "Çorum FK",
+     "Boluspor",
+     "Pendikspor",
+     "İstanbulspor",
+     "Manisa FK"
+
+    ],
+    "difficulty": "kolay"
+}
+
 
 
 

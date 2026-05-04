@@ -1079,6 +1079,24 @@
     
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 43,
+  "game": "listeyi-tamamla",
+  "title": "Badou Ndiaye'nin Türkiye liglerinde forma giydiği takımlar?",
+  "type": "team-all",
+  "activeDate": "2026-05-05",
+  "targets": [
+  "Galatasaray",
+  "Trabzonspor",
+  "Osmanlıspor",
+  "Fatih Karagümrük",
+  "Adana Demirspor",
+  "Pendikspor",
+  "Gaziantep FK"
+  ],
+  "difficulty": "zor"
 }
 
 
