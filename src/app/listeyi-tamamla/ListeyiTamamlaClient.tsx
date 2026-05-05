@@ -223,7 +223,6 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
       currentQ.title,
       ``,
       `${scoreEmoji} 90 saniyede ${found}/${total} buldum!`,
-      `🥇 Rekor: ${stats.bestScore}/${total}`,
       ``,
       `Bugün sen de dene 👇`,
       `futboltrivia.com.tr/listeyi-tamamla`,
