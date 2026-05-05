@@ -1097,7 +1097,25 @@
   "Gaziantep FK"
   ],
   "difficulty": "zor"
-}
+},
 
+{
+  "id": 44,
+  "game": "listeyi-tamamla",
+  "title": "Galatasaray formasıyla 20 ve üzeri sayıda Şampiyonlar Ligi maçına çıkan yabancı futbolcular? ",
+  "type": "player",
+  "activeDate": "2026-05-06",
+  "targets": [
+  "Fernando Muslera",
+  "Faryd Mondragon",
+  "Gheorghe Popescu",
+  "Gheorghe Hagi",
+  "Felipe Melo",
+  "Wesley Sneijder",
+  "Claudio Taffarel",
+  "Capone"
+],
+  "difficulty": "zor"
+}
 
 ]

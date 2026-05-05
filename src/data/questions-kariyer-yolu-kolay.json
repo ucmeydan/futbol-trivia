@@ -996,6 +996,34 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 26,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-06",
+    "correctPlayer": "Altay Bayındır",
+    "career": [
+      {
+        "season": "2014-2019",
+        "team": "Ankaragücü",
+        "apps": "31",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2023",
+        "team": "Fenerbahçe",
+        "apps": "145",
+        "goals": "0"
+      },
+      {
+        "season": "2023–",
+        "team": "Manchester United",
+        "apps": "17",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 
