@@ -1681,7 +1681,62 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 37,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-06",
+    "correctPlayer": "Joseph Attamah",
+    "career": [
+      {
+        "season": "2013-2014",
+        "team": "Tema Youth",
+        "apps": "14",
+        "goals": "0"
+      }
+      ,{
+        "season": "2014–2016",
+        "team": "Adana Demirspor",
+        "apps": "76",
+        "goals": "5"
+      },
+      {
+        "season": "2016-2020",
+        "team": "Başakşehir",
+        "apps": "80",
+        "goals": "5"
+      },
+      {
+        "season": "2019-2020",
+        "team": "Rizespor (kiralık)",
+        "apps": "15",
+        "goals": "0"
+      },
+      {
+        "season": "2020–2020",
+        "team": "Fatih Karagümrük (kiralık)",
+        "apps": "17",
+        "goals": "0"
+      },
+      {
+        "season": "2020-2025",
+        "team": "Kayserispor",
+        "apps": "144",
+        "goals": "4"
+      },
+      {
+        "season": "2025-",
+        "team": "Çorum FK",
+        "apps": "30",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
+
+  
   
   
 
