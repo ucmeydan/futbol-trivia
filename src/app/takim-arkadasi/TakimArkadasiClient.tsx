@@ -192,7 +192,28 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
 
   const shareScore = () => {
     if (!currentQ) return;
-    const text = `Takım Arkadaşı #${currentQ.id} (${difficulty}) skorum: ${isWin ? attempts + ". denemede bildim!" : "bilemedim."}\nhttps://futboltrivia.com.tr/takim-arkadasi/${difficulty}`;
+    const teammatePreviews = currentQ.teammates
+      .slice(0, 3)
+      .map((t: any) => (typeof t === 'string' ? t : t.name || ''))
+      .join(' · ');
+    let scoreText: string;
+    if (isWin) {
+      const boxes = Array(attempts).fill('⬛');
+      boxes[attempts - 1] = '🟩';
+      scoreText = `${boxes.join('')}  ${attempts}. denemede buldum!`;
+    } else {
+      scoreText = 'Maalesef bilemedim.';
+    }
+    const text = [
+      `⚽ FutbolTrivia — Takım Arkadaşı #${currentQ.id}`,
+      ``,
+      `👥 ${teammatePreviews}...`,
+      ``,
+      scoreText,
+      ``,
+      `Bugün sen de dene 👇`,
+      `futboltrivia.com.tr/takim-arkadasi`,
+    ].join('\n');
     navigator.clipboard.writeText(text).then(() => {
       setCopySuccess(true);
       setTimeout(() => setCopySuccess(false), 2000);

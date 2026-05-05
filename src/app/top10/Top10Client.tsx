@@ -288,7 +288,19 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
 
   const shareScore = () => {
     if (!currentQ) return;
-    const text = `Top 10 #${currentQ.id} (${difficulty === 'kolay' ? 'Kolay' : 'Zor'})\nSkorum: ${foundIndices.length}/${currentQ.targets.length}\nhttps://futboltrivia.com.tr/top10/${difficulty}`;
+    const grid = currentQ.targets.map((_: any, i: number) =>
+      foundIndices.includes(i) ? '🟩' : '⬛'
+    ).join('');
+    const text = [
+      `⚽ FutbolTrivia — Top 10 #${currentQ.id}`,
+      ``,
+      currentQ.title,
+      ``,
+      `${grid}  ${foundIndices.length}/${currentQ.targets.length}`,
+      ``,
+      `Bugün sen de dene 👇`,
+      `futboltrivia.com.tr/top10`,
+    ].join('\n');
     navigator.clipboard.writeText(text);
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);

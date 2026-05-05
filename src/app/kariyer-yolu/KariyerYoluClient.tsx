@@ -154,8 +154,22 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
 
   const shareScore = () => {
     if (!currentQ) return;
-    const scoreText = isWin ? `${finalAttempt}. denemede bildim!` : "Maalesef bilemedim.";
-    const text = `Futbol Trivia - Kariyer Yolu #${currentQ.id} (${difficulty})\nSkorum: ${scoreText}\nhttps://futboltrivia.com.tr/kariyer-yolu/${difficulty}`;
+    let scoreText: string;
+    if (isWin) {
+      const boxes = Array(finalAttempt).fill('⬛');
+      boxes[finalAttempt - 1] = '🟩';
+      scoreText = `${boxes.join('')}  ${finalAttempt}. denemede buldum!`;
+    } else {
+      scoreText = 'Maalesef bilemedim.';
+    }
+    const text = [
+      `⚽ FutbolTrivia — Kariyer Yolu #${currentQ.id}`,
+      ``,
+      scoreText,
+      ``,
+      `Bugün sen de dene 👇`,
+      `futboltrivia.com.tr/kariyer-yolu`,
+    ].join('\n');
     navigator.clipboard.writeText(text).then(() => {
       setCopySuccess(true);
       setTimeout(() => setCopySuccess(false), 2000);

@@ -214,7 +214,20 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
 
   const handleShare = () => {
     if (!currentQ) return;
-    const text = `Listeyi Tamamla #${currentQ.id} (${difficulty}) skorum: ${foundItems.length}/${currentQ.targets.length}\nEn yüksek doğru: ${stats.bestScore}\nhttps://futboltrivia.com.tr/listeyi-tamamla/${difficulty}`;
+    const found = foundItems.length;
+    const total = currentQ.targets.length;
+    const scoreEmoji = found === total ? '🏆' : '⚡';
+    const text = [
+      `⚽ FutbolTrivia — Listeyi Tamamla #${currentQ.id}`,
+      ``,
+      currentQ.title,
+      ``,
+      `${scoreEmoji} 90 saniyede ${found}/${total} buldum!`,
+      `🥇 Rekor: ${stats.bestScore}/${total}`,
+      ``,
+      `Bugün sen de dene 👇`,
+      `futboltrivia.com.tr/listeyi-tamamla`,
+    ].join('\n');
     navigator.clipboard.writeText(text);
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);
