@@ -741,6 +741,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 26,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-06",
+    "correctPlayer": "Ricardo Quaresma",
+    "teammates": [
+      {
+        "name": "John Terry",
+        "info": "2008-09 sezonunda Chelsea'de birlikte oynadılar."
+      },
+      {
+        "name": "Ronaldinho",
+        "info": "2003-04 sezonunda Barcelona'da birlikte oynadılar"
+      },
+      {
+        "name": "Mario Gomez",
+        "info": "2015-16 sezonunda Beşiktaş'ta birlikte oynadılar."
+      },
+      {
+        "name": "Atiba Hutchinson",
+        "info": "2015-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Guti",
+        "info": "2010-11 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 ]

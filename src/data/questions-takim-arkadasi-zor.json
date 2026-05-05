@@ -946,6 +946,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 33,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-06",
+    "correctPlayer": "Vagner Love",
+    "teammates": [
+      {
+        "name": "Jo",
+        "info": "2006-08 yılları arasında CSKA Moskova'da birlikte oynadılar"
+      },
+      {
+        "name": "Pepe",
+        "info": "2018 yılında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Emre Akbaba",
+        "info": "2016-18 yılları arasında Alanyaspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Bernardo Silva",
+        "info": "2015-16 sezonunda Monaco'da birlikte oynadılar"
+      },
+      {
+        "name": "Ricardo Quaresma",
+        "info": "2018 yılında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]
