@@ -1143,6 +1143,44 @@
 
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 46,
+  "game": "listeyi-tamamla",
+  "title": "Galatasaray'ın 1999/00 sezonunda Uefa Kupasında elediği takımlar?",
+  "type": "team-all",
+  "activeDate": "2026-05-08",
+  "targets": [
+"Bologna",
+"Mallorca",
+"Dortmund",
+"Leeds United",
+"Arsenal"
+
+
+  ],
+  "difficulty": "zor"
+},
+
+{
+  "id": 47,
+  "game": "listeyi-tamamla",
+  "title": "Fenerbahçe'nin 2012/13 sezonunda Uefa Avrupa Ligi'nde karşılaştığı takımlar?",
+  "type": "team-all",
+  "activeDate": "2026-05-09",
+  "targets": [
+"Marsilya",
+"Monchengladbach",
+"AEL Limassol",
+"BATE Borisov",
+"Viktoria Plzen",
+"Lazio",
+"Benfica"
+
+
+  ],
+  "difficulty": "zor"
 }
 
 ]

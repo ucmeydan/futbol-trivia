@@ -591,8 +591,52 @@
 
     ],
     "difficulty": "kolay"
-}
+},
 
+{
+    "id": 46,
+    "game": "top10",
+    "title": "Fenerbahçe'nin çeyrek final oynadığı 2007-08 Şampiyonlar Ligi sezonunda Fenerbahçe formasıyla en çok süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-05-08",
+    "targets": [
+   "Volkan Demirel",
+   "Edu Dracena",
+   "Mehmet Aurelio",
+   "Alex De Souza",
+   "Diego Lugano",
+   "Deivid De Souza",
+   "Wederson",
+   "Gökhan Gönül",
+   "Roberto Carlos",
+   "Semih Şentürk"
+
+    ],
+    "difficulty": "kolay"
+},
+
+
+{
+    "id": 47,
+    "game": "top10",
+    "title": "Beşiktaş'ın gruptan namağlup lider çıktığı 2017-18 Şampiyonlar Ligi sezonunda Beşiktaş formasıyla en çok süre alan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-05-09",
+    "targets": [
+  "Ricardo Quaresma",
+  "Atiba Hutchinson",
+  "Ryan Babel",
+  "Fabri",
+  "Pepe",
+  "Anderson Talisca",
+  "Caner Erkin",
+  "Dusko Tosic",
+  "Adriano",
+  "Cenk Tosun"
+
+    ],
+    "difficulty": "kolay"
+}
 
 
 ]

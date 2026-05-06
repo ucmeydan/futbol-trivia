@@ -1738,5 +1738,113 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 39,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-08",
+    "correctPlayer": "Maestro",
+    "career": [
+      {
+        "season": "2022-2022",
+        "team": "Estrela",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2024",
+        "team": "Benfica B",
+        "apps": "28",
+        "goals": "3"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Adana Demirspor",
+        "apps": "47",
+        "goals": "1"
+      },
+      {
+        "season": "2025-",
+        "team": "Alanyaspor",
+        "apps": "23",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 40,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-09",
+    "correctPlayer": "Tim Jabol Folcarelli",
+    "career": [
+      {
+        "season": "2017-2018",
+        "team": "Mulhouse",
+        "apps": "10",
+        "goals": "0"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Saint Louis Neuweg",
+        "apps": "21",
+        "goals": "1"
+      },
+      {
+        "season": "2019-2020",
+        "team": "Rennes B",
+        "apps": "18",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2023",
+        "team": "Le Puy Foot",
+        "apps": "44",
+        "goals": "4"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Ajaccio",
+        "apps": "50",
+        "goals": "4"
+      },
+      {
+        "season": "2025-",
+        "team": "Trabzonspor",
+        "apps": "39",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 41,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-10",
+    "correctPlayer": "Ömer Ali Şahiner",
+    "career": [
+      {
+        "season": "2008-2012",
+        "team": "Konya Şekerspor",
+        "apps": "68",
+        "goals": "18"
+      },
+      {
+        "season": "2012–2021",
+        "team": "Konyaspor",
+        "apps": "298",
+        "goals": "36"
+      },
+      {
+        "season": "2021-",
+        "team": "Başakşehir",
+        "apps": "170",
+        "goals": "9"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

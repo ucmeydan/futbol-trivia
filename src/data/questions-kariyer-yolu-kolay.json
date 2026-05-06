@@ -218,7 +218,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 6,
     "game": "kariyer-yolu",
@@ -252,7 +251,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 7,
     "game": "kariyer-yolu",
@@ -286,7 +284,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 8,
     "game": "kariyer-yolu",
@@ -314,7 +311,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 9,
     "game": "kariyer-yolu",
@@ -411,7 +407,7 @@
     ],
     "difficulty": "kolay"
   },
-{
+  {
     "id": 11,
     "game": "kariyer-yolu",
     "activeDate": "2026-04-21",
@@ -456,8 +452,7 @@
     ],
     "difficulty": "kolay"
   },
-
-{
+  {
     "id": 12,
     "game": "kariyer-yolu",
     "activeDate": "2026-04-22",
@@ -475,11 +470,9 @@
         "apps": "300",
         "goals": "52"
       }
-
-  ],
+    ],
     "difficulty": "kolay"
   },
-
   {
     "id": 13,
     "game": "kariyer-yolu",
@@ -498,13 +491,10 @@
         "apps": "53",
         "goals": "2"
       }
-
-  ],
+    ],
     "difficulty": "kolay"
   },
-
-
-{
+  {
     "id": 14,
     "game": "kariyer-yolu",
     "activeDate": "2026-04-24",
@@ -540,11 +530,9 @@
         "apps": "112",
         "goals": "12"
       }
-
-      ],
+    ],
     "difficulty": "kolay"
   },
-
   {
     "id": 15,
     "game": "kariyer-yolu",
@@ -572,7 +560,6 @@
     ],
     "difficulty": "kolay"
   },
-  
   {
     "id": 16,
     "game": "kariyer-yolu",
@@ -639,7 +626,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 18,
     "game": "kariyer-yolu",
@@ -679,7 +665,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 19,
     "game": "kariyer-yolu",
@@ -719,7 +704,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 20,
     "game": "kariyer-yolu",
@@ -756,7 +740,6 @@
         "apps": "18",
         "goals": "1"
       },
-
       {
         "season": "2022–2022",
         "team": "Rizespor (kiralık)",
@@ -778,7 +761,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 21,
     "game": "kariyer-yolu",
@@ -815,7 +797,6 @@
         "apps": "51",
         "goals": "11"
       },
-
       {
         "season": "2025-2025",
         "team": "Keçiörengücü",
@@ -831,7 +812,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 22,
     "game": "kariyer-yolu",
@@ -868,7 +848,6 @@
         "apps": "241",
         "goals": "105"
       },
-
       {
         "season": "2023-2025",
         "team": "Fenerbahçe",
@@ -884,7 +863,7 @@
     ],
     "difficulty": "kolay"
   },
-{
+  {
     "id": 23,
     "game": "kariyer-yolu",
     "activeDate": "2026-05-03",
@@ -917,7 +896,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 24,
     "game": "kariyer-yolu",
@@ -945,7 +923,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 25,
     "game": "kariyer-yolu",
@@ -997,7 +974,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 26,
     "game": "kariyer-yolu",
@@ -1025,9 +1001,8 @@
     ],
     "difficulty": "kolay"
   },
-
   {
-    "id": 38,
+    "id": 27,
     "game": "kariyer-yolu",
     "activeDate": "2026-05-07",
     "correctPlayer": "Ferdi Kadıoğlu",
@@ -1037,8 +1012,8 @@
         "team": "NEC Nijmegen U21",
         "apps": "3",
         "goals": "0"
-      }
-      ,{
+      },
+      {
         "season": "2016–2018",
         "team": "NEC Nijmegen",
         "apps": "70",
@@ -1056,12 +1031,67 @@
         "apps": "47",
         "goals": "3"
       }
-
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 28,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-08",
+    "correctPlayer": "Ernest Muçi",
+    "career": [
+      {
+        "season": "2018–2021",
+        "team": "KF Tirana",
+        "apps": "64",
+        "goals": "20"
+      },
+      {
+        "season": "2021-2024",
+        "team": "Legia Varşova",
+        "apps": "114",
+        "goals": "21"
+      },
+      {
+        "season": "2024-",
+        "team": "Beşiktaş",
+        "apps": "61",
+        "goals": "11"
+      },
+      {
+        "season": "2025–",
+        "team": "Trabzonspor (kiralık)",
+        "apps": "32",
+        "goals": "13"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 29,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-09",
+    "correctPlayer": "Veli Kavlak",
+    "career": [
+      {
+        "season": "2004-2005",
+        "team": "Rapid Wien II",
+        "apps": "24",
+        "goals": "2"
+      },
+      {
+        "season": "2005–2011",
+        "team": "Rapid Wien",
+        "apps": "181",
+        "goals": "16"
+      },
+      {
+        "season": "2011-2018",
+        "team": "Beşiktaş",
+        "apps": "152",
+        "goals": "8"
+      }
     ],
     "difficulty": "kolay"
   }
-
-
-  
-
 ]
