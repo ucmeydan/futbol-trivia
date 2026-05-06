@@ -976,6 +976,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 34,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-07",
+    "correctPlayer": "Papiss Cisse",
+    "teammates": [
+      {
+        "name": "Ozan Tufan",
+        "info": "2020-21 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Hatem Ben Arfa",
+        "info": "2012-14 yılları arasında Newcastle United'da birlikte oynadılar"
+      },
+      {
+        "name": "Yohan Cabaye",
+        "info": "2012-14 yılları arasında Newcastle United'da birlikte oynadılar"
+      },
+      {
+        "name": "Altay Bayındır",
+        "info": "2020-21 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Merih Demiral",
+        "info": "2018-19 sezonunda Alanyaspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

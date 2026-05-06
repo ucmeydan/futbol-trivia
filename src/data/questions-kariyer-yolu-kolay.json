@@ -1024,6 +1024,41 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 38,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-07",
+    "correctPlayer": "Ferdi Kadıoğlu",
+    "career": [
+      {
+        "season": "2015-2016",
+        "team": "NEC Nijmegen U21",
+        "apps": "3",
+        "goals": "0"
+      }
+      ,{
+        "season": "2016–2018",
+        "team": "NEC Nijmegen",
+        "apps": "70",
+        "goals": "12"
+      },
+      {
+        "season": "2018-2024",
+        "team": "Fenerbahçe",
+        "apps": "204",
+        "goals": "18"
+      },
+      {
+        "season": "2024-",
+        "team": "Brighton",
+        "apps": "47",
+        "goals": "3"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
 
 

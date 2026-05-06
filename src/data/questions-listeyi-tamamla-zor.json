@@ -1116,6 +1116,33 @@
   "Capone"
 ],
   "difficulty": "zor"
+},
+
+{
+  "id": 45,
+  "game": "listeyi-tamamla",
+  "title": "Beşiktaş'ın 2025-26 sezonunda bonservisiyle kadrosuna kattığı oyuncular?",
+  "type": "player",
+  "activeDate": "2026-05-07",
+  "targets": [
+"Orkun Kökçü",
+"Tammy Abraham",
+"Emmanuel Agbadou",
+"Hyeon Gyu Oh",
+"Wilfred Ndidi",
+"Vaclav Cerny",
+"Taylan Bulut",
+"Amir Murillo",
+"Felix Uduokhai",
+"Junior Olaitan",
+"Tiago Djalo",
+"Rıdvan Yılmaz",
+"Joao Mario",
+"Gökhan Sazdağı"
+
+
+  ],
+  "difficulty": "zor"
 }
 
 ]

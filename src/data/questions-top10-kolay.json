@@ -568,8 +568,30 @@
 
     ],
     "difficulty": "kolay"
-}
+},
 
+
+{
+    "id": 45,
+    "game": "top10",
+    "title": "Beşiktaş'ta görev alan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-05-07",
+    "targets": [
+    "Sergen Yalçın",
+    "Ole Gunnar Solskjaer",
+    "Serdar Topraktepe",
+    "Giovanni Van Bronckhorst",
+    "Fernando Santos",
+    "Rıza Çalımbay",
+    "Burak Yılmaz",
+    "Şenol Güneş",
+    "Valerien Ismael",
+    "Önder Karaveli"
+
+    ],
+    "difficulty": "kolay"
+}
 
 
 

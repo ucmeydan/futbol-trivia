@@ -550,7 +550,31 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 27,
+  "game": "listeyi-tamamla",
+  "title": "EA FC 26 oyununda ratingi 80'den fazla olan Süper Lig futbolcuları?",
+  "type": "player",
+  "activeDate": "2026-05-07",
+  "targets": [
+"Victor Osimhen",
+"Ederson",
+"Lucas Torreira",
+"İlkay Gündoğan",
+"Orkun Kökçü",
+"Davinson Sanchez",
+"Leroy Sane",
+"Anderson Talisca",
+"Mauro Icardi",
+"Milan Skriniar"
+
+
+  ],
+  "difficulty": "kolay"
 }
+
 
 
 ]

@@ -911,6 +911,28 @@
 
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 45,
+    "game": "top10",
+    "title": "Başakşehir'in 2020/21 sezonunda Şampiyonlar Ligi'nde en fazla süre alan 10 futbolcusu? ",
+    "type": "player",
+    "activeDate": "2026-05-07",
+    "targets": [
+     "Mert Günok",
+     "Deniz Türüç",
+     "Rafael Pereira Da Silva",
+     "İrfan Can Kahveci",
+     "Berkay Özcan",
+     "Edin Visca",
+     "Alexandru Epureanu",
+     "Martin Skrtel",
+     "Boli Bolingoli",
+     "Demba Ba"
+
+    ],
+    "difficulty": "zor"
 }
 
 

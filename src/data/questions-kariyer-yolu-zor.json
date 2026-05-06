@@ -806,7 +806,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 18,
     "game": "kariyer-yolu",
@@ -936,7 +935,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 21,
     "game": "kariyer-yolu",
@@ -1000,7 +998,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 22,
     "game": "kariyer-yolu",
@@ -1046,7 +1043,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 23,
     "game": "kariyer-yolu",
@@ -1086,7 +1082,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 24,
     "game": "kariyer-yolu",
@@ -1120,7 +1115,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 25,
     "game": "kariyer-yolu",
@@ -1190,7 +1184,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 26,
     "game": "kariyer-yolu",
@@ -1242,8 +1235,6 @@
     ],
     "difficulty": "zor"
   },
-  
-
   {
     "id": 27,
     "game": "kariyer-yolu",
@@ -1289,7 +1280,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 28,
     "game": "kariyer-yolu",
@@ -1329,7 +1319,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 29,
     "game": "kariyer-yolu",
@@ -1381,7 +1370,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 30,
     "game": "kariyer-yolu",
@@ -1427,7 +1415,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 31,
     "game": "kariyer-yolu",
@@ -1473,7 +1460,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 32,
     "game": "kariyer-yolu",
@@ -1516,7 +1502,6 @@
         "apps": "38",
         "goals": "10"
       },
-
       {
         "season": "2022-2023",
         "team": "Gaziantep FK",
@@ -1529,18 +1514,15 @@
         "apps": "102",
         "goals": "24"
       },
-
       {
         "season": "2025-",
         "team": "Johor DT",
         "apps": "20",
         "goals": "11"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 33,
     "game": "kariyer-yolu",
@@ -1565,11 +1547,9 @@
         "apps": "124",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 34,
     "game": "kariyer-yolu",
@@ -1594,7 +1574,7 @@
         "apps": "31",
         "goals": "4"
       },
-{
+      {
         "season": "2022-2026",
         "team": "Kasımpaşa",
         "apps": "147",
@@ -1606,12 +1586,9 @@
         "apps": "14",
         "goals": "1"
       }
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 35,
     "game": "kariyer-yolu",
@@ -1642,12 +1619,9 @@
         "apps": "119",
         "goals": "19"
       }
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 36,
     "game": "kariyer-yolu",
@@ -1659,8 +1633,8 @@
         "team": "Rangers International",
         "apps": "59",
         "goals": "9"
-      }
-      ,{
+      },
+      {
         "season": "2017–2020",
         "team": "Ujpest",
         "apps": "114",
@@ -1678,11 +1652,9 @@
         "apps": "138",
         "goals": "2"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 37,
     "game": "kariyer-yolu",
@@ -1694,8 +1666,8 @@
         "team": "Tema Youth",
         "apps": "14",
         "goals": "0"
-      }
-      ,{
+      },
+      {
         "season": "2014–2016",
         "team": "Adana Demirspor",
         "apps": "76",
@@ -1731,14 +1703,40 @@
         "apps": "30",
         "goals": "0"
       }
-
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 38,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-07",
+    "correctPlayer": "Jens Jonsson",
+    "career": [
+      {
+        "season": "2012-2016",
+        "team": "Aarhus",
+        "apps": "120",
+        "goals": "2"
+      },
+      {
+        "season": "2016–2020",
+        "team": "Konyaspor",
+        "apps": "119",
+        "goals": "6"
+      },
+      {
+        "season": "2020-2022",
+        "team": "Cadiz",
+        "apps": "61",
+        "goals": "0"
+      },
+      {
+        "season": "2022-",
+        "team": "AEK",
+        "apps": "107",
+        "goals": "3"
+      }
     ],
     "difficulty": "zor"
   }
-
-  
-  
-  
-
-
 ]
