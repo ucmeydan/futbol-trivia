@@ -499,7 +499,7 @@
     ],
     "difficulty": "zor"
   },
-{
+  {
     "id": 26,
     "game": "top10",
     "title": "Bu sezon TFF 1.Lig'de en çok gol atan 10 oyuncu?",
@@ -516,11 +516,9 @@
       "Ivan Cedric",
       "Gianni Bruno",
       "Hamza Catakovic"
-
     ],
     "difficulty": "zor"
   },
-  
   {
     "id": 27,
     "game": "top10",
@@ -538,11 +536,9 @@
       "Adrian Mierzejewski",
       "Andreas Cornelius",
       "Didier Zokora"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 28,
     "game": "top10",
@@ -560,12 +556,9 @@
       "Cengiz Ünder",
       "Tayfur Bingöl",
       "İbrahim Kaya"
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 29,
     "game": "top10",
@@ -583,11 +576,9 @@
       "Ahmet Suat Özyazıcı",
       "Sergen Yalçın",
       "Ertuğrul Sağlam"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 30,
     "game": "top10",
@@ -607,9 +598,8 @@
       "Ertuğrul Taşkıran"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 31,
     "game": "top10",
     "title": "Şenol Güneş'in Beşiktaş'ın başında olduğu dönemde en fazla maça çıkan 10 futbolcu?",
@@ -628,9 +618,8 @@
       "Ryan Babel"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 32,
     "game": "top10",
     "title": "Bu sezon Süper Lig'de en fazla şut atan 10 futbolcu?",
@@ -649,9 +638,8 @@
       "Miguel Cardoso"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 33,
     "game": "top10",
     "title": "Türkiye Kupasını finalde kaybeden son 10 takım?",
@@ -670,9 +658,8 @@
       "Gençlerbirliği"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 34,
     "game": "top10",
     "title": "Süper Lig'de oynanan Fenerbahçe - Galatasaray derbilerinde en çok galibiyet alan 10 futbolcu?",
@@ -691,31 +678,28 @@
       "Tugay Kerimoğlu"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 35,
     "game": "top10",
     "title": "Süper Lig tarihinde en yüksek puan ortalamasına sahip 10 yabancı teknik direktör? (En az 50 maça çıkanlar arasında)",
     "type": "td",
     "activeDate": "2026-04-27",
     "targets": [
-     "Karl Heinz Feldkamp",
-     "Mircea Lucescu",
-     "Jozef Venglos",
-     "Zico",
-     "Gordon Milne",
-     "Christoph Daum",
-     "Laszlo Szekely",
-     "Eric Gerets",
-     "Jupp Derwall",
-     "Vitor Pereira"
+      "Karl Heinz Feldkamp",
+      "Mircea Lucescu",
+      "Jozef Venglos",
+      "Zico",
+      "Gordon Milne",
+      "Christoph Daum",
+      "Laszlo Szekely",
+      "Eric Gerets",
+      "Jupp Derwall",
+      "Vitor Pereira"
     ],
     "difficulty": "zor"
-},
-
-
-{
+  },
+  {
     "id": 36,
     "game": "top10",
     "title": "Aykut Kocaman'ın Fenerbahçe'nin başında olduğu dönemde en fazla maça çıkan 10 futbolcu?",
@@ -732,13 +716,10 @@
       "Mehmet Topal",
       "Selçuk Şahin",
       "Bekir İrtegün"
-
-
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 37,
     "game": "top10",
     "title": "Yılmaz Vural'ın teknik direktörlük kariyeri boyunca en fazla maça çıktığı 10 kulüp hangisidir? (Tüm dönemler toplamı)",
@@ -757,10 +738,8 @@
       "Eskişehirspor"
     ],
     "difficulty": "zor"
-},
-
-
-{
+  },
+  {
     "id": 38,
     "game": "top10",
     "title": "TFF 1.Lig'de bu sezon en fazla gol atan 10 yerli futbolcu?",
@@ -779,163 +758,165 @@
       "Recep Niyaz"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 39,
     "game": "top10",
     "title": "Süper Lig'de en çok maça çıkan 10 İspanyol futbolcu?",
     "type": "player",
     "activeDate": "2026-05-01",
     "targets": [
-     "Juanfran (1988)",
-     "Fabri",
-     "Daniel Guiza",
-     "Albert Riera",
-     "Samuel Saiz",
-     "Roberto Soldado",
-     "Alvaro Negredo",
-     "Javi Montero",
-     "Borja Sainz",
-     "Marc Bartra"
-
+      "Juanfran (1988)",
+      "Fabri",
+      "Daniel Guiza",
+      "Albert Riera",
+      "Samuel Saiz",
+      "Roberto Soldado",
+      "Alvaro Negredo",
+      "Javi Montero",
+      "Borja Sainz",
+      "Marc Bartra"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 40,
     "game": "top10",
     "title": "Kayserispor tarihinin en pahalı 10 oyuncu satışı?",
     "type": "player",
     "activeDate": "2026-05-02",
     "targets": [
-     "Mehmet Topuz",
-     "Nordin Amrabat",
-     "Gökhan Ünal",
-     "Serdar Kesimal",
-     "Hasan Ali Kaldırım",
-     "Doğan Alemdar",
-     "Sefa Yılmaz",
-     "Pablo Mouche",
-     "Aleksandr Amisulashvili",
-     "Salih Dursun"
-
+      "Mehmet Topuz",
+      "Nordin Amrabat",
+      "Gökhan Ünal",
+      "Serdar Kesimal",
+      "Hasan Ali Kaldırım",
+      "Doğan Alemdar",
+      "Sefa Yılmaz",
+      "Pablo Mouche",
+      "Aleksandr Amisulashvili",
+      "Salih Dursun"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 41,
     "game": "top10",
     "title": "Transfermarkt verilerine göre 2016 yılının en değerli 10 Türk futbolcusu?",
     "type": "player",
     "activeDate": "2026-05-03",
     "targets": [
-     "Arda Turan",
-     "Ömer Toprak",
-     "Hakan Çalhanoğlu",
-     "Gökhan Töre",
-     "Oğuzhan Özyakup",
-     "Mehmet Topal",
-     "Caner Erkin",
-     "Yunus Mallı",
-     "Cenk Tosun",
-     "Volkan Babacan"
-
+      "Arda Turan",
+      "Ömer Toprak",
+      "Hakan Çalhanoğlu",
+      "Gökhan Töre",
+      "Oğuzhan Özyakup",
+      "Mehmet Topal",
+      "Caner Erkin",
+      "Yunus Mallı",
+      "Cenk Tosun",
+      "Volkan Babacan"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 42,
     "game": "top10",
     "title": "Süper Lig tarihinde en fazla maça çıkan 10 Rumen futbolcu?",
     "type": "player",
     "activeDate": "2026-05-04",
     "targets": [
-     "Bogdan Stancu",
-     "Alexandru Maxim",
-     "Giani Kiriță",
-     "Gheorghe Hagi",
-     "Daniel Timofte",
-     "Silviu Lung Jr.",
-     "Dumitru Stângaciu",
-     "Daniel Pancu",
-     "Gheorghe Popescu",
-     "Cristian Săpunaru"
-
+      "Bogdan Stancu",
+      "Alexandru Maxim",
+      "Giani Kiriță",
+      "Gheorghe Hagi",
+      "Daniel Timofte",
+      "Silviu Lung Jr.",
+      "Dumitru Stângaciu",
+      "Daniel Pancu",
+      "Gheorghe Popescu",
+      "Cristian Săpunaru"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 43,
     "game": "top10",
     "title": "TFF 1.Lig'de sezonu ilk 2 sırada tamamlayarak doğrudan Süper Lig'e yükselen son 10 takım?",
     "type": "team-tr",
     "activeDate": "2026-05-05",
     "targets": [
-     "Erzurumspor",
-     "Amed SK",
-     "Kocaelispor",
-     "Gençlerbirliği",
-     "Eyüpspor",
-     "Göztepe",
-     "Samsunspor",
-     "Rizespor",
-     "Ankaragücü",
-     "Ümraniyespor"
-
+      "Erzurumspor",
+      "Amed SK",
+      "Kocaelispor",
+      "Gençlerbirliği",
+      "Eyüpspor",
+      "Göztepe",
+      "Samsunspor",
+      "Rizespor",
+      "Ankaragücü",
+      "Ümraniyespor"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 44,
     "game": "top10",
     "title": "Serdar Gürler'in Türkiye liglerinde en çok maça çıktığı 10 takım?",
     "type": "team-tr",
     "activeDate": "2026-05-06",
     "targets": [
-     "Başakşehir",
-     "Elazığspor",
-     "Gençlerbirliği",
-     "Göztepe",
-     "Osmanlıspor",
-     "Konyaspor",
-     "Eyüpspor",
-     "Çorum FK",
-     "Antalyaspor",
-     "Trabzonspor"
-
+      "Başakşehir",
+      "Elazığspor",
+      "Gençlerbirliği",
+      "Göztepe",
+      "Osmanlıspor",
+      "Konyaspor",
+      "Eyüpspor",
+      "Çorum FK",
+      "Antalyaspor",
+      "Trabzonspor"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 45,
     "game": "top10",
     "title": "Başakşehir'in 2020/21 sezonunda Şampiyonlar Ligi'nde en fazla süre alan 10 futbolcusu? ",
     "type": "player",
     "activeDate": "2026-05-07",
     "targets": [
-     "Mert Günok",
-     "Deniz Türüç",
-     "Rafael Pereira Da Silva",
-     "İrfan Can Kahveci",
-     "Berkay Özcan",
-     "Edin Visca",
-     "Alexandru Epureanu",
-     "Martin Skrtel",
-     "Boli Bolingoli",
-     "Demba Ba"
-
+      "Mert Günok",
+      "Deniz Türüç",
+      "Rafael Pereira Da Silva",
+      "İrfan Can Kahveci",
+      "Berkay Özcan",
+      "Edin Visca",
+      "Alexandru Epureanu",
+      "Martin Skrtel",
+      "Boli Bolingoli",
+      "Demba Ba"
     ],
     "difficulty": "zor"
-}
-
-
-
-  
+  },
+  {
+    "id": 46,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre TFF 1.Lig'in en değerli 10 Türk futbolcusu?",
+    "type": "player",
+    "activeDate": "2026-05-08",
+    "targets": [
+      "Ayberk Karapo",
+      "Poyraz Efe Yıldırım",
+      "Ali Habeşoğlu",
+      "Atakan Çankaya",
+      "Mustafa Fettahoğlu",
+      "Ada İbik",
+      "Yakup Kırtay",
+      "Berat Luş",
+      "Bekir Turaç Böke",
+      "Gökdeniz Bayrakdar"
+    ],
+    "difficulty": "zor"
+  }
 ]

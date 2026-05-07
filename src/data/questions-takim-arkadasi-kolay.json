@@ -801,6 +801,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 28,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-08",
+    "correctPlayer": "Marco Asensio",
+    "teammates": [
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2016-18 yılları arasında Real Madrid'de birlikte oynadılar."
+      },
+      {
+        "name": "Kylian Mbappe",
+        "info": "2023-24 sezonunda PSG'de birlikte oynadılar"
+      },
+      {
+        "name": "Toni Kroos",
+        "info": "2016-23 yılları arasında Real Madrid'de birlikte oynadılar."
+      },
+      {
+        "name": "Ollie Watkins",
+        "info": "2024-25 sezonunda Aston Villa'da birlikte oynadılar"
+      },
+      {
+        "name": "Ederson",
+        "info": "2025-26 sezonunda PSG'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 ]

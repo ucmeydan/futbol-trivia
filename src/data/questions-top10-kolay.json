@@ -636,6 +636,28 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 48,
+    "game": "top10",
+    "title": "Transfermarkt güncel piyasa değerlerine göre Süper Lig'in en değerli 10 takımı?",
+    "type": "team-tr",
+    "activeDate": "2026-05-10",
+    "targets": [
+  "Galatasaray",
+  "Fenerbahçe",
+  "Beşiktaş",
+  "Trabzonspor",
+  "Başakşehir",
+  "Göztepe",
+  "Samsunspor",
+  "Rizespor",
+  "Konyaspor",
+  "Alanyaspor"
+
+    ],
+    "difficulty": "kolay"
 }
 
 

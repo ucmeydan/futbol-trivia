@@ -576,6 +576,27 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 28,
+  "game": "listeyi-tamamla",
+  "title": "Transfermarkt verilerine göre piyasa değeri 10M€ ve üzerinde olan savunma oyuncuları?",
+  "type": "player",
+  "activeDate": "2026-05-08",
+  "targets": [
+"Wilfried Singo",
+"Jayden Oosterwolde",
+"Emmanuel Agbadou",
+"Davinson Sanchez",
+"Sacha Boey",
+"Roland Sallai",
+"Milan Skriniar",
+"Arseniy Batagov"
+
+
+  ],
+  "difficulty": "kolay"
 }
 
 
