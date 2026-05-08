@@ -1846,5 +1846,40 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 42,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-11",
+    "correctPlayer": "Zydrunas Karcemarskas",
+    "career": [
+      {
+        "season": "2002-2004",
+        "team": "Dinamo Moskova II",
+        "apps": "78",
+        "goals": "0"
+      },
+      {
+        "season": "2004–2010",
+        "team": "Dinamo Moskova",
+        "apps": "55",
+        "goals": "0"
+      },
+      {
+        "season": "2010-2016",
+        "team": "Gaziantepspor",
+        "apps": "185",
+        "goals": "0"
+      },
+      {
+        "season": "2016-2019",
+        "team": "Osmanlıspor",
+        "apps": "89",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 ]

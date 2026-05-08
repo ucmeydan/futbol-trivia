@@ -918,5 +918,25 @@
       "Gökdeniz Bayrakdar"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 47,
+    "game": "top10",
+    "title": "TFF 1.Lig'de bu sezon en yüksek seyirci ortalamasına sahip 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-09",
+    "targets": [
+      "Amed SK",
+      "Çorum FK",
+      "Erzurumspor",
+      "Vanspor FK",
+      "Sakaryaspor",
+      "Sivasspor",
+      "Pendikspor",
+      "Sarıyer",
+      "Bodrum FK",
+      "Manisa FK"
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -578,12 +578,34 @@
   "difficulty": "kolay"
 },
 
+
 {
   "id": 28,
   "game": "listeyi-tamamla",
-  "title": "Transfermarkt verilerine göre Süper Ligde piyasa değeri 10M€ ve üzerinde olan savunma oyuncuları?",
+  "title": "Sofascore verilerine göre bu sezon Süper ligde en az 7 asist yapan futbolcular",
   "type": "player",
   "activeDate": "2026-05-08",
+  "targets": [
+"Marco Asensio",
+"Barış Alper Yılmaz",
+"Yunus Akgün",
+"Orkun Kökçü",
+"Vaclav Cerny",
+"Alexandru Maxim",
+"Wagner Pina",
+"Qazim Laçi",
+"Florent Hadergjonaj"
+
+  ],
+  "difficulty": "kolay"
+},
+
+{
+  "id": 29,
+  "game": "listeyi-tamamla",
+  "title": "Transfermarkt verilerine göre Süper Ligde piyasa değeri 10M€ ve üzerinde olan savunma oyuncuları?",
+  "type": "player",
+  "activeDate": "2026-05-09",
   "targets": [
 "Wilfried Singo",
 "Jayden Oosterwolde",

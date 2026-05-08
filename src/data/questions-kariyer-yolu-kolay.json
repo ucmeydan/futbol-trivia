@@ -1093,5 +1093,27 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 30,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-10",
+    "correctPlayer": "Tolga Zengin",
+    "career": [
+      {
+        "season": "2004-2013",
+        "team": "Trabzonspor",
+        "apps": "146",
+        "goals": "0"
+      },
+      {
+        "season": "2013–2019",
+        "team": "Beşiktaş",
+        "apps": "128",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]
