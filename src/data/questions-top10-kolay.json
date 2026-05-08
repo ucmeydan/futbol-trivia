@@ -527,7 +527,7 @@
   },
 
   {
-    "id": 43,
+    "id": 25,
     "game": "top10",
     "title": "TFF 1.Lig'de bu sezon en çok gol atan takımlar?",
     "type": "team-tr",
@@ -549,7 +549,7 @@
 },
 
 {
-    "id": 44,
+    "id": 26,
     "game": "top10",
     "title": "Galatasaray formasıyla bu sezon Şampiyonlar Ligi'nde en fazla süre alan 10 futbolcu?",
     "type": "player",
@@ -572,7 +572,7 @@
 
 
 {
-    "id": 45,
+    "id": 27,
     "game": "top10",
     "title": "Beşiktaş'ta görev alan son 10 teknik direktör?",
     "type": "td",
@@ -594,7 +594,7 @@
 },
 
 {
-    "id": 46,
+    "id": 28,
     "game": "top10",
     "title": "Fenerbahçe'nin çeyrek final oynadığı 2007-08 Şampiyonlar Ligi sezonunda Fenerbahçe formasıyla en çok süre alan 10 oyuncu?",
     "type": "player",
@@ -617,7 +617,7 @@
 
 
 {
-    "id": 47,
+    "id": 29,
     "game": "top10",
     "title": "Beşiktaş'ın gruptan namağlup lider çıktığı 2017-18 Şampiyonlar Ligi sezonunda Beşiktaş formasıyla en çok süre alan oyuncular?",
     "type": "player",
@@ -639,7 +639,7 @@
 },
 
 {
-    "id": 48,
+    "id": 30,
     "game": "top10",
     "title": "Transfermarkt güncel piyasa değerlerine göre Süper Lig'in en değerli 10 takımı?",
     "type": "team-tr",
