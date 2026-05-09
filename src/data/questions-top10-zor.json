@@ -938,5 +938,26 @@
       "Manisa FK"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 48,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre tarihte Trabzonspor formasıyla en çok gol atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-10",
+    "targets": [
+      "Hami Mandıralı",
+      "Fatih Tekke",
+      "Umut Bulut",
+      "Burak Yılmaz",
+      "Gökdeniz Karadeniz",
+      "Shota Arveladze",
+      "Hamdi Aslan",
+      "Orhan Çıkrıkçı",
+      "Ünal Karaman",
+      "Anthony Nwakaeme"
+    ],
+    "difficulty": "zor"
   }
 ]

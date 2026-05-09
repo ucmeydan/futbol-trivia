@@ -861,6 +861,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 30,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-10",
+    "correctPlayer": "Fred",
+    "teammates": [
+      {
+        "name": "Darijo Srna",
+        "info": "2013-18 yılları arasında Shakhtar'da birlikte oynadılar."
+      },
+      {
+        "name": "Romelu Lukaku",
+        "info": "2018-19 sezonunda Manchester United'ta birlikte oynadılar"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2021-23 yılları arasında Manchester United'da birlikte oynadılar."
+      },
+      {
+        "name": "Michy Batshuayi",
+        "info": "2023-24 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Edin Dzeko",
+        "info": "2023-25 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 ]

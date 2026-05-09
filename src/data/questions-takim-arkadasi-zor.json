@@ -1066,6 +1066,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 37,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-10",
+    "correctPlayer": "Bruma",
+    "teammates": [
+      {
+        "name": "Wesley Sneijder",
+        "info": "2014-17 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Enner Valencia",
+        "info": "2022-23 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Timo Werner",
+        "info": "2017-19 yılları arasında Leipzig'de birlikte oynadılar"
+      },
+      {
+        "name": "Eren Derdiyok",
+        "info": "2016-17 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Orkun Kökçü",
+        "info": "2024-25 sezonunda Benfica'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

@@ -658,6 +658,28 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 31,
+    "game": "top10",
+    "title": "Süper Lig'de şampiyonluk kazanan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-05-11",
+    "targets": [
+  "Okan Buruk",
+  "Abdullah Avcı",
+  "Sergen Yalçın",
+  "Fatih Terim",
+  "Şenol Güneş",
+  "Hamza Hamzaoğlu",
+  "Ersun Yanal",
+  "Aykut Kocaman",
+  "Ertuğrul Sağlam",
+  "Mustafa Denizli"
+
+    ],
+    "difficulty": "kolay"
 }
 
 

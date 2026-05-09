@@ -1,5 +1,4 @@
 [
-  
   {
     "id": 1,
     "game": "listeyi-tamamla",
@@ -619,7 +618,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 23,
     "game": "listeyi-tamamla",
@@ -637,550 +635,519 @@
     "difficulty": "zor"
   },
   {
-  "id": 24,
-  "game": "listeyi-tamamla",
-  "title": "Beşiktaş'ta Ricardo Quaresma ile birlikte en az 50 maça çıkan oyuncular?",
-  "type": "player",
-  "activeDate": "2026-04-16",
-  "targets": [
-    "Atiba Hutchinson",
-    "Necip Uysal",
-    "Oğuzhan Özyakup",
-    "Adriano",
-    "Gökhan Gönül",
-    "Dusko Tosic",
-    "Cenk Tosun",
-    "İsmail Köybaşı",
-    "Tolgay Arslan",
-    "Fabri",
-    "Ryan Babel",
-    "Andreas Beck",
-    "Anderson Talisca",
-    "Caner Erkin",
-    "Fabian Ernst",
-    "Gary Medel",
-    "Marcelo"
-  ],
-  "difficulty": "zor"
-},
-{
-  "id": 25,
-  "game": "listeyi-tamamla",
-  "title": "Bu sezon Süper Lig'de gol atan 2005 ve sonrası doğumlu futbolcular?",
-  "type": "player",
-  "activeDate": "2026-04-17",
-  "targets": [
-   "Mustafa Hekimoğlu",
-   "Ahmed Traore",
-   "Renato Nhaga",
-   "Sidiki Cherif",
-   "Uchenna Ogundu",
-   "Christ Inao Oulai",
-   "Ibrahim Sabra",
-   "Barış Kalaycı",
-   "Ruan"
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 26,
-  "game": "listeyi-tamamla",
-  "title": "Galatasaray'ın Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
-  "type": "team-eu",
-  "activeDate": "2026-04-18",
-  "targets": [
-   "Barcelona",
-   "Sparta Prag",
-   "Athletic Bilbao",
-   "Rosenborg",
-   "Hertha Berlin",
-   "Milan",
-   "Monaco",
-   "Rangers",
-   "PSG",
-   "Deportivo",
-   "Real Madrid",
-   "Lazio",
-   "PSV",
-   "Nantes",
-   "Lokomotiv Moskova",
-   "Juventus",
-   "Olympiakos",
-   "Liverpool",
-   "Manchester United",
-   "Braga",
-   "Cluj",
-   "Schalke",
-   "Kopenhag",
-   "Benfica",
-   "Bodo Glimt",
-   "Ajax"
-
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 27,
-  "game": "listeyi-tamamla",
-  "title": "Süper Lig tarihinde 1000'den fazla maça çıkan takımlar?",
-  "type": "team-tr",
-  "activeDate": "2026-04-19",
-  "targets": [
-    "Fenerbahçe",
-    "Galatasaray",
-    "Beşiktaş",
-    "Ankaragücü",
-    "Trabzonspor",
-    "Bursaspor",
-    "Gençlerbirliği",
-    "Altay",
-    "Samsunspor",
-    "Antalyaspor",
-    "Gaziantepspor",
-    "Göztepe"
-   
-  ],
-  "difficulty": "zor"
-},
-{
-  "id": 28,
-  "game": "listeyi-tamamla",
-  "title": "Fransa Ligue 1'de 50'den fazla maça çıkan TÜrk futbolcular?",
-  "type": "player",
-  "activeDate": "2026-04-20",
-  "targets": [
-   "Mevlüt Erdinç",
-   "Zeki Çelik",
-   "Yusuf Yazıcı",
-   "Cengiz Ünder",
-   "Burak Yılmaz",
-   "Engin Verel"
-
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 29,
-  "game": "listeyi-tamamla",
-  "title": "Fenerbahçe'nin Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
-  "type": "team-eu",
-  "activeDate": "2026-04-21",
-  "targets": [
-   "Rapid Wien",
-   "Sparta Prag",
-   "Manchester United",
-   "PSV",
-   "Inter",
-   "CSKA Moskova",
-   "Sevilla",
-   "Chelsea"
-
-
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 30,
-  "game": "listeyi-tamamla",
-  "title": "Beşiktaş'ın Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
-  "type": "team-eu",
-  "activeDate": "2026-04-22",
-  "targets": [
-   "Barcelona",
-   "PSG",
-   "Göteborg",
-   "Chelsea",
-   "Sparta Prag",
-   "Liverpool",
-   "Marsilya",
-   "Manchester United",
-   "Napoli",
-   "Porto",
-   "Leipzig",
-   "Monaco"
-
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 31,
-  "game": "listeyi-tamamla",
-  "title": "Bu sezon Süper Lig'de maça çıkan 18 yaş altı futbolcular? (23 Nisan Ulusal Egemenlik ve Çocuk Bayramı kutlu olsun.)",
-  "type": "player",
-  "activeDate": "2026-04-23",
-  "targets": [
-   "Ayaz Özcan",
-   "Tarık Buğra Kalpaklı",
-   "Hasan Yakub İlçin",
-   "Ali Demirbilek",
-   "Muhammet Akmelek",
-   "Deniz Dönmezer",
-   "Ali Osman Kalın",
-   "Kayra Cihan"
-
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 32,
-  "game": "listeyi-tamamla",
-  "title": "Bu sezon Türkiye profesyonel futbol liglerini ilk sırada tamamlayan takımlar? ",
-  "type": "team-tr",
-  "activeDate": "2026-04-24",
-  "targets": [
-   "Bursaspor",
-   "Batman Petrolspor",
-   "Erzurumspor",
-   "İnegöl Kafkasspor",
-   "12 Bingölspor",
-   "Sebat Gençlikspor",
-   "Kütahyaspor"
-
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 33,
-  "game": "listeyi-tamamla",
-  "title": "Bu sezon Türkiye profesyonel futbol liglerinde mücadele eden Ankara takımları? ",
-  "type": "team-tr",
-  "activeDate": "2026-04-25",
-  "targets": [
-   "Gençlerbirliği",
-   "Keçiörengücü",
-   "Ankaragücü",
-   "Ankara Demirspor",
-   "Sincan Belediyesi Ankaraspor",
-   "Polatlı 1926 SK",
-   "Çankaya SK",
-   "Etimesgut SK"
-
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 34,
-  "game": "listeyi-tamamla",
-  "title": "Hem Fenerbahçe hem de Galatasaray forması giymiş yabancı futbolcular?",
-  "type": "player",
-  "activeDate": "2026-04-26",
-  "targets": [
-   "Haim Revivo",
-   "Elvir Bolic",
-   "Elvir Baljic",
-   "Stjepan Tomas",
-   "Garry Rodrigues",
-   "Bruma",
-   "Michy Batshuayi"
-
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 35,
-  "game": "listeyi-tamamla",
-  "title": "Euro 2016'da Türk Milli takımı formasıyla süre alan oyuncular?",
-  "type": "player",
-  "activeDate": "2026-04-27",
-  "targets": [
-   "Volkan Babacan",
-   "Hakan Balta",
-   "Gökhan Gönül",
-   "Caner Erkin",
-   "Hakan Çalhanoğlu",
-   "Ozan Tufan",
-   "Yunus Mallı",
-   "İsmail Köybaşı",
-   "Nuri Şahin",
-   "Selçuk İnan",
-   "Oğuzhan Özyakup",
-   "Mehmet Topal",
-   "Emre Mor",
-   "Cenk Tosun",
-   "Arda Turan",
-   "Olcay Şahan",
-   "Burak Yılmaz",
-   "Volkan Şen"
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 36,
-  "game": "listeyi-tamamla",
-  "title": "Milli takım formasıyla Avrupa şampiyonalarında gol atan oyuncular?",
-  "type": "player",
-  "activeDate": "2026-04-28",
-  "targets": [
-   "Semih Şentürk",
-   "Nihat Kahveci",
-   "Arda Turan",
-   "Merih Demiral",
-   "Hakan Şükür",
-   "Uğur Boral",
-   "İrfan Can Kahveci",
-   "Okan Buruk",
-   "Cenk Tosun",
-   "Samet Akaydın",
-   "Arda Güler",
-   "Kerem Aktürkoğlu",
-   "Mert Müldür",
-   "Ozan Tufan",
-   "Burak Yılmaz",
-   "Hakan Çalhanoğlu"
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 37,
-  "game": "listeyi-tamamla",
-  "title": "2025-26 sezonunda Süper Lig'de görev alan yabancı teknik direktörler?",
-  "type": "td",
-  "activeDate": "2026-04-29",
-  "targets": [
-   "Ole Gunnar Solskjaer",
-   "Jose Mourinho",
-   "Domenico Tedesco",
-   "Joao Pereira",
-   "Erling Moe",
-   "Mirel Radoi",
-   "Marcel Licka",
-   "Radomir Djalovic",
-   "Stanimir Stoilov",
-   "Aleksandar Stanojevic",
-   "Thomas Reis",
-   "Thorsten Fink",
-   "Markus Gisdol",
-   "Shota Arveladze"
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 38,
-  "game": "listeyi-tamamla",
-  "title": "TFF 1. Lig tarihinde gol krallığı yaşamış yabancı futbolcular?",
-  "type": "player",
-  "activeDate": "2026-04-30",
-  "targets": [
-    "Bruno Mezenga",
-    "Simon Zenke",
-    "Mbilla Etame",
-    "Severin Bikoko",
-    "Gerard Gohou",
-    "Jonathan Ayite",
-    "Slavko Perovic",
-    "Mickael Pote",
-    "Braian Samudio",
-    "Marco Paixao",
-    "Gianni Bruno",
-    "Yonathan Del Valle",
-    "Wesley Moraes"
-    
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 39,
-  "game": "listeyi-tamamla",
-  "title": "Süper Lig'de Bursaspor formasıyla 30 ve üzeri sayıda gol atan futbolcular?",
-  "type": "player",
-  "activeDate": "2026-05-01",
-  "targets": [
-    "Okan Yılmaz",
-    "Murat Sözkesen",
-    "Pablo Batalla",
-    "Elvir Baljic",
-    "Nenad Bijedic",
-    "Fernandao",
-    "Magid Mususi",
-    "Sercan Yıldırım"
-    
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 40,
-  "game": "listeyi-tamamla",
-  "title": "Transfermarkt verilerine göre 2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
-  "type": "player",
-  "activeDate": "2026-05-02",
-  "targets": [
-   "Nihat Kahveci",
-   "Emre Belözoğlu",
-   "Tuncay Şanlı",
-   "Gökdeniz Karadeniz",
-   "Rüştü Reçber",
-   "Necati Ateş",
-   "Fatih Tekke",
-   "Hasan Şaş",
-   "Yıldıray Baştürk",
-   "İbrahim Akın",
-   "Sabri Sarıoğlu",
-   "Servet Çetin",
-   "Okan Buruk",
-   "Ümit Davala"
-    
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 41,
-  "game": "listeyi-tamamla",
-  "title": "Süper Lig tarihinde 100 ve üzeri sayıda maça çıkan Nijeryalı futbolcular?",
-  "type": "player",
-  "activeDate": "2026-05-03",
-  "targets": [
-  "Isaac Promise",
-  "Uche Okechukwu",
-  "Aminu Umar",
-  "Anthony Nwakaeme",
-  "David Akintola",
-  "Bright Osayi-Samuel",
-  "Raheem Lawal",
-  "Michael Eneramo",
-  "Kenneth Omeruo",
-  "Olarenwaju Kayode",
-  "Ike Shorunmu",
-  "Henry Onyekuru"
-    
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 42,
-  "game": "listeyi-tamamla",
-  "title": "Miralem Pjanic'in futbolculuk kariyerinde forma giydiği takımlar?",
-  "type": "team-all",
-  "activeDate": "2026-05-04",
-  "targets": [
-  "Metz",
-  "Lyon",
-  "Roma",
-  "Juventus",
-  "Barcelona",
-  "Beşiktaş",
-  "Sharjah FC",
-  "CSKA Moskova"
-    
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 43,
-  "game": "listeyi-tamamla",
-  "title": "Badou Ndiaye'nin Türkiye liglerinde forma giydiği takımlar?",
-  "type": "team-all",
-  "activeDate": "2026-05-05",
-  "targets": [
-  "Galatasaray",
-  "Trabzonspor",
-  "Osmanlıspor",
-  "Fatih Karagümrük",
-  "Adana Demirspor",
-  "Pendikspor",
-  "Gaziantep FK"
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 44,
-  "game": "listeyi-tamamla",
-  "title": "Galatasaray formasıyla 20 ve üzeri sayıda Şampiyonlar Ligi maçına çıkan yabancı futbolcular? ",
-  "type": "player",
-  "activeDate": "2026-05-06",
-  "targets": [
-  "Fernando Muslera",
-  "Faryd Mondragon",
-  "Gheorghe Popescu",
-  "Gheorghe Hagi",
-  "Felipe Melo",
-  "Wesley Sneijder",
-  "Claudio Taffarel",
-  "Capone"
-],
-  "difficulty": "zor"
-},
-
-{
-  "id": 45,
-  "game": "listeyi-tamamla",
-  "title": "Beşiktaş'ın 2025-26 sezonunda bonservisiyle kadrosuna kattığı oyuncular?",
-  "type": "player",
-  "activeDate": "2026-05-07",
-  "targets": [
-"Orkun Kökçü",
-"Tammy Abraham",
-"Emmanuel Agbadou",
-"Hyeon Gyu Oh",
-"Wilfred Ndidi",
-"Vaclav Cerny",
-"Taylan Bulut",
-"Amir Murillo",
-"Felix Uduokhai",
-"Junior Olaitan",
-"Tiago Djalo",
-"Rıdvan Yılmaz",
-"Joao Mario",
-"Gökhan Sazdağı"
-
-
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 46,
-  "game": "listeyi-tamamla",
-  "title": "Galatasaray'ın 1999/00 sezonunda Uefa Kupasında elediği takımlar?",
-  "type": "team-all",
-  "activeDate": "2026-05-08",
-  "targets": [
-"Bologna",
-"Mallorca",
-"Dortmund",
-"Leeds United",
-"Arsenal"
-
-
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 47,
-  "game": "listeyi-tamamla",
-  "title": "Fenerbahçe'nin 2012/13 sezonunda Uefa Avrupa Ligi'nde karşılaştığı takımlar?",
-  "type": "team-all",
-  "activeDate": "2026-05-09",
-  "targets": [
-"Marsilya",
-"Monchengladbach",
-"AEL Limassol",
-"BATE Borisov",
-"Viktoria Plzen",
-"Lazio",
-"Benfica"
-
-
-  ],
-  "difficulty": "zor"
-}
-
+    "id": 24,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ta Ricardo Quaresma ile birlikte en az 50 maça çıkan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-04-16",
+    "targets": [
+      "Atiba Hutchinson",
+      "Necip Uysal",
+      "Oğuzhan Özyakup",
+      "Adriano",
+      "Gökhan Gönül",
+      "Dusko Tosic",
+      "Cenk Tosun",
+      "İsmail Köybaşı",
+      "Tolgay Arslan",
+      "Fabri",
+      "Ryan Babel",
+      "Andreas Beck",
+      "Anderson Talisca",
+      "Caner Erkin",
+      "Fabian Ernst",
+      "Gary Medel",
+      "Marcelo"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 25,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de gol atan 2005 ve sonrası doğumlu futbolcular?",
+    "type": "player",
+    "activeDate": "2026-04-17",
+    "targets": [
+      "Mustafa Hekimoğlu",
+      "Ahmed Traore",
+      "Renato Nhaga",
+      "Sidiki Cherif",
+      "Uchenna Ogundu",
+      "Christ Inao Oulai",
+      "Ibrahim Sabra",
+      "Barış Kalaycı",
+      "Ruan"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 26,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-04-18",
+    "targets": [
+      "Barcelona",
+      "Sparta Prag",
+      "Athletic Bilbao",
+      "Rosenborg",
+      "Hertha Berlin",
+      "Milan",
+      "Monaco",
+      "Rangers",
+      "PSG",
+      "Deportivo",
+      "Real Madrid",
+      "Lazio",
+      "PSV",
+      "Nantes",
+      "Lokomotiv Moskova",
+      "Juventus",
+      "Olympiakos",
+      "Liverpool",
+      "Manchester United",
+      "Braga",
+      "Cluj",
+      "Schalke",
+      "Kopenhag",
+      "Benfica",
+      "Bodo Glimt",
+      "Ajax"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 27,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 1000'den fazla maça çıkan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-04-19",
+    "targets": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Ankaragücü",
+      "Trabzonspor",
+      "Bursaspor",
+      "Gençlerbirliği",
+      "Altay",
+      "Samsunspor",
+      "Antalyaspor",
+      "Gaziantepspor",
+      "Göztepe"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 28,
+    "game": "listeyi-tamamla",
+    "title": "Fransa Ligue 1'de 50'den fazla maça çıkan TÜrk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-04-20",
+    "targets": [
+      "Mevlüt Erdinç",
+      "Zeki Çelik",
+      "Yusuf Yazıcı",
+      "Cengiz Ünder",
+      "Burak Yılmaz",
+      "Engin Verel"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 29,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-04-21",
+    "targets": [
+      "Rapid Wien",
+      "Sparta Prag",
+      "Manchester United",
+      "PSV",
+      "Inter",
+      "CSKA Moskova",
+      "Sevilla",
+      "Chelsea"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 30,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-04-22",
+    "targets": [
+      "Barcelona",
+      "PSG",
+      "Göteborg",
+      "Chelsea",
+      "Sparta Prag",
+      "Liverpool",
+      "Marsilya",
+      "Manchester United",
+      "Napoli",
+      "Porto",
+      "Leipzig",
+      "Monaco"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 31,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de maça çıkan 18 yaş altı futbolcular? (23 Nisan Ulusal Egemenlik ve Çocuk Bayramı kutlu olsun.)",
+    "type": "player",
+    "activeDate": "2026-04-23",
+    "targets": [
+      "Ayaz Özcan",
+      "Tarık Buğra Kalpaklı",
+      "Hasan Yakub İlçin",
+      "Ali Demirbilek",
+      "Muhammet Akmelek",
+      "Deniz Dönmezer",
+      "Ali Osman Kalın",
+      "Kayra Cihan"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 32,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Türkiye profesyonel futbol liglerini ilk sırada tamamlayan takımlar? ",
+    "type": "team-tr",
+    "activeDate": "2026-04-24",
+    "targets": [
+      "Bursaspor",
+      "Batman Petrolspor",
+      "Erzurumspor",
+      "İnegöl Kafkasspor",
+      "12 Bingölspor",
+      "Sebat Gençlikspor",
+      "Kütahyaspor"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 33,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Türkiye profesyonel futbol liglerinde mücadele eden Ankara takımları? ",
+    "type": "team-tr",
+    "activeDate": "2026-04-25",
+    "targets": [
+      "Gençlerbirliği",
+      "Keçiörengücü",
+      "Ankaragücü",
+      "Ankara Demirspor",
+      "Sincan Belediyesi Ankaraspor",
+      "Polatlı 1926 SK",
+      "Çankaya SK",
+      "Etimesgut SK"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 34,
+    "game": "listeyi-tamamla",
+    "title": "Hem Fenerbahçe hem de Galatasaray forması giymiş yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-04-26",
+    "targets": [
+      "Haim Revivo",
+      "Elvir Bolic",
+      "Elvir Baljic",
+      "Stjepan Tomas",
+      "Garry Rodrigues",
+      "Bruma",
+      "Michy Batshuayi"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 35,
+    "game": "listeyi-tamamla",
+    "title": "Euro 2016'da Türk Milli takımı formasıyla süre alan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-04-27",
+    "targets": [
+      "Volkan Babacan",
+      "Hakan Balta",
+      "Gökhan Gönül",
+      "Caner Erkin",
+      "Hakan Çalhanoğlu",
+      "Ozan Tufan",
+      "Yunus Mallı",
+      "İsmail Köybaşı",
+      "Nuri Şahin",
+      "Selçuk İnan",
+      "Oğuzhan Özyakup",
+      "Mehmet Topal",
+      "Emre Mor",
+      "Cenk Tosun",
+      "Arda Turan",
+      "Olcay Şahan",
+      "Burak Yılmaz",
+      "Volkan Şen"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 36,
+    "game": "listeyi-tamamla",
+    "title": "Milli takım formasıyla Avrupa şampiyonalarında gol atan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-04-28",
+    "targets": [
+      "Semih Şentürk",
+      "Nihat Kahveci",
+      "Arda Turan",
+      "Merih Demiral",
+      "Hakan Şükür",
+      "Uğur Boral",
+      "İrfan Can Kahveci",
+      "Okan Buruk",
+      "Cenk Tosun",
+      "Samet Akaydın",
+      "Arda Güler",
+      "Kerem Aktürkoğlu",
+      "Mert Müldür",
+      "Ozan Tufan",
+      "Burak Yılmaz",
+      "Hakan Çalhanoğlu"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 37,
+    "game": "listeyi-tamamla",
+    "title": "2025-26 sezonunda Süper Lig'de görev alan yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-04-29",
+    "targets": [
+      "Ole Gunnar Solskjaer",
+      "Jose Mourinho",
+      "Domenico Tedesco",
+      "Joao Pereira",
+      "Erling Moe",
+      "Mirel Radoi",
+      "Marcel Licka",
+      "Radomir Djalovic",
+      "Stanimir Stoilov",
+      "Aleksandar Stanojevic",
+      "Thomas Reis",
+      "Thorsten Fink",
+      "Markus Gisdol",
+      "Shota Arveladze"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 38,
+    "game": "listeyi-tamamla",
+    "title": "TFF 1. Lig tarihinde gol krallığı yaşamış yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-04-30",
+    "targets": [
+      "Bruno Mezenga",
+      "Simon Zenke",
+      "Mbilla Etame",
+      "Severin Bikoko",
+      "Gerard Gohou",
+      "Jonathan Ayite",
+      "Slavko Perovic",
+      "Mickael Pote",
+      "Braian Samudio",
+      "Marco Paixao",
+      "Gianni Bruno",
+      "Yonathan Del Valle",
+      "Wesley Moraes"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 39,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de Bursaspor formasıyla 30 ve üzeri sayıda gol atan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-01",
+    "targets": [
+      "Okan Yılmaz",
+      "Murat Sözkesen",
+      "Pablo Batalla",
+      "Elvir Baljic",
+      "Nenad Bijedic",
+      "Fernandao",
+      "Magid Mususi",
+      "Sercan Yıldırım"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 40,
+    "game": "listeyi-tamamla",
+    "title": "Transfermarkt verilerine göre 2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-02",
+    "targets": [
+      "Nihat Kahveci",
+      "Emre Belözoğlu",
+      "Tuncay Şanlı",
+      "Gökdeniz Karadeniz",
+      "Rüştü Reçber",
+      "Necati Ateş",
+      "Fatih Tekke",
+      "Hasan Şaş",
+      "Yıldıray Baştürk",
+      "İbrahim Akın",
+      "Sabri Sarıoğlu",
+      "Servet Çetin",
+      "Okan Buruk",
+      "Ümit Davala"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 41,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 100 ve üzeri sayıda maça çıkan Nijeryalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-03",
+    "targets": [
+      "Isaac Promise",
+      "Uche Okechukwu",
+      "Aminu Umar",
+      "Anthony Nwakaeme",
+      "David Akintola",
+      "Bright Osayi-Samuel",
+      "Raheem Lawal",
+      "Michael Eneramo",
+      "Kenneth Omeruo",
+      "Olarenwaju Kayode",
+      "Ike Shorunmu",
+      "Henry Onyekuru"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 42,
+    "game": "listeyi-tamamla",
+    "title": "Miralem Pjanic'in futbolculuk kariyerinde forma giydiği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-05-04",
+    "targets": [
+      "Metz",
+      "Lyon",
+      "Roma",
+      "Juventus",
+      "Barcelona",
+      "Beşiktaş",
+      "Sharjah FC",
+      "CSKA Moskova"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 43,
+    "game": "listeyi-tamamla",
+    "title": "Badou Ndiaye'nin Türkiye liglerinde forma giydiği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-05-05",
+    "targets": [
+      "Galatasaray",
+      "Trabzonspor",
+      "Osmanlıspor",
+      "Fatih Karagümrük",
+      "Adana Demirspor",
+      "Pendikspor",
+      "Gaziantep FK"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 44,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray formasıyla 20 ve üzeri sayıda Şampiyonlar Ligi maçına çıkan yabancı futbolcular? ",
+    "type": "player",
+    "activeDate": "2026-05-06",
+    "targets": [
+      "Fernando Muslera",
+      "Faryd Mondragon",
+      "Gheorghe Popescu",
+      "Gheorghe Hagi",
+      "Felipe Melo",
+      "Wesley Sneijder",
+      "Claudio Taffarel",
+      "Capone"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 45,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın 2025-26 sezonunda bonservisiyle kadrosuna kattığı oyuncular?",
+    "type": "player",
+    "activeDate": "2026-05-07",
+    "targets": [
+      "Orkun Kökçü",
+      "Tammy Abraham",
+      "Emmanuel Agbadou",
+      "Hyeon Gyu Oh",
+      "Wilfred Ndidi",
+      "Vaclav Cerny",
+      "Taylan Bulut",
+      "Amir Murillo",
+      "Felix Uduokhai",
+      "Junior Olaitan",
+      "Tiago Djalo",
+      "Rıdvan Yılmaz",
+      "Joao Mario",
+      "Gökhan Sazdağı"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 46,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın 1999/00 sezonunda Uefa Kupasında elediği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-05-08",
+    "targets": [
+      "Bologna",
+      "Mallorca",
+      "Dortmund",
+      "Leeds United",
+      "Arsenal"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 47,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin 2012/13 sezonunda Uefa Avrupa Ligi'nde karşılaştığı takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-05-09",
+    "targets": [
+      "Marsilya",
+      "Monchengladbach",
+      "AEL Limassol",
+      "BATE Borisov",
+      "Viktoria Plzen",
+      "Lazio",
+      "Benfica"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 48,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Ligdeki 33 maçın tamamında 90 dakika oynayan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-10",
+    "targets": [
+      "Mateusz Lis",
+      "Andreas Gianniotis"
+    ],
+    "difficulty": "zor"
+  }
 ]
