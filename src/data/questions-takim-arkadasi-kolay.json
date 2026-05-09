@@ -831,6 +831,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 29,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-09",
+    "correctPlayer": "Hamit Altıntop",
+    "teammates": [
+      {
+        "name": "Thomas Müller",
+        "info": "2008-11 yılları arasında Bayern'de birlikte oynadılar."
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2011-12 sezonunda Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Arjen Robben",
+        "info": "2009-11 yılları arasında Bayern'de birlikte oynadılar."
+      },
+      {
+        "name": "Wesley Sneijder",
+        "info": "2012-17 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2012-17 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 ]

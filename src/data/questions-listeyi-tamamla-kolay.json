@@ -619,6 +619,28 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 30,
+  "game": "listeyi-tamamla",
+  "title": "Jose Mourinho döneminde Fenerbahçe'de 40'dan fazla maça çıkan futbolcular?",
+  "type": "player",
+  "activeDate": "2026-05-10",
+  "targets": [
+"Sebastian Szymanski",
+"Youssef En Nesyri",
+"Dusan Tadic",
+"Edin Dzeko",
+"Fred",
+"Mert Müldür",
+"İrfan Can Kahveci",
+"Sofyan Amrabat",
+"Çağlar Söyüncü"
+
+
+  ],
+  "difficulty": "kolay"
 }
 
 
