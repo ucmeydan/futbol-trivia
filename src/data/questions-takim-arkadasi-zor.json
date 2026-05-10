@@ -1096,6 +1096,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 38,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-11",
+    "correctPlayer": "Loris Karius",
+    "teammates": [
+      {
+        "name": "Edin Dzeko",
+        "info": "2025-26 sezonunda Schalke'de birlikte oynadılar"
+      },
+      {
+        "name": "Gary Medel",
+        "info": "2018-19 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Adem Ljajic",
+        "info": "2018-20 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Mohamed Salah",
+        "info": "2016-18 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Kenan Karaman",
+        "info": "2025-26 sezonunda Schalke'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

@@ -641,6 +641,24 @@
 
   ],
   "difficulty": "kolay"
+},
+
+{
+  "id": 31,
+  "game": "listeyi-tamamla",
+  "title": "Galatasaray'ın son 4 Süper Lig şampiyonluğunun tamamında kadroda yer alan futbolcular?",
+  "type": "player",
+  "activeDate": "2026-05-11",
+  "targets": [
+"Abdülkerim Bardakçı",
+"Barış Alper Yılmaz",
+"Lucas Torreira",
+"Kaan Ayhan",
+"Mauro Icardi"
+
+
+  ],
+  "difficulty": "kolay"
 }
 
 

@@ -1149,5 +1149,23 @@
       "Andreas Gianniotis"
     ],
     "difficulty": "zor"
+  },
+{
+    "id": 49,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde en az 3 şampiyonluk yaşayan teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-05-11",
+    "targets": [
+      "Fatih Terim",
+      "Okan Buruk",
+      "Ahmet Suat Özyazıcı",
+      "Brian Birch",
+      "Gordon Milne",
+      "Mustafa Denizli",
+      "Christoph Daum"
+    ],
+    "difficulty": "zor"
   }
+
 ]

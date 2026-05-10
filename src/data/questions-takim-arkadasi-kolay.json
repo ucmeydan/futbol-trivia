@@ -891,6 +891,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 31,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-11",
+    "correctPlayer": "Gedson Fernandes",
+    "teammates": [
+      {
+        "name": "Joao Felix",
+        "info": "2018-19 sezonunda Benfica'da birlikte oynadılar."
+      },
+      {
+        "name": "Mert Günok",
+        "info": "2022-25 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Vincent Aboubakar",
+        "info": "2023-2024 yıllarında Beşiktaş'ta birlikte oynadılar."
+      },
+      {
+        "name": "Heung Min Son",
+        "info": "2020-21 sezonunda Tottenham'da birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2020-21 sezonunda Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 ]

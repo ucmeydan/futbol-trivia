@@ -1115,5 +1115,45 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 31,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-11",
+    "correctPlayer": "Eren Elmalı",
+    "career": [
+      {
+        "season": "2018-2019",
+        "team": "Kasımpaşa U21",
+        "apps": "26",
+        "goals": "1"
+      },
+      {
+        "season": "2019–2022",
+        "team": "Kasımpaşa",
+        "apps": "41",
+        "goals": "1"
+      },
+      {
+        "season": "2019-2020",
+        "team": "Silivrispor (kiralık)",
+        "apps": "27",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2025",
+        "team": "Trabzonspor",
+        "apps": "111",
+        "goals": "1"
+      },
+      {
+        "season": "2025–",
+        "team": "Galatasaray",
+        "apps": "56",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

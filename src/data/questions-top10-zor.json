@@ -959,5 +959,26 @@
       "Anthony Nwakaeme"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 49,
+    "game": "top10",
+    "title": "Fenerbahçe'ye transfer olan son 10 Sırp futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-11",
+    "targets": [
+      "Filip Kostic",
+      "Ognjen Mimovic",
+      "Dusan Tadic",
+      "Lazar Markovic",
+      "Milos Krasic",
+      "Mateja Kezman",
+      "Miroslav Stevic",
+      "Nikola Lazetic",
+      "Zoran Mirkovic",
+      "Misko Mirkovic"
+    ],
+    "difficulty": "zor"
   }
 ]
