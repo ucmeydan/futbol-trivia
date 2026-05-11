@@ -590,5 +590,24 @@
       "Mauro Icardi"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 32,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde herhangi bir sezonu 2.sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-05-12",
+    "targets": [
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Trabzonspor",
+      "Başakşehir",
+      "Sivasspor",
+      "Eskişehirspor",
+      "Adanaspor"
+    ],
+    "difficulty": "kolay"
   }
 ]

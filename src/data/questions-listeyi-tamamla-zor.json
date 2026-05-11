@@ -1150,7 +1150,7 @@
     ],
     "difficulty": "zor"
   },
-{
+  {
     "id": 49,
     "game": "listeyi-tamamla",
     "title": "Süper Lig tarihinde en az 3 şampiyonluk yaşayan teknik direktörler?",
@@ -1166,6 +1166,23 @@
       "Christoph Daum"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 50,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon TFF 1.Lig'den düşen takımlar ve önümüzdeki sezon için TFF 1.Lig'e yükselen takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-05-12",
+    "targets": [
+      "Adana Demirspor",
+      "Serikspor",
+      "Hatayspor",
+      "Sakaryaspor",
+      "Mardin 1969",
+      "Muğlaspor",
+      "Bursaspor",
+      "Batman Petrolspor"
+    ],
+    "difficulty": "zor"
   }
-
 ]

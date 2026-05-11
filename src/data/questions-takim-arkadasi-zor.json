@@ -1126,6 +1126,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 39,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-12",
+    "correctPlayer": "Andreas Isaksson",
+    "teammates": [
+      {
+        "name": "Elano",
+        "info": "2007-08 sezonunda Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Atiba Hutchinson",
+        "info": "2010-12 yılları arasında PSV'de birlikte oynadılar"
+      },
+      {
+        "name": "Dries Mertens",
+        "info": "2011-12 sezonunda PSV'de birlikte oynadılar"
+      },
+      {
+        "name": "Ryan Babel",
+        "info": "2013-15 yılları arasında Kasımpaşa'da birlikte oynadılar"
+      },
+      {
+        "name": "Andre Castro",
+        "info": "2013-16 yılları arasında Kasımpaşa'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

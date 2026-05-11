@@ -680,6 +680,27 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 34,
+    "game": "top10",
+    "title": "A Milli Takım tarihinde en çok maça çıkan 10 futbolcu hangisidir?",
+    "type": "player",
+    "activeDate": "2026-05-12",
+    "targets": [
+      "Rüştü Reçber",
+      "Hakan Şükür",
+      "Hakan Çalhanoğlu",
+      "Bülent Korkmaz",
+      "Emre Belözoğlu",
+      "Arda Turan",
+      "Tugay Kerimoğlu",
+      "Alpay Özalan",
+      "Hamit Altıntop",
+      "Mehmet Topal"
+    ],
+    "difficulty": "kolay"
 }
 
 

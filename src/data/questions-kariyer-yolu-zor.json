@@ -1881,5 +1881,52 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 43,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-12",
+    "correctPlayer": "Adrian Benedyczak",
+    "career": [
+      {
+        "season": "2016-2017",
+        "team": "Pogon Szczesin U19",
+        "apps": "29",
+        "goals": "19"
+      },
+      {
+        "season": "2017–2018",
+        "team": "Pogon Szczesin II",
+        "apps": "33",
+        "goals": "14"
+      },
+      {
+        "season": "2018-2021",
+        "team": "Pogon Szczesin",
+        "apps": "44",
+        "goals": "3"
+      },
+      {
+        "season": "2019-2020",
+        "team": "Chrobry Glogow (kiralık)",
+        "apps": "20",
+        "goals": "5"
+      },
+      {
+        "season": "2021-",
+        "team": "Parma",
+        "apps": "129",
+        "goals": "29"
+      },
+      {
+        "season": "2026-",
+        "team": "Kasımpaşa (kiralık)",
+        "apps": "13",
+        "goals": "9"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 ]

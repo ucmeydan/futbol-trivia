@@ -939,7 +939,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 48,
     "game": "top10",
@@ -960,7 +959,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 49,
     "game": "top10",
@@ -978,6 +976,26 @@
       "Nikola Lazetic",
       "Zoran Mirkovic",
       "Misko Mirkovic"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 50,
+    "game": "top10",
+    "title": "Arda Turan'ın profesyonel kariyeri boyunca, idaresinde en fazla maça çıktığı 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-05-12",
+    "targets": [
+      "Diego Simeone",
+      "Luis Enrique",
+      "Frank Rijkaard",
+      "Fatih Terim",
+      "Karl Heinz Feldkamp",
+      "Eric Gerets",
+      "Michael Skibbe",
+      "Abdullah Avcı",
+      "Gregorio Manzano",
+      "Ersun Yanal"
     ],
     "difficulty": "zor"
   }

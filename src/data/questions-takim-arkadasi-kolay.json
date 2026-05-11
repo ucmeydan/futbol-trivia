@@ -921,6 +921,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 32,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-12",
+    "correctPlayer": "Okan Buruk",
+    "teammates": [
+      {
+        "name": "Tümer Metin",
+        "info": "2004-06 yılları arasında Beşiktaş'ta ve Türk Milli takımında birlikte oynadılar."
+      },
+      {
+        "name": "Ronaldo Nazario",
+        "info": "2001-02 sezonunda Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Daniel Pancu",
+        "info": "2004-06 yılları arasında Beşiktaş'ta birlikte oynadılar."
+      },
+      {
+        "name": "Marco Materazzi",
+        "info": "2001-04 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Claudio Taffarel",
+        "info": "1998-2001 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 ]
