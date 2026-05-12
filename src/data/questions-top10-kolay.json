@@ -701,7 +701,30 @@
       "Mehmet Topal"
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 35,
+    "game": "top10",
+    "title": "Galatasaray'ı çalıştıran son 10 teknik direktör? (Geçici teknik direktörler hariç)",
+    "type": "td",
+    "activeDate": "2026-05-13",
+    "targets": [
+      "Okan Buruk",
+      "Domenec Torrent",
+      "Fatih Terim",
+      "Igor Tudor",
+      "Jan Olde Riekerink",
+      "Mustafa Denizli",
+      "Hamza Hamzaoğlu",
+      "Cesare Prandelli",
+      "Roberto Mancini",
+      "Gheorghe Hagi"
+
+    ],
+    "difficulty": "kolay"
 }
+
 
 
 ]

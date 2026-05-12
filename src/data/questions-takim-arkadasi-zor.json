@@ -1156,6 +1156,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 40,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-13",
+    "correctPlayer": "Emirhan İlkhan",
+    "teammates": [
+      {
+        "name": "Fabio Quagliarella",
+        "info": "2022-23 sezonunda Sampdoria'da birlikte oynadılar"
+      },
+      {
+        "name": "Vanja Milinkovic Savic",
+        "info": "2024-25 sezonunda Torino'da birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Babacan",
+        "info": "2023-24 sezonunda Başakşehir'de birlikte oynadılar"
+      },
+      {
+        "name": "Michy Batshuayi",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Adem Ljajic",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]

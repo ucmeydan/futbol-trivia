@@ -1184,5 +1184,40 @@
       "Batman Petrolspor"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 51,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 250'den fazla maça çıkan Avrupalı yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-13",
+    "targets": [
+      "Edin Visca",
+      "Elvir Bolic",
+      "Misko Mirkovic",
+      "Roman Dabrowski",
+      "Ruud Boffin",
+      "Bogdan Stancu"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 52,
+    "game": "listeyi-tamamla",
+    "title": "Samsunspor'un bu sezon Avrupa kupalarında karşılaştığı rakipler (Ön elemeler dahil)",
+    "type": "team-eu",
+    "activeDate": "2026-05-14",
+    "targets": [
+      "Panathinaikos",
+      "Hamrun",
+      "Legia Varşova",
+      "Dinamo Kiev",
+      "Breidablik",
+      "AEK",
+      "Mainz",
+      "Shkendija",
+      "Rayo Vallecano"
+    ],
+    "difficulty": "zor"
   }
 ]

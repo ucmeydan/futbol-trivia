@@ -609,5 +609,26 @@
       "Adanaspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 33,
+    "game": "listeyi-tamamla",
+    "title": "Türkiye'nin 2026 Dünya Kupası elemelerinde çıktığı 8 maçın en az 7'sinde süre alan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-13",
+    "targets": [
+      "Ferdi Kadıoğlu",
+      "Uğurcan Çakır",
+      "Mert Müldür",
+      "Orkun Kökçü",
+      "Kenan Yıldız",
+      "Arda Güler",
+      "Hakan Çalhanoğlu",
+      "Abdülkerim Bardakcı",
+      "Kerem Aktürkoğlu"
+
+    ],
+    "difficulty": "kolay"
   }
 ]

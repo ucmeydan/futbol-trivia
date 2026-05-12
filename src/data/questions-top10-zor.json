@@ -998,5 +998,28 @@
       "Ersun Yanal"
     ],
     "difficulty": "zor"
+  },
+{
+    "id": 51,
+    "game": "top10",
+    "title": "Süper Lig'de sezonu 'Sezonun en golcü yerli oyuncusu' olarak tamamlayan son 10 Türk futbolcu? (Eşitlik durumunda iki oyuncu da listeye dahil edilmiştir) ",
+    "type": "player",
+    "activeDate": "2026-05-13",
+    "targets": [
+        "Barış Alper Yılmaz",
+        "Aytaç Kara",
+        "Oğuz Aydın",
+        "Umut Nayir",
+        "Umut Bozok",
+        "Adem Büyük",
+        "Burak Yılmaz",
+        "Cenk Tosun",
+        "Deniz Kadah",
+        "Necati Ateş"
+
+
+    ],
+    "difficulty": "zor"
   }
+
 ]
