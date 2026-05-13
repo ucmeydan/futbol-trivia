@@ -1,5 +1,12 @@
 'use client';
 
+const safeGetItem = (key: string): string | null => {
+  try { return localStorage.getItem(key); } catch { return null; }
+};
+const safeSetItem = (key: string, value: string): void => {
+  try { localStorage.setItem(key, value); } catch { /* ignore */ }
+};
+
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
@@ -26,7 +33,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
   const [isError, setIsError] = useState(false);
   const [showStatsPage, setShowStatsPage] = useState(false);
   const [copySuccess, setCopySuccess] = useState(false);
-  const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
+  const [windowDimension, setWindowDimension] = useState({ width: 1024, height: 768 });
 
   const [stats, setStats] = useState({
     totalGames: 0,
@@ -48,7 +55,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
     if (index < 0 || index >= questionsList.length) return;
     const question = questionsList[index];
     setCurrentIndex(index);
-    const savedSession = localStorage.getItem(`kariyer_yolu_${difficulty}_session_${question.id}`);
+    const savedSession = safeGetItem(`kariyer_yolu_${difficulty}_session_${question.id}`);
     if (savedSession) {
       const data = JSON.parse(savedSession);
       setVisibleRows(data.visibleRows || question.career.length);
@@ -67,7 +74,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
 
   useEffect(() => {
     setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
-    const savedStats = localStorage.getItem(`kariyer_yolu_${difficulty}_stats_v1`);
+    const savedStats = safeGetItem(`kariyer_yolu_${difficulty}_stats_v1`);
     if (savedStats) setStats(JSON.parse(savedStats));
   }, []);
 
@@ -89,8 +96,8 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
       newStats.distribution[key as keyof typeof stats.distribution] += 1;
     }
     setStats(newStats);
-    localStorage.setItem(`kariyer_yolu_${difficulty}_stats_v1`, JSON.stringify(newStats));
-    localStorage.setItem(`kariyer_yolu_${difficulty}_session_${currentQ.id}`, JSON.stringify({
+    safeSetItem(`kariyer_yolu_${difficulty}_stats_v1`, JSON.stringify(newStats));
+    safeSetItem(`kariyer_yolu_${difficulty}_session_${currentQ.id}`, JSON.stringify({
       visibleRows: win ? attempt : currentQ.career.length,
       isWin: win,
       finalAttempt: win ? attempt : 0

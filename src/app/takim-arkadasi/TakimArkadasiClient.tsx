@@ -1,5 +1,12 @@
 'use client';
 
+const safeGetItem = (key: string): string | null => {
+  try { return localStorage.getItem(key); } catch { return null; }
+};
+const safeSetItem = (key: string, value: string): void => {
+  try { localStorage.setItem(key, value); } catch { /* ignore */ }
+};
+
 import { useState, useEffect } from 'react';
 import playersData from '@/data/players.json';
 import kolayQuestions from '@/data/questions-takim-arkadasi-kolay.json';
@@ -40,7 +47,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
   const [copySuccess, setCopySuccess] = useState(false);
   const [gameQuestions, setGameQuestions] = useState<any[]>([]);
   const [showStatsPage, setShowStatsPage] = useState(false);
-  const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
+  const [windowDimension, setWindowDimension] = useState({ width: 1024, height: 768 });
 
   const [stats, setStats] = useState({
     totalGames: 0,
@@ -56,7 +63,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
     setSuggestions([]);
     setSelectedIndex(-1);
 
-    const saved = localStorage.getItem(`takim_arkadasi_${difficulty}_session_${question.id}`);
+    const saved = safeGetItem(`takim_arkadasi_${difficulty}_session_${question.id}`);
     if (saved) {
       const data = JSON.parse(saved);
       setAttempts(data.attempts ?? 1);
@@ -71,7 +78,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
 
   useEffect(() => {
     setMounted(true);
-    setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
+    if (typeof window !== 'undefined') { setWindowDimension({ width: window.innerWidth, height: window.innerHeight }); }
 
     const d = new Date();
     const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -84,7 +91,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
       loadQuestion(filtered.length - 1, filtered);
     }
 
-    const savedStats = localStorage.getItem(`takim_arkadasi_${difficulty}_stats_v2`);
+    const savedStats = safeGetItem(`takim_arkadasi_${difficulty}_stats_v2`);
     if (savedStats) setStats(JSON.parse(savedStats));
   }, []);
 
@@ -120,10 +127,10 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
   const updateStats = (won: boolean, attemptCount: number) => {
     if (!currentQ) return;
     // Zaten oynanmışsa tekrar sayma
-    if (localStorage.getItem(`takim_arkadasi_${difficulty}_session_${currentQ.id}`)) return;
+    if (safeGetItem(`takim_arkadasi_${difficulty}_session_${currentQ.id}`)) return;
 
     // Stale closure'dan kaçınmak için localStorage'dan oku
-    const savedRaw = localStorage.getItem(`takim_arkadasi_${difficulty}_stats_v2`);
+    const savedRaw = safeGetItem(`takim_arkadasi_${difficulty}_stats_v2`);
     const base = savedRaw
       ? JSON.parse(savedRaw)
       : { totalGames: 0, wins: 0, distribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0 } };
@@ -139,11 +146,11 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
     }
 
     // Önce session'ı kaydet, sonra stats'ı güncelle
-    localStorage.setItem(`takim_arkadasi_${difficulty}_session_${currentQ.id}`, JSON.stringify({
+    safeSetItem(`takim_arkadasi_${difficulty}_session_${currentQ.id}`, JSON.stringify({
       attempts: won ? attemptCount : MAX_ATTEMPTS,
       isWin: won,
     }));
-    localStorage.setItem(`takim_arkadasi_${difficulty}_stats_v2`, JSON.stringify(newStats));
+    safeSetItem(`takim_arkadasi_${difficulty}_stats_v2`, JSON.stringify(newStats));
     setStats(newStats);
   };
 
@@ -153,7 +160,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
     const normalizedCorrect = normalizeText(currentQ.correctPlayer);
 
     const refreshAndShowStats = () => {
-      const saved = localStorage.getItem('takim_arkadasi_stats_v2');
+      const saved = safeGetItem('takim_arkadasi_stats_v2');
       if (saved) setStats(JSON.parse(saved));
       setShowStatsPage(true);
     };
@@ -405,7 +412,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
                 <p className="font-bold text-base text-white tracking-tight">{formatName(currentQ.correctPlayer)}</p>
               </div>
               <button onClick={() => {
-            const saved = localStorage.getItem(`takim_arkadasi_${difficulty}_stats_v2`);
+            const saved = safeGetItem(`takim_arkadasi_${difficulty}_stats_v2`);
             if (saved) setStats(JSON.parse(saved));
             setShowStatsPage(true);
           }} className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors">İstatistik</button>

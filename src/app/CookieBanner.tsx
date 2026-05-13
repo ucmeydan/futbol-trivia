@@ -14,7 +14,12 @@ export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    if (!localStorage.getItem('cookie_consent')) {
+    try {
+      if (!localStorage.getItem('cookie_consent')) {
+        setVisible(true);
+      }
+    } catch {
+      // iOS Safari private mode — show banner by default
       setVisible(true);
     }
   }, []);
@@ -28,7 +33,9 @@ export default function CookieBanner() {
         ad_user_data: granted ? 'granted' : 'denied',
       });
     }
-    localStorage.setItem('cookie_consent', granted ? '1' : '0');
+    try {
+      localStorage.setItem('cookie_consent', granted ? '1' : '0');
+    } catch { /* private mode */ }
     setVisible(false);
   };
 

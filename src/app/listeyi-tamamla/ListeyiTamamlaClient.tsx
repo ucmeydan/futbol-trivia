@@ -14,6 +14,13 @@ const allQuestions = [...kolayQuestions, ...zorQuestions];
 import Link from 'next/link';
 import Confetti from 'react-confetti';
 
+const safeGetItem = (key: string): string | null => {
+  try { return localStorage.getItem(key); } catch { return null; }
+};
+const safeSetItem = (key: string, value: string): void => {
+  try { localStorage.setItem(key, value); } catch { /* ignore */ }
+};
+
 const formatName = (name: string) => {
   return name.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 };
@@ -58,7 +65,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
   });
 
   const inputRef = useRef<HTMLInputElement>(null);
-  const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
+  const [windowDimension, setWindowDimension] = useState({ width: 1024, height: 768 });
 
   useEffect(() => {
     const d = new Date();
@@ -74,10 +81,10 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
       const latestIdx = filtered.length - 1;
       setCurrentIndex(latestIdx);
 
-      const lastPlayed = localStorage.getItem(`listeyi_tamamla_${difficulty}_last_played_${filtered[latestIdx].id}`);
+      const lastPlayed = safeGetItem(`listeyi_tamamla_${difficulty}_last_played_${filtered[latestIdx].id}`);
       if (lastPlayed === dateStr) {
         setIsGameOver(true);
-        const savedSession = localStorage.getItem(`listeyi_tamamla_${difficulty}_session_${filtered[latestIdx].id}`);
+        const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${filtered[latestIdx].id}`);
         if (savedSession) {
           const data = JSON.parse(savedSession);
           setFoundItems(data.found || []);
@@ -86,12 +93,14 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
       }
     }
 
-    const savedStats = localStorage.getItem(`listeyi_tamamla_${difficulty}_stats`);
+    const savedStats = safeGetItem(`listeyi_tamamla_${difficulty}_stats`);
     if (savedStats) setStats(JSON.parse(savedStats));
   }, []);
 
   useEffect(() => {
-    setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
+    if (typeof window !== 'undefined') {
+      setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
+    }
   }, []);
 
   useEffect(() => {
@@ -161,13 +170,13 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
     if (currentQ) {
       const finalScore = won ? currentQ.targets.length : itemsToSave.length;
 
-      localStorage.setItem(`listeyi_tamamla_${difficulty}_last_played_${currentQ.id}`, today);
-      localStorage.setItem(`listeyi_tamamla_${difficulty}_session_${currentQ.id}`, JSON.stringify({
+      safeSetItem(`listeyi_tamamla_${difficulty}_last_played_${currentQ.id}`, today);
+      safeSetItem(`listeyi_tamamla_${difficulty}_session_${currentQ.id}`, JSON.stringify({
         found: itemsToSave,
         won: won
       }));
 
-      const currentStatsRaw = localStorage.getItem(`listeyi_tamamla_${difficulty}_stats`);
+      const currentStatsRaw = safeGetItem(`listeyi_tamamla_${difficulty}_stats`);
       const currentStats = currentStatsRaw
         ? JSON.parse(currentStatsRaw)
         : { totalGames: 0, wins: 0, bestScore: 0, highestPercentage: 0 };
@@ -182,7 +191,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
       };
 
       setStats(updatedStats);
-      localStorage.setItem(`listeyi_tamamla_${difficulty}_stats`, JSON.stringify(updatedStats));
+      safeSetItem(`listeyi_tamamla_${difficulty}_stats`, JSON.stringify(updatedStats));
     }
 
     setTimeout(() => setShowStatsPopup(true), 1000);
@@ -282,7 +291,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
               setTimeLeft(90);
               setIsActive(false);
               setShowAll(false);
-              const savedSession = localStorage.getItem(`listeyi_tamamla_${difficulty}_session_${targetQ.id}`);
+              const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${targetQ.id}`);
               if (savedSession) {
                 const data = JSON.parse(savedSession);
                 setFoundItems(data.found || []);
@@ -308,7 +317,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
               setTimeLeft(90);
               setIsActive(false);
               setShowAll(false);
-              const savedSession = localStorage.getItem(`listeyi_tamamla_${difficulty}_session_${targetQ.id}`);
+              const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${targetQ.id}`);
               if (savedSession) {
                 const data = JSON.parse(savedSession);
                 setFoundItems(data.found || []);

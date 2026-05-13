@@ -1,5 +1,12 @@
 'use client';
 
+const safeGetItem = (key: string): string | null => {
+  try { return localStorage.getItem(key); } catch { return null; }
+};
+const safeSetItem = (key: string, value: string): void => {
+  try { localStorage.setItem(key, value); } catch { /* ignore */ }
+};
+
 import { useState, useEffect, useRef } from 'react';
 import playersData from '@/data/players.json';
 import teamsData from '@/data/teams.json';
@@ -60,7 +67,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
   });
 
   const inputRef = useRef<HTMLInputElement>(null);
-  const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
+  const [windowDimension, setWindowDimension] = useState({ width: 1024, height: 768 });
 
   const getLetterHint = (name: string) => {
     return name.split('').map(char => (char === ' ' ? '\u00A0\u00A0' : '_')).join(' ');
@@ -85,7 +92,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
 
     setCurrentIndex(index);
     const question = questionsList[index];
-    const savedSession = localStorage.getItem(`top10_${difficulty}_session_${question.id}`);
+    const savedSession = safeGetItem(`top10_${difficulty}_session_${question.id}`);
 
     if (savedSession) {
       const data = JSON.parse(savedSession);
@@ -108,8 +115,8 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
   };
 
   useEffect(() => {
-    setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
-    const savedStats = localStorage.getItem(`top10_${difficulty}_stats_v2`);
+    if (typeof window !== 'undefined') { setWindowDimension({ width: window.innerWidth, height: window.innerHeight }); }
+    const savedStats = safeGetItem(`top10_${difficulty}_stats_v2`);
     if (savedStats) setStats(JSON.parse(savedStats));
   }, []);
 
@@ -137,7 +144,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
     const finalScore = winStatus ? 10 : indicesToSave.length;
 
     if (currentQ) {
-      localStorage.setItem(`top10_${difficulty}_session_${currentQ.id}`, JSON.stringify({
+      safeSetItem(`top10_${difficulty}_session_${currentQ.id}`, JSON.stringify({
         foundIndices: indicesToSave,
         isWin: winStatus,
         lives: lives,
@@ -150,7 +157,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
       newStats.totalCorrect += finalScore;
       newStats.distribution[finalScore] += 1;
       setStats(newStats);
-      localStorage.setItem(`top10_${difficulty}_stats_v2`, JSON.stringify(newStats));
+      safeSetItem(`top10_${difficulty}_stats_v2`, JSON.stringify(newStats));
     }
     setShowStatsPopup(true);
   };
