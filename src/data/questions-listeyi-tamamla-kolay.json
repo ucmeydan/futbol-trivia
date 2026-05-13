@@ -630,5 +630,27 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 34,
+    "game": "listeyi-tamamla",
+    "title": "2025/26 sezonunda en az bir takımla Süper Lig'de temsil edilen şehirler?",
+    "type": "city",
+    "activeDate": "2026-05-14",
+    "targets": [
+     "İstanbul",
+     "Ankara",
+     "Rize",
+     "Samsun",
+     "Trabzon",
+     "Konya",
+     "Kayseri",
+     "Antalya",
+     "İzmir",
+     "Kocaeli",
+     "Gaziantep"
+    ],
+    "difficulty": "kolay"
   }
 ]

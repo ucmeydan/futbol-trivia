@@ -980,6 +980,39 @@
         "info": "2024-26 yılları arasında Real Madrid'de birlikte oynadılar"
       }
     ],
+
+    "difficulty": "kolay"
+},
+
+
+{
+    "id": 34,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-14",
+    "correctPlayer": "Dirk Kuyt",
+    "teammates": [
+      {
+        "name": "Peter Crouch",
+        "info": "2006-08 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Bruno Alves",
+        "info": "2013-15 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Robin Van Persie",
+        "info": "2003-04 sezonunda Feyenoord'da ve Hollanda Milli takımında birlikte oynadılar."
+      },
+      {
+        "name": "Emre Belözoğlu",
+        "info": "2013-15 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Steven Gerrard",
+        "info": "2006-12 yılları arasında Liverpool'da birlikte oynadılar"
+      }
+    ],
+
     "difficulty": "kolay"
 }
 

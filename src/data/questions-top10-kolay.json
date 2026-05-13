@@ -683,7 +683,7 @@
 },
 
 {
-    "id": 34,
+    "id": 32,
     "game": "top10",
     "title": "A Milli Takım tarihinde en çok maça çıkan 10 futbolcu hangisidir?",
     "type": "player",
@@ -704,7 +704,7 @@
 },
 
 {
-    "id": 35,
+    "id": 33,
     "game": "top10",
     "title": "Galatasaray'ı çalıştıran son 10 teknik direktör? (Geçici teknik direktörler hariç)",
     "type": "td",
@@ -720,6 +720,28 @@
       "Cesare Prandelli",
       "Roberto Mancini",
       "Gheorghe Hagi"
+
+    ],
+    "difficulty": "kolay"
+},
+
+{
+    "id": 34,
+    "game": "top10",
+    "title": "Süper Lig tarihinde tüm sezonların toplamında en fazla gol yiyen 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-14",
+    "targets": [
+      "Ankaragücü",
+      "Gençlerbirliği",
+      "Fenerbahçe",
+      "Bursaspor",
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Altay",
+      "Antalyaspor",
+      "Samsunspor"
 
     ],
     "difficulty": "kolay"

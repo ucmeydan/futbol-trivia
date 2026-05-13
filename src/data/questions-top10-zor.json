@@ -1020,6 +1020,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 52,
+    "game": "top10",
+    "title": "Luis Nani'nin kariyeri boyunca en çok maçta formasını giydiği 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-05-14",
+    "targets": [
+        "Manchester United",
+        "Sporting",
+        "Orlando City",
+        "Fenerbahçe",
+        "Adana Demirspor",
+        "Valencia",
+        "Lazio",
+        "Aktobe",
+        "Melbourne Victory",
+        "Estrela"
+
+    ],
+    "difficulty": "zor"
   }
 
 ]

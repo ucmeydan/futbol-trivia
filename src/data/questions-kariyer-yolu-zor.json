@@ -1975,5 +1975,52 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 45,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-14",
+    "correctPlayer": "Alex Teixeira",
+    "career": [
+      {
+        "season": "2008-2010",
+        "team": "Vasco",
+        "apps": "79",
+        "goals": "12"
+      },
+      {
+        "season": "2010–2016",
+        "team": "Shakhtar",
+        "apps": "223",
+        "goals": "89"
+      },
+      {
+        "season": "2016-2021",
+        "team": "Jiangsu",
+        "apps": "153",
+        "goals": "73"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Beşiktaş",
+        "apps": "31",
+        "goals": "4"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Vasco",
+        "apps": "77",
+        "goals": "7"
+      },
+      {
+        "season": "2026-",
+        "team": "Panserraikos",
+        "apps": "16",
+        "goals": "3"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 ]

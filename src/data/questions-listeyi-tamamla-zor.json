@@ -1219,5 +1219,39 @@
       "Rayo Vallecano"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 53,
+    "game": "listeyi-tamamla",
+    "title": "Bogdan Stancu'nun Türkiye kariyerinde forma giydiği takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-05-15",
+    "targets": [
+      "Galatasaray",
+      "Gençlerbirliği",
+      "Orduspor",
+      "Eyüpspor",
+      "Bursaspor"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 54,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın tarihi boyunca en az 2 defa karşılaşıp galibiyet alamadığı ülkeler? (Hazırlık maçları dahil)",
+    "type": "country",
+    "activeDate": "2026-05-16",
+    "targets": [
+     "İngiltere",
+     "İtalya",
+     "Brezilya",
+     "Sırbistan",
+     "Gana"
+
+    ],
+    "difficulty": "zor"
   }
+
 ]

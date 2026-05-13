@@ -1186,6 +1186,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 41,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-14",
+    "correctPlayer": "Hakim Ziyech",
+    "teammates": [
+      {
+        "name": "Jesus Corona",
+        "info": "2014-15 sezonunda Twente'de birlikte oynadılar"
+      },
+      {
+        "name": "Angelino",
+        "info": "2023-24 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Thiago Silva",
+        "info": "2020-23 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Dusan Tadic",
+        "info": "2018-20 yılları arasında Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Mauro Icardi",
+        "info": "2023-25 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 ]
