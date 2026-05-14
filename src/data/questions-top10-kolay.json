@@ -745,8 +745,30 @@
 
     ],
     "difficulty": "kolay"
-}
+},
 
+
+{
+    "id": 35,
+    "game": "top10",
+    "title": "Beşiktaş'ın Süper Lig tarihinde en çok mağlup ettiği 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-15",
+    "targets": [
+      "Ankaragücü",
+      "Gençlerbirliği",
+      "Bursaspor",
+      "Fenerbahçe",
+      "Altay",
+      "Galatasaray",
+      "Trabzonspor",
+      "Antalyaspor",
+      "Samsunspor",
+      "Gaziantepspor"
+
+    ],
+    "difficulty": "kolay"
+}
 
 
 ]

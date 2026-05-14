@@ -652,5 +652,25 @@
      "Gaziantep"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 35,
+    "game": "listeyi-tamamla",
+    "title": "Sergen Yalçın'ın teknik direktörlük kariyerinde çalıştırdığı takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-05-15",
+    "targets": [
+     "Beşiktaş",
+     "Kayserispor",
+     "Yeni Malatyaspor",
+     "Sivasspor",
+     "Antalyaspor",
+     "Konyaspor",
+     "Gaziantepspor",
+     "Eskişehirspor",
+     "Alanyaspor"
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -2022,5 +2022,75 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 46,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-15",
+    "correctPlayer": "Carlos Cuesta",
+    "career": [
+      {
+        "season": "2016-2019",
+        "team": "Atletico Nacional",
+        "apps": "73",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2025",
+        "team": "Genk",
+        "apps": "182",
+        "goals": "4"
+      },
+      {
+        "season": "2025-",
+        "team": "Galatasaray",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2025-",
+        "team": "Vasco",
+        "apps": "29",
+        "goals": "2"
+      }
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 47,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-16",
+    "correctPlayer": "Karol Linetty",
+    "career": [
+      {
+        "season": "2012-2016",
+        "team": "Lech Poznan",
+        "apps": "112",
+        "goals": "11"
+      },
+      {
+        "season": "2016-2020",
+        "team": "Sampdoria",
+        "apps": "132",
+        "goals": "11"
+      },
+      {
+        "season": "2020-2025",
+        "team": "Torino",
+        "apps": "142",
+        "goals": "3"
+      },
+      {
+        "season": "2025-",
+        "team": "Kocaelispor",
+        "apps": "28",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 ]

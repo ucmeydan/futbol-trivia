@@ -1216,6 +1216,38 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 43,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-15",
+    "correctPlayer": "Juan Mata",
+    "teammates": [
+      {
+        "name": "Manuel Fernandes",
+        "info": "2007-11 yılları arasında Valencia'da birlikte oynadılar"
+      },
+      {
+        "name": "David Luiz",
+        "info": "2011-14 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Milot Rashica",
+        "info": "2022-23 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Paul Pogba",
+        "info": "2016-22 yılları arasında Manchester United'da birlikte oynadılar"
+      },
+      {
+        "name": "Zlatan Ibrahimovic",
+        "info": "2016-18 yılları arasında Manchester United'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
+
+
 
 ]
