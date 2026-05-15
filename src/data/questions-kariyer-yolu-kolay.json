@@ -1297,5 +1297,45 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 36,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-16",
+    "correctPlayer": "Pepe",
+    "career": [
+      {
+        "season": "2002-2004",
+        "team": "Maritimo",
+        "apps": "64",
+        "goals": "3"
+      },
+      {
+        "season": "2004–2007",
+        "team": "Porto",
+        "apps": "89",
+        "goals": "8"
+      },
+      {
+        "season": "2007-2017",
+        "team": "Real Madrid",
+        "apps": "334",
+        "goals": "15"
+      },
+      {
+        "season": "2017-2018",
+        "team": "Beşiktaş",
+        "apps": "52",
+        "goals": "7"
+      },
+      {
+        "season": "2019-2024",
+        "team": "Porto",
+        "apps": "201",
+        "goals": "9"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

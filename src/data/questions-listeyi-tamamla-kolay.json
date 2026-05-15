@@ -672,5 +672,22 @@
      "Alanyaspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 36,
+    "game": "listeyi-tamamla",
+    "title": "Emre Belözoğlu'nun profesyonel futbolculuk kariyerinde forma giydiği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-05-16",
+    "targets": [
+     "Galatasaray",
+     "Fenerbahçe",
+     "Başakşehir",
+     "Atletico Madrid",
+     "Inter",
+     "Newcastle"
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -1064,6 +1064,29 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 54,
+    "game": "top10",
+    "title": "2025-26 sezonunda Süper Lig'in ilk 10 sırasındaki takımların en golcü futbolcuları?",
+    "type": "player",
+    "activeDate": "2026-05-16",
+    "targets": [
+       "Victor Osimhen",
+      "Anderson Talisca",
+      "Paul Onuachu",
+      "Orkun Kökçü",
+      "Juan",
+      "Eldor Shomurodov",
+      "Marius Mouandilmadji",
+      "Qazim Laçi",
+      "Umut Nayir",
+      "Bruno Petkovic"
+
+
+    ],
+    "difficulty": "zor"
   }
 
 ]

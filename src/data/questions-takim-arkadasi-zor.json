@@ -1246,6 +1246,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 44,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-16",
+    "correctPlayer": "Nelson Semedo",
+    "teammates": [
+      {
+        "name": "Kostas Mitroglou",
+        "info": "2015-17 yılları arasında Benfica'da birlikte oynadılar"
+      },
+      {
+        "name": "Adama Traore",
+        "info": "2020-22 yılları arasında Wolves'ta birlikte oynadılar"
+      },
+      {
+        "name": "Alejandro Grimaldo",
+        "info": "2016-17 yılları arasında Benfica'da birlikte oynadılar"
+      },
+      {
+        "name": "Ousmane Dembele",
+        "info": "2017-20 yılları arasında Barcelona'da birlikte oynadılar"
+      },
+      {
+        "name": "Matteo Guendouzi",
+        "info": "2025-26 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 

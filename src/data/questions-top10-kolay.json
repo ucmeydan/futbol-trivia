@@ -768,6 +768,28 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 36,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de en fazla beraberlik alan 10 takım? (Eşit sayıda beraberlik alan takımlar harf sırasına göre sıralanmışlardır)",
+    "type": "team-tr",
+    "activeDate": "2026-05-16",
+    "targets": [
+      "Alanyaspor",
+      "Göztepe",
+      "Kayserispor",
+      "Samsunspor",
+      "Kasımpaşa",
+      "Rizespor",
+      "Fenerbahçe",
+      "Gaziantep FK",
+      "Kocaelispor",
+      "Konyaspor"
+
+    ],
+    "difficulty": "kolay"
 }
 
 

@@ -1045,7 +1045,40 @@
     ],
 
     "difficulty": "kolay"
+},
+
+{
+    "id": 36,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-16",
+    "correctPlayer": "N'golo Kante",
+    "teammates": [
+      {
+        "name": "Karim Benzema",
+        "info": "2023-26 yılları arasında Al Ittihad ve Fransa Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Riyad Mahrez",
+        "info": "2015-16 sezonunda Leicester'da birlikte oynadılar"
+      },
+      {
+        "name": "John Terry",
+        "info": "2016-17 sezonunda Chelsea'de birlikte oynadılar."
+      },
+      {
+        "name": "Eden Hazard",
+        "info": "2016-19 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Marco Asensio",
+        "info": "2025-26 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+
+    "difficulty": "kolay"
 }
+
+
 
 
 ]
