@@ -1252,6 +1252,23 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 55,
+    "game": "listeyi-tamamla",
+    "title": "Moryke Fofana'nın Türkiye kariyerinde forma giydiği takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-05-17",
+    "targets": [
+    "Konyaspor",
+    "Yeni Malatyaspor",
+    "Samsunspor",
+    "Manisa FK",
+    "Iğdır FK"
+
+    ],
+    "difficulty": "zor"
   }
 
 ]

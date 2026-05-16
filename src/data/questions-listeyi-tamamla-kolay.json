@@ -689,5 +689,45 @@
      "Newcastle"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 37,
+    "game": "listeyi-tamamla",
+    "title": "Hakan Çalhanoğlu'nun profesyonel futbolculuk kariyerinde forma giydiği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-05-17",
+    "targets": [
+    "Karlsruhe",
+    "Hamburg",
+    "Leverkusen",
+    "Inter",
+    "Milan"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 38,
+    "game": "listeyi-tamamla",
+    "title": "Türkiye'nin 2026 Dünya Kupası elemelerinde çıktığı maçlarda gol atan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-18",
+    "targets": [
+   "Kerem Aktürkoğlu",
+   "Ferdi Kadıoğlu",
+   "Mert Müldür",
+   "Kenan Yıldız",
+   "Arda Güler",
+   "İrfan Can Kahveci",
+   "Zeki Çelik",
+   "Yunus Akgün",
+   "Merih Demiral",
+   "Hakan Çalhanoğlu",
+   "Salih Uçan",
+   "Deniz Gül"
+    ],
+    "difficulty": "kolay"
   }
+
 ]

@@ -1276,6 +1276,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 45,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-17",
+    "correctPlayer": "Alexander Sorloth",
+    "teammates": [
+      {
+        "name": "John Obi Mikel",
+        "info": "2019-20 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Filip Novak",
+        "info": "2019-20 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Gerard Moreno",
+        "info": "2023-24 sezonunda Villarreal'de birlikte oynadılar"
+      },
+      {
+        "name": "Takefusa Kubo",
+        "info": "2022-23 sezonunda Real Sociedad'da birlikte oynadılar"
+      },
+      {
+        "name": "Julian Alvarez",
+        "info": "2024-26 yılları arasında Atletico Madrid'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 

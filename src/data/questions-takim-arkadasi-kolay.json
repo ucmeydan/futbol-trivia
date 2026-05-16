@@ -1076,7 +1076,40 @@
     ],
 
     "difficulty": "kolay"
+},
+
+{
+    "id": 37,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-17",
+    "correctPlayer": "Daniel Sturridge",
+    "teammates": [
+      {
+        "name": "Petr Cech",
+        "info": "2009-13 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Virgil Van Dijk",
+        "info": "2018-19 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Roberto Firmino",
+        "info": "2015-19 yılları arasında Liverpool'da birlikte oynadılar."
+      },
+      {
+        "name": "Frank Lampard",
+        "info": "2009-13 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Uğurcan Çakır",
+        "info": "2019-20 sezonunda Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+
+    "difficulty": "kolay"
 }
+
+
 
 
 

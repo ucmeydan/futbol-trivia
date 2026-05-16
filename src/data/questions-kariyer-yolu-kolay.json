@@ -1337,5 +1337,125 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 37,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-17",
+    "correctPlayer": "Jhon Duran",
+    "career": [
+      {
+        "season": "2019-2022",
+        "team": "Envigado",
+        "apps": "47",
+        "goals": "9"
+      },
+      {
+        "season": "2022-2023",
+        "team": "Chicago Fire",
+        "apps": "28",
+        "goals": "8"
+      },
+      {
+        "season": "2023-2025",
+        "team": "Aston Villa",
+        "apps": "78",
+        "goals": "20"
+      },
+      {
+        "season": "2025-",
+        "team": "Al Nassr",
+        "apps": "18",
+        "goals": "12"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Fenerbahçe (kiralık)",
+        "apps": "21",
+        "goals": "5"
+      },
+      {
+        "season": "2026-2026",
+        "team": "Zenit (kiralık)",
+        "apps": "9",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 38,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-18",
+    "correctPlayer": "Kristjan Asllani",
+    "career": [
+      {
+        "season": "2019-2021",
+        "team": "Empoli U19",
+        "apps": "60",
+        "goals": "14"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Empoli",
+        "apps": "27",
+        "goals": "1"
+      },
+      {
+        "season": "2022-2023",
+        "team": "Inter (kiralık)",
+        "apps": "29",
+        "goals": "0"
+      },
+      {
+        "season": "2023-",
+        "team": "Inter",
+        "apps": "70",
+        "goals": "14"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Torino (kiralık)",
+        "apps": "16",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Beşiktaş (kiralık)",
+        "apps": "17",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 39,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-19",
+    "correctPlayer": "Arseniy Batagov",
+    "career": [
+      {
+        "season": "2018-2022",
+        "team": "Dnipro",
+        "apps": "50",
+        "goals": "1"
+      },
+      {
+        "season": "2022-2024",
+        "team": "Zorya",
+        "apps": "63",
+        "goals": "3"
+      },
+      {
+        "season": "2024-",
+        "team": "Trabzonspor",
+        "apps": "53",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

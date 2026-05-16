@@ -790,7 +790,32 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 37,
+    "game": "top10",
+    "title": "Bu sezon Fenerbahçe formasıyla en fazla maça çıkan yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-17",
+    "targets": [
+     "Jayden Oosterwolde",
+     "Anderson Talisca",
+     "Fred",
+     "Dorgeles Nene",
+     "Nelson Semedo",
+     "Marco Asensio",
+     "Archie Brown",
+     "Ederson",
+     "Youssef En Nesyri",
+     "Sebastian Szymanski"
+
+    ],
+    "difficulty": "kolay"
 }
+
+
+
 
 
 ]

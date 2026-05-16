@@ -1087,6 +1087,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 55,
+    "game": "top10",
+    "title": "Rıza Çalımbay'ın teknik direktörlük kariyerinde en çok maça çıktığı 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-17",
+    "targets": [
+       "Sivasspor",
+       "Eskişehirspor",
+       "Denizlispor",
+       "Mersin İdman Yurdu",
+       "Rizespor",
+       "Kasımpaşa",
+       "Beşiktaş",
+       "Antalyaspor",
+       "Trabzonspor",
+       "Ankaragücü "
+       
+    ],
+    "difficulty": "zor"
   }
 
 ]

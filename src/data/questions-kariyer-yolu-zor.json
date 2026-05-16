@@ -2092,5 +2092,40 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 48,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-17",
+    "correctPlayer": "Chibuike Nwaiwu",
+    "career": [
+      {
+        "season": "2021-2022",
+        "team": "FC Heartland",
+        "apps": "17",
+        "goals": "0"
+      },
+      {
+        "season": "2022-2024",
+        "team": "Enyimba",
+        "apps": "44",
+        "goals": "1"
+      },
+      {
+        "season": "2024-2026",
+        "team": "Wolfsberger",
+        "apps": "45",
+        "goals": "5"
+      },
+      {
+        "season": "2026-",
+        "team": "Trabzonspor",
+        "apps": "20",
+        "goals": "3"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 ]
