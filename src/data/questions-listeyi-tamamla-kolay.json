@@ -724,10 +724,25 @@
    "Yunus Akgün",
    "Merih Demiral",
    "Hakan Çalhanoğlu",
-   "Salih Uçan",
+   "Salih Özcan",
    "Deniz Gül"
     ],
     "difficulty": "kolay"
+  },
+{
+    "id": 39,
+    "game": "listeyi-tamamla",
+    "title": "Türkiye'nin 2002 Dünya Kupasında karşılaştığı ülkeler?",
+    "type": "country",
+    "activeDate": "2026-05-19",
+    "targets": [
+   "Brezilya",
+   "Çin",
+   "Kosta Rika",
+   "Japonya",
+   "Senegal",
+   "Güney Kore"
+    ],
+    "difficulty": "kolay"
   }
-
 ]
