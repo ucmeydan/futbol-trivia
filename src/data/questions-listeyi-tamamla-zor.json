@@ -1269,6 +1269,25 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 56,
+    "game": "listeyi-tamamla",
+    "title": "Şenol Güneş'in teknik direktörlük kariyerinde çalıştırdığı Türk takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-05-18",
+    "targets": [
+    "Trabzonspor",
+    "Beşiktaş",
+    "Bursaspor",
+    "Boluspor",
+    "Sakaryaspor",
+    "Antalyaspor",
+    "İstanbulspor"
+
+    ],
+    "difficulty": "zor"
   }
 
 ]

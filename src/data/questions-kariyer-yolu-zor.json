@@ -2127,5 +2127,34 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 49,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-18",
+    "correctPlayer": "Arif Boşluk",
+    "career": [
+      {
+        "season": "2019-2022",
+        "team": "Trabzonspor U19",
+        "apps": "74",
+        "goals": "5"
+      },
+      {
+        "season": "2022-",
+        "team": "Trabzonspor",
+        "apps": "48",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Konyaspor (kiralık)",
+        "apps": "14",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 ]

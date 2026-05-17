@@ -1306,6 +1306,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 46,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-18",
+    "correctPlayer": "Gary Medel",
+    "teammates": [
+      {
+        "name": "Alexis Sanchez",
+        "info": "Şili Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Ivan Rakitic",
+        "info": "2011-13 yılları arasında Sevilla'da birlikte oynadılar"
+      },
+      {
+        "name": "Samir Handanovic",
+        "info": "2014-17 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Riccardo Orsolini",
+        "info": "2019-23 yılları arasında Bologna'da birlikte oynadılar"
+      },
+      {
+        "name": "Caner Erkin",
+        "info": "2017-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 

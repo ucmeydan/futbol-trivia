@@ -813,6 +813,29 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 38,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 10 sırasında yer alan takımların mevcut teknik direktörleri?",
+    "type": "td",
+    "activeDate": "2026-05-18",
+    "targets": [
+     "Okan Buruk",
+     "Zeki Murat Göle",
+     "Fatih Tekke",
+     "Sergen Yalçın",
+     "Nuri Şahin",
+     "Stanimir Stoilov",
+     "Thorsten Fink",
+     "Recep Uçar",
+     "İlhan Palut",
+     "Joao Pereira"
+     
+
+    ],
+    "difficulty": "kolay"
 }
 
 
