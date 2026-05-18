@@ -1132,6 +1132,29 @@
        
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 57,
+    "game": "top10",
+    "title": "Sofascore verilerine göre Süper Lig'de 2025-26 sezonunda en yüksek ortalama reyting puanına sahip oyuncular?",
+    "type": "player",
+    "activeDate": "2026-05-19",
+    "targets": [
+       "Orkun Kökçü",
+       "Muhammed Şengezer",
+       "Marco Asensio",
+       "Oleksandr Zubkov",
+       "Arseniy Batagov",
+       "Yunus Akgün",
+       "Ivo Grbic",
+       "Anderson Talisca",
+       "Gabriel Sara",
+       "Eldor Shomurodov"
+
+       
+    ],
+    "difficulty": "zor"
   }
 
 ]

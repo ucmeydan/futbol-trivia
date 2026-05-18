@@ -1138,6 +1138,37 @@
     ],
 
     "difficulty": "kolay"
+},
+
+{
+    "id": 39,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-19",
+    "correctPlayer": "Emmanuel Adebayor",
+    "teammates": [
+      {
+        "name": "Cesc Fabregas",
+        "info": "2006-09 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Gareth Bale",
+        "info": "2011-14 yılları arasında Tottenham'da birlikte oynadılar"
+      },
+      {
+        "name": "Vincent Kompany",
+        "info": "2009-11 yılları arasında Manchester City'de birlikte oynadılar."
+      },
+      {
+        "name": "Tomas Rosicky",
+        "info": "2006-09 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Edin Visca",
+        "info": "2017-2019 yılları arasında Başakşehir'de birlikte oynadılar"
+      }
+    ],
+
+    "difficulty": "kolay"
 }
 
 

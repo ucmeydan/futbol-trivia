@@ -744,5 +744,21 @@
    "Güney Kore"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 40,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın Euro 2008 Avrupa Şampiyonasında karşılaştığı ülkeler?",
+    "type": "country",
+    "activeDate": "2026-05-20",
+    "targets": [
+   "Portekiz",
+   "Çekya",
+   "İsviçre",
+   "Hırvatistan",
+   "Almanya"
+    ],
+    "difficulty": "kolay"
   }
 ]

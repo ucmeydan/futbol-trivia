@@ -2156,5 +2156,27 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 50,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-19",
+    "correctPlayer": "Emircan Gürlük",
+    "career": [
+      {
+        "season": "2020-2023",
+        "team": "Altınordu",
+        "apps": "61",
+        "goals": "7"
+      },
+      {
+        "season": "2023-",
+        "team": "Orenburg",
+        "apps": "80",
+        "goals": "7"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

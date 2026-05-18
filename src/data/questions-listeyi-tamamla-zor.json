@@ -1288,6 +1288,21 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 57,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de 34 maçın tamamında süre alan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-19",
+    "targets": [
+    "Mateusz Lis",
+    "Amin Cherni",
+    "Eldor Shomurodov",
+    "Kenneth Paal"
+    ],
+    "difficulty": "zor"
   }
 
 ]

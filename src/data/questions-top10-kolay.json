@@ -836,6 +836,29 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 39,
+    "game": "top10",
+    "title": "Ülkemizi Avrupa kupalarında temsil eden son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-19",
+    "targets": [
+     "Galatasaray",
+     "Samsunspor",
+     "Fenerbahçe",
+     "Beşiktaş",
+     "Başakşehir",
+     "Trabzonspor",
+     "Adana Demirspor",
+     "Konyaspor",
+     "Sivasspor",
+     "Yeni Malatyaspor"
+     
+
+    ],
+    "difficulty": "kolay"
 }
 
 
