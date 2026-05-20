@@ -1155,6 +1155,29 @@
        
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 58,
+    "game": "top10",
+    "title": "Nicolas Anelka'nın futbolculuk kariyerinde en çok maça çıktığı 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-05-20",
+    "targets": [
+       "Chelsea",
+       "Manchester City",
+       "Arsenal",
+       "PSG",
+       "Bolton",
+       "Fenerbahçe",
+       "Real Madrid",
+       "Shanghai Shenhua",
+       "Liverpool",
+       "Mumbai City"
+
+       
+    ],
+    "difficulty": "zor"
   }
 
 ]

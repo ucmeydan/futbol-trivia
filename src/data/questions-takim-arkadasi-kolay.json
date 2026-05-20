@@ -1169,6 +1169,37 @@
     ],
 
     "difficulty": "kolay"
+},
+
+{
+    "id": 40,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-20",
+    "correctPlayer": "İlkay Gündoğan",
+    "teammates": [
+      {
+        "name": "Manuel Akanji",
+        "info": "2022-23 sezonunda Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Mauro Icardi",
+        "info": "2025-26 sezonununda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Ferran Torres",
+        "info": "2020-22 yılları arasında Manchester City'de ve 2023-24 sezonunda Barcelona'da birlikte oynadılar."
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "info": "2016-23 yılları arasında Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Marco Reus",
+        "info": "2012-2016 yılları arasında Dortmund'da birlikte oynadılar"
+      }
+    ],
+
+    "difficulty": "kolay"
 }
 
 

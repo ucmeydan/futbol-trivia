@@ -1303,6 +1303,28 @@
     "Kenneth Paal"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 58,
+    "game": "listeyi-tamamla",
+    "title": "Ricardo Quaresma'nın futbolculuk kariyerinde formasını giydiği takımlar?",
+    "type": "player",
+    "activeDate": "2026-05-20",
+    "targets": [
+    "Sporting",
+    "Barcelona",
+    "Porto",
+    "Chelsea",
+    "Inter",
+    "Beşiktaş",
+    "Al Ahli (BAE)",
+    "Vitoria Guimaraes",
+    "Kasımpaşa"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 ]

@@ -859,6 +859,29 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 40,
+    "game": "top10",
+    "title": "Milli takımımızın 2026 Dünya Kupası geniş kadrosuna davet edilen oyuncular arasında en çok Milli maça çıkan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-05-20",
+    "targets": [
+    "Hakan Çalhanoğlu",
+    "Kaan Ayhan",
+    "Merih Demiral",
+    "Zeki Çelik",
+    "Çağlar Söyüncü",
+    "Kerem Aktürkoğlu",
+    "Orkun Kökçü",
+    "İrfan Can Kahveci",
+    "Mert Müldür",
+    "Uğurcan Çakır"
+     
+
+    ],
+    "difficulty": "kolay"
 }
 
 
