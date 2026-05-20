@@ -2178,5 +2178,34 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 51,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-20",
+    "correctPlayer": "Amar Gërxhaliu",
+    "career": [
+      {
+        "season": "2021-2022",
+        "team": "Antalyaspor U19",
+        "apps": "22",
+        "goals": "1"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Antalyaspor",
+        "apps": "31",
+        "goals": "1"
+      },
+      {
+        "season": "2025-",
+        "team": "Erzurumspor",
+        "apps": "34",
+        "goals": "1"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 ]
