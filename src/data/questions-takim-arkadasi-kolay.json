@@ -1200,6 +1200,37 @@
     ],
 
     "difficulty": "kolay"
+},
+
+{
+    "id": 41,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-21",
+    "correctPlayer": "Guti Hernandez",
+    "teammates": [
+      {
+        "name": "Roberto Carlos",
+        "info": "1996-2007 yılları arasında Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "David Beckham",
+        "info": "2003-07 yılları arasında Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Karim Benzema",
+        "info": "2009-10 sezonunda Real Madrid'de birlikte oynadılar."
+      },
+      {
+        "name": "Manuel Fernandes",
+        "info": "2010-2011 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "İbrahim Toraman",
+        "info": "2010-2011 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+
+    "difficulty": "kolay"
 }
 
 

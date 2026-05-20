@@ -1485,5 +1485,40 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 41,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-21",
+    "correctPlayer": "Tarık Çetin",
+    "career": [
+      {
+        "season": "2017-2018",
+        "team": "Fenerbahçe",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2018-2019",
+        "team": "Fatih Karagümrük (kiralık)",
+        "apps": "44",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2025",
+        "team": "Rizespor",
+        "apps": "88",
+        "goals": "0"
+      },
+      {
+        "season": "2025-",
+        "team": "Fenerbahçe (kiralık)",
+        "apps": "4",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
 ]

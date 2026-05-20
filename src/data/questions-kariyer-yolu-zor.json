@@ -2207,5 +2207,34 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 52,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-21",
+    "correctPlayer": "Mithat Pala",
+    "career": [
+      {
+        "season": "2019-2020",
+        "team": "Pazarspor",
+        "apps": "28",
+        "goals": "4"
+      },
+      {
+        "season": "2020-",
+        "team": "Rizespor",
+        "apps": "142",
+        "goals": "6"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Afyonspor (kiralık)",
+        "apps": "37",
+        "goals": "8"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 ]

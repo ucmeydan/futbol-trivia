@@ -760,5 +760,24 @@
    "Almanya"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 41,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş formasıyla Avrupa kupalarında 7 ve üzeri sayıda gol atan yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-21",
+    "targets": [
+   "Vincent Aboubakar",
+   "Bobo",
+   "Ricardo Quaresma",
+   "Daniel Pancu",
+   "Matias Delgado",
+   "Demba Ba",
+   "Anderson Talisca",
+   "Ryan Babel"
+    ],
+    "difficulty": "kolay"
   }
 ]

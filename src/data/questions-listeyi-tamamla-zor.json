@@ -1323,6 +1323,25 @@
     "Kasımpaşa"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 59,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe tarihinde kulüp forması giymiş olan Portekizli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-21",
+    "targets": [
+    "Nani",
+    "Luis Neto",
+    "Raul Meireles",
+    "Bruno Alves",
+    "Dimas Teixeira",
+    "Miguel Crespo",
+    "Bruma",
+    "Nelson Semedo"
+    ],
+    "difficulty": "zor"
   }
 
 

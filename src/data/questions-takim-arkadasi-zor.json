@@ -1396,6 +1396,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 49,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-21",
+    "correctPlayer": "Didier Zokora",
+    "teammates": [
+      {
+        "name": "Gareth Bale",
+        "info": "2006-08 yılları arasında Tottenham'da birlikte oynadılar"
+      },
+      {
+        "name": "Frederic Kanoute",
+        "info": "2009-11 yılları arasında Sevilla'da birlikte oynadılar"
+      },
+      {
+        "name": "Dimitar Berbatov",
+        "info": "2006-08 yılları arasında Tottenham'da birlikte oynadılar"
+      },
+      {
+        "name": "Theofanis Gekas",
+        "info": "2014-15 sezonunda Akhisar Belediyespor'da birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Şen",
+        "info": "2011-14 yılları arasında Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 

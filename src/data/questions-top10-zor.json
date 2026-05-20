@@ -1178,6 +1178,27 @@
        
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 59,
+    "game": "top10",
+    "title": "Emre Belözoğlu'nun profesyonel kulüp kariyeri boyunca, idaresinde en fazla maça çıktığı 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-05-21",
+    "targets": [
+    "Abdullah Avcı",
+    "Fatih Terim",
+    "Aykut Kocaman",
+    "Hector Cuper",
+    "Glenn Roeder",
+    "Christoph Daum",
+    "Ersun Yanal",
+    "Mircea Lucescu",
+    "Luis Aragones",
+    "İsmail Kartal"
+    ],
+    "difficulty": "zor"
   }
 
 ]
