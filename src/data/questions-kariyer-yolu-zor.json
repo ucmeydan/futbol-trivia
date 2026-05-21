@@ -2245,10 +2245,16 @@
     "correctPlayer": "Drissa Camara",
     "career": [
       {
-        "season": "2018-2025",
+        "season": "2018-2021",
+        "team": "Parma U20",
+        "apps": "26",
+        "goals": "13"
+      },
+      {
+        "season": "2021-2025",
         "team": "Parma",
-        "apps": "97",
-        "goals": "20"
+        "apps": "71",
+        "goals": "7"
       },
       {
         "season": "2025-",
