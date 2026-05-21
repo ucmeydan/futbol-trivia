@@ -1199,6 +1199,27 @@
     "İsmail Kartal"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 60,
+    "game": "top10",
+    "title": "Ersun Yanal'ın Fenerbahçe teknik direktörü olduğu dönemlerde Fenerbahçe formasıyla en çok maça çıkan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-05-22",
+    "targets": [
+    "Mehmet Topal",
+    "Alper Potuk",
+    "Volkan Demirel",
+    "Jailson",
+    "Mauricio Isla",
+    "Emre Belözoğlu",
+    "Nabil Dirar",
+    "Dirk Kuyt",
+    "Hasan Ali Kaldırım",
+    "Moussa Sow"
+    ],
+    "difficulty": "zor"
   }
 
 ]

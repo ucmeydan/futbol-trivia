@@ -1520,5 +1520,58 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 42,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-22",
+    "correctPlayer": "Yusuf Sarı",
+    "career": [
+      {
+        "season": "2016-2019",
+        "team": "Marsilya B",
+        "apps": "31",
+        "goals": "5"
+      },
+      {
+        "season": "2018-2019",
+        "team": "Clermont (kiralık)",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2019",
+        "team": "Marsilya",
+        "apps": "4",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2022",
+        "team": "Trabzonspor",
+        "apps": "69",
+        "goals": "5"
+      },
+ {
+        "season": "2022-2022",
+        "team": "Rizespor",
+        "apps": "13",
+        "goals": "3"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Adana Demirspor",
+        "apps": "76",
+        "goals": "12"
+      },
+      {
+        "season": "2025-",
+        "team": "Başakşehir",
+        "apps": "47",
+        "goals": "5"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
 ]

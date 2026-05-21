@@ -1342,6 +1342,26 @@
     "Nelson Semedo"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 60,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de 3 ve üzeri sayıda penaltı kullanan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-05-22",
+    "targets": [
+    "Paul Onuachu",
+    "Anderson Talisca",
+    "Alexandru Maxim",
+    "Eldor Shomurodov",
+    "Qazim Laçi",
+    "Adrian Benedyczak",
+    "Barış Alper Yılmaz",
+    "Florent Hadergjonaj"
+
+    ],
+    "difficulty": "zor"
   }
 
 

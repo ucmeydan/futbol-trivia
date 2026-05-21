@@ -905,6 +905,29 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 42,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de en fazla gol katkısı (Gol+asist) yapan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-05-22",
+    "targets": [
+   "Eldor Shomurodov",
+   "Paul Onuachu",
+   "Marco Asensio",
+   "Anderson Talisca",
+   "Victor Osimhen",
+   "Barış Alper Yılmaz",
+   "Mohamed Bayo",
+   "Yunus Akgün",
+   "Orkun Kökçü",
+   "Qazim Laçi"
+     
+
+    ],
+    "difficulty": "kolay"
 }
 
 

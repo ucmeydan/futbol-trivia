@@ -1231,6 +1231,37 @@
     ],
 
     "difficulty": "kolay"
+},
+
+{
+    "id": 42,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-22",
+    "correctPlayer": "Dusan Tadic",
+    "teammates": [
+      {
+        "name": "Virgil Van Dijk",
+        "info": "2015-2018 yılları arasında Southampton'da birlikte oynadılar"
+      },
+      {
+        "name": "Frenkie De Jong",
+        "info": "2018-19 sezonunda Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Ferdi Kadıoğlu",
+        "info": "2023-24 sezonunda Fenerbahçe'de birlikte oynadılar."
+      },
+      {
+        "name": "Antony",
+        "info": "2020-2022 yılları arasında Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Edin Dzeko",
+        "info": "2023-2025 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+
+    "difficulty": "kolay"
 }
 
 

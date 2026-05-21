@@ -779,5 +779,26 @@
    "Ryan Babel"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 42,
+    "game": "listeyi-tamamla",
+    "title": "Abdullah Avcı'nın Trabzonspor'u çalıştırdığı dönemlerde Trabzonspor formasıyla 90 ve üzeri sayıda maça çıkan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-05-22",
+    "targets": [
+   "Uğurcan Çakır",
+   "Anastasios Bakasetas",
+   "Berat Özdemir",
+   "Abdulkadir Ömür",
+   "Vitor Hugo",
+   "Djaniny"
+   
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

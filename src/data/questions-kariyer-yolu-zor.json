@@ -2236,5 +2236,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 53,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-22",
+    "correctPlayer": "Drissa Camara",
+    "career": [
+      {
+        "season": "2018-2025",
+        "team": "Parma",
+        "apps": "97",
+        "goals": "20"
+      },
+      {
+        "season": "2025-",
+        "team": "Gaziantep FK",
+        "apps": "29",
+        "goals": "3"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 ]

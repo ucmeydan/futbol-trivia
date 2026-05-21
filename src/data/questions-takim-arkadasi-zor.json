@@ -1426,6 +1426,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 50,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-22",
+    "correctPlayer": "Manuel Fernandes",
+    "teammates": [
+      {
+        "name": "Mikel Arteta",
+        "info": "2007-08 sezonunda Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Doğan Alemdar",
+        "info": "2020-22 yılları arasında Kayserispor'da birlikte oynadılar"
+      },
+      {
+        "name": "David Villa",
+        "info": "2007-10 yılları arasında Valencia'da birlikte oynadılar"
+      },
+      {
+        "name": "Oumar Niasse",
+        "info": "2014-16 yılları arasında Lokomotiv Moskova'da birlikte oynadılar"
+      },
+      {
+        "name": "Tomas Sivok",
+        "info": "2011-14 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 
