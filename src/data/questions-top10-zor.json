@@ -1220,6 +1220,27 @@
     "Moussa Sow"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 61,
+    "game": "top10",
+    "title": "Beşiktaş formasıyla en fazla gol atan 10 Brezilyalı futbolcu? (Aynı sayıda gol atan oyuncular arasında daha az maça çıkan üst sıraya yazılmıştır)",
+    "type": "player",
+    "activeDate": "2026-05-23",
+    "targets": [
+    "Bobo",
+    "Marcio Nobre",
+    "Anderson Talisca",
+    "Vagner Love",
+    "Ricardinho",
+    "Ronaldo Guiaro",
+    "Josef De Souza",
+    "Ailton",
+    "Marcelo",
+    "Ramon Motta"
+    ],
+    "difficulty": "zor"
   }
 
 ]

@@ -914,6 +914,7 @@
     "type": "player",
     "activeDate": "2026-05-22",
     "targets": [
+
    "Eldor Shomurodov",
    "Paul Onuachu",
    "Marco Asensio",
@@ -928,7 +929,33 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 43,
+    "game": "top10",
+    "title": "Milli takımımızın 2026 Dünya Kupası geniş kadrosuna davet edilen oyuncular arasında Milli takım formasıyla en çok gol atan 10 oyuncu? (Aynı sayıda gol atan oyuncular arasında daha az maça çıkan üst sıraya yazılmıştır)",
+    "type": "player",
+    "activeDate": "2026-05-23",
+    "targets": [
+    "Hakan Çalhanoğlu",
+    "Kerem Aktürkoğlu",
+    "Arda Güler",
+    "İrfan Can Kahveci",
+    "Merih Demiral",
+    "Kenan Yıldız",
+    "Kaan Ayhan",
+    "Yunus Akgün",
+    "Mert Müldür",
+    "Orkun Kökçü"
+
+     
+
+    ],
+    "difficulty": "kolay"
 }
+
+
 
 
 

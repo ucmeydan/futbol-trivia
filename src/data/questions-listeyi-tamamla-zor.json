@@ -1362,7 +1362,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 61,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray tarihinde kulüp forması giymiş olan Arjantinli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-23",
+    "targets": [
+  
+    "Mauro Icardi",
+    "Guillermo Burdisso",
+    "Lucas Ontivero",
+    "Emmanuel Culio",
+    "Emiliano Insua",
+    "Leo Franco",
+    "Marcelo Carrusca"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

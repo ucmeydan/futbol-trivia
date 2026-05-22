@@ -1573,5 +1573,52 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 43,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-23",
+    "correctPlayer": "Mohamed Elneny",
+    "career": [
+      {
+        "season": "2010-2013",
+        "team": "Mokawloon",
+        "apps": "39",
+        "goals": "3"
+      },
+      {
+        "season": "2013-2013",
+        "team": "Basel (kiralık)",
+        "apps": "26",
+        "goals": "0"
+      },
+      {
+        "season": "2013-2016",
+        "team": "Basel",
+        "apps": "118",
+        "goals": "10"
+      },
+      {
+        "season": "2016-2024",
+        "team": "Arsenal",
+        "apps": "161",
+        "goals": "6"
+      },
+ {
+        "season": "2019-2020",
+        "team": "Beşiktaş (kiralık)",
+        "apps": "36",
+        "goals": "1"
+      },
+      {
+        "season": "2024-",
+        "team": "Al Jazira",
+        "apps": "59",
+        "goals": "3"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
 ]

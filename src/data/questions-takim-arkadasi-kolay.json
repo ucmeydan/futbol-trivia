@@ -1262,7 +1262,40 @@
     ],
 
     "difficulty": "kolay"
+},
+
+{
+    "id": 43,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-23",
+    "correctPlayer": "Nicolas Anelka",
+    "teammates": [
+      {
+        "name": "Didier Drogba",
+        "info": "2008-2012 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Dennis Bergkamp",
+        "info": "1996-1999 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Tuncay Şanlı",
+        "info": "2005-2006 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Iker Casillas",
+        "info": "1999-00 sezonunda Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Marcio Nobre",
+        "info": "2005-2006 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+
+    "difficulty": "kolay"
 }
+
+
 
 
 

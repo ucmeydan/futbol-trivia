@@ -798,7 +798,30 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 43,
+    "game": "listeyi-tamamla",
+    "title": "3 büyüklerin kadrolarında 2025-26 sezonunu tamamlayan Güney Amerikalı futbolcular (Başka kulüplerde kiralık oynayan oyuncular hariç?)",
+    "type": "player",
+    "activeDate": "2026-05-23",
+    "targets": [
+   "Ederson",
+   "Fred",
+   "Anderson Talisca",
+   "Davinson Sanchez",
+   "Mauro Icardi",
+   "Lucas Torreira",
+   "Gabriel Sara",
+   "Yaser Asprilla",
+   "Devis Vasquez"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

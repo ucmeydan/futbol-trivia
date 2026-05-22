@@ -1456,6 +1456,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 51,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-23",
+    "correctPlayer": "Mert Günok",
+    "teammates": [
+      {
+        "name": "N'golo Kante",
+        "info": "2025-26 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Alex de Souza",
+        "info": "2009-13 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Cedric Bakambu",
+        "info": "2015-16 sezonunda Bursaspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Robinho",
+        "info": "2018-20 yılları arasında Başakşehir'de birlikte oynadılar"
+      },
+      {
+        "name": "Tammy Abraham",
+        "info": "2025-26 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 
