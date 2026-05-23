@@ -1241,6 +1241,29 @@
     "Ramon Motta"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 62,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla gol atan 10 Afrikalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-24",
+    "targets": [
+    "Andre Kona",
+    "Mbaye Diagne",
+    "Fernand Coulibaly",
+    "Mame Thiam",
+    "Souleymane Youla",
+    "Moussa Sow",
+    "Aatif Chahechouhe",
+    "Isaac Promise",
+    "Ahmed Hassan",
+    "Pierre Webo"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 ]

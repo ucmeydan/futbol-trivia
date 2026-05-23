@@ -1381,6 +1381,25 @@
     "Marcelo Carrusca"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 62,
+    "game": "listeyi-tamamla",
+    "title": "Hull City'de forma giymiş Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-24",
+    "targets": [
+
+    "Enis Destan",
+    "Abdulkadir Ömür",
+    "Bora Aydınlık",
+    "Ozan Tufan",
+    "Doğukan Sinik"
+  
+    
+    ],
+    "difficulty": "zor"
   }
 
 

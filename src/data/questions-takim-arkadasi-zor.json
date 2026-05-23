@@ -1486,6 +1486,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 52,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-24",
+    "correctPlayer": "Ozan Tufan",
+    "teammates": [
+      {
+        "name": "Ismaila Sarr",
+        "info": "2021-22 sezonunda Watford'da birlikte oynadılar"
+      },
+      {
+        "name": "Sercan Yıldırım",
+        "info": "2013-14 sezonunda Bursaspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Merih Demiral",
+        "info": "2018-19 sezonunda Alanyaspor'da ve Türk Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Umut Bozok",
+        "info": "2024-25 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Jailson",
+        "info": "2018-20 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 

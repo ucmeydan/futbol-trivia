@@ -2306,5 +2306,33 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 55,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-24",
+    "correctPlayer": "Aykut Erçetin",
+    "career": [
+      {
+        "season": "2002-2003",
+        "team": "Stuttgart II",
+        "apps": "2",
+        "goals": "0"
+      },
+      {
+        "season": "2003-2014",
+        "team": "Galatasaray",
+        "apps": "76",
+        "goals": "0"
+      },
+      {
+        "season": "2014-2015",
+        "team": "Rizespor",
+        "apps": "10",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

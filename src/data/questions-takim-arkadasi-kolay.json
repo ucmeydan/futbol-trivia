@@ -1293,6 +1293,37 @@
     ],
 
     "difficulty": "kolay"
+},
+
+{
+    "id": 44,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-24",
+    "correctPlayer": "Victor Osimhen",
+    "teammates": [
+      {
+        "name": "Yusuf Yazıcı",
+        "info": "2019-2020 sezonunda Lille'de birlikte oynadılar"
+      },
+      {
+        "name": "Fabian Ruiz",
+        "info": "2020-2022 yılları arasında Napoli'de birlikte oynadılar"
+      },
+      {
+        "name": "Alvaro Morata",
+        "info": "2024-25 sezonunda Galatasaray'da birlikte oynadılar."
+      },
+      {
+        "name": "Piotr Zielinski",
+        "info": "2020-2024 yılları arasında Napoli'de birlikte oynadılar"
+      },
+      {
+        "name": "Eren Elmalı",
+        "info": "2024-26 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+
+    "difficulty": "kolay"
 }
 
 

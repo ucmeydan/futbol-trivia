@@ -1620,5 +1620,52 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 44,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-24",
+    "correctPlayer": "İbrahim Akın",
+    "career": [
+      {
+        "season": "2001-2004",
+        "team": "Altay",
+        "apps": "63",
+        "goals": "24"
+      },
+      {
+        "season": "2004-2008",
+        "team": "Beşiktaş",
+        "apps": "106",
+        "goals": "19"
+      },
+      {
+        "season": "2008-2011",
+        "team": "İstanbul BB",
+        "apps": "104",
+        "goals": "27"
+      },
+      {
+        "season": "2012-2015",
+        "team": "Gaziantepspor",
+        "apps": "36",
+        "goals": "3"
+      },
+ {
+        "season": "2015-2016",
+        "team": "Sivasspor",
+        "apps": "31",
+        "goals": "3"
+      },
+      {
+        "season": "2016-2019",
+        "team": "Altay",
+        "apps": "76",
+        "goals": "11"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
 ]

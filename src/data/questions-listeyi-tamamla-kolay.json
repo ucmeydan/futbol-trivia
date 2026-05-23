@@ -819,6 +819,29 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 44,
+    "game": "listeyi-tamamla",
+    "title": "Türkiye Kupası'nı birden fazla kez kazanan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-05-24",
+    "targets": [
+
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Altay",
+      "Göztepe",
+      "Gençlerbirliği",
+      "Ankaragücü",
+      "Kocaelispor"
+  
+
+    ],
+    "difficulty": "kolay"
   }
 
 

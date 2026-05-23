@@ -953,7 +953,30 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 44,
+    "game": "top10",
+    "title": "Fenerbahçe'nin Süper Lig tarihinde en çok mağlup ettiği 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-24",
+    "targets": [
+    "Ankaragücü",
+    "Bursaspor",
+    "Galatasaray",
+    "Beşiktaş",
+    "Altay",
+    "Gençlerbirliği",
+    "Trabzonspor",
+    "İstanbulspor",
+    "Gaziantepspor",
+    "Antalyaspor"
+
+    ],
+    "difficulty": "kolay"
 }
+
 
 
 
