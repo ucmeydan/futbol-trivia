@@ -1667,5 +1667,71 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 45,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-25",
+    "correctPlayer": "Ahmetcan Kaplan",
+    "career": [
+      {
+        "season": "2020-2020",
+        "team": "Trabzonspor U19",
+        "apps": "20",
+        "goals": "2"
+      },
+      {
+        "season": "2020-2022",
+        "team": "Trabzonspor",
+        "apps": "18",
+        "goals": "0"
+      },
+      {
+        "season": "2022-",
+        "team": "Ajax",
+        "apps": "25",
+        "goals": "0"
+      },
+      {
+        "season": "2025-",
+        "team": "NEC Nijmegen (kiralık)",
+        "apps": "30",
+        "goals": "2"
+      }
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 46,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-26",
+    "correctPlayer": "Uchenna Ogundu",
+    "career": [
+      {
+        "season": "2024-2025",
+        "team": "Şanlıurfaspor",
+        "apps": "19",
+        "goals": "6"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Alanyaspor",
+        "apps": "20",
+        "goals": "3"
+      },
+      {
+        "season": "2026-2026",
+        "team": "Augsburg",
+        "apps": "5",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

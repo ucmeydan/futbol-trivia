@@ -1400,7 +1400,29 @@
     
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 63,
+    "game": "listeyi-tamamla",
+    "title": "Başakşehir FK'nın tarihinde 4M€ ve üzeri bedelle satılan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-25",
+    "targets": [
+
+    "Cengiz Ünder",
+    "Youssouf Ndayishimiye",
+    "Krzysztof Piatek",
+    "İrfan Can Kahveci",
+    "Manuel Da Costa",
+    "Edin Visca"
+  
+    
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

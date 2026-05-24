@@ -1262,7 +1262,29 @@
     "Pierre Webo"
     ],
     "difficulty": "zor"
-  }
+  },
+
+  {
+    "id": 63,
+    "game": "top10",
+    "title": "Sofascore verilerine göre Süper Lig'de 2025/26 sezonunda en yüksek ortalama puan alan 10 kaleci?",
+    "type": "player",
+    "activeDate": "2026-05-25",
+    "targets": [
+    "Muhammed Şengezer",
+    "Ivo Grbic",
+    "Ricardo Velho",
+    "Julian Cuesta",
+    "Uğurcan Çakır",
+    "Andre Onana",
+    "Marcos Felipe",
+    "Ertuğrul Taşkıran",
+    "Mateusz Lis",
+    "Bilal Bayazıt"
+
+    ],
+    "difficulty": "zor"
+}
 
 
 

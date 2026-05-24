@@ -2334,5 +2334,129 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 56,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-25",
+    "correctPlayer": "Ahmet Oğuz",
+    "career": [
+      {
+        "season": "2012-2014",
+        "team": "Hacettepe",
+        "apps": "66",
+        "goals": "1"
+      },
+      {
+        "season": "2014-2020",
+        "team": "Gençlerbirliği",
+        "apps": "163",
+        "goals": "6"
+      },
+      {
+        "season": "2020-2021",
+        "team": "Kasımpaşa",
+        "apps": "8",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Sivasspor",
+        "apps": "55",
+        "goals": "1"
+      },
+      {
+        "season": "2022-2024",
+        "team": "Konyaspor",
+        "apps": "69",
+        "goals": "2"
+      },
+      {
+        "season": "2024-",
+        "team": "Kocaelispor",
+        "apps": "65",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 57,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-26",
+    "correctPlayer": "Serdar Taşçı",
+    "career": [
+      {
+        "season": "2004-2005",
+        "team": "Stuttgart U19",
+        "apps": "29",
+        "goals": "0"
+      },
+      {
+        "season": "2005-2006",
+        "team": "Stuttgart II",
+        "apps": "30",
+        "goals": "1"
+      },
+      {
+        "season": "2006-2013",
+        "team": "Stuttgart",
+        "apps": "243",
+        "goals": "13"
+      },
+      {
+        "season": "2013-2018",
+        "team": "Spartak Moskova",
+        "apps": "85",
+        "goals": "3"
+      },
+      {
+        "season": "2016-2016",
+        "team": "Bayern (kiralık)",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2019",
+        "team": "Başakşehir",
+        "apps": "5",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 58,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-27",
+    "correctPlayer": "Taha Altıkardeş",
+    "career": [
+      {
+        "season": "2021-2022",
+        "team": "Bursaspor",
+        "apps": "29",
+        "goals": "0"
+      },
+      {
+        "season": "2022-2023",
+        "team": "Trabzonspor",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2023-",
+        "team": "Göztepe",
+        "apps": "87",
+        "goals": "6"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
+
+
 ]

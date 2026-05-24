@@ -1516,7 +1516,39 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 53,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-25",
+    "correctPlayer": "Milan Baros",
+    "teammates": [
+      {
+        "name": "Marek Jankulovski",
+        "info": "1998-2000 yılları arasında Banik Ostrava'da ve Çek Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Kim Kallstrom",
+        "info": "2007-08 sezonunda Lyon'da birlikte oynadılar"
+      },
+      {
+        "name": "Steven Gerrard",
+        "info": "2002-05 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Meira",
+        "info": "2008-09 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Juninho Pernambucano",
+        "info": "2007-08 sezonunda Lyon'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
+
+
 
 
 

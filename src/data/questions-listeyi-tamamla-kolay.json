@@ -842,6 +842,29 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 45,
+    "game": "listeyi-tamamla",
+    "title": "Umut Nayir'in Süper Lig kariyerinde forma giydiği takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-05-25",
+    "targets": [
+
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Konyaspor",
+      "Ümraniyespor",
+      "Giresunspor",
+      "Osmanlıspor",
+      "Bursaspor",
+      "Pendikspor"
+  
+
+    ],
+    "difficulty": "kolay"
   }
 
 

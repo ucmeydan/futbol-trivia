@@ -975,7 +975,32 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 45,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig kulüplerinin 2025/26 sezonunda en yüksek bonservisli oyuncu satışları?",
+    "type": "player",
+    "activeDate": "2026-05-25",
+    "targets": [
+    "Uğurcan Çakır",
+    "Yusuf Akçiçek",
+    "Tammy Abraham",
+    "Gedson Fernandes",
+    "Romulo",
+    "Youssef En Nesyri",
+    "Krzysztof Piatek",
+    "Sebastian Szymanski",
+    "Keny Arroyo",
+    "Demir Ege Tıknaz"
+    
+
+    ],
+    "difficulty": "kolay"
 }
+
+
 
 
 

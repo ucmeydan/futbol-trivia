@@ -1324,6 +1324,36 @@
     ],
 
     "difficulty": "kolay"
+},
+
+{
+    "id": 45,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-25",
+    "correctPlayer": "Raul Meireles",
+    "teammates": [
+      {
+        "name": "Volkan Demirel",
+        "info": "2012-16 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Ricardo Quaresma",
+        "info": "2004-08 yılları arasında Porto'da ve Portekiz Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "John Terry",
+        "info": "2011-12 sezonunda Chelsea 'de birlikte oynadılar"
+      },
+      {
+        "name": "Steven Gerrard",
+        "info": "2010-11 sezonunda Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Moussa Sow",
+        "info": "2012-15 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 
