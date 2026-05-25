@@ -81,10 +81,10 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
       const latestIdx = filtered.length - 1;
       setCurrentIndex(latestIdx);
 
-      const lastPlayed = safeGetItem(`listeyi_tamamla_${difficulty}_last_played_${filtered[latestIdx].id}`);
+      const lastPlayed = safeGetItem(`listeyi_tamamla_${difficulty}_last_played_${filtered[latestIdx].activeDate}`);
       if (lastPlayed === dateStr) {
         setIsGameOver(true);
-        const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${filtered[latestIdx].id}`);
+        const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${filtered[latestIdx].activeDate}`);
         if (savedSession) {
           const data = JSON.parse(savedSession);
           setFoundItems(data.found || []);
@@ -170,8 +170,8 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
     if (currentQ) {
       const finalScore = won ? currentQ.targets.length : itemsToSave.length;
 
-      safeSetItem(`listeyi_tamamla_${difficulty}_last_played_${currentQ.id}`, today);
-      safeSetItem(`listeyi_tamamla_${difficulty}_session_${currentQ.id}`, JSON.stringify({
+      safeSetItem(`listeyi_tamamla_${difficulty}_last_played_${currentQ.activeDate}`, today);
+      safeSetItem(`listeyi_tamamla_${difficulty}_session_${currentQ.activeDate}`, JSON.stringify({
         found: itemsToSave,
         won: won
       }));
@@ -291,7 +291,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
               setTimeLeft(90);
               setIsActive(false);
               setShowAll(false);
-              const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${targetQ.id}`);
+              const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${targetQ.activeDate}`);
               if (savedSession) {
                 const data = JSON.parse(savedSession);
                 setFoundItems(data.found || []);
@@ -317,7 +317,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
               setTimeLeft(90);
               setIsActive(false);
               setShowAll(false);
-              const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${targetQ.id}`);
+              const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${targetQ.activeDate}`);
               if (savedSession) {
                 const data = JSON.parse(savedSession);
                 setFoundItems(data.found || []);

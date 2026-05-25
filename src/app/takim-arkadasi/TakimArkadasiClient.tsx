@@ -63,7 +63,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
     setSuggestions([]);
     setSelectedIndex(-1);
 
-    const saved = safeGetItem(`takim_arkadasi_${difficulty}_session_${question.id}`);
+    const saved = safeGetItem(`takim_arkadasi_${difficulty}_session_${question.activeDate}`);
     if (saved) {
       const data = JSON.parse(saved);
       setAttempts(data.attempts ?? 1);
@@ -127,7 +127,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
   const updateStats = (won: boolean, attemptCount: number) => {
     if (!currentQ) return;
     // Zaten oynanmışsa tekrar sayma
-    if (safeGetItem(`takim_arkadasi_${difficulty}_session_${currentQ.id}`)) return;
+    if (safeGetItem(`takim_arkadasi_${difficulty}_session_${currentQ.activeDate}`)) return;
 
     // Stale closure'dan kaçınmak için localStorage'dan oku
     const savedRaw = safeGetItem(`takim_arkadasi_${difficulty}_stats_v2`);
@@ -146,7 +146,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
     }
 
     // Önce session'ı kaydet, sonra stats'ı güncelle
-    safeSetItem(`takim_arkadasi_${difficulty}_session_${currentQ.id}`, JSON.stringify({
+    safeSetItem(`takim_arkadasi_${difficulty}_session_${currentQ.activeDate}`, JSON.stringify({
       attempts: won ? attemptCount : MAX_ATTEMPTS,
       isWin: won,
     }));

@@ -92,7 +92,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
 
     setCurrentIndex(index);
     const question = questionsList[index];
-    const savedSession = safeGetItem(`top10_${difficulty}_session_${question.id}`);
+    const savedSession = safeGetItem(`top10_${difficulty}_session_${question.activeDate}`);
 
     if (savedSession) {
       const data = JSON.parse(savedSession);
@@ -144,7 +144,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
     const finalScore = winStatus ? 10 : indicesToSave.length;
 
     if (currentQ) {
-      safeSetItem(`top10_${difficulty}_session_${currentQ.id}`, JSON.stringify({
+      safeSetItem(`top10_${difficulty}_session_${currentQ.activeDate}`, JSON.stringify({
         foundIndices: indicesToSave,
         isWin: winStatus,
         lives: lives,

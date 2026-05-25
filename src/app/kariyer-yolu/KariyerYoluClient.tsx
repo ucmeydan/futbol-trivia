@@ -55,7 +55,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
     if (index < 0 || index >= questionsList.length) return;
     const question = questionsList[index];
     setCurrentIndex(index);
-    const savedSession = safeGetItem(`kariyer_yolu_${difficulty}_session_${question.id}`);
+    const savedSession = safeGetItem(`kariyer_yolu_${difficulty}_session_${question.activeDate}`);
     if (savedSession) {
       const data = JSON.parse(savedSession);
       setVisibleRows(data.visibleRows || question.career.length);
@@ -97,7 +97,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
     }
     setStats(newStats);
     safeSetItem(`kariyer_yolu_${difficulty}_stats_v1`, JSON.stringify(newStats));
-    safeSetItem(`kariyer_yolu_${difficulty}_session_${currentQ.id}`, JSON.stringify({
+    safeSetItem(`kariyer_yolu_${difficulty}_session_${currentQ.activeDate}`, JSON.stringify({
       visibleRows: win ? attempt : currentQ.career.length,
       isWin: win,
       finalAttempt: win ? attempt : 0
