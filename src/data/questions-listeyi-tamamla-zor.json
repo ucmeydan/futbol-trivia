@@ -1420,7 +1420,31 @@
     
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 64,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor tarihinde 30 ve üzeri sayıda gol atan yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-26",
+    "targets": [
+
+    "Shota Arveladze",
+    "Anthony Nwakaeme",
+    "Paul Onuachu",
+    "Davor Vugrinec",
+    "Ibrahim Yattara",
+    "Hugo Rodallega",
+    "Alexander Sorloth",
+    "Anastasios Bakasetas"
+  
+    
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

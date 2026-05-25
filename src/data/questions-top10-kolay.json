@@ -998,6 +998,29 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 46,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre 2025/26 sezonunda transferde bonservise en çok para ödeyen Süper Lig kulüpleri?",
+    "type": "team-tr",
+    "activeDate": "2026-05-26",
+    "targets": [
+    "Galatasaray",
+    "Fenerbahçe",
+    "Beşiktaş",
+    "Trabzonspor",
+    "Başakşehir",
+    "Samsunspor",
+    "Göztepe",
+    "Konyaspor",
+    "Rizespor",
+    "Alanyaspor"
+    
+
+    ],
+    "difficulty": "kolay"
 }
 
 

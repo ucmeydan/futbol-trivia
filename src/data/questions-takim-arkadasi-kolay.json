@@ -1354,6 +1354,36 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 46,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-26",
+    "correctPlayer": "Tugay Kerimoğlu",
+    "teammates": [
+      {
+        "name": "Lucas Neill",
+        "info": "2001-07 yılları arasında Blackburn'de birlikte oynadılar"
+      },
+      {
+        "name": "Andy Cole",
+        "info": "2002-04 yılları arasında Blackburn'de birlikte oynadılar"
+      },
+      {
+        "name": "Zoran Simovic",
+        "info": "1987-90 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Morten Gamst Pedersen",
+        "info": "2004-09 yılları arasında Blackburn'de birlikte oynadılar"
+      },
+      {
+        "name": "Suat Kaya",
+        "info": "1992-2000 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 

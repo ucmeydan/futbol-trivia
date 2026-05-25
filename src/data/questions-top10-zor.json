@@ -1284,6 +1284,28 @@
 
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 64,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre 2025-26 sezonunda TFF 1.Lig'de mücadele eden takımlar arasında güncel piyasa değeri en yüksek 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-26",
+    "targets": [
+    "Bodrum FK",
+    "Sivasspor",
+    "Iğdır FK",
+    "Amed SK",
+    "Manisa FK",
+    "Erzurumspor",
+    "Vanspor FK",
+    "Pendikspor",
+    "Sakaryaspor",
+    "Esenler Erokspor"
+
+    ],
+    "difficulty": "zor"
 }
 
 

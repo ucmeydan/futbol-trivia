@@ -865,7 +865,39 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 46,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın 2026 Dünya Kupası geniş kadrosuna davet edilen oyuncular arasında Türkiye harici Avrupa liglerinde forma giyen oyuncular?",
+    "type": "player",
+    "activeDate": "2026-05-26",
+    "targets": [
+
+      "Altay Bayındır",
+      "Zeki Çelik",
+      "Ferdi Kadıoğlu",
+      "Hakan Çalhanoğlu",
+      "Aral Şimşir",
+      "Atakan Karazor",
+      "Deniz Gül",
+      "Ahmetcan Kaplan",
+      "Ozan Kabak",
+      "Demir Ege Tıknaz",
+      "Salih Özcan",
+      "Arda Güler",
+      "Can Uzun",
+      "Kenan Yıldız"
+  
+
+    ],
+    "difficulty": "kolay"
   }
+
+
+
+
 
 
 

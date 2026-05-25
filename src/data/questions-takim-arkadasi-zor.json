@@ -1546,6 +1546,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 54,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-26",
+    "correctPlayer": "Mauricio Isla",
+    "teammates": [
+      {
+        "name": "Michy Batshuayi",
+        "info": "2015-16 sezonunda Marsilya'da birlikte oynadılar"
+      },
+      {
+        "name": "Paul Pogba",
+        "info": "2012-14 yılları arasında Juventus'ta birlikte oynadılar"
+      },
+      {
+        "name": "Roberto Soldado",
+        "info": "2017-19 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Kwadwo Asamoah",
+        "info": "2012-14 yılları arasında Juventus'ta birlikte oynadılar"
+      },
+      {
+        "name": "Emre Belözoğlu",
+        "info": "2019-20 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 
