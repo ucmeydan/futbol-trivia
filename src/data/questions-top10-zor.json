@@ -1306,7 +1306,28 @@
 
     ],
     "difficulty": "zor"
-}
+},
+
+{
+    "id": 65,
+    "game": "top10",
+    "title": "Burak Yılmaz'ın lig maçlarındaki profesyonel kulüp kariyeri boyunca, idaresinde en fazla maça çıktığı 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-05-27",
+    "targets": [
+   "Şenol Güneş",
+   "Jean Tigana",
+   "Jocelyn Gourvennec",
+   "Fatih Terim",
+   "Roberto Mancini",
+   "Rıza Çalımbay",
+   "Christoph Galtier",
+   "Hamza Hamzaoğlu",
+   "Julio Velazquez",
+   "Feng Xie"
+    ],
+    "difficulty": "zor"
+  }
 
 
 

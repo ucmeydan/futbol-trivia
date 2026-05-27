@@ -1021,7 +1021,32 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 47,
+    "game": "top10",
+    "title": "2025/26 sezonunda TFF 1.Lig'i ilk 10 sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-05-27",
+    "targets": [
+    "Erzurumspor",
+    "Amed SK",
+    "Esenler Erokspor",
+    "Çorum FK",
+    "Bodrum FK",
+    "Pendikspor",
+    "Keçiörengücü",
+    "Bandırmaspor",
+    "Manisa FK",
+    "Sivasspor"
+    
+
+    ],
+    "difficulty": "kolay"
 }
+
+
 
 
 
