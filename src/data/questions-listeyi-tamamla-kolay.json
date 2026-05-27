@@ -893,7 +893,25 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 47,
+    "game": "listeyi-tamamla",
+    "title": "2025/26 sezonunda Fenerbahçe formasıyla Süper Lig'de gol atan yerli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-27",
+    "targets": [
+
+      "Kerem Aktürkoğlu",
+      "Mert Müldür",
+      "İsmail Yüksek"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

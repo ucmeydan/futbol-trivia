@@ -1731,7 +1731,45 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 47,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-27",
+    "correctPlayer": "Oğuz Aydın",
+    "career": [
+      {
+        "season": "2017-2021",
+        "team": "Bucaspor",
+        "apps": "90",
+        "goals": "17"
+      },
+      {
+        "season": "2019-2020",
+        "team": "Karacabey Belediyespor (kiralık)",
+        "apps": "8",
+        "goals": "1"
+      },
+      {
+        "season": "2021-2024",
+        "team": "Alanyaspor",
+        "apps": "95",
+        "goals": "24"
+      },
+      {
+        "season": "2024-",
+        "team": "Fenerbahçe",
+        "apps": "69",
+        "goals": "7"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

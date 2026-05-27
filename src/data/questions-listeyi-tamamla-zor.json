@@ -1442,6 +1442,35 @@
     
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 65,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'in son 20 sezonunda bir maçta 4 ve üzeri gol atan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-27",
+    "targets": [
+
+    "Semih Şentürk",
+    "Gökhan Ünal",
+    "Ümit Karan",
+    "Jaba",
+    "Taner Gülleri",
+    "Alex De Souza",
+    "Bjorn Vleminckx",
+    "Fernandao",
+    "Bafetimbi Gomis",
+    "Adis Jahovic",
+    "Aaron Boupendza",
+    "Cyle Larin",
+    "Mario Balotelli",
+    "Enner Valencia",
+    "Cengiz Ünder"
+  
+    
+    ],
+    "difficulty": "zor"
   }
 
 
