@@ -1067,7 +1067,57 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 49,
+    "game": "top10",
+    "title": "Süper Lig'de bu sezon bonservisine en çok ücret ödenen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-29",
+    "targets": [
+   "Victor Osimhen",
+   "Wilfried Singo",
+   "Orkun Kökçü",
+   "Matteo Guendouzi",
+   "Uğurcan Çakır",
+   "Kerem Aktürkoğlu",
+   "Dorgeles Nene",
+   "Emmanuel Agbadou",
+   "Tammy Abraham",
+   "Hyeon Gyu Oh"
+    
+
+    ],
+    "difficulty": "kolay"
+},
+
+
+
+{
+    "id": 50,
+    "game": "top10",
+    "title": "Şampiyonlar Ligi tarihinin en golcü 10 futbolcusu?",
+    "type": "player",
+    "activeDate": "2026-05-30",
+    "targets": [
+   "Cristiano Ronaldo",
+   "Lionel Messi",
+   "Robert Lewandowski",
+   "Karim Benzema",
+   "Raúl",
+   "Kylian Mbappé",
+   "Erling Haaland",
+   "Thomas Müller",
+   "Ruud van Nistelrooy",
+   "Harry Kane"
+    
+
+    ],
+    "difficulty": "kolay"
 }
+
+
 
 
 

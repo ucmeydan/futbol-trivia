@@ -2499,6 +2499,34 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 60,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-29",
+    "correctPlayer": "Abbosbek Fayzullaev",
+    "career": [
+      {
+        "season": "2021-2023",
+        "team": "Pakhtakor",
+        "apps": "41",
+        "goals": "10"
+      },
+      {
+        "season": "2023-2025",
+        "team": "CSKA Moskova",
+        "apps": "72",
+        "goals": "8"
+      },
+      {
+        "season": "2025-",
+        "team": "Başakşehir",
+        "apps": "26",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

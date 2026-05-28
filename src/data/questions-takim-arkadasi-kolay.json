@@ -1444,6 +1444,36 @@
     }
   ],
   "difficulty": "kolay"
+},
+
+{
+    "id": 49,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-29",
+    "correctPlayer": "İlkay Gündoğan",
+    "teammates": [
+      {
+        "name": "Robert Lewandowski",
+        "info": "2011-14 yılları arasında Dortmund'da ve 2023-24 sezonunda Barcelona'da birlikte oynadılar"
+      },
+      {
+        "name": "Sergio Aguero",
+        "info": "2016-21 yılları arasında Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Marco Reus",
+        "info": "2012-16 yılları arasında Dortmund'da birlikte oynadılar"
+      },
+      {
+        "name": "Yaya Toure",
+        "info": "2016-18 yılları arasında Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Victor Osimhen",
+        "info": "2025-26 sezonununda Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
 
 

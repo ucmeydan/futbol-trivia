@@ -1349,7 +1349,53 @@
     
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 67,
+    "game": "top10",
+    "title": "Süper Lig'de oynamış futbolcular arasında Şampiyonlar Ligi tarihinde en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-05-29",
+    "targets": [
+    "Didier Drogba",
+    "Samuel Eto'o",
+    "Edin Džeko",
+    "Álvaro Morata",
+    "Mario Gómez",
+    "Mario Jardel",
+    "Robin van Persie",
+    "Leroy Sane",
+    "Luiz Adriano",
+    "Nicolas Anelka"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 68,
+    "game": "top10",
+    "title": "Şampiyonlar Liginde hattrick yapan son 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-30",
+    "targets": [
+    "Federico Valverde",
+    "Alexander Sorloth",
+    "Anthony Gordon",
+    "Vitinha",
+    "Kylian Mbappé",
+    "Victor Osimhen",
+    "Fermin Lopez",
+    "Serhou Guirassy",
+    "Morgan Rogers",
+    "Lautaro Martinez"
+    
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

@@ -927,7 +927,67 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 49,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın 2026/27 sezonunda sözleşmesi bulunan yabancı futbolcuları?",
+    "type": "player",
+    "activeDate": "2026-05-29",
+    "targets": [
+
+      "Victor Nelsson",
+      "Davinson Sanchez",
+      "Ismael Jakobs",
+      "Wilfried Singo",
+      "Roland Sallai",
+      "Lucas Torreira",
+      "Mario Lemina",
+      "Renato Nhaga",
+      "Leroy Sane",
+      "Gabriel Sara",
+      "Victor Osimhen",
+      "Elias Jelert",
+      "Nicolo Zaniolo"
+    ],
+    "difficulty": "kolay"
+  },
+
+
+
+  {
+    "id": 50,
+    "game": "listeyi-tamamla",
+    "title": "Şampiyonlar Ligi (Şampiyon Kulüpler Kupası dahil) tarihinde 100 ve üzeri sayıda maç kazanan takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-05-30",
+    "targets": [
+
+      "Real Madrid",
+      "Bayern Münih",
+      "Barcelona",
+      "Juventus",
+      "Manchester United",
+      "Liverpool",
+      "Benfica",
+      "Milan",
+      "Porto",
+      "Arsenal",
+      "Inter",
+      "Ajax",
+      "Dinamo Kiev",
+      "Chelsea",
+      "Celtic",
+      "PSG",
+      "Dortmund"
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

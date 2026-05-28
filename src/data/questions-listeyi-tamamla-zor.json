@@ -1501,7 +1501,53 @@
     
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 67,
+    "game": "listeyi-tamamla",
+    "title": "Mustafa Denizli'nin teknik direktörlük kariyerinde Türkiye'de çalıştırdığı takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-05-29",
+    "targets": [
+
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Rizespor",
+      "Kocaelispor",
+      "Manisaspor",
+      "Kasımpaşa",
+      "Eskişehirspor",
+      "Altay"
+
+    ],
+    "difficulty": "zor"
+  },
+
+
+
+  {
+    "id": 68,
+    "game": "listeyi-tamamla",
+    "title": "Şampiyonlar Ligi - Şampiyon Kulüpler Kupası tarihinde oynadığı tüm finalleri kazanan takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-05-30",
+    "targets": [
+
+      "Nottingham Forest",
+      "Porto",
+      "Feyenoord",
+      "Aston Villa",
+      "PSV",
+      "Kızılyıldız"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

@@ -1803,7 +1803,53 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 49,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-29",
+    "correctPlayer": "Emin Bayram",
+    "career": [
+      {
+        "season": "2019-2019",
+        "team": "Galatasaray U19",
+        "apps": "8",
+        "goals": "1"
+      },
+      {
+        "season": "2019-2024",
+        "team": "Galatasaray",
+        "apps": "20",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Boluspor (kiralık)",
+        "apps": "40",
+        "goals": "2"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Westerlo (kiralık)",
+        "apps": "24",
+        "goals": "1"
+      },
+      {
+        "season": "2024-",
+        "team": "Westerlo",
+        "apps": "70",
+        "goals": "5"
+      }
+
+
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

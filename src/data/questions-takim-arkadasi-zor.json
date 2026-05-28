@@ -1636,7 +1636,37 @@
       }
     ],
     "difficulty": "zor"
-}
+},
+
+{
+    "id": 57,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-29",
+    "correctPlayer": "Umut Bulut",
+    "teammates": [
+      {
+        "name": "Moussa Sissoko",
+        "info": "2011-12 sezonunda Toulouse'da oynadılar"
+      },
+      {
+        "name": "İlhan Mansız",
+        "info": "2005-06 sezonunda Ankaragücü'nde oynadılar"
+      },
+      {
+        "name": "Ryan Babel",
+        "info": "2022-23 sezonunda Eyüpspor'da oynadılar"
+      },
+      {
+        "name": "Lukas Podolski",
+        "info": "2015-16 sezonunda Galatasaray'da oynadılar"
+      },
+      {
+        "name": "Onur Kıvrak",
+        "info": "2007-11 yılları arasında Trabzonspor'da oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  }
 
 
 
