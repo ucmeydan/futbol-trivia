@@ -1327,6 +1327,28 @@
    "Feng Xie"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 66,
+    "game": "top10",
+    "title": "Michy Batshuayi'nin futbolculuk kariyerinde en çok maça çıktığı 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-05-28",
+    "targets": [
+    "Standard",
+    "Marsilya",
+    "Chelsea",
+    "Fenerbahçe",
+    "Beşiktaş",
+    "Crystal Palace",
+    "Galatasaray",
+    "Valencia",
+    "Frankfurt",
+    "Dortmund"
+    
+    ],
+    "difficulty": "zor"
   }
 
 

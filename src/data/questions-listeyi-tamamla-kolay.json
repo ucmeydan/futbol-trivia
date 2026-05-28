@@ -909,7 +909,27 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 48,
+    "game": "listeyi-tamamla",
+    "title": "Edin Dzeko'nun futbolculuk kariyerinde 50'den fazla maça çıktığı kulüpler?",
+    "type": "team-all",
+    "activeDate": "2026-05-28",
+    "targets": [
+
+      "Wolfsburg",
+      "Manchester City",
+      "Roma",
+      "Inter",
+      "Fenerbahçe"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

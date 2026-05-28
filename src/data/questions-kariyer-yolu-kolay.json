@@ -1767,6 +1767,42 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 48,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-28",
+    "correctPlayer": "Demir Ege Tıknaz",
+    "career": [
+      {
+        "season": "2021-2023",
+        "team": "Beşiktaş U19",
+        "apps": "40",
+        "goals": "2"
+      },
+      {
+        "season": "2023-2025",
+        "team": "Beşiktaş",
+        "apps": "46",
+        "goals": "1"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Rio Ave (kiralık)",
+        "apps": "33",
+        "goals": "4"
+      },
+      {
+        "season": "2025-",
+        "team": "Braga",
+        "apps": "14",
+        "goals": "1"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 

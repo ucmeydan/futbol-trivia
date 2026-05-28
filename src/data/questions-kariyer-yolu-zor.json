@@ -2454,6 +2454,51 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 59,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-28",
+    "correctPlayer":  "Giannis Papanikolaou",
+    "career": [
+     
+      {
+        "season": "2015-2016",
+        "team": "Platanias U20",
+        "apps": "42",
+        "goals": "9"
+      },
+    
+      {
+        "season": "2016-2019",
+        "team": "Platanias",
+        "apps": "48",
+        "goals": "5"
+      },
+      {
+        "season": "2019-2020",
+        "team": "Panionios",
+        "apps": "32",
+        "goals": "1"
+      },
+      {
+        "season": "2020-2024",
+        "team": "Rakow",
+        "apps": "118",
+        "goals": "8"
+      },
+
+      {
+        "season": "2024-",
+        "team": "Rizespor",
+        "apps": "56",
+        "goals": "4"
+      }
+
+
+    ],
+    "difficulty": "zor"
   }
 
 

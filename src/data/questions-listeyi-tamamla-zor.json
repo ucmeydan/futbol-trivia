@@ -1471,7 +1471,43 @@
     
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 66,
+    "game": "listeyi-tamamla",
+    "title": "2010 yılından bu yana Trabzonspor'da en az 10 maçta görev alan teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-05-28",
+    "targets": [
+
+  "Fatih Tekke",
+  "Şenol Güneş",
+  "Abdullah Avcı",
+  "Nenad Bjelica",
+  "Eddie Newton",
+  "Hüseyin Çimşir",
+  "Ünal Karaman",
+  "Rıza Çalımbay",
+  "Ersun Yanal",
+  "Hami Mandıralı",
+  "Sadi Tekelioğlu",
+  "Shota Arveladze",
+  "Vahid Halilhodzic",
+  "Mustafa Reşit Akçay",
+  "Tolunay Kafkas"
+
+
+    
+    ],
+    "difficulty": "zor"
   }
+
+
+
+ 
+
+
 
 
 

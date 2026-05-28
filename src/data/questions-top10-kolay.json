@@ -1044,7 +1044,32 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 48,
+    "game": "top10",
+    "title": "2025/26 sezonunda bir takımın başında en çok maça çıkan 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-05-28",
+    "targets": [
+   "Fatih Tekke",
+   "Joao Pereira",
+   "Okan Buruk",
+   "Selçuk İnan",
+   "Stanimir Stoilov",
+   "Sergen Yalçın",
+   "Nuri Şahin",
+   "Domenico Tedesco",
+   "Burak Yılmaz",
+   "Thomas Reis"
+    
+
+    ],
+    "difficulty": "kolay"
 }
+
+
 
 
 
