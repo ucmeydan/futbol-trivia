@@ -1847,6 +1847,40 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 50,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-30",
+    "correctPlayer": "İbrahim Toraman",
+    "career": [
+      {
+        "season": "2000–2001",
+        "team": "Gaziantep BB",
+        "apps": "1",
+        "goals": "0"
+      },
+      {
+        "season": "2001–2004",
+        "team": "Gaziantepspor",
+        "apps": "96",
+        "goals": "10"
+      },
+      {
+        "season": "2004–2015",
+        "team": "Beşiktaş",
+        "apps": "325",
+        "goals": "23"
+      },
+      {
+        "season": "2014–2015",
+        "team": "Sivasspor (kiralık)",
+        "apps": "13",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

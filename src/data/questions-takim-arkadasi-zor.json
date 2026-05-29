@@ -1666,7 +1666,37 @@
       }
     ],
     "difficulty": "zor"
-  }
+  },
+
+  {
+  "id": 58,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-05-30",
+  "correctPlayer": "Cyle Larin",
+  "teammates": [
+    {
+      "name": "Kaká",
+      "info": "2015-17 yılları arasında Orlando City'de oynadılar"
+    },
+    {
+      "name": "Dorukhan Toköz",
+      "info": "2018-21 yılları arasında Beşiktaş'ta oynadılar"
+    },
+    {
+      "name": "Alphonso Davies",
+      "info": "Kanada Milli Takımı'nda birlikte oynadılar"
+    },
+    {
+      "name": "Vedat Muriqi",
+      "info": "2023-25 yılları arasında Mallorca'da oynadılar"
+    },
+    {
+      "name": "Rachid Ghezzal",
+      "info": "2020-22 yılları arasında Beşiktaş'ta oynadılar"
+    }
+  ],
+  "difficulty": "zor"
+}
 
 
 

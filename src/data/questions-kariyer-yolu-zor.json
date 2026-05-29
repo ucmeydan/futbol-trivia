@@ -2527,6 +2527,46 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 61,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-30",
+    "correctPlayer": "Ivan Ergić",
+    "career": [
+      {
+        "season": "1999-2000",
+        "team": "Perth Glory",
+        "apps": "23",
+        "goals": "10"
+      },
+      {
+        "season": "2000–2001",
+        "team": "Juventus",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2000–2001",
+        "team": "Basel (kiralık)",
+        "apps": "26",
+        "goals": "1"
+      },
+      {
+        "season": "2001–2009",
+        "team": "Basel",
+        "apps": "256",
+        "goals": "44"
+      },
+      {
+        "season": "2009–2011",
+        "team": "Bursaspor",
+        "apps": "70",
+        "goals": "10"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 
