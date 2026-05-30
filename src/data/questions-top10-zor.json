@@ -1393,7 +1393,33 @@
     
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 69,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Gençlerbirliği tarihinin en pahalı 10 oyuncu satışı?",
+    "type": "player",
+    "activeDate": "2026-05-31",
+    "targets": [
+    "Geremi Njitap",
+    "Tarık Daşgün",
+    "Mert Çetin",
+    "Mustafa Pektemek",
+    "Orhan Şam",
+    "Draman Haminu",
+    "Aykut Demir",
+    "Ahmet Çalık",
+    "Berat Özdemir",
+    "Ümit Karan"
+    
+    ],
+    "difficulty": "zor"
   }
+
+
+
+
 
 
 

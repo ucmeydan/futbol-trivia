@@ -1115,7 +1115,32 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 51,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'in son 10 asist kralı?",
+    "type": "player",
+    "activeDate": "2026-05-31",
+    "targets": [
+   "Marco Asensio",
+   "Dusan Tadic",
+   "Dries Mertens",
+   "Kerem Aktürkoğlu",
+   "Edin Visca",
+   "Rachid Ghezzal",
+   "Wesley Sneijder",
+   "Jose Sosa",
+   "Mehmet Ekici",
+   "Cicinho"
+    
+
+    ],
+    "difficulty": "kolay"
 }
+
+
 
 
 

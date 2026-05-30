@@ -985,7 +985,30 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 51,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'da son 20 sezonda 10 numaralı formayı giyen futbolcular? (Hazırlık maçları dahil değildir)",
+    "type": "player",
+    "activeDate": "2026-05-31",
+    "targets": [
+ 
+  "Leroy Sane",
+  "Dries Mertens",
+  "Younes Belhanda",
+  "Wesley Sneijder",
+  "Felipe Melo",
+  "Arda Turan",
+  "Cassio Lincoln",
+  "Necati Ateş"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

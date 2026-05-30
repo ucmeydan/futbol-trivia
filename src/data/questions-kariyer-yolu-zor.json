@@ -2567,7 +2567,49 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 62,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-31",
+    "correctPlayer": "Tony Sylva",
+    "career": [
+      {
+        "season": "1994-2004",
+        "team": "Monaco",
+        "apps": "33",
+        "goals": "0"
+      },
+      {
+        "season": "1996-1997",
+        "team": "SAS Epinal (kiralık)",
+        "apps": "11",
+        "goals": "0"
+      },
+      {
+        "season": "2000–2001",
+        "team": "Ajaccio (kiralık)",
+        "apps": "32",
+        "goals": "0"
+      },
+      {
+        "season": "2004–2008",
+        "team": "Lille",
+        "apps": "167",
+        "goals": "0"
+      },
+      {
+        "season": "2008–2010",
+        "team": "Trabzonspor",
+        "apps": "44",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

@@ -1545,7 +1545,31 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 69,
+    "game": "listeyi-tamamla",
+    "title": "Hem Fenerbahçe hem de PSG forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-05-31",
+    "targets": [
+
+      "Nicolas Anelka",
+      "Marco Asensio",
+      "Mevlüt Erdinç",
+      "Mateja Kezman",
+      "Diego Lugano",
+      "Jay Jay Okocha",
+      "Gregory van der Wiel",
+      "Milan Skriniar"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

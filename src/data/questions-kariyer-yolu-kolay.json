@@ -1881,7 +1881,61 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 51,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-05-31",
+    "correctPlayer": "Tümer Metin",
+    "career": [
+      {
+        "season": "1994-1997",
+        "team": "Zonguldakspor",
+        "apps": "4",
+        "goals": "1"
+      },
+      {
+        "season": "1997–2001",
+        "team": "Samsunspor",
+        "apps": "102",
+        "goals": "15"
+      },
+      {
+        "season": "2001–2006",
+        "team": "Beşiktaş",
+        "apps": "165",
+        "goals": "39"
+      },
+      {
+        "season": "2006–2009",
+        "team": "Fenerbahçe",
+        "apps": "53",
+        "goals": "11"
+      },
+      {
+        "season": "2008–2008",
+        "team": "Larisa (kiralık)",
+        "apps": "10",
+        "goals": "6"
+      },
+      {
+        "season": "2009–2011",
+        "team": "Larisa",
+        "apps": "70",
+        "goals": "18"
+      },
+      {
+        "season": "2011–2011",
+        "team": "Kerkyra",
+        "apps": "6",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

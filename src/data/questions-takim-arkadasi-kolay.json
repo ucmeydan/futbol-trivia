@@ -1504,7 +1504,37 @@
       }
     ],
     "difficulty": "kolay"
-  }
+  },
+
+  {
+    "id": 51,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-31",
+    "correctPlayer": "Salih Uçan",
+    "teammates": [
+      {
+        "name": "Raul Meireles",
+        "info": "2012-14 sezonunda Fenerbahçe'de birlikte oynadılar."
+      },
+      {
+        "name": "Onur Bulut",
+        "info": "2023-25 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Demirel",
+        "info": "2012-14 yılları arasında Fenerbahçe'de birlikte oynadılar."
+      },
+      {
+        "name": "Gedson Fernandes",
+        "info": "2022-25 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Francesco Totti",
+        "info": "2014-16 yılları arasında Roma'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+}
 
 
 

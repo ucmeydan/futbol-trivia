@@ -1696,7 +1696,39 @@
     }
   ],
   "difficulty": "zor"
+},
+
+{
+  "id": 59,
+  "game": "takim-arkadasi",
+  "activeDate": "2026-05-31",
+  "correctPlayer": "Lucas Torreira",
+  "teammates": [
+    {
+      "name": "Bruno Fernandes",
+      "info": "2016-17 sezonunda Sampdoria'da birlikte oynadılar"
+    },
+    {
+      "name": "Thomas Partey",
+      "info": "2020-21 sezonunda Atletico Madrid'de birlikte oynadılar"
+    },
+    {
+      "name": "Patrik Schick",
+      "info": "2016-17 sezonunda Sampdoria'da birlikte oynadılar"
+    },
+    {
+      "name": "Matteo Guendouzi",
+      "info": "2018-20 yılları arasında Arsenal'de birlikte oynadılar"
+    },
+    {
+      "name": "Dries Mertens",
+      "info": "2022-25 yılları arasında Galatasaray'da birlikte oynadılar"
+    }
+  ],
+  "difficulty": "zor"
 }
+
+
 
 
 
