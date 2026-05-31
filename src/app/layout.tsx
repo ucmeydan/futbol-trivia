@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata, Viewport } from "next";
 import CookieBanner from "./CookieBanner";
+import ServiceWorkerRegister from "./sw-register";
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -91,6 +92,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="tr">
       <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#dc2626" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="FutbolTrivia" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
         <Script
           id="consent-mode-init"
           strategy="beforeInteractive"
@@ -130,6 +137,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         className={`${inter.className} ${bebasNeue.variable} bg-slate-950 text-white antialiased`}
       >
         {children}
+        <ServiceWorkerRegister />
         <CookieBanner />
         <Analytics />
         <SpeedInsights />
