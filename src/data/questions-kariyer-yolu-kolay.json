@@ -1961,7 +1961,202 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 53,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-02",
+    "correctPlayer": "Emmanuel Eboue",
+    "career": [
+      {
+        "season": "2001–2002",
+        "team": "Mimosas",
+        "apps": "25",
+        "goals": "3"
+      },
+      {
+        "season": "2002–2005",
+        "team": "Beveren",
+        "apps": "85",
+        "goals": "4"
+      },
+      {
+        "season": "2005–2011",
+        "team": "Arsenal",
+        "apps": "214",
+        "goals": "10"
+      },
+      {
+        "season": "2011–2015",
+        "team": "Galatasaray",
+        "apps": "101",
+        "goals": "5"
+      },
+      {
+        "season": "2016–2016",
+        "team": "Sunderland",
+        "apps": "0",
+        "goals": "0"
+      }
+
+
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 54,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-03",
+    "correctPlayer": "Felipe Augusto",
+    "career": [
+      {
+        "season": "2022–2023",
+        "team": "Corinthians U20",
+        "apps": "38",
+        "goals": "11"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Corinthians",
+        "apps": "29",
+        "goals": "2"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Cercle Brugge",
+        "apps": "66",
+        "goals": "9"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Trabzonspor",
+        "apps": "40",
+        "goals": "15"
+      }
+
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 55,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-04",
+    "correctPlayer": "Eyüp Aydın",
+    "career": [
+      {
+        "season": "2019–2021",
+        "team": "Bayern U17",
+        "apps": "7",
+        "goals": "3"
+      },
+      {
+        "season": "2021–2023",
+        "team": "Bayern II",
+        "apps": "54",
+        "goals": "4"
+      },
+      {
+        "season": "2023-",
+        "team": "Galatasaray",
+        "apps": "16",
+        "goals": "1"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Samsunspor (kiralık)",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2026–",
+        "team": "Kasımpaşa (kiralık)",
+        "apps": "4",
+        "goals": "0"
+      }
+
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 56,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-05",
+    "correctPlayer": "Zeki Çelik",
+    "career": [
+      {
+        "season": "2015–2016",
+        "team": "Bursaspor",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Bursa Nilüferspor (kiralık)",
+        "apps": "35",
+        "goals": "0"
+      },
+      {
+        "season": "2016-2018",
+        "team": "İstanbulspor",
+        "apps": "69",
+        "goals": "3"
+      },
+      {
+        "season": "2018–2022",
+        "team": "Lille",
+        "apps": "143",
+        "goals": "8"
+      },
+      {
+        "season": "2022–",
+        "team": "Roma",
+        "apps": "151",
+        "goals": "2"
+      }
+
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 57,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-06",
+    "correctPlayer": "Yusuf Akçiçek",
+    "career": [
+      {
+        "season": "2023–2024",
+        "team": "Fenerbahçe U19",
+        "apps": "11",
+        "goals": "3"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Fenerbahçe",
+        "apps": "27",
+        "goals": "2"
+      },
+      {
+        "season": "2025-",
+        "team": "Al Hilal",
+        "apps": "22",
+        "goals": "1"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
+
+
 
 
 

@@ -1437,7 +1437,31 @@
     
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 71,
+    "game": "top10",
+    "title": "Beşiktaş'ta 10 numaralı formayı giyen son 10 futbolcu? (Hazırlık maçları dahil değil)",
+    "type": "player",
+    "activeDate": "2026-06-02",
+    "targets": [
+
+      "Orkun Kökçü",
+      "Keny Arroyo",
+      "Vincent Aboubakar",
+      "Wout Weghorst",
+      "Oğuzhan Özyakup",
+      "Olcay Şahan",
+      "Bebe",
+      "Matias Delgado",
+      "Sergen Yalçın",
+      "Ahmet Dursun"
+
+    ],
+    "difficulty": "zor"
   }
+
 
 
 

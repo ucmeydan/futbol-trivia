@@ -1026,7 +1026,31 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 53,
+    "game": "listeyi-tamamla",
+    "title": "Hem Beşiktaş hem Fenerbahçe hem de Galatasaray'da oynamış futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-02",
+    "targets": [
+
+      "Mehmet Yozgatlı",
+      "Burak Yılmaz",
+      "Sergen Yalçın",
+      "Caner Erkin",
+      "Mehmet Topal",
+      "Michy Batshuayi",
+      "Emre Aşık"
+ 
+  
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

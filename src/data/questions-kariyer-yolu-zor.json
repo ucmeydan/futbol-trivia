@@ -2654,7 +2654,182 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 64,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-02",
+    "correctPlayer": "Fedor Chalov",
+    "career": [
+      {
+        "season": "2015-2017",
+        "team": "CSKA Moskova II",
+        "apps": "40",
+        "goals": "23"
+      },
+      {
+        "season": "2017-2024",
+        "team": "CSKA Moskova",
+        "apps": "263",
+        "goals": "89"
+      },
+      {
+        "season": "2022–2022",
+        "team": "Basel (kiralık)",
+        "apps": "16",
+        "goals": "4"
+      },
+      {
+        "season": "2024–",
+        "team": "PAOK",
+        "apps": "64",
+        "goals": "8"
+      },
+      {
+        "season": "2026–",
+        "team": "Kayserispor (kiralık)",
+        "apps": "14",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 65,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-03",
+    "correctPlayer": "Festy Ebosele",
+    "career": [
+      {
+        "season": "2018-2020",
+        "team": "Derby County U18",
+        "apps": "30",
+        "goals": "3"
+      },
+      {
+        "season": "2020-2021",
+        "team": "Derby County U23",
+        "apps": "23",
+        "goals": "1"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Derby County",
+        "apps": "41",
+        "goals": "2"
+      },
+      {
+        "season": "2022–2024",
+        "team": "Udinese",
+        "apps": "50",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Watford (kiralık)",
+        "apps": "19",
+        "goals": "1"
+      },
+      {
+        "season": "2025–",
+        "team": "Başakşehir",
+        "apps": "27",
+        "goals": "1"
+      }
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 66,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-04",
+    "correctPlayer": "Yusuf Barası",
+    "career": [
+      {
+        "season": "2019-2019",
+        "team": "AZ Alkmaar U17",
+        "apps": "22",
+        "goals": "11"
+      },
+      {
+        "season": "2019-2020",
+        "team": "AZ Alkmaar U19",
+        "apps": "27",
+        "goals": "12"
+      },
+      {
+        "season": "2020–2022",
+        "team": "AZ Alkmaar U21",
+        "apps": "59",
+        "goals": "21"
+      },
+      {
+        "season": "2022–2023",
+        "team": "AZ Alkmaar",
+        "apps": "22",
+        "goals": "2"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Adana Demirspor",
+        "apps": "59",
+        "goals": "12"
+      },
+      {
+        "season": "2025–",
+        "team": "Kasımpaşa",
+        "apps": "8",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 67,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-05",
+    "correctPlayer": "Yahia Fofana",
+    "career": [
+      {
+        "season": "2016-2019",
+        "team": "Le Havre B",
+        "apps": "32",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2022",
+        "team": "Le Havre",
+        "apps": "41",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2025",
+        "team": "Angers",
+        "apps": "77",
+        "goals": "0"
+      },
+      {
+        "season": "2025-",
+        "team": "Çaykur Rizespor",
+        "apps": "27",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
+
+
+
+
+
+
 
 
 

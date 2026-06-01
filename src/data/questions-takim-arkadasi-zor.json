@@ -1756,6 +1756,36 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 61,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-02",
+    "correctPlayer": "Zeki Çelik",
+    "teammates": [
+      {
+        "name": "Mike Maignan",
+        "info": "2018-21 yılları arasında Lille'de birlikte oynadılar"
+      },
+      {
+        "name": "Tammy Abraham",
+        "info": "2022-24 yılları arasında Roma'da birlikte oynadılar"
+      },
+      {
+        "name": "Okan Kocuk",
+        "info": "2017-18 sezonunda İstanbulspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Victor Osimhen",
+        "info": "2019-20 sezonunda Lille'de birlikte oynadılar"
+      },
+      {
+        "name": "Paulo Dybala",
+        "info": "2022-26 yılları arasında Roma'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
 
 

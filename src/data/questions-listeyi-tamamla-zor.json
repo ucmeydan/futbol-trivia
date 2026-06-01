@@ -1589,7 +1589,33 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 71,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon TFF 3.Lig'den TFF 2.Lig'e yükselen takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-06-02",
+    "targets": [
+
+      "İnegöl Kafkasspor",
+      "12 Bingölspor",
+      "Sebat Gençlikspor",
+      "Kütahyaspor",
+      "52 Orduspor FK",
+      "Çorluspor 1947"
+
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
+
+ 
+
 
   
 

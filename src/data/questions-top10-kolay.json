@@ -1161,7 +1161,32 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 53,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Milli takımımızın güncel kadrosundaki piyasa değeri en yüksek 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-02",
+    "targets": [
+   "Arda Güler",
+   "Kenan Yıldız",
+   "Can Uzun",
+   "Ferdi Kadıoğlu",
+   "Barış Alper Yılmaz",
+   "Orkun Kökçü",
+   "Kerem Aktürkoğlu",
+   "Yunus Akgün",
+   "Hakan Çalhanoğlu",
+   "Uğurcan Çakır"
+    
+
+    ],
+    "difficulty": "kolay"
 }
+
+
 
 
 
