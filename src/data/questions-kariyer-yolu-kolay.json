@@ -1933,6 +1933,34 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 52,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-01",
+    "correctPlayer": "Gabriel Sara",
+    "career": [
+      {
+        "season": "2017–2022",
+        "team": "Sao Paulo",
+        "apps": "113",
+        "goals": "17"
+      },
+      {
+        "season": "2022–2024",
+        "team": "Norwich",
+        "apps": "96",
+        "goals": "21"
+      },
+      {
+        "season": "2024–",
+        "team": "Galatasaray",
+        "apps": "87",
+        "goals": "8"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

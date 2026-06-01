@@ -1138,7 +1138,34 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 52,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'i ilk 10 sırada tamamlayan takımların 9 numaralı futbolcuları?",
+    "type": "player",
+    "activeDate": "2026-06-01",
+    "targets": [
+   "Mauro Icardi",
+   "Kerem Aktürkoğlu",
+   "Anthony Nwakaeme",
+   "Hyeon Gyu Oh",
+   "Davie Selke",
+   "Juan",
+   "Marius Mouandilmadji",
+   "Ali Sowe",
+   "Deniz Türüç",
+   "Bruno Petkovic"
+    
+
+    ],
+    "difficulty": "kolay"
 }
+
+
+
+
 
 
 

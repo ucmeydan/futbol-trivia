@@ -1567,7 +1567,31 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 70,
+    "game": "listeyi-tamamla",
+    "title": "TFF 1.Lig tarihinde 50 ve üzeri sayıda gol atan yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-01",
+    "targets": [
+
+      "Marco Paixao",
+      "Mickael Pote",
+      "Mbilla Etame",
+      "Tiago Bezerra",
+      "Yonathan Del Valle",
+      "Emeka Eze",
+      "Chico Ofoedu"
+
+
+
+    ],
+    "difficulty": "zor"
   }
+
+  
 
 
 

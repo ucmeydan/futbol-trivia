@@ -2607,7 +2607,56 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 63,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-01",
+    "correctPlayer": "Ömer Çatkıç",
+    "career": [
+      {
+        "season": "1991-1998",
+        "team": "Eskişehirspor",
+        "apps": "36",
+        "goals": "0"
+      },
+      {
+        "season": "1998-2004",
+        "team": "Gaziantepspor",
+        "apps": "215",
+        "goals": "0"
+      },
+      {
+        "season": "2004–2006",
+        "team": "Gençlerbirliği",
+        "apps": "55",
+        "goals": "0"
+      },
+      {
+        "season": "2006–2007",
+        "team": "Bursaspor",
+        "apps": "29",
+        "goals": "0"
+      },
+      {
+        "season": "2007–2018",
+        "team": "Gaziantepspor",
+        "apps": "21",
+        "goals": "0"
+      },
+      {
+        "season": "2008–2012",
+        "team": "Antalyaspor",
+        "apps": "129",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

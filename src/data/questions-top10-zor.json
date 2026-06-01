@@ -1415,7 +1415,31 @@
     
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 70,
+    "game": "top10",
+    "title": "Süper Lig'de 2021-22 sezonunda en çok gol atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-01",
+    "targets": [
+    "Umut Bozok",
+    "Ayoub El Kaabi",
+    "Mario Balotelli",
+    "Joel Pohjanpalo",
+    "Andreas Cornelius",
+    "Serdar Dursun",
+    "Alexandru Maxim",
+    "Aleksandar Pesic",
+    "Haji Wright",
+    "Michy Batshuayi"
+    
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

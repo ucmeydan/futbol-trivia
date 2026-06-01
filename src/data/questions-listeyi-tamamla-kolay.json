@@ -1006,7 +1006,29 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 52,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerlerinde hem Galatasaray hem de Real Madrid'de forma giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-01",
+    "targets": [
+ 
+  "Gheorghe Hagi",
+  "Wesley Sneijder",
+  "Alvaro Morata",
+  "Hamit Altıntop",
+  "Jose Rodriguez",
+  "Elvir Baljic",
+  "Flavio Conceicao"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
