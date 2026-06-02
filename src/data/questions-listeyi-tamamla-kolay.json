@@ -1048,7 +1048,31 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 54,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın Dünya Kupası aday kadrosuna alınıp 26 kişilik nihai kadroya dahil edilmeyen futbolcular? ",
+    "type": "player",
+    "activeDate": "2026-06-03",
+    "targets": [
+
+      "Muhammet Şengezer",
+      "Ersin Destanoğlu",
+      "Yusuf Akçiçek",
+      "Ahmetcan Kaplan",
+      "Mustafa Eskihellaç",
+      "Atakan Karazor",
+      "Demir Ege Tıknaz",
+      "Yusuf Sarı",
+      "Aral Şimşir"
+ 
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

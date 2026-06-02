@@ -1184,7 +1184,32 @@
 
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 54,
+    "game": "top10",
+    "title": "Süper Lig'de güncellemeler sonrası Transfermarkt piyasa değeri en yüksek 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-03",
+    "targets": [
+   "Victor Osimhen",
+   "Barış Alper Yılmaz",
+   "Gabriel Sara",
+   "Matteo Guendouzi",
+   "Orkun Kökçü",
+   "Wilfried Singo",
+   "Christ Inao Oulai",
+   "Noa Lang",
+   "Leroy Sane",
+   "Kerem Aktürkoğlu"
+    
+
+    ],
+    "difficulty": "kolay"
 }
+
+
 
 
 

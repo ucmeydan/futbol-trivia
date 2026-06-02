@@ -1610,7 +1610,27 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 72,
+    "game": "listeyi-tamamla",
+    "title": "Adis Jahovic'in Türkiye kariyerinde forma giydiği profesyonel takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-06-03",
+    "targets": [
+
+     "Göztepe",
+     "Konyaspor",
+     "Yeni Malatyaspor",
+     "Antalyaspor",
+     "Bodrum FK"
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

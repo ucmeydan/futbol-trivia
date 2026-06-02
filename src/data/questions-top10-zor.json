@@ -1460,7 +1460,32 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 72,
+    "game": "top10",
+    "title": "Ersun Yanal'ın teknik direktörlük kariyerinde en çok maça çıktığı 10 kulüp?",
+    "type": "team-tr",
+    "activeDate": "2026-06-03",
+    "targets": [
+
+      "Trabzonspor",
+      "Fenerbahçe",
+      "Gençlerbirliği",
+      "Eskişehirspor",
+      "Ankaragücü",
+      "Manisaspor",
+      "Antalyaspor",
+      "Denizlispor",
+      "Amed SK",
+      "Alanyaspor"
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
