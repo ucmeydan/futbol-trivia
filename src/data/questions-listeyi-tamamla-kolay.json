@@ -591,7 +591,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 32,
     "game": "listeyi-tamamla",
@@ -610,7 +609,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 33,
     "game": "listeyi-tamamla",
@@ -627,11 +625,9 @@
       "Hakan Çalhanoğlu",
       "Abdülkerim Bardakcı",
       "Kerem Aktürkoğlu"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 34,
     "game": "listeyi-tamamla",
@@ -639,21 +635,20 @@
     "type": "city",
     "activeDate": "2026-05-14",
     "targets": [
-     "İstanbul",
-     "Ankara",
-     "Rize",
-     "Samsun",
-     "Trabzon",
-     "Konya",
-     "Kayseri",
-     "Antalya",
-     "İzmir",
-     "Kocaeli",
-     "Gaziantep"
+      "İstanbul",
+      "Ankara",
+      "Rize",
+      "Samsun",
+      "Trabzon",
+      "Konya",
+      "Kayseri",
+      "Antalya",
+      "İzmir",
+      "Kocaeli",
+      "Gaziantep"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 35,
     "game": "listeyi-tamamla",
@@ -661,19 +656,18 @@
     "type": "team-tr",
     "activeDate": "2026-05-15",
     "targets": [
-     "Beşiktaş",
-     "Kayserispor",
-     "Yeni Malatyaspor",
-     "Sivasspor",
-     "Antalyaspor",
-     "Konyaspor",
-     "Gaziantepspor",
-     "Eskişehirspor",
-     "Alanyaspor"
+      "Beşiktaş",
+      "Kayserispor",
+      "Yeni Malatyaspor",
+      "Sivasspor",
+      "Antalyaspor",
+      "Konyaspor",
+      "Gaziantepspor",
+      "Eskişehirspor",
+      "Alanyaspor"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 36,
     "game": "listeyi-tamamla",
@@ -681,16 +675,15 @@
     "type": "team-all",
     "activeDate": "2026-05-16",
     "targets": [
-     "Galatasaray",
-     "Fenerbahçe",
-     "Başakşehir",
-     "Atletico Madrid",
-     "Inter",
-     "Newcastle"
+      "Galatasaray",
+      "Fenerbahçe",
+      "Başakşehir",
+      "Atletico Madrid",
+      "Inter",
+      "Newcastle"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 37,
     "game": "listeyi-tamamla",
@@ -698,15 +691,14 @@
     "type": "team-all",
     "activeDate": "2026-05-17",
     "targets": [
-    "Karlsruhe",
-    "Hamburg",
-    "Leverkusen",
-    "Inter",
-    "Milan"
+      "Karlsruhe",
+      "Hamburg",
+      "Leverkusen",
+      "Inter",
+      "Milan"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 38,
     "game": "listeyi-tamamla",
@@ -714,38 +706,37 @@
     "type": "player",
     "activeDate": "2026-05-18",
     "targets": [
-   "Kerem Aktürkoğlu",
-   "Ferdi Kadıoğlu",
-   "Mert Müldür",
-   "Kenan Yıldız",
-   "Arda Güler",
-   "İrfan Can Kahveci",
-   "Zeki Çelik",
-   "Yunus Akgün",
-   "Merih Demiral",
-   "Hakan Çalhanoğlu",
-   "Salih Özcan",
-   "Deniz Gül"
+      "Kerem Aktürkoğlu",
+      "Ferdi Kadıoğlu",
+      "Mert Müldür",
+      "Kenan Yıldız",
+      "Arda Güler",
+      "İrfan Can Kahveci",
+      "Zeki Çelik",
+      "Yunus Akgün",
+      "Merih Demiral",
+      "Hakan Çalhanoğlu",
+      "Salih Özcan",
+      "Deniz Gül"
     ],
     "difficulty": "kolay"
   },
-{
+  {
     "id": 39,
     "game": "listeyi-tamamla",
     "title": "Türkiye'nin 2002 Dünya Kupasında karşılaştığı ülkeler?",
     "type": "country",
     "activeDate": "2026-05-19",
     "targets": [
-   "Brezilya",
-   "Çin",
-   "Kosta Rika",
-   "Japonya",
-   "Senegal",
-   "Güney Kore"
+      "Brezilya",
+      "Çin",
+      "Kosta Rika",
+      "Japonya",
+      "Senegal",
+      "Güney Kore"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 40,
     "game": "listeyi-tamamla",
@@ -753,15 +744,14 @@
     "type": "country",
     "activeDate": "2026-05-20",
     "targets": [
-   "Portekiz",
-   "Çekya",
-   "İsviçre",
-   "Hırvatistan",
-   "Almanya"
+      "Portekiz",
+      "Çekya",
+      "İsviçre",
+      "Hırvatistan",
+      "Almanya"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 41,
     "game": "listeyi-tamamla",
@@ -769,18 +759,17 @@
     "type": "player",
     "activeDate": "2026-05-21",
     "targets": [
-   "Vincent Aboubakar",
-   "Bobo",
-   "Ricardo Quaresma",
-   "Daniel Pancu",
-   "Matias Delgado",
-   "Demba Ba",
-   "Anderson Talisca",
-   "Ryan Babel"
+      "Vincent Aboubakar",
+      "Bobo",
+      "Ricardo Quaresma",
+      "Daniel Pancu",
+      "Matias Delgado",
+      "Demba Ba",
+      "Anderson Talisca",
+      "Ryan Babel"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 42,
     "game": "listeyi-tamamla",
@@ -788,18 +777,15 @@
     "type": "player",
     "activeDate": "2026-05-22",
     "targets": [
-   "Uğurcan Çakır",
-   "Anastasios Bakasetas",
-   "Berat Özdemir",
-   "Abdulkadir Ömür",
-   "Vitor Hugo",
-   "Djaniny"
-   
-
+      "Uğurcan Çakır",
+      "Anastasios Bakasetas",
+      "Berat Özdemir",
+      "Abdulkadir Ömür",
+      "Vitor Hugo",
+      "Djaniny"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 43,
     "game": "listeyi-tamamla",
@@ -807,20 +793,18 @@
     "type": "player",
     "activeDate": "2026-05-23",
     "targets": [
-   "Ederson",
-   "Fred",
-   "Anderson Talisca",
-   "Davinson Sanchez",
-   "Mauro Icardi",
-   "Lucas Torreira",
-   "Gabriel Sara",
-   "Yaser Asprilla",
-   "Devis Vasquez"
-
+      "Ederson",
+      "Fred",
+      "Anderson Talisca",
+      "Davinson Sanchez",
+      "Mauro Icardi",
+      "Lucas Torreira",
+      "Gabriel Sara",
+      "Yaser Asprilla",
+      "Devis Vasquez"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 44,
     "game": "listeyi-tamamla",
@@ -828,7 +812,6 @@
     "type": "team-tr",
     "activeDate": "2026-05-24",
     "targets": [
-
       "Galatasaray",
       "Fenerbahçe",
       "Beşiktaş",
@@ -838,12 +821,9 @@
       "Gençlerbirliği",
       "Ankaragücü",
       "Kocaelispor"
-  
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 45,
     "game": "listeyi-tamamla",
@@ -851,7 +831,6 @@
     "type": "team-tr",
     "activeDate": "2026-05-25",
     "targets": [
-
       "Beşiktaş",
       "Fenerbahçe",
       "Trabzonspor",
@@ -861,12 +840,9 @@
       "Osmanlıspor",
       "Bursaspor",
       "Pendikspor"
-  
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 46,
     "game": "listeyi-tamamla",
@@ -874,7 +850,6 @@
     "type": "player",
     "activeDate": "2026-05-26",
     "targets": [
-
       "Altay Bayındır",
       "Zeki Çelik",
       "Ferdi Kadıoğlu",
@@ -889,12 +864,9 @@
       "Arda Güler",
       "Can Uzun",
       "Kenan Yıldız"
-  
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 47,
     "game": "listeyi-tamamla",
@@ -902,15 +874,12 @@
     "type": "player",
     "activeDate": "2026-05-27",
     "targets": [
-
       "Kerem Aktürkoğlu",
       "Mert Müldür",
       "İsmail Yüksek"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 48,
     "game": "listeyi-tamamla",
@@ -918,17 +887,14 @@
     "type": "team-all",
     "activeDate": "2026-05-28",
     "targets": [
-
       "Wolfsburg",
       "Manchester City",
       "Roma",
       "Inter",
       "Fenerbahçe"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 49,
     "game": "listeyi-tamamla",
@@ -936,7 +902,6 @@
     "type": "player",
     "activeDate": "2026-05-29",
     "targets": [
-
       "Victor Nelsson",
       "Davinson Sanchez",
       "Ismael Jakobs",
@@ -953,9 +918,6 @@
     ],
     "difficulty": "kolay"
   },
-
-
-
   {
     "id": 50,
     "game": "listeyi-tamamla",
@@ -963,7 +925,6 @@
     "type": "team-all",
     "activeDate": "2026-05-30",
     "targets": [
-
       "Real Madrid",
       "Bayern Münih",
       "Barcelona",
@@ -981,12 +942,9 @@
       "Celtic",
       "PSG",
       "Dortmund"
-
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 51,
     "game": "listeyi-tamamla",
@@ -994,20 +952,17 @@
     "type": "player",
     "activeDate": "2026-05-31",
     "targets": [
- 
-  "Leroy Sane",
-  "Dries Mertens",
-  "Younes Belhanda",
-  "Wesley Sneijder",
-  "Felipe Melo",
-  "Arda Turan",
-  "Cassio Lincoln",
-  "Necati Ateş"
-
+      "Leroy Sane",
+      "Dries Mertens",
+      "Younes Belhanda",
+      "Wesley Sneijder",
+      "Felipe Melo",
+      "Arda Turan",
+      "Cassio Lincoln",
+      "Necati Ateş"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 52,
     "game": "listeyi-tamamla",
@@ -1015,19 +970,16 @@
     "type": "player",
     "activeDate": "2026-06-01",
     "targets": [
- 
-  "Gheorghe Hagi",
-  "Wesley Sneijder",
-  "Alvaro Morata",
-  "Hamit Altıntop",
-  "Jose Rodriguez",
-  "Elvir Baljic",
-  "Flavio Conceicao"
-
+      "Gheorghe Hagi",
+      "Wesley Sneijder",
+      "Alvaro Morata",
+      "Hamit Altıntop",
+      "Jose Rodriguez",
+      "Elvir Baljic",
+      "Flavio Conceicao"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 53,
     "game": "listeyi-tamamla",
@@ -1035,7 +987,6 @@
     "type": "player",
     "activeDate": "2026-06-02",
     "targets": [
-
       "Mehmet Yozgatlı",
       "Burak Yılmaz",
       "Sergen Yalçın",
@@ -1043,22 +994,17 @@
       "Mehmet Topal",
       "Michy Batshuayi",
       "Emre Aşık"
- 
-  
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 54,
     "game": "listeyi-tamamla",
-    "title": "Milli takımımızın Dünya Kupası aday kadrosuna alınıp 26 kişilik nihai kadroya dahil edilmeyen futbolcular? ",
+    "title": "Milli takımımızın Dünya Kupası aday kadrosuna alınıp 26 kişilik nihai kadroya dahil edilmeyen futbolcular?",
     "type": "player",
     "activeDate": "2026-06-03",
     "targets": [
-
-      "Muhammet Şengezer",
+      "Muhammed Şengezer",
       "Ersin Destanoğlu",
       "Yusuf Akçiçek",
       "Ahmetcan Kaplan",
@@ -1067,30 +1013,7 @@
       "Demir Ege Tıknaz",
       "Yusuf Sarı",
       "Aral Şimşir"
- 
     ],
     "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
