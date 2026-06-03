@@ -238,6 +238,58 @@ export default function HomeClient() {
         </div>
       </section>
 
+      {/* Mobil Uygulama */}
+      <section aria-label="Mobil uygulama" className="w-full max-w-5xl relative z-10 px-4 mt-20">
+        <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-8 flex flex-col md:flex-row items-center justify-between gap-8">
+          <div className="flex-1 text-center md:text-left">
+            <p className="text-xs text-red-600 tracking-[0.2em] uppercase font-medium mb-3">Mobil Uygulama</p>
+            <h2 className="text-2xl font-light text-white mb-3 tracking-tight">
+              Her yerde oyna
+            </h2>
+            <p className="text-slate-500 text-sm leading-relaxed max-w-sm">
+              Futbol Trivia artık cebinde. Her gün yenilenen sorular, kişisel istatistikler ve 4 oyun modu — iOS ve Android'de ücretsiz.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+            {/* App Store butonu */}
+            <a
+              href="https://apps.apple.com/tr/app/futbol-trivia/id0000000000"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 bg-white text-black px-5 py-3 rounded-xl hover:bg-slate-100 transition-colors group"
+              aria-label="App Store'dan indir"
+            >
+              <svg width="20" height="24" viewBox="0 0 20 24" fill="currentColor" aria-hidden="true">
+                <path d="M16.462 12.748c-.024-2.652 2.163-3.944 2.263-4.005-1.233-1.803-3.15-2.05-3.831-2.074-1.626-.165-3.182.963-4.006.963-.824 0-2.09-.942-3.44-.915-1.763.027-3.393 1.03-4.298 2.606-1.84 3.193-.47 7.927 1.322 10.518.878 1.268 1.924 2.688 3.296 2.637 1.326-.053 1.826-.853 3.429-.853 1.603 0 2.058.853 3.458.823 1.426-.027 2.33-1.284 3.2-2.558.997-1.46 1.41-2.874 1.432-2.946-.031-.013-2.75-1.052-2.775-4.196zm-2.598-7.698c.73-.884 1.22-2.106 1.086-3.328-1.05.043-2.318.7-3.07 1.581-.673.78-1.264 2.03-1.108 3.224 1.175.089 2.362-.596 3.092-1.477z"/>
+              </svg>
+              <div>
+                <p className="text-[10px] leading-none opacity-70">İndir</p>
+                <p className="text-sm font-semibold leading-tight">App Store</p>
+              </div>
+            </a>
+            {/* Google Play butonu */}
+            <a
+              href="https://play.google.com/store/apps/details?id=com.futboltrivia.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 bg-white text-black px-5 py-3 rounded-xl hover:bg-slate-100 transition-colors group"
+              aria-label="Google Play'den indir"
+            >
+              <svg width="20" height="22" viewBox="0 0 20 22" fill="none" aria-hidden="true">
+                <path d="M0.432 21.257c.17.1.37.127.566.073l11.54-6.666-2.5-2.5L0.432 21.257z" fill="#EA4335"/>
+                <path d="M19.568 9.569 16.57 7.858 13.762 10.5l2.806 2.808 2.997-1.731a1.09 1.09 0 0 0 0-2.008z" fill="#FBBC04"/>
+                <path d="M.432.743a1.093 1.093 0 0 0-.432.88v18.754c0 .36.168.7.432.88l.106.084 10.5-10.5v-.247L.538.659.432.743z" fill="#4285F4"/>
+                <path d="M12.538 14.664 1 21.33c-.186.114-.41.14-.62.078l-.002.002.002.002c.19.11.411.127.618.047l11.54-6.795z" fill="#34A853"/>
+              </svg>
+              <div>
+                <p className="text-[10px] leading-none opacity-70">İndir</p>
+                <p className="text-sm font-semibold leading-tight">Google Play</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="w-full mt-auto pt-16 pb-12 relative z-10 border-t border-slate-900/50">
         <div className="max-w-5xl mx-auto px-6">

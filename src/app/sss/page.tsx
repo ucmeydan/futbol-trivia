@@ -213,6 +213,27 @@ const sections = [
       },
     ],
   },
+  {
+    title: 'Mobil Uygulama',
+    items: [
+      {
+        q: 'Futbol Trivia\'nın mobil uygulaması var mı?',
+        a: 'Evet! Futbol Trivia, iOS ve Android için ücretsiz bir mobil uygulama olarak da sunulmaktadır. App Store ve Google Play üzerinden indirebilirsin.',
+      },
+      {
+        q: 'Mobil uygulama ile web sitesi arasındaki fark nedir?',
+        a: 'Oyun içeriği aynıdır; tüm sorular ve oyun modları her iki platformda da mevcuttur. Mobil uygulama; haptic feedback (titreşim geri bildirimi), günlük hatırlatma bildirimleri ve daha akıcı bir mobil deneyim sunar.',
+      },
+      {
+        q: 'Web\'de oynadığım istatistikler mobil uygulamaya aktarılıyor mu?',
+        a: 'Hayır, istatistikler cihazda yerel olarak saklanır. Web ve mobil ayrı ayrı kayıt tutar; senkronizasyon şu an desteklenmemektedir.',
+      },
+      {
+        q: 'Bildirim almak istemiyorum, nasıl kapatabilirim?',
+        a: 'Uygulamada İstatistik sekmesine gir — sayfanın alt kısmında "Günlük Hatırlatma" toggle\'ı bulunur. Oradan bildirimleri açıp kapatabilirsin. Ayrıca telefonunun ayarlarından da uygulama bildirimlerini yönetebilirsin.',
+      },
+    ],
+  },
 ];
 
 export default function SSSPage() {

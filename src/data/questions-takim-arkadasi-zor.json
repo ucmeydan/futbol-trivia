@@ -1816,7 +1816,37 @@
       }
     ],
     "difficulty": "zor"
-}
+},
+
+{
+    "id": 63,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-04",
+    "correctPlayer": "Andre Ayew",
+    "teammates": [
+      {
+        "name": "Loic Remy",
+        "info": "2010-13 yılları arasında Marsilya'da oynadılar"
+      },
+      {
+        "name": "Arthur Masuaku",
+        "info": "2016-18 yılları arasında West Ham'de oynadılar"
+      },
+      {
+        "name": "İsmail Köybaşı",
+        "info": "2018-19 sezonunda Fenerbahçe'de oynadılar"
+      },
+      {
+        "name": "Rodrigo Tabata",
+        "info": "2021-23 yılları arasında Al Sadd'da oynadılar"
+      },
+      {
+        "name": "Wilfried Bony",
+        "info": "2017-19 yılları arasında Swansea'da oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  }
 
 
 

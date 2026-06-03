@@ -1483,7 +1483,33 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 73,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla gol atan 10 İtalyan futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-04",
+    "targets": [
+
+     "Fabio Borini",
+     "Mario Balotelli",
+     "Stefano Napoleoni",
+     "Ciro Immobile",
+     "Stefano Okaka",
+     "Andrea Bertolacci",
+     "Nicolo Zaniolo",
+     "Franco Tongya",
+     "Joao Pedro",
+     "Federico Macheda"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

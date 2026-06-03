@@ -1015,5 +1015,29 @@
       "Aral Şimşir"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 55,
+    "game": "listeyi-tamamla",
+    "title": "Bonservisi Fenerbahçe'de bulunup 2026 Dünya Kupası'nda mücadele edecek futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-04",
+    "targets": [
+      "Ederson",
+      "Dominik Livakovic",
+      "N'golo Kante",
+      "Kerem Aktürkoğlu",
+      "Oğuz Aydın",
+      "Çağlar Söyüncü",
+      "Mert Müldür",
+      "Mert Günok",
+      "İsmail Yüksek",
+      "İrfan Can Kahveci",
+      "Nelson Semedo"
+
+
+    ],
+    "difficulty": "kolay"
   }
 ]

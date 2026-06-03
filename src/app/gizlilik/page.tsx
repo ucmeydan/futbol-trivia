@@ -68,15 +68,16 @@ export default function GizlilikPage() {
           <header className="mb-12">
             <p className="text-xs text-red-600 tracking-[0.2em] uppercase font-medium mb-3">Yasal</p>
             <h1 className="text-4xl font-light text-white tracking-tight mb-4">Gizlilik Politikası</h1>
-            <p className="text-slate-500 text-sm">Son güncelleme: 25 Mart 2026 &nbsp;·&nbsp; Sürüm 1.1</p>
+            <p className="text-slate-500 text-sm">Son güncelleme: 3 Haziran 2026 &nbsp;·&nbsp; Sürüm 1.2</p>
           </header>
 
           <section className="mb-10">
             <p className="leading-relaxed font-light">
               FutbolTrivia olarak kullanıcı gizliliğine saygı duyuyoruz. Bu sayfa,{' '}
               <strong className="text-slate-200 font-normal">futboltrivia.com.tr</strong>{' '}
-              adresinde hangi verilerin toplandığını, nasıl kullanıldığını ve haklarınızın neler
-              olduğunu açıklamaktadır. Sitemizi kullanmaya devam ederek bu politikayı kabul etmiş
+              web sitesi ile <strong className="text-slate-200 font-normal">iOS ve Android mobil uygulamalarında</strong>{' '}
+              hangi verilerin toplandığını, nasıl kullanıldığını ve haklarınızın neler
+              olduğunu açıklamaktadır. Hizmetlerimizi kullanmaya devam ederek bu politikayı kabul etmiş
               sayılırsınız.
             </p>
           </section>
@@ -88,13 +89,31 @@ export default function GizlilikPage() {
               <p className="mb-3">
                 FutbolTrivia herhangi bir kişisel kimlik bilgisi toplamaz ve sunuculara göndermez.
                 Oyun istatistikleri (toplam oyun sayısı, günlük seri, tahmin dağılımı), günlük
-                katılım durumları ve kullanıcı tercihleri yalnızca tarayıcınızdaki{' '}
-                <code className="text-red-400 text-sm bg-slate-900 px-1.5 py-0.5 rounded">localStorage</code>{' '}
-                alanında saklanır.
+                katılım durumları ve kullanıcı tercihleri yalnızca cihazınızda yerel olarak saklanır.
+                Web tarayıcısında{' '}
+                <code className="text-red-400 text-sm bg-slate-900 px-1.5 py-0.5 rounded">localStorage</code>,
+                mobil uygulamada ise{' '}
+                <code className="text-red-400 text-sm bg-slate-900 px-1.5 py-0.5 rounded">AsyncStorage</code>{' '}
+                kullanılmaktadır.
               </p>
               <p>
-                Bu veriler cihazınızdan dışarıya aktarılmaz, üçüncü taraflarla paylaşılmaz.
-                Tarayıcı verilerini temizlediğinizde istatistikleriniz sıfırlanır.
+                Bu veriler cihazınızdan dışarıya aktarılmaz, sunucularımıza gönderilmez ve
+                üçüncü taraflarla paylaşılmaz. Uygulama verilerini temizlediğinizde
+                istatistikleriniz sıfırlanır.
+              </p>
+            </section>
+
+            <section aria-labelledby="mobil-uygulama">
+              <SectionTitle id="mobil-uygulama">Mobil uygulama</SectionTitle>
+              <p className="mb-3">
+                FutbolTrivia iOS ve Android uygulamaları bu gizlilik politikasına tabidir.
+                Mobil uygulama herhangi bir kişisel veri toplamaz, hesap oluşturma gerektirmez
+                ve ağ bağlantısı yalnızca soru verilerini güncellemek amacıyla kullanılır.
+              </p>
+              <p>
+                Uygulama mağazaları (App Store ve Google Play) kendi gizlilik koşullarını
+                uygulayabilir. Bu platformlara ilişkin gizlilik bilgileri için Apple ve
+                Google'ın politikalarını incelemenizi öneririz.
               </p>
             </section>
 
@@ -204,7 +223,7 @@ export default function GizlilikPage() {
 
           <footer className="mt-10 pb-10">
             <p className="text-[10px] text-slate-800 tracking-widest uppercase">
-              © 2026 FutbolTrivia · Son güncelleme: 25 Mart 2026 · Sürüm 1.1
+              © 2026 FutbolTrivia · Son güncelleme: 3 Haziran 2026 · Sürüm 1.2
             </p>
           </footer>
 

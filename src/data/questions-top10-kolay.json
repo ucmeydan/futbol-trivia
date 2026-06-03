@@ -1204,10 +1204,35 @@
    "Leroy Sane",
    "Kerem Aktürkoğlu"
     
+    ],
+    "difficulty": "kolay"
+},
 
+{
+    "id": 55,
+    "game": "top10",
+    "title": "EURO 2024'te milli takımımızın formasıyla en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-04",
+    "targets": [
+   "Ferdi Kadıoğlu",
+   "Barış Alper Yılmaz",
+   "Kaan Ayhan",
+   "Mert Günok",
+   "Abdülkerim Bardakcı",
+   "Hakan Çalhanoğlu",
+   "Kenan Yıldız",
+   "Mert Müldür",
+   "Arda Güler",
+   "Samet Akaydın"
+    
     ],
     "difficulty": "kolay"
 }
+
+
+
+
 
 
 
