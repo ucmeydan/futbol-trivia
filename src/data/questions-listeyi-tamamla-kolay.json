@@ -1039,5 +1039,23 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 56,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'de Alex De Souza ile 150'den fazla maça çıkan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-05",
+    "targets": [
+      "Volkan Demirel",
+      "Selçuk Şahin",
+      "Semih Şentürk",
+      "Gökhan Gönül",
+      "Mehmet Aurelio",
+      "Diego Lugano",
+      "Önder Turacı"
+    ],
+    "difficulty": "kolay"
   }
 ]

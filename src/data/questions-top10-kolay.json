@@ -1228,7 +1228,30 @@
     
     ],
     "difficulty": "kolay"
-}
+},
+
+{
+    "id": 56,
+    "game": "top10",
+    "title": "Fenerbahçe'yi çalıştıran son 10 yabancı teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-06-05",
+    "targets": [
+      "Domenico Tedesco",
+      "Jose Mourinho",
+      "Jorge Jesus",
+      "Vitor Pereira",
+      "Erwin Koeman",
+      "Phillip Cocu",
+      "Dick Advocaat",
+      "Christoph Daum",
+      "Luis Aragones",
+      "Zico"
+
+
+    ],
+    "difficulty": "kolay"
+  }
 
 
 

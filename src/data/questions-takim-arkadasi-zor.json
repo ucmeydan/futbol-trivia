@@ -1846,7 +1846,37 @@
       }
     ],
     "difficulty": "zor"
-  }
+  },
+
+  {
+    "id": 64,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-05",
+    "correctPlayer": "Franck Ribery",
+    "teammates": [
+      {
+        "name": "Mamadou Niang",
+        "info": "2005-07 yılları arasında Marsilya'da birlikte oynadılar"
+      },
+      {
+        "name": "Dusan Vlahovic",
+        "info": "2019-21 yılları arasında Fiorentina'da birlikte oynadılar"
+      },
+      {
+        "name": "Luca Toni",
+        "info": "2007-09 yılları arasında Bayern'de birlikte oynadılar"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "info": "2014-19 yılları arasında Bayern'de birlikte oynadılar"
+      },
+      {
+        "name": "Faryd Mondragon",
+        "info": "2004-05 sezonunda Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+}
 
 
 

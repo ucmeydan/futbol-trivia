@@ -1507,6 +1507,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 74,
+    "game": "top10",
+    "title": "Süper Lig'i son sırada bitiren son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-06-05",
+    "targets": [
+      "Fatih Karagümrük",
+      "Adana Demirspor",
+      "İstanbulspor",
+      "Hatayspor",
+      "Yeni Malatyaspor",
+      "Denizlispor",
+      "Ankaragücü",
+      "Akhisar Belediyespor",
+      "Karabükspor",
+      "Adanaspor"
+      
+    ],
+    "difficulty": "zor"
   }
 
 
