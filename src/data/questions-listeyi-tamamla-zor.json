@@ -1667,6 +1667,23 @@
       "Kütahyaspor"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 75,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 100'den fazla maça çıkan Arjantinli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-06",
+    "targets": [
+      "Pablo Batalla",
+      "Jose Sosa",
+      "Cristian Zurita",
+      "Gustavo Colman",
+      "Oscar Scarione",
+      "Franco Cangele"
+    ],
+    "difficulty": "zor"
   }
 
 

@@ -1251,6 +1251,28 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 57,
+    "game": "top10",
+    "title": "Süper Lig'de 2024-25 sezonunu ilk 10 sırada bitiren takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-06-06",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Samsunspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Eyüpspor",
+      "Trabzonspor",
+      "Göztepe",
+      "Rizespor",
+      "Kasımpaşa"
+
+    ],
+    "difficulty": "kolay"
   }
 
 

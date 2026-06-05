@@ -1057,5 +1057,25 @@
       "Önder Turacı"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 57,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de bu sezon 18 ve üzeri gol katkısı (Gol + Asist) yapan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-06",
+    "targets": [
+      "Paul Onuachu",
+      "Marco Asensio",
+      "Eldor Shomurodov",
+      "Anderson Talisca",
+      "Mohamed Bayo",
+      "Barış Alper Yılmaz",
+      "Victor Osimhen",
+      "Yunus Akgün",
+      "Orkun Kökçü"
+    ],
+    "difficulty": "kolay"
   }
 ]
