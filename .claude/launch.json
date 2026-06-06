@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "expo-web",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd FutbolTriviaApp && npx expo start --web --port 19006"],
+      "port": 19006
+    }
+  ]
+}

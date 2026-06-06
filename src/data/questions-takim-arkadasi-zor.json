@@ -1906,7 +1906,39 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 66,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-07",
+    "correctPlayer": "Domagoj Vida",
+    "teammates": [
+      {
+        "name": "Michael Ballack",
+        "info": "2010-11 sezonunda Leverkusen'de birlikte oynadılar"
+      },
+      {
+        "name": "Andrej Kramaric",
+        "info": "2011-13 yılları arasında Dinamo Zagreb'te birlikte oynadılar"
+      },
+      {
+        "name": "Adem Ljajic",
+        "info": "2018-22 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Younes Belhanda",
+        "info": "2013-16 yılları arasında Dinamo Kiev'de birlikte oynadılar"
+      },
+      {
+        "name": "Miralem Pjanic",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
+
+
 
 
 

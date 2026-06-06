@@ -1273,7 +1273,31 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 58,
+    "game": "top10",
+    "title": "Milli takımımızın Avrupa şampiyonalarında karşılaştığı son 10 ülke?",
+    "type": "country",
+    "activeDate": "2026-06-07",
+    "targets": [
+      "Hollanda",
+      "Avusturya",
+      "Çekya",
+      "Portekiz",
+      "Gürcistan",
+      "İsviçre",
+      "Galler",
+      "İtalya",
+      "İspanya",
+      "Hırvatistan"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

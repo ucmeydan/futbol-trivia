@@ -1,0 +1,29 @@
+# Claude Code worktree'leri (çok büyük, build için gerek yok)
+../.claude/
+../.expo/
+
+# Kullanılmayan ikinci Expo projesi
+../FutbolTriviaApp54/
+
+# Web projesi dosyaları (Next.js)
+../src/
+../public/
+../.next/
+../node_modules/
+../eslint.config.mjs
+../next.config.ts
+../next-env.d.ts
+../postcss.config.mjs
+../tsconfig.json
+../tsconfig.tsbuildinfo
+../package.json
+../package-lock.json
+../README.md
+
+# Kendi node_modules (EAS cloud'da yeniden kurulur)
+node_modules/
+
+# Geliştirme dosyaları
+.expo/
+*.log
+store-metadata.md

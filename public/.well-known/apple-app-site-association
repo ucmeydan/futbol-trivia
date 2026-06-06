@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TEAMID.com.futboltrivia.app",
+        "paths": [
+          "/listeyi-tamamla/*",
+          "/top10/*",
+          "/kariyer-yolu/*",
+          "/takim-arkadasi/*",
+          "/*"
+        ]
+      }
+    ]
+  }
+}

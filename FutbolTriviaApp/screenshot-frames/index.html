@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futbol Trivia — App Store Screenshot Frames</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #111; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 40px 20px; }
+    h1 { color: #fff; text-align: center; margin-bottom: 8px; font-size: 24px; }
+    p.sub { color: #666; text-align: center; margin-bottom: 40px; font-size: 13px; }
+
+    .grid { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; }
+
+    .frame {
+      width: 390px;        /* iPhone 15 Pro width */
+      background: #020617;
+      border-radius: 28px;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 24px 80px rgba(0,0,0,0.6);
+    }
+
+    .frame-header {
+      padding: 28px 24px 20px;
+      text-align: center;
+    }
+
+    .frame-tag {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #dc2626;
+      margin-bottom: 8px;
+    }
+
+    .frame-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.2;
+    }
+
+    .frame-img {
+      width: 100%;
+      display: block;
+      border-radius: 16px 16px 0 0;
+      margin-top: 8px;
+    }
+
+    /* Renkli arka plan varyantları */
+    .bg-green  { background: linear-gradient(160deg, #052e16 0%, #020617 60%); }
+    .bg-amber  { background: linear-gradient(160deg, #1c1209 0%, #020617 60%); }
+    .bg-blue   { background: linear-gradient(160deg, #0c1a2e 0%, #020617 60%); }
+    .bg-red    { background: linear-gradient(160deg, #1c0a0a 0%, #020617 60%); }
+    .bg-purple { background: linear-gradient(160deg, #150c1f 0%, #020617 60%); }
+    .bg-dark   { background: #020617; }
+
+    .print-hint {
+      color: #444;
+      text-align: center;
+      font-size: 12px;
+      margin-top: 48px;
+      padding-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <h1>⚽ Futbol Trivia</h1>
+  <p class="sub">App Store & Google Play — Ekran Görüntüsü Çerçeveleri<br>
+  Tarayıcıda aç → Sağ tık → "Farklı Kaydet" ile her kareyi kaydet</p>
+
+  <div class="grid">
+
+    <!-- 1. Ana Ekran -->
+    <div class="frame bg-red">
+      <div class="frame-header">
+        <span class="frame-tag">Futbol Trivia</span>
+        <div class="frame-title">4 Oyun Modu,<br>Her Gün Yeni Sorular</div>
+      </div>
+      <img class="frame-img" src="../screenshots/1-ana-ekran.png" alt="Ana Ekran"
+           onerror="this.style.background='#0f172a';this.style.height='600px';this.alt='Ana Ekran görüntüsü buraya'">
+    </div>
+
+    <!-- 2. Listeyi Tamamla -->
+    <div class="frame bg-green">
+      <div class="frame-header">
+        <span class="frame-tag">Listeyi Tamamla</span>
+        <div class="frame-title">90 Saniyede<br>Ne Kadar Bulursun?</div>
+      </div>
+      <img class="frame-img" src="../screenshots/2-listeyi-tamamla.png" alt="Listeyi Tamamla"
+           onerror="this.style.background='#0f172a';this.style.height='600px'">
+    </div>
+
+    <!-- 3. Top 10 -->
+    <div class="frame bg-amber">
+      <div class="frame-header">
+        <span class="frame-tag">Top 10</span>
+        <div class="frame-title">10 İsmi Bul,<br>3 Yanlış Hakkın Var</div>
+      </div>
+      <img class="frame-img" src="../screenshots/3-top10.png" alt="Top 10"
+           onerror="this.style.background='#0f172a';this.style.height='600px'">
+    </div>
+
+    <!-- 4. Kariyer Yolu -->
+    <div class="frame bg-blue">
+      <div class="frame-header">
+        <span class="frame-tag">Kariyer Yolu</span>
+        <div class="frame-title">Kariyer Tablosundan<br>Futbolcuyu Tahmin Et</div>
+      </div>
+      <img class="frame-img" src="../screenshots/4-kariyer-yolu.png" alt="Kariyer Yolu"
+           onerror="this.style.background='#0f172a';this.style.height='600px'">
+    </div>
+
+    <!-- 5. Takım Arkadaşı -->
+    <div class="frame bg-red">
+      <div class="frame-header">
+        <span class="frame-tag">Takım Arkadaşı</span>
+        <div class="frame-title">İpuçlarından<br>Kim Olduğunu Bul</div>
+      </div>
+      <img class="frame-img" src="../screenshots/5-takim-arkadasi.png" alt="Takım Arkadaşı"
+           onerror="this.style.background='#0f172a';this.style.height='600px'">
+    </div>
+
+    <!-- 6. İstatistikler -->
+    <div class="frame bg-purple">
+      <div class="frame-header">
+        <span class="frame-tag">İstatistikler</span>
+        <div class="frame-title">Kişisel Skorunu<br>Takip Et</div>
+      </div>
+      <img class="frame-img" src="../screenshots/6-istatistikler.png" alt="İstatistikler"
+           onerror="this.style.background='#0f172a';this.style.height='600px'">
+    </div>
+
+  </div>
+
+  <p class="print-hint">
+    💡 Her çerçeveyi ayrı ayrı kaydetmek için: sağ tık → "Resmi farklı kaydet"<br>
+    veya tarayıcıda Cmd+P → "PDF olarak kaydet" ile tüm sayfayı yazdır.
+  </p>
+</body>
+</html>

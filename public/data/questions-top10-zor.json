@@ -1,0 +1,1527 @@
+[
+  {
+    "id": 1,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en çok maça çıkan 10 yabancı oyuncu?",
+    "type": "player",
+    "activeDate": "2026-03-24",
+    "targets": [
+      "Fernando Muslera",
+      "Faryd Mondragon",
+      "Cevad Prekazi",
+      "Zoran Simovic",
+      "Gheorghe Hagi",
+      "Gheorghe Popescu",
+      "Wesley Sneijder",
+      "Lucas Torreira",
+      "Sofiane Feghouli",
+      "Ryan Donk"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 2,
+    "game": "top10",
+    "title": "Süper Lig tarihinin en golcü 10 Brezilyalı oyuncusu?",
+    "type": "player",
+    "activeDate": "2026-03-25",
+    "targets": [
+      "Alex De Souza",
+      "Marcio Nobre",
+      "Bobo",
+      "Tita",
+      "Fernandao",
+      "Jaba",
+      "Anderson Talisca",
+      "Vagner Love",
+      "Wederson",
+      "Doka Madureira"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 3,
+    "game": "top10",
+    "title": "Beşiktaş'ın Avrupa kupalarında mağlup ettiği son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-03-26",
+    "targets": [
+      "St. Patricks Athletic",
+      "Athletic Bilbao",
+      "Malmö",
+      "Lyon",
+      "Lugano",
+      "Dinamo Kiev",
+      "Neftçi Bakü",
+      "Tirana",
+      "Slovan Bratislava",
+      "Sarpsborg"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 4,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en çok maça çıkan 10 Hollandalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-03-27",
+    "targets": [
+      "Ryan Babel",
+      "Wesley Sneijder",
+      "Jeremain Lens",
+      "Dirk Kuyt",
+      "Rick van Drongelen",
+      "Sander van de Streek",
+      "Leroy Fer",
+      "Eljero Elia",
+      "Jayden Oosterwolde",
+      "Robin van Persie"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 5,
+    "game": "top10",
+    "title": "Türkiye Kupasını kazanan son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-03-28",
+    "targets": [
+      "Galatasaray",
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Sivasspor",
+      "Trabzonspor",
+      "Akhisar Belediyespor",
+      "Konyaspor",
+      "Kayserispor",
+      "Kocaelispor",
+      "Gençlerbirliği"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 6,
+    "game": "top10",
+    "title": "Süper Lig'de gol krallığı yaşayan son 10 yerli futbolcu?",
+    "type": "player",
+    "activeDate": "2026-03-29",
+    "targets": [
+      "Umut Bozok",
+      "Burak Yılmaz",
+      "Semih Şentürk",
+      "Gökhan Ünal",
+      "Fatih Tekke",
+      "Zafer Biryol",
+      "Okan Yılmaz",
+      "Arif Erdem",
+      "İlhan Mansız",
+      "Serkan Aykut"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 7,
+    "game": "top10",
+    "title": "Trabzonspor'un Avrupa kupalarında mağlup ettiği son 10 takım? (Ön elemeler dahil)",
+    "type": "team-eu",
+    "activeDate": "2026-03-30",
+    "targets": [
+      "Ruzomberok",
+      "Basel",
+      "Ferencvaros",
+      "Monaco",
+      "Kızılyıldız",
+      "AEK",
+      "Sparta Prag",
+      "Differdange",
+      "Metalist",
+      "Lokeren"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 8,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de en çok süre alan 10 kaleci?",
+    "type": "player",
+    "activeDate": "2026-03-31",
+    "targets": [
+      "Ivo Grbic",
+      "Andreas Gianniotis",
+      "Mateusz Lis",
+      "Muhammed Şengezer",
+      "Okan Kocuk",
+      "Uğurcan Çakır",
+      "Andre Onana",
+      "Bilal Bayazıt",
+      "Ederson",
+      "Ertuğrul Taşkıran"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 9,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en çok gol atan 10 Arjantinli futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-01",
+    "targets": [
+      "Mauro Icardi",
+      "Pablo Batalla",
+      "Oscar Scarione",
+      "Jose Sosa",
+      "Franco Cangele",
+      "Gustavo Colman",
+      "Matias Delgado",
+      "Leo Iglesias",
+      "Adolfo Gaich",
+      "Osvaldo Nartallo"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 10,
+    "game": "top10",
+    "title": "Süper Lig'i son sırada bitiren son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-04-02",
+    "targets": [
+      "Adana Demirspor",
+      "İstanbulspor",
+      "Hatayspor",
+      "Yeni Malatyaspor",
+      "Denizlispor",
+      "Ankaragücü",
+      "Akhisar Belediyespor",
+      "Karabükspor",
+      "Adanaspor",
+      "Mersin İdman Yurdu"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 11,
+    "game": "top10",
+    "title": "Süper Lig'de 2020/21 sezonunda en çok gol atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-03",
+    "targets": [
+      "Aaron Boupendza",
+      "Cyle Larin",
+      "Mame Diouf",
+      "Adem Büyük",
+      "Alexandru Maxim",
+      "Muhammet Demir",
+      "Vincent Aboubakar",
+      "Hugo Rodallega",
+      "Anastasios Bakasetas",
+      "Enner Valencia"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 12,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en çok maça çıkan 10 Portekizli futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-04",
+    "targets": [
+      "Andre Castro",
+      "Ricardo Quaresma",
+      "Tiago Pinto",
+      "Daniel Candeias",
+      "Miguel Cardoso",
+      "Gedson Fernandes",
+      "Miguel Lopes",
+      "Joao Pereira",
+      "Tiago Lopes",
+      "Manuel Fernandes"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 13,
+    "game": "top10",
+    "title": "TFF 1. Lig'de sezonu ilk sırada tamamlayan son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-04-05",
+    "targets": [
+      "Kocaelispor",
+      "Eyüpspor",
+      "Samsunspor",
+      "Ankaragücü",
+      "Adana Demirspor",
+      "Hatayspor",
+      "Denizlispor",
+      "Rizespor",
+      "Sivasspor",
+      "Adanaspor"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 14,
+    "game": "top10",
+    "title": "Süper Lig'de hat-trick yapan son 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-06",
+    "targets": [
+      "Dorgeles Nene",
+      "Mauro Icardi",
+      "Rafa Silva",
+      "Miguel Cardoso",
+      "Ciro Immobile",
+      "Talisca",
+      "Victor Osimhen",
+      "Krzysztof Piatek",
+      "Pedro Malheiro",
+      "Muhammed Cham"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 15,
+    "game": "top10",
+    "title": "Süper Lig'de 2024-25 sezonunda en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-04-07",
+    "targets": [
+      "Victor Osimhen",
+      "Krzysztof Piatek",
+      "Youssef En Nesyri",
+      "Simon Banza",
+      "Ali Sowe",
+      "Ciro Immobile",
+      "Mame Thiam",
+      "Edin Dzeko",
+      "Romulo",
+      "Nuno Da Costa"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 16,
+    "game": "top10",
+    "title": "Süper Lig'de bu sezon en fazla isabetli şut atan 10 futbolcu? (8 Nisan itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-04-08",
+    "targets": [
+      "Eldor Shomurodov",
+      "Paul Onuachu",
+      "Anderson Talisca",
+      "Victor Osimhen",
+      "Orkun Kökçü",
+      "Felipe Augusto",
+      "Ernest Muçi",
+      "Marco Asensio",
+      "Mohamed Bayo",
+      "Mauro Icardi"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 17,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla gol atan 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-09",
+    "targets": [
+      "Alex De Souza",
+      "Elvir Bolic",
+      "Marcio Nobre",
+      "Edin Visca",
+      "Andre Kona",
+      "Bogdan Stancu",
+      "Bobo",
+      "Mbaye Diagne",
+      "Fernand Coulibaly",
+      "Elvir Baljic"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 18,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de Beşiktaş formasıyla en fazla süre alan 10 oyuncu? (10 Nisan itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-04-10",
+    "targets": [
+      "Orkun Kökçü",
+      "Wilfried Ndidi",
+      "Ersin Destanoğlu",
+      "Vaclav Cerny",
+      "Rıdvan Yılmaz",
+      "Emirhan Topçu",
+      "Gökhan Sazdağı",
+      "El Bilal Toure",
+      "Tammy Abraham",
+      "Tiago Djalo"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 19,
+    "game": "top10",
+    "title": "Süper Lig'de 2023/24 sezonunda en çok gol atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-11",
+    "targets": [
+      "Mauro Icardi",
+      "Edin Dzeko",
+      "Mame Thiam",
+      "Rey Manaj",
+      "Krzysztof Piatek",
+      "Adam Buksa",
+      "Paul Onuachu",
+      "Denis Dragus",
+      "Nuno Da Costa",
+      "Aytaç Kara"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 20,
+    "game": "top10",
+    "title": "La Liga'da en çok maça çıkan 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-12",
+    "targets": [
+      "Enes Ünal",
+      "Nihat Kahveci",
+      "Arda Turan",
+      "Tayfun Korkut",
+      "Okay Yokuşlu",
+      "Arda Güler",
+      "Emre Çolak",
+      "Cenk Özkaçar",
+      "Emre Mor",
+      "Mehmet Topal"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 21,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de en fazla süre alan 2004 ve sonrası doğumlu futbolcular? (10 Nisan itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-04-13",
+    "targets": [
+      "Anthony Dennis",
+      "Felipe Augusto",
+      "Ruan",
+      "Christ Inao Oulai",
+      "Adam Arous",
+      "Barış Kalaycı",
+      "Baran Gezek",
+      "Uchenna Ogundu",
+      "Joseph Nonge",
+      "Jankat Yılmaz"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 22,
+    "game": "top10",
+    "title": "Mevcut Süper Lig oyuncuları arasında Süper Lig tarihinin en golcü oyuncuları?",
+    "type": "player",
+    "activeDate": "2026-04-14",
+    "targets": [
+      "Cenk Tosun",
+      "Edin Visca",
+      "Emre Akbaba",
+      "Mauro Icardi",
+      "Alexandru Maxim",
+      "Umut Nayir",
+      "Anderson Talisca",
+      "Deniz Türüç",
+      "Kerem Aktürkoğlu",
+      "İrfan Can Kahveci"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 23,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en çok maça çıkan yabancı futbolcular? (Sonradan Türk vatandaşı olanlar dahil)",
+    "type": "player",
+    "activeDate": "2026-04-15",
+    "targets": [
+      "Fernando Muslera",
+      "Edin Visca",
+      "Wederson",
+      "Tita",
+      "Misko Mirkovic",
+      "Abdelzaher El Saka",
+      "Diego Angelo",
+      "Marcio Nobre",
+      "Elvir Bolic",
+      "Roman Dabrowski"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 24,
+    "game": "top10",
+    "title": "Bundesliga'da en çok maça çıkan 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-16",
+    "targets": [
+      "Halil Altıntop",
+      "Ömer Toprak",
+      "Nuri Şahin",
+      "Yıldıray Baştürk",
+      "Yunus Mallı",
+      "Hamit Altıntop",
+      "Salih Özcan",
+      "Atakan Karazor",
+      "Özcan Arkoç",
+      "Ozan Kabak"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 25,
+    "game": "top10",
+    "title": "Galatasaray'da Fernando Muslera ile birlikte en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-17",
+    "targets": [
+      "Selçuk İnan",
+      "Semih Kaya",
+      "Hakan Balta",
+      "Sabri Sarıoğlu",
+      "Wesley Sneijder",
+      "Kerem Aktürkoğlu",
+      "Umut Bulut",
+      "Barış Alper Yılmaz",
+      "Felipe Melo",
+      "Burak Yılmaz"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 26,
+    "game": "top10",
+    "title": "Bu sezon TFF 1.Lig'de en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-04-18",
+    "targets": [
+      "Mbaye Diagne",
+      "Eren Tozlu",
+      "Florent Hasani",
+      "Lois Diony",
+      "Mame Diouf",
+      "Olarenwaju Kayode",
+      "Taulant Seferi",
+      "Ivan Cedric",
+      "Gianni Bruno",
+      "Hamza Catakovic"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 27,
+    "game": "top10",
+    "title": "Trabzonspor tarihinde en yüksek bonservis ödenen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-19",
+    "targets": [
+      "Majeed Waris",
+      "Gökhan Ünal",
+      "Oleksandr Zubkov",
+      "Danylo Sikan",
+      "Paul Onuachu",
+      "Chibuike Nwaiwu",
+      "Christ Inao Oulai",
+      "Adrian Mierzejewski",
+      "Andreas Cornelius",
+      "Didier Zokora"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 28,
+    "game": "top10",
+    "title": "Süper Lig'de bu sezon en çok gol atan 10 türk futbolcu? (17 Nisan itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-04-20",
+    "targets": [
+      "Umut Nayir",
+      "Barış Alper Yılmaz",
+      "Orkun Kökçü",
+      "Güven Yalçın",
+      "Bertuğ Yıldırım",
+      "Yunus Akgün",
+      "Kerem Aktürkoğlu",
+      "Cengiz Ünder",
+      "Tayfur Bingöl",
+      "İbrahim Kaya"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 29,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en yüksek puan ortalamasına sahip Türk teknik direktörler? (En az 50 maça çıkanlar arasında)",
+    "type": "td",
+    "activeDate": "2026-04-21",
+    "targets": [
+      "Fatih Terim",
+      "Okan Buruk",
+      "Şenol Güneş",
+      "Gündüz Kılıç",
+      "Mustafa Denizli",
+      "İsmail Kartal",
+      "Abdullah Avcı",
+      "Ahmet Suat Özyazıcı",
+      "Sergen Yalçın",
+      "Ertuğrul Sağlam"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 30,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-2026 sezonunda maça çıkan en yaşlı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-22",
+    "targets": [
+      "Paulo Victor",
+      "Veysel Sarı",
+      "Güray Vural",
+      "Anthony Nwakaeme",
+      "Mert Günok",
+      "Gökhan Değirmenci",
+      "İsmail Köybaşı",
+      "Efecan Karaca",
+      "Taras Stepanenko",
+      "Ertuğrul Taşkıran"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 31,
+    "game": "top10",
+    "title": "Şenol Güneş'in Beşiktaş'ın başında olduğu dönemde en fazla maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-23",
+    "targets": [
+      "Atiba Hutchinson",
+      "Ricardo Quaresma",
+      "Oğuzhan Özyakup",
+      "Cenk Tosun",
+      "Necip Uysal",
+      "Adriano",
+      "Gökhan Gönül",
+      "Tolgay Arslan",
+      "Dusko Tosic",
+      "Ryan Babel"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 32,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de en fazla şut atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-24",
+    "targets": [
+      "Anderson Talisca",
+      "Eldor Shomurodov",
+      "Orkun Kökçü",
+      "Paul Onuachu",
+      "Victor Osimhen",
+      "Ernest Muçi",
+      "Oleksandr Zubkov",
+      "Jackson Muleka",
+      "Marco Asensio",
+      "Miguel Cardoso"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 33,
+    "game": "top10",
+    "title": "Türkiye Kupasını finalde kaybeden son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-04-25",
+    "targets": [
+      "Trabzonspor",
+      "Başakşehir",
+      "Kayserispor",
+      "Antalyaspor",
+      "Alanyaspor",
+      "Akhisar Belediyespor",
+      "Fenerbahçe",
+      "Bursaspor",
+      "Eskişehirspor",
+      "Gençlerbirliği"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 34,
+    "game": "top10",
+    "title": "Süper Lig'de oynanan Fenerbahçe - Galatasaray derbilerinde en çok galibiyet alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-26",
+    "targets": [
+      "Volkan Demirel",
+      "Fernando Muslera",
+      "Hakan Şükür",
+      "Bülent Korkmaz",
+      "Selçuk Şahin",
+      "Cüneyt Tanman",
+      "Metin Oktay",
+      "Müjdat Yetkiner",
+      "Ziya Şengül",
+      "Tugay Kerimoğlu"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 35,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en yüksek puan ortalamasına sahip 10 yabancı teknik direktör? (En az 50 maça çıkanlar arasında)",
+    "type": "td",
+    "activeDate": "2026-04-27",
+    "targets": [
+      "Karl Heinz Feldkamp",
+      "Mircea Lucescu",
+      "Jozef Venglos",
+      "Zico",
+      "Gordon Milne",
+      "Christoph Daum",
+      "Laszlo Szekely",
+      "Eric Gerets",
+      "Jupp Derwall",
+      "Vitor Pereira"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 36,
+    "game": "top10",
+    "title": "Aykut Kocaman'ın Fenerbahçe'nin başında olduğu dönemde en fazla maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-28",
+    "targets": [
+      "Volkan Demirel",
+      "Cristian Baroni",
+      "Mehmet Topuz",
+      "Caner Erkin",
+      "Gökhan Gönül",
+      "Joseph Yobo",
+      "Miroslav Stoch",
+      "Mehmet Topal",
+      "Selçuk Şahin",
+      "Bekir İrtegün"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 37,
+    "game": "top10",
+    "title": "Yılmaz Vural'ın teknik direktörlük kariyeri boyunca en fazla maça çıktığı 10 kulüp hangisidir? (Tüm dönemler toplamı)",
+    "type": "team-tr",
+    "activeDate": "2026-04-29",
+    "targets": [
+      "Bursaspor",
+      "Antalyaspor",
+      "Kasımpaşa",
+      "Adanaspor",
+      "Malatyaspor",
+      "Trabzonspor",
+      "Denizlispor",
+      "Menemen FK",
+      "Elazığspor",
+      "Eskişehirspor"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 38,
+    "game": "top10",
+    "title": "TFF 1.Lig'de bu sezon en fazla gol atan 10 yerli futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-30",
+    "targets": [
+      "Eren Tozlu",
+      "Doğan Can Davas",
+      "Burak Çoban",
+      "Ali Habeşoğlu",
+      "Batuhan Çelik",
+      "Mustafa Fettahoğlu",
+      "Benhur Keser",
+      "Bekir Turaç Böke",
+      "Salih Kavrazlı",
+      "Recep Niyaz"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 39,
+    "game": "top10",
+    "title": "Süper Lig'de en çok maça çıkan 10 İspanyol futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-01",
+    "targets": [
+      "Juanfran (1988)",
+      "Fabri",
+      "Daniel Guiza",
+      "Albert Riera",
+      "Samuel Saiz",
+      "Roberto Soldado",
+      "Alvaro Negredo",
+      "Javi Montero",
+      "Borja Sainz",
+      "Marc Bartra"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 40,
+    "game": "top10",
+    "title": "Kayserispor tarihinin en pahalı 10 oyuncu satışı?",
+    "type": "player",
+    "activeDate": "2026-05-02",
+    "targets": [
+      "Mehmet Topuz",
+      "Nordin Amrabat",
+      "Gökhan Ünal",
+      "Serdar Kesimal",
+      "Hasan Ali Kaldırım",
+      "Doğan Alemdar",
+      "Sefa Yılmaz",
+      "Pablo Mouche",
+      "Aleksandr Amisulashvili",
+      "Salih Dursun"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 41,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre 2016 yılının en değerli 10 Türk futbolcusu?",
+    "type": "player",
+    "activeDate": "2026-05-03",
+    "targets": [
+      "Arda Turan",
+      "Ömer Toprak",
+      "Hakan Çalhanoğlu",
+      "Gökhan Töre",
+      "Oğuzhan Özyakup",
+      "Mehmet Topal",
+      "Caner Erkin",
+      "Yunus Mallı",
+      "Cenk Tosun",
+      "Volkan Babacan"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 42,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla maça çıkan 10 Rumen futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-04",
+    "targets": [
+      "Bogdan Stancu",
+      "Alexandru Maxim",
+      "Giani Kiriță",
+      "Gheorghe Hagi",
+      "Daniel Timofte",
+      "Silviu Lung Jr.",
+      "Dumitru Stângaciu",
+      "Daniel Pancu",
+      "Gheorghe Popescu",
+      "Cristian Săpunaru"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 43,
+    "game": "top10",
+    "title": "TFF 1.Lig'de sezonu ilk 2 sırada tamamlayarak doğrudan Süper Lig'e yükselen son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-05",
+    "targets": [
+      "Erzurumspor",
+      "Amed SK",
+      "Kocaelispor",
+      "Gençlerbirliği",
+      "Eyüpspor",
+      "Göztepe",
+      "Samsunspor",
+      "Rizespor",
+      "Ankaragücü",
+      "Ümraniyespor"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 44,
+    "game": "top10",
+    "title": "Serdar Gürler'in Türkiye liglerinde en çok maça çıktığı 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-06",
+    "targets": [
+      "Başakşehir",
+      "Elazığspor",
+      "Gençlerbirliği",
+      "Göztepe",
+      "Osmanlıspor",
+      "Konyaspor",
+      "Eyüpspor",
+      "Çorum FK",
+      "Antalyaspor",
+      "Trabzonspor"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 45,
+    "game": "top10",
+    "title": "Başakşehir'in 2020/21 sezonunda Şampiyonlar Ligi'nde en fazla süre alan 10 futbolcusu? ",
+    "type": "player",
+    "activeDate": "2026-05-07",
+    "targets": [
+      "Mert Günok",
+      "Deniz Türüç",
+      "Rafael Pereira Da Silva",
+      "İrfan Can Kahveci",
+      "Berkay Özcan",
+      "Edin Visca",
+      "Alexandru Epureanu",
+      "Martin Skrtel",
+      "Boli Bolingoli",
+      "Demba Ba"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 46,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre TFF 1.Lig'in en değerli 10 Türk futbolcusu?",
+    "type": "player",
+    "activeDate": "2026-05-08",
+    "targets": [
+      "Ayberk Karapo",
+      "Poyraz Efe Yıldırım",
+      "Ali Habeşoğlu",
+      "Atakan Çankaya",
+      "Mustafa Fettahoğlu",
+      "Ada İbik",
+      "Yakup Kırtay",
+      "Berat Luş",
+      "Bekir Turaç Böke",
+      "Gökdeniz Bayrakdar"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 47,
+    "game": "top10",
+    "title": "TFF 1.Lig'de bu sezon en yüksek seyirci ortalamasına sahip 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-09",
+    "targets": [
+      "Amed SK",
+      "Çorum FK",
+      "Erzurumspor",
+      "Vanspor FK",
+      "Sakaryaspor",
+      "Sivasspor",
+      "Pendikspor",
+      "Sarıyer",
+      "Bodrum FK",
+      "Manisa FK"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 48,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre tarihte Trabzonspor formasıyla en çok gol atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-10",
+    "targets": [
+      "Hami Mandıralı",
+      "Fatih Tekke",
+      "Umut Bulut",
+      "Burak Yılmaz",
+      "Gökdeniz Karadeniz",
+      "Shota Arveladze",
+      "Hamdi Aslan",
+      "Orhan Çıkrıkçı",
+      "Ünal Karaman",
+      "Anthony Nwakaeme"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 49,
+    "game": "top10",
+    "title": "Fenerbahçe'ye transfer olan son 10 Sırp futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-11",
+    "targets": [
+      "Filip Kostic",
+      "Ognjen Mimovic",
+      "Dusan Tadic",
+      "Lazar Markovic",
+      "Milos Krasic",
+      "Mateja Kezman",
+      "Miroslav Stevic",
+      "Nikola Lazetic",
+      "Zoran Mirkovic",
+      "Misko Mirkovic"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 50,
+    "game": "top10",
+    "title": "Arda Turan'ın profesyonel kariyeri boyunca, idaresinde en fazla maça çıktığı 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-05-12",
+    "targets": [
+      "Diego Simeone",
+      "Luis Enrique",
+      "Frank Rijkaard",
+      "Fatih Terim",
+      "Karl Heinz Feldkamp",
+      "Eric Gerets",
+      "Michael Skibbe",
+      "Abdullah Avcı",
+      "Gregorio Manzano",
+      "Ersun Yanal"
+    ],
+    "difficulty": "zor"
+  },
+{
+    "id": 51,
+    "game": "top10",
+    "title": "Süper Lig'de sezonu 'Sezonun en golcü yerli oyuncusu' olarak tamamlayan son 10 Türk futbolcu? (Eşitlik durumunda iki oyuncu da listeye dahil edilmiştir) ",
+    "type": "player",
+    "activeDate": "2026-05-13",
+    "targets": [
+        "Barış Alper Yılmaz",
+        "Aytaç Kara",
+        "Oğuz Aydın",
+        "Umut Nayir",
+        "Umut Bozok",
+        "Adem Büyük",
+        "Burak Yılmaz",
+        "Cenk Tosun",
+        "Deniz Kadah",
+        "Necati Ateş"
+
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 52,
+    "game": "top10",
+    "title": "Luis Nani'nin kariyeri boyunca en çok maçta formasını giydiği 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-05-14",
+    "targets": [
+        "Manchester United",
+        "Sporting",
+        "Orlando City",
+        "Fenerbahçe",
+        "Adana Demirspor",
+        "Valencia",
+        "Lazio",
+        "Aktobe",
+        "Melbourne Victory",
+        "Estrela"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 53,
+    "game": "top10",
+    "title": "Süper Lig'de hat-trick yapan son 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-15",
+    "targets": [
+        "Enis Destan",
+        "Cengiz Ünder",
+        "Umut Nayir",
+        "Kerem Aktürkoğlu",
+        "Serdar Dursun",
+        "Emre Mor",
+        "Emre Akbaba",
+        "Güven Yalçın",
+        "Hakan Arslan",
+        "Adem Büyük"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 54,
+    "game": "top10",
+    "title": "2025-26 sezonunda Süper Lig'in ilk 10 sırasındaki takımların en golcü futbolcuları?",
+    "type": "player",
+    "activeDate": "2026-05-16",
+    "targets": [
+       "Victor Osimhen",
+      "Anderson Talisca",
+      "Paul Onuachu",
+      "Orkun Kökçü",
+      "Juan",
+      "Eldor Shomurodov",
+      "Marius Mouandilmadji",
+      "Qazim Laçi",
+      "Umut Nayir",
+      "Bruno Petkovic"
+
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 55,
+    "game": "top10",
+    "title": "Rıza Çalımbay'ın teknik direktörlük kariyerinde en çok maça çıktığı 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-17",
+    "targets": [
+       "Sivasspor",
+       "Eskişehirspor",
+       "Denizlispor",
+       "Mersin İdman Yurdu",
+       "Rizespor",
+       "Kasımpaşa",
+       "Beşiktaş",
+       "Antalyaspor",
+       "Trabzonspor",
+       "Ankaragücü "
+       
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 56,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en çok gol atan 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-18",
+    "targets": [
+       "Mauro Icardi",
+       "Gheorghe Hagi",
+       "Milan Baros",
+       "Victor Osimhen",
+       "Bafetimbi Gomis",
+       "Wesley Sneijder",
+       "Cevad Prekazi",
+       "Shabani Nonda",
+       "Mario Jardel",
+       "Lukas Podolski"
+
+       
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 57,
+    "game": "top10",
+    "title": "Sofascore verilerine göre Süper Lig'de 2025-26 sezonunda en yüksek ortalama reyting puanına sahip oyuncular?",
+    "type": "player",
+    "activeDate": "2026-05-19",
+    "targets": [
+       "Orkun Kökçü",
+       "Muhammed Şengezer",
+       "Marco Asensio",
+       "Oleksandr Zubkov",
+       "Arseniy Batagov",
+       "Yunus Akgün",
+       "Ivo Grbic",
+       "Anderson Talisca",
+       "Gabriel Sara",
+       "Eldor Shomurodov"
+
+       
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 58,
+    "game": "top10",
+    "title": "Nicolas Anelka'nın futbolculuk kariyerinde en çok maça çıktığı 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-05-20",
+    "targets": [
+       "Chelsea",
+       "Manchester City",
+       "Arsenal",
+       "PSG",
+       "Bolton",
+       "Fenerbahçe",
+       "Real Madrid",
+       "Shanghai Shenhua",
+       "Liverpool",
+       "Mumbai City"
+
+       
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 59,
+    "game": "top10",
+    "title": "Emre Belözoğlu'nun profesyonel kulüp kariyeri boyunca, idaresinde en fazla maça çıktığı 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-05-21",
+    "targets": [
+    "Abdullah Avcı",
+    "Fatih Terim",
+    "Aykut Kocaman",
+    "Hector Cuper",
+    "Glenn Roeder",
+    "Christoph Daum",
+    "Ersun Yanal",
+    "Mircea Lucescu",
+    "Luis Aragones",
+    "İsmail Kartal"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 60,
+    "game": "top10",
+    "title": "Ersun Yanal'ın Fenerbahçe teknik direktörü olduğu dönemlerde Fenerbahçe formasıyla en çok maça çıkan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-05-22",
+    "targets": [
+    "Mehmet Topal",
+    "Alper Potuk",
+    "Volkan Demirel",
+    "Jailson",
+    "Mauricio Isla",
+    "Emre Belözoğlu",
+    "Nabil Dirar",
+    "Dirk Kuyt",
+    "Hasan Ali Kaldırım",
+    "Moussa Sow"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 61,
+    "game": "top10",
+    "title": "Beşiktaş formasıyla en fazla gol atan 10 Brezilyalı futbolcu? (Aynı sayıda gol atan oyuncular arasında daha az maça çıkan üst sıraya yazılmıştır)",
+    "type": "player",
+    "activeDate": "2026-05-23",
+    "targets": [
+    "Bobo",
+    "Marcio Nobre",
+    "Anderson Talisca",
+    "Vagner Love",
+    "Ricardinho",
+    "Ronaldo Guiaro",
+    "Josef De Souza",
+    "Ailton",
+    "Marcelo",
+    "Ramon Motta"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 62,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla gol atan 10 Afrikalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-24",
+    "targets": [
+    "Andre Kona",
+    "Mbaye Diagne",
+    "Fernand Coulibaly",
+    "Mame Thiam",
+    "Souleymane Youla",
+    "Moussa Sow",
+    "Aatif Chahechouhe",
+    "Isaac Promise",
+    "Ahmed Hassan",
+    "Pierre Webo"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 63,
+    "game": "top10",
+    "title": "Sofascore verilerine göre Süper Lig'de 2025/26 sezonunda en yüksek ortalama puan alan 10 kaleci?",
+    "type": "player",
+    "activeDate": "2026-05-25",
+    "targets": [
+    "Muhammed Şengezer",
+    "Ivo Grbic",
+    "Ricardo Velho",
+    "Julian Cuesta",
+    "Uğurcan Çakır",
+    "Andre Onana",
+    "Marcos Felipe",
+    "Ertuğrul Taşkıran",
+    "Mateusz Lis",
+    "Bilal Bayazıt"
+
+    ],
+    "difficulty": "zor"
+},
+
+{
+    "id": 64,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre 2025-26 sezonunda TFF 1.Lig'de mücadele eden takımlar arasında güncel piyasa değeri en yüksek 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-05-26",
+    "targets": [
+    "Bodrum FK",
+    "Sivasspor",
+    "Iğdır FK",
+    "Amed SK",
+    "Manisa FK",
+    "Erzurumspor",
+    "Vanspor FK",
+    "Pendikspor",
+    "Sakaryaspor",
+    "Esenler Erokspor"
+
+    ],
+    "difficulty": "zor"
+},
+
+{
+    "id": 65,
+    "game": "top10",
+    "title": "Burak Yılmaz'ın lig maçlarındaki profesyonel kulüp kariyeri boyunca, idaresinde en fazla maça çıktığı 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-05-27",
+    "targets": [
+   "Şenol Güneş",
+   "Jean Tigana",
+   "Jocelyn Gourvennec",
+   "Fatih Terim",
+   "Roberto Mancini",
+   "Rıza Çalımbay",
+   "Christoph Galtier",
+   "Hamza Hamzaoğlu",
+   "Julio Velazquez",
+   "Feng Xie"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 66,
+    "game": "top10",
+    "title": "Michy Batshuayi'nin futbolculuk kariyerinde en çok maça çıktığı 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-05-28",
+    "targets": [
+    "Standard",
+    "Marsilya",
+    "Chelsea",
+    "Fenerbahçe",
+    "Beşiktaş",
+    "Crystal Palace",
+    "Galatasaray",
+    "Valencia",
+    "Frankfurt",
+    "Dortmund"
+    
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 67,
+    "game": "top10",
+    "title": "Süper Lig'de oynamış futbolcular arasında Şampiyonlar Ligi tarihinde en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-05-29",
+    "targets": [
+    "Didier Drogba",
+    "Samuel Eto'o",
+    "Edin Džeko",
+    "Álvaro Morata",
+    "Mario Gómez",
+    "Mario Jardel",
+    "Robin van Persie",
+    "Leroy Sane",
+    "Luiz Adriano",
+    "Nicolas Anelka"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 68,
+    "game": "top10",
+    "title": "Şampiyonlar Liginde hattrick yapan son 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-05-30",
+    "targets": [
+    "Federico Valverde",
+    "Alexander Sorloth",
+    "Anthony Gordon",
+    "Vitinha",
+    "Kylian Mbappé",
+    "Victor Osimhen",
+    "Fermin Lopez",
+    "Serhou Guirassy",
+    "Morgan Rogers",
+    "Lautaro Martinez"
+    
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 69,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Gençlerbirliği tarihinin en pahalı 10 oyuncu satışı?",
+    "type": "player",
+    "activeDate": "2026-05-31",
+    "targets": [
+    "Geremi Njitap",
+    "Tarık Daşgün",
+    "Mert Çetin",
+    "Mustafa Pektemek",
+    "Orhan Şam",
+    "Draman Haminu",
+    "Aykut Demir",
+    "Ahmet Çalık",
+    "Berat Özdemir",
+    "Ümit Karan"
+    
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 70,
+    "game": "top10",
+    "title": "Süper Lig'de 2021-22 sezonunda en çok gol atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-01",
+    "targets": [
+    "Umut Bozok",
+    "Ayoub El Kaabi",
+    "Mario Balotelli",
+    "Joel Pohjanpalo",
+    "Andreas Cornelius",
+    "Serdar Dursun",
+    "Alexandru Maxim",
+    "Aleksandar Pesic",
+    "Haji Wright",
+    "Michy Batshuayi"
+    
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 71,
+    "game": "top10",
+    "title": "Beşiktaş'ta 10 numaralı formayı giyen son 10 futbolcu? (Hazırlık maçları dahil değil)",
+    "type": "player",
+    "activeDate": "2026-06-02",
+    "targets": [
+
+      "Orkun Kökçü",
+      "Keny Arroyo",
+      "Vincent Aboubakar",
+      "Wout Weghorst",
+      "Oğuzhan Özyakup",
+      "Olcay Şahan",
+      "Bebe",
+      "Matias Delgado",
+      "Sergen Yalçın",
+      "Ahmet Dursun"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 72,
+    "game": "top10",
+    "title": "Ersun Yanal'ın teknik direktörlük kariyerinde en çok maça çıktığı 10 kulüp?",
+    "type": "team-tr",
+    "activeDate": "2026-06-03",
+    "targets": [
+
+      "Trabzonspor",
+      "Fenerbahçe",
+      "Gençlerbirliği",
+      "Eskişehirspor",
+      "Ankaragücü",
+      "Manisaspor",
+      "Antalyaspor",
+      "Denizlispor",
+      "Amed SK",
+      "Alanyaspor"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 73,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla gol atan 10 İtalyan futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-04",
+    "targets": [
+
+     "Fabio Borini",
+     "Mario Balotelli",
+     "Stefano Napoleoni",
+     "Ciro Immobile",
+     "Stefano Okaka",
+     "Andrea Bertolacci",
+     "Nicolo Zaniolo",
+     "Franco Tongya",
+     "Joao Pedro",
+     "Federico Macheda"
+
+
+    ],
+    "difficulty": "zor"
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

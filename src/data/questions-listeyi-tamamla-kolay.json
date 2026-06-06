@@ -1077,5 +1077,28 @@
       "Orkun Kökçü"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 58,
+    "game": "listeyi-tamamla",
+    "title": "Son 20 sezonda Beşiktaş'ı çalıştıran yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-06-07",
+    "targets": [
+      "Vincenzo Italiano",
+      "Ole Gunnar Solskjaer",
+      "Giovanni Van Bronckhorst",
+      "Fernando Santos",
+      "Valerien Ismael",
+      "Slaven Bilic",
+      "Carlos Carvalhal",
+      "Bernd Schuster",
+      "Jean Tigana"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

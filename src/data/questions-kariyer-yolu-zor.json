@@ -2881,6 +2881,34 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 69,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-07",
+    "correctPlayer": "Adam Arous",
+    "career": [
+      {
+        "season": "2023-2025",
+        "team": "Stade Tunisien",
+        "apps": "45",
+        "goals": "1"
+      },
+      {
+        "season": "2024-2025",
+        "team": "AS Oued Ellil (kiralık)",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2025–",
+        "team": "Kasımpaşa",
+        "apps": "25",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Futbol Trivia",
+    "slug": "futbol-trivia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "futboltrivia",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#020617"
+    },
+    "ios": {
+      "bundleIdentifier": "com.futboltrivia.app",
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "requireFullScreen": true,
+      "infoPlist": {
+        "NSPrivacyCollectedDataTypes": [],
+        "CFBundleDisplayName": "Futbol Trivia",
+        "UIRequiresFullScreen": true,
+        "NSUserNotificationsUsageDescription": "Her gün yenilenen Futbol Trivia sorularını kaçırmamak için günlük hatırlatma bildirimi gönderilir."
+      }
+    },
+    "android": {
+      "package": "com.futboltrivia.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#020617"
+      },
+      "predictiveBackGestureEnabled": false,
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "privacyPolicyUrl": "https://futboltrivia.com.tr/gizlilik",
+      "supportUrl": "https://futboltrivia.com.tr/iletisim",
+      "eas": {
+        "projectId": "9f9a862a-de45-4e3a-9c22-90cfcac74f3b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#020617",
+          "androidMode": "default",
+          "androidCollapsedTitle": "Futbol Trivia"
+        }
+      ]
+    ],
+    "owner": "ucmeydan"
+  }
+}

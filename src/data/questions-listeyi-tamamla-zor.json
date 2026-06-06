@@ -1684,7 +1684,26 @@
       "Franco Cangele"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 76,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Trabzonspor hem de Chelsea forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-07",
+    "targets": [
+      "Florent Malouda",
+      "John Obi Mikel",
+      "Jose Bosingwa",
+      "Daniel Sturridge",
+      "Lewis Baker",
+      "Marko Marin"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

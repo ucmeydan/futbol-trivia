@@ -1550,6 +1550,28 @@
       "Burak Yılmaz"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 76,
+    "game": "top10",
+    "title": "Galatasaray formasıyla en çok maça çıkan 10 Brezilyalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-07",
+    "targets": [
+      "Felipe Melo",
+      "Marcao",
+      "Claudio Taffarel",
+      "Capone",
+      "Mariano",
+      "Gabriel Sara",
+      "Cassio Lincoln",
+      "Joao Batista",
+      "Alex Telles",
+      "Fernando Reges"
+
+    ],
+    "difficulty": "zor"
   }
 
 
