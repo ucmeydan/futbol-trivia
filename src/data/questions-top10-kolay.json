@@ -75,7 +75,7 @@
       "Enner Valencia",
       "Marcio Nobre",
       "Fernandao",
-      "Edin Dzeko", 
+      "Edin Džeko", 
       "Michy Batshuayi",
       "Deivid De Souza",
       "Dirk Kuyt"
@@ -335,7 +335,7 @@
       "Leroy Sane",
       "Sebastian Szymanski",
       "Victor Osimhen",
-      "Edin Dzeko",
+      "Edin Džeko",
       "Gabriel Sara",
       "Dries Mertens",
       "Lucas Torreira"
@@ -1295,7 +1295,31 @@
 
     ],
     "difficulty": "kolay"
-  }
+  },
+
+  {
+    "id": 59,
+    "game": "top10",
+    "title": "Fenerbahçe'de 9 numaralı formayı giyen son 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-08",
+    "targets": [
+      "Kerem Aktürkoğlu",
+      "Edin Džeko",
+      "Diego Rossi",
+      "Papiss Cisse",
+      "Mevlüt Erdinç",
+      "Roberto Soldado",
+      "Fernandao",
+      "Pierre Webo",
+      "Miroslav Stoch",
+      "Daniel Guiza"
+
+    ],
+    "difficulty": "kolay"
+  
+}
+
 
 
 

@@ -1572,7 +1572,33 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 77,
+    "game": "top10",
+    "title": "Süper Lig'de 2024-25 sezonunda bonservisine en çok para ödenen 10 futbolcu? (Gelen oyuncular)",
+    "type": "player",
+    "activeDate": "2026-06-08",
+    "targets": [
+      
+      "Youssef En Nesyri",
+      "Gabriel Sara",
+      "Diego Carlos",
+      "Moatasem Al Musrati",
+      "Elias Jelert",
+      "Çağlar Söyüncü",
+      "Allan Saint Maximin",
+      "Carlos Cuesta",
+      "Ognjen Mimovic",
+      "Álvaro Morata"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+  
 
 
 

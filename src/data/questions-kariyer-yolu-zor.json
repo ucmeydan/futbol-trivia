@@ -2909,6 +2909,52 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 70,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-08",
+    "correctPlayer": "Yhoan Andzouana",
+    "career": [
+      {
+        "season": "2015–2017",
+        "team": "Monaco B",
+        "apps": "56",
+        "goals": "9"
+      },
+      {
+        "season": "2017–2019",
+        "team": "Peralada",
+        "apps": "64",
+        "goals": "7"
+      },
+      {
+        "season": "2019–2019",
+        "team": "Girona",
+        "apps": "2",
+        "goals": "0"
+      },
+      {
+        "season": "2019–2020",
+        "team": "Roeselare",
+        "apps": "21",
+        "goals": "4"
+      },
+      {
+        "season": "2020–2025",
+        "team": "Dunanjska Streda",
+        "apps": "159",
+        "goals": "22"
+      },
+      {
+        "season": "2025-",
+        "team": "Konyaspor",
+        "apps": "36",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

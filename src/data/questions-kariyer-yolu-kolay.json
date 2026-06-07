@@ -2206,7 +2206,63 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 59,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-08",
+    "correctPlayer": "Mert Hakan Yandaş",
+    "career": [
+      {
+        "season": "2012–2013",
+        "team": "Oyak Renault",
+        "apps": "17",
+        "goals": "1"
+      },
+      {
+        "season": "2013–2015",
+        "team": "Altınordu",
+        "apps": "4",
+        "goals": "0"
+      },
+      {
+        "season": "2014-2015",
+        "team": "Tire 1922 Spor (kiralık)",
+        "apps": "30",
+        "goals": "14"
+      },
+      {
+        "season": "2005–2016",
+        "team": "Tire 1922 Spor",
+        "apps": "36",
+        "goals": "21"
+      },
+      {
+        "season": "2016–2017",
+        "team": "Menemen Belediyespor",
+        "apps": "42",
+        "goals": "16"
+      },
+      {
+        "season": "2017–2020",
+        "team": "Sivasspor",
+        "apps": "72",
+        "goals": "13"
+      },
+      {
+        "season": "2020-",
+        "team": "Fenerbahçe",
+        "apps": "149",
+        "goals": "11"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

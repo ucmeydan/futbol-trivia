@@ -1701,7 +1701,27 @@
       "Marko Marin"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 77,
+    "game": "listeyi-tamamla",
+    "title": "Nihat Kahveci'nin Beşiktaş kariyerinde birlikte 70'ten fazla maça çıktığı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-08",
+    "targets": [
+      "Tayfur Havutçu",
+      "Mehmet Özdilek",
+      "Fevzi Tuncay",
+      "Yasin Sülün",
+      "Rahim Zafer",
+      "İbrahim Üzülmez",
+      "Ahmet Dursun"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

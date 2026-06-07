@@ -886,7 +886,7 @@
         "info": "2023-24 sezonunda Fenerbahçe'de birlikte oynadılar"
       },
       {
-        "name": "Edin Dzeko",
+        "name": "Edin Džeko",
         "info": "2023-25 yılları arasında Fenerbahçe'de birlikte oynadılar"
       }
     ],
@@ -1256,7 +1256,7 @@
         "info": "2020-2022 yılları arasında Ajax'ta birlikte oynadılar"
       },
       {
-        "name": "Edin Dzeko",
+        "name": "Edin Džeko",
         "info": "2023-2025 yılları arasında Fenerbahçe'de birlikte oynadılar"
       }
     ],
@@ -1744,7 +1744,37 @@
       }
     ],
     "difficulty": "kolay"
-  }
+  },
+
+  {
+    "id": 59,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-08",
+    "correctPlayer": "Fred",
+    "teammates": [
+      {
+        "name": "Darijo Srna",
+        "info": "2013-18 yılları arasında Shakhtar'da birlikte oynadılar."
+      },
+      {
+        "name": "Romelu Lukaku",
+        "info": "2018-19 sezonunda Manchester United'ta birlikte oynadılar"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2021-23 yılları arasında Manchester United'da birlikte oynadılar."
+      },
+      {
+        "name": "Michy Batshuayi",
+        "info": "2023-24 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Edin Džeko",
+        "info": "2023-25 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+}
 
 
 

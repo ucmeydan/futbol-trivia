@@ -1098,7 +1098,26 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 59,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin 2025-26 sezonunda Avrupa kupalarında mağlup ettiği takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-06-08",
+    "targets": [
+      "Feyenoord",
+      "Stuttgart",
+      "Nice",
+      "Brann",
+      "Nottingham Forest"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

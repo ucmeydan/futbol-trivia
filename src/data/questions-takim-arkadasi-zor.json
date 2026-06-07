@@ -1936,7 +1936,39 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 67,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-08",
+    "correctPlayer": "Mateja Kezman",
+    "teammates": [
+      {
+        "name": "Park Ji Sung",
+        "info": "2003-04 sezonunda PSV'de birlikte oynadılar"
+      },
+      {
+        "name": "Adrian Mutu",
+        "info": "2004-05 sezonunda Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Mevlüt Erdinç",
+        "info": "2009-10 sezonunda PSG'de birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Torres",
+        "info": "2005-06 sezonunda Atletico Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Diego Lugano",
+        "info": "2006-08 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
+
+
 
 
 
