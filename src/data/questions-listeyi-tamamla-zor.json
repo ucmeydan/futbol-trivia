@@ -1719,7 +1719,34 @@
       "Ahmet Dursun"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 78,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın Euro 2016 grup maçında Çekya'yı 2-0 mağlup ettiği maçta Türkiye kadrosunda süre alan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-09",
+    "targets": [
+      "Volkan Babacan",
+      "İsmail Köybaşı",
+      "Hakan Balta",
+      "Mehmet Topal",
+      "Oğuzhan Özyakup",
+      "Gökhan Gönül",
+      "Ozan Tufan",
+      "Arda Turan",
+      "Volkan Şen",
+      "Selçuk İnan",
+      "Burak Yılmaz",
+      "Emre Mor",
+      "Cenk Tosun",
+      "Olcay Şahan"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

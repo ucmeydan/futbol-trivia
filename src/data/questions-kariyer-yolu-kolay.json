@@ -2260,7 +2260,51 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 60,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-09",
+    "correctPlayer": "Gökhan Zan",
+    "career": [
+      {
+        "season": "1999–2000",
+        "team": "Hatayspor",
+        "apps": "13",
+        "goals": "2"
+      },
+      {
+        "season": "2000–2003",
+        "team": "Dardanelspor",
+        "apps": "57",
+        "goals": "8"
+      },
+      {
+        "season": "2003-2009",
+        "team": "Beşiktaş",
+        "apps": "109",
+        "goals": "4"
+      },
+      {
+        "season": "2004–2005",
+        "team": "Gaziantepspor (kiralık)",
+        "apps": "31",
+        "goals": "2"
+      },
+      {
+        "season": "2009–2015",
+        "team": "Galatasaray",
+        "apps": "76",
+        "goals": "3"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

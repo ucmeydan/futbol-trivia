@@ -2955,7 +2955,45 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 71,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-09",
+    "correctPlayer": "Gustavo Colman",
+    "career": [
+      {
+        "season": "2003-2006",
+        "team": "Chacarita Juniors",
+        "apps": "32",
+        "goals": "3"
+      },
+      {
+        "season": "2006-2008",
+        "team": "Germinal Beerschot",
+        "apps": "51",
+        "goals": "4"
+      },
+      {
+        "season": "2008–2014",
+        "team": "Trabzonspor",
+        "apps": "205",
+        "goals": "24"
+      },
+      {
+        "season": "2015–2018",
+        "team": "Rosario Central",
+        "apps": "68",
+        "goals": "1"
+      }
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

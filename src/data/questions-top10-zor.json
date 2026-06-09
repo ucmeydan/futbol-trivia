@@ -1596,7 +1596,35 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 78,
+    "game": "top10",
+    "title": "Galatasaray'ın Avrupa kupalarında eleme turlarında elediği son 10 takım? (Ön elemeler dahil)",
+    "type": "team-eu",
+    "activeDate": "2026-06-09",
+    "targets": [
+      
+     "Juventus",
+     "Molde",
+     "Olimpija Ljubljana",
+     "Zalgiris",
+     "Randers",
+     "St. Johnstone",
+     "Hajduk Split",
+     "Neftçi Bakü",
+     "Schalke 04",
+     "OFK Beograd"
+
+
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
   
 
