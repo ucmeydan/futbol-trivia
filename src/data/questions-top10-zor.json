@@ -1622,7 +1622,33 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 79,
+    "game": "top10",
+    "title": "Aykut Kocaman'ın teknik direktörlük kariyerinde en fazla maçta oynattığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-10",
+    "targets": [
+      
+     "Ömer Ali Şahiner",
+     "Selçuk Şahin",
+     "Volkan Demirel",
+     "Cristian Baroni",
+     "Ali Turan",
+     "Ali Çamdalı",
+     "Serkan Kırıntılı",
+     "Mehmet Topuz",
+     "Caner Erkin",
+     "Gökhan Gönül"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

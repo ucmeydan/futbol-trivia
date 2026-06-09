@@ -1132,5 +1132,25 @@
       "Okay Yokuşlu"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 61,
+    "game": "listeyi-tamamla",
+    "title": "Bonservisi Beşiktaş'ta bulunup 2026 Dünya Kupası'nda mücadele edecek futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-10",
+    "targets": [
+     "Orkun Kökçü",
+     "Hyeon Gyu Oh",
+     "Emmanuel Agbadou",
+     "Amir Murillo",
+     "Amir Hadziahmetovic"
+    ],
+    "difficulty": "kolay"
   }
+
+
+
+
 ]

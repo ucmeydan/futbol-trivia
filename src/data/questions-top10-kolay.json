@@ -1199,5 +1199,29 @@
       "Gençlerbirliği"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 61,
+    "game": "top10",
+    "title": "Edin Dzeko'nun Fenerbahçe kariyerinde birlikte en fazla maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-10",
+    "targets": [
+      "Dusan Tadic",
+      "Sebastian Szymanski",
+      "Fred",
+      "İrfan Can Kahveci",
+      "Dominik Livakovic",
+      "Bright Osayi Samuel",
+      "İsmail Yüksek",
+      "Mert Müldür",
+      "Alexander Djiku",
+      "Ferdi Kadıoğlu"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

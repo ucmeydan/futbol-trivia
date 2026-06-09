@@ -1996,7 +1996,39 @@
       }
     ],
     "difficulty": "zor"
+},
+
+{
+    "id": 69,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-10",
+    "correctPlayer": "Wesley Sneijder",
+    "teammates": [
+      {
+        "name": "Jari Litmanen",
+        "info": "2003-04 sezonunda Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Jan Vertonghen",
+        "info": "2006-07 sezounda Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Marcelo",
+        "info": "2007-09 yılları arasında Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Yuto Nagatomo",
+        "info": "2011-13 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Umut Bulut",
+        "info": "2013-16 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
 }
+
+
 
 
 

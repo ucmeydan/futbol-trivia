@@ -2302,7 +2302,58 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 61,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-10",
+    "correctPlayer": "Gökhan Zan",
+    "career": [
+      {
+        "season": "1996–1997",
+        "team": "Wattenscheid",
+        "apps": "20",
+        "goals": "6"
+      },
+      {
+        "season": "1997–2001",
+        "team": "Bochum",
+        "apps": "115",
+        "goals": "20"
+      },
+      {
+        "season": "2001-2004",
+        "team": "Leverkusen",
+        "apps": "114",
+        "goals": "9"
+      },
+      {
+        "season": "2004–2007",
+        "team": "Hertha Berlin",
+        "apps": "88",
+        "goals": "17"
+      },
+      {
+        "season": "2007–2010",
+        "team": "Stuttgart",
+        "apps": "43",
+        "goals": "4"
+      },
+      {
+        "season": "2010–2010",
+        "team": "Blackburn",
+        "apps": "1",
+        "goals": "0"
+      }
+
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

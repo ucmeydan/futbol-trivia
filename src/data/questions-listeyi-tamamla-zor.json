@@ -1744,7 +1744,29 @@
       "Olcay Şahan"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 79,
+    "game": "listeyi-tamamla",
+    "title": "Tarihinde en az bir sezon Süper Lig'de mücadele etmiş Ankara takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-06-10",
+    "targets": [
+      "Ankaragücü",
+      "Ankaraspor",
+      "Gençlerbirliği",
+      "Hacettepe",
+      "Ankara Demirspor",
+      "PTT",
+      "Petrolofisi",
+      "Osmanlıspor"
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

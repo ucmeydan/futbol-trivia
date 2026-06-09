@@ -2991,6 +2991,52 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 72,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-10",
+    "correctPlayer": "Alexander Djiku",
+    "career": [
+      {
+        "season": "2012–2015",
+        "team": "Bastia B",
+        "apps": "18",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2017",
+        "team": "Bastia",
+        "apps": "51",
+        "goals": "1"
+      },
+      {
+        "season": "2017–2019",
+        "team": "Caen",
+        "apps": "68",
+        "goals": "1"
+      },
+      {
+        "season": "2019–2023",
+        "team": "Strasbourg",
+        "apps": "127",
+        "goals": "4"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Fenerbahçe",
+        "apps": "75",
+        "goals": "4"
+      },
+      {
+        "season": "2025-",
+        "team": "Spartak Moskova",
+        "apps": "29",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

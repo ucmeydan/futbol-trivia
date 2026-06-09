@@ -1804,7 +1804,39 @@
       }
     ],
     "difficulty": "kolay"
+},
+
+{
+    "id": 61,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-10",
+    "correctPlayer": "Gökhan Gönül",
+    "teammates": [
+      {
+        "name": "Giray Kaçar",
+        "info": "2006-07 sezonunda Hacettepe'de birlikte oynadılar."
+      },
+      {
+        "name": "Dirk Kuyt",
+        "info": "2012-15 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Tarık Çetin",
+        "info": "2021-23 yılları arasında Rizespor'da birlikte oynadılar"
+      },
+      {
+        "name": "Diego Lugano",
+        "info": "2007-11 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Ricardo Quaresma",
+        "info": "2016-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
 }
+
+
 
 
 
