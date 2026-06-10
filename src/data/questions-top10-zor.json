@@ -1646,6 +1646,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 80,
+    "game": "top10",
+    "title": "Türkiye Kupasını finalde kaybeden son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-06-11",
+    "targets": [
+      "Konyaspor",
+      "Trabzonspor",
+      "Başakşehir",
+      "Kayserispor",
+      "Antalyaspor",
+      "Alanyaspor",
+      "Akhisar Belediyespor",
+      "Fenerbahçe",
+      "Bursaspor",
+      "Eskişehirspor"
+      
+    ],
+    "difficulty": "zor"
   }
 
 

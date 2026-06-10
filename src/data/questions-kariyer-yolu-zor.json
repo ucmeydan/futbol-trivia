@@ -3037,6 +3037,46 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 73,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-11",
+    "correctPlayer": "Mortadha Ben Ouanes",
+    "career": [
+      {
+        "season": "2012–2015",
+        "team": "ES Sahel",
+        "apps": "4",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2015",
+        "team": "Monastir (kiralık)",
+        "apps": "1",
+        "goals": "0"
+      },
+      {
+        "season": "2015-2018",
+        "team": "Bizertin",
+        "apps": "56",
+        "goals": "6"
+      },
+      {
+        "season": "2018–2021",
+        "team": "ES Sahel",
+        "apps": "90",
+        "goals": "12"
+      },
+      {
+        "season": "2021-",
+        "team": "Kasımpaşa",
+        "apps": "156",
+        "goals": "23"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

@@ -1221,7 +1221,31 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 62,
+    "game": "top10",
+    "title": "Galatasaray'da Okan Buruk yönetiminde en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-10",
+    "targets": [
+      "Barış Alper Yılmaz",
+      "Lucas Torreira",
+      "Abdülkerim Bardakcı",
+      "Dries Mertens",
+      "Mauro Icardi",
+      "Fernando Muslera",
+      "Kaan Ayhan",
+      "Davinson Sanchez",
+      "Yunus Akgün",
+      "Berkan Kutlu"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

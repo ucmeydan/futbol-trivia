@@ -1764,7 +1764,24 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 80,
+    "game": "listeyi-tamamla",
+    "title": "2026 Dünya Kupası'nda mücadele edecek TFF 1.Lig futbolcuları?",
+    "type": "player",
+    "activeDate": "2026-06-11",
+    "targets": [
+      
+      "Ryan Mendes",
+      "Leandro Bacuna"
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

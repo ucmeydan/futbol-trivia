@@ -2293,5 +2293,47 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 62,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-11",
+    "correctPlayer": "Fernando Muslera",
+    "career": [
+      {
+        "season": "2004–2007",
+        "team": "Wanderers",
+        "apps": "13",
+        "goals": "0"
+      },
+      {
+        "season": "2007–2007",
+        "team": "Nacional (kiralık)",
+        "apps": "17",
+        "goals": "0"
+      },
+      {
+        "season": "2007-2011",
+        "team": "Lazio",
+        "apps": "113",
+        "goals": "0"
+      },
+      {
+        "season": "2011–2025",
+        "team": "Galatasaray",
+        "apps": "551",
+        "goals": "2"
+      },
+      {
+        "season": "2025-",
+        "team": "Estudiantes",
+        "apps": "43",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

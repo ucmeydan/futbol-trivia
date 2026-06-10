@@ -1148,7 +1148,28 @@
      "Amir Hadziahmetovic"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 62,
+    "game": "listeyi-tamamla",
+    "title": "Dünya Kupası şampiyonluğu yaşayan ülkeler?",
+    "type": "country",
+    "activeDate": "2026-06-11",
+    "targets": [
+     "Uruguay",
+     "İtalya",
+     "Brezilya",
+     "Almanya",
+     "İngiltere",
+     "Arjantin",
+     "Fransa",
+     "İspanya"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
