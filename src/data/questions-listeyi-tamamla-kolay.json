@@ -1167,6 +1167,23 @@
      "İspanya"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 63,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde hem futbolcu hem de teknik direktör olarak şampiyonluk yaşamış isimler?",
+    "type": "td",
+    "activeDate": "2026-06-12",
+    "targets": [
+      "Ertuğrul Sağlam",
+      "Aykut Kocaman",
+      "Şenol Güneş",
+      "Okan Buruk",
+      "Sergen Yalçın",
+      "Hamza Hamzaoğlu"
+    ],
+    "difficulty": "kolay"
   }
 
 

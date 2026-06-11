@@ -1864,7 +1864,37 @@
       }
     ],
     "difficulty": "kolay"
-  }
+  },
+
+  {
+    "id": 63,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-12",
+    "correctPlayer": "Merih Demiral",
+    "teammates": [
+      {
+        "name": "Ozan Tufan",
+        "info": "2018-19 sezonunda Alanyaspor'da ve Türk Milli takımında birlikte oynadılar."
+      },
+      {
+        "name": "Gianluigi Buffon",
+        "info": "2019-21 yılları arasında Juventus'ta birlikte oynadılar"
+      },
+      {
+        "name": "Ademola Lookman",
+        "info": "2022-23 sezonunda Atalanta'da birlikte oynadılar."
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2019-21 yılları arasında Juventus'ta birlikte oynadılar"
+      },
+      {
+        "name": "Riyad Mahrez",
+        "info": "2023-26 yılları arasında Al Ahli'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+}
 
 
 

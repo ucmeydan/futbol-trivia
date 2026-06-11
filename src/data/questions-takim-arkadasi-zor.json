@@ -289,7 +289,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 11,
     "game": "takim-arkadasi",
@@ -319,126 +318,123 @@
     ],
     "difficulty": "zor"
   },
-
   {
-  "id": 12,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-04-15",
-  "correctPlayer": "Cyle Larin",
-  "teammates": [
-    {
-      "name": "Kaká",
-      "info": "2015-17 yılları arasında Orlando City'de oynadılar"
-    },
-    {
-      "name": "Dorukhan Toköz",
-      "info": "2018-21 yılları arasında Beşiktaş'ta oynadılar"
-    },
-    {
-      "name": "Alphonso Davies",
-      "info": "Kanada Milli Takımı'nda birlikte oynadılar"
-    },
-    {
-      "name": "Vedat Muriqi",
-      "info": "2023-25 yılları arasında Mallorca'da oynadılar"
-    },
-    {
-      "name": "Rachid Ghezzal",
-      "info": "2020-22 yılları arasında Beşiktaş'ta oynadılar"
-    }
-  ],
-  "difficulty": "zor"
-},
-
- {
-  "id": 13,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-04-16",
-  "correctPlayer": "Dede",
-  "teammates": [
-    {
-      "name": "Jan Koller",
-      "info": "2001-06 yılları arasında Dortmund'da oynadılar"
-    },
-    {
-      "name": "Dida",
-      "info": "Brezilya Milli takımında birlikte oynadılar"
-    },
-    {
-      "name": "Veysel Sarı",
-      "info": "2011-14 yılları arasında Eskişehirspor'da oynadılar"
-    },
-    {
-      "name": "Tomas Rosicky",
-      "info": "2001-06 yılları arasında Dortmund'da oynadılar"
-    },
-    {
-      "name": "Erkan Zengin",
-      "info": "2011-14 yılları arasında Eskişehirspor'da oynadılar"
-    }
-  ],
-  "difficulty": "zor"
-},
-{
-  "id": 14,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-04-17",
-  "correctPlayer": "Fabian Ernst",
-  "teammates": [
-    {
-      "name": "Ailton",
-      "info": "2000-04 yılları arasında Werder Bremen'de oynadılar"
-    },
-    {
-      "name": "Filip Holosko",
-      "info": "2009-11 yılları arasında Beşiktaş'ta oynadılar"
-    },
-    {
-      "name": "Ümit Davala",
-      "info": "2003-05 yılları arasında Werder Bremen'de oynadılar"
-    },
-    {
-      "name": "Rüştü Reçber",
-      "info": "2009-12 yılları arasında Beşiktaş'ta oynadılar"
-    },
-    {
-      "name": "Kevin Kuranyi",
-      "info": "2005-09 yılları arasında Schalke'de oynadılar"
-    }
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 15,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-04-18",
-  "correctPlayer": "Gael Clichy",
-  "teammates": [
-    {
-      "name": "Thierry Henry",
-      "info": "2003-07 yılları arasında Arsenal'de oynadılar"
-    },
-    {
-      "name": "Carlos Tevez",
-      "info": "2011-13 yılları arasında Manchester City'de oynadılar"
-    },
-    {
-      "name": "Arda Turan",
-      "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
-    },
-    {
-      "name": "Aleksandr Hleb",
-      "info": "2005-18 yılları arasında Arsenal'de oynadılar"
-    },
-    {
-      "name": "Kerim Frei",
-      "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
-    }
-  ],
-  "difficulty": "zor"
-},
-{
+    "id": 12,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-15",
+    "correctPlayer": "Cyle Larin",
+    "teammates": [
+      {
+        "name": "Kaká",
+        "info": "2015-17 yılları arasında Orlando City'de oynadılar"
+      },
+      {
+        "name": "Dorukhan Toköz",
+        "info": "2018-21 yılları arasında Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Alphonso Davies",
+        "info": "Kanada Milli Takımı'nda birlikte oynadılar"
+      },
+      {
+        "name": "Vedat Muriqi",
+        "info": "2023-25 yılları arasında Mallorca'da oynadılar"
+      },
+      {
+        "name": "Rachid Ghezzal",
+        "info": "2020-22 yılları arasında Beşiktaş'ta oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 13,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-16",
+    "correctPlayer": "Dede",
+    "teammates": [
+      {
+        "name": "Jan Koller",
+        "info": "2001-06 yılları arasında Dortmund'da oynadılar"
+      },
+      {
+        "name": "Dida",
+        "info": "Brezilya Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Veysel Sarı",
+        "info": "2011-14 yılları arasında Eskişehirspor'da oynadılar"
+      },
+      {
+        "name": "Tomas Rosicky",
+        "info": "2001-06 yılları arasında Dortmund'da oynadılar"
+      },
+      {
+        "name": "Erkan Zengin",
+        "info": "2011-14 yılları arasında Eskişehirspor'da oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 14,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-17",
+    "correctPlayer": "Fabian Ernst",
+    "teammates": [
+      {
+        "name": "Ailton",
+        "info": "2000-04 yılları arasında Werder Bremen'de oynadılar"
+      },
+      {
+        "name": "Filip Holosko",
+        "info": "2009-11 yılları arasında Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Ümit Davala",
+        "info": "2003-05 yılları arasında Werder Bremen'de oynadılar"
+      },
+      {
+        "name": "Rüştü Reçber",
+        "info": "2009-12 yılları arasında Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Kevin Kuranyi",
+        "info": "2005-09 yılları arasında Schalke'de oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 15,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-18",
+    "correctPlayer": "Gael Clichy",
+    "teammates": [
+      {
+        "name": "Thierry Henry",
+        "info": "2003-07 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "Carlos Tevez",
+        "info": "2011-13 yılları arasında Manchester City'de oynadılar"
+      },
+      {
+        "name": "Arda Turan",
+        "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
+      },
+      {
+        "name": "Aleksandr Hleb",
+        "info": "2005-18 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "Kerim Frei",
+        "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
     "id": 16,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-19",
@@ -466,9 +462,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 17,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-20",
@@ -496,9 +491,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 18,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-21",
@@ -526,9 +520,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 19,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-22",
@@ -556,9 +549,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 20,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-23",
@@ -586,9 +578,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 21,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-24",
@@ -616,9 +607,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 22,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-25",
@@ -646,9 +636,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 23,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-26",
@@ -676,9 +665,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 24,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-27",
@@ -706,9 +694,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 25,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-28",
@@ -736,9 +723,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 26,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-29",
@@ -766,9 +752,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 27,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-30",
@@ -796,9 +781,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 28,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-01",
@@ -826,9 +810,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 29,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-02",
@@ -856,9 +839,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 30,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-03",
@@ -886,9 +868,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 31,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-04",
@@ -916,9 +897,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 32,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-05",
@@ -946,9 +926,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 33,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-06",
@@ -976,9 +955,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 34,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-07",
@@ -1006,9 +984,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 35,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-08",
@@ -1036,9 +1013,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 36,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-09",
@@ -1066,9 +1042,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 37,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-10",
@@ -1096,9 +1071,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 38,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-11",
@@ -1126,9 +1100,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 39,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-12",
@@ -1156,9 +1129,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 40,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-13",
@@ -1186,9 +1158,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 41,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-14",
@@ -1216,9 +1187,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 43,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-15",
@@ -1246,9 +1216,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 44,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-16",
@@ -1276,9 +1245,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 45,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-17",
@@ -1306,9 +1274,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 46,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-18",
@@ -1336,9 +1303,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 47,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-19",
@@ -1366,9 +1332,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 48,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-20",
@@ -1396,9 +1361,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 49,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-21",
@@ -1426,9 +1390,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 50,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-22",
@@ -1456,9 +1419,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 51,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-23",
@@ -1486,9 +1448,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 52,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-24",
@@ -1516,9 +1477,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 53,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-25",
@@ -1546,9 +1506,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 54,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-26",
@@ -1576,39 +1535,37 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
-  "id": 55,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-05-27",
-  "correctPlayer": "Gael Clichy",
-  "teammates": [
-    {
-      "name": "Thierry Henry",
-      "info": "2003-07 yılları arasında Arsenal'de oynadılar"
-    },
-    {
-      "name": "Carlos Tevez",
-      "info": "2011-13 yılları arasında Manchester City'de oynadılar"
-    },
-    {
-      "name": "Arda Turan",
-      "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
-    },
-    {
-      "name": "Aleksandr Hleb",
-      "info": "2005-18 yılları arasında Arsenal'de oynadılar"
-    },
-    {
-      "name": "Kerim Frei",
-      "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
-    }
-  ],
-  "difficulty": "zor"
-},
-
-{
+  },
+  {
+    "id": 55,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-27",
+    "correctPlayer": "Gael Clichy",
+    "teammates": [
+      {
+        "name": "Thierry Henry",
+        "info": "2003-07 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "Carlos Tevez",
+        "info": "2011-13 yılları arasında Manchester City'de oynadılar"
+      },
+      {
+        "name": "Arda Turan",
+        "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
+      },
+      {
+        "name": "Aleksandr Hleb",
+        "info": "2005-18 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "Kerim Frei",
+        "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
     "id": 56,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-28",
@@ -1636,9 +1593,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 57,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-29",
@@ -1667,68 +1623,65 @@
     ],
     "difficulty": "zor"
   },
-
   {
-  "id": 58,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-05-30",
-  "correctPlayer": "Cyle Larin",
-  "teammates": [
-    {
-      "name": "Kaká",
-      "info": "2015-17 yılları arasında Orlando City'de oynadılar"
-    },
-    {
-      "name": "Dorukhan Toköz",
-      "info": "2018-21 yılları arasında Beşiktaş'ta oynadılar"
-    },
-    {
-      "name": "Alphonso Davies",
-      "info": "Kanada Milli Takımı'nda birlikte oynadılar"
-    },
-    {
-      "name": "Vedat Muriqi",
-      "info": "2023-25 yılları arasında Mallorca'da oynadılar"
-    },
-    {
-      "name": "Rachid Ghezzal",
-      "info": "2020-22 yılları arasında Beşiktaş'ta oynadılar"
-    }
-  ],
-  "difficulty": "zor"
-},
-
-{
-  "id": 59,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-05-31",
-  "correctPlayer": "Lucas Torreira",
-  "teammates": [
-    {
-      "name": "Bruno Fernandes",
-      "info": "2016-17 sezonunda Sampdoria'da birlikte oynadılar"
-    },
-    {
-      "name": "Thomas Partey",
-      "info": "2020-21 sezonunda Atletico Madrid'de birlikte oynadılar"
-    },
-    {
-      "name": "Patrik Schick",
-      "info": "2016-17 sezonunda Sampdoria'da birlikte oynadılar"
-    },
-    {
-      "name": "Matteo Guendouzi",
-      "info": "2018-20 yılları arasında Arsenal'de birlikte oynadılar"
-    },
-    {
-      "name": "Dries Mertens",
-      "info": "2022-25 yılları arasında Galatasaray'da birlikte oynadılar"
-    }
-  ],
-  "difficulty": "zor"
-},
-
-{
+    "id": 58,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-30",
+    "correctPlayer": "Cyle Larin",
+    "teammates": [
+      {
+        "name": "Kaká",
+        "info": "2015-17 yılları arasında Orlando City'de oynadılar"
+      },
+      {
+        "name": "Dorukhan Toköz",
+        "info": "2018-21 yılları arasında Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Alphonso Davies",
+        "info": "Kanada Milli Takımı'nda birlikte oynadılar"
+      },
+      {
+        "name": "Vedat Muriqi",
+        "info": "2023-25 yılları arasında Mallorca'da oynadılar"
+      },
+      {
+        "name": "Rachid Ghezzal",
+        "info": "2020-22 yılları arasında Beşiktaş'ta oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 59,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-31",
+    "correctPlayer": "Lucas Torreira",
+    "teammates": [
+      {
+        "name": "Bruno Fernandes",
+        "info": "2016-17 sezonunda Sampdoria'da birlikte oynadılar"
+      },
+      {
+        "name": "Thomas Partey",
+        "info": "2020-21 sezonunda Atletico Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Patrik Schick",
+        "info": "2016-17 sezonunda Sampdoria'da birlikte oynadılar"
+      },
+      {
+        "name": "Matteo Guendouzi",
+        "info": "2018-20 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Dries Mertens",
+        "info": "2022-25 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
     "id": 60,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-01",
@@ -1756,9 +1709,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 61,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-02",
@@ -1786,9 +1738,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 62,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-03",
@@ -1816,9 +1767,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 63,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-04",
@@ -1847,7 +1797,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 64,
     "game": "takim-arkadasi",
@@ -1876,9 +1825,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 65,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-06",
@@ -1906,9 +1854,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 66,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-07",
@@ -1936,9 +1883,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 67,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-08",
@@ -1966,9 +1912,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 68,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-09",
@@ -1996,9 +1941,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 69,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-10",
@@ -2026,9 +1970,8 @@
       }
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 70,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-11",
@@ -2056,20 +1999,34 @@
       }
     ],
     "difficulty": "zor"
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  },
+  {
+    "id": 71,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-12",
+    "correctPlayer": "Gary Medel",
+    "teammates": [
+      {
+        "name": "Alexis Sanchez",
+        "info": "Şili Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Ivan Rakitic",
+        "info": "2011-13 yılları arasında Sevilla'da birlikte oynadılar"
+      },
+      {
+        "name": "Samir Handanovic",
+        "info": "2014-17 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Riccardo Orsolini",
+        "info": "2019-23 yılları arasında Bologna'da birlikte oynadılar"
+      },
+      {
+        "name": "Caner Erkin",
+        "info": "2017-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  }
 ]

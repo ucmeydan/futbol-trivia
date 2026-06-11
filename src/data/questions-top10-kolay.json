@@ -1243,6 +1243,27 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 63,
+    "game": "top10",
+    "title": "Süper Lig'in son 5 sezonunun toplamında (2021-22 / 2025-26) en fazla puan alan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-06-12",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Konyaspor",
+      "Alanyaspor",
+      "Kasımpaşa",
+      "Antalyaspor",
+      "Kayserispor"
+    ],
+    "difficulty": "kolay"
   }
 
 
