@@ -2373,7 +2373,49 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 64,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-13",
+    "correctPlayer": "Jayden Oosterwolde",
+    "career": [
+      {
+        "season": "2018–2020",
+        "team": "Twente U19",
+        "apps": "25",
+        "goals": "7"
+      },
+      {
+        "season": "2020-2022",
+        "team": "Twente",
+        "apps": "41",
+        "goals": "1"
+      },
+      {
+        "season": "2022–2022",
+        "team": "Parma (kiralık)",
+        "apps": "5",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Parma",
+        "apps": "19",
+        "goals": "1"
+      },
+      {
+        "season": "2023-",
+        "team": "Fenerbahçe",
+        "apps": "109",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

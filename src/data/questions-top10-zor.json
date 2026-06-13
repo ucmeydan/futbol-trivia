@@ -1689,7 +1689,31 @@
       "Ryan Babel"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 82,
+    "game": "top10",
+    "title": "Fenerbahçe tarihinde en çok gol atan 10 Afrikalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-13",
+    "targets": [
+      
+      "Moussa Sow",
+      "Youssef En Nesyri",
+      "Jay Jay Okocha",
+      "Pierre Webo",
+      "Emmanuel Emenike",
+      "Samuel Johnson",
+      "Uche Okechukwu",
+      "Stephen Appiah",
+      "John Moshoeu",
+      "Aatif Chahechouhe"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

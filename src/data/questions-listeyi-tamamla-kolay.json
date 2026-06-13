@@ -1184,7 +1184,28 @@
       "Hamza Hamzaoğlu"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 64,
+    "game": "listeyi-tamamla",
+    "title": "Dünya Kupası'na birden fazla oyuncu gönderen Türk takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-06-13",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Iğdır FK",
+      "Rizespor",
+      "Kasımpaşa"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

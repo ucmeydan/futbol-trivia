@@ -1806,7 +1806,27 @@
       "Hakan Çalhanoğlu"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 82,
+    "game": "listeyi-tamamla",
+    "title": "Başakşehir FK tarihinde 25 ve üzeri sayıda gol atan yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-13",
+    "targets": [
+      "Edin Visca",
+      "Krzysztof Piatek",
+      "Doka Madureira",
+      "Danijel Aleksić",
+      "Emmanuel Adebayor",
+      "Samuel Holmen",
+      "Demba Ba"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

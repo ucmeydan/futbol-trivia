@@ -1264,7 +1264,30 @@
       "Kayserispor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 64,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de oynayıp Dünya Kupası'na katılan en değerli 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-13",
+    "targets": [
+      "Barış Alper Yılmaz",
+      "Orkun Kökçü",
+      "Wilfried Singo",
+      "Christ Inao Oulai",
+      "Noa Lang",
+      "Leroy Sane",
+      "Kerem Aktürkoğlu",
+      "Yunus Akgün",
+      "Davinson Sanchez",
+      "Emmanuel Agbadou"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

@@ -3123,7 +3123,43 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 75,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-13",
+    "correctPlayer": "Tayyip Talha Sanuç",
+    "career": [
+      {
+        "season": "2017–2018",
+        "team": "Karabükspor",
+        "apps": "16",
+        "goals": "0"
+      },
+      {
+        "season": "2018-2022",
+        "team": "Adana Demirspor",
+        "apps": "96",
+        "goals": "8"
+      },
+      {
+        "season": "2022–",
+        "team": "Beşiktaş",
+        "apps": "52",
+        "goals": "2"
+      },
+      {
+        "season": "2025–",
+        "team": "Gaziantep FK (kiralık)",
+        "apps": "22",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
