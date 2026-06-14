@@ -1843,7 +1843,29 @@
       "İtalya"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 84,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Barcelona hem de Galatasaray forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-15",
+    "targets": [
+     
+      "Gheorghe Hagi",
+      "Gheorghe Popescu",
+      "Inaki Pena",
+      "Yusuf Demir",
+      "Arda Turan",
+      "İlkay Gündoğan",
+      "Frank De Boer",
+      "Giovani Dos Santos"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

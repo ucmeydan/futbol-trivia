@@ -1225,7 +1225,31 @@
      "Hakan Çalhanoğlu"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 66,
+    "game": "listeyi-tamamla",
+    "title": "Tarihinde Dünya Kupası finali kaybetmiş ülkeler?",
+    "type": "country",
+    "activeDate": "2026-06-15",
+    "targets": [
+     "Brezilya",
+     "Fransa",
+     "İsveç",
+     "Macaristan",
+     "Almanya",
+     "Hollanda",
+     "Arjantin",
+     "Hırvatistan",
+     "İtalya",
+     "Çekoslovakya"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

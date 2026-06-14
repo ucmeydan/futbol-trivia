@@ -3203,6 +3203,46 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 77,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-15",
+    "correctPlayer": "Joe Worrall",
+    "career": [
+      {
+        "season": "2015–2024",
+        "team": "Nottingham Forest",
+        "apps": "226",
+        "goals": "5"
+      },
+      {
+        "season": "2016-2016",
+        "team": "Dagenham & Redbridge (kiralık)",
+        "apps": "15",
+        "goals": "1"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Glasgow Rangers (kiralık)",
+        "apps": "32",
+        "goals": "1"
+      },
+      {
+        "season": "2024–2024",
+        "team": "Beşiktaş (kiralık)",
+        "apps": "9",
+        "goals": "1"
+      },
+      {
+        "season": "2024-",
+        "team": "Burnley",
+        "apps": "26",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

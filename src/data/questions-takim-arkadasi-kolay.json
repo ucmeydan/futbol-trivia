@@ -1883,5 +1883,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 66,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-15",
+    "correctPlayer": "Mesut Özil",
+    "teammates": [
+      {
+        "name": "Thomas Müller",
+        "info": "Almanya Milli Takımında oynadılar"
+      },
+      {
+        "name": "Alexis Sanchez",
+        "info": "2014-18 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "İrfan Can Kahveci",
+        "info": "2021-22 yılları arasında Fenerbahçe'de oynadılar"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2010-14 yılları arasında Real Madrid'de oynadılar"
+      },
+      {
+        "name": "Iker Casillas",
+        "info": "2010-14 yılları arasında Real Madrid'de oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -1734,7 +1734,35 @@
   
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 84,
+    "game": "top10",
+    "title": "Kariyerinde hem Beşiktaş hem de Benfica'da forma giyen oyuncular arasında bu iki takımda toplamda en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-15",
+    "targets": [
+
+      "Rafa Silva",
+      "Simao Sabrosa",
+      "Manuel Fernandes",
+      "Ronaldo Guiaro",
+      "Joao Mario",
+      "Gedson Fernandes",
+      "Anderson Talisca",
+      "Orkun Kökçü",
+      "Sidnei",
+      "Cher Ndour"
+
+  
+    ],
+    "difficulty": "zor"
   }
+
+
+
+
 
 
 

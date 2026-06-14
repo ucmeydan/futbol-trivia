@@ -1306,7 +1306,33 @@
       "Kayseri"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 66,
+    "game": "top10",
+    "title": "A Milli takımımızda Euro 2008'de en fazla süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-15",
+    "targets": [
+      "Hakan Balta",
+      "Hamit Altıntop",
+      "Tuncay Şanlı",
+      "Nihat Kahveci",
+      "Mehmet Aurelio",
+      "Sabri Sarıoğlu",
+      "Arda Turan",
+      "Colin Kazım Richards",
+      "Emre Aşık",
+      "Servet Çetin"
+
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

@@ -2461,7 +2461,31 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 66,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-15",
+    "correctPlayer": "Sabri Sarıoğlu",
+    "career": [
+      {
+        "season": "2001–2017",
+        "team": "Galatasaray",
+        "apps": "479",
+        "goals": "24"
+      },
+      {
+        "season": "2017–2018",
+        "team": "Göztepe",
+        "apps": "29",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
