@@ -2029,8 +2029,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 72,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-13",
@@ -2055,6 +2054,35 @@
       {
         "name": "Ricardo Quaresma",
         "info": "2018 yılında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 73,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-14",
+    "correctPlayer": "Oscar Cardozo",
+    "teammates": [
+      {
+        "name": "David Luiz",
+        "info": "2007-11 yılları arasında Benfica'da birlikte oynadılar"
+      },
+      {
+        "name": "Luis Pedro Cavanda",
+        "info": "2015-16 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Roque Santa Cruz",
+        "info": "2022-25 yılları arasında Libertad'da ve Paraguay Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Angel Di Maria",
+        "info": "2007-10 yılları arasında Benfica'da birlikte oynadılar"
+      },
+      {
+        "name": "Mehmet Ekici",
+        "info": "2014-16 yılları arasında Trabzonspor'da birlikte oynadılar"
       }
     ],
     "difficulty": "zor"

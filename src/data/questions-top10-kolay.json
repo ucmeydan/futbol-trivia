@@ -1285,6 +1285,27 @@
       "Emmanuel Agbadou"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 65,
+    "game": "top10",
+    "title": "A Milli futbol takımımızın Türkiye'de en fazla maç yaptığı 10 şehir?",
+    "type": "city",
+    "activeDate": "2026-06-14",
+    "targets": [
+      "İstanbul",
+      "İzmir",
+      "Ankara",
+      "Antalya",
+      "Bursa",
+      "Konya",
+      "Adana",
+      "Trabzon",
+      "Eskişehir",
+      "Kayseri"
+    ],
+    "difficulty": "kolay"
   }
 
 

@@ -1711,7 +1711,32 @@
       "Aatif Chahechouhe"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 83,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de 20 yaş ve altındaki en değerli 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-14",
+    "targets": [
+
+      "Christ Inao Oulai",
+      "Sidiki Cherif",
+      "Renato Nhaga",
+      "Mustafa Hekimoğlu",
+      "Yasin Özcan",
+      "Taylan Bulut",
+      "Barış Kalaycı",
+      "Hamza Güreler",
+      "Baran Gezek",
+      "Arda Ünyay"
+  
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

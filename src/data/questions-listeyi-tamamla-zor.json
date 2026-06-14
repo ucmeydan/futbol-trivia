@@ -1824,7 +1824,28 @@
       "Demba Ba"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 83,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın tarihinde büyük turnuvaların açılış maçlarında karşılaştığı rakipler? (Dünya Kupası ve Avrupa Şampiyonası)",
+    "type": "country",
+    "activeDate": "2026-06-14",
+    "targets": [
+      
+      "Almanya",
+      "Hırvatistan",
+      "Brezilya",
+      "Portekiz",
+      "Gürcistan",
+      "Avustralya",
+      "İtalya"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

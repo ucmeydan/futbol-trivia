@@ -116,124 +116,122 @@
     "difficulty": "kolay"
   },
   {
-  "id": 5,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-04-15",
-  "correctPlayer": "Emre Belözoğlu",
-  "teammates": [
-    {
-      "name": "Gheorghe Hagi",
-      "info": "1997-2000 yılları arasında Galatasaray'da oynadılar"
-    },
-    {
-      "name": "Ronaldo Nazario",
-      "info": "2001-02 sezonunda Inter'de oynadılar"
-    },
-    {
-      "name": "Michael Owen",
-      "info": "2005-08 yılları arasında Newcastle United'da oynadılar"
-    },
-    {
-      "name": "Robinho",
-      "info": "2018-19 sezonunda Başakşehir'de oynadılar"
-    },
-    {
-      "name": "Alex De Souza",
-      "info": "2008-13 yılları arasında Fenerbahçe'de oynadılar"
-    }
-  ],
-  "difficulty": "kolay"
-},
-
- {
-  "id": 6,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-04-16",
-  "correctPlayer": "Ryan Babel",
-  "teammates": [
-    {
-      "name": "Steven Gerrard",
-      "info": "2007-11 yılları arasında Liverpool'da oynadılar"
-    },
-    {
-      "name": "Marcao",
-      "info": "2019-22 yılları arasında Galatasaray'da oynadılar"
-    },
-    {
-      "name": "Javier Mascherano",
-      "info": "2008-10 yılları arasında Liverpool'da oynadılar"
-    },
-    {
-      "name": "Tolgay Arslan",
-      "info": "2017-19 yılları arasında Beşiktaş'ta oynadılar"
-    },
-    {
-      "name": "Fernando Muslera",
-      "info": "2019-22 yılları arasında Galatasaray'da oynadılar"
-    }
-  ],
-  "difficulty": "kolay"
-},
-
-{
-  "id": 7,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-04-17",
-  "correctPlayer": "Robin van Persie",
-  "teammates": [
-    {
-      "name": "Wayne Rooney",
-      "info": "2012-15 yılları arasında Manchester United'da oynadılar"
-    },
-    {
-      "name": "Emmanuel Adebayor",
-      "info": "2015-19 yılları arasında Arsenal'de oynadılar"
-    },
-    {
-      "name": "Nani",
-      "info": "2012-15 yılları arasında Manchester United'da ve 2015-16 sezonunda Fenerbahçe'de oynadılar"
-    },
-    {
-      "name": "Ruud van Nistelrooy",
-      "info": "Hollanda Milli takımında birlikte oynadılar"
-    },
-    {
-      "name": "Simon Kjaer",
-      "info": "2015-17 yılları arasında Fenerbahçe'de oynadılar"
-    }
-  ],
-  "difficulty": "kolay"
-},
-{
-  "id": 8,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-04-18",
-  "correctPlayer": "Wesley Sneijder",
-  "teammates": [
-    {
-      "name": "Iker Casillas",
-      "info": "2007-09 yılları arasında Real Madrid'de oynadılar"
-    },
-    {
-      "name": "Samuel Eto'o",
-      "info": "2009-12 yılları arasında Inter'de oynadılar"
-    },
-    {
-      "name": "Gonzalo Higuain",
-      "info": "2007-09 yılları arasında Real Madrid'de oynadılar"
-    },
-    {
-      "name": "Burak Yılmaz",
-      "info": "2013-16 yılları arasında Galatasaray'da oynadılar"
-    },
-    {
-      "name": "Fernando Muslera",
-      "info": "2013-17 yılları arasında Galatasaray'da oynadılar"
-    }
-  ],
-  "difficulty": "kolay"
-},
-{
+    "id": 5,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-15",
+    "correctPlayer": "Emre Belözoğlu",
+    "teammates": [
+      {
+        "name": "Gheorghe Hagi",
+        "info": "1997-2000 yılları arasında Galatasaray'da oynadılar"
+      },
+      {
+        "name": "Ronaldo Nazario",
+        "info": "2001-02 sezonunda Inter'de oynadılar"
+      },
+      {
+        "name": "Michael Owen",
+        "info": "2005-08 yılları arasında Newcastle United'da oynadılar"
+      },
+      {
+        "name": "Robinho",
+        "info": "2018-19 sezonunda Başakşehir'de oynadılar"
+      },
+      {
+        "name": "Alex De Souza",
+        "info": "2008-13 yılları arasında Fenerbahçe'de oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 6,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-16",
+    "correctPlayer": "Ryan Babel",
+    "teammates": [
+      {
+        "name": "Steven Gerrard",
+        "info": "2007-11 yılları arasında Liverpool'da oynadılar"
+      },
+      {
+        "name": "Marcao",
+        "info": "2019-22 yılları arasında Galatasaray'da oynadılar"
+      },
+      {
+        "name": "Javier Mascherano",
+        "info": "2008-10 yılları arasında Liverpool'da oynadılar"
+      },
+      {
+        "name": "Tolgay Arslan",
+        "info": "2017-19 yılları arasında Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2019-22 yılları arasında Galatasaray'da oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 7,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-17",
+    "correctPlayer": "Robin van Persie",
+    "teammates": [
+      {
+        "name": "Wayne Rooney",
+        "info": "2012-15 yılları arasında Manchester United'da oynadılar"
+      },
+      {
+        "name": "Emmanuel Adebayor",
+        "info": "2015-19 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "Nani",
+        "info": "2012-15 yılları arasında Manchester United'da ve 2015-16 sezonunda Fenerbahçe'de oynadılar"
+      },
+      {
+        "name": "Ruud van Nistelrooy",
+        "info": "Hollanda Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Simon Kjaer",
+        "info": "2015-17 yılları arasında Fenerbahçe'de oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 8,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-18",
+    "correctPlayer": "Wesley Sneijder",
+    "teammates": [
+      {
+        "name": "Iker Casillas",
+        "info": "2007-09 yılları arasında Real Madrid'de oynadılar"
+      },
+      {
+        "name": "Samuel Eto'o",
+        "info": "2009-12 yılları arasında Inter'de oynadılar"
+      },
+      {
+        "name": "Gonzalo Higuain",
+        "info": "2007-09 yılları arasında Real Madrid'de oynadılar"
+      },
+      {
+        "name": "Burak Yılmaz",
+        "info": "2013-16 yılları arasında Galatasaray'da oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2013-17 yılları arasında Galatasaray'da oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
     "id": 9,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-19",
@@ -261,9 +259,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 10,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-20",
@@ -291,9 +288,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 11,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-21",
@@ -321,9 +317,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 12,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-22",
@@ -351,9 +346,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 13,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-23",
@@ -381,9 +375,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 14,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-24",
@@ -411,9 +404,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 15,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-25",
@@ -441,9 +433,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 16,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-26",
@@ -471,9 +462,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 17,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-27",
@@ -501,9 +491,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 18,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-28",
@@ -531,9 +520,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 19,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-29",
@@ -561,9 +549,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 20,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-30",
@@ -591,9 +578,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 21,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-01",
@@ -621,9 +607,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 22,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-02",
@@ -651,9 +636,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 23,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-03",
@@ -681,9 +665,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 24,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-04",
@@ -711,9 +694,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 25,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-05",
@@ -741,9 +723,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 26,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-06",
@@ -771,9 +752,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 27,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-07",
@@ -801,9 +781,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 28,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-08",
@@ -831,9 +810,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 29,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-09",
@@ -861,9 +839,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 30,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-10",
@@ -891,9 +868,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 31,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-11",
@@ -921,9 +897,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 32,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-12",
@@ -951,9 +926,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 33,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-13",
@@ -980,12 +954,9 @@
         "info": "2024-26 yılları arasında Real Madrid'de birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-
-{
+  },
+  {
     "id": 34,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-14",
@@ -1012,11 +983,9 @@
         "info": "2006-12 yılları arasında Liverpool'da birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 35,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-15",
@@ -1043,11 +1012,9 @@
         "info": "2025-26 sezonunda Como'da birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 36,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-16",
@@ -1074,11 +1041,9 @@
         "info": "2025-26 sezonunda Fenerbahçe'de birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 37,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-17",
@@ -1105,11 +1070,9 @@
         "info": "2019-20 sezonunda Trabzonspor'da birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 38,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-18",
@@ -1136,11 +1099,9 @@
         "info": "2024-26 yılları arasında Brighton'da birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 39,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-19",
@@ -1167,11 +1128,9 @@
         "info": "2017-2019 yılları arasında Başakşehir'de birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 40,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-20",
@@ -1198,11 +1157,9 @@
         "info": "2012-2016 yılları arasında Dortmund'da birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 41,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-21",
@@ -1229,11 +1186,9 @@
         "info": "2010-2011 sezonunda Beşiktaş'ta birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 42,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-22",
@@ -1260,11 +1215,9 @@
         "info": "2023-2025 yılları arasında Fenerbahçe'de birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 43,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-23",
@@ -1291,11 +1244,9 @@
         "info": "2005-2006 yılları arasında Fenerbahçe'de birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 44,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-24",
@@ -1322,11 +1273,9 @@
         "info": "2024-26 yılları arasında Galatasaray'da birlikte oynadılar"
       }
     ],
-
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 45,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-25",
@@ -1354,9 +1303,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 46,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-26",
@@ -1384,9 +1332,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 47,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-27",
@@ -1414,39 +1361,37 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
-  "id": 48,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-05-28",
-  "correctPlayer": "Ryan Babel",
-  "teammates": [
-    {
-      "name": "Steven Gerrard",
-      "info": "2007-11 yılları arasında Liverpool'da oynadılar"
-    },
-    {
-      "name": "Marcao",
-      "info": "2019-22 yılları arasında Galatasaray'da oynadılar"
-    },
-    {
-      "name": "Javier Mascherano",
-      "info": "2008-10 yılları arasında Liverpool'da oynadılar"
-    },
-    {
-      "name": "Tolgay Arslan",
-      "info": "2017-19 yılları arasında Beşiktaş'ta oynadılar"
-    },
-    {
-      "name": "Fernando Muslera",
-      "info": "2019-22 yılları arasında Galatasaray'da oynadılar"
-    }
-  ],
-  "difficulty": "kolay"
-},
-
-{
+  },
+  {
+    "id": 48,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-05-28",
+    "correctPlayer": "Ryan Babel",
+    "teammates": [
+      {
+        "name": "Steven Gerrard",
+        "info": "2007-11 yılları arasında Liverpool'da oynadılar"
+      },
+      {
+        "name": "Marcao",
+        "info": "2019-22 yılları arasında Galatasaray'da oynadılar"
+      },
+      {
+        "name": "Javier Mascherano",
+        "info": "2008-10 yılları arasında Liverpool'da oynadılar"
+      },
+      {
+        "name": "Tolgay Arslan",
+        "info": "2017-19 yılları arasında Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2019-22 yılları arasında Galatasaray'da oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
     "id": 49,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-29",
@@ -1474,9 +1419,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 50,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-30",
@@ -1505,7 +1449,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 51,
     "game": "takim-arkadasi",
@@ -1534,9 +1477,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 52,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-01",
@@ -1564,9 +1506,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 53,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-02",
@@ -1594,9 +1535,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 54,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-03",
@@ -1624,9 +1564,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 55,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-04",
@@ -1654,9 +1593,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 56,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-05",
@@ -1684,39 +1622,37 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
-  "id": 57,
-  "game": "takim-arkadasi",
-  "activeDate": "2026-06-06",
-  "correctPlayer": "Emre Belözoğlu",
-  "teammates": [
-    {
-      "name": "Gheorghe Hagi",
-      "info": "1997-2000 yılları arasında Galatasaray'da oynadılar"
-    },
-    {
-      "name": "Ronaldo Nazario",
-      "info": "2001-02 sezonunda Inter'de oynadılar"
-    },
-    {
-      "name": "Michael Owen",
-      "info": "2005-08 yılları arasında Newcastle United'da oynadılar"
-    },
-    {
-      "name": "Robinho",
-      "info": "2018-19 sezonunda Başakşehir'de oynadılar"
-    },
-    {
-      "name": "Alex De Souza",
-      "info": "2008-13 yılları arasında Fenerbahçe'de oynadılar"
-    }
-  ],
-  "difficulty": "kolay"
-},
-
-{
+  },
+  {
+    "id": 57,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-06",
+    "correctPlayer": "Emre Belözoğlu",
+    "teammates": [
+      {
+        "name": "Gheorghe Hagi",
+        "info": "1997-2000 yılları arasında Galatasaray'da oynadılar"
+      },
+      {
+        "name": "Ronaldo Nazario",
+        "info": "2001-02 sezonunda Inter'de oynadılar"
+      },
+      {
+        "name": "Michael Owen",
+        "info": "2005-08 yılları arasında Newcastle United'da oynadılar"
+      },
+      {
+        "name": "Robinho",
+        "info": "2018-19 sezonunda Başakşehir'de oynadılar"
+      },
+      {
+        "name": "Alex De Souza",
+        "info": "2008-13 yılları arasında Fenerbahçe'de oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
     "id": 58,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-07",
@@ -1745,7 +1681,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 59,
     "game": "takim-arkadasi",
@@ -1774,9 +1709,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
- {
+  },
+  {
     "id": 60,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-09",
@@ -1804,9 +1738,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 61,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-10",
@@ -1834,9 +1767,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 62,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-11",
@@ -1865,7 +1797,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 63,
     "game": "takim-arkadasi",
@@ -1894,9 +1825,8 @@
       }
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 64,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-13",
@@ -1924,21 +1854,34 @@
       }
     ],
     "difficulty": "kolay"
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  },
+  {
+    "id": 65,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-14",
+    "correctPlayer": "Ricardo Quaresma",
+    "teammates": [
+      {
+        "name": "John Terry",
+        "info": "2008-09 sezonunda Chelsea'de birlikte oynadılar."
+      },
+      {
+        "name": "Ronaldinho",
+        "info": "2003-04 sezonunda Barcelona'da birlikte oynadılar"
+      },
+      {
+        "name": "Mario Gomez",
+        "info": "2015-16 sezonunda Beşiktaş'ta birlikte oynadılar."
+      },
+      {
+        "name": "Atiba Hutchinson",
+        "info": "2015-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Guti Hernandez",
+        "info": "2010-11 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  }
 ]

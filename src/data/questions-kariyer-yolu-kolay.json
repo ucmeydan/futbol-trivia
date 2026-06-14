@@ -2413,7 +2413,57 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 65,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-14",
+    "correctPlayer": "Okan Kocuk",
+    "career": [
+      {
+        "season": "2014–2019",
+        "team": "Bursaspor",
+        "apps": "28",
+        "goals": "0"
+      },
+      {
+        "season": "2016-2017",
+        "team": "Bandırmaspor (kiralık)",
+        "apps": "25",
+        "goals": "0"
+      },
+      {
+        "season": "2017–2018",
+        "team": "İstanbulspor (kiralık)",
+        "apps": "37",
+        "goals": "0"
+      },
+      {
+        "season": "2019–2023",
+        "team": "Galatasaray",
+        "apps": "29",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Giresunspor (kiralık)",
+        "apps": "32",
+        "goals": "0"
+      },
+      {
+        "season": "2023-",
+        "team": "Samsunspor",
+        "apps": "118",
+        "goals": "0"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

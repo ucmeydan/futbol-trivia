@@ -3157,6 +3157,52 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 76,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-14",
+    "correctPlayer": "Christopher Operi",
+    "career": [
+      {
+        "season": "2013–2013",
+        "team": "Caen U19",
+        "apps": "2",
+        "goals": "0"
+      },
+      {
+        "season": "2013-2015",
+        "team": "Caen B",
+        "apps": "38",
+        "goals": "4"
+      },
+      {
+        "season": "2015–2017",
+        "team": "Chateauroux",
+        "apps": "79",
+        "goals": "3"
+      },
+      {
+        "season": "2017–2021",
+        "team": "Gent",
+        "apps": "17",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2024",
+        "team": "Le Havre",
+        "apps": "78",
+        "goals": "5"
+      },
+      {
+        "season": "2024-",
+        "team": "Başakşehir",
+        "apps": "42",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

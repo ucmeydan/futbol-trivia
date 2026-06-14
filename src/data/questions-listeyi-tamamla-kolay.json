@@ -1203,7 +1203,31 @@
       "Kasımpaşa"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 65,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın Dünya Kupası'nda Avustralya'ya karşı oynadığı maçtaki ilk 11'i?",
+    "type": "team-tr",
+    "activeDate": "2026-06-14",
+    "targets": [
+     "Uğurcan Çakır",
+     "Zeki Çelik",
+     "Abdülkerim Bardakcı",
+     "Merih Demiral",
+     "Ferdi Kadıoğlu",
+     "İsmail Yüksek",
+     "Orkun Kökçü",
+     "Arda Güler",
+     "Barış Alper Yılmaz",
+     "Kerem Aktürkoğlu",
+     "Hakan Çalhanoğlu"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
