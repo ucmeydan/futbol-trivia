@@ -1863,7 +1863,30 @@
       "Giovani Dos Santos"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 85,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Juventus hem de Fenerbahçe forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-16",
+    "targets": [
+     
+      "Nicolas Anelka",
+      "Stephen Appiah",
+      "Leonardo Bonucci",
+      "Diego Ribas",
+      "Mauricio Isla",
+      "Filip Kostic",
+      "Zoran Mirkovic",
+      "Milos Krasic"
+      
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

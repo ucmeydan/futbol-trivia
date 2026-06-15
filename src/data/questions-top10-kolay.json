@@ -1330,7 +1330,33 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 67,
+    "game": "top10",
+    "title": "Vincenzo Montella'nın teknik direktörlüğünde milli takımımızın formasıyla en fazla maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-16",
+    "targets": [
+      "Kerem Aktürkoğlu",
+      "Kenan Yıldız",
+      "Barış Alper Yılmaz",
+      "Hakan Çalhanoğlu",
+      "Arda Güler",
+      "Orkun Kökçü",
+      "Abdülkerim Bardakcı",
+      "Mert Müldür",
+      "İsmail Yüksek",
+      "Merih Demiral"
+
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

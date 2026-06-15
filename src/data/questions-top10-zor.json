@@ -1758,7 +1758,33 @@
   
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 85,
+    "game": "top10",
+    "title": "Abdullah Avcı'nın Başakşehir FK teknik direktörü olduğu dönemde en fazla maça çıkan 10 futbolcu? (İstanbul BB dönemi dahil)",
+    "type": "player",
+    "activeDate": "2026-06-16",
+    "targets": [
+
+      "Mahmut Tekdemir",
+      "Edin Visca",
+      "Marcio Mossoro",
+      "Alexandru Epureanu",
+      "Ekrem Ekşioğlu",
+      "Volkan Babacan",
+      "Efe İnanç",
+      "Emre Belözoğlu",
+      "İbrahim Akın",
+      "Doka Madureira"
+
+  
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

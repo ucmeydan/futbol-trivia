@@ -3243,7 +3243,31 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 78,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-16",
+    "correctPlayer": "Ziya Erdal",
+    "career": [
+      {
+        "season": "2010-2025",
+        "team": "Sivasspor",
+        "apps": "372",
+        "goals": "7"
+      },
+      {
+        "season": "2026-",
+        "team": "12 Bingölspor",
+        "apps": "8",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

@@ -1247,7 +1247,27 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 67,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın 2026 Dünya Kupası kadrosunda olan futbolculardan kariyerinde Süper Lig'de forma giymemiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-16",
+    "targets": [
+    "Zeki Çelik",
+    "Hakan Çalhanoğlu",
+    "Salih Özcan",
+    "Kenan Yıldız",
+    "Deniz Gül",
+    "Can Uzun"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

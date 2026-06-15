@@ -2116,5 +2116,35 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 75,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-16",
+    "correctPlayer": "Samir Nasri",
+    "teammates": [
+      {
+        "name": "Mamadou Niang",
+        "info": "2006-08 arası Marsilya'da oynadılar"
+      },
+      {
+        "name": "Tomas Rosicky",
+        "info": "2008-12 arası Arsenal'de oynadılar"
+      },
+      {
+        "name": "Thierry Henry",
+        "info": "2011-12 sezonunda Arsenal'de ve Fransa Milli Takımında oynadılar "
+      },
+      {
+        "name": "Sergio Agüero",
+        "info": "2011-17 arası Manchester City'de oynadılar"
+      },
+      {
+        "name": "Nazım Sangare",
+        "info": "2017-18 sezonunda Antalyaspor'da oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

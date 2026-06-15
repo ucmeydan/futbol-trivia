@@ -1913,5 +1913,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 67,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-16",
+    "correctPlayer": "Mauro Icardi",
+    "teammates": [
+      {
+        "name": "Kylian Mbappé",
+        "info": "2019-22 yılları arasında PSG'de oynadılar"
+      },
+      {
+        "name": "Lionel Messi",
+        "info": "2021-22 sezonunda PSG'de ve Arjantin Milli takımında oynadılar"
+      },
+      {
+        "name": "Federico Dimarco",
+        "info": "2014-19 yılları arasında Inter'de oynadılar"
+      },
+      {
+        "name": "Sergio Oliveira",
+        "info": "2022-24 yılları arasında Galatasaray'da oynadılar"
+      },
+      {
+        "name": "Victor Osimhen",
+        "info": "2025-26 sezonunda Galatasaray'da oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

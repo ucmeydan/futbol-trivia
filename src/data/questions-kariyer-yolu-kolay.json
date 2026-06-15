@@ -2483,7 +2483,38 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 67,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-16",
+    "correctPlayer": "Deniz Gül",
+    "career": [
+      {
+        "season": "2023–2024",
+        "team": "Hammarby",
+        "apps": "25",
+        "goals": "3"
+      },
+      {
+        "season": "2023–2023",
+        "team": "Hammarby TFF (kiralık)",
+        "apps": "23",
+        "goals": "14"
+      },
+      {
+        "season": "2024–",
+        "team": "Porto",
+        "apps": "67",
+        "goals": "9"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
