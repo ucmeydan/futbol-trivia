@@ -1782,7 +1782,33 @@
   
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 86,
+    "game": "top10",
+    "title": "Galatasaray'da 11 numaralı formayı giyen son 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-18",
+    "targets": [
+
+      "Yunus Akgün",
+      "Mostafa Mohamed",
+      "Halil Dervişoğlu",
+      "Ryan Babel",
+      "Sinan Gümüş",
+      "Lukas Podolski",
+      "Bruma",
+      "Didier Drogba",
+      "Albert Riera",
+      "Mehmet Batdal"
+
+  
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

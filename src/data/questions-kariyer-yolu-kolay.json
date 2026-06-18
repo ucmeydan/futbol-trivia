@@ -2512,7 +2512,45 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 68,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-18",
+    "correctPlayer": "Muhammed Şengezer",
+    "career": [
+      {
+        "season": "2015–2019",
+        "team": "Bursaspor",
+        "apps": "19",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Yeşil Bursa (kiralık)",
+        "apps": "24",
+        "goals": "0"
+      },
+      {
+        "season": "2019–",
+        "team": "Başakşehir",
+        "apps": "127",
+        "goals": "0"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Adana Demirspor (kiralık)",
+        "apps": "16",
+        "goals": "0"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

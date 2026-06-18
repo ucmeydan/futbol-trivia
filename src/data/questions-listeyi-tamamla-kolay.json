@@ -1265,7 +1265,25 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 68,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Bayern hem de Beşiktaş forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-18",
+    "targets": [
+    "Mario Gomez",
+    "Jose Sosa",
+    "Markus Munch",
+    "Berkant Göktan"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

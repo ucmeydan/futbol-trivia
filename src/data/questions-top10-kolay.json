@@ -1354,7 +1354,33 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 68,
+    "game": "top10",
+    "title": "2026 Dünya Kupası'na katılan ülkeler arasında en yüksek nüfusa sahip 10 ülke? ",
+    "type": "country",
+    "activeDate": "2026-06-18",
+    "targets": [
+      
+      "Amerika Birleşik Devletleri",
+      "Brezilya",
+      "Meksika",
+      "Japonya",
+      "Demokratik Kongo Cumhuriyeti",
+      "Mısır",
+      "İran",
+      "Türkiye",
+      "Almanya",
+      "Fransa"
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

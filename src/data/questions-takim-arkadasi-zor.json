@@ -2146,5 +2146,35 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 76,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-18",
+    "correctPlayer": "Jose Bosingwa",
+    "teammates": [
+      {
+        "name": "Diego Ribas",
+        "info": "2004-06 arası Porto'da oynadılar"
+      },
+      {
+        "name": "Michael Ballack",
+        "info": "2008-10 arası Chelsea'de oynadılar"
+      },
+      {
+        "name": "Raul Meireles",
+        "info": "2003-08 arası Porto'da, 2011-12 sezonunda Chelsea'de oynadılar"
+      },
+      {
+        "name": "Florent Malouda",
+        "info": "2008-12 arası Chelsea'de, 2013-14 sezonunda Trabzonspor'da oynadılar"
+      },
+      {
+        "name": "Oscar Cardozo",
+        "info": "2014-16 arası Trabzonspor'da oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
