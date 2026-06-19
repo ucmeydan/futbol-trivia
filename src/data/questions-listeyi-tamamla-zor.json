@@ -1908,7 +1908,25 @@
       "Wesley Moraes"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 87,
+    "game": "listeyi-tamamla",
+    "title": "2026 Dünya Kupası'nda yer alan ve bonservisi Trabzonspor'da bulunan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-19",
+    "targets": [
+      "Wagner Pina",
+      "Christ Inao Oulai",
+      "Sidny Lopes Cabral"
+    ],
+    "difficulty": "zor"
   }
+
+
+
+
 
 
 

@@ -2176,5 +2176,35 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 77,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-19",
+    "correctPlayer": "Olcay Şahan",
+    "teammates": [
+      {
+        "name": "Kevin Trapp",
+        "info": "2011-12 sezonunda Kaiserslautern'de oynadılar"
+      },
+      {
+        "name": "Mustafa Eskihellaç",
+        "info": "2020-21 sezonunda Yeni Malatyaspor'da oynadılar"
+      },
+      {
+        "name": "Hugo Rodallega",
+        "info": "2016-19 arası Trabzonspor'da ve 2019-20 sezonunda Denizlispor'da oynadılar"
+      },
+      {
+        "name": "Filip Holosko",
+        "info": "2012-14 yılları arasında Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Ramon Motta",
+        "info": "2013-16 yılları arasında Beşiktaş'ta oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -2548,7 +2548,39 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 69,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-19",
+    "correctPlayer": "Renato Nhaga",
+    "career": [
+      {
+        "season": "2024–2025",
+        "team": "Casa Pia U19",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Casa Pia",
+        "apps": "24",
+        "goals": "2"
+      },
+      {
+        "season": "2016–",
+        "team": "Galatasaray",
+        "apps": "5",
+        "goals": "2"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

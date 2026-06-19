@@ -3305,7 +3305,49 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 80,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-19",
+    "correctPlayer": "Serdar Kesimal",
+    "career": [
+      {
+        "season": "2007–2008",
+        "team": "Koln U19",
+        "apps": "24",
+        "goals": "0"
+      },
+      {
+        "season": "2008-2009",
+        "team": "Koln II",
+        "apps": "20",
+        "goals": "0"
+      },
+      {
+        "season": "2009–2011",
+        "team": "Kayserispor",
+        "apps": "57",
+        "goals": "2"
+      },
+      {
+        "season": "2011–2016",
+        "team": "Fenerbahçe",
+        "apps": "38",
+        "goals": "0"
+      },
+      {
+        "season": "2016-2017",
+        "team": "Akhisar Belediyespor",
+        "apps": "9",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

@@ -999,29 +999,26 @@
     ],
     "difficulty": "zor"
   },
-{
+  {
     "id": 51,
     "game": "top10",
     "title": "Süper Lig'de sezonu 'Sezonun en golcü yerli oyuncusu' olarak tamamlayan son 10 Türk futbolcu? (Eşitlik durumunda iki oyuncu da listeye dahil edilmiştir) ",
     "type": "player",
     "activeDate": "2026-05-13",
     "targets": [
-        "Barış Alper Yılmaz",
-        "Aytaç Kara",
-        "Oğuz Aydın",
-        "Umut Nayir",
-        "Umut Bozok",
-        "Adem Büyük",
-        "Burak Yılmaz",
-        "Cenk Tosun",
-        "Deniz Kadah",
-        "Necati Ateş"
-
-
+      "Barış Alper Yılmaz",
+      "Aytaç Kara",
+      "Oğuz Aydın",
+      "Umut Nayir",
+      "Umut Bozok",
+      "Adem Büyük",
+      "Burak Yılmaz",
+      "Cenk Tosun",
+      "Deniz Kadah",
+      "Necati Ateş"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 52,
     "game": "top10",
@@ -1029,21 +1026,19 @@
     "type": "team-all",
     "activeDate": "2026-05-14",
     "targets": [
-        "Manchester United",
-        "Sporting",
-        "Orlando City",
-        "Fenerbahçe",
-        "Adana Demirspor",
-        "Valencia",
-        "Lazio",
-        "Aktobe",
-        "Melbourne Victory",
-        "Estrela"
-
+      "Manchester United",
+      "Sporting",
+      "Orlando City",
+      "Fenerbahçe",
+      "Adana Demirspor",
+      "Valencia",
+      "Lazio",
+      "Aktobe",
+      "Melbourne Victory",
+      "Estrela"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 53,
     "game": "top10",
@@ -1051,21 +1046,19 @@
     "type": "player",
     "activeDate": "2026-05-15",
     "targets": [
-        "Enis Destan",
-        "Cengiz Ünder",
-        "Umut Nayir",
-        "Kerem Aktürkoğlu",
-        "Serdar Dursun",
-        "Emre Mor",
-        "Emre Akbaba",
-        "Güven Yalçın",
-        "Hakan Arslan",
-        "Adem Büyük"
-
+      "Enis Destan",
+      "Cengiz Ünder",
+      "Umut Nayir",
+      "Kerem Aktürkoğlu",
+      "Serdar Dursun",
+      "Emre Mor",
+      "Emre Akbaba",
+      "Güven Yalçın",
+      "Hakan Arslan",
+      "Adem Büyük"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 54,
     "game": "top10",
@@ -1073,7 +1066,7 @@
     "type": "player",
     "activeDate": "2026-05-16",
     "targets": [
-       "Victor Osimhen",
+      "Victor Osimhen",
       "Anderson Talisca",
       "Paul Onuachu",
       "Orkun Kökçü",
@@ -1083,12 +1076,9 @@
       "Qazim Laçi",
       "Umut Nayir",
       "Bruno Petkovic"
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 55,
     "game": "top10",
@@ -1096,21 +1086,19 @@
     "type": "team-tr",
     "activeDate": "2026-05-17",
     "targets": [
-       "Sivasspor",
-       "Eskişehirspor",
-       "Denizlispor",
-       "Mersin İdman Yurdu",
-       "Rizespor",
-       "Kasımpaşa",
-       "Beşiktaş",
-       "Antalyaspor",
-       "Trabzonspor",
-       "Ankaragücü "
-       
+      "Sivasspor",
+      "Eskişehirspor",
+      "Denizlispor",
+      "Mersin İdman Yurdu",
+      "Rizespor",
+      "Kasımpaşa",
+      "Beşiktaş",
+      "Antalyaspor",
+      "Trabzonspor",
+      "Ankaragücü "
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 56,
     "game": "top10",
@@ -1118,22 +1106,19 @@
     "type": "player",
     "activeDate": "2026-05-18",
     "targets": [
-       "Mauro Icardi",
-       "Gheorghe Hagi",
-       "Milan Baros",
-       "Victor Osimhen",
-       "Bafetimbi Gomis",
-       "Wesley Sneijder",
-       "Cevad Prekazi",
-       "Shabani Nonda",
-       "Mario Jardel",
-       "Lukas Podolski"
-
-       
+      "Mauro Icardi",
+      "Gheorghe Hagi",
+      "Milan Baros",
+      "Victor Osimhen",
+      "Bafetimbi Gomis",
+      "Wesley Sneijder",
+      "Cevad Prekazi",
+      "Shabani Nonda",
+      "Mario Jardel",
+      "Lukas Podolski"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 57,
     "game": "top10",
@@ -1141,22 +1126,19 @@
     "type": "player",
     "activeDate": "2026-05-19",
     "targets": [
-       "Orkun Kökçü",
-       "Muhammed Şengezer",
-       "Marco Asensio",
-       "Oleksandr Zubkov",
-       "Arseniy Batagov",
-       "Yunus Akgün",
-       "Ivo Grbic",
-       "Anderson Talisca",
-       "Gabriel Sara",
-       "Eldor Shomurodov"
-
-       
+      "Orkun Kökçü",
+      "Muhammed Şengezer",
+      "Marco Asensio",
+      "Oleksandr Zubkov",
+      "Arseniy Batagov",
+      "Yunus Akgün",
+      "Ivo Grbic",
+      "Anderson Talisca",
+      "Gabriel Sara",
+      "Eldor Shomurodov"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 58,
     "game": "top10",
@@ -1164,22 +1146,19 @@
     "type": "team-all",
     "activeDate": "2026-05-20",
     "targets": [
-       "Chelsea",
-       "Manchester City",
-       "Arsenal",
-       "PSG",
-       "Bolton",
-       "Fenerbahçe",
-       "Real Madrid",
-       "Shanghai Shenhua",
-       "Liverpool",
-       "Mumbai City"
-
-       
+      "Chelsea",
+      "Manchester City",
+      "Arsenal",
+      "PSG",
+      "Bolton",
+      "Fenerbahçe",
+      "Real Madrid",
+      "Shanghai Shenhua",
+      "Liverpool",
+      "Mumbai City"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 59,
     "game": "top10",
@@ -1187,20 +1166,19 @@
     "type": "td",
     "activeDate": "2026-05-21",
     "targets": [
-    "Abdullah Avcı",
-    "Fatih Terim",
-    "Aykut Kocaman",
-    "Hector Cuper",
-    "Glenn Roeder",
-    "Christoph Daum",
-    "Ersun Yanal",
-    "Mircea Lucescu",
-    "Luis Aragones",
-    "İsmail Kartal"
+      "Abdullah Avcı",
+      "Fatih Terim",
+      "Aykut Kocaman",
+      "Hector Cuper",
+      "Glenn Roeder",
+      "Christoph Daum",
+      "Ersun Yanal",
+      "Mircea Lucescu",
+      "Luis Aragones",
+      "İsmail Kartal"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 60,
     "game": "top10",
@@ -1208,20 +1186,19 @@
     "type": "player",
     "activeDate": "2026-05-22",
     "targets": [
-    "Mehmet Topal",
-    "Alper Potuk",
-    "Volkan Demirel",
-    "Jailson",
-    "Mauricio Isla",
-    "Emre Belözoğlu",
-    "Nabil Dirar",
-    "Dirk Kuyt",
-    "Hasan Ali Kaldırım",
-    "Moussa Sow"
+      "Mehmet Topal",
+      "Alper Potuk",
+      "Volkan Demirel",
+      "Jailson",
+      "Mauricio Isla",
+      "Emre Belözoğlu",
+      "Nabil Dirar",
+      "Dirk Kuyt",
+      "Hasan Ali Kaldırım",
+      "Moussa Sow"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 61,
     "game": "top10",
@@ -1229,20 +1206,19 @@
     "type": "player",
     "activeDate": "2026-05-23",
     "targets": [
-    "Bobo",
-    "Marcio Nobre",
-    "Anderson Talisca",
-    "Vagner Love",
-    "Ricardinho",
-    "Ronaldo Guiaro",
-    "Josef De Souza",
-    "Ailton",
-    "Marcelo",
-    "Ramon Motta"
+      "Bobo",
+      "Marcio Nobre",
+      "Anderson Talisca",
+      "Vagner Love",
+      "Ricardinho",
+      "Ronaldo Guiaro",
+      "Josef De Souza",
+      "Ailton",
+      "Marcelo",
+      "Ramon Motta"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 62,
     "game": "top10",
@@ -1250,20 +1226,19 @@
     "type": "player",
     "activeDate": "2026-05-24",
     "targets": [
-    "Andre Kona",
-    "Mbaye Diagne",
-    "Fernand Coulibaly",
-    "Mame Thiam",
-    "Souleymane Youla",
-    "Moussa Sow",
-    "Aatif Chahechouhe",
-    "Isaac Promise",
-    "Ahmed Hassan",
-    "Pierre Webo"
+      "Andre Kona",
+      "Mbaye Diagne",
+      "Fernand Coulibaly",
+      "Mame Thiam",
+      "Souleymane Youla",
+      "Moussa Sow",
+      "Aatif Chahechouhe",
+      "Isaac Promise",
+      "Ahmed Hassan",
+      "Pierre Webo"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 63,
     "game": "top10",
@@ -1271,64 +1246,59 @@
     "type": "player",
     "activeDate": "2026-05-25",
     "targets": [
-    "Muhammed Şengezer",
-    "Ivo Grbic",
-    "Ricardo Velho",
-    "Julian Cuesta",
-    "Uğurcan Çakır",
-    "Andre Onana",
-    "Marcos Felipe",
-    "Ertuğrul Taşkıran",
-    "Mateusz Lis",
-    "Bilal Bayazıt"
-
+      "Muhammed Şengezer",
+      "Ivo Grbic",
+      "Ricardo Velho",
+      "Julian Cuesta",
+      "Uğurcan Çakır",
+      "Andre Onana",
+      "Marcos Felipe",
+      "Ertuğrul Taşkıran",
+      "Mateusz Lis",
+      "Bilal Bayazıt"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 64,
     "game": "top10",
     "title": "Transfermarkt verilerine göre 2025-26 sezonunda TFF 1.Lig'de mücadele eden takımlar arasında güncel piyasa değeri en yüksek 10 takım?",
     "type": "team-tr",
     "activeDate": "2026-05-26",
     "targets": [
-    "Bodrum FK",
-    "Sivasspor",
-    "Iğdır FK",
-    "Amed SK",
-    "Manisa FK",
-    "Erzurumspor",
-    "Vanspor FK",
-    "Pendikspor",
-    "Sakaryaspor",
-    "Esenler Erokspor"
-
+      "Bodrum FK",
+      "Sivasspor",
+      "Iğdır FK",
+      "Amed SK",
+      "Manisa FK",
+      "Erzurumspor",
+      "Vanspor FK",
+      "Pendikspor",
+      "Sakaryaspor",
+      "Esenler Erokspor"
     ],
     "difficulty": "zor"
-},
-
-{
+  },
+  {
     "id": 65,
     "game": "top10",
     "title": "Burak Yılmaz'ın lig maçlarındaki profesyonel kulüp kariyeri boyunca, idaresinde en fazla maça çıktığı 10 teknik direktör?",
     "type": "td",
     "activeDate": "2026-05-27",
     "targets": [
-   "Şenol Güneş",
-   "Jean Tigana",
-   "Jocelyn Gourvennec",
-   "Fatih Terim",
-   "Roberto Mancini",
-   "Rıza Çalımbay",
-   "Christoph Galtier",
-   "Hamza Hamzaoğlu",
-   "Julio Velazquez",
-   "Feng Xie"
+      "Şenol Güneş",
+      "Jean Tigana",
+      "Jocelyn Gourvennec",
+      "Fatih Terim",
+      "Roberto Mancini",
+      "Rıza Çalımbay",
+      "Christoph Galtier",
+      "Hamza Hamzaoğlu",
+      "Julio Velazquez",
+      "Feng Xie"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 66,
     "game": "top10",
@@ -1336,21 +1306,19 @@
     "type": "team-all",
     "activeDate": "2026-05-28",
     "targets": [
-    "Standard",
-    "Marsilya",
-    "Chelsea",
-    "Fenerbahçe",
-    "Beşiktaş",
-    "Crystal Palace",
-    "Galatasaray",
-    "Valencia",
-    "Frankfurt",
-    "Dortmund"
-    
+      "Standard",
+      "Marsilya",
+      "Chelsea",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Crystal Palace",
+      "Galatasaray",
+      "Valencia",
+      "Frankfurt",
+      "Dortmund"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 67,
     "game": "top10",
@@ -1358,21 +1326,19 @@
     "type": "player",
     "activeDate": "2026-05-29",
     "targets": [
-    "Didier Drogba",
-    "Samuel Eto'o",
-    "Edin Džeko",
-    "Álvaro Morata",
-    "Mario Gómez",
-    "Mario Jardel",
-    "Robin van Persie",
-    "Leroy Sane",
-    "Luiz Adriano",
-    "Nicolas Anelka"
-
+      "Didier Drogba",
+      "Samuel Eto'o",
+      "Edin Džeko",
+      "Álvaro Morata",
+      "Mario Gómez",
+      "Mario Jardel",
+      "Robin van Persie",
+      "Leroy Sane",
+      "Luiz Adriano",
+      "Nicolas Anelka"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 68,
     "game": "top10",
@@ -1380,21 +1346,19 @@
     "type": "player",
     "activeDate": "2026-05-30",
     "targets": [
-    "Federico Valverde",
-    "Alexander Sorloth",
-    "Anthony Gordon",
-    "Vitinha",
-    "Kylian Mbappé",
-    "Victor Osimhen",
-    "Fermin Lopez",
-    "Serhou Guirassy",
-    "Morgan Rogers",
-    "Lautaro Martinez"
-    
+      "Federico Valverde",
+      "Alexander Sorloth",
+      "Anthony Gordon",
+      "Vitinha",
+      "Kylian Mbappé",
+      "Victor Osimhen",
+      "Fermin Lopez",
+      "Serhou Guirassy",
+      "Morgan Rogers",
+      "Lautaro Martinez"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 69,
     "game": "top10",
@@ -1402,21 +1366,19 @@
     "type": "player",
     "activeDate": "2026-05-31",
     "targets": [
-    "Geremi Njitap",
-    "Tarık Daşgün",
-    "Mert Çetin",
-    "Mustafa Pektemek",
-    "Orhan Şam",
-    "Draman Haminu",
-    "Aykut Demir",
-    "Ahmet Çalık",
-    "Berat Özdemir",
-    "Ümit Karan"
-    
+      "Geremi Njitap",
+      "Tarık Daşgün",
+      "Mert Çetin",
+      "Mustafa Pektemek",
+      "Orhan Şam",
+      "Draman Haminu",
+      "Aykut Demir",
+      "Ahmet Çalık",
+      "Berat Özdemir",
+      "Ümit Karan"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 70,
     "game": "top10",
@@ -1424,29 +1386,26 @@
     "type": "player",
     "activeDate": "2026-06-01",
     "targets": [
-    "Umut Bozok",
-    "Ayoub El Kaabi",
-    "Mario Balotelli",
-    "Joel Pohjanpalo",
-    "Andreas Cornelius",
-    "Serdar Dursun",
-    "Alexandru Maxim",
-    "Aleksandar Pesic",
-    "Haji Wright",
-    "Michy Batshuayi"
-    
+      "Umut Bozok",
+      "Ayoub El Kaabi",
+      "Mario Balotelli",
+      "Joel Pohjanpalo",
+      "Andreas Cornelius",
+      "Serdar Dursun",
+      "Alexandru Maxim",
+      "Aleksandar Pesic",
+      "Haji Wright",
+      "Michy Batshuayi"
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 71,
     "game": "top10",
     "title": "Beşiktaş'ta 10 numaralı formayı giyen son 10 futbolcu? (Hazırlık maçları dahil değil)",
     "type": "player",
     "activeDate": "2026-06-02",
     "targets": [
-
       "Orkun Kökçü",
       "Keny Arroyo",
       "Vincent Aboubakar",
@@ -1457,11 +1416,9 @@
       "Matias Delgado",
       "Sergen Yalçın",
       "Ahmet Dursun"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 72,
     "game": "top10",
@@ -1469,7 +1426,6 @@
     "type": "team-tr",
     "activeDate": "2026-06-03",
     "targets": [
-
       "Trabzonspor",
       "Fenerbahçe",
       "Gençlerbirliği",
@@ -1480,11 +1436,9 @@
       "Denizlispor",
       "Amed SK",
       "Alanyaspor"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 73,
     "game": "top10",
@@ -1492,23 +1446,19 @@
     "type": "player",
     "activeDate": "2026-06-04",
     "targets": [
-
-     "Fabio Borini",
-     "Mario Balotelli",
-     "Stefano Napoleoni",
-     "Ciro Immobile",
-     "Stefano Okaka",
-     "Andrea Bertolacci",
-     "Nicolo Zaniolo",
-     "Franco Tongya",
-     "Joao Pedro",
-     "Federico Macheda"
-
-
+      "Fabio Borini",
+      "Mario Balotelli",
+      "Stefano Napoleoni",
+      "Ciro Immobile",
+      "Stefano Okaka",
+      "Andrea Bertolacci",
+      "Nicolo Zaniolo",
+      "Franco Tongya",
+      "Joao Pedro",
+      "Federico Macheda"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 74,
     "game": "top10",
@@ -1526,11 +1476,9 @@
       "Akhisar Belediyespor",
       "Karabükspor",
       "Adanaspor"
-      
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 75,
     "game": "top10",
@@ -1551,7 +1499,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 76,
     "game": "top10",
@@ -1569,11 +1516,9 @@
       "Joao Batista",
       "Alex Telles",
       "Fernando Reges"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 77,
     "game": "top10",
@@ -1581,7 +1526,6 @@
     "type": "player",
     "activeDate": "2026-06-08",
     "targets": [
-      
       "Youssef En Nesyri",
       "Gabriel Sara",
       "Diego Carlos",
@@ -1592,12 +1536,9 @@
       "Carlos Cuesta",
       "Ognjen Mimovic",
       "Álvaro Morata"
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 78,
     "game": "top10",
@@ -1605,25 +1546,19 @@
     "type": "team-eu",
     "activeDate": "2026-06-09",
     "targets": [
-      
-     "Juventus",
-     "Molde",
-     "Olimpija Ljubljana",
-     "Zalgiris",
-     "Randers",
-     "St. Johnstone",
-     "Hajduk Split",
-     "Neftçi Bakü",
-     "Schalke 04",
-     "OFK Beograd"
-
-
-
-
+      "Juventus",
+      "Molde",
+      "Olimpija Ljubljana",
+      "Zalgiris",
+      "Randers",
+      "St. Johnstone",
+      "Hajduk Split",
+      "Neftçi Bakü",
+      "Schalke 04",
+      "OFK Beograd"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 79,
     "game": "top10",
@@ -1631,24 +1566,20 @@
     "type": "player",
     "activeDate": "2026-06-10",
     "targets": [
-      
-     "Ömer Ali Şahiner",
-     "Selçuk Şahin",
-     "Volkan Demirel",
-     "Cristian Baroni",
-     "Ali Turan",
-     "Ali Çamdalı",
-     "Serkan Kırıntılı",
-     "Mehmet Topuz",
-     "Caner Erkin",
-     "Gökhan Gönül"
-
-
+      "Ömer Ali Şahiner",
+      "Selçuk Şahin",
+      "Volkan Demirel",
+      "Cristian Baroni",
+      "Ali Turan",
+      "Ali Çamdalı",
+      "Serkan Kırıntılı",
+      "Mehmet Topuz",
+      "Caner Erkin",
+      "Gökhan Gönül"
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 80,
     "game": "top10",
     "title": "Türkiye Kupasını finalde kaybeden son 10 takım?",
@@ -1665,11 +1596,9 @@
       "Fenerbahçe",
       "Bursaspor",
       "Eskişehirspor"
-      
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 81,
     "game": "top10",
@@ -1690,7 +1619,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 82,
     "game": "top10",
@@ -1698,7 +1626,6 @@
     "type": "player",
     "activeDate": "2026-06-13",
     "targets": [
-      
       "Moussa Sow",
       "Youssef En Nesyri",
       "Jay Jay Okocha",
@@ -1712,7 +1639,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 83,
     "game": "top10",
@@ -1720,7 +1646,6 @@
     "type": "player",
     "activeDate": "2026-06-14",
     "targets": [
-
       "Christ Inao Oulai",
       "Sidiki Cherif",
       "Renato Nhaga",
@@ -1731,11 +1656,9 @@
       "Hamza Güreler",
       "Baran Gezek",
       "Arda Ünyay"
-  
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 84,
     "game": "top10",
@@ -1743,7 +1666,6 @@
     "type": "player",
     "activeDate": "2026-06-15",
     "targets": [
-
       "Rafa Silva",
       "Simao Sabrosa",
       "Manuel Fernandes",
@@ -1754,12 +1676,9 @@
       "Orkun Kökçü",
       "Sidnei",
       "Cher Ndour"
-
-  
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 85,
     "game": "top10",
@@ -1767,7 +1686,6 @@
     "type": "player",
     "activeDate": "2026-06-16",
     "targets": [
-
       "Mahmut Tekdemir",
       "Edin Visca",
       "Marcio Mossoro",
@@ -1778,12 +1696,9 @@
       "Emre Belözoğlu",
       "İbrahim Akın",
       "Doka Madureira"
-
-  
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 86,
     "game": "top10",
@@ -1791,7 +1706,6 @@
     "type": "player",
     "activeDate": "2026-06-18",
     "targets": [
-
       "Yunus Akgün",
       "Mostafa Mohamed",
       "Halil Dervişoğlu",
@@ -1802,43 +1716,47 @@
       "Didier Drogba",
       "Albert Riera",
       "Mehmet Batdal"
-
-  
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 87,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla maça çıkan 10 Kamerunlu futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-19",
+    "targets": [
+      "Alioum Saidou",
+      "Pierre Webo",
+      "Dany Nounkeu",
+      "Rigobert Song",
+      "Armand Deumi",
+      "Hervé Tum",
+      "Olivier Kemen",
+      "Jean-Armel Kana-Biyik",
+      "Gustave Bebbe",
+      "Vincent Aboubakar"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 88,
+    "game": "top10",
+    "title": "Aktif futbol kariyeri devam eden futbolcular arasında Süper Lig tarihinde en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-06-20",
+    "targets": [
+      "Cenk Tosun",
+      "Edin Visca",
+      "Mbaye Diagne",
+      "Mame Thiam",
+      "Muhammet Demir",
+      "Hugo Rodallega",
+      "Mustafa Pektemek",
+      "Emre Akbaba",
+      "Mauro Icardi",
+      "Serdar Gürler"
+    ],
+    "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
