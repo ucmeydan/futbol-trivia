@@ -1220,7 +1220,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 53,
     "game": "listeyi-tamamla",
@@ -1236,7 +1235,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 54,
     "game": "listeyi-tamamla",
@@ -1244,16 +1242,14 @@
     "type": "country",
     "activeDate": "2026-05-16",
     "targets": [
-     "İngiltere",
-     "İtalya",
-     "Brezilya",
-     "Sırbistan",
-     "Gana"
-
+      "İngiltere",
+      "İtalya",
+      "Brezilya",
+      "Sırbistan",
+      "Gana"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 55,
     "game": "listeyi-tamamla",
@@ -1261,16 +1257,14 @@
     "type": "team-tr",
     "activeDate": "2026-05-17",
     "targets": [
-    "Konyaspor",
-    "Yeni Malatyaspor",
-    "Samsunspor",
-    "Manisa FK",
-    "Iğdır FK"
-
+      "Konyaspor",
+      "Yeni Malatyaspor",
+      "Samsunspor",
+      "Manisa FK",
+      "Iğdır FK"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 56,
     "game": "listeyi-tamamla",
@@ -1278,18 +1272,16 @@
     "type": "team-tr",
     "activeDate": "2026-05-18",
     "targets": [
-    "Trabzonspor",
-    "Beşiktaş",
-    "Bursaspor",
-    "Boluspor",
-    "Sakaryaspor",
-    "Antalyaspor",
-    "İstanbulspor"
-
+      "Trabzonspor",
+      "Beşiktaş",
+      "Bursaspor",
+      "Boluspor",
+      "Sakaryaspor",
+      "Antalyaspor",
+      "İstanbulspor"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 57,
     "game": "listeyi-tamamla",
@@ -1297,14 +1289,13 @@
     "type": "player",
     "activeDate": "2026-05-19",
     "targets": [
-    "Mateusz Lis",
-    "Amin Cherni",
-    "Eldor Shomurodov",
-    "Kenneth Paal"
+      "Mateusz Lis",
+      "Amin Cherni",
+      "Eldor Shomurodov",
+      "Kenneth Paal"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 58,
     "game": "listeyi-tamamla",
@@ -1312,19 +1303,18 @@
     "type": "team-all",
     "activeDate": "2026-05-20",
     "targets": [
-    "Sporting",
-    "Barcelona",
-    "Porto",
-    "Chelsea",
-    "Inter",
-    "Beşiktaş",
-    "Al Ahli (BAE)",
-    "Vitoria Guimaraes",
-    "Kasımpaşa"
+      "Sporting",
+      "Barcelona",
+      "Porto",
+      "Chelsea",
+      "Inter",
+      "Beşiktaş",
+      "Al Ahli (BAE)",
+      "Vitoria Guimaraes",
+      "Kasımpaşa"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 59,
     "game": "listeyi-tamamla",
@@ -1332,38 +1322,35 @@
     "type": "player",
     "activeDate": "2026-05-21",
     "targets": [
-    "Nani",
-    "Luis Neto",
-    "Raul Meireles",
-    "Bruno Alves",
-    "Dimas Teixeira",
-    "Miguel Crespo",
-    "Bruma",
-    "Nelson Semedo"
+      "Nani",
+      "Luis Neto",
+      "Raul Meireles",
+      "Bruno Alves",
+      "Dimas Teixeira",
+      "Miguel Crespo",
+      "Bruma",
+      "Nelson Semedo"
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 60,
     "game": "listeyi-tamamla",
     "title": "Bu sezon Süper Lig'de 3 ve üzeri sayıda penaltı kullanan oyuncular?",
     "type": "player",
     "activeDate": "2026-05-22",
     "targets": [
-    "Paul Onuachu",
-    "Anderson Talisca",
-    "Alexandru Maxim",
-    "Eldor Shomurodov",
-    "Qazim Laçi",
-    "Adrian Benedyczak",
-    "Barış Alper Yılmaz",
-    "Florent Hadergjonaj"
-
+      "Paul Onuachu",
+      "Anderson Talisca",
+      "Alexandru Maxim",
+      "Eldor Shomurodov",
+      "Qazim Laçi",
+      "Adrian Benedyczak",
+      "Barış Alper Yılmaz",
+      "Florent Hadergjonaj"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 61,
     "game": "listeyi-tamamla",
@@ -1371,18 +1358,16 @@
     "type": "player",
     "activeDate": "2026-05-23",
     "targets": [
-  
-    "Mauro Icardi",
-    "Guillermo Burdisso",
-    "Lucas Ontivero",
-    "Emmanuel Culio",
-    "Emiliano Insua",
-    "Leo Franco",
-    "Marcelo Carrusca"
+      "Mauro Icardi",
+      "Guillermo Burdisso",
+      "Lucas Ontivero",
+      "Emmanuel Culio",
+      "Emiliano Insua",
+      "Leo Franco",
+      "Marcelo Carrusca"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 62,
     "game": "listeyi-tamamla",
@@ -1390,18 +1375,14 @@
     "type": "player",
     "activeDate": "2026-05-24",
     "targets": [
-
-    "Enis Destan",
-    "Abdulkadir Ömür",
-    "Bora Aydınlık",
-    "Ozan Tufan",
-    "Doğukan Sinik"
-  
-    
+      "Enis Destan",
+      "Abdulkadir Ömür",
+      "Bora Aydınlık",
+      "Ozan Tufan",
+      "Doğukan Sinik"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 63,
     "game": "listeyi-tamamla",
@@ -1409,19 +1390,15 @@
     "type": "player",
     "activeDate": "2026-05-25",
     "targets": [
-
-    "Cengiz Ünder",
-    "Youssouf Ndayishimiye",
-    "Krzysztof Piatek",
-    "İrfan Can Kahveci",
-    "Manuel Da Costa",
-    "Edin Visca"
-  
-    
+      "Cengiz Ünder",
+      "Youssouf Ndayishimiye",
+      "Krzysztof Piatek",
+      "İrfan Can Kahveci",
+      "Manuel Da Costa",
+      "Edin Visca"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 64,
     "game": "listeyi-tamamla",
@@ -1429,21 +1406,17 @@
     "type": "player",
     "activeDate": "2026-05-26",
     "targets": [
-
-    "Shota Arveladze",
-    "Anthony Nwakaeme",
-    "Paul Onuachu",
-    "Davor Vugrinec",
-    "Ibrahim Yattara",
-    "Hugo Rodallega",
-    "Alexander Sorloth",
-    "Anastasios Bakasetas"
-  
-    
+      "Shota Arveladze",
+      "Anthony Nwakaeme",
+      "Paul Onuachu",
+      "Davor Vugrinec",
+      "Ibrahim Yattara",
+      "Hugo Rodallega",
+      "Alexander Sorloth",
+      "Anastasios Bakasetas"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 65,
     "game": "listeyi-tamamla",
@@ -1451,28 +1424,24 @@
     "type": "player",
     "activeDate": "2026-05-27",
     "targets": [
-
-    "Semih Şentürk",
-    "Gökhan Ünal",
-    "Ümit Karan",
-    "Jaba",
-    "Taner Gülleri",
-    "Alex De Souza",
-    "Bjorn Vleminckx",
-    "Fernandao",
-    "Bafetimbi Gomis",
-    "Adis Jahovic",
-    "Aaron Boupendza",
-    "Cyle Larin",
-    "Mario Balotelli",
-    "Enner Valencia",
-    "Cengiz Ünder"
-  
-    
+      "Semih Şentürk",
+      "Gökhan Ünal",
+      "Ümit Karan",
+      "Jaba",
+      "Taner Gülleri",
+      "Alex De Souza",
+      "Bjorn Vleminckx",
+      "Fernandao",
+      "Bafetimbi Gomis",
+      "Adis Jahovic",
+      "Aaron Boupendza",
+      "Cyle Larin",
+      "Mario Balotelli",
+      "Enner Valencia",
+      "Cengiz Ünder"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 66,
     "game": "listeyi-tamamla",
@@ -1480,29 +1449,24 @@
     "type": "td",
     "activeDate": "2026-05-28",
     "targets": [
-
-  "Fatih Tekke",
-  "Şenol Güneş",
-  "Abdullah Avcı",
-  "Nenad Bjelica",
-  "Eddie Newton",
-  "Hüseyin Çimşir",
-  "Ünal Karaman",
-  "Rıza Çalımbay",
-  "Ersun Yanal",
-  "Hami Mandıralı",
-  "Sadi Tekelioğlu",
-  "Shota Arveladze",
-  "Vahid Halilhodzic",
-  "Mustafa Reşit Akçay",
-  "Tolunay Kafkas"
-
-
-    
+      "Fatih Tekke",
+      "Şenol Güneş",
+      "Abdullah Avcı",
+      "Nenad Bjelica",
+      "Eddie Newton",
+      "Hüseyin Çimşir",
+      "Ünal Karaman",
+      "Rıza Çalımbay",
+      "Ersun Yanal",
+      "Hami Mandıralı",
+      "Sadi Tekelioğlu",
+      "Shota Arveladze",
+      "Vahid Halilhodzic",
+      "Mustafa Reşit Akçay",
+      "Tolunay Kafkas"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 67,
     "game": "listeyi-tamamla",
@@ -1510,7 +1474,6 @@
     "type": "team-tr",
     "activeDate": "2026-05-29",
     "targets": [
-
       "Fenerbahçe",
       "Galatasaray",
       "Beşiktaş",
@@ -1520,13 +1483,9 @@
       "Kasımpaşa",
       "Eskişehirspor",
       "Altay"
-
     ],
     "difficulty": "zor"
   },
-
-
-
   {
     "id": 68,
     "game": "listeyi-tamamla",
@@ -1534,19 +1493,15 @@
     "type": "team-eu",
     "activeDate": "2026-05-30",
     "targets": [
-
       "Nottingham Forest",
       "Porto",
       "Feyenoord",
       "Aston Villa",
       "PSV",
       "Kızılyıldız"
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 69,
     "game": "listeyi-tamamla",
@@ -1554,7 +1509,6 @@
     "type": "player",
     "activeDate": "2026-05-31",
     "targets": [
-
       "Nicolas Anelka",
       "Marco Asensio",
       "Mevlüt Erdinç",
@@ -1563,12 +1517,9 @@
       "Jay Jay Okocha",
       "Gregory van der Wiel",
       "Milan Skriniar"
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 70,
     "game": "listeyi-tamamla",
@@ -1576,7 +1527,6 @@
     "type": "player",
     "activeDate": "2026-06-01",
     "targets": [
-
       "Marco Paixao",
       "Mickael Pote",
       "Mbilla Etame",
@@ -1584,13 +1534,9 @@
       "Yonathan Del Valle",
       "Emeka Eze",
       "Chico Ofoedu"
-
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 71,
     "game": "listeyi-tamamla",
@@ -1598,20 +1544,15 @@
     "type": "team-tr",
     "activeDate": "2026-06-02",
     "targets": [
-
       "İnegöl Kafkasspor",
       "12 Bingölspor",
       "Sebat Gençlikspor",
       "Kütahyaspor",
       "52 Orduspor FK",
       "Çorluspor 1947"
-
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 72,
     "game": "listeyi-tamamla",
@@ -1619,17 +1560,14 @@
     "type": "team-tr",
     "activeDate": "2026-06-03",
     "targets": [
-
-     "Göztepe",
-     "Konyaspor",
-     "Yeni Malatyaspor",
-     "Antalyaspor",
-     "Bodrum FK"
-
+      "Göztepe",
+      "Konyaspor",
+      "Yeni Malatyaspor",
+      "Antalyaspor",
+      "Bodrum FK"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 73,
     "game": "listeyi-tamamla",
@@ -1644,12 +1582,9 @@
       "Antalyaspor",
       "Hatayspor",
       "Kahramanmaraşspor"
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 74,
     "game": "listeyi-tamamla",
@@ -1668,7 +1603,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 75,
     "game": "listeyi-tamamla",
@@ -1685,7 +1619,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 76,
     "game": "listeyi-tamamla",
@@ -1702,7 +1635,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 77,
     "game": "listeyi-tamamla",
@@ -1720,7 +1652,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 78,
     "game": "listeyi-tamamla",
@@ -1745,7 +1676,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 79,
     "game": "listeyi-tamamla",
@@ -1761,11 +1691,9 @@
       "PTT",
       "Petrolofisi",
       "Osmanlıspor"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 80,
     "game": "listeyi-tamamla",
@@ -1773,14 +1701,11 @@
     "type": "player",
     "activeDate": "2026-06-11",
     "targets": [
-      
       "Ryan Mendes",
       "Leandro Bacuna"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 81,
     "game": "listeyi-tamamla",
@@ -1807,7 +1732,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 82,
     "game": "listeyi-tamamla",
@@ -1825,7 +1749,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 83,
     "game": "listeyi-tamamla",
@@ -1833,7 +1756,6 @@
     "type": "country",
     "activeDate": "2026-06-14",
     "targets": [
-      
       "Almanya",
       "Hırvatistan",
       "Brezilya",
@@ -1844,7 +1766,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 84,
     "game": "listeyi-tamamla",
@@ -1852,7 +1773,6 @@
     "type": "player",
     "activeDate": "2026-06-15",
     "targets": [
-     
       "Gheorghe Hagi",
       "Gheorghe Popescu",
       "Inaki Pena",
@@ -1864,7 +1784,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 85,
     "game": "listeyi-tamamla",
@@ -1872,7 +1791,6 @@
     "type": "player",
     "activeDate": "2026-06-16",
     "targets": [
-     
       "Nicolas Anelka",
       "Stephen Appiah",
       "Leonardo Bonucci",
@@ -1881,11 +1799,9 @@
       "Filip Kostic",
       "Zoran Mirkovic",
       "Milos Krasic"
-      
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 86,
     "game": "listeyi-tamamla",
@@ -1909,7 +1825,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 87,
     "game": "listeyi-tamamla",
@@ -1922,55 +1837,21 @@
       "Sidny Lopes Cabral"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 88,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 90 ve üzeri sayıda maça çıkan Slovak futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-20",
+    "targets": [
+      "Filip Holosko",
+      "Roman Krotochvil",
+      "Martin Skrtel",
+      "Stanislav Šesták",
+      "Miroslav Stoch",
+      "Marek Sapara"
+    ],
+    "difficulty": "zor"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-  
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
 ]

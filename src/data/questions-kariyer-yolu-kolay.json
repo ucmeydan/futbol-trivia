@@ -2578,7 +2578,27 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 70,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-20",
+    "correctPlayer": "Necip Uysal",
+    "career": [
+      {
+        "season": "2009–2026",
+        "team": "Beşiktaş",
+        "apps": "466",
+        "goals": "6"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

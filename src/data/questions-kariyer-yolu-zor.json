@@ -3345,6 +3345,40 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 81,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-20",
+    "correctPlayer": "Ali Habeşoğlu",
+    "career": [
+      {
+        "season": "2020–2023",
+        "team": "Hatayspor U19",
+        "apps": "68",
+        "goals": "12"
+      },
+      {
+        "season": "2023-2023",
+        "team": "Somaspor",
+        "apps": "4",
+        "goals": "0"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Ayvalıkgücü Belediyespor",
+        "apps": "61",
+        "goals": "28"
+      },
+      {
+        "season": "2025–",
+        "team": "Bodrumspor",
+        "apps": "47",
+        "goals": "14"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

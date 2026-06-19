@@ -2206,5 +2206,35 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 78,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-20",
+    "correctPlayer": "Umut Nayir",
+    "teammates": [
+      {
+        "name": "Günay Güvenç",
+        "info": "2016-17 sezonunda Göztepe'de oynadılar"
+      },
+      {
+        "name": "Okan Kocuk",
+        "info": "2021-22 sezonunda Giresunspor'da oynadılar"
+      },
+      {
+        "name": "Yusuf Erdoğan",
+        "info": "2024-25 sezonunda Konyaspor'da oynadılar"
+      },
+      {
+        "name": "Georges Kevin N'koudou",
+        "info": "2019-20 sezonunda Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Jayden Oosterwolde",
+        "info": "2023-24 sezonunda Fenerbahçe'de oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -1402,7 +1402,33 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 70,
+    "game": "top10",
+    "title": "Fenerbahçe'nin Avrupa Kupalarında karşılaştığı son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-06-19",
+    "targets": [
+      
+      "Nottingham Forest",
+      "FCSB",
+      "Aston Villa",
+      "Brann",
+      "Ferencvaros",
+      "Viktoria Plzen",
+      "Stuttgart",
+      "Nice",
+      "Dinamo Zagreb",
+      "Benfica"
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
