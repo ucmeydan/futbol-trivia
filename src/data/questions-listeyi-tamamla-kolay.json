@@ -1324,7 +1324,26 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 71,
+    "game": "listeyi-tamamla",
+    "title": "A Milli takımımızın 2026 Dünya Kupası ilk 2 maçının tamamında sahada kalan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-23",
+    "targets": [
+    
+    "Uğurcan Çakır",
+    "Merih Demiral",
+    "Hakan Çalhanoğlu",
+    "Arda Güler"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

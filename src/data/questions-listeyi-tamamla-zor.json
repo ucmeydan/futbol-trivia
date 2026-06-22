@@ -1853,5 +1853,26 @@
       "Marek Sapara"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 89,
+    "game": "listeyi-tamamla",
+    "title": "A Milli takımımızın 2026 Dünya Kupası ilk 2 maçında süre almayan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-23",
+    "targets": [
+    
+    "Altay Bayındır",
+    "Mert Günok",
+    "Samet Akaydın",
+    "Çağlar Söyüncü",
+    "Kaan Ayhan",
+    "İrfan Can Kahveci",
+    "Oğuz Aydın",
+    "Ozan Kabak"
+
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -2236,5 +2236,37 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 79,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-23",
+    "correctPlayer": "Milos Krasic",
+    "teammates": [
+      {
+        "name": "Vagner Love",
+        "info": "2004-09 yılları arasında CSKA'da birlikte oynadılar"
+      },
+      {
+        "name": "Henri Bienvenu",
+        "info": "2012-13 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Gianluigi Buffon",
+        "info": "2010-12 yılları arasında Juventus'ta birlikte oynadılar"
+      },
+      {
+        "name": "Diego Ribas",
+        "info": "2014-15 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Igor Akınfeev",
+        "info": "2004-10 yılları arasında CSKA'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 ]

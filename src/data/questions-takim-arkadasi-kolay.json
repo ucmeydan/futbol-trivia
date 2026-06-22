@@ -2005,6 +2005,36 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 71,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-23",
+    "correctPlayer": "Hakan Çalhanoğlu",
+    "teammates": [
+      {
+        "name": "Leonardo Bonucci",
+        "info": "2017-18 sezonunda Milan'da birlikte oynadılar."
+      },
+      {
+        "name": "Yann Sommer",
+        "info": "2023-26 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Ömer Toprak",
+        "info": "2014-17 yılları arasında Leverkusen'de birlikte oynadılar"
+      },
+      {
+        "name": "Zlatan Ibrahimovic",
+        "info": "2020-21 yılları arasında Milan'da birlikte oynadılar"
+      },
+      {
+        "name": "Lautaro Martinez",
+        "info": "2021-26 yılları arasında Inter'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

@@ -1759,7 +1759,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 89,
     "game": "top10",
@@ -1777,6 +1776,26 @@
       "Efecan Karaca",
       "Taras Stepanenko",
       "Ertuğrul Taşkıran"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 90,
+    "game": "top10",
+    "title": "Beşiktaş'ın Avrupa kupalarında karşılaştığı son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-06-23",
+    "targets": [
+      "Lausanne",
+      "St. Patricks Athletic",
+      "Shakhtar",
+      "Twente",
+      "Athletic Bilbao",
+      "Bodo Glimt",
+      "Maccabi Tel Aviv",
+      "Malmö",
+      "Lyon",
+      "Frankfurt"
     ],
     "difficulty": "zor"
   }

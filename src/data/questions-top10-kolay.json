@@ -1200,7 +1200,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 61,
     "game": "top10",
@@ -1218,11 +1217,9 @@
       "Mert Müldür",
       "Alexander Djiku",
       "Ferdi Kadıoğlu"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 62,
     "game": "top10",
@@ -1240,11 +1237,9 @@
       "Davinson Sanchez",
       "Yunus Akgün",
       "Berkan Kutlu"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 63,
     "game": "top10",
@@ -1265,7 +1260,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 64,
     "game": "top10",
@@ -1286,7 +1280,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 65,
     "game": "top10",
@@ -1307,7 +1300,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 66,
     "game": "top10",
@@ -1325,13 +1317,9 @@
       "Colin Kazım Richards",
       "Emre Aşık",
       "Servet Çetin"
-
-
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 67,
     "game": "top10",
@@ -1349,13 +1337,9 @@
       "Mert Müldür",
       "İsmail Yüksek",
       "Merih Demiral"
-
-
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 68,
     "game": "top10",
@@ -1363,7 +1347,6 @@
     "type": "country",
     "activeDate": "2026-06-18",
     "targets": [
-      
       "Amerika Birleşik Devletleri",
       "Brezilya",
       "Meksika",
@@ -1374,12 +1357,9 @@
       "Türkiye",
       "Almanya",
       "Fransa"
-
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 69,
     "game": "top10",
@@ -1387,31 +1367,26 @@
     "type": "player",
     "activeDate": "2026-06-19",
     "targets": [
-      
-    "Can Uzun",
-    "Arda Güler",
-    "Kenan Yıldız",
-    "Deniz Gül",
-    "Orkun Kökçü",
-    "Oğuz Aydın",
-    "Yunus Akgün",
-    "Eren Elmalı",
-    "Barış Alper Yılmaz",
-    "Ozan Kabak"
-
-
+      "Can Uzun",
+      "Arda Güler",
+      "Kenan Yıldız",
+      "Deniz Gül",
+      "Orkun Kökçü",
+      "Oğuz Aydın",
+      "Yunus Akgün",
+      "Eren Elmalı",
+      "Barış Alper Yılmaz",
+      "Ozan Kabak"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 70,
     "game": "top10",
     "title": "Fenerbahçe'nin Avrupa Kupalarında karşılaştığı son 10 takım?",
     "type": "team-eu",
-    "activeDate": "2026-06-19",
+    "activeDate": "2026-06-20",
     "targets": [
-      
       "Nottingham Forest",
       "FCSB",
       "Aston Villa",
@@ -1422,29 +1397,27 @@
       "Nice",
       "Dinamo Zagreb",
       "Benfica"
-
-
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 71,
+    "game": "top10",
+    "title": "Kariyerinde hem Fenerbahçe hem de Galatasaray'da forma giyen oyuncular arasında bu iki takımda toplamda en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-23",
+    "targets": [
+      "Mehmet Topal",
+      "Caner Erkin",
+      "Emre Belözoğlu",
+      "Kerem Aktürkoğlu",
+      "Servet Çetin",
+      "Serdar Aziz",
+      "Burak Yılmaz",
+      "Stjepan Tomas",
+      "Emre Aşık",
+      "Colin Kazım Richards"
     ],
     "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

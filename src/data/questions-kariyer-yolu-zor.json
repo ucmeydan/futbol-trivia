@@ -3379,7 +3379,187 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 82,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-23",
+    "correctPlayer": "Serkan Balcı",
+    "career": [
+      {
+        "season": "2000–2004",
+        "team": "Gençlerbirliği",
+        "apps": "112",
+        "goals": "6"
+      },
+      {
+        "season": "2004-2007",
+        "team": "Fenerbahçe",
+        "apps": "101",
+        "goals": "0"
+      },
+      {
+        "season": "2007–2013",
+        "team": "Trabzonspor",
+        "apps": "228",
+        "goals": "4"
+      },
+      {
+        "season": "2013–2014",
+        "team": "Antalyaspor",
+        "apps": "38",
+        "goals": "0"
+      },
+      {
+        "season": "2014-2016",
+        "team": "Mersin İdman Yurdu",
+        "apps": "58",
+        "goals": "1"
+      },
+      {
+        "season": "2016–2017",
+        "team": "Ankaragücü",
+        "apps": "26",
+        "goals": "0"
+      },
+      {
+        "season": "2017–2019",
+        "team": "Sarıyer",
+        "apps": "50",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 83,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-24",
+    "correctPlayer": "Emrecan Bulut",
+    "career": [
+      {
+        "season": "2022–2023",
+        "team": "Somaspor",
+        "apps": "34",
+        "goals": "16"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Beşiktaş",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2024",
+        "team": "Ümraniyespor (kiralık)",
+        "apps": "13",
+        "goals": "2"
+      },
+      {
+        "season": "2024–",
+        "team": "Rizespor",
+        "apps": "49",
+        "goals": "5"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 84,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-25",
+    "correctPlayer": "Uğurcan Yazğılı",
+    "career": [
+      {
+        "season": "2017–2018",
+        "team": "Bucaspor",
+        "apps": "41",
+        "goals": "2"
+      },
+      {
+        "season": "2018-2020",
+        "team": "Kasımpaşa",
+        "apps": "7",
+        "goals": "0"
+      },
+      {
+        "season": "2020–2022",
+        "team": "Adanaspor",
+        "apps": "62",
+        "goals": "2"
+      },
+      {
+        "season": "2022–",
+        "team": "Konyaspor",
+        "apps": "124",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 85,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-26",
+    "correctPlayer": "Uğur Çiftçi",
+    "career": [
+      {
+        "season": "2011–2013",
+        "team": "Hacettepe",
+        "apps": "66",
+        "goals": "3"
+      },
+      {
+        "season": "2013-2018",
+        "team": "Gençlerbirliği",
+        "apps": "137",
+        "goals": "5"
+      },
+      {
+        "season": "2018–",
+        "team": "Sivasspor",
+        "apps": "271",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 86,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-27",
+    "correctPlayer": "Serkan Aykut",
+    "career": [
+      {
+        "season": "1992–2000",
+        "team": "Samsunspor",
+        "apps": "227",
+        "goals": "131" 
+      },
+      {
+        "season": "2000-2002",
+        "team": "Galatasaray",
+        "apps": "63",
+        "goals": "30"
+      },
+      {
+        "season": "2002–2009",
+        "team": "Samsunspor",
+        "apps": "129",
+        "goals": "64"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
+
+
 
 
 

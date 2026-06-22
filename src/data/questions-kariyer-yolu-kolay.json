@@ -2596,6 +2596,120 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 71,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-23",
+    "correctPlayer": "Borja Sainz",
+    "career": [
+      {
+        "season": "2019–2022",
+        "team": "Alaves",
+        "apps": "44",
+        "goals": "2"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Real Zaragoza (kiralık)",
+        "apps": "35",
+        "goals": "3"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Giresunspor",
+        "apps": "34",
+        "goals": "10"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Norwich",
+        "apps": "82",
+        "goals": "27"
+      },
+      {
+        "season": "2025-",
+        "team": "Porto",
+        "apps": "47",
+        "goals": "7"
+      }
+
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 72,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-24",
+    "correctPlayer": "Junior Olaitan",
+    "career": [
+      {
+        "season": "2022–2023",
+        "team": "Niort",
+        "apps": "46",
+        "goals": "6"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Troyes (kiralık)",
+        "apps": "20",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Grenoble",
+        "apps": "25",
+        "goals": "4"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Göztepe",
+        "apps": "18",
+        "goals": "2"
+      },
+      {
+        "season": "2026-",
+        "team": "Beşiktaş",
+        "apps": "18",
+        "goals": "2"
+      }
+
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 73,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-25",
+    "correctPlayer": "Ersin Destanoğlu",
+    "career": [
+      {
+        "season": "2017–2018",
+        "team": "Beşiktaş U19",
+        "apps": "23",
+        "goals": "0"
+      },
+      {
+        "season": "2018-2019",
+        "team": "Beşiktaş U21",
+        "apps": "31",
+        "goals": "0"
+      },
+      {
+        "season": "2019–",
+        "team": "Beşiktaş",
+        "apps": "151",
+        "goals": "0"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 
