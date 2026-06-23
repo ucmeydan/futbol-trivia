@@ -1341,7 +1341,30 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 72,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de 2025-26 sezonunda 15 ve üzeri sayıda gol atan futbolcular? ",
+    "type": "player",
+    "activeDate": "2026-06-24",
+    "targets": [
+    
+    "Eldor Shomurodov",
+    "Paul Onuachu",
+    "Anderson Talisca",
+    "Victor Osimhen",
+    "Mohamed Bayo"
+
+    ],
+    "difficulty": "kolay"
   }
+
+  
+
+
+
 
 
 

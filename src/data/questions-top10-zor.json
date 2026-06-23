@@ -1798,5 +1798,25 @@
       "Frankfurt"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 91,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre mevcut piyasa değeri en yüksek 10 Türk santrfor? ",
+    "type": "player",
+    "activeDate": "2026-06-24",
+    "targets": [
+      "Semih Kılıçsoy",
+      "Bertuğ Yıldırım",
+      "Enes Ünal",
+      "Mustafa Hekimoğlu",
+      "Deniz Gül",
+      "Deniz Hümmet",
+      "Ali Habeşoğlu",
+      "Enis Destan",
+      "Metehan Altunbaş",
+      "Erencan Yardımcı"
+    ],
+    "difficulty": "zor"
   }
 ]

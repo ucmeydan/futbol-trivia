@@ -1419,5 +1419,30 @@
       "Colin Kazım Richards"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 72,
+    "game": "top10",
+    "title": "2025/26 sezonunda Galatasaray formasıyla en fazla süre alan 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-24",
+    "targets": [
+      "Abdülkerim Bardakcı",
+      "Barış Alper Yılmaz",
+      "Uğurcan Çakır",
+      "Yunus Akgün",
+      "Eren Elmalı",
+      "Günay Güvenç",
+      "Kaan Ayhan",
+      "Kazımcan Karataş",
+      "Ahmed Kutucu",
+      "Arda Ünyay"
+    ],
+    "difficulty": "kolay"
   }
+
+  
+
+
 ]

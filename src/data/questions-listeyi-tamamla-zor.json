@@ -1874,5 +1874,30 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 90,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre 2021 yılındaki piyasa değeri 10M€ ücerindeki Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-24",
+    "targets": [
+      "Çağlar Söyüncü",
+      "Hakan Çalhanoğlu",
+      "Merih Demiral",
+      "Ozan Kabak",
+      "Yusuf Yazıcı",
+      "Zeki Çelik",
+      "Cengiz Ünder",
+      "Uğurcan Çakır",
+      "Altay Bayındır",
+      "Orkun Kökçü",
+      "İrfan Can Kahveci",
+      "Ozan Tufan"
+    ],
+    "difficulty": "zor"
   }
+
+
 ]
