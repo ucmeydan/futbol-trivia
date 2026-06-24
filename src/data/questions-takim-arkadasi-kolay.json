@@ -376,7 +376,6 @@
     ],
     "difficulty": "kolay"
   },
-  
   {
     "id": 15,
     "game": "takim-arkadasi",
@@ -1856,7 +1855,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 66,
     "game": "takim-arkadasi",
@@ -1886,7 +1884,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 67,
     "game": "takim-arkadasi",
@@ -1916,7 +1913,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 68,
     "game": "takim-arkadasi",
@@ -1946,7 +1942,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 69,
     "game": "takim-arkadasi",
@@ -1976,7 +1971,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 70,
     "game": "takim-arkadasi",
@@ -2006,8 +2000,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 71,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-23",
@@ -2036,8 +2029,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 72,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-24",
@@ -2065,7 +2057,34 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 73,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-25",
+    "correctPlayer": "Yunus Akgün",
+    "teammates": [
+      {
+        "name": "Mario Balotelli",
+        "info": "2021-22 sezonunda Adana Demirspor'da birlikte oynadılar."
+      },
+      {
+        "name": "Wout Faes",
+        "info": "2023-24 sezonunda Leicester'da birlikte oynadılar"
+      },
+      {
+        "name": "Álvaro Morata",
+        "info": "2024-25 sezonunda Galatasaray'da birlikte oynadılar."
+      },
+      {
+        "name": "Jamie Vardy",
+        "info": "2023-24 sezonunda Leicester'da birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2018-25 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
-
-
 ]

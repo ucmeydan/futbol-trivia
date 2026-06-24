@@ -1854,7 +1854,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 89,
     "game": "listeyi-tamamla",
@@ -1862,20 +1861,17 @@
     "type": "player",
     "activeDate": "2026-06-23",
     "targets": [
-    
-    "Altay Bayındır",
-    "Mert Günok",
-    "Samet Akaydın",
-    "Çağlar Söyüncü",
-    "Kaan Ayhan",
-    "İrfan Can Kahveci",
-    "Oğuz Aydın",
-    "Ozan Kabak"
-
+      "Altay Bayındır",
+      "Mert Günok",
+      "Samet Akaydın",
+      "Çağlar Söyüncü",
+      "Kaan Ayhan",
+      "İrfan Can Kahveci",
+      "Oğuz Aydın",
+      "Ozan Kabak"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 90,
     "game": "top10",
@@ -1897,7 +1893,22 @@
       "Ozan Tufan"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 91,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde birden fazla kez şampiyonluk yaşayan Türk teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-06-25",
+    "targets": [
+      "Fatih Terim",
+      "Şenol Güneş",
+      "Okan Buruk",
+      "Ahmet Suat Özyazıcı",
+      "Gündüz Kılıç",
+      "Mustafa Denizli",
+      "Özkan Sümer"
+    ],
+    "difficulty": "zor"
   }
-
-
 ]

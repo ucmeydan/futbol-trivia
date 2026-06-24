@@ -1818,5 +1818,28 @@
       "Erencan Yardımcı"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 92,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre şu an Süper Lig'de oynayan en değerli 10 Brezilyalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-25",
+    "targets": [
+      "Gabriel Sara",
+      "Felipe Augusto",
+      "Juan",
+      "Ederson",
+      "Anderson Talisca",
+      "Janderson",
+      "Fred",
+      "Ruan",
+      "Leo Duarte",
+      "Calegari"
+    ],
+    "difficulty": "zor"
   }
+
+
 ]

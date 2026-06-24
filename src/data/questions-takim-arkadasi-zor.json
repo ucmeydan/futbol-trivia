@@ -2296,6 +2296,36 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 81,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-25",
+    "correctPlayer": "John Carew",
+    "teammates": [
+      {
+        "name": "Pablo Aimar",
+        "info": "2001-2003 yılları arasında Valencia'da birlikte oynadılar"
+      },
+      {
+        "name": "Ashley Young",
+        "info": "2007-11 yılları arasında Aston Villa'da birlikte oynadılar"
+      },
+      {
+        "name": "İbrahim Akın",
+        "info": "2004-05 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Oscar Cordoba",
+        "info": "2004-05 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Juninho Pernambucano",
+        "info": "2005-07 yılları arasında Lyon'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

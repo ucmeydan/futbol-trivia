@@ -1359,7 +1359,51 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 73,
+    "game": "listeyi-tamamla",
+    "title": "2026 DÜnya Kupası'nda ilk 2 grup maçını kazanan ülkeler? ",
+    "type": "country",
+    "activeDate": "2026-06-25",
+    "targets": [
+    
+      "Meksika",
+      "Amerika Birleşik Devletleri",
+      "Almanya",
+      "Fransa",
+      "Norveç",
+      "Arjantin",
+      "Kolombiya"
+
+    ],
+    "difficulty": "kolay"
+  },
+
+
+
+  {
+    "id": 74,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş formasıyla 90 ve üzeri sayıda gol atan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-26",
+    "targets": [
+    
+    "Feyyaz Uçar",
+    "Ali Gültiken",
+    "Mehmet Özdilek",
+    "Ertuğrul Sağlam",
+    "Cenk Tosun",
+    "Oktay Derelioğlu",
+    "Bobo"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
   
 
