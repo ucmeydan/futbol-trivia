@@ -1401,7 +1401,34 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 75,
+    "game": "listeyi-tamamla",
+    "title": "2026 Dünya Kupası'nda yer alan Afrika ülkeleri? ",
+    "type": "country",
+    "activeDate": "2026-06-27",
+    "targets": [
+    
+     "Güney Afrika",
+     "Fas",
+     "Fildişi Sahili",
+     "Senegal",
+     "Tunus",
+     "Yeşil Burun Adaları",
+     "Mısır",
+     "Gana",
+     "Demokratik Kongo Cumhuriyeti",
+     "Cezayir"
+
+
+    
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

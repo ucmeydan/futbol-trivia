@@ -1461,7 +1461,30 @@
       "Gaziantepspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 74,
+    "game": "top10",
+    "title": "2025-26 sezonunda Süper Lig'de mücadele eden en yüksek yaş ortalamasına sahip 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-06-26",
+    "targets": [
+      "Kayserispor",
+      "Kocaelispor",
+      "Başakşehir",
+      "Alanyaspor",
+      "Konyaspor",
+      "Fenerbahçe",
+      "Antalyaspor",
+      "Kasımpaşa",
+      "Galatasaray",
+      "Rizespor"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

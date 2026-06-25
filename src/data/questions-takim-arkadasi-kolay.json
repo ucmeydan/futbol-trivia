@@ -2086,5 +2086,34 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 74,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-26",
+    "correctPlayer": "Leroy Sane",
+    "teammates": [
+      {
+        "name": "Jerome Boateng",
+        "info": "2020-21 sezonunda Bayern'de birlikte oynadılar."
+      },
+      {
+        "name": "Aleksandar Kolarov",
+        "info": "2016-17 sezonunda Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Sergio Agüero",
+        "info": "2016-20 yılları arasında Manchester City'de birlikte oynadılar."
+      },
+      {
+        "name": "Mario Lemina",
+        "info": "2025-26 sezonununda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Joshua Kimmich",
+        "info": "2020-25 yılları arasında Bayern'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

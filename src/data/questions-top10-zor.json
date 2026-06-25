@@ -1839,7 +1839,30 @@
       "Calegari"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 93,
+    "game": "top10",
+    "title": "Fenerbahçe formasıyla en çok maça çıkan 10 Afrikalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-26",
+    "targets": [
+      "Uche Okechukwu",
+      "Moussa Sow",
+      "Bright Osayi Samuel",
+      "Joseph Yobo",
+      "Emmanuel Emenike",
+      "Stephen Appiah",
+      "Nabil Dirar",
+      "Pierre Webo",
+      "John Moshoeu",
+      "Jay Jay Okocha"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 ]

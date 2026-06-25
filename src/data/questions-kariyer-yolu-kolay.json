@@ -2710,7 +2710,88 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 74,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-26",
+    "correctPlayer": "İsmail Yüksek",
+    "career": [
+      {
+        "season": "2018–2020",
+        "team": "Gölcükspor",
+        "apps": "50",
+        "goals": "9"
+      },
+      {
+        "season": "2020-",
+        "team": "Fenerbahçe",
+        "apps": "157",
+        "goals": "4"
+      },
+      {
+        "season": "2020-2021",
+        "team": "Balıkesirspor (kiralık)",
+        "apps": "12",
+        "goals": "1"
+      },
+      {
+        "season": "2021–2021",
+        "team": "Adana Demirspor (kiralık)",
+        "apps": "7",
+        "goals": "0"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Bursaspor (kiralık)",
+        "apps": "30",
+        "goals": "3"
+      }
+
+
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 75,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-27",
+    "correctPlayer": "Daniel Amartey",
+    "career": [
+      {
+        "season": "2013–2014",
+        "team": "Djurgarden",
+        "apps": "41",
+        "goals": "1"
+      },
+      {
+        "season": "2014-2016",
+        "team": "Kopenhag",
+        "apps": "63",
+        "goals": "6"
+      },
+      {
+        "season": "2016-2023",
+        "team": "Leicester",
+        "apps": "145",
+        "goals": "3"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Beşiktaş",
+        "apps": "27",
+        "goals": "1"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

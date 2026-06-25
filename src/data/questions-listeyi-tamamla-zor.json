@@ -1910,5 +1910,21 @@
       "Özkan Sümer"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 92,
+    "game": "listeyi-tamamla",
+    "title": "Daha önce Galatasaray forması giymiş İspanyol futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-26",
+    "targets": [
+      "Álvaro Morata",
+      "Juan Mata",
+      "Angelino",
+      "Jose Rodriguez",
+      "Inaki Pena",
+      "Albert Riera"
+    ],
+    "difficulty": "zor"
   }
 ]
