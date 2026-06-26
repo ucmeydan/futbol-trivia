@@ -1426,7 +1426,28 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 76,
+    "game": "listeyi-tamamla",
+    "title": "2026 Dünya Kupası'nda yer alan Kuzey ve Orta Amerika ülkeleri? ",
+    "type": "country",
+    "activeDate": "2026-06-28",
+    "targets": [
+    
+     "Amerika Birleşik Devletleri",
+     "Kanada",
+     "Meksika",
+     "Panama",
+     "Haiti",
+     "Curaçao"
+    
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

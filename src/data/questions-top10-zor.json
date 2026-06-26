@@ -1819,7 +1819,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 92,
     "game": "top10",
@@ -1840,7 +1839,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 93,
     "game": "top10",
@@ -1860,9 +1858,25 @@
       "Jay Jay Okocha"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 94,
+    "game": "top10",
+    "title": "Süper Lig'de 2024-25 sezonunda en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-06-27",
+    "targets": [
+      "Victor Osimhen",
+      "Krzysztof Piatek",
+      "Youssef En Nesyri",
+      "Simon Banza",
+      "Ali Sowe",
+      "Ciro Immobile",
+      "Mame Thiam",
+      "Edin Džeko",
+      "Romulo",
+      "Nuno Da Costa"
+    ],
+    "difficulty": "zor"
   }
-
-
-
-
 ]

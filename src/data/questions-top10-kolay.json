@@ -1482,6 +1482,28 @@
       "Rizespor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 75,
+    "game": "top10",
+    "title": "Beşiktaş'ta görev alan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-06-27",
+    "targets": [
+      "Vincenzo Italiano",
+      "Sergen Yalçın",
+      "Ole Gunnar Solskjaer",
+      "Serdar Topraktepe",
+      "Giovanni Van Bronckhorst",
+      "Fernando Santos",
+      "Rıza Çalımbay",
+      "Burak Yılmaz",
+      "Şenol Güneş",
+      "Valerien Ismael"
+    
+    ],
+    "difficulty": "kolay"
   }
 
 

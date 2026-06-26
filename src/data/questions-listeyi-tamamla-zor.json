@@ -1926,5 +1926,28 @@
       "Albert Riera"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 93,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin 2007/08 sezonunda Şampiyonlar Ligi çeyrek finalinde Sevilla'yı elediği çeyrek final rövanş maçı ilk 11'i?",
+    "type": "player",
+    "activeDate": "2026-04-09",
+    "targets": [
+      "Volkan Demirel",
+      "Wederson",
+      "Diego Lugano",
+      "Edu Dracena",
+      "Gökhan Gönül",
+      "Uğur Boral",
+      "Selçuk Şahin",
+      "Mehmet Aurelio",
+      "Deivid De Souza",
+      "Alex De Souza",
+      "Mateja Kezman"
+      
+    ],
+    "difficulty": "zor"
   }
 ]

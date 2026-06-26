@@ -2087,7 +2087,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 74,
     "game": "takim-arkadasi",
@@ -2117,7 +2116,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 75,
     "game": "takim-arkadasi",
@@ -2147,7 +2145,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 76,
     "game": "takim-arkadasi",
@@ -2177,7 +2174,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 77,
     "game": "takim-arkadasi",
@@ -2207,7 +2203,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 78,
     "game": "takim-arkadasi",
@@ -2237,7 +2232,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 79,
     "game": "takim-arkadasi",
@@ -2267,7 +2261,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 80,
     "game": "takim-arkadasi",
@@ -2297,7 +2290,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 81,
     "game": "takim-arkadasi",
@@ -2327,7 +2319,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 82,
     "game": "takim-arkadasi",
@@ -2356,7 +2347,34 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 83,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-27",
+    "correctPlayer": "Davinson Sanchez",
+    "teammates": [
+      {
+        "name": "Frenkie de Jong",
+        "info": "2016-17 sezonunda Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Georges Kevin N'koudou",
+        "info": "2017-20 yılları arasında Tottenham'da birlikte oynadılar"
+      },
+      {
+        "name": "Andre Onana",
+        "info": "2016-17 sezonunda Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Jan Vertonghen",
+        "info": "2017-20 yılları arasında Tottenham'da birlikte oynadılar"
+      },
+      {
+        "name": "Hakim Ziyech",
+        "info": "2023-25 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
-
-
 ]
