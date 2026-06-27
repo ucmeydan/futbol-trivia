@@ -2376,5 +2376,35 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 84,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-06-28",
+    "correctPlayer": "Matteo Guendouzi",
+    "teammates": [
+      {
+        "name": "Krzysztof Piatek",
+        "info": "2020-21 sezonunda Hertha Berlin'de birlikte oynadılar"
+      },
+      {
+        "name": "Cengiz Ünder",
+        "info": "2021-23 yılları arasında Marsilya'da birlikte oynadılar"
+      },
+      {
+        "name": "Alexandre Lacazette",
+        "info": "2018-20 yılları arasında Arsenal'de ve Fransa Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Luis Alberto",
+        "info": "2023-24 sezonunda Lazio'da birlikte oynadılar"
+      },
+      {
+        "name": "Ederson",
+        "info": "2025-26 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

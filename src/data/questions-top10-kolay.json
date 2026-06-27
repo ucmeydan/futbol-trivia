@@ -1504,7 +1504,31 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 76,
+    "game": "top10",
+    "title": "Milli takımımızın formasıyla 2026 Dünya Kupası'nda en fazla süre lan 10 futbolcu? ",
+    "type": "player",
+    "activeDate": "2026-06-28",
+    "targets": [
+      "Uğurcan Çakır",
+      "Arda Güler",
+      "Abdülkerim Bardakcı",
+      "Kenan Yıldız",
+      "Hakan Çalhanoğlu",
+      "Merih Demiral",
+      "Barış Alper Yılmaz",
+      "Zeki Çelik",
+      "Ferdi Kadıoğlu",
+      "Orkun Kökçü"
+    
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

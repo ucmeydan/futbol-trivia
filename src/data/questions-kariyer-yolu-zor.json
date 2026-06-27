@@ -3555,6 +3555,28 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 87,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-28",
+    "correctPlayer": "Onur Kıvrak",
+    "career": [
+      {
+        "season": "2004–2008",
+        "team": "Karşıyaka",
+        "apps": "18",
+        "goals": "0" 
+      },
+      {
+        "season": "2008-2019",
+        "team": "Trabzonspor",
+        "apps": "251",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

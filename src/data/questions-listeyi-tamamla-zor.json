@@ -1949,5 +1949,24 @@
       
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 94,
+    "game": "listeyi-tamamla",
+    "title": "Trabonspor forması giymiş Arjantinli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-28",
+    "targets": [
+     "Gaston Campi",
+     "Emmanuel Mas",
+     "Gustavo Colman",
+     "Luis Ibanez",
+     "Jose Sosa"
+      
+    ],
+    "difficulty": "zor"
   }
+
+
 ]

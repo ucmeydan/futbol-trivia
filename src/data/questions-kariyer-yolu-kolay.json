@@ -2789,7 +2789,53 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 76,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-28",
+    "correctPlayer": "Frank De Boer",
+    "career": [
+      {
+        "season": "1988–1999",
+        "team": "Ajax",
+        "apps": "434",
+        "goals": "44"
+      },
+      {
+        "season": "1999-2003",
+        "team": "Barcelona",
+        "apps": "214",
+        "goals": "13"
+      },
+      {
+        "season": "2003-2004",
+        "team": "Galatasaray",
+        "apps": "23",
+        "goals": "1"
+      },
+      {
+        "season": "2004–2004",
+        "team": "Rangers",
+        "apps": "17",
+        "goals": "2"
+      },
+      {
+        "season": "2004–2005",
+        "team": "Al Rayyan",
+        "apps": "16",
+        "goals": "5"
+      }
+
+
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

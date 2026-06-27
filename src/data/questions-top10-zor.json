@@ -1878,5 +1878,26 @@
       "Nuno Da Costa"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 95,
+    "game": "top10",
+    "title": "Kariyerinde hem Başakşehir (İBB) hem de Galatasaray'da forma giyen oyuncular arasında bu iki takımda toplamda en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-28",
+    "targets": [
+      "Arda Turan",
+      "Cihan Haspolatlı",
+      "Mehmet Topal",
+      "Uğur Uçar",
+      "Emre Çolak",
+      "Necati Ateş",
+      "Emre Belözoğlu",
+      "Aydın Yılmaz",
+      "Aurelien Chedjou",
+      "Tolga Ciğerci"
+    ],
+    "difficulty": "zor"
   }
 ]
