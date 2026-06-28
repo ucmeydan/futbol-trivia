@@ -1133,7 +1133,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 61,
     "game": "listeyi-tamamla",
@@ -1141,15 +1140,14 @@
     "type": "player",
     "activeDate": "2026-06-10",
     "targets": [
-     "Orkun Kökçü",
-     "Hyeon Gyu Oh",
-     "Emmanuel Agbadou",
-     "Amir Murillo",
-     "Amir Hadziahmetovic"
+      "Orkun Kökçü",
+      "Hyeon Gyu Oh",
+      "Emmanuel Agbadou",
+      "Amir Murillo",
+      "Amir Hadziahmetovic"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 62,
     "game": "listeyi-tamamla",
@@ -1157,18 +1155,17 @@
     "type": "country",
     "activeDate": "2026-06-11",
     "targets": [
-     "Uruguay",
-     "İtalya",
-     "Brezilya",
-     "Almanya",
-     "İngiltere",
-     "Arjantin",
-     "Fransa",
-     "İspanya"
+      "Uruguay",
+      "İtalya",
+      "Brezilya",
+      "Almanya",
+      "İngiltere",
+      "Arjantin",
+      "Fransa",
+      "İspanya"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 63,
     "game": "listeyi-tamamla",
@@ -1185,7 +1182,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 64,
     "game": "listeyi-tamamla",
@@ -1204,7 +1200,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 65,
     "game": "listeyi-tamamla",
@@ -1212,21 +1207,20 @@
     "type": "team-tr",
     "activeDate": "2026-06-14",
     "targets": [
-     "Uğurcan Çakır",
-     "Zeki Çelik",
-     "Abdülkerim Bardakcı",
-     "Merih Demiral",
-     "Ferdi Kadıoğlu",
-     "İsmail Yüksek",
-     "Orkun Kökçü",
-     "Arda Güler",
-     "Barış Alper Yılmaz",
-     "Kerem Aktürkoğlu",
-     "Hakan Çalhanoğlu"
+      "Uğurcan Çakır",
+      "Zeki Çelik",
+      "Abdülkerim Bardakcı",
+      "Merih Demiral",
+      "Ferdi Kadıoğlu",
+      "İsmail Yüksek",
+      "Orkun Kökçü",
+      "Arda Güler",
+      "Barış Alper Yılmaz",
+      "Kerem Aktürkoğlu",
+      "Hakan Çalhanoğlu"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 66,
     "game": "listeyi-tamamla",
@@ -1234,21 +1228,19 @@
     "type": "country",
     "activeDate": "2026-06-15",
     "targets": [
-     "Brezilya",
-     "Fransa",
-     "İsveç",
-     "Macaristan",
-     "Almanya",
-     "Hollanda",
-     "Arjantin",
-     "Hırvatistan",
-     "İtalya",
-     "Çekoslovakya"
-
+      "Brezilya",
+      "Fransa",
+      "İsveç",
+      "Macaristan",
+      "Almanya",
+      "Hollanda",
+      "Arjantin",
+      "Hırvatistan",
+      "İtalya",
+      "Çekoslovakya"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 67,
     "game": "listeyi-tamamla",
@@ -1256,17 +1248,15 @@
     "type": "player",
     "activeDate": "2026-06-16",
     "targets": [
-    "Zeki Çelik",
-    "Hakan Çalhanoğlu",
-    "Salih Özcan",
-    "Kenan Yıldız",
-    "Deniz Gül",
-    "Can Uzun"
-
+      "Zeki Çelik",
+      "Hakan Çalhanoğlu",
+      "Salih Özcan",
+      "Kenan Yıldız",
+      "Deniz Gül",
+      "Can Uzun"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 68,
     "game": "listeyi-tamamla",
@@ -1274,15 +1264,13 @@
     "type": "player",
     "activeDate": "2026-06-18",
     "targets": [
-    "Mario Gomez",
-    "Jose Sosa",
-    "Markus Munch",
-    "Berkant Göktan"
-
+      "Mario Gomez",
+      "Jose Sosa",
+      "Markus Munch",
+      "Berkant Göktan"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 69,
     "game": "listeyi-tamamla",
@@ -1290,18 +1278,15 @@
     "type": "player",
     "activeDate": "2026-06-19",
     "targets": [
-    
-    "Nicolas Anelka",
-    "N'golo Kante",
-    "Matteo Guendouzi",
-    "Mathieu Valbuena",
-    "Adil Rami",
-    "Allan Saint Maximin"
-
+      "Nicolas Anelka",
+      "N'golo Kante",
+      "Matteo Guendouzi",
+      "Mathieu Valbuena",
+      "Adil Rami",
+      "Allan Saint Maximin"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 70,
     "game": "listeyi-tamamla",
@@ -1309,23 +1294,20 @@
     "type": "player",
     "activeDate": "2026-06-20",
     "targets": [
-    
-    "Ederson",
-    "Mert Müldür",
-    "Milan Skriniar",
-    "Jayden Oosterwolde",
-    "Levent Mercan",
-    "İsmail Yüksek",
-    "Matteo Guendouzi",
-    "Marco Asensio",
-    "Kerem Aktürkoğlu",
-    "Anthony Musaba",
-    "Jhon Duran"
-
+      "Ederson",
+      "Mert Müldür",
+      "Milan Skriniar",
+      "Jayden Oosterwolde",
+      "Levent Mercan",
+      "İsmail Yüksek",
+      "Matteo Guendouzi",
+      "Marco Asensio",
+      "Kerem Aktürkoğlu",
+      "Anthony Musaba",
+      "Jhon Duran"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 71,
     "game": "listeyi-tamamla",
@@ -1333,16 +1315,13 @@
     "type": "player",
     "activeDate": "2026-06-23",
     "targets": [
-    
-    "Uğurcan Çakır",
-    "Merih Demiral",
-    "Hakan Çalhanoğlu",
-    "Arda Güler"
-
+      "Uğurcan Çakır",
+      "Merih Demiral",
+      "Hakan Çalhanoğlu",
+      "Arda Güler"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 72,
     "game": "listeyi-tamamla",
@@ -1350,17 +1329,14 @@
     "type": "player",
     "activeDate": "2026-06-24",
     "targets": [
-    
-    "Eldor Shomurodov",
-    "Paul Onuachu",
-    "Anderson Talisca",
-    "Victor Osimhen",
-    "Mohamed Bayo"
-
+      "Eldor Shomurodov",
+      "Paul Onuachu",
+      "Anderson Talisca",
+      "Victor Osimhen",
+      "Mohamed Bayo"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 73,
     "game": "listeyi-tamamla",
@@ -1368,7 +1344,6 @@
     "type": "country",
     "activeDate": "2026-06-25",
     "targets": [
-    
       "Meksika",
       "Amerika Birleşik Devletleri",
       "Almanya",
@@ -1376,13 +1351,9 @@
       "Norveç",
       "Arjantin",
       "Kolombiya"
-
     ],
     "difficulty": "kolay"
   },
-
-
-
   {
     "id": 74,
     "game": "listeyi-tamamla",
@@ -1390,19 +1361,16 @@
     "type": "player",
     "activeDate": "2026-06-26",
     "targets": [
-    
-    "Feyyaz Uçar",
-    "Ali Gültiken",
-    "Mehmet Özdilek",
-    "Ertuğrul Sağlam",
-    "Cenk Tosun",
-    "Oktay Derelioğlu",
-    "Bobo"
-
+      "Feyyaz Uçar",
+      "Ali Gültiken",
+      "Mehmet Özdilek",
+      "Ertuğrul Sağlam",
+      "Cenk Tosun",
+      "Oktay Derelioğlu",
+      "Bobo"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 75,
     "game": "listeyi-tamamla",
@@ -1410,24 +1378,19 @@
     "type": "country",
     "activeDate": "2026-06-27",
     "targets": [
-    
-     "Güney Afrika",
-     "Fas",
-     "Fildişi Sahili",
-     "Senegal",
-     "Tunus",
-     "Yeşil Burun Adaları",
-     "Mısır",
-     "Gana",
-     "Demokratik Kongo Cumhuriyeti",
-     "Cezayir"
-
-
-    
+      "Güney Afrika",
+      "Fas",
+      "Fildişi Sahili",
+      "Senegal",
+      "Tunus",
+      "Yeşil Burun Adaları",
+      "Mısır",
+      "Gana",
+      "Demokratik Kongo Cumhuriyeti",
+      "Cezayir"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 76,
     "game": "listeyi-tamamla",
@@ -1435,48 +1398,31 @@
     "type": "country",
     "activeDate": "2026-06-28",
     "targets": [
-    
-     "Amerika Birleşik Devletleri",
-     "Kanada",
-     "Meksika",
-     "Panama",
-     "Haiti",
-     "Curaçao"
-    
+      "Amerika Birleşik Devletleri",
+      "Kanada",
+      "Meksika",
+      "Panama",
+      "Haiti",
+      "Curaçao"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 77,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe forması giymiş Hollandalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-29",
+    "targets": [
+      "Robin van Persie",
+      "Dirk Kuyt",
+      "Jeremain Lens",
+      "Gregory Van Der Wiel",
+      "Jayden Oosterwolde",
+      "Vincent Janssen",
+      "Anthony Musaba",
+      "Pierre Van Hooijdonk"
     ],
     "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

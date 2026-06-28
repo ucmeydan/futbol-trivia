@@ -1526,7 +1526,31 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 77,
+    "game": "top10",
+    "title": "Aktif futbol kariyeri devam eden oyuncular arasında Türkiye A Milli takım formasıyla en çok gol atan 10 futbolcu? ",
+    "type": "player",
+    "activeDate": "2026-06-29",
+    "targets": [
+     "Hakan Çalhanoğlu",
+     "Cenk Tosun",
+     "Cengiz Ünder",
+     "Kerem Aktürkoğlu",
+     "Ozan Tufan",
+     "Serdar Dursun",
+     "Arda Güler",
+     "Kenan Karaman",
+     "İrfan Can Kahveci",
+     "Merih Demiral"
+    
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

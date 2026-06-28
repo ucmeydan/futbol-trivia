@@ -1899,5 +1899,28 @@
       "Tolga Ciğerci"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 96,
+    "game": "top10",
+    "title": "Milli takımımızın tarihinde en çok maça çıkan 10 kaleci?",
+    "type": "player",
+    "activeDate": "2026-06-29",
+    "targets": [
+     "Rüştü Reçber",
+     "Volkan Demirel",
+     "Turgay Şeren",
+     "Uğurcan Çakır",
+     "Mert Günok",
+     "Volkan Babacan",
+     "Engin İpekoğlu",
+     "Şenol Güneş",
+     "Ali Artuner",
+     "Ömer Çatkıç"
+    ],
+    "difficulty": "zor"
   }
+
+
 ]

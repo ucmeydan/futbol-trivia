@@ -2833,7 +2833,45 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 77,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-29",
+    "correctPlayer": "Ayhan Akman",
+    "career": [
+      {
+        "season": "1993–1994",
+        "team": "İnegölspor",
+        "apps": "21",
+        "goals": "1"
+      },
+      {
+        "season": "1994-1998",
+        "team": "Gaziantepspor",
+        "apps": "114",
+        "goals": "24"
+      },
+      {
+        "season": "1998-2001",
+        "team": "Beşiktaş",
+        "apps": "88",
+        "goals": "20"
+      },
+      {
+        "season": "2010–2012",
+        "team": "Galatasaray",
+        "apps": "328",
+        "goals": "16"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

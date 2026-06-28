@@ -1954,7 +1954,7 @@
   {
     "id": 94,
     "game": "listeyi-tamamla",
-    "title": "Trabonspor forması giymiş Arjantinli futbolcular?",
+    "title": "Trabzonspor forması giymiş Arjantinli futbolcular?",
     "type": "player",
     "activeDate": "2026-06-28",
     "targets": [
@@ -1963,6 +1963,24 @@
      "Gustavo Colman",
      "Luis Ibanez",
      "Jose Sosa"
+      
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 95,
+    "game": "listeyi-tamamla",
+    "title": "Hem Trabzonspor hem de Beşiktaş'ta oynamış aktif futbol kariyeri devam eden futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-29",
+    "targets": [
+     
+      "İsmail Köybaşı",
+      "Ernest Muçi",
+      "Umut Nayir",
+      "Serdar Saatçı",
+      "Dorukhan Toköz"
       
     ],
     "difficulty": "zor"
