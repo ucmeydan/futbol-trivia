@@ -1984,6 +1984,27 @@
       
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 96,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de gol atan 2005 ve sonrası doğumlu futbolcular?",
+    "type": "player",
+    "activeDate": "2026-06-30",
+    "targets": [
+      "Mustafa Hekimoğlu",
+      "Ahmed Traore",
+      "Renato Nhaga",
+      "Sidiki Cherif",
+      "Uchenna Ogundu",
+      "Christ Inao Oulai",
+      "Ibrahim Sabra",
+      "Barış Kalaycı",
+      "Ruan",
+      "Eren Yağmur"
+    ],
+    "difficulty": "zor"
   }
 
 

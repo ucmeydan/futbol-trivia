@@ -1920,6 +1920,27 @@
      "Ömer Çatkıç"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 97,
+    "game": "top10",
+    "title": "Galatasaray'da Fernando Muslera ile birlikte en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-30",
+    "targets": [
+      "Selçuk İnan",
+      "Semih Kaya",
+      "Hakan Balta",
+      "Sabri Sarıoğlu",
+      "Wesley Sneijder",
+      "Kerem Aktürkoğlu",
+      "Umut Bulut",
+      "Barış Alper Yılmaz",
+      "Felipe Melo",
+      "Burak Yılmaz"
+    ],
+    "difficulty": "zor"
   }
 
 

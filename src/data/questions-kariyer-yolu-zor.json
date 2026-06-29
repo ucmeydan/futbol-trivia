@@ -3611,6 +3611,40 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+    {
+    "id": 89,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-06-30",
+    "correctPlayer": "Ibrahim Olawoyin",
+    "career": [
+      {
+        "season": "2019–2019",
+        "team": "Abia Warriors",
+        "apps": "21",
+        "goals": "4"
+      },
+      {
+        "season": "2019-2021",
+        "team": "Rangers International",
+        "apps": "50",
+        "goals": "10"
+      },
+      {
+        "season": "2021-2023",
+        "team": "Keçiörengücü",
+        "apps": "51",
+        "goals": "12"
+      },
+      {
+        "season": "2023-",
+        "team": "Rizespor",
+        "apps": "122",
+        "goals": "19"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

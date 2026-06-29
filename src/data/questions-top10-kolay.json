@@ -1548,6 +1548,27 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 78,
+    "game": "top10",
+    "title": "Beşiktaş'ın gruptan namağlup lider çıktığı 2017-18 Şampiyonlar Ligi sezonunda Beşiktaş formasıyla en çok süre alan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-06-30",
+    "targets": [
+      "Ricardo Quaresma",
+      "Atiba Hutchinson",
+      "Ryan Babel",
+      "Fabri",
+      "Pepe",
+      "Anderson Talisca",
+      "Caner Erkin",
+      "Dusko Tosic",
+      "Adriano",
+      "Cenk Tosun"
+    ],
+    "difficulty": "kolay"
   }
 
 
