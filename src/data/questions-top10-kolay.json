@@ -1569,7 +1569,30 @@
       "Cenk Tosun"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 79,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de güncel piyasa değeri en yüksek 10 stoper?",
+    "type": "player",
+    "activeDate": "2026-07-01",
+    "targets": [
+     "Jayden Oosterwolde",
+     "Davinson Sanchez",
+     "Emmanuel Agbadou",
+     "Arseniy Batagov",
+     "Milan Skriniar",
+     "Chibuike Nwaiwu",
+     "Tiago Djalo",
+     "Emirhan Topçu",
+     "Abdülkerim Bardakcı",
+     "Yiğit Efe Demir"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

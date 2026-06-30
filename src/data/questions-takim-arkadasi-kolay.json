@@ -2235,5 +2235,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 79,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-01",
+    "correctPlayer": "Nuri Şahin",
+    "teammates": [
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2011-12 sezonunda Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "info": "2010-11 ve 2013-14 sezonunda Dortmund'da birlikte oynadılar"
+      },
+      {
+        "name": "Kaka",
+        "info": "2011-12 sezonunda Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Lukas Podolski",
+        "info": "2020-21 sezonunda Antalyaspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Steven Gerrard",
+        "info": "2012-13 sezonunda Liverpool'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -3645,6 +3645,47 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 90,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-01",
+    "correctPlayer": "Philippe Kény",
+    "career": [
+      {
+        "season": "2019–2019",
+        "team": "Tours",
+        "apps": "8",
+        "goals": "2"
+      },
+      {
+        "season": "2019-2021",
+        "team": "Chateauroux",
+        "apps": "45",
+        "goals": "2"
+      },
+      {
+        "season": "2021-2023",
+        "team": "Bandırmaspor",
+        "apps": "36",
+        "goals": "14"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Başakşehir",
+        "apps": "101",
+        "goals": "13"
+      },
+      {
+        "season": "2025-",
+        "team": "Zurich",
+        "apps": "33",
+        "goals": "13"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 
 

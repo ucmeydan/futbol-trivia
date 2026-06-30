@@ -2005,7 +2005,50 @@
       "Eren Yağmur"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 97,
+    "game": "listeyi-tamamla",
+    "title": "1959'dan günümüze Süper Lig'de yer almış tüm İzmir takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-07-01",
+    "targets": [
+    "Altay",
+    "Göztepe",
+    "Karşıyaka",
+    "Altınordu",
+    "Bucaspor",
+    "İzmirspor"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 98,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray tarihinde kulüp forması giymiş olan Fransız futbolcular?",
+    "type": "player",
+    "activeDate": "2026-07-01",
+    "targets": [
+      
+    "Tanguy Ndombele",
+    "Leo Dubois",
+    "Sacha Boey",
+    "Steven Nzonzi",
+    "Bafetimbi Gomis",
+    "Cedric Carrasso",
+    "Lionel Carole",
+    "Franck Ribery",
+    "Sebastian Perez",
+    "Didier Six"
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 ]

@@ -525,7 +525,7 @@
     "id": 19,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-22",
-    "correctPlayer": "Davinson Sanchez",
+    "correctPlayer": "Davinson Sánchez",
     "teammates": [
       {
         "name": "Frenkie de Jong",
@@ -536,7 +536,7 @@
         "info": "2017-20 yılları arasında Tottenham'da birlikte oynadılar"
       },
       {
-        "name": "Andre Onana",
+        "name": "André Onana",
         "info": "2016-17 sezonunda Ajax'ta birlikte oynadılar"
       },
       {
@@ -2377,7 +2377,8 @@
     ],
     "difficulty": "zor"
   },
-  {
+
+   {
     "id": 84,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-28",
@@ -2406,7 +2407,8 @@
     ],
     "difficulty": "zor"
   },
-  {
+
+   {
     "id": 85,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-29",
@@ -2435,6 +2437,7 @@
     ],
     "difficulty": "zor"
   },
+
   {
     "id": 86,
     "game": "takim-arkadasi",
@@ -2463,5 +2466,39 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 87,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-01",
+    "correctPlayer": "Marek Hamsik",
+    "teammates": [
+      {
+        "name": "Jailson",
+        "info": "2019-20 sezonunda Dalian Yifang'da birlikte oynadılar"
+      },
+      {
+        "name": "Marcus Berg",
+        "info": "2021 yılında Goteborg'da birlikte oynadılar"
+      },
+      {
+        "name": "Ezequiel Lavezzi",
+        "info": "2007-12 yılları arasında Napoli'de birlikte oynadılar"
+      },
+      {
+        "name": "Dries Mertens",
+        "info": "2013-19 yılları arasında Napoli'de birlikte oynadılar"
+      },
+      {
+        "name": "Andreas Cornelius",
+        "info": "2021-22 sezonunda Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
+
+
 ]

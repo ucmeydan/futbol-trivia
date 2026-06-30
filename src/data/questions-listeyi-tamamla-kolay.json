@@ -1446,5 +1446,24 @@
       "Amerika Birleşik Devletleri"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 79,
+    "game": "listeyi-tamamla",
+    "title": "1959'dan günümüze Süper Lig'de yer almış tüm İzmir takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-07-01",
+    "targets": [
+    "Altay",
+    "Göztepe",
+    "Karşıyaka",
+    "Altınordu",
+    "Bucaspor",
+    "İzmirspor"
+    
+    ],
+    "difficulty": "kolay"
   }
+
 ]

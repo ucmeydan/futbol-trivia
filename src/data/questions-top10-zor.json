@@ -1941,7 +1941,30 @@
       "Burak Yılmaz"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 98,
+    "game": "top10",
+    "title": "Mathieu Valbuena'nın Fenerbahçe kariyerinde birlikte en çok maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-01",
+    "targets": [
+     "Hasan Ali Kaldırım",
+     "Mehmet Topal",
+     "Roman Neustadter",
+     "Martin Skrtel",
+     "Mauricio Isla",
+     "Nabil Dirar",
+     "Josef De Souza",
+     "Volkan Demirel",
+     "Roberto Soldado",
+     "Giuliano"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 ]

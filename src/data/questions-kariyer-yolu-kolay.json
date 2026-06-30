@@ -2927,7 +2927,51 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 79,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-01",
+    "correctPlayer": "Salih Özcan",
+    "career": [
+      {
+        "season": "2015–2016",
+        "team": "Köln II",
+        "apps": "22",
+        "goals": "4"
+      },
+      {
+        "season": "2016-2022",
+        "team": "Köln",
+        "apps": "128",
+        "goals": "4"
+      },
+      {
+        "season": "2019–2020",
+        "team": "Holstein Kiel (kiralık)",
+        "apps": "29",
+        "goals": "3"
+      },
+      {
+        "season": "2022-",
+        "team": "Dortmund",
+        "apps": "96",
+        "goals": "0"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Wolfsburg (kiralık)",
+        "apps": "12",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
+  
+
+
 
 
 
