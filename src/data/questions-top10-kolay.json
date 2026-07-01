@@ -1590,7 +1590,31 @@
      "Yiğit Efe Demir"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 80,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de güncel piyasa değeri en yüksek 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-07-02",
+    "targets": [
+     "Galatasaray",
+     "Fenerbahçe",
+     "Beşiktaş",
+     "Trabzonspor",
+     "Başakşehir",
+     "Göztepe",
+     "Samsunspor",
+     "Rizespor",
+     "Konyaspor",
+     "Alanyaspor"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

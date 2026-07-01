@@ -3686,6 +3686,47 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 91,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-02",
+    "correctPlayer": "Logi Tomasson",
+    "career": [
+      {
+        "season": "2016-2023",
+        "team": "Vikingur Reykjavik",
+        "apps": "138",
+        "goals": "16"
+      },
+      {
+        "season": "2018-2018",
+        "team": "Throttur Reykjavik (kiralık)",
+        "apps": "11",
+        "goals": "0"
+      },
+      {
+        "season": "2020-2020",
+        "team": "Hafnarfjordur",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2023-2025",
+        "team": "Stromsgodset",
+        "apps": "53",
+        "goals": "8"
+      },
+      {
+        "season": "2025-",
+        "team": "Samsunspor",
+        "apps": "46",
+        "goals": "2"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 
 

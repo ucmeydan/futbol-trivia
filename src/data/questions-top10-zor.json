@@ -1962,7 +1962,31 @@
      "Giuliano"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 99,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en çok maça çıkan 10 İskandinav futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-02",
+    "targets": [
+    "Erkan Zengin",
+    "Samuel Holmen",
+    "Jimmy Durmaz",
+    "Abdul Khalili",
+    "Jonas Svensson",
+    "Victor Nelsson",
+    "Sam Larsson",
+    "Jes Hogh",
+    "Andreas Isaksson",
+    "Johannes Hopf"
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

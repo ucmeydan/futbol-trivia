@@ -2032,7 +2032,7 @@
     "type": "player",
     "activeDate": "2026-07-01",
     "targets": [
-      
+
     "Tanguy Ndombele",
     "Leo Dubois",
     "Sacha Boey",
@@ -2046,7 +2046,36 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 99,
+    "game": "listeyi-tamamla",
+    "title": "Hem Manchester United hem de Süper Lig'deki 3 büyük takımdan herhangi birinde oynamış futbolcular?",
+    "type": "player",
+    "activeDate": "2026-07-02",
+    "targets": [
+
+    "Juan Mata",
+    "Radamel Falcao",
+    "Wilfried Zaha",
+    "Alex Telles",
+    "Nani",
+    "Fred",
+    "Robin van Persie",
+    "Joshua King",
+    "Altay Bayındır",
+    "Sofyan Amrabat",
+    "Bebe",
+    "Ronny Johnsen",
+    "Wout Weghorst",
+    "Kleberson",
+    "Shinji Kagawa"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

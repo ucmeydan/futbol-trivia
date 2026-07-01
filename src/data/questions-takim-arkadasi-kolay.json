@@ -2265,5 +2265,37 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 80,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-02",
+    "correctPlayer": "Altay Bayındır",
+    "teammates": [
+      {
+        "name": "Tyler Boyd",
+        "info": "2018-19 sezonunda Ankaragücü'de birlikte oynadılar"
+      },
+      {
+        "name": "Casemiro",
+        "info": "2023-26 yılları arasında Manchester United'da birlikte oynadılar"
+      },
+      {
+        "name": "Vedat Muriqi",
+        "info": "2019-20 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Arda Güler",
+        "info": "2021-23 yılları arasında Fenerbahçe'de ve Türk Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "info": "2023-26 yılları arasında Manchester United'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]
