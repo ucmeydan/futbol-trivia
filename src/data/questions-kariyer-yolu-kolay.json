@@ -2995,7 +2995,44 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 81,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-03",
+    "correctPlayer": "Tayfur Havutçu",
+    "career": [
+      {
+        "season": "1992–1993",
+        "team": "Darmstadt",
+        "apps": "36",
+        "goals": "2"
+      },
+      {
+        "season": "1993-1995",
+        "team": "Fenerbahçe",
+        "apps": "62",
+        "goals": "2"
+      },
+      {
+        "season": "1995–1997",
+        "team": "Kocaelispor",
+        "apps": "78",
+        "goals": "6"
+      },
+      {
+        "season": "1997–2006",
+        "team": "Beşiktaş",
+        "apps": "318",
+        "goals": "29"
+      }
+      
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

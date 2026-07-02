@@ -1612,7 +1612,31 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 81,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-26 sezonunu son 10 sırada bitiren takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-07-03",
+    "targets": [
+   "Fatih Karagümrük",
+   "Kayserispor",
+   "Antalyaspor",
+   "Eyüpspor",
+   "Gençlerbirliği",
+   "Kasımpaşa",
+   "Gaziantep FK",
+   "Alanyaspor",
+   "Kocaelispor",
+   "Konyaspor"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

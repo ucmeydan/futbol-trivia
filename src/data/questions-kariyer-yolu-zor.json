@@ -3727,6 +3727,41 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 92,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-02",
+    "correctPlayer": "Mathias Lovik",
+    "career": [
+      {
+        "season": "2021-2022",
+        "team": "Molde II",
+        "apps": "21",
+        "goals": "3"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Molde",
+        "apps": "109",
+        "goals": "7"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Parma",
+        "apps": "18",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Trabzonspor",
+        "apps": "17",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 
 

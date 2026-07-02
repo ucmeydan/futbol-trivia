@@ -2073,7 +2073,27 @@
     "Shinji Kagawa"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 100,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor'da Anthony Nwakaeme ile birlikte 60'tan fazla maçta forma giyen oyuncular?",
+    "type": "player",
+    "activeDate": "2026-07-03",
+    "targets": [
+      "Uğurcan Çakır",
+      "Abdulkadir Ömür",
+      "Abdulkadir Parmak",
+      "Caleb Ekuban",
+      "Hüseyin Türkmen",
+      "Filip Novak",
+      "Majid Hosseini"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
