@@ -1510,7 +1510,28 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 82,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de şampiyonluk yaşayan takımların mevcut teknik direktörleri?",
+    "type": "td",
+    "activeDate": "2026-07-05",
+    "targets": [
+   "Vincenzo Italiano",
+   "Nuri Şahin",
+  "Fatih Tekke",
+  "Okan Buruk",
+  "İsmail Kartal",
+  "Mustafa Er"
+
+    
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

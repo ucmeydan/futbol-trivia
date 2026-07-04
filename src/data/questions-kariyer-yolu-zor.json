@@ -3762,6 +3762,46 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 93,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-05",
+    "correctPlayer": "Emre Kılınç",
+    "career": [
+      {
+        "season": "2011–2017",
+        "team": "Boluspor",
+        "apps": "133",
+        "goals": "23"
+      },
+      {
+        "season": "2017–2020",
+        "team": "Sivasspor",
+        "apps": "119",
+        "goals": "24"
+      },
+      {
+        "season": "2020–2023",
+        "team": "Galatasaray",
+        "apps": "80",
+        "goals": "9"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Ankaragücü (kiralık)",
+        "apps": "32",
+        "goals": "2"
+      },
+      {
+        "season": "2023–",
+        "team": "Samsunspor",
+        "apps": "87",
+        "goals": "9"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

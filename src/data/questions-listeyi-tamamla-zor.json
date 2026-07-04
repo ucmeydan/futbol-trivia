@@ -2091,7 +2091,26 @@
       "Majid Hosseini"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 101,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'deki mevcut yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-07-05",
+    "targets": [
+      "Besnik Hasi",
+      "Vincenzo Italiano",
+      "Mirel Radoi",
+      "Thorsten Fink",
+      "Stanimir Stoilov",
+      "Joao Pereira"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

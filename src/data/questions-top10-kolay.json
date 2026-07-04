@@ -1634,7 +1634,31 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 82,
+    "game": "top10",
+    "title": "Süper Lig'de en yüksek stadyum kapasitesine sahip kulüpler?",
+    "type": "team-tr",
+    "activeDate": "2026-07-05",
+    "targets": [
+   "Galatasaray",
+   "Fenerbahçe",
+   "Beşiktaş",
+   "Konyaspor",
+   "Trabzonspor",
+   "Kocaelispor",
+   "Samsunspor",
+   "Amed SK",
+   "Gaziantep FK",
+   "Göztepe"
+
+    ],
+    "difficulty": "kolay"
   }
+
+  
 
 
 

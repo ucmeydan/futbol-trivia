@@ -2006,6 +2006,27 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 101,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla gol atan 10 Afrikalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-05",
+    "targets": [
+      "Andre Kona",
+      "Mbaye Diagne",
+      "Fernand Coulibaly",
+      "Mame Thiam",
+      "Souleymane Youla",
+      "Moussa Sow",
+      "Aatif Chahechouhe",
+      "Isaac Promise",
+      "Ahmed Hassan",
+      "Pierre Webo"
+    ],
+    "difficulty": "zor"
   }
 
 
