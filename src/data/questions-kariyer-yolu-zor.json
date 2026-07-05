@@ -3802,6 +3802,46 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 94,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-06",
+    "correctPlayer": "Amin Cherni",
+    "career": [
+      {
+        "season": "2019–2021",
+        "team": "Paris FC B",
+        "apps": "5",
+        "goals": "0"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Paris 13 Atletico",
+        "apps": "20",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Chambly",
+        "apps": "32",
+        "goals": "3"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Laval",
+        "apps": "67",
+        "goals": "6"
+      },
+      {
+        "season": "2025–",
+        "team": "Göztepe",
+        "apps": "35",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

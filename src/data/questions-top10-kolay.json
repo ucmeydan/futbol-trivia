@@ -1656,6 +1656,28 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 83,
+    "game": "top10",
+    "title": "Beşiktaş formasıyla en fazla maça çıkan 10 Brezilyalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-06",
+    "targets": [
+      "Bobo",
+      "Marcio Nobre",
+      "Ronaldo Guiaro",
+      "Adriano",
+      "Josef De Souza",
+      "Welinton",
+      "Anderson Talisca",
+      "Carlos Zago",
+      "Ramon Motta",
+      "Ricardinho"
+
+    ],
+    "difficulty": "kolay"
   }
 
   

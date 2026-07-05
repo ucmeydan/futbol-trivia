@@ -1529,7 +1529,30 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 83,
+    "game": "listeyi-tamamla",
+    "title": "Alvaro Morata'nın futbolculuk kariyerinde formasını giydiği kulüpler?",
+    "type": "team-all",
+    "activeDate": "2026-07-06",
+    "targets": [
+   
+      "Juventus",
+      "Real Madrid",
+      "Milan",
+      "Chelsea",
+      "Como",
+      "Galatasaray",
+      "Atletico Madrid"
+
+    
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

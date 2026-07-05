@@ -2027,7 +2027,30 @@
       "Pierre Webo"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 102,
+    "game": "top10",
+    "title": "Başakşehir tarihinde en çok maça çıkan 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-06",
+    "targets": [
+      "Edin Visca",
+      "Alexandru Epureanu",
+      "Leo Duarte",
+      "Junior Caicara",
+      "Doka Madureira",
+      "Danijel Aleksić",
+      "Marcio Mossoro",
+      "Samuel Holmen",
+      "Lucas Lima",
+      "Jerome Opoku"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

@@ -2108,7 +2108,28 @@
       "Joao Pereira"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 102,
+    "game": "listeyi-tamamla",
+    "title": "Juan Mata'nın futbolculuk kariyerinde formasını giydiği kulüpler?",
+    "type": "team-all",
+    "activeDate": "2026-07-06",
+    "targets": [
+      "Galatasaray",
+      "Valencia",
+      "Chelsea",
+      "Manchester United",
+      "Real Madrid",
+      "Vissel Kobe",
+      "Western Sydney Wanderers",
+      "Melbourne Victory"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

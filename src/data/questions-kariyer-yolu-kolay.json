@@ -3064,7 +3064,50 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 83,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-06",
+    "correctPlayer": "Yusuf Yazıcı",
+    "career": [
+      {
+        "season": "2015–2019",
+        "team": "Trabzonspor",
+        "apps": "100",
+        "goals": "22"
+      },
+      {
+        "season": "2019–2024",
+        "team": "Lille",
+        "apps": "135",
+        "goals": "29"
+      },
+      {
+        "season": "2022–2022",
+        "team": "CSKA Moskova (kiralık)",
+        "apps": "12",
+        "goals": "8"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Trabzonspor (kiralık)",
+        "apps": "20",
+        "goals": "5"
+      },
+      {
+        "season": "2024–",
+        "team": "Olympiakos",
+        "apps": "28",
+        "goals": "7"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

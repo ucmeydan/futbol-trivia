@@ -2586,6 +2586,36 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 91,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-06",
+    "correctPlayer": "Daniel Sturridge",
+    "teammates": [
+      {
+        "name": "Elano",
+        "info": "2007-09 yılları arasında Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Georginio Wijnaldum",
+        "info": "2016-18 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Andrew Robertson",
+        "info": "2017-18 sezonunda Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Cesar Azpilicueta",
+        "info": "2012-13 sezonunda Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Alexander Sorloth",
+        "info": "2019-20 sezonunda Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 
