@@ -1550,7 +1550,35 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 84,
+    "game": "listeyi-tamamla",
+    "title": "2026 Dünya Kupası'nda gruplarını son sırada tamamlayan ülkeler?",
+    "type": "country",
+    "activeDate": "2026-07-07",
+    "targets": [
+   
+     "Çekya",
+     "Katar",
+     "Irak",
+     "Türkiye",
+     "Suudi Arabistan",
+     "Özbekistan",
+     "Yeni Zelanda",
+     "Ürdün",
+     "Curaçao",
+     "Panama",
+     "Haiti",
+     "Tunus"
+
+    
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
