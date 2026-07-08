@@ -2145,7 +2145,26 @@
       "Benfica"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 104,
+    "game": "listeyi-tamamla",
+    "title": "Hem Beşiktaş hem de Stuttgart forması giymiş oyuncular?",
+    "type": "player",
+    "activeDate": "2026-07-09",
+    "targets": [
+      "Mario Gomez",
+      "Andreas Beck",
+      "Roberto Hilbert",
+      "El Bilal Toure",
+      "Alexandru Maxim",
+      "Alexander Nübel"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

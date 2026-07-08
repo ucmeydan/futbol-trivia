@@ -3139,6 +3139,34 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 85,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-09",
+    "correctPlayer": "Efe Akman",
+    "career": [
+      {
+        "season": "2022-2023",
+        "team": "Galatasaray U19",
+        "apps": "36",
+        "goals": "0"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Galatasaray",
+        "apps": "11",
+        "goals": "0"
+      },
+      {
+        "season": "2025-",
+        "team": "FC Andorra",
+        "apps": "24",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

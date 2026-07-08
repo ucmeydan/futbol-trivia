@@ -3906,7 +3906,61 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+    {
+    "id": 96,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-09",
+    "correctPlayer": "Edouard Cisse",
+    "career": [
+      {
+        "season": "1997–2007",
+        "team": "PSG",
+        "apps": "259",
+        "goals": "10"
+      },
+      {
+        "season": "1998–1999",
+        "team": "Rennes (kiralık)",
+        "apps": "33",
+        "goals": "3"
+      },
+      {
+        "season": "2002–2003",
+        "team": "West Ham (kiralık)",
+        "apps": "28",
+        "goals": "0"
+      },
+      {
+        "season": "2003–2004",
+        "team": "Monaco (kiralık)",
+        "apps": "47",
+        "goals": "3"
+      },
+      {
+        "season": "2007–2009",
+        "team": "Beşiktaş",
+        "apps": "81",
+        "goals": "4"
+      },
+      {
+        "season": "2009–2011",
+        "team": "Marsilya",
+        "apps": "77",
+        "goals": "1"
+      },
+      {
+        "season": "2011–2012",
+        "team": "Auxerre",
+        "apps": "31",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

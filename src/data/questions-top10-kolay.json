@@ -1699,7 +1699,30 @@
       "Gheorghe Hagi"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 85,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'in piyasa değeri en yüksek 10 orta saha oyuncusu?",
+    "type": "player",
+    "activeDate": "2026-07-09",
+    "targets": [
+     "Matteo Guendouzi",
+     "Gabriel Sara",
+     "Orkun Kökçü",
+     "Christ Inao Oulai",
+     "Marco Asensio",
+     "İsmail Yüksek",
+     "Ernest Muçi",
+     "Sofyan Amrabat",
+     "Lucas Torreira",
+     "Wilfried Ndidi"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
   
 

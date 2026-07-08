@@ -1576,7 +1576,31 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 85,
+    "game": "listeyi-tamamla",
+    "title": "2026 Dünya Kupası'nda çeyrek finale kalan ülkeler?",
+    "type": "country",
+    "activeDate": "2026-07-09",
+    "targets": [
+   
+     "Fas",
+     "Fransa",
+     "İngiltere",
+     "Norveç",
+     "İspanya",
+     "Belçika",
+     "Arjantin",
+     "İsviçre"
+
+    
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

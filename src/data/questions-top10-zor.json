@@ -2069,7 +2069,30 @@
       "Ozan Kabak"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 104,
+    "game": "top10",
+    "title": "Güncel Transfermarkt verilerine göre Süper Lig'de 4 büyükler dışındaki kulüplerde oynayan piyasa değeri en yüksek 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-09",
+    "targets": [
+     "Juan",
+     "Anthony Dennis",
+     "Maestro",
+     "Abbosbek Fayzullaev",
+     "Bertuğ Yıldırım",
+     "Eldor Shomurodov",
+     "Arda Okan Kurtulan",
+     "Marius Mouandilmadji",
+     "Carlo Holse",
+     "Ümit Akdağ"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

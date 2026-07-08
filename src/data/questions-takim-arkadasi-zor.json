@@ -2646,7 +2646,39 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 93,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-09",
+    "correctPlayer": "Sofyan Amrabat",
+    "teammates": [
+      {
+        "name": "Stefano Denswil",
+        "info": "2018-19 sezonunda Club Brugge'de birlikte oynadılar"
+      },
+      {
+        "name": "Robin van Persie",
+        "info": "2017-18 sezonunda Feyenoord'da birlikte oynadılar"
+      },
+      {
+        "name": "Isco",
+        "info": "2025-26 sezonunda Real Betis'de birlikte oynadılar"
+      },
+      {
+        "name": "Harry Maguire",
+        "info": "2023-24 sezonunda Manchester United'da birlikte oynadılar"
+      },
+      {
+        "name": "Edin Dzeko",
+        "info": "2024-25 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
