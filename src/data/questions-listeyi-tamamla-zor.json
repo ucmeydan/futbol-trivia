@@ -2162,7 +2162,59 @@
       "Alexander Nübel"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 105,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın 2023-24 sezonunda Avrupa kupalarında karşılaştığı takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-07-10",
+    "targets": [
+      "Zalgiris",
+      "Molde",
+      "Olimpija Ljubljana",
+      "Bayern Münih",
+      "Manchester United",
+      "Kopenhag",
+      "Sparta Prag"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 106,
+    "game": "listeyi-tamamla",
+    "title": "3 büyük kulübün herhangi birinde forma giyen Brezilyalı stoperler?",
+    "type": "player",
+    "activeDate": "2026-07-11",
+    "targets": [
+      "Ronaldo Guiaro",
+      "Carlos Zago",
+      "Marcelo",
+      "Marcao",
+      "Maicon",
+      "Cris",
+      "Bruno Quadros",
+      "Gabriel Paulista",
+      "Welinton",
+      "Luis Rhodolfo",
+      "Marinho",
+      "Fabio Bilica",
+      "Fabio Luciano",
+      "Edu Dracena",
+      "Rodrigo Becao",
+      "Luan Peres",
+      "Gustavo Henrique",
+      "Diego Carlos"
+
+    ],
+    "difficulty": "zor"
   }
+
+
+
+
 
 
 

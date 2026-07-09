@@ -3958,6 +3958,180 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 97,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-10",
+    "correctPlayer": "Bünyamin Balcı",
+    "career": [
+      {
+        "season": "2016-2017",
+        "team": "Antalyaspor U19",
+        "apps": "15",
+        "goals": "1"
+      },
+      {
+        "season": "2017–2019",
+        "team": "Antalyaspor U21",
+        "apps": "25",
+        "goals": "3"
+      },
+      {
+        "season": "2019-",
+        "team": "Antalyaspor",
+        "apps": "221",
+        "goals": "6"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 98,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-11",
+    "correctPlayer": "Can Arat",
+    "career": [
+      {
+        "season": "2003–2009",
+        "team": "Fenerbahçe",
+        "apps": "33",
+        "goals": "1"
+      },
+      {
+        "season": "2004–2004",
+        "team": "Karşıyaka (kiralık)",
+        "apps": "15",
+        "goals": "1"
+      },
+      {
+        "season": "2004–2005",
+        "team": "Sivasspor (kiralık)",
+        "apps": "29",
+        "goals": "1"
+      },
+      {
+        "season": "2009–2015",
+        "team": "İBB",
+        "apps": "87",
+        "goals": "1"
+      },
+      {
+        "season": "2015–2017",
+        "team": "Antalyaspor",
+        "apps": "22",
+        "goals": "0"
+      },
+      {
+        "season": "2017–2017",
+        "team": "Sarıyer",
+        "apps": "4",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+
+   {
+    "id": 99,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-12",
+    "correctPlayer": "Cedric Carrasso",
+    "career": [
+      {
+        "season": "2001–2009",
+        "team": "Marsilya",
+        "apps": "85",
+        "goals": "0"
+      },
+      {
+        "season": "2002–2002",
+        "team": "Crystal Palace (kiralık)",
+        "apps": "1",
+        "goals": "0"
+      },
+      {
+        "season": "2004–2005",
+        "team": "Guingamp (kiralık)",
+        "apps": "30",
+        "goals": "0"
+      },
+      {
+        "season": "2008–2009",
+        "team": "Toulouse",
+        "apps": "43",
+        "goals": "0"
+      },
+      {
+        "season": "2009–2017",
+        "team": "Bordeaux",
+        "apps": "314",
+        "goals": "0"
+      },
+      {
+        "season": "2017–2018",
+        "team": "Galatasaray",
+        "apps": "2",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 100,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-13",
+    "correctPlayer": "Celil Yüksel",
+    "career": [
+      {
+        "season": "2015–2016",
+        "team": "Galatasaray U19",
+        "apps": "11",
+        "goals": "1"
+      },
+      {
+        "season": "2016–2018",
+        "team": "Galatasaray U21",
+        "apps": "12",
+        "goals": "2"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Galatasaray",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2020–2020",
+        "team": "Adanaspor (kiralık)",
+        "apps": "10",
+        "goals": "1"
+      },
+      {
+        "season": "2020–2022",
+        "team": "Adanaspor",
+        "apps": "68",
+        "goals": "7"
+      },
+      {
+        "season": "2022–",
+        "team": "Samsunspor",
+        "apps": "85",
+        "goals": "1"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Göztepe",
+        "apps": "29",
+        "goals": "1"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 
 

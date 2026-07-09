@@ -1598,7 +1598,37 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 86,
+    "game": "listeyi-tamamla",
+    "title": "21.yüzyılda düzenlenen Dünya kupalarında yarı finale kalan ülkeler?",
+    "type": "country",
+    "activeDate": "2026-07-10",
+    "targets": [
+   
+      "Brezilya",
+      "Almanya",
+      "Güney Kore",
+      "Türkiye",
+      "Fransa",
+      "İtalya",
+      "Hollanda",
+      "Uruguay",
+      "Arjantin",
+      "Portekiz",
+      "Hırvatistan",
+      "Belçika",
+      "İngiltere",
+      "Fas"
+
+    
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

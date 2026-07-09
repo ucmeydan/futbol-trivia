@@ -2090,7 +2090,54 @@
      "Ümit Akdağ"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 105,
+    "game": "top10",
+    "title": "Fenerbahçe'nin Şampiyonlar Ligi'nde karşılaştığı son 10 takım? (Ön elemeler hariç)",
+    "type": "team-eu",
+    "activeDate": "2026-07-10",
+    "targets": [
+     "Dinamo Kiev",
+     "Porto",
+     "Arsenal",
+     "Chelsea",
+     "Sevilla",
+     "CSKA Moskova",
+     "Inter",
+     "PSV",
+     "Milan",
+     "Schalke 04"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 106,
+    "game": "top10",
+    "title": "Galatasaray'ın transfer ettiği son 10 yabancı kaleci? (Kiralık oyuncular dahil)",
+    "type": "player",
+    "activeDate": "2026-07-11",
+    "targets": [
+     
+      "Inaki Pena",
+      "Cedric Carrasso",
+      "Fernando Muslera",
+      "Robinson Zapata",
+      "Leo Franco",
+      "Morgan De Sanctis",
+      "Richard Kingson",
+      "Faryd Mondragon",
+      "Claudio Taffarel",
+      "Pierre Esser"
+    ],
+    "difficulty": "zor"
   }
+
+
+
+
 
 
 

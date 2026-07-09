@@ -2445,7 +2445,69 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 86,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-09",
+    "correctPlayer": "Dele Alli",
+    "teammates": [
+      {
+        "name": "Nico Paz",
+        "info": "2025 yılında Como'da birlikte oynadılar"
+      },
+      {
+        "name": "Rachid Ghezzal",
+        "info": "2022-23 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Eric Dier",
+        "info": "2015-22 yılları arasında Tottenham'da birlikte oynadılar"
+      },
+      {
+        "name": "Gedson Fernandes",
+        "info": "2022-23 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Harry Kane",
+        "info": "2015-22 yılları arasında Tottenham'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 87,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-10",
+    "correctPlayer": "Harry Kewell",
+    "teammates": [
+      {
+        "name": "Alan Smith",
+        "info": "1998-2003 yılları arasında Leeds United'da birlikte oynadılar"
+      },
+      {
+        "name": "Michael Owen",
+        "info": "2003-04 sezonunda Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Mehmet Topal",
+        "info": "2008-10 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Steven Gerrard",
+        "info": "2003-08 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Arda Turan",
+        "info": "2008-11 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
+
 
   
 

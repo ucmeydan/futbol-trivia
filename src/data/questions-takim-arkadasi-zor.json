@@ -2676,6 +2676,36 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 94,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-10",
+    "correctPlayer": "Demba Ba",
+    "teammates": [
+      {
+        "name": "Arda Turan",
+        "info": "2019-20 sezonunda Başakşehir'de birlikte oynadılar"
+      },
+      {
+        "name": "Luiz Gustavo",
+        "info": "2008-11 yılları arasında Hoffenheim'da birlikte oynadılar"
+      },
+      {
+        "name": "Papiss Cisse",
+        "info": "2011-12 sezonunda Newcastle'da birlikte oynadılar"
+      },
+      {
+        "name": "Willian",
+        "info": "2013-14 sezonunda Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Jose Sosa",
+        "info": "2014-15 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

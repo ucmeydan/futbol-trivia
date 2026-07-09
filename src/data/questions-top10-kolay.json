@@ -1720,7 +1720,56 @@
      "Wilfred Ndidi"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 86,
+    "game": "top10",
+    "title": "2025-26 sezonunda Fenerbahçe formasıyla maça çıkan en yaşlı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-10",
+    "targets": [
+    
+    "Mert Günok",
+    "N'golo Kante",
+    "Cenk Tosun",
+    "Fred",
+    "Ederson",
+    "Nelson Semedo",
+    "Anderson Talisca",
+    "Alexander Djiku",
+    "Dominik Livakovic",
+    "Milan Skriniar"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 87,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en çok maça çıkan 10 Güney Amerikalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-11",
+    "targets": [
+    
+    "Fernando Muslera",
+    "Faryd Mondragon",
+    "Lucas Torreira",
+    "Felipe Melo",
+    "Claudio Taffarel",
+    "Marcao",
+    "Mauro Icardi",
+    "Davinson Sanchez",
+    "Capone",
+    "Mariano"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
+
+
 
 
 
