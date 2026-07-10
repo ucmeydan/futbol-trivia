@@ -1621,12 +1621,32 @@
       "Hırvatistan",
       "Belçika",
       "İngiltere",
-      "Fas"
+      "Fas",
+      "İspanya"
 
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 87,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor formasıyla 150'den fazla maça çıkan yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-07-11",
+    "targets": [
+   
+      "Ibrahim Yattara",
+      "Anthony Nwakaeme",
+      "Gustavo Colman",
+      "Alanzinho"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
