@@ -2706,7 +2706,39 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 95,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-11",
+    "correctPlayer": "Jeremain Lens",
+    "teammates": [
+      {
+        "name": "Dries Mertens",
+        "info": "2011-13 sezonunda PSV'de birlikte oynadılar"
+      },
+      {
+        "name": "Fernandao",
+        "info": "2016-17 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Younes Belhanda",
+        "info": "2013-15 yılları arasında Dinamo Kiev'de birlikte oynadılar"
+      },
+      {
+        "name": "Alvaro Negredo",
+        "info": "2017-18 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Rachid Ghezzal",
+        "info": "2020-22 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
