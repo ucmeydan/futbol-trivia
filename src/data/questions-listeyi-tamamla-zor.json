@@ -2210,7 +2210,32 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 107,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın 2009-10 sezonunda Manchester United'ı mağlup ettiği Şampiyonlar Ligi grup maçındaki ilk 11'i?",
+    "type": "player",
+    "activeDate": "2026-07-12",
+    "targets": [
+      "Rüştü Reçber",
+      "İbrahim Üzülmez",
+      "İbrahim Kaş",
+      "Matteo Ferrari",
+      "İbrahim Toraman",
+      "Ekrem Dağ",
+      "Michael Fink",
+      "Fabian Ernst",
+      "İsmail Köybaşı",
+      "Rodrigo Tello",
+      "Bobo"
+
+    ],
+    "difficulty": "zor"
   }
+
+  
 
 
 

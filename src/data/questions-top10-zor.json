@@ -1879,7 +1879,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 95,
     "game": "top10",
@@ -1900,7 +1899,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 96,
     "game": "top10",
@@ -1908,20 +1906,19 @@
     "type": "player",
     "activeDate": "2026-06-29",
     "targets": [
-     "Rüştü Reçber",
-     "Volkan Demirel",
-     "Turgay Şeren",
-     "Uğurcan Çakır",
-     "Mert Günok",
-     "Volkan Babacan",
-     "Engin İpekoğlu",
-     "Şenol Güneş",
-     "Ali Artuner",
-     "Ömer Çatkıç"
+      "Rüştü Reçber",
+      "Volkan Demirel",
+      "Turgay Şeren",
+      "Uğurcan Çakır",
+      "Mert Günok",
+      "Volkan Babacan",
+      "Engin İpekoğlu",
+      "Şenol Güneş",
+      "Ali Artuner",
+      "Ömer Çatkıç"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 97,
     "game": "top10",
@@ -1942,7 +1939,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 98,
     "game": "top10",
@@ -1950,20 +1946,19 @@
     "type": "player",
     "activeDate": "2026-07-01",
     "targets": [
-     "Hasan Ali Kaldırım",
-     "Mehmet Topal",
-     "Roman Neustadter",
-     "Martin Skrtel",
-     "Mauricio Isla",
-     "Nabil Dirar",
-     "Josef De Souza",
-     "Volkan Demirel",
-     "Roberto Soldado",
-     "Giuliano"
+      "Hasan Ali Kaldırım",
+      "Mehmet Topal",
+      "Roman Neustadter",
+      "Martin Skrtel",
+      "Mauricio Isla",
+      "Nabil Dirar",
+      "Josef De Souza",
+      "Volkan Demirel",
+      "Roberto Soldado",
+      "Giuliano"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 99,
     "game": "top10",
@@ -1971,21 +1966,19 @@
     "type": "player",
     "activeDate": "2026-07-02",
     "targets": [
-    "Erkan Zengin",
-    "Samuel Holmen",
-    "Jimmy Durmaz",
-    "Abdul Khalili",
-    "Jonas Svensson",
-    "Victor Nelsson",
-    "Sam Larsson",
-    "Jes Hogh",
-    "Andreas Isaksson",
-    "Johannes Hopf"
-
+      "Erkan Zengin",
+      "Samuel Holmen",
+      "Jimmy Durmaz",
+      "Abdul Khalili",
+      "Jonas Svensson",
+      "Victor Nelsson",
+      "Sam Larsson",
+      "Jes Hogh",
+      "Andreas Isaksson",
+      "Johannes Hopf"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 100,
     "game": "top10",
@@ -1993,21 +1986,19 @@
     "type": "country",
     "activeDate": "2026-07-03",
     "targets": [
-    "Macaristan",
-    "Karadağ",
-    "Galler",
-    "İzlanda",
-    "Faroe Adaları",
-    "Lüksemburg",
-    "Litvanya",
-    "Rusya",
-    "Sırbistan",
-    "İsveç"
-
+      "Macaristan",
+      "Karadağ",
+      "Galler",
+      "İzlanda",
+      "Faroe Adaları",
+      "Lüksemburg",
+      "Litvanya",
+      "Rusya",
+      "Sırbistan",
+      "İsveç"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 101,
     "game": "top10",
@@ -2028,7 +2019,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 102,
     "game": "top10",
@@ -2049,7 +2039,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 103,
     "game": "top10",
@@ -2070,7 +2059,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 104,
     "game": "top10",
@@ -2078,20 +2066,19 @@
     "type": "player",
     "activeDate": "2026-07-09",
     "targets": [
-     "Juan",
-     "Anthony Dennis",
-     "Maestro",
-     "Abbosbek Fayzullaev",
-     "Bertuğ Yıldırım",
-     "Eldor Shomurodov",
-     "Arda Okan Kurtulan",
-     "Marius Mouandilmadji",
-     "Carlo Holse",
-     "Ümit Akdağ"
+      "Juan",
+      "Anthony Dennis",
+      "Maestro",
+      "Abbosbek Fayzullaev",
+      "Bertuğ Yıldırım",
+      "Eldor Shomurodov",
+      "Arda Okan Kurtulan",
+      "Marius Mouandilmadji",
+      "Carlo Holse",
+      "Ümit Akdağ"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 105,
     "game": "top10",
@@ -2099,20 +2086,19 @@
     "type": "team-eu",
     "activeDate": "2026-07-10",
     "targets": [
-     "Dinamo Kiev",
-     "Porto",
-     "Arsenal",
-     "Chelsea",
-     "Sevilla",
-     "CSKA Moskova",
-     "Inter",
-     "PSV",
-     "Milan",
-     "Schalke 04"
+      "Dinamo Kiev",
+      "Porto",
+      "Arsenal",
+      "Chelsea",
+      "Sevilla",
+      "CSKA Moskova",
+      "Inter",
+      "PSV",
+      "Milan",
+      "Schalke 04"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 106,
     "game": "top10",
@@ -2120,7 +2106,6 @@
     "type": "player",
     "activeDate": "2026-07-11",
     "targets": [
-     
       "Inaki Pena",
       "Cedric Carrasso",
       "Fernando Muslera",
@@ -2133,21 +2118,25 @@
       "Pierre Esser"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 107,
+    "game": "top10",
+    "title": "Fenerbahçe formasıyla en çok maça çıkan 10 Avrupalı futbolcu? (Türk oyuncular hariç)",
+    "type": "player",
+    "activeDate": "2026-07-12",
+    "targets": [
+      "Elvir Bolic",
+      "Jes Hogh",
+      "Sebastian Szymanski",
+      "Dirk Kuyt",
+      "Dušan Pešić",
+      "Miha Zajc",
+      "Miroslav Stoch",
+      "Martin Skrtel",
+      "Attila Szalai",
+      "Dusan Tadic"
+    ],
+    "difficulty": "zor"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

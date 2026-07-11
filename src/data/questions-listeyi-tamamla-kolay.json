@@ -1644,7 +1644,31 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 88,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor'un 2026-27 sezonu yaz transfer döneminde kadrosuna kattığı oyuncular? (11 Temmuz itibarıyla)'",
+    "type": "player",
+    "activeDate": "2026-07-12",
+    "targets": [
+   
+      "Aral Şimşir",
+      "Andre Onana",
+      "Sidny Lopes Cabral",
+      "Ruslan Malinovskyi",
+      "Samet Akaydın",
+      "Metehan Mimaroğlu",
+      "Melih Kabasakal",
+      "Ernest Muçi",
+      "Thierry Karadeniz",
+      "Noah Saviolo"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

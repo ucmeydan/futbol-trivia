@@ -2446,39 +2446,8 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 86,
-    "game": "takim-arkadasi",
-    "activeDate": "2026-07-09",
-    "correctPlayer": "Dele Alli",
-    "teammates": [
-      {
-        "name": "Nico Paz",
-        "info": "2025 yılında Como'da birlikte oynadılar"
-      },
-      {
-        "name": "Rachid Ghezzal",
-        "info": "2022-23 sezonunda Beşiktaş'ta birlikte oynadılar"
-      },
-      {
-        "name": "Eric Dier",
-        "info": "2015-22 yılları arasında Tottenham'da birlikte oynadılar"
-      },
-      {
-        "name": "Gedson Fernandes",
-        "info": "2022-23 sezonunda Beşiktaş'ta birlikte oynadılar"
-      },
-      {
-        "name": "Harry Kane",
-        "info": "2015-22 yılları arasında Tottenham'da birlikte oynadılar"
-      }
-    ],
-    "difficulty": "kolay"
-  },
-
-  {
-    "id": 87,
     "game": "takim-arkadasi",
     "activeDate": "2026-07-10",
     "correctPlayer": "Harry Kewell",
@@ -2502,6 +2471,66 @@
       {
         "name": "Arda Turan",
         "info": "2008-11 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 87,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-11",
+    "correctPlayer": "Mehmet Topal",
+    "teammates": [
+      {
+        "name": "Cassio Lincoln",
+        "info": "1998-2003 yılları arasında Leeds United'da birlikte oynadılar"
+      },
+      {
+        "name": "Miralem Pjanic",
+        "info": "2003-04 sezonunda Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Juan Mata",
+        "info": "2008-10 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Dirk Kuyt",
+        "info": "2003-08 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Arda Turan",
+        "info": "2008-11 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 88,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-12",
+    "correctPlayer": "Tugay Kerimoğlu",
+    "teammates": [
+      {
+        "name": "Lucas Neill",
+        "info": "2001-07 yılları arasında Blackburn'de birlikte oynadılar"
+      },
+      {
+        "name": "Andy Cole",
+        "info": "2002-04 yılları arasında Blackburn'de birlikte oynadılar"
+      },
+      {
+        "name": "Zoran Simovic",
+        "info": "1987-90 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Morten Gamst Pedersen",
+        "info": "2004-09 yılları arasında Blackburn'de birlikte oynadılar"
+      },
+      {
+        "name": "Suat Kaya",
+        "info": "1992-2000 yılları arasında Galatasaray'da birlikte oynadılar"
       }
     ],
     "difficulty": "kolay"
