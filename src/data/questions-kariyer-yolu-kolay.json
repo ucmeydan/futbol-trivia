@@ -3258,6 +3258,52 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 89,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-13",
+    "correctPlayer": "Marc Bartra",
+    "career": [
+      {
+        "season": "2009-2012",
+        "team": "Barcelona B",
+        "apps": "81",
+        "goals": "3"
+      },
+      {
+        "season": "2012–2016",
+        "team": "Barcelona",
+        "apps": "103",
+        "goals": "6"
+      },
+      {
+        "season": "2016-2018",
+        "team": "Dortmund",
+        "apps": "51",
+        "goals": "5"
+      },
+      {
+        "season": "2018–2022",
+        "team": "Real Betis",
+        "apps": "146",
+        "goals": "7"
+      },
+       {
+        "season": "2022-2023",
+        "team": "Trabzonspor",
+        "apps": "40",
+        "goals": "4"
+      },
+      {
+        "season": "2023–",
+        "team": "Real Betis",
+        "apps": "75",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

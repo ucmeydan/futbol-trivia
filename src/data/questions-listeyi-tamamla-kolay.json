@@ -1425,8 +1425,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 78,
     "game": "listeyi-tamamla",
     "title": "Türkiye A Milli futbol takımının Avrupa şampiyonaları ve Dünya kupalarında mağlup ettiği ülkeler?",
@@ -1447,7 +1446,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 79,
     "game": "listeyi-tamamla",
@@ -1455,17 +1453,15 @@
     "type": "team-tr",
     "activeDate": "2026-07-01",
     "targets": [
-    "Altay",
-    "Göztepe",
-    "Karşıyaka",
-    "Altınordu",
-    "Bucaspor",
-    "İzmirspor"
-    
+      "Altay",
+      "Göztepe",
+      "Karşıyaka",
+      "Altınordu",
+      "Bucaspor",
+      "İzmirspor"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 80,
     "game": "listeyi-tamamla",
@@ -1473,19 +1469,16 @@
     "type": "team-tr",
     "activeDate": "2026-07-02",
     "targets": [
-    "Adana Demirspor",
-    "Hatayspor",
-    "Bodrum FK",
-    "Kayserispor",
-    "Fatih Karagümrük",
-    "Antalyaspor",
-    "Sivasspor"
-
-    
+      "Adana Demirspor",
+      "Hatayspor",
+      "Bodrum FK",
+      "Kayserispor",
+      "Fatih Karagümrük",
+      "Antalyaspor",
+      "Sivasspor"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 81,
     "game": "listeyi-tamamla",
@@ -1493,25 +1486,22 @@
     "type": "city",
     "activeDate": "2026-07-03",
     "targets": [
-    "İstanbul",
-    "Ankara",
-    "İzmir",
-    "Kocaeli",
-    "Konya",
-    "Antalya",
-    "Samsun",
-    "Rize",
-    "Trabzon",
-    "Erzurum",
-    "Çorum",
-    "Diyarbakır",
-    "Gaziantep"
-
-    
+      "İstanbul",
+      "Ankara",
+      "İzmir",
+      "Kocaeli",
+      "Konya",
+      "Antalya",
+      "Samsun",
+      "Rize",
+      "Trabzon",
+      "Erzurum",
+      "Çorum",
+      "Diyarbakır",
+      "Gaziantep"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 82,
     "game": "listeyi-tamamla",
@@ -1519,18 +1509,15 @@
     "type": "td",
     "activeDate": "2026-07-05",
     "targets": [
-   "Vincenzo Italiano",
-   "Nuri Şahin",
-  "Fatih Tekke",
-  "Okan Buruk",
-  "İsmail Kartal",
-  "Mustafa Er"
-
-    
+      "Vincenzo Italiano",
+      "Nuri Şahin",
+      "Fatih Tekke",
+      "Okan Buruk",
+      "İsmail Kartal",
+      "Mustafa Er"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 83,
     "game": "listeyi-tamamla",
@@ -1538,7 +1525,6 @@
     "type": "team-all",
     "activeDate": "2026-07-06",
     "targets": [
-   
       "Juventus",
       "Real Madrid",
       "Milan",
@@ -1546,12 +1532,9 @@
       "Como",
       "Galatasaray",
       "Atletico Madrid"
-
-    
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 84,
     "game": "listeyi-tamamla",
@@ -1559,25 +1542,21 @@
     "type": "country",
     "activeDate": "2026-07-07",
     "targets": [
-   
-     "Çekya",
-     "Katar",
-     "Irak",
-     "Türkiye",
-     "Suudi Arabistan",
-     "Özbekistan",
-     "Yeni Zelanda",
-     "Ürdün",
-     "Curaçao",
-     "Panama",
-     "Haiti",
-     "Tunus"
-
-    
+      "Çekya",
+      "Katar",
+      "Irak",
+      "Türkiye",
+      "Suudi Arabistan",
+      "Özbekistan",
+      "Yeni Zelanda",
+      "Ürdün",
+      "Curaçao",
+      "Panama",
+      "Haiti",
+      "Tunus"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 85,
     "game": "listeyi-tamamla",
@@ -1585,21 +1564,17 @@
     "type": "country",
     "activeDate": "2026-07-09",
     "targets": [
-   
-     "Fas",
-     "Fransa",
-     "İngiltere",
-     "Norveç",
-     "İspanya",
-     "Belçika",
-     "Arjantin",
-     "İsviçre"
-
-    
+      "Fas",
+      "Fransa",
+      "İngiltere",
+      "Norveç",
+      "İspanya",
+      "Belçika",
+      "Arjantin",
+      "İsviçre"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 86,
     "game": "listeyi-tamamla",
@@ -1607,7 +1582,6 @@
     "type": "country",
     "activeDate": "2026-07-10",
     "targets": [
-   
       "Brezilya",
       "Almanya",
       "Güney Kore",
@@ -1623,12 +1597,9 @@
       "İngiltere",
       "Fas",
       "İspanya"
-
-    
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 87,
     "game": "listeyi-tamamla",
@@ -1636,16 +1607,13 @@
     "type": "player",
     "activeDate": "2026-07-11",
     "targets": [
-   
       "Ibrahim Yattara",
       "Anthony Nwakaeme",
       "Gustavo Colman",
       "Alanzinho"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 88,
     "game": "listeyi-tamamla",
@@ -1653,7 +1621,6 @@
     "type": "player",
     "activeDate": "2026-07-12",
     "targets": [
-   
       "Aral Şimşir",
       "Andre Onana",
       "Sidny Lopes Cabral",
@@ -1666,24 +1633,22 @@
       "Noah Saviolo"
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 89,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Galatasaray hem de Chelsea'de forma giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-07-12",
+    "targets": [
+      "Didier Drogba",
+      "Juan Mata",
+      "Radamel Falcao",
+      "Patrick van Aanholt",
+      "Michy Batshuayi",
+      "Álvaro Morata",
+      "Hakim Ziyech"
+    ],
+    "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

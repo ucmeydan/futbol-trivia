@@ -1788,7 +1788,33 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 89,
+    "game": "top10",
+    "title": "Fenerbahçe'nin transfer ettiği son 10 yabancı stoper?",
+    "type": "player",
+    "activeDate": "2026-07-13",
+    "targets": [
+    
+    "Milan Skriniar",
+    "Diego Carlos",
+    "Leonardo Bonucci",
+    "Omar Fayed",
+    "Rodrigo Becao",
+    "Alexander Djiku",
+    "Jayden Oosterwolde",
+    "Gustavo Henrique",
+    "Luan Peres",
+    "Kim Min Jae"
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

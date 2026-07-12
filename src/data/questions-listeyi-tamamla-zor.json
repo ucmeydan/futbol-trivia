@@ -1927,7 +1927,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 93,
     "game": "listeyi-tamamla",
@@ -1946,11 +1945,9 @@
       "Deivid De Souza",
       "Alex De Souza",
       "Mateja Kezman"
-      
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 94,
     "game": "listeyi-tamamla",
@@ -1958,16 +1955,14 @@
     "type": "player",
     "activeDate": "2026-06-28",
     "targets": [
-     "Gaston Campi",
-     "Emmanuel Mas",
-     "Gustavo Colman",
-     "Luis Ibanez",
-     "Jose Sosa"
-      
+      "Gaston Campi",
+      "Emmanuel Mas",
+      "Gustavo Colman",
+      "Luis Ibanez",
+      "Jose Sosa"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 95,
     "game": "listeyi-tamamla",
@@ -1975,17 +1970,14 @@
     "type": "player",
     "activeDate": "2026-06-29",
     "targets": [
-     
       "İsmail Köybaşı",
       "Ernest Muçi",
       "Umut Nayir",
       "Serdar Saatçı",
       "Dorukhan Toköz"
-      
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 96,
     "game": "listeyi-tamamla",
@@ -2006,7 +1998,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 97,
     "game": "listeyi-tamamla",
@@ -2014,17 +2005,15 @@
     "type": "team-tr",
     "activeDate": "2026-07-01",
     "targets": [
-    "Altay",
-    "Göztepe",
-    "Karşıyaka",
-    "Altınordu",
-    "Bucaspor",
-    "İzmirspor"
-
+      "Altay",
+      "Göztepe",
+      "Karşıyaka",
+      "Altınordu",
+      "Bucaspor",
+      "İzmirspor"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 98,
     "game": "listeyi-tamamla",
@@ -2032,22 +2021,19 @@
     "type": "player",
     "activeDate": "2026-07-01",
     "targets": [
-
-    "Tanguy Ndombele",
-    "Leo Dubois",
-    "Sacha Boey",
-    "Steven Nzonzi",
-    "Bafetimbi Gomis",
-    "Cedric Carrasso",
-    "Lionel Carole",
-    "Franck Ribery",
-    "Sebastian Perez",
-    "Didier Six"
-
+      "Tanguy Ndombele",
+      "Leo Dubois",
+      "Sacha Boey",
+      "Steven Nzonzi",
+      "Bafetimbi Gomis",
+      "Cedric Carrasso",
+      "Lionel Carole",
+      "Franck Ribery",
+      "Sebastian Perez",
+      "Didier Six"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 99,
     "game": "listeyi-tamamla",
@@ -2055,26 +2041,24 @@
     "type": "player",
     "activeDate": "2026-07-02",
     "targets": [
-
-    "Juan Mata",
-    "Radamel Falcao",
-    "Wilfried Zaha",
-    "Alex Telles",
-    "Nani",
-    "Fred",
-    "Robin van Persie",
-    "Joshua King",
-    "Altay Bayındır",
-    "Sofyan Amrabat",
-    "Bebe",
-    "Ronny Johnsen",
-    "Wout Weghorst",
-    "Kleberson",
-    "Shinji Kagawa"
+      "Juan Mata",
+      "Radamel Falcao",
+      "Wilfried Zaha",
+      "Alex Telles",
+      "Nani",
+      "Fred",
+      "Robin van Persie",
+      "Joshua King",
+      "Altay Bayındır",
+      "Sofyan Amrabat",
+      "Bebe",
+      "Ronny Johnsen",
+      "Wout Weghorst",
+      "Kleberson",
+      "Shinji Kagawa"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 100,
     "game": "listeyi-tamamla",
@@ -2092,7 +2076,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 101,
     "game": "listeyi-tamamla",
@@ -2109,7 +2092,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 102,
     "game": "listeyi-tamamla",
@@ -2128,7 +2110,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 103,
     "game": "listeyi-tamamla",
@@ -2146,7 +2127,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 104,
     "game": "listeyi-tamamla",
@@ -2163,7 +2143,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 105,
     "game": "listeyi-tamamla",
@@ -2181,7 +2160,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 106,
     "game": "listeyi-tamamla",
@@ -2207,11 +2185,9 @@
       "Luan Peres",
       "Gustavo Henrique",
       "Diego Carlos"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 107,
     "game": "listeyi-tamamla",
@@ -2230,28 +2206,23 @@
       "İsmail Köybaşı",
       "Rodrigo Tello",
       "Bobo"
-
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 108,
+    "game": "listeyi-tamamla",
+    "title": "Daha önce Fenerbahçe forması giymiş Nijeryalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-07-13",
+    "targets": [
+      "Bright Osayi Samuel",
+      "Victor Moses",
+      "Emmanuel Emenike",
+      "Joseph Yobo",
+      "Jay Jay Okocha",
+      "Uche Okechukwu"
     ],
     "difficulty": "zor"
   }
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

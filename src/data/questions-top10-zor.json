@@ -2138,5 +2138,28 @@
       "Dusan Tadic"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 108,
+    "game": "top10",
+    "title": "Galatasaray'da 10 numaralı formayı giyen son 10 futbolcu? (Hazırlık maçları hariç)",
+    "type": "player",
+    "activeDate": "2026-07-13",
+    "targets": [
+     "Leroy Sane",
+     "Dries Mertens",
+     "Younes Belhanda",
+     "Wesley Sneijder",
+     "Felipe Melo",
+     "Arda Turan",
+     "Cassio Lincoln",
+     "Necati Ateş",
+     "Ümit Karan",
+     "Hakan Şükür"
+    ],
+    "difficulty": "zor"
   }
+
+
 ]
