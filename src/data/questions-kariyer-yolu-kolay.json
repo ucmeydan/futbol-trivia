@@ -3304,7 +3304,49 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 90,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-14",
+    "correctPlayer": "Dominik Livakovic",
+    "career": [
+      {
+        "season": "2012-2015",
+        "team": "NK Zagreb",
+        "apps": "108",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2023",
+        "team": "Dinamo Zagreb",
+        "apps": "293",
+        "goals": "0"
+      },
+      {
+        "season": "2023-",
+        "team": "Fenerbahçe",
+        "apps": "74",
+        "goals": "0"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Girona (kiralık)",
+        "apps": "0",
+        "goals": "0"
+      },
+       {
+        "season": "2026-2026",
+        "team": "Dinamo Zagreb (kiralık)",
+        "apps": "17",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

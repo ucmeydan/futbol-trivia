@@ -2224,5 +2224,179 @@
       "Uche Okechukwu"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 109,
+    "game": "listeyi-tamamla",
+    "title": "2026-27 sezonunda TFF 1.Lig'de mücadele edecek takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-07-14",
+    "targets": [
+      "Antalyaspor",
+      "Bursaspor",
+      "Bodrum FK",
+      "Kayserispor",
+      "Sivasspor",
+      "Fatih Karagümrük",
+      "Manisa FK",
+      "Iğdır FK",
+      "İstanbulspor",
+      "Bandırmaspor",
+      "Batman Petrolspor",
+      "Pendikspor",
+      "Vanspor FK",
+      "Keçiörengücü",
+      "Sarıyer",
+      "Esenler Erokspor",
+      "Ümraniyespor",
+      "Mardin 1969",
+      "Muğlaspor",
+      "Boluspor"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 110,
+    "game": "listeyi-tamamla",
+    "title": "21.yüzyılda Galatasaray'ın başında maça çıkmış tüm yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-07-15",
+    "targets": [
+      "Mircea Lucescu",
+      "Gheorghe Hagi",
+      "Eric Gerets",
+      "Karl Heinz Feldkamp",
+      "Michael Skibbe",
+      "Frank Rijkaard",
+      "Claudio Taffarel",
+      "Roberto Mancini",
+      "Cesare Prandelli",
+      "Jan Olde Riekerink",
+      "Igor Tudor",
+      "Domenec Torrent"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 111,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş formasıyla Avrupa kupalarında 7 ve üzeri sayıda gol atan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-07-16",
+    "targets": [
+      "Oktay Derelioğlu",
+      "Cenk Tosun",
+      "Vincent Aboubakar",
+      "Bobo",
+      "Ricardo Quaresma",
+      "Daniel Pancu",
+      "Demba Ba",
+      "Mehmet Özdilek",
+      "Ryan Babel",
+      "Anderson Talisca"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 112,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin 2022-23 sezonu Avrupa Ligi son 16 turu rövanş maçında Sevilla'yı 1-0 mağlup ettiği maçtaki ilk 11'i?",
+    "type": "player",
+    "activeDate": "2026-07-17",
+    "targets": [
+      "Altay Bayındır",
+      "Serdar Aziz",
+      "Samet Akaydın",
+      "Attila Szalai",
+      "Ferdi Kadıoğlu",
+      "İsmail Yüksek",
+      "Miha Zajc",
+      "Jayden Oosterwolde",
+      "Arda Güler",
+      "Enner Valencia",
+      "Michy Batshuayi"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 114,
+    "game": "listeyi-tamamla",
+    "title": "21.yüzyılda Fenerbahçe'nin başında maça çıkmış tüm yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-07-19",
+    "targets": [
+      "Werner Lorant",
+      "Christoph Daum",
+      "Zico",
+      "Luis Aragones",
+      "Vitor Pereira",
+      "Dick Advocaat",
+      "Phillip Cocu",
+      "Erwin Koeman",
+      "Jorge Jesus",
+      "Jose Mourinho",
+      "Domenico Tedesco"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 115,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın 2012-13 sezonu Şampiyonlar Ligi son 16 turu rövanş maçında Schalke'yi 3-2 mağlup ettiği maçtaki ilk 11'i?",
+    "type": "player",
+    "activeDate": "2026-07-20",
+    "targets": [
+      "Fernando Muslera",
+      "Dany Nounkeu",
+      "Semih Kaya",
+      "Emmanuel Eboue",
+      "Albert Riera",
+      "Selçuk İnan",
+      "Felipe Melo",
+      "Hamit Altıntop",
+      "Wesley Sneijder",
+      "Didier Drogba",
+      "Burak Yılmaz"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 119,
+    "game": "listeyi-tamamla",
+    "title": "21.yüzyılda Beşiktaş'ın başında maça çıkmış tüm yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-07-24",
+    "targets": [
+      "Nevio Scala",
+      "Mircea Lucescu",
+      "Vicente Del Bosque",
+      "Jean Tigana",
+      "Bernd Schuster",
+      "Carlos Carvalhal",
+      "Slaven Bilic",
+      "Valerien Ismael",
+      "Giovanni Van Bronckhorst",
+      "Ole Gunnar Solskjaer",
+      "Fernando Santos",
+      "Vincenzo Italiano"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 122,
+    "game": "listeyi-tamamla",
+    "title": "21.yüzyılda Trabzonspor'un başında maça çıkmış tüm yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-07-27",
+    "targets": [
+      "Hans-Peter Briegel",
+      "Vahid Halilhodzic",
+      "Sebastiao Lazaroni",
+      "Hugo Broos",
+      "Shota Arveladze",
+      "Eddie Newton",
+      "Nenad Bjelica"
+    ],
+    "difficulty": "zor"
   }
 ]

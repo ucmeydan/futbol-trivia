@@ -1639,7 +1639,7 @@
     "game": "listeyi-tamamla",
     "title": "Kariyerinde hem Galatasaray hem de Chelsea'de forma giymiş futbolcular?",
     "type": "player",
-    "activeDate": "2026-07-12",
+    "activeDate": "2026-07-13",
     "targets": [
       "Didier Drogba",
       "Juan Mata",
@@ -1650,5 +1650,119 @@
       "Hakim Ziyech"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 90,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın 2026-27 sezonu yaz transfer döneminde transfer ettiği oyuncular? (13 Temmuz itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-07-14",
+    "targets": [
+      "Doğan Alemdar",
+      "Alexander Nübel",
+      "Kassoum Ouattara",
+      "Salih Özcan",
+      "İlhan Fakılı"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 91,
+    "game": "listeyi-tamamla",
+    "title": "2026-27 sezonunda Süper Lig ve TFF 1.Lig'de mücadele edecek İstanbul takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-07-15",
+    "targets": [
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Başakşehir",
+      "Fatih Karagümrük",
+      "Esenler Erokspor",
+      "Kasımpaşa",
+      "İstanbulspor",
+      "Ümraniyespor",
+      "Pendikspor",
+      "Sarıyer"
+    ],
+    "difficulty": "kolay"
+  },
+
+    {
+    "id": 92,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Fenerbahçe hem Arsenal forması giymiş oyuncular?",
+    "type": "player",
+    "activeDate": "2026-07-16",
+    "targets": [
+     "Nicolas Anelka",
+     "Andre Santos",
+     "Mesut Özil",
+     "Robin van Persie",
+     "Matteo Guendouzi"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 93,
+    "game": "listeyi-tamamla",
+    "title": "2026-27 sezonunda Süper Lig'de mücadele edecek takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-07-17",
+    "targets": [
+     
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Trabzonspor",
+      "Başakşehir",
+      "Konyaspor",
+      "Alanyaspor",
+      "Gençlerbirliği",
+      "Kocaelispor",
+      "Samsunspor",
+      "Rizespor",
+      "Amed SK",
+      "Göztepe",
+      "Kasımpaşa",
+      "Erzurumspor",
+      "Eyüpspor",
+      "Çorum FK",
+      "Gaziantep FK"
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 94,
+    "game": "listeyi-tamamla",
+    "title": "Bugüne kadar UEFA Konferans Liginde en az 1 maça çıkmış Türk takımları? (Ön elemeler dahil)",
+    "type": "team-tr",
+    "activeDate": "2026-07-18",
+    "targets": [
+     
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Başakşehir",
+      "Sivasspor",
+      "Samsunspor",
+      "Adana Demirspor",
+      "Konyaspor"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
+
+
+
+
+
+
 ]

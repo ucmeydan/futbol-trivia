@@ -1812,7 +1812,104 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 90,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Beşiktaş'ın mevcut kadrosundaki piyasa değeri en yüksek 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-07-14",
+    "targets": [
+    
+      "Orkun Kökçü",
+      "Emmanuel Agbadou",
+      "Hyeon Gyu Oh",
+      "Alexander Nübel",
+      "Kassoum Ouattara",
+      "Semih Kılıçsoy",
+      "Wilfred Ndidi",
+      "Vaclav Cerny",
+      "Amir Murillo",
+      "Tiago Djalo"
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 91,
+    "game": "top10",
+    "title": "2025-26 sezonunda Trabzonspor formasıyla en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-15",
+    "targets": [
+    
+      "Wagner Pina",
+      "Andre Onana",
+      "Paul Onuachu",
+      "Mustafa Eskihellaç",
+      "Felipe Augusto",
+      "Tim Jabol Folcarelli",
+      "Oleksandr Zubkov",
+      "Arseniy Batagov",
+      "Ernest Muçi",
+      "Christ Inao Oulai"
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 92,
+    "game": "top10",
+    "title": "Fenerbahçe'nin 2025-26 sezonunda Avrupa Liginde oynadığı 10 maçın toplamında en fazla süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-07-16",
+    "targets": [
+    
+      "Ederson",
+      "Nelson Semedo",
+      "Jayden Oosterwolde",
+      "Kerem Aktürkoğlu",
+      "Milan Skriniar",
+      "Archie Brown",
+      "Dorgeles Nene",
+      "Youssef En Nesyri",
+      "Marco Asensio",
+      "İsmail Yüksek"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 93,
+    "game": "top10",
+    "title": "Avrupa kupaları tarihinde en çok gol atan 10 Türk Takımı? (Ön elemeler dahil)",
+    "type": "team-tr",
+    "activeDate": "2026-07-17",
+    "targets": [
+    "Galatasaray",
+    "Fenerbahçe",
+    "Beşiktaş",
+    "Trabzonspor",
+    "Başakşehir",
+    "Göztepe",
+    "Sivasspor",
+    "Bursaspor",
+    "Osmanlıspor",
+    "Gaziantepspor"
+    ],
+    "difficulty": "kolay"
   }
+
+
+
+
+
+
+
+
 
 
 

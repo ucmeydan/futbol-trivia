@@ -2139,7 +2139,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 108,
     "game": "top10",
@@ -2147,19 +2146,157 @@
     "type": "player",
     "activeDate": "2026-07-13",
     "targets": [
-     "Leroy Sane",
-     "Dries Mertens",
-     "Younes Belhanda",
-     "Wesley Sneijder",
-     "Felipe Melo",
-     "Arda Turan",
-     "Cassio Lincoln",
-     "Necati Ateş",
-     "Ümit Karan",
-     "Hakan Şükür"
+      "Leroy Sane",
+      "Dries Mertens",
+      "Younes Belhanda",
+      "Wesley Sneijder",
+      "Felipe Melo",
+      "Arda Turan",
+      "Cassio Lincoln",
+      "Necati Ateş",
+      "Ümit Karan",
+      "Hakan Şükür"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 109,
+    "game": "top10",
+    "title": "TFF 1.Lig tarihinde (1963-64 sezonundan beri) en çok maç kazanan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-07-14",
+    "targets": [
+      "Boluspor",
+      "Adanaspor",
+      "Altay",
+      "Samsunspor",
+      "Sakaryaspor",
+      "Gaziantep FK",
+      "Kayseri Erciyesspor",
+      "Adana Demirspor",
+      "Giresunspor",
+      "Karşıyaka"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 110,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Başakşehir'in mevcut kadrosunda piyasa değeri en yüksek 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-07-15",
+    "targets": [
+      "Eldor Shomurodov",
+      "Bertuğ Yıldırım",
+      "Abbosbek Fayzullaev",
+      "Jerome Opoku",
+      "Christopher Operi",
+      "Yusuf Sarı",
+      "Emin Bayram",
+      "Muhammed Şengezer",
+      "Umut Güneş",
+      "Davie Selke"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 111,
+    "game": "top10",
+    "title": "Samsunspor'un 2025-26 sezonunda Konferans Liginde oynadığı 10 maçın toplamında en fazla süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-07-16",
+    "targets": [
+      "Okan Kocuk",
+      "Rick Van Drongelen",
+      "Carlo Holse",
+      "Logi Tomasson",
+      "Marius Mouandilmadji",
+      "Lubomir Satka",
+      "Antoine Makoumbou",
+      "Zeki Yavru",
+      "Olivier Ntcham",
+      "Anthony Musaba"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 112,
+    "game": "top10",
+    "title": "Beşiktaş'ın başındayken kupa kazanan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-07-17",
+    "targets": [
+      "Giovanni Van Bronckhorst",
+      "Serdar Topraktepe",
+      "Önder Karaveli",
+      "Sergen Yalçın",
+      "Şenol Güneş",
+      "Tayfur Havutçu",
+      "Mustafa Denizli",
+      "Jean Tigana",
+      "Mircea Lucescu",
+      "Nevio Scala"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 114,
+    "game": "top10",
+    "title": "Fenerbahçe'nin başındayken kupa kazanan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-07-19",
+    "targets": [
+      "Domenico Tedesco",
+      "Jorge Jesus",
+      "İsmail Kartal",
+      "Ersun Yanal",
+      "Aykut Kocaman",
+      "Christoph Daum",
+      "Zico",
+      "Mustafa Denizli",
+      "Carlos Alberto Parreira",
+      "Todor Veselinovic"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 115,
+    "game": "top10",
+    "title": "TFF 1.Ligde 2001-2002 sezonundan bu yana en çok maça çıkan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-07-20",
+    "targets": [
+      "Boluspor",
+      "Adanaspor",
+      "Samsunspor",
+      "Altay",
+      "Gaziantep FK",
+      "Karşıyaka",
+      "Giresunspor",
+      "Adana Demirspor",
+      "Sakaryaspor",
+      "Elazığspor"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 116,
+    "game": "top10",
+    "title": "Galatasaray'ın başındayken kupa kazanan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-07-21",
+    "targets": [
+      "Okan Buruk",
+      "Fatih Terim",
+      "Jan Olde Riekerink",
+      "Hamza Hamzaoğlu",
+      "Roberto Mancini",
+      "Michael Skibbe",
+      "Cevat Güler",
+      "Eric Gerets",
+      "Gheorghe Hagi",
+      "Mircea Lucescu"
     ],
     "difficulty": "zor"
   }
-
-
 ]
