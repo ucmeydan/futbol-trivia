@@ -2563,6 +2563,36 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 90,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-14",
+    "correctPlayer": "Oğuzhan Özyakup",
+    "teammates": [
+      {
+        "name": "Orkun Kökçü",
+        "info": "2019-20 sezonunda Feyenoord'da birlikte oynadılar."
+      },
+      {
+        "name": "Robin van Persie",
+        "info": "2011-12 sezonunda Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Caner Erkin",
+        "info": "2016-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Mikel Arteta",
+        "info": "2011-12 sezonunda Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Mario Gomez",
+        "info": "2015-16 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

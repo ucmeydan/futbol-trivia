@@ -4132,7 +4132,56 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 101,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-14",
+    "correctPlayer": "Charis Charisis",
+    "career": [
+      {
+        "season": "2013–2015",
+        "team": "Pas Giannina",
+        "apps": "29",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2019",
+        "team": "PAOK",
+        "apps": "42",
+        "goals": "2"
+      },
+      {
+        "season": "2017–2018",
+        "team": "St. Truiden (kiralık)",
+        "apps": "24",
+        "goals": "1"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Kortrijk (kiralık)",
+        "apps": "19",
+        "goals": "0"
+      },
+      {
+        "season": "2019–2022",
+        "team": "Atromitos",
+        "apps": "84",
+        "goals": "1"
+      },
+      {
+        "season": "2022–",
+        "team": "Sivasspor",
+        "apps": "133",
+        "goals": "4"
+      }
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

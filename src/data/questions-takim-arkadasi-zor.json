@@ -2796,7 +2796,39 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 98,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-13",
+    "correctPlayer": "Abdul Kader Keita",
+    "teammates": [
+      {
+        "name": "Mamadou Niang",
+        "info": "2011-12 sezonunda Al Sadd'da birlikte oynadılar"
+      },
+      {
+        "name": "Tony Sylva",
+        "info": "2005-07 yılları arasında Lille'de birlikte oynadılar"
+      },
+      {
+        "name": "Karim Benzema",
+        "info": "2007-09 yılları arasında Lyon'da birlikte oynadılar"
+      },
+      {
+        "name": "Caner Erkin",
+        "info": "2009-10 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Hakan Balta",
+        "info": "2009-10 sezonunda Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
