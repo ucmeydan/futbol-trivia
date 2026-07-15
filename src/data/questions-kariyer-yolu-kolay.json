@@ -3384,6 +3384,34 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 92,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-16",
+    "correctPlayer": "Arseniy Batagov",
+    "career": [
+      {
+        "season": "2018-2022",
+        "team": "Dnipro",
+        "apps": "50",
+        "goals": "1"
+      },
+      {
+        "season": "2022-2024",
+        "team": "Zorya",
+        "apps": "63",
+        "goals": "3"
+      },
+      {
+        "season": "2024-",
+        "team": "Trabzonspor",
+        "apps": "53",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 
