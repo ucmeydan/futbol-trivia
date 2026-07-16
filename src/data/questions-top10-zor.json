@@ -2240,6 +2240,26 @@
     "difficulty": "zor"
   },
   {
+    "id": 113,
+    "game": "top10",
+    "title": "TFF 1.Ligde 2001-2002 sezonundan bu yana en çok maça çıkan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-07-18",
+    "targets": [
+      "Boluspor",
+      "Adanaspor",
+      "Samsunspor",
+      "Altay",
+      "Gaziantep FK",
+      "Karşıyaka",
+      "Giresunspor",
+      "Adana Demirspor",
+      "Sakaryaspor",
+      "Elazığspor"
+    ],
+    "difficulty": "zor"
+  },
+  {
     "id": 114,
     "game": "top10",
     "title": "Fenerbahçe'nin başındayken kupa kazanan son 10 teknik direktör?",
@@ -2259,26 +2279,7 @@
     ],
     "difficulty": "zor"
   },
-  {
-    "id": 115,
-    "game": "top10",
-    "title": "TFF 1.Ligde 2001-2002 sezonundan bu yana en çok maça çıkan 10 takım?",
-    "type": "team-tr",
-    "activeDate": "2026-07-20",
-    "targets": [
-      "Boluspor",
-      "Adanaspor",
-      "Samsunspor",
-      "Altay",
-      "Gaziantep FK",
-      "Karşıyaka",
-      "Giresunspor",
-      "Adana Demirspor",
-      "Sakaryaspor",
-      "Elazığspor"
-    ],
-    "difficulty": "zor"
-  },
+  
   {
     "id": 116,
     "game": "top10",

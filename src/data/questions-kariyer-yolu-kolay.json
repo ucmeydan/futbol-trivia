@@ -3412,6 +3412,47 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 93,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-17",
+    "correctPlayer": "Kazımcan Karataş",
+    "career": [
+      {
+        "season": "2018-2022",
+        "team": "Altay",
+        "apps": "32",
+        "goals": "1"
+      },
+      {
+        "season": "2022-",
+        "team": "Galatasaray",
+        "apps": "37",
+        "goals": "0"
+      },
+      {
+        "season": "2024-2024",
+        "team": "Ankaragücü (kiralık)",
+        "apps": "12",
+        "goals": "0"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Orenburg (kiralık)",
+        "apps": "22",
+        "goals": "1"
+      },
+      {
+        "season": "2026-2026",
+        "team": "Başakşehir (kiralık)",
+        "apps": "11",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
 
 

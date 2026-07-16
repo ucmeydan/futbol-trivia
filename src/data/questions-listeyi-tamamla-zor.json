@@ -2319,6 +2319,25 @@
     "difficulty": "zor"
   },
   {
+    "id": 113,
+    "game": "listeyi-tamamla",
+    "title": "Belçika Milli takımında Leandro Trossard ile birlikte 25'ten fazla sayıda maça çıkan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-07-18",
+    "targets": [
+     
+     "Timothy Castagne",
+     "Youri Tielemans",
+     "Kevin De Bruyne",
+     "Romelu Lukaku",
+     "Jeremy Doku",
+     "Thibaut Courtois",
+     "Hans Vanaken"
+
+    ],
+    "difficulty": "zor"
+  },
+  {
     "id": 114,
     "game": "listeyi-tamamla",
     "title": "21.yüzyılda Fenerbahçe'nin başında maça çıkmış tüm yabancı teknik direktörler?",

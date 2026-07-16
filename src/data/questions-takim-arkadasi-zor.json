@@ -2886,6 +2886,126 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 101,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-17",
+    "correctPlayer": "Andreas Isaksson",
+    "teammates": [
+      {
+        "name": "Elano",
+        "info": "2007-08 sezonunda Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Atiba Hutchinson",
+        "info": "2010-12 yılları arasında PSV'de birlikte oynadılar"
+      },
+      {
+        "name": "Dries Mertens",
+        "info": "2011-12 sezonunda PSV'de birlikte oynadılar"
+      },
+      {
+        "name": "Ryan Babel",
+        "info": "2013-15 yılları arasında Kasımpaşa'da birlikte oynadılar"
+      },
+      {
+        "name": "Andre Castro",
+        "info": "2013-16 yılları arasında Kasımpaşa'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 102,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-18",
+    "correctPlayer": "Emirhan İlkhan",
+    "teammates": [
+      {
+        "name": "Fabio Quagliarella",
+        "info": "2022-23 sezonunda Sampdoria'da birlikte oynadılar"
+      },
+      {
+        "name": "Vanja Milinkovic Savic",
+        "info": "2024-25 sezonunda Torino'da birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Babacan",
+        "info": "2023-24 sezonunda Başakşehir'de birlikte oynadılar"
+      },
+      {
+        "name": "Michy Batshuayi",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Adem Ljajic",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 103,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-18",
+    "correctPlayer": "Hakim Ziyech",
+    "teammates": [
+      {
+        "name": "Jesus Corona",
+        "info": "2014-15 sezonunda Twente'de birlikte oynadılar"
+      },
+      {
+        "name": "Angelino",
+        "info": "2023-24 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Thiago Silva",
+        "info": "2020-23 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Dusan Tadic",
+        "info": "2018-20 yılları arasında Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Mauro Icardi",
+        "info": "2023-25 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 104,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-19",
+    "correctPlayer": "Juan Mata",
+    "teammates": [
+      {
+        "name": "Manuel Fernandes",
+        "info": "2007-11 yılları arasında Valencia'da birlikte oynadılar"
+      },
+      {
+        "name": "David Luiz",
+        "info": "2011-14 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Milot Rashica",
+        "info": "2022-23 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Paul Pogba",
+        "info": "2016-22 yılları arasında Manchester United'da birlikte oynadılar"
+      },
+      {
+        "name": "Zlatan Ibrahimovic",
+        "info": "2016-18 yılları arasında Manchester United'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

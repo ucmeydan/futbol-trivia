@@ -1420,7 +1420,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 72,
     "game": "top10",
@@ -1441,7 +1440,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 73,
     "game": "top10",
@@ -1462,7 +1460,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 74,
     "game": "top10",
@@ -1483,7 +1480,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 75,
     "game": "top10",
@@ -1501,11 +1497,9 @@
       "Burak Yılmaz",
       "Şenol Güneş",
       "Valerien Ismael"
-    
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 76,
     "game": "top10",
@@ -1523,11 +1517,9 @@
       "Zeki Çelik",
       "Ferdi Kadıoğlu",
       "Orkun Kökçü"
-    
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 77,
     "game": "top10",
@@ -1535,22 +1527,20 @@
     "type": "player",
     "activeDate": "2026-06-29",
     "targets": [
-     "Hakan Çalhanoğlu",
-     "Cenk Tosun",
-     "Cengiz Ünder",
-     "Kerem Aktürkoğlu",
-     "Ozan Tufan",
-     "Serdar Dursun",
-     "Arda Güler",
-     "Kenan Karaman",
-     "İrfan Can Kahveci",
-     "Merih Demiral"
-    
+      "Hakan Çalhanoğlu",
+      "Cenk Tosun",
+      "Cengiz Ünder",
+      "Kerem Aktürkoğlu",
+      "Ozan Tufan",
+      "Serdar Dursun",
+      "Arda Güler",
+      "Kenan Karaman",
+      "İrfan Can Kahveci",
+      "Merih Demiral"
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 78,
     "game": "top10",
     "title": "Beşiktaş'ın gruptan namağlup lider çıktığı 2017-18 Şampiyonlar Ligi sezonunda Beşiktaş formasıyla en çok süre alan oyuncular?",
@@ -1570,7 +1560,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 79,
     "game": "top10",
@@ -1578,20 +1567,19 @@
     "type": "player",
     "activeDate": "2026-07-01",
     "targets": [
-     "Jayden Oosterwolde",
-     "Davinson Sanchez",
-     "Emmanuel Agbadou",
-     "Arseniy Batagov",
-     "Milan Skriniar",
-     "Chibuike Nwaiwu",
-     "Tiago Djalo",
-     "Emirhan Topçu",
-     "Abdülkerim Bardakcı",
-     "Yiğit Efe Demir"
+      "Jayden Oosterwolde",
+      "Davinson Sanchez",
+      "Emmanuel Agbadou",
+      "Arseniy Batagov",
+      "Milan Skriniar",
+      "Chibuike Nwaiwu",
+      "Tiago Djalo",
+      "Emirhan Topçu",
+      "Abdülkerim Bardakcı",
+      "Yiğit Efe Demir"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 80,
     "game": "top10",
@@ -1599,21 +1587,19 @@
     "type": "team-tr",
     "activeDate": "2026-07-02",
     "targets": [
-     "Galatasaray",
-     "Fenerbahçe",
-     "Beşiktaş",
-     "Trabzonspor",
-     "Başakşehir",
-     "Göztepe",
-     "Samsunspor",
-     "Rizespor",
-     "Konyaspor",
-     "Alanyaspor"
-
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Göztepe",
+      "Samsunspor",
+      "Rizespor",
+      "Konyaspor",
+      "Alanyaspor"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 81,
     "game": "top10",
@@ -1621,21 +1607,19 @@
     "type": "team-tr",
     "activeDate": "2026-07-03",
     "targets": [
-   "Fatih Karagümrük",
-   "Kayserispor",
-   "Antalyaspor",
-   "Eyüpspor",
-   "Gençlerbirliği",
-   "Kasımpaşa",
-   "Gaziantep FK",
-   "Alanyaspor",
-   "Kocaelispor",
-   "Konyaspor"
-
+      "Fatih Karagümrük",
+      "Kayserispor",
+      "Antalyaspor",
+      "Eyüpspor",
+      "Gençlerbirliği",
+      "Kasımpaşa",
+      "Gaziantep FK",
+      "Alanyaspor",
+      "Kocaelispor",
+      "Konyaspor"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 82,
     "game": "top10",
@@ -1643,21 +1627,19 @@
     "type": "team-tr",
     "activeDate": "2026-07-05",
     "targets": [
-   "Galatasaray",
-   "Fenerbahçe",
-   "Beşiktaş",
-   "Konyaspor",
-   "Trabzonspor",
-   "Kocaelispor",
-   "Samsunspor",
-   "Amed SK",
-   "Gaziantep FK",
-   "Göztepe"
-
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Konyaspor",
+      "Trabzonspor",
+      "Kocaelispor",
+      "Samsunspor",
+      "Amed SK",
+      "Gaziantep FK",
+      "Göztepe"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 83,
     "game": "top10",
@@ -1675,12 +1657,10 @@
       "Carlos Zago",
       "Ramon Motta",
       "Ricardinho"
-
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 84,
     "game": "top10",
     "title": "Galatasaray'ı çalıştıran son 10 teknik direktör? (Geçici teknik direktörler hariç)",
@@ -1700,7 +1680,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 85,
     "game": "top10",
@@ -1708,20 +1687,19 @@
     "type": "player",
     "activeDate": "2026-07-09",
     "targets": [
-     "Matteo Guendouzi",
-     "Gabriel Sara",
-     "Orkun Kökçü",
-     "Christ Inao Oulai",
-     "Marco Asensio",
-     "İsmail Yüksek",
-     "Ernest Muçi",
-     "Sofyan Amrabat",
-     "Lucas Torreira",
-     "Wilfred Ndidi"
+      "Matteo Guendouzi",
+      "Gabriel Sara",
+      "Orkun Kökçü",
+      "Christ Inao Oulai",
+      "Marco Asensio",
+      "İsmail Yüksek",
+      "Ernest Muçi",
+      "Sofyan Amrabat",
+      "Lucas Torreira",
+      "Wilfred Ndidi"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 86,
     "game": "top10",
@@ -1729,21 +1707,19 @@
     "type": "player",
     "activeDate": "2026-07-10",
     "targets": [
-    
-    "Mert Günok",
-    "N'golo Kante",
-    "Cenk Tosun",
-    "Fred",
-    "Ederson",
-    "Nelson Semedo",
-    "Anderson Talisca",
-    "Alexander Djiku",
-    "Dominik Livakovic",
-    "Milan Skriniar"
+      "Mert Günok",
+      "N'golo Kante",
+      "Cenk Tosun",
+      "Fred",
+      "Ederson",
+      "Nelson Semedo",
+      "Anderson Talisca",
+      "Alexander Djiku",
+      "Dominik Livakovic",
+      "Milan Skriniar"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 87,
     "game": "top10",
@@ -1751,22 +1727,19 @@
     "type": "player",
     "activeDate": "2026-07-11",
     "targets": [
-    
-    "Fernando Muslera",
-    "Faryd Mondragon",
-    "Lucas Torreira",
-    "Felipe Melo",
-    "Claudio Taffarel",
-    "Marcao",
-    "Mauro Icardi",
-    "Davinson Sanchez",
-    "Capone",
-    "Mariano"
-
+      "Fernando Muslera",
+      "Faryd Mondragon",
+      "Lucas Torreira",
+      "Felipe Melo",
+      "Claudio Taffarel",
+      "Marcao",
+      "Mauro Icardi",
+      "Davinson Sanchez",
+      "Capone",
+      "Mariano"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 88,
     "game": "top10",
@@ -1774,22 +1747,19 @@
     "type": "td",
     "activeDate": "2026-07-12",
     "targets": [
-    
-    "Vincenzo Montella",
-    "Stefan Kuntz",
-    "Şenol Güneş",
-    "Mircea Lucescu",
-    "Fatih Terim",
-    "Abdullah Avcı",
-    "Guus Hiddink",
-    "Oğuz Çetin",
-    "Ersun Yanal",
-    "Mustafa Denizli"
-
+      "Vincenzo Montella",
+      "Stefan Kuntz",
+      "Şenol Güneş",
+      "Mircea Lucescu",
+      "Fatih Terim",
+      "Abdullah Avcı",
+      "Guus Hiddink",
+      "Oğuz Çetin",
+      "Ersun Yanal",
+      "Mustafa Denizli"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 89,
     "game": "top10",
@@ -1797,31 +1767,26 @@
     "type": "player",
     "activeDate": "2026-07-13",
     "targets": [
-    
-    "Milan Skriniar",
-    "Diego Carlos",
-    "Leonardo Bonucci",
-    "Omar Fayed",
-    "Rodrigo Becao",
-    "Alexander Djiku",
-    "Jayden Oosterwolde",
-    "Gustavo Henrique",
-    "Luan Peres",
-    "Kim Min Jae"
-
-
+      "Milan Skriniar",
+      "Diego Carlos",
+      "Leonardo Bonucci",
+      "Omar Fayed",
+      "Rodrigo Becao",
+      "Alexander Djiku",
+      "Jayden Oosterwolde",
+      "Gustavo Henrique",
+      "Luan Peres",
+      "Kim Min Jae"
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 90,
     "game": "top10",
     "title": "Transfermarkt verilerine göre Beşiktaş'ın mevcut kadrosundaki piyasa değeri en yüksek 10 oyuncu?",
     "type": "player",
     "activeDate": "2026-07-14",
     "targets": [
-    
       "Orkun Kökçü",
       "Emmanuel Agbadou",
       "Hyeon Gyu Oh",
@@ -1832,11 +1797,9 @@
       "Vaclav Cerny",
       "Amir Murillo",
       "Tiago Djalo"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 91,
     "game": "top10",
@@ -1844,7 +1807,6 @@
     "type": "player",
     "activeDate": "2026-07-15",
     "targets": [
-    
       "Wagner Pina",
       "Andre Onana",
       "Paul Onuachu",
@@ -1855,11 +1817,9 @@
       "Arseniy Batagov",
       "Ernest Muçi",
       "Christ Inao Oulai"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 92,
     "game": "top10",
@@ -1867,7 +1827,6 @@
     "type": "player",
     "activeDate": "2026-07-16",
     "targets": [
-    
       "Ederson",
       "Nelson Semedo",
       "Jayden Oosterwolde",
@@ -1881,7 +1840,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 93,
     "game": "top10",
@@ -1889,55 +1847,37 @@
     "type": "team-tr",
     "activeDate": "2026-07-17",
     "targets": [
-    "Galatasaray",
-    "Fenerbahçe",
-    "Beşiktaş",
-    "Trabzonspor",
-    "Başakşehir",
-    "Göztepe",
-    "Sivasspor",
-    "Bursaspor",
-    "Osmanlıspor",
-    "Gaziantepspor"
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Göztepe",
+      "Sivasspor",
+      "Bursaspor",
+      "Osmanlıspor",
+      "Gaziantepspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 94,
+    "game": "top10",
+    "title": "Mauro Icardi'nin Galatasaray kariyerinde birlikte en fazla maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-18",
+    "targets": [
+      "Lucas Torreira",
+      "Barış Alper Yılmaz",
+      "Abdülkerim Bardakcı",
+      "Kaan Ayhan",
+      "Fernando Muslera",
+      "Dries Mertens",
+      "Kerem Aktürkoğlu",
+      "Davinson Sanchez",
+      "Victor Nelsson",
+      "Sacha Boey"
     ],
     "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
 ]

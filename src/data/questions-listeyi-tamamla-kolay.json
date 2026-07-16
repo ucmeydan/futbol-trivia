@@ -1651,7 +1651,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 90,
     "game": "listeyi-tamamla",
@@ -1667,7 +1666,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 91,
     "game": "listeyi-tamamla",
@@ -1689,23 +1687,21 @@
     ],
     "difficulty": "kolay"
   },
-
-    {
+  {
     "id": 92,
     "game": "listeyi-tamamla",
     "title": "Kariyerinde hem Fenerbahçe hem Arsenal forması giymiş oyuncular?",
     "type": "player",
     "activeDate": "2026-07-16",
     "targets": [
-     "Nicolas Anelka",
-     "Andre Santos",
-     "Mesut Özil",
-     "Robin van Persie",
-     "Matteo Guendouzi"
+      "Nicolas Anelka",
+      "Andre Santos",
+      "Mesut Özil",
+      "Robin van Persie",
+      "Matteo Guendouzi"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 93,
     "game": "listeyi-tamamla",
@@ -1713,7 +1709,6 @@
     "type": "team-tr",
     "activeDate": "2026-07-17",
     "targets": [
-     
       "Beşiktaş",
       "Fenerbahçe",
       "Galatasaray",
@@ -1732,11 +1727,9 @@
       "Eyüpspor",
       "Çorum FK",
       "Gaziantep FK"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 94,
     "game": "listeyi-tamamla",
@@ -1744,7 +1737,6 @@
     "type": "team-tr",
     "activeDate": "2026-07-18",
     "targets": [
-     
       "Beşiktaş",
       "Fenerbahçe",
       "Trabzonspor",
@@ -1753,16 +1745,44 @@
       "Samsunspor",
       "Adana Demirspor",
       "Konyaspor"
-
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 95,
+    "game": "listeyi-tamamla",
+    "title": "UEFA organizasyonlarına 5 ve üzeri sayıda sezon katılan Türk takımları (Ön elemeler dahil) ",
+    "type": "team-tr",
+    "activeDate": "2026-07-18",
+    "targets": [
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Başakşehir",
+      "Galatasaray",
+      "Göztepe",
+      "Sivasspor",
+      "Bursaspor",
+      "Eskişehirspor",
+      "Ankaragücü",
+      "Altay",
+      "Gaziantepspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 96,
+    "game": "listeyi-tamamla",
+    "title": "Samet Akaydın'ın Trabzonspor'a transfer olmadan önce formasını giydiği son 5 takım?",
+    "type": "team-all",
+    "activeDate": "2026-07-19",
+    "targets": [
+      "Rizespor",
+      "Fenerbahçe",
+      "Adana Demirspor",
+      "Panathinaikos",
+      "Keçiörengücü"
     ],
     "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-
 ]

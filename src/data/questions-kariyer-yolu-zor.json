@@ -4277,6 +4277,59 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 104,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-17",
+    "correctPlayer": "Alparslan Erdem",
+    "career": [
+      {
+        "season": "2006–2007",
+        "team": "Werder Bremen U19",
+        "apps": "31",
+        "goals": "1"
+      },
+      {
+        "season": "2007-2008",
+        "team": "Werder Bremen II",
+        "apps": "42",
+        "goals": "0"
+      },
+      {
+        "season": "2008–2010",
+        "team": "Galatasaray",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2010–2011",
+        "team": "Gençlerbirliği",
+        "apps": "13",
+        "goals": "0"
+      },
+      {
+        "season": "2011-2013",
+        "team": "Bucaspor",
+        "apps": "61",
+        "goals": "0"
+      },
+      {
+        "season": "2013-2019",
+        "team": "İBB",
+        "apps": "94",
+        "goals": "2"
+      },
+      {
+        "season": "2019-2022",
+        "team": "Fatih Karagümrük",
+        "apps": "42",
+        "goals": "1"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 
 
