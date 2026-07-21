@@ -2380,11 +2380,11 @@
     "difficulty": "zor"
   },
   {
-    "id": 119,
+    "id": 116,
     "game": "listeyi-tamamla",
     "title": "21.yüzyılda Beşiktaş'ın başında maça çıkmış tüm yabancı teknik direktörler?",
     "type": "td",
-    "activeDate": "2026-07-24",
+    "activeDate": "2026-07-22",
     "targets": [
       "Nevio Scala",
       "Mircea Lucescu",
@@ -2402,7 +2402,7 @@
     "difficulty": "zor"
   },
   {
-    "id": 122,
+    "id": 117,
     "game": "listeyi-tamamla",
     "title": "21.yüzyılda Trabzonspor'un başında maça çıkmış tüm yabancı teknik direktörler?",
     "type": "td",

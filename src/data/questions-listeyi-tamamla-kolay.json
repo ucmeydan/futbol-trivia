@@ -1784,5 +1784,23 @@
       "Keçiörengücü"
     ],
     "difficulty": "kolay"
+  },
+
+    {
+    "id": 97,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 500'den fazla maça çıkan teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-07-22",
+    "targets": [
+      "Rıza Çalımbay",
+      "Şenol Güneş",
+      "Samet Aybaba",
+      "Hikmet Karaman",
+      "Aykut Kocaman",
+      "Yılmaz Vural",
+      "Ersun Yanal"
+    ],
+    "difficulty": "kolay"
   }
 ]

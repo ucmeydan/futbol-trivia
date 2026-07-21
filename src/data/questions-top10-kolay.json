@@ -1879,5 +1879,26 @@
       "Sacha Boey"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 95,
+    "game": "top10",
+    "title": "Süper Lig'de şampiyonluk kazanan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-07-22",
+    "targets": [
+      "Okan Buruk",
+      "Abdullah Avcı",
+      "Sergen Yalçın",
+      "Fatih Terim",
+      "Şenol Güneş",
+      "Hamza Hamzaoğlu",
+      "Ersun Yanal",
+      "Aykut Kocaman",
+      "Ertuğrul Sağlam",
+      "Mustafa Denizli"
+    ],
+    "difficulty": "kolay"
   }
 ]
