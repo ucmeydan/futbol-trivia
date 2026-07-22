@@ -2320,5 +2320,28 @@
       "Demba Ba"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 118,
+    "game": "top10",
+    "title": "2025-26 sezonunda Göztepe formasıyla en çok süre alan 10 futbolcu? ",
+    "type": "player",
+    "activeDate": "2026-07-23",
+    "targets": [
+      "Mateusz Lis",
+      "Amin Cherni",
+      "Heliton",
+      "Malcom Bokele",
+      "Juan",
+      "Janderson",
+      "Arda Okan Kurtulan",
+      "Anthony Dennis",
+      "Novatus Miroshi",
+      "Allan Godoi Santos"
+    ],
+    "difficulty": "zor"
   }
+
+
 ]

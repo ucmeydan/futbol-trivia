@@ -1802,5 +1802,23 @@
       "Ersun Yanal"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 98,
+    "game": "listeyi-tamamla",
+    "title": "Victor Osimhen'in profesyonel kariyerinde forma giydiği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-07-23",
+    "targets": [
+      "Wolfsburg",
+      "Lille",
+      "Charleroi",
+      "Napoli",
+      "Galatasaray"
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

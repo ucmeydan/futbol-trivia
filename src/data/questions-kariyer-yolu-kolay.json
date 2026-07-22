@@ -3493,6 +3493,40 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 95,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-23",
+    "correctPlayer": "Benjamin Bouchouari",
+    "career": [
+      {
+        "season": "2019-2020",
+        "team": "Fortuna Sittard U19",
+        "apps": "2",
+        "goals": "0"
+      },
+      {
+        "season": "2020–2022",
+        "team": "Roda",
+        "apps": "69",
+        "goals": "3"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Saint Etienne",
+        "apps": "96",
+        "goals": "2"
+      },
+      {
+        "season": "2025–",
+        "team": "Trabzonspor",
+        "apps": "26",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

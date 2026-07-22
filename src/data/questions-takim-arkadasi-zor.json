@@ -3012,30 +3012,60 @@
     "id": 105,
     "game": "takim-arkadasi",
     "activeDate": "2026-07-22",
-    "correctPlayer": "Daniel Sturridge",
+    "correctPlayer": "Nelson Semedo",
     "teammates": [
       {
-        "name": "Petr Cech",
-        "info": "2009-13 yılları arasında Chelsea'de birlikte oynadılar"
+        "name": "Kostas Mitroglou",
+        "info": "2015-17 yılları arasında Benfica'da birlikte oynadılar"
       },
       {
-        "name": "Virgil Van Dijk",
-        "info": "2018-19 yılları arasında Liverpool'da birlikte oynadılar"
+        "name": "Adama Traore",
+        "info": "2020-22 yılları arasında Wolves'ta birlikte oynadılar"
       },
       {
-        "name": "Roberto Firmino",
-        "info": "2015-19 yılları arasında Liverpool'da birlikte oynadılar."
+        "name": "Alejandro Grimaldo",
+        "info": "2016-17 yılları arasında Benfica'da birlikte oynadılar"
       },
       {
-        "name": "Frank Lampard",
-        "info": "2009-13 yılları arasında Chelsea'de birlikte oynadılar"
+        "name": "Ousmane Dembele",
+        "info": "2017-20 yılları arasında Barcelona'da birlikte oynadılar"
       },
       {
-        "name": "Uğurcan Çakır",
-        "info": "2019-20 sezonunda Trabzonspor'da birlikte oynadılar"
+        "name": "Matteo Guendouzi",
+        "info": "2025-26 sezonunda Fenerbahçe'de birlikte oynadılar"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 106,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-23",
+    "correctPlayer": "Alexander Sorloth",
+    "teammates": [
+      {
+        "name": "John Obi Mikel",
+        "info": "2019-20 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Filip Novak",
+        "info": "2019-20 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Gerard Moreno",
+        "info": "2023-24 sezonunda Villarreal'de birlikte oynadılar"
+      },
+      {
+        "name": "Takefusa Kubo",
+        "info": "2022-23 sezonunda Real Sociedad'da birlikte oynadılar"
+      },
+      {
+        "name": "Julian Alvarez",
+        "info": "2024-26 yılları arasında Atletico Madrid'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

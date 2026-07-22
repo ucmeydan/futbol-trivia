@@ -2401,8 +2401,37 @@
     ],
     "difficulty": "zor"
   },
+ 
+
   {
     "id": 117,
+    "game": "listeyi-tamamla",
+    "title": "Tarihinde en az bir sezon Süper Lig'de mücadele etmiş İç Anadolu Bölgesi takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-07-23",
+    "targets": [
+     "Ankaragücü",
+     "Gençlerbirliği",
+     "Hacettepe",
+     "Ankaraspor",
+     "Ankara Demirspor",
+     "Eskişehirspor",
+     "Konyaspor",
+     "Kayserispor",
+     "Kayseri Erciyesspor",
+     "Sivasspor",
+     "Yozgatspor",
+     "PTT",
+     "Şekerspor",
+     "Keçiörengücü",
+     "Petrolofisi",
+     "Kırıkkalespor"
+
+    ],
+    "difficulty": "zor"
+  },
+   {
+    "id": 118,
     "game": "listeyi-tamamla",
     "title": "21.yüzyılda Trabzonspor'un başında maça çıkmış tüm yabancı teknik direktörler?",
     "type": "td",
@@ -2418,4 +2447,6 @@
     ],
     "difficulty": "zor"
   }
+
+
 ]

@@ -4376,6 +4376,40 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 106,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-23",
+    "correctPlayer": "Yiğit Efe Demir",
+    "career": [
+      {
+        "season": "2021–2023",
+        "team": "Fenerbahçe U19",
+        "apps": "44",
+        "goals": "4"
+      },
+      {
+        "season": "2023-",
+        "team": "Fenerbahçe",
+        "apps": "26",
+        "goals": "0"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Gençlerbirliği (kiralık)",
+        "apps": "17",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Fatih Karagümrük (kiralık)",
+        "apps": "37",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

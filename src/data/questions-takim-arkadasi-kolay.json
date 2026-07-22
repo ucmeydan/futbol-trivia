@@ -2783,5 +2783,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 98,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-23",
+    "correctPlayer": "Ferdi Kadıoğlu",
+    "teammates": [
+      {
+        "name": "Tolgay Arslan",
+        "info": "2019-20 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Caner Erkin",
+        "info": "2020-21 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Mathieu Valbuena",
+        "info": "2018-19 sezonunda Fenerbahçe'de birlikte oynadılar."
+      },
+      {
+        "name": "Kaoru Mitoma",
+        "info": "2024-26 yılları arasında Brighton'da birlikte oynadılar"
+      },
+      {
+        "name": "Danny Welbeck",
+        "info": "2024-26 yılları arasında Brighton'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]
