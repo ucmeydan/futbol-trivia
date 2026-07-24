@@ -2341,7 +2341,30 @@
       "Allan Godoi Santos"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 119,
+    "game": "top10",
+    "title": "2021/22 sezonunda Süper Lig'de Trabzonspor formasıyla en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-25",
+    "targets": [
+      "Uğurcan Çakır",
+      "Vitor Hugo",
+      "Andreas Cornelius",
+      "Anastasios Bakasetas",
+      "Anthony Nwakaeme",
+      "Abdulkadir Ömür",
+      "Bruno Peres",
+      "Dorukhan Toköz",
+      "Marek Hamsik",
+      "Stefano Denswil"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 ]

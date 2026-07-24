@@ -3527,7 +3527,55 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 96,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-25",
+    "correctPlayer": "Mason Greenwood",
+    "career": [
+      {
+        "season": "2019-2020",
+        "team": "Manchester United U18",
+        "apps": "34",
+        "goals": "34"
+      },
+      {
+        "season": "2020–2022",
+        "team": "Manchester United U23",
+        "apps": "8",
+        "goals": "5"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Manchester United",
+        "apps": "129",
+        "goals": "35"
+      },
+      {
+        "season": "2025–",
+        "team": "Getafe (kiralık)",
+        "apps": "36",
+        "goals": "10"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Marsilya",
+        "apps": "81",
+        "goals": "48"
+      },
+      {
+        "season": "2026–",
+        "team": "Fenerbahçe",
+        "apps": "1",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

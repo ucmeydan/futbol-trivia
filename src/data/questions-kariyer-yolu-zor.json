@@ -4410,6 +4410,40 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 107,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-25",
+    "correctPlayer": "İlhan Fakılı",
+    "career": [
+      {
+        "season": "2022–2023",
+        "team": "Clermont U19",
+        "apps": "31",
+        "goals": "17"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Clermont B",
+        "apps": "26",
+        "goals": "6"
+      },
+      {
+        "season": "2024-2026",
+        "team": "Clermont",
+        "apps": "43",
+        "goals": "4"
+      },
+      {
+        "season": "2026-",
+        "team": "Beşiktaş",
+        "apps": "1",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

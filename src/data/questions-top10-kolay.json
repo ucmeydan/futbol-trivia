@@ -1921,7 +1921,30 @@
       "Kaan Ayhan"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 97,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'in en değerli 10 oyuncusu? (24 Temmuz itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-07-25",
+    "targets": [
+    "Victor Osimhen",
+    "Mason Greenwood",
+    "Barış Alper Yılmaz",
+    "Gabriel Sara",
+    "Matteo Guendouzi",
+    "Orkun Kökçü",
+    "Wilfried Singo",
+    "Lesley Ugochukwu",
+    "Kerem Aktürkoğlu",
+    "Leroy Sane"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

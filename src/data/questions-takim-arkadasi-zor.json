@@ -3066,6 +3066,36 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 1077,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-25",
+    "correctPlayer": "Allan Saint Maximin",
+    "teammates": [
+      {
+        "name": "Edin Dzeko",
+        "info": "2024-25 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Riyad Mahrez",
+        "info": "2023-24 sezonunda Al Ahli'de birlikte oynadılar"
+      },
+      {
+        "name": "Jonjo Shelvey",
+        "info": "2019-23 yılları arasında Newcastle'da birlikte oynadılar"
+      },
+      {
+        "name": "Joelinton",
+        "info": "2019-23 yılları arasında Newcastle'da birlikte oynadılar"
+      },
+      {
+        "name": "Çağlar Söyüncü",
+        "info": "2024-25 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

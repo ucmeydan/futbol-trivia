@@ -1818,7 +1818,25 @@
       "Galatasaray"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 99,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin 2026 yaz transfer döneminde kadrosuna kattığı oyuncular?",
+    "type": "player",
+    "activeDate": "2026-07-25",
+    "targets": [
+      "Vedat Muriqi",
+      "Nathan Ake",
+      "Mason Greenwood",
+      "Amara Diouf",
+      "Adem Yeşilyurt"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]
