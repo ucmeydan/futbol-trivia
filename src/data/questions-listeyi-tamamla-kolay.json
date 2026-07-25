@@ -1785,8 +1785,7 @@
     ],
     "difficulty": "kolay"
   },
-
-    {
+  {
     "id": 97,
     "game": "listeyi-tamamla",
     "title": "Süper Lig tarihinde 500'den fazla maça çıkan teknik direktörler?",
@@ -1803,7 +1802,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 98,
     "game": "listeyi-tamamla",
@@ -1819,7 +1817,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 99,
     "game": "listeyi-tamamla",
@@ -1834,9 +1831,37 @@
       "Adem Yeşilyurt"
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 100,
+    "game": "listeyi-tamamla",
+    "title": "A Milli takımımızın 2026 Dünya Kupası'nda süre alan oyuncuları?",
+    "type": "player",
+    "activeDate": "2026-07-26",
+    "targets": [
+      "Uğurcan Çakır",
+      "Mert Müldür",
+      "Zeki Çelik",
+      "Merih Demiral",
+      "Abdülkerim Bardakcı",
+      "Ozan Kabak",
+      "Ferdi Kadıoğlu",
+      "Eren Elmalı",
+      "Salih Özcan",
+      "İsmail Yüksek",
+      "Orkun Kökçü",
+      "Arda Güler",
+      "Yunus Akgün",
+      "Barış Alper Yılmaz",
+      "Kerem Aktürkoğlu",
+      "Deniz Gül",
+      "Hakan Çalhanoğlu",
+      "Kaan Ayhan",
+      "Can Uzun",
+      "Oğuz Aydın",
+      "Çağlar Söyüncü",
+      "İrfan Can Kahveci"
+    ],
+    "difficulty": "kolay"
   }
-
-
-
-
 ]

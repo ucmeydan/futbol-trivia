@@ -3573,6 +3573,40 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 97,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-26",
+    "correctPlayer": "Abdullah Ercan",
+    "career": [
+      {
+        "season": "1990-1999",
+        "team": "Trabzonspor",
+        "apps": "306",
+        "goals": "18"
+      },
+      {
+        "season": "1999–2003",
+        "team": "Fenerbahçe",
+        "apps": "120",
+        "goals": "5"
+      },
+      {
+        "season": "2003-2003",
+        "team": "Galatasaray",
+        "apps": "7",
+        "goals": "0"
+      },
+      {
+        "season": "2004–2006",
+        "team": "İstanbulspor",
+        "apps": "28",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

@@ -4444,6 +4444,47 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 108,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-26",
+    "correctPlayer": "Juan",
+    "career": [
+      {
+        "season": "2020–2022",
+        "team": "Sao Paulo U20",
+        "apps": "41",
+        "goals": "14"
+      },
+      {
+        "season": "2022-2024",
+        "team": "Sao Paulo",
+        "apps": "81",
+        "goals": "7"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Southampton",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Göztepe (kiralık)",
+        "apps": "28",
+        "goals": "8"
+      },
+      {
+        "season": "2025-",
+        "team": "Göztepe",
+        "apps": "32",
+        "goals": "11"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 
 

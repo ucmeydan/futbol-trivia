@@ -2446,7 +2446,27 @@
       "Nenad Bjelica"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 119,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de 80'den fazla maça çıkan Hollandalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-07-26",
+    "targets": [
+     "Ryan Babel",
+     "Wesley Sneijder",
+     "Jeremain Lens",
+     "Dirk Kuyt",
+     "Rick Van Drongelen",
+     "Sander Van de Streek",
+     "Leroy Fer"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 ]

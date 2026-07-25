@@ -3069,7 +3069,7 @@
   },
 
   {
-    "id": 1077,
+    "id": 107,
     "game": "takim-arkadasi",
     "activeDate": "2026-07-25",
     "correctPlayer": "Allan Saint Maximin",
@@ -3093,6 +3093,36 @@
       {
         "name": "Çağlar Söyüncü",
         "info": "2024-25 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 108,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-07-26",
+    "correctPlayer": "Ciro Immobile",
+    "teammates": [
+      {
+        "name": "İlkay Gündoğan",
+        "info": "2014-15 sezonunda Dortmund'da birlikte oynadılar"
+      },
+      {
+        "name": "Steven Nzonzi",
+        "info": "2015-16 sezonunda Sevilla'da birlikte oynadılar"
+      },
+      {
+        "name": "Shinji Kagawa",
+        "info": "2014-15 sezonunda Dortmund'da birlikte oynadılar"
+      },
+      {
+        "name": "Matteo Guendouzi",
+        "info": "2023-24 sezonunda Lazio'da birlikte oynadılar"
+      },
+      {
+        "name": "Rafa Silva",
+        "info": "2024-25 sezonunda Beşiktaş'ta birlikte oynadılar"
       }
     ],
     "difficulty": "zor"

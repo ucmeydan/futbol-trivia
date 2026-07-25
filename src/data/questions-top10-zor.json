@@ -2362,7 +2362,30 @@
       "Stefano Denswil"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 120,
+    "game": "top10",
+    "title": "Aktif futbol kariyeri devam eden futbolcular arasında A Milli takım formasıyla en çok maça çıkan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-07-26",
+    "targets": [
+      "Hakan Çalhanoğlu",
+      "Kaan Ayhan",
+      "Ozan Tufan",
+      "Merih Demiral",
+      "Zeki Çelik",
+      "Çağlar Söyüncü",
+      "Kerem Aktürkoğlu",
+      "Cenk Tosun",
+      "Orkun Kökçü",
+      "Cengiz Ünder"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

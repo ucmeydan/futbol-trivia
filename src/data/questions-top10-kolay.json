@@ -1942,7 +1942,30 @@
     "Leroy Sane"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 98,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'in en değerli 10 takımı? (25 Temmuz itibarıyla)",
+    "type": "team-tr",
+    "activeDate": "2026-07-26",
+    "targets": [
+    "Fenerbahçe",
+    "Galatasaray",
+    "Beşiktaş",
+    "Trabzonspor",
+    "Başakşehir",
+    "Göztepe",
+    "Samsunspor",
+    "Rizespor",
+    "Alanyaspor",
+    "Konyaspor"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
