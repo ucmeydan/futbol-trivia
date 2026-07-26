@@ -2279,7 +2279,6 @@
     ],
     "difficulty": "zor"
   },
-  
   {
     "id": 116,
     "game": "top10",
@@ -2300,7 +2299,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 117,
     "game": "top10",
@@ -2321,7 +2319,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 118,
     "game": "top10",
@@ -2342,7 +2339,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 119,
     "game": "top10",
@@ -2363,7 +2359,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 120,
     "game": "top10",
@@ -2383,11 +2378,25 @@
       "Cengiz Ünder"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 121,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig tarihinde en fazla asist yapan 10 yabancı oyuncu?",
+    "type": "player",
+    "activeDate": "2026-07-27",
+    "targets": [
+      "Edin Visca",
+      "Alex De Souza",
+      "Ibrahim Yattara",
+      "Pablo Batalla",
+      "Tita",
+      "Wederson",
+      "Cevad Prekazi",
+      "Rodrigo Tello",
+      "Ricardo Quaresma",
+      "Haris Hajradinovic"
+    ],
+    "difficulty": "zor"
   }
-
-
-
-
-
-
 ]

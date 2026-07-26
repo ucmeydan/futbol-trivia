@@ -1963,7 +1963,32 @@
     "Konyaspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 99,
+    "game": "top10",
+    "title": "Şampiyonlar Ligi tarihinde en çok maça çıkan 10 takım? (Şampiyon Kulüpler Kupası dahil)",
+    "type": "team-all",
+    "activeDate": "2026-07-27",
+    "targets": [
+
+      "Real Madrid",
+      "Bayern Münih",
+      "Barcelona",
+      "Juventus",
+      "Benfica",
+      "Manchester United",
+      "Milan",
+      "Porto",
+      "Liverpool",
+      "Dinamo Kiev"
+  
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

@@ -1863,5 +1863,28 @@
       "İrfan Can Kahveci"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 101,
+    "game": "listeyi-tamamla",
+    "title": "2026/27 sezonunda Avrupa kupalarında mücadele edecek İngiliz takımları?",
+    "type": "team-eu",
+    "activeDate": "2026-07-27",
+    "targets": [
+      
+      "Arsenal",
+      "Manchester City",
+      "Manchester United",
+      "Liverpool",
+      "Aston Villa",
+      "Crystal Palace",
+      "Bournemouth",
+      "Sunderland",
+      "Brighton"
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

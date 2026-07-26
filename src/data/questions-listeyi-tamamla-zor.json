@@ -2464,7 +2464,33 @@
      "Leroy Fer"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 120,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig' tarihinde 15 ve üzeri sayıda gol atan Portekizli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-07-27",
+    "targets": [
+      
+     "Hugo Almeida",
+     "Andre Castro",
+     "Ariza Makukula",
+     "Ricardo Quaresma",
+     "Miguel Cardoso",
+     "Edinho",
+     "Rafa Silva",
+     "Ricardo Vaz Te",
+     "Gedson Fernandes",
+     "Daniel Candeias",
+     "Manuel Fernandes"
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
