@@ -1902,6 +1902,25 @@
       "Al Shabab"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 103,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 40 sezondan fazla mücadele eden takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-07-29",
+    "targets": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Ankaragücü",
+      "Trabzonspor",
+      "Bursaspor",
+      "Gençlerbirliği",
+      "Altay"
+    ],
+    "difficulty": "kolay"
   }
 
 

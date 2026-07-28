@@ -2419,5 +2419,26 @@
       "Lukas Podolski"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 123,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en çok maça çıkan yabancı futbolcular? (Sonradan Türk vatandaşı olanlar dahil)",
+    "type": "player",
+    "activeDate": "2026-07-29",
+    "targets": [
+      "Fernando Muslera",
+      "Edin Visca",
+      "Wederson",
+      "Tita",
+      "Misko Mirkovic",
+      "Abdelzaher El Saka",
+      "Diego Angelo",
+      "Marcio Nobre",
+      "Elvir Bolic",
+      "Roman Dabrowski"
+    ],
+    "difficulty": "zor"
   }
 ]

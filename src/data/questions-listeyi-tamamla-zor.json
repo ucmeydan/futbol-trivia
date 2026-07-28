@@ -2513,6 +2513,29 @@
       "Ümit Davala"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 122,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-07-29",
+    "targets": [
+      "Barcelona",
+      "PSG",
+      "Göteborg",
+      "Chelsea",
+      "Sparta Prag",
+      "Liverpool",
+      "Marsilya",
+      "Manchester United",
+      "Napoli",
+      "Porto",
+      "Leipzig",
+      "Monaco"
+    ],
+    "difficulty": "zor"
   }
 
 
