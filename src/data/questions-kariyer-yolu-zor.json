@@ -4525,7 +4525,37 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 110,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-28",
+    "correctPlayer": "Barış Kalaycı",
+    "career": [
+      {
+        "season": "2021-2022",
+        "team": "Union Berlin U17",
+        "apps": "17",
+        "goals": "7"
+      },
+      {
+        "season": "2022–2024",
+        "team": "Union Berlin U19",
+        "apps": "41",
+        "goals": "9"
+      },
+      {
+        "season": "2024-",
+        "team": "Fatih Karagümrük",
+        "apps": "45",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

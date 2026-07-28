@@ -2398,5 +2398,26 @@
       "Haris Hajradinovic"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 122,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en çok gol atan 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-28",
+    "targets": [
+      "Mauro Icardi",
+      "Gheorghe Hagi",
+      "Milan Baros",
+      "Victor Osimhen",
+      "Bafetimbi Gomis",
+      "Wesley Sneijder",
+      "Cevad Prekazi",
+      "Shabani Nonda",
+      "Mario Jardel",
+      "Lukas Podolski"
+    ],
+    "difficulty": "zor"
   }
 ]

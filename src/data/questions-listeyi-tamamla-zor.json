@@ -2473,7 +2473,7 @@
     "type": "player",
     "activeDate": "2026-07-27",
     "targets": [
-      
+
      "Hugo Almeida",
      "Andre Castro",
      "Ariza Makukula",
@@ -2486,6 +2486,31 @@
      "Daniel Candeias",
      "Manuel Fernandes"
 
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 121,
+    "game": "listeyi-tamamla",
+    "title": "Transfermarkt verilerine göre 2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-07-28",
+    "targets": [
+      "Nihat Kahveci",
+      "Emre Belözoğlu",
+      "Tuncay Şanlı",
+      "Gökdeniz Karadeniz",
+      "Rüştü Reçber",
+      "Necati Ateş",
+      "Fatih Tekke",
+      "Hasan Şaş",
+      "Yıldıray Baştürk",
+      "İbrahim Akın",
+      "Sabri Sarıoğlu",
+      "Servet Çetin",
+      "Okan Buruk",
+      "Ümit Davala"
     ],
     "difficulty": "zor"
   }

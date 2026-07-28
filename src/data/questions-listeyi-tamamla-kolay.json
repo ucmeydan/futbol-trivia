@@ -1884,7 +1884,27 @@
       "Brighton"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 102,
+    "game": "listeyi-tamamla",
+    "title": "Fatih Terim'in teknik direktör olarak çalıştığı kulüp takımları?",
+    "type": "team-all",
+    "activeDate": "2026-07-28",
+    "targets": [
+      "Galatasaray",
+      "Ankaragücü",
+      "Göztepe",
+      "Fiorentina",
+      "Milan",
+      "Panathinaikos",
+      "Al Shabab"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

@@ -3612,7 +3612,7 @@
   {
     "id": 98,
     "game": "kariyer-yolu",
-    "activeDate": "2026-06-27",
+    "activeDate": "2026-07-27",
     "correctPlayer": "Deniz Türüç",
     "career": [
       {
@@ -3651,6 +3651,60 @@
         "apps": "17",
         "goals": "1"
       }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 99,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-28",
+    "correctPlayer": "Alexandru Cicaldau",
+    "career": [
+      {
+        "season": "2014-2016",
+        "team": "Viitorul U19",
+        "apps": "14",
+        "goals": "5"
+      },
+      {
+        "season": "2016–2018",
+        "team": "Viitorul",
+        "apps": "49",
+        "goals": "1"
+      },
+      {
+        "season": "2018-2021",
+        "team": "Universitatea Craiova",
+        "apps": "129",
+        "goals": "33"
+      },
+      {
+        "season": "2021-2024",
+        "team": "Galatasaray",
+        "apps": "41",
+        "goals": "5"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Kalba FC (kiralık)",
+        "apps": "30",
+        "goals": "5"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Konyaspor (kiralık)",
+        "apps": "32",
+        "goals": "1"
+      },
+      {
+        "season": "2014-",
+        "team": "Universitatea Craiova",
+        "apps": "72",
+        "goals": "11"
+      }
+
+  
     ],
     "difficulty": "kolay"
   }
