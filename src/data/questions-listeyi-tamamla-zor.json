@@ -2536,6 +2536,29 @@
       "Monaco"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 123,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 1000'den fazla maça çıkan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-07-30",
+    "targets": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Ankaragücü",
+      "Trabzonspor",
+      "Bursaspor",
+      "Gençlerbirliği",
+      "Altay",
+      "Samsunspor",
+      "Antalyaspor",
+      "Gaziantepspor",
+      "Göztepe"
+    ],
+    "difficulty": "zor"
   }
 
 

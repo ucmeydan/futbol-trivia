@@ -1921,6 +1921,23 @@
       "Altay"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 104,
+    "game": "listeyi-tamamla",
+    "title": "Emre Belözoğlu'nun profesyonel futbolculuk kariyerinde forma giydiği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-07-30",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Başakşehir",
+      "Atletico Madrid",
+      "Inter",
+      "Newcastle"
+    ],
+    "difficulty": "kolay"
   }
 
 
