@@ -2049,6 +2049,27 @@
       "Gaziantepspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 103,
+    "game": "top10",
+    "title": "Galatasaray formasıyla 2025-26 sezonunda Şampiyonlar Ligi'nde en fazla süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-31",
+    "targets": [
+      "Uğurcan Çakır",
+      "Davinson Sanchez",
+      "Lucas Torreira",
+      "Barış Alper Yılmaz",
+      "Abdülkerim Bardakcı",
+      "Roland Sallai",
+      "Ismael Jakobs",
+      "Victor Osimhen",
+      "Gabriel Sara",
+      "Mario Lemina"
+    ],
+    "difficulty": "kolay"
   }
 
 

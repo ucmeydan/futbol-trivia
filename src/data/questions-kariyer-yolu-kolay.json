@@ -3805,6 +3805,34 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 102,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-31",
+    "correctPlayer": "Tugay Kerimoğlu",
+    "career": [
+      {
+        "season": "1987-2000",
+        "team": "Galatasaray",
+        "apps": "390",
+        "goals": "40"
+      },
+      {
+        "season": "2000–2001",
+        "team": "Rangers",
+        "apps": "57",
+        "goals": "4"
+      },
+      {
+        "season": "2001-2009",
+        "team": "Blackburn",
+        "apps": "294",
+        "goals": "12"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

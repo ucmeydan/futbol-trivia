@@ -2399,7 +2399,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 122,
     "game": "top10",
@@ -2420,7 +2419,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 123,
     "game": "top10",
@@ -2441,8 +2439,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 124,
     "game": "top10",
     "title": "La Liga'da en çok maça çıkan 10 Türk futbolcu?",
@@ -2461,8 +2458,25 @@
       "Mehmet Topal"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 125,
+    "game": "top10",
+    "title": "Süper Lig'de 2024-25 sezonunda en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-07-31",
+    "targets": [
+      "Victor Osimhen",
+      "Krzysztof Piatek",
+      "Youssef En Nesyri",
+      "Simon Banza",
+      "Ali Sowe",
+      "Ciro Immobile",
+      "Mame Thiam",
+      "Edin Džeko",
+      "Romulo",
+      "Nuno Da Costa"
+    ],
+    "difficulty": "zor"
   }
-
-  
-
 ]

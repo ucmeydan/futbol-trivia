@@ -2559,6 +2559,24 @@
       "Göztepe"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 124,
+    "game": "listeyi-tamamla",
+    "title": "Hem Fenerbahçe hem de Galatasaray forması giymiş yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-07-31",
+    "targets": [
+      "Haim Revivo",
+      "Elvir Bolic",
+      "Elvir Baljic",
+      "Stjepan Tomas",
+      "Garry Rodrigues",
+      "Bruma",
+      "Michy Batshuayi"
+    ],
+    "difficulty": "zor"
   }
 
 

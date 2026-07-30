@@ -4651,6 +4651,34 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 113,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-07-31",
+    "correctPlayer": "Taha Altıkardeş",
+    "career": [
+      {
+        "season": "2021-2022",
+        "team": "Bursaspor",
+        "apps": "29",
+        "goals": "0"
+      },
+      {
+        "season": "2022-2023",
+        "team": "Trabzonspor",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2023-",
+        "team": "Göztepe",
+        "apps": "87",
+        "goals": "6"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 
