@@ -3833,6 +3833,52 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 103,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-01",
+    "correctPlayer": "Mesut Özil",
+    "career": [
+      {
+        "season": "2006-2008",
+        "team": "Schalke 04",
+        "apps": "39",
+        "goals": "1"
+      },
+      {
+        "season": "2008–2010",
+        "team": "Werder Bremen",
+        "apps": "108",
+        "goals": "16"
+      },
+      {
+        "season": "2010-2013",
+        "team": "Real Madrid",
+        "apps": "159",
+        "goals": "27"
+      },
+      {
+        "season": "2013-2021",
+        "team": "Arsenal",
+        "apps": "254",
+        "goals": "44"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Fenerbahçe",
+        "apps": "37",
+        "goals": "9"
+      },
+      {
+        "season": "2022-2023",
+        "team": "Başakşehir",
+        "apps": "7",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

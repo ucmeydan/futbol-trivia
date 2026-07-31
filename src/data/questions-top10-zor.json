@@ -2478,5 +2478,25 @@
       "Nuno Da Costa"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 126,
+    "game": "top10",
+    "title": "Süper Lig'in son 10 sezonunun toplamında en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-08-01",
+    "targets": [
+      "Mbaye Diagne",
+      "Mame Thiam",
+      "Edin Visca",
+      "Emre Akbaba",
+      "Mauro Icardi",
+      "Mustapha Yatabare",
+      "Anderson Talisca",
+      "Alexandru Maxim",
+      "Cenk Tosun",
+      "Adis Jahović"
+    ],
+    "difficulty": "zor"
   }
 ]

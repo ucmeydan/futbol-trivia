@@ -2577,7 +2577,32 @@
       "Michy Batshuayi"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 125,
+    "game": "listeyi-tamamla",
+    "title": "Hem Arsenal hem de Türkiye'de 3 büyük takımdan herhangi birinin forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-01",
+    "targets": [
+     "Mesut Özil",
+     "Matteo Guendouzi",
+     "Nicolas Anelka",
+     "Robin van Persie",
+     "Andre Santos",
+     "Emmanuel Eboue",
+     "Junichi Inamoto",
+     "Lukas Podolski",
+     "Lucas Torreira",
+     "Mohamed Elneny",
+     "Gabriel Paulista",
+     "Alex Oxlade Chamberlain"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

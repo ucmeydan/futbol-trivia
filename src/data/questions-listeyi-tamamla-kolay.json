@@ -1957,6 +1957,27 @@
       "Adanaspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 106,
+    "game": "listeyi-tamamla",
+    "title": "Sergen Yalçın'ın futbolculuk kariyerinde forma giydiği takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-08-01",
+    "targets": [
+
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Trabzonspor",
+      "İstanbulspor",
+      "Eskişehirspor",
+      "Etimesgut Şekerspor",
+      "Siirt Jetpa Spor"
+      
+    ],
+    "difficulty": "kolay"
   }
 
 

@@ -4679,6 +4679,52 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 114,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-01",
+    "correctPlayer": "Hüseyin Çimşir",
+    "career": [
+      {
+        "season": "1997-2000",
+        "team": "Trabzonspor",
+        "apps": "45",
+        "goals": "1"
+      },
+      {
+        "season": "1998-1999",
+        "team": "Sakaryaspor (kiralık)",
+        "apps": "32",
+        "goals": "4"
+      },
+      {
+        "season": "2000-2002",
+        "team": "Antalyaspor",
+        "apps": "59",
+        "goals": "1"
+      },
+      {
+        "season": "2002-2009",
+        "team": "Trabzonspor",
+        "apps": "264",
+        "goals": "7"
+      },
+      {
+        "season": "2009-2011",
+        "team": "Bursaspor",
+        "apps": "52",
+        "goals": "1"
+      },
+      {
+        "season": "2012-2013",
+        "team": "Adana Demirspor",
+        "apps": "28",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 
