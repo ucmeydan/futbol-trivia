@@ -2600,6 +2600,25 @@
      "Alex Oxlade Chamberlain"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 126,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-08-03",
+    "targets": [
+      "Rapid Wien",
+      "Sparta Prag",
+      "Manchester United",
+      "PSV",
+      "Inter",
+      "CSKA Moskova",
+      "Sevilla",
+      "Chelsea"
+    ],
+    "difficulty": "zor"
   }
 
 

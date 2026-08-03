@@ -2091,6 +2091,27 @@
       "Eren Derdiyok"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 105,
+    "game": "top10",
+    "title": "Süper Lig tarihinde tüm sezonların toplamında en fazla gol yiyen 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-08-03",
+    "targets": [
+      "Ankaragücü",
+      "Gençlerbirliği",
+      "Fenerbahçe",
+      "Bursaspor",
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Altay",
+      "Antalyaspor",
+      "Samsunspor"
+    ],
+    "difficulty": "kolay"
   }
 
 

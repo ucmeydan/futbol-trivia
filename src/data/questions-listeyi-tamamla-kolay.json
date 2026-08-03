@@ -1978,6 +1978,25 @@
       
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 107,
+    "game": "listeyi-tamamla",
+    "title": "Cengiz Ünder'in kariyerinde forma giydiği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-08-03",
+    "targets": [
+      "Altınordu",
+      "Başakşehir",
+      "Roma",
+      "Leicester",
+      "Marsilya",
+      "Fenerbahçe",
+      "Los Angeles FC",
+      "Beşiktaş"
+    ],
+    "difficulty": "kolay"
   }
 
 
