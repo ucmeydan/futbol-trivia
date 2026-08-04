@@ -2619,6 +2619,35 @@
       "Chelsea"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 127,
+    "game": "listeyi-tamamla",
+    "title": "Euro 2016'da Türk Milli takımı formasıyla süre alan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-08-05",
+    "targets": [
+      "Volkan Babacan",
+      "Hakan Balta",
+      "Gökhan Gönül",
+      "Caner Erkin",
+      "Hakan Çalhanoğlu",
+      "Ozan Tufan",
+      "Yunus Mallı",
+      "İsmail Köybaşı",
+      "Nuri Şahin",
+      "Selçuk İnan",
+      "Oğuzhan Özyakup",
+      "Mehmet Topal",
+      "Emre Mor",
+      "Cenk Tosun",
+      "Arda Turan",
+      "Olcay Şahan",
+      "Burak Yılmaz",
+      "Volkan Şen"
+    ],
+    "difficulty": "zor"
   }
 
 

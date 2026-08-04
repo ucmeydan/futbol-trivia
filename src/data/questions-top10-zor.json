@@ -2519,5 +2519,26 @@
       "Ertuğrul Sağlam"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 128,
+    "game": "top10",
+    "title": "Süper Lig'de en çok maça çıkan 10 İspanyol futbolcu?",
+    "type": "player",
+    "activeDate": "2026-08-05",
+    "targets": [
+      "Juanfran (1988)",
+      "Fabri",
+      "Daniel Guiza",
+      "Albert Riera",
+      "Samuel Saiz",
+      "Roberto Soldado",
+      "Alvaro Negredo",
+      "Javi Montero",
+      "Borja Sainz",
+      "Marc Bartra"
+    ],
+    "difficulty": "zor"
   }
 ]
