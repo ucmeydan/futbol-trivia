@@ -2019,6 +2019,67 @@
       "Mauro Icardi"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 109,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın Euro 2024 son 16 turunda Avusturya'yı 2-1 mağlup ettiği maçtaki ilk 11'i?",
+    "type": "player",
+    "activeDate": "2026-08-08",
+    "targets": [
+      "Mert Günok",
+      "Mert Müldür",
+      "Merih Demiral",
+      "Abdülkerim Bardakcı",
+      "Ferdi Kadıoğlu",
+      "İsmail Yüksek",
+      "Kaan Ayhan",
+      "Barış Alper Yılmaz",
+      "Orkun Kökçü",
+      "Kenan Yıldız",
+      "Arda Güler"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 110,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın son 4 Süper Lig şampiyonluğunun tamamında kadroda yer alan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-09",
+    "targets": [
+      "Abdülkerim Bardakcı",
+      "Barış Alper Yılmaz",
+      "Lucas Torreira",
+      "Kaan Ayhan",
+      "Mauro Icardi"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 111,
+    "game": "listeyi-tamamla",
+    "title": "Türkiye'nin 2026 Dünya Kupası elemelerinde çıktığı maçlarda gol atan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-10",
+    "targets": [
+      "Kerem Aktürkoğlu",
+      "Ferdi Kadıoğlu",
+      "Mert Müldür",
+      "Kenan Yıldız",
+      "Arda Güler",
+      "İrfan Can Kahveci",
+      "Zeki Çelik",
+      "Yunus Akgün",
+      "Merih Demiral",
+      "Hakan Çalhanoğlu",
+      "Salih Özcan",
+      "Deniz Gül"
+    ],
+    "difficulty": "kolay"
   }
 
 

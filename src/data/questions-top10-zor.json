@@ -2540,5 +2540,68 @@
       "Marc Bartra"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 129,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre 2016 yılının en değerli 10 Türk futbolcusu?",
+    "type": "player",
+    "activeDate": "2026-08-08",
+    "targets": [
+      "Arda Turan",
+      "Ömer Toprak",
+      "Hakan Çalhanoğlu",
+      "Gökhan Töre",
+      "Oğuzhan Özyakup",
+      "Mehmet Topal",
+      "Caner Erkin",
+      "Yunus Mallı",
+      "Cenk Tosun",
+      "Volkan Babacan"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 130,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla maça çıkan 10 Rumen futbolcu?",
+    "type": "player",
+    "activeDate": "2026-08-09",
+    "targets": [
+      "Bogdan Stancu",
+      "Alexandru Maxim",
+      "Giani Kiriță",
+      "Gheorghe Hagi",
+      "Daniel Timofte",
+      "Silviu Lung Jr.",
+      "Dumitru Stângaciu",
+      "Daniel Pancu",
+      "Gheorghe Popescu",
+      "Cristian Săpunaru"
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 131,
+    "game": "top10",
+    "title": "TFF 1.Lig'de sezonu ilk 2 sırada tamamlayarak doğrudan Süper Lig'e yükselen son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-08-10",
+    "targets": [
+      "Erzurumspor",
+      "Amed SK",
+      "Kocaelispor",
+      "Gençlerbirliği",
+      "Eyüpspor",
+      "Göztepe",
+      "Samsunspor",
+      "Rizespor",
+      "Ankaragücü",
+      "Ümraniyespor"
+    ],
+    "difficulty": "zor"
   }
 ]

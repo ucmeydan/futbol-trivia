@@ -3106,5 +3106,95 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 109,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-08",
+    "correctPlayer": "Hamit Altıntop",
+    "teammates": [
+      {
+        "name": "Thomas Müller",
+        "info": "2008-11 yılları arasında Bayern'de birlikte oynadılar."
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2011-12 sezonunda Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Arjen Robben",
+        "info": "2009-11 yılları arasında Bayern'de birlikte oynadılar."
+      },
+      {
+        "name": "Wesley Sneijder",
+        "info": "2012-17 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2012-17 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 110,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-09",
+    "correctPlayer": "Emre Belözoğlu",
+    "teammates": [
+      {
+        "name": "Gheorghe Hagi",
+        "info": "1997-2000 yılları arasında Galatasaray'da oynadılar"
+      },
+      {
+        "name": "Ronaldo Nazario",
+        "info": "2001-02 sezonunda Inter'de oynadılar"
+      },
+      {
+        "name": "Michael Owen",
+        "info": "2005-08 yılları arasında Newcastle United'da oynadılar"
+      },
+      {
+        "name": "Robinho",
+        "info": "2018-19 sezonunda Başakşehir'de oynadılar"
+      },
+      {
+        "name": "Alex De Souza",
+        "info": "2008-13 yılları arasında Fenerbahçe'de oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+   {
+    "id": 111,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-10",
+    "correctPlayer": "Orkun Kökçü",
+    "teammates": [
+      {
+        "name": "Vangelis Pavlidis",
+        "info": "2023-25 yılları arasında Benfica'da oynadılar"
+      },
+      {
+        "name": "Robin van Persie",
+        "info": "2018-19 sezonunda Feyenoord'da oynadılar"
+      },
+      {
+        "name": "Uğurcan Çakır",
+        "info": "Milli takımda birlikte oynadılar"
+      },
+      {
+        "name": "Tammy Abraham",
+        "info": "2025-26 sezonunda Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Sebastian Szymanski",
+        "info": "2022-23 sezonunda Feyenoord'da oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

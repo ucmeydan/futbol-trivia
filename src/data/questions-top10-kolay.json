@@ -2119,7 +2119,7 @@
     "game": "top10",
     "title": "2025-26 sezonunda Fenerbahçe formasıyla en fazla maça çıkan yabancı futbolcular?",
     "type": "player",
-    "activeDate": "2026-08-05",
+    "activeDate": "2026-08-08",
     "targets": [
       "Jayden Oosterwolde",
       "Anderson Talisca",
@@ -2131,6 +2131,48 @@
       "Archie Brown",
       "Ederson",
       "Youssef En Nesyri"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 107,
+    "game": "top10",
+    "title": "2025-26 sezonunda Süper Lig'i ilk 10 sırada tamamlayan takımların mevcut teknik direktörleri?",
+    "type": "td",
+    "activeDate": "2026-08-09",
+    "targets": [
+      "Okan Buruk",
+      "İsmail Kartal",
+      "Fatih Tekke",
+      "Vincenzo Italiano",
+      "Nuri Şahin",
+      "Stanimir Stoilov",
+      "Thorsten Fink",
+      "Recep Uçar",
+      "İlhan Palut",
+      "Selçuk İnan"
+    ],
+    "difficulty": "kolay"
+  },
+
+   {
+    "id": 108,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en yüksek bonservis ödenen 10 yerli oyuncu? (Eşit bedellerde daha önce transfer edilen oyuncu üst sırada yer alır)",
+    "type": "player",
+    "activeDate": "2026-08-10",
+    "targets": [
+      "Uğurcan Çakır",
+      "Burak Yılmaz",
+      "Ahmed Kutucu",
+      "Bülent Akın",
+      "Serkan Aykut",
+      "Hasan Şaş",
+      "Tarık Çamdal",
+      "Serdar Aziz",
+      "Olcan Adın",
+      "Eren Derdiyok"
     ],
     "difficulty": "kolay"
   }

@@ -2648,6 +2648,73 @@
       "Volkan Şen"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 128,
+    "game": "listeyi-tamamla",
+    "title": "2025-26 sezonunda Süper Lig'de görev alan yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-08-08",
+    "targets": [
+      "Ole Gunnar Solskjaer",
+      "Jose Mourinho",
+      "Domenico Tedesco",
+      "Joao Pereira",
+      "Erling Moe",
+      "Mirel Radoi",
+      "Marcel Licka",
+      "Radomir Djalovic",
+      "Stanimir Stoilov",
+      "Aleksandar Stanojevic",
+      "Thomas Reis",
+      "Thorsten Fink",
+      "Markus Gisdol",
+      "Shota Arveladze"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 129,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de Bursaspor formasıyla 30 ve üzeri sayıda gol atan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-09",
+    "targets": [
+      "Okan Yılmaz",
+      "Murat Sözkesen",
+      "Pablo Batalla",
+      "Elvir Baljic",
+      "Nenad Bijedic",
+      "Fernandao",
+      "Magid Mususi",
+      "Sercan Yıldırım"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 130,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 100 ve üzeri sayıda maça çıkan Nijeryalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-10",
+    "targets": [
+      "Isaac Promise",
+      "Uche Okechukwu",
+      "Aminu Umar",
+      "Anthony Nwakaeme",
+      "David Akintola",
+      "Bright Osayi-Samuel",
+      "Raheem Lawal",
+      "Michael Eneramo",
+      "Kenneth Omeruo",
+      "Olarenwaju Kayode",
+      "Ike Shorunmu",
+      "Henry Onyekuru"
+    ],
+    "difficulty": "zor"
   }
 
 

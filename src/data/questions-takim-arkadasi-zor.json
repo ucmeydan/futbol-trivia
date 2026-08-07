@@ -3366,6 +3366,96 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 117,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-08",
+    "correctPlayer": "Cyle Larin",
+    "teammates": [
+      {
+        "name": "Kaká",
+        "info": "2015-17 yılları arasında Orlando City'de oynadılar"
+      },
+      {
+        "name": "Dorukhan Toköz",
+        "info": "2018-21 yılları arasında Beşiktaş'ta oynadılar"
+      },
+      {
+        "name": "Alphonso Davies",
+        "info": "Kanada Milli Takımı'nda birlikte oynadılar"
+      },
+      {
+        "name": "Vedat Muriqi",
+        "info": "2023-25 yılları arasında Mallorca'da oynadılar"
+      },
+      {
+        "name": "Rachid Ghezzal",
+        "info": "2020-22 yılları arasında Beşiktaş'ta oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 118,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-09",
+    "correctPlayer": "Lucas Torreira",
+    "teammates": [
+      {
+        "name": "Bruno Fernandes",
+        "info": "2016-17 sezonunda Sampdoria'da birlikte oynadılar"
+      },
+      {
+        "name": "Thomas Partey",
+        "info": "2020-21 sezonunda Atletico Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Patrik Schick",
+        "info": "2016-17 sezonunda Sampdoria'da birlikte oynadılar"
+      },
+      {
+        "name": "Matteo Guendouzi",
+        "info": "2018-20 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Dries Mertens",
+        "info": "2022-25 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 119,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-10",
+    "correctPlayer": "Valentin Rosier",
+    "teammates": [
+      {
+        "name": "Khephren Thuram",
+        "info": "2023-24 sezonunda Nice'de birlikte oynadılar"
+      },
+      {
+        "name": "Miralem Pjanic",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "info": "2019-20 sezonunda Sporting'de birlikte oynadılar"
+      },
+      {
+        "name": "Gedson Fernandes",
+        "info": "2022-24 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Ante Budimir",
+        "info": "2025-26 sezonunda Osasuna'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 
