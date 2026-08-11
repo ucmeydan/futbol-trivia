@@ -2603,5 +2603,26 @@
       "Ümraniyespor"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 132,
+    "game": "top10",
+    "title": "Serdar Gürler'in Türkiye liglerinde en çok maça çıktığı 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-08-12",
+    "targets": [
+      "Başakşehir",
+      "Elazığspor",
+      "Gençlerbirliği",
+      "Göztepe",
+      "Osmanlıspor",
+      "Konyaspor",
+      "Çorum FK",
+      "Eyüpspor",
+      "Antalyaspor",
+      "Trabzonspor"
+    ],
+    "difficulty": "zor"
   }
 ]

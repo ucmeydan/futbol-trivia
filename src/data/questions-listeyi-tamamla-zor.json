@@ -2715,6 +2715,25 @@
       "Henry Onyekuru"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 131,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray formasıyla 20 ve üzeri sayıda Şampiyonlar Ligi maçına çıkan yabancı futbolcular? ",
+    "type": "player",
+    "activeDate": "2026-08-12",
+    "targets": [
+      "Fernando Muslera",
+      "Faryd Mondragon",
+      "Gheorghe Popescu",
+      "Gheorghe Hagi",
+      "Felipe Melo",
+      "Wesley Sneijder",
+      "Claudio Taffarel",
+      "Capone"
+    ],
+    "difficulty": "zor"
   }
 
 
