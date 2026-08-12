@@ -2624,5 +2624,26 @@
       "Trabzonspor"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 133,
+    "game": "top10",
+    "title": "TFF 1.Lig'de bu sezon en yüksek seyirci ortalamasına sahip 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-08-13",
+    "targets": [
+      "Amed SK",
+      "Çorum FK",
+      "Erzurumspor",
+      "Vanspor FK",
+      "Sakaryaspor",
+      "Sivasspor",
+      "Pendikspor",
+      "Sarıyer",
+      "Bodrum FK",
+      "Manisa FK"
+    ],
+    "difficulty": "zor"
   }
 ]

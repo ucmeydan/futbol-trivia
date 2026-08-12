@@ -3226,5 +3226,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 113,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-13",
+    "correctPlayer": "Roberto Soldado",
+    "teammates": [
+      {
+        "name": "Ever Banega",
+        "info": "2010-13 yılları arasında Valencia'da birlikte oynadılar."
+      },
+      {
+        "name": "Ruud van Nistelrooy",
+        "info": "2007-08 sezonunda Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Hasan Ali Kaldırım",
+        "info": "2017-19 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Robinho",
+        "info": "2007-08 sezonunda Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Mathieu Valbuena",
+        "info": "2017-19 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

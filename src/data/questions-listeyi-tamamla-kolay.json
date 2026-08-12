@@ -2101,6 +2101,23 @@
       "Çorum FK"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 113,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde hem futbolcu hem de teknik direktör olarak şampiyonluk yaşamış isimler?",
+    "type": "td",
+    "activeDate": "2026-08-13",
+    "targets": [
+      "Ertuğrul Sağlam",
+      "Aykut Kocaman",
+      "Şenol Güneş",
+      "Okan Buruk",
+      "Sergen Yalçın",
+      "Hamza Hamzaoğlu"
+    ],
+    "difficulty": "kolay"
   }
 
 

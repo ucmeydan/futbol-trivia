@@ -2734,6 +2734,23 @@
       "Capone"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 132,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 250'den fazla maça çıkan Avrupalı yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-13",
+    "targets": [
+      "Edin Visca",
+      "Elvir Bolic",
+      "Misko Mirkovic",
+      "Roman Dabrowski",
+      "Ruud Boffin",
+      "Bogdan Stancu"
+    ],
+    "difficulty": "zor"
   }
 
 
