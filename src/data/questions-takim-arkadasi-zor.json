@@ -3516,6 +3516,36 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 122,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-14",
+    "correctPlayer": "Samet Akaydın",
+    "teammates": [
+      {
+        "name": "Mario Balotelli",
+        "info": "2021-22 sezonunda Adana Demirspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Ernest Muçi",
+        "info": "2026-27 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Yunus Akgün",
+        "info": "2021-22 sezonunda Adana Demirspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Vitor Hugo",
+        "info": "2024 yılında Panathinaikos'ta birlikte oynadılar"
+      },
+      {
+        "name": "Michy Batshuayi",
+        "info": "2022-23 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

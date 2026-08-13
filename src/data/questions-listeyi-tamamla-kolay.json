@@ -2118,7 +2118,93 @@
       "Hamza Hamzaoğlu"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 114,
+    "game": "listeyi-tamamla",
+    "type": "country",
+    "title": "Euro 2020 Avrupa Şampiyonasında yer alan ülkeler?",
+    "activeDate": "2026-08-14",
+    "targets": [
+      "İtalya",
+      "Galler",
+      "İsviçre",
+      "Türkiye",
+      "Belçika",
+      "Danimarka",
+      "Finlandiya",
+      "Rusya",
+      "Hollanda",
+      "Avusturya",
+      "Ukrayna",
+      "Kuzey Makedonya",
+      "İngiltere",
+      "Hırvatistan",
+      "Çekya",
+      "İskoçya",
+      "İsveç",
+      "İspanya",
+      "Slovakya",
+      "Polonya",
+      "Fransa",
+      "Almanya",
+      "Portekiz",
+      "Macaristan"
+    ],
+
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 115,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Avrupa Kupaları ön elemelerinde Türk takımlarının eşleştiği takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-08-15",
+    "targets": [
+      "Midtjylland",
+      "Gornik Zabrze",
+      "Hradec Kralove",
+      "Kauno Zalgiris",
+      "Lyon",
+      "Sturm Graz",
+      "Inter Turku",
+      "Ferencvaros"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 116,
+    "game": "listeyi-tamamla",
+    "type": "team-tr",
+    "title": "2026-27 sezonunda Süper Lig'de mücadele edecek takımlar?",
+    "activeDate": "2026-08-16",
+    "targets": [
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Trabzonspor",
+      "Başakşehir",
+      "Konyaspor",
+      "Alanyaspor",
+      "Gençlerbirliği",
+      "Kocaelispor",
+      "Samsunspor",
+      "Rizespor",
+      "Amed SK",
+      "Göztepe",
+      "Kasımpaşa",
+      "Erzurumspor",
+      "Eyüpspor",
+      "Çorum FK",
+      "Gaziantep FK"
+    ],
+"difficulty": "kolay"
   }
+
+
 
 
 

@@ -2217,7 +2217,51 @@
       "Demir Ege Tıknaz"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 111,
+    "game": "top10",
+    "title": "Dünya kupaları tarihinde en çok gol atan 10 ülke?",
+    "type": "country",
+    "activeDate": "2026-08-14",
+    "targets": [
+      "Brezilya",
+      "Almanya",
+      "Arjantin",
+      "Fransa",
+      "İtalya",
+      "İngiltere",
+      "İspanya",
+      "Hollanda",
+      "Uruguay",
+      "Macaristan"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 112,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-26 sezonunu ilk 10 sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-08-15",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Göztepe",
+      "Samsunspor",
+      "Rizespor",
+      "Konyaspor",
+      "Kocaelispor"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

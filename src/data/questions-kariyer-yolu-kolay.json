@@ -4141,8 +4141,171 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 111,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-14",
+    "correctPlayer": "Emin Bayram",
+    "career": [
+      {
+        "season": "2019-2019",
+        "team": "Galatasaray U19",
+        "apps": "8",
+        "goals": "1"
+      },
+      {
+        "season": "2019-2024",
+        "team": "Galatasaray",
+        "apps": "20",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Boluspor (kiralık)",
+        "apps": "40",
+        "goals": "2"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Westerlo (kiralık)",
+        "apps": "24",
+        "goals": "1"
+      },
+      {
+        "season": "2024-2026",
+        "team": "Westerlo",
+        "apps": "94",
+        "goals": "6"
+      },
+      {
+        "season": "2026-",
+        "team": "Başakşehir",
+        "apps": "2",
+        "goals": "1"
+      }
+
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 112,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-15",
+    "correctPlayer": "Arda Güler",
+    "career": [
+      {
+        "season": "2021-2021",
+        "team": "Fenerbahçe U19",
+        "apps": "30",
+        "goals": "14"
+      },
+      {
+        "season": "2021–2023",
+        "team": "Fenerbahçe",
+        "apps": "51",
+        "goals": "9"
+      },
+      {
+        "season": "2023-",
+        "team": "Real Madrid",
+        "apps": "112",
+        "goals": "18"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 113,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-16",
+    "correctPlayer": "Kelechi Iheanacho",
+    "career": [
+      {
+        "season": "2014-2015",
+        "team": "Manchester City U21",
+        "apps": "7",
+        "goals": "5"
+      },
+      {
+        "season": "2015–2017",
+        "team": "Manchester City",
+        "apps": "64",
+        "goals": "21"
+      },
+      {
+        "season": "2017-2024",
+        "team": "Leicester",
+        "apps": "232",
+        "goals": "61"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Sevilla",
+        "apps": "11",
+        "goals": "3"
+      },
+      {
+        "season": "2025-2025",
+        "team": "Middlesbrough (kiralık)",
+        "apps": "15",
+        "goals": "1"
+      },{
+        "season": "2025–2026",
+        "team": "Celtic",
+        "apps": "24",
+        "goals": "9"
+      },
+      {
+        "season": "2026-",
+        "team": "Bursaspor",
+        "apps": "1",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 114,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-17",
+    "correctPlayer": "Rıdvan Dilmen",
+    "career": [
+      {
+        "season": "1979-1981",
+        "team": "Muğlaspor",
+        "apps": "10",
+        "goals": "3"
+      },
+      {
+        "season": "1981–1983",
+        "team": "Boluspor",
+        "apps": "41",
+        "goals": "7"
+      },
+      {
+        "season": "1983-1987",
+        "team": "Sarıyer",
+        "apps": "119",
+        "goals": "29"
+      },
+      {
+        "season": "1987-1995",
+        "team": "Fenerbahçe",
+        "apps": "131",
+        "goals": "39"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
 
+  
 
 
 

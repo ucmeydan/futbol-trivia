@@ -1739,7 +1739,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 39,
     "game": "kariyer-yolu",
@@ -1773,7 +1772,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 40,
     "game": "kariyer-yolu",
@@ -1819,7 +1817,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 41,
     "game": "kariyer-yolu",
@@ -1847,7 +1844,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 42,
     "game": "kariyer-yolu",
@@ -1878,11 +1874,9 @@
         "apps": "89",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 43,
     "game": "kariyer-yolu",
@@ -1925,11 +1919,9 @@
         "apps": "13",
         "goals": "9"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 44,
     "game": "kariyer-yolu",
@@ -1972,11 +1964,9 @@
         "apps": "14",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 45,
     "game": "kariyer-yolu",
@@ -2019,11 +2009,9 @@
         "apps": "16",
         "goals": "3"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 46,
     "game": "kariyer-yolu",
@@ -2054,11 +2042,9 @@
         "apps": "29",
         "goals": "2"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 47,
     "game": "kariyer-yolu",
@@ -2089,11 +2075,9 @@
         "apps": "28",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 48,
     "game": "kariyer-yolu",
@@ -2124,11 +2108,9 @@
         "apps": "20",
         "goals": "3"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 49,
     "game": "kariyer-yolu",
@@ -2153,11 +2135,9 @@
         "apps": "14",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 50,
     "game": "kariyer-yolu",
@@ -2179,7 +2159,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 51,
     "game": "kariyer-yolu",
@@ -2204,11 +2183,9 @@
         "apps": "34",
         "goals": "1"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 52,
     "game": "kariyer-yolu",
@@ -2233,11 +2210,9 @@
         "apps": "37",
         "goals": "8"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 53,
     "game": "kariyer-yolu",
@@ -2262,11 +2237,9 @@
         "apps": "29",
         "goals": "3"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 54,
     "game": "kariyer-yolu",
@@ -2303,11 +2276,9 @@
         "apps": "105",
         "goals": "13"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 55,
     "game": "kariyer-yolu",
@@ -2335,7 +2306,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 56,
     "game": "kariyer-yolu",
@@ -2381,7 +2351,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 57,
     "game": "kariyer-yolu",
@@ -2427,7 +2396,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 58,
     "game": "kariyer-yolu",
@@ -2455,21 +2423,18 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 59,
     "game": "kariyer-yolu",
     "activeDate": "2026-05-28",
-    "correctPlayer":  "Giannis Papanikolaou",
+    "correctPlayer": "Giannis Papanikolaou",
     "career": [
-     
       {
         "season": "2015-2016",
         "team": "Platanias U20",
         "apps": "42",
         "goals": "9"
       },
-    
       {
         "season": "2016-2019",
         "team": "Platanias",
@@ -2488,19 +2453,15 @@
         "apps": "118",
         "goals": "8"
       },
-
       {
         "season": "2024-",
         "team": "Rizespor",
         "apps": "56",
         "goals": "4"
       }
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 60,
     "game": "kariyer-yolu",
@@ -2528,7 +2489,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 61,
     "game": "kariyer-yolu",
@@ -2568,7 +2528,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 62,
     "game": "kariyer-yolu",
@@ -2608,7 +2567,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 63,
     "game": "kariyer-yolu",
@@ -2651,11 +2609,9 @@
         "apps": "129",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 64,
     "game": "kariyer-yolu",
@@ -2695,7 +2651,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 65,
     "game": "kariyer-yolu",
@@ -2738,11 +2693,9 @@
         "apps": "27",
         "goals": "1"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 66,
     "game": "kariyer-yolu",
@@ -2785,11 +2738,9 @@
         "apps": "8",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 67,
     "game": "kariyer-yolu",
@@ -2820,11 +2771,9 @@
         "apps": "27",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 68,
     "game": "kariyer-yolu",
@@ -2882,7 +2831,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 69,
     "game": "kariyer-yolu",
@@ -2910,7 +2858,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 70,
     "game": "kariyer-yolu",
@@ -2956,7 +2903,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 71,
     "game": "kariyer-yolu",
@@ -2987,12 +2933,9 @@
         "apps": "68",
         "goals": "1"
       }
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 72,
     "game": "kariyer-yolu",
@@ -3038,8 +2981,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 73,
     "game": "kariyer-yolu",
     "activeDate": "2026-06-11",
@@ -3078,7 +3020,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 74,
     "game": "kariyer-yolu",
@@ -3124,7 +3065,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 75,
     "game": "kariyer-yolu",
@@ -3158,7 +3098,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 76,
     "game": "kariyer-yolu",
@@ -3204,7 +3143,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 77,
     "game": "kariyer-yolu",
@@ -3244,7 +3182,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 78,
     "game": "kariyer-yolu",
@@ -3266,7 +3203,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 79,
     "game": "kariyer-yolu",
@@ -3306,7 +3242,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 80,
     "game": "kariyer-yolu",
@@ -3346,7 +3281,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 81,
     "game": "kariyer-yolu",
@@ -3380,8 +3314,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 82,
     "game": "kariyer-yolu",
     "activeDate": "2026-06-23",
@@ -3432,7 +3365,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 83,
     "game": "kariyer-yolu",
@@ -3466,7 +3398,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 84,
     "game": "kariyer-yolu",
@@ -3500,7 +3431,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 85,
     "game": "kariyer-yolu",
@@ -3528,7 +3458,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 86,
     "game": "kariyer-yolu",
@@ -3539,7 +3468,7 @@
         "season": "1992–2000",
         "team": "Samsunspor",
         "apps": "227",
-        "goals": "131" 
+        "goals": "131"
       },
       {
         "season": "2000-2002",
@@ -3556,8 +3485,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 87,
     "game": "kariyer-yolu",
     "activeDate": "2026-06-28",
@@ -3567,7 +3495,7 @@
         "season": "2004–2008",
         "team": "Karşıyaka",
         "apps": "18",
-        "goals": "0" 
+        "goals": "0"
       },
       {
         "season": "2008-2019",
@@ -3578,7 +3506,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 88,
     "game": "kariyer-yolu",
@@ -3589,7 +3516,7 @@
         "season": "1999–2002",
         "team": "St. Pauli",
         "apps": "39",
-        "goals": "1" 
+        "goals": "1"
       },
       {
         "season": "2002-2004",
@@ -3601,7 +3528,7 @@
         "season": "2004–2010",
         "team": "Fenerbahçe",
         "apps": "110",
-        "goals": "2" 
+        "goals": "2"
       },
       {
         "season": "2010-2014",
@@ -3612,8 +3539,7 @@
     ],
     "difficulty": "zor"
   },
-
-    {
+  {
     "id": 89,
     "game": "kariyer-yolu",
     "activeDate": "2026-06-30",
@@ -3646,7 +3572,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 90,
     "game": "kariyer-yolu",
@@ -3683,11 +3608,9 @@
         "apps": "33",
         "goals": "13"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 91,
     "game": "kariyer-yolu",
@@ -3724,11 +3647,9 @@
         "apps": "46",
         "goals": "2"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 92,
     "game": "kariyer-yolu",
@@ -3759,11 +3680,9 @@
         "apps": "17",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 93,
     "game": "kariyer-yolu",
@@ -3803,8 +3722,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 94,
     "game": "kariyer-yolu",
     "activeDate": "2026-07-06",
@@ -3843,7 +3761,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 95,
     "game": "kariyer-yolu",
@@ -3907,8 +3824,7 @@
     ],
     "difficulty": "zor"
   },
-
-    {
+  {
     "id": 96,
     "game": "kariyer-yolu",
     "activeDate": "2026-07-09",
@@ -3959,8 +3875,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 97,
     "game": "kariyer-yolu",
     "activeDate": "2026-07-10",
@@ -3987,8 +3902,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 98,
     "game": "kariyer-yolu",
     "activeDate": "2026-07-11",
@@ -4033,9 +3947,7 @@
     ],
     "difficulty": "zor"
   },
-
-
-   {
+  {
     "id": 99,
     "game": "kariyer-yolu",
     "activeDate": "2026-07-12",
@@ -4080,8 +3992,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 100,
     "game": "kariyer-yolu",
     "activeDate": "2026-07-13",
@@ -4129,11 +4040,9 @@
         "apps": "29",
         "goals": "1"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 101,
     "game": "kariyer-yolu",
@@ -4176,12 +4085,10 @@
         "apps": "133",
         "goals": "4"
       }
-
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 102,
     "game": "kariyer-yolu",
     "activeDate": "2026-07-15",
@@ -4232,7 +4139,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 103,
     "game": "kariyer-yolu",
@@ -4278,7 +4184,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 104,
     "game": "kariyer-yolu",
@@ -4327,11 +4232,9 @@
         "apps": "42",
         "goals": "1"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 105,
     "game": "kariyer-yolu",
@@ -4377,7 +4280,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 106,
     "game": "kariyer-yolu",
@@ -4411,7 +4313,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 107,
     "game": "kariyer-yolu",
@@ -4445,7 +4346,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 108,
     "game": "kariyer-yolu",
@@ -4482,11 +4382,9 @@
         "apps": "32",
         "goals": "11"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 109,
     "game": "kariyer-yolu",
@@ -4526,7 +4424,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 110,
     "game": "kariyer-yolu",
@@ -4554,7 +4451,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 111,
     "game": "kariyer-yolu",
@@ -4606,7 +4502,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 112,
     "game": "kariyer-yolu",
@@ -4652,8 +4547,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 113,
     "game": "kariyer-yolu",
     "activeDate": "2026-07-31",
@@ -4680,8 +4574,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 114,
     "game": "kariyer-yolu",
     "activeDate": "2026-08-01",
@@ -4726,7 +4619,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 115,
     "game": "kariyer-yolu",
@@ -4760,7 +4652,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 116,
     "game": "kariyer-yolu",
@@ -4806,7 +4697,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 117,
     "game": "kariyer-yolu",
@@ -4846,7 +4736,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 118,
     "game": "kariyer-yolu",
@@ -4886,8 +4775,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 119,
     "game": "kariyer-yolu",
     "activeDate": "2026-05-15",
@@ -4917,11 +4805,9 @@
         "apps": "39",
         "goals": "3"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 120,
     "game": "kariyer-yolu",
@@ -4952,11 +4838,9 @@
         "apps": "28",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 121,
     "game": "kariyer-yolu",
@@ -4987,42 +4871,127 @@
         "apps": "21",
         "goals": "3"
       }
-
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 122,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-14",
+    "correctPlayer": "Salih Malkoçoğlu",
+    "career": [
+      {
+        "season": "2022-2024",
+        "team": "Trabzonspor U19",
+        "apps": "47",
+        "goals": "4"
+      },
+      {
+        "season": "2024-2026",
+        "team": "Trabzonspor",
+        "apps": "22",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Al Jazira",
+        "apps": "1",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 123,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-15",
+    "correctPlayer": "Matchoi Djaló",
+    "career": [
+      {
+        "season": "2019-2024",
+        "team": "Pacos Ferreira",
+        "apps": "95",
+        "goals": "10"
+      },
+      {
+        "season": "2024-",
+        "team": "Başakşehir",
+        "apps": "11",
+        "goals": "0"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Wisla Plock (kiralık)",
+        "apps": "19",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 124,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-16",
+    "correctPlayer": "Aykut Erçetin",
+    "career": [
+      {
+        "season": "2002-2003",
+        "team": "Stuttgart II",
+        "apps": "2",
+        "goals": "0"
+      },
+      {
+        "season": "2003-2014",
+        "team": "Galatasaray",
+        "apps": "76",
+        "goals": "0"
+      },
+      {
+        "season": "2014-2015",
+        "team": "Rizespor",
+        "apps": "10",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 125,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-17",
+    "correctPlayer": "Emir Kaan Gültekin",
+    "career": [
+      {
+        "season": "2017-2018",
+        "team": "Mersin İdman Yurdu",
+        "apps": "27",
+        "goals": "2"
+      },
+      {
+        "season": "2018-2020",
+        "team": "Tarsus İdman Yurdu",
+        "apps": "12",
+        "goals": "0"
+      },
+      {
+        "season": "2020-2026",
+        "team": "İstanbulspor",
+        "apps": "149",
+        "goals": "30"
+      },
+      {
+        "season": "2020-2021",
+        "team": "Isparta 32 Spor (kiralık)",
+        "apps": "36",
+        "goals": "19"
+      },
+      {
+        "season": "2026-",
+        "team": "Bursaspor",
+        "apps": "13",
+        "goals": "3"
+      }
     ],
     "difficulty": "zor"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

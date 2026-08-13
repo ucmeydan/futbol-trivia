@@ -2325,15 +2325,13 @@
     "type": "player",
     "activeDate": "2026-07-18",
     "targets": [
-     
-     "Timothy Castagne",
-     "Youri Tielemans",
-     "Kevin De Bruyne",
-     "Romelu Lukaku",
-     "Jeremy Doku",
-     "Thibaut Courtois",
-     "Hans Vanaken"
-
+      "Timothy Castagne",
+      "Youri Tielemans",
+      "Kevin De Bruyne",
+      "Romelu Lukaku",
+      "Jeremy Doku",
+      "Thibaut Courtois",
+      "Hans Vanaken"
     ],
     "difficulty": "zor"
   },
@@ -2401,8 +2399,6 @@
     ],
     "difficulty": "zor"
   },
- 
-
   {
     "id": 117,
     "game": "listeyi-tamamla",
@@ -2410,27 +2406,26 @@
     "type": "team-tr",
     "activeDate": "2026-07-23",
     "targets": [
-     "Ankaragücü",
-     "Gençlerbirliği",
-     "Hacettepe",
-     "Ankaraspor",
-     "Ankara Demirspor",
-     "Eskişehirspor",
-     "Konyaspor",
-     "Kayserispor",
-     "Kayseri Erciyesspor",
-     "Sivasspor",
-     "Yozgatspor",
-     "PTT",
-     "Şekerspor",
-     "Keçiörengücü",
-     "Petrolofisi",
-     "Kırıkkalespor"
-
+      "Ankaragücü",
+      "Gençlerbirliği",
+      "Hacettepe",
+      "Ankaraspor",
+      "Ankara Demirspor",
+      "Eskişehirspor",
+      "Konyaspor",
+      "Kayserispor",
+      "Kayseri Erciyesspor",
+      "Sivasspor",
+      "Yozgatspor",
+      "PTT",
+      "Şekerspor",
+      "Keçiörengücü",
+      "Petrolofisi",
+      "Kırıkkalespor"
     ],
     "difficulty": "zor"
   },
-   {
+  {
     "id": 118,
     "game": "listeyi-tamamla",
     "title": "21.yüzyılda Trabzonspor'un başında maça çıkmış tüm yabancı teknik direktörler?",
@@ -2447,7 +2442,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 119,
     "game": "listeyi-tamamla",
@@ -2455,17 +2449,16 @@
     "type": "player",
     "activeDate": "2026-07-26",
     "targets": [
-     "Ryan Babel",
-     "Wesley Sneijder",
-     "Jeremain Lens",
-     "Dirk Kuyt",
-     "Rick Van Drongelen",
-     "Sander Van de Streek",
-     "Leroy Fer"
+      "Ryan Babel",
+      "Wesley Sneijder",
+      "Jeremain Lens",
+      "Dirk Kuyt",
+      "Rick Van Drongelen",
+      "Sander Van de Streek",
+      "Leroy Fer"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 120,
     "game": "listeyi-tamamla",
@@ -2473,23 +2466,20 @@
     "type": "player",
     "activeDate": "2026-07-27",
     "targets": [
-
-     "Hugo Almeida",
-     "Andre Castro",
-     "Ariza Makukula",
-     "Ricardo Quaresma",
-     "Miguel Cardoso",
-     "Edinho",
-     "Rafa Silva",
-     "Ricardo Vaz Te",
-     "Gedson Fernandes",
-     "Daniel Candeias",
-     "Manuel Fernandes"
-
+      "Hugo Almeida",
+      "Andre Castro",
+      "Ariza Makukula",
+      "Ricardo Quaresma",
+      "Miguel Cardoso",
+      "Edinho",
+      "Rafa Silva",
+      "Ricardo Vaz Te",
+      "Gedson Fernandes",
+      "Daniel Candeias",
+      "Manuel Fernandes"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 121,
     "game": "listeyi-tamamla",
@@ -2514,7 +2504,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 122,
     "game": "listeyi-tamamla",
@@ -2537,8 +2526,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 123,
     "game": "listeyi-tamamla",
     "title": "Süper Lig tarihinde 1000'den fazla maça çıkan takımlar?",
@@ -2560,7 +2548,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 124,
     "game": "listeyi-tamamla",
@@ -2578,7 +2565,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 125,
     "game": "listeyi-tamamla",
@@ -2586,22 +2572,21 @@
     "type": "player",
     "activeDate": "2026-08-01",
     "targets": [
-     "Mesut Özil",
-     "Matteo Guendouzi",
-     "Nicolas Anelka",
-     "Robin van Persie",
-     "Andre Santos",
-     "Emmanuel Eboue",
-     "Junichi Inamoto",
-     "Lukas Podolski",
-     "Lucas Torreira",
-     "Mohamed Elneny",
-     "Gabriel Paulista",
-     "Alex Oxlade Chamberlain"
+      "Mesut Özil",
+      "Matteo Guendouzi",
+      "Nicolas Anelka",
+      "Robin van Persie",
+      "Andre Santos",
+      "Emmanuel Eboue",
+      "Junichi Inamoto",
+      "Lukas Podolski",
+      "Lucas Torreira",
+      "Mohamed Elneny",
+      "Gabriel Paulista",
+      "Alex Oxlade Chamberlain"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 126,
     "game": "listeyi-tamamla",
@@ -2620,8 +2605,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 127,
     "game": "listeyi-tamamla",
     "title": "Euro 2016'da Türk Milli takımı formasıyla süre alan oyuncular?",
@@ -2649,7 +2633,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 128,
     "game": "listeyi-tamamla",
@@ -2674,7 +2657,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 129,
     "game": "listeyi-tamamla",
@@ -2693,7 +2675,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 130,
     "game": "listeyi-tamamla",
@@ -2716,7 +2697,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 131,
     "game": "listeyi-tamamla",
@@ -2735,7 +2715,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 132,
     "game": "listeyi-tamamla",
@@ -2751,13 +2730,72 @@
       "Bogdan Stancu"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 133,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "3 büyük takımın herhangi birinde oynamış Portekizli futbolcular?",
+    "activeDate": "2026-08-14",
+    "targets": [
+      "Ricardo Quaresma",
+      "Simao Sabrosa",
+      "Manuel Fernandes",
+      "Hugo Almeida",
+      "Julio Alves",
+      "Pepe",
+      "Pedro Rebocho",
+      "Gedson Fernandes",
+      "Rafa Silva",
+      "Joao Mario",
+      "Tiago Djalo",
+      "Jota Silva",
+      "Dimas",
+      "Raul Meireles",
+      "Bruno Alves",
+      "Nani",
+      "Luis Neto",
+      "Miguel Crespo",
+      "Bruma",
+      "Nelson Semedo",
+      "Abel Xavier",
+      "Fernando Meira",
+      "Josue",
+      "Sergio Oliveira"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 134,
+    "type": "player",
+    "game": "listeyi-tamamla",
+    "title": "Hem Başakşehir FK (İBB) hem Galatasaray'da oynamış futbolcular?",
+    "activeDate": "2026-08-15",
+    "targets": [
+      "Necati Ateş",
+      "Yalçın Ayhan",
+      "Mehmet Batdal",
+      "Emre Belözoğlu",
+      "Okan Buruk",
+      "Ufuk Ceylan",
+      "Aurelien Chedjou",
+      "Tolga Ciğerci",
+      "Leo Dubois",
+      "Alparslan Erdem",
+      "Caner Erkin",
+      "Cihan Haspolatlı",
+      "Kazımcan Karataş",
+      "Mert Korkmaz",
+      "Ahmed Kutucu",
+      "Erman Kılıç",
+      "Mehmet Topal",
+      "Arda Turan",
+      "Uğur Uçar",
+      "Aydın Yılmaz",
+      "Emre Çolak",
+      "Şener Özbayraklı",
+      "Ferhat Öztorun"
+    ],
+    "difficulty": "zor"
   }
-
-
-
-
-
-
-
-
 ]

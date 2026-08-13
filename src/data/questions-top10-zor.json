@@ -2645,5 +2645,51 @@
       "Manisa FK"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 134,
+    "game": "top10",
+    "title": "İspanya'nın 2026 Dünya Kupası maçlarında en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-08-14",
+    "targets": [
+      "Unai Simon",
+      "Marc Cucurella",
+      "Pau Cubarsi",
+      "Aymeric Laporte",
+      "Rodri",
+      "Lamine Yamal",
+      "Mikel Oyarzabal",
+      "Pedro Porro",
+      "Pedri",
+      "Dani Olmo"
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 135,
+    "game": "top10",
+    "title": "2025-26 sezonunda Şampiyonlar Ligi lig aşamasını ilk 10 sırada tamamlayan takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-08-15",
+    "targets": [
+      "Arsenal",
+      "Bayern Münih",
+      "Liverpool",
+      "Tottenham",
+      "Barcelona",
+      "Chelsea",
+      "Sporting",
+      "Manchester City",
+      "Real Madrid",
+      "Inter"
+    ],
+    "difficulty": "zor"
   }
+
+  
+
+
 ]
