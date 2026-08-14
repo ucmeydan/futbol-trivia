@@ -377,6 +377,35 @@
     "difficulty": "kolay"
   },
   {
+    "id": 14,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-04-24",
+    "correctPlayer": "Pepe",
+    "teammates": [
+      {
+        "name": "Karim Benzema",
+        "info": "2008-17 yılları arasında Real Madrid'de birlikte oynadılar."
+      },
+      {
+        "name": "Alvaro Negredo",
+        "info": "2017-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Mehdi Taremi",
+        "info": "2020-24 yılları arasında Porto'da birlikte oynadılar"
+      },
+      {
+        "name": "Domagoj Vida",
+        "info": "2017-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Luka Modric",
+        "info": "2012-17 yılları arasında Real Madrid'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
     "id": 15,
     "game": "takim-arkadasi",
     "activeDate": "2026-04-25",
@@ -2957,7 +2986,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 104,
     "game": "takim-arkadasi",
@@ -2987,7 +3015,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 105,
     "game": "takim-arkadasi",
@@ -3017,7 +3044,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 106,
     "game": "takim-arkadasi",
@@ -3047,8 +3073,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 107,
     "game": "takim-arkadasi",
     "activeDate": "2026-08-03",
@@ -3077,8 +3102,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 108,
     "game": "takim-arkadasi",
     "activeDate": "2026-08-05",
@@ -3107,7 +3131,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 109,
     "game": "takim-arkadasi",
@@ -3137,7 +3160,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 110,
     "game": "takim-arkadasi",
@@ -3167,8 +3189,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 111,
     "game": "takim-arkadasi",
     "activeDate": "2026-08-10",
@@ -3197,7 +3218,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 112,
     "game": "takim-arkadasi",
@@ -3227,7 +3247,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 113,
     "game": "takim-arkadasi",
@@ -3257,7 +3276,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 114,
     "game": "takim-arkadasi",
@@ -3287,7 +3305,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 115,
     "game": "takim-arkadasi",
@@ -3317,7 +3334,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 116,
     "game": "takim-arkadasi",
@@ -3347,7 +3363,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 117,
     "game": "takim-arkadasi",
@@ -3377,8 +3392,4 @@
     ],
     "difficulty": "kolay"
   }
-
-
-
-
 ]
