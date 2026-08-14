@@ -2202,7 +2202,31 @@
       "Gaziantep FK"
     ],
 "difficulty": "kolay"
+  },
+
+  {
+    "id": 117,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "2026-27 sezonunda Fenerbahçe'nin Sturm Graz'ı deplasmanda 1-0 mağlup ettiği maçtaki ilk 11'i?",
+    "activeDate": "2026-08-17",
+    "targets": [
+      "Mert Günok",
+      "Archie Brown",
+      "Nathan Ake",
+      "Milan Skriniar",
+      "Nelson Semedo",
+      "N'golo Kante",
+      "Matteo Guendouzi",
+      "Marco Asensio",
+      "Kerem Aktürkoğlu",
+      "Mason Greenwood",
+      "Anderson Talisca"
+    ],
+"difficulty": "kolay"
   }
+
+
 
 
 

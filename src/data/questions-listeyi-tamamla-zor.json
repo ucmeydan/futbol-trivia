@@ -2739,7 +2739,7 @@
     "activeDate": "2026-08-14",
     "targets": [
       "Ricardo Quaresma",
-      "Simao Sabrosa",
+      "Simão Sabrosa",
       "Manuel Fernandes",
       "Hugo Almeida",
       "Julio Alves",
@@ -2747,7 +2747,7 @@
       "Pedro Rebocho",
       "Gedson Fernandes",
       "Rafa Silva",
-      "Joao Mario",
+      "João Mário",
       "Tiago Djalo",
       "Jota Silva",
       "Dimas",
@@ -2757,7 +2757,7 @@
       "Luis Neto",
       "Miguel Crespo",
       "Bruma",
-      "Nelson Semedo",
+      "Nélson Semedo",
       "Abel Xavier",
       "Fernando Meira",
       "Josue",
@@ -2795,6 +2795,67 @@
       "Emre Çolak",
       "Şener Özbayraklı",
       "Ferhat Öztorun"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 135,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "Hem Liverpool hem de Süper Lig'deki 3 büyük takımdan herhangi birinde oynamış futbolcular?",
+    "activeDate": "2026-08-16",
+    "targets": [
+      "Nicolas Anelka",
+      "Ryan Kent",
+      "Dirk Kuyt",
+      "Lazar Markovic",
+      "Victor Moses",
+      "Martin Skrtel",
+      "Raul Meireles",
+      "Loris Karius",
+      "Alex Oxlade Chamberlain",
+      "Ryan Babel",
+      "Milan Baros",
+      "Emiliano Insua",
+      "Ozan Kabak",
+      "Harry Kewell",
+      "Albert Riera",
+      "Rigobert Song",
+      "Abel Xavier"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 136,
+    "game": "listeyi-tamamla",
+    "title": "Ricardo Quaresma'nın futbolculuk kariyerinde formasını giydiği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-08-17",
+    "targets": [
+      "Sporting",
+      "Barcelona",
+      "Porto",
+      "Chelsea",
+      "Inter",
+      "Beşiktaş",
+      "Al Ahli (BAE)",
+      "Vitoria Guimaraes",
+      "Kasımpaşa"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 137,
+    "game": "listeyi-tamamla",
+    "title": "2025/26 sezonunda Süper Lig'de gol atan 35 yaş ve üzeri futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-18",
+    "targets": [
+      "Alexandru Maxim",
+      "Güray Vural",
+      "İlkay Gündoğan",
+      "N'golo Kante",
+      "Veysel Sarı"
     ],
     "difficulty": "zor"
   }

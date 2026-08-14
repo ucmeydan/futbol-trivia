@@ -2687,7 +2687,53 @@
       "Inter"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 136,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre 2010 yılının en değerli 10 Türk futbolcusu?",
+    "type": "player",
+    "activeDate": "2026-08-16",
+    "targets": [
+      "Arda Turan",
+      "Nuri Şahin",
+      "Emre Belözoğlu",
+      "Mevlüt Erdinç",
+      "Volkan Demirel",
+      "Servet Çetin",
+      "Gökdeniz Karadeniz",
+      "Gökhan Gönül",
+      "Tuncay Şanlı",
+      "Mehmet Topal"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 137,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-26 sezonunda en çok sarı kart gören takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-08-17",
+    "targets": [
+
+      "Gaziantep FK",
+      "Antalyaspor",
+      "Kayserispor",
+      "Fenerbahçe",
+      "Konyaspor",
+      "Alanyaspor",
+      "Kasımpaşa",
+      "Kocaelispor",
+      "Göztepe",
+      "Rizespor"
+      
+    ],
+    "difficulty": "zor"
   }
+
+
 
   
 

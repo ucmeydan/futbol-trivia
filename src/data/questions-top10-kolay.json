@@ -2259,6 +2259,48 @@
       "Kocaelispor"
     ],
     "difficulty": "kolay"
+  },
+
+    {
+    "id": 113,
+    "game": "top10",
+    "title": "Milli takımımızın Avrupa şampiyonalarında karşılaştığı son 10 ülke?",
+    "type": "country",
+    "activeDate": "2026-08-16",
+    "targets": [
+      "Hollanda",
+      "Avusturya",
+      "Çekya",
+      "Portekiz",
+      "Gürcistan",
+      "İsviçre",
+      "Galler",
+      "İtalya",
+      "İspanya",
+      "Hırvatistan"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 114,
+    "game": "top10",
+    "title": "2025/26 sezonunda Süper Lig'i ilk 10 sırada tamamlayan takımların mevcut teknik direktörleri?",
+    "type": "td",
+    "activeDate": "2026-08-17",
+    "targets": [
+      "Okan Buruk",
+      "İsmail Kartal",
+      "Fatih Tekke",
+      "Vincenzo Italiano",
+      "Nuri Şahin",
+      "Stanimir Stoilov",
+      "Thorsten Fink",
+      "Recep Uçar",
+      "İlhan Palut",
+      "Selçuk İnan"
+    ],
+    "difficulty": "kolay"
   }
 
 
