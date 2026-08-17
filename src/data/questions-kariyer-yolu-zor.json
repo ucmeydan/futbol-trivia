@@ -4993,5 +4993,52 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 126,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-18",
+    "correctPlayer": "Alban Lafont",
+    "career": [
+      {
+        "season": "2015-2018",
+        "team": "Toulouse",
+        "apps": "106",
+        "goals": "2"
+      },
+      {
+        "season": "2018-2021",
+        "team": "Fiorentina",
+        "apps": "38",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2021",
+        "team": "Nantes (kiralık)",
+        "apps": "69",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2025",
+        "team": "Nantes",
+        "apps": "129",
+        "goals": "0"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Panathinaikos (kiralık)",
+        "apps": "37",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Amed SK",
+        "apps": "1",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 ]

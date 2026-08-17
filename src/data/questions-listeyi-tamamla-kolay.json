@@ -1864,7 +1864,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 101,
     "game": "listeyi-tamamla",
@@ -1872,7 +1871,6 @@
     "type": "team-eu",
     "activeDate": "2026-07-27",
     "targets": [
-      
       "Arsenal",
       "Manchester City",
       "Manchester United",
@@ -1885,8 +1883,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 102,
     "game": "listeyi-tamamla",
     "title": "Fatih Terim'in teknik direktör olarak çalıştığı kulüp takımları?",
@@ -1903,8 +1900,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 103,
     "game": "listeyi-tamamla",
     "title": "Süper Lig tarihinde 40 sezondan fazla mücadele eden takımlar?",
@@ -1922,7 +1918,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 104,
     "game": "listeyi-tamamla",
@@ -1939,7 +1934,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 105,
     "game": "listeyi-tamamla",
@@ -1958,7 +1952,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 106,
     "game": "listeyi-tamamla",
@@ -1966,7 +1959,6 @@
     "type": "team-tr",
     "activeDate": "2026-08-01",
     "targets": [
-
       "Beşiktaş",
       "Fenerbahçe",
       "Galatasaray",
@@ -1975,11 +1967,9 @@
       "Eskişehirspor",
       "Etimesgut Şekerspor",
       "Siirt Jetpa Spor"
-      
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 107,
     "game": "listeyi-tamamla",
@@ -1998,7 +1988,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 108,
     "game": "listeyi-tamamla",
@@ -2020,7 +2009,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 109,
     "game": "listeyi-tamamla",
@@ -2042,7 +2030,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 110,
     "game": "listeyi-tamamla",
@@ -2058,7 +2045,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 111,
     "game": "listeyi-tamamla",
@@ -2081,7 +2067,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 112,
     "game": "listeyi-tamamla",
@@ -2102,7 +2087,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 113,
     "game": "listeyi-tamamla",
@@ -2119,7 +2103,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 114,
     "game": "listeyi-tamamla",
@@ -2152,10 +2135,8 @@
       "Portekiz",
       "Macaristan"
     ],
-
     "difficulty": "kolay"
   },
-
   {
     "id": 115,
     "game": "listeyi-tamamla",
@@ -2174,7 +2155,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 116,
     "game": "listeyi-tamamla",
@@ -2201,9 +2181,8 @@
       "Çorum FK",
       "Gaziantep FK"
     ],
-"difficulty": "kolay"
+    "difficulty": "kolay"
   },
-
   {
     "id": 117,
     "game": "listeyi-tamamla",
@@ -2223,14 +2202,23 @@
       "Mason Greenwood",
       "Anderson Talisca"
     ],
-"difficulty": "kolay"
+    "difficulty": "kolay"
+  },
+  {
+    "id": 118,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerlerinde hem Galatasaray hem de Real Madrid'de forma giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-18",
+    "targets": [
+      "Gheorghe Hagi",
+      "Wesley Sneijder",
+      "Álvaro Morata",
+      "Hamit Altıntop",
+      "Jose Rodriguez",
+      "Elvir Baljic",
+      "Flavio Conceicao"
+    ],
+    "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-
 ]

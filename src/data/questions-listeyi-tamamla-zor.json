@@ -2858,5 +2858,35 @@
       "Veysel Sarı"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 138,
+    "game": "listeyi-tamamla",
+    "title": "2026-27 sezonunda TFF 1.Lig'de mücadele edecek takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-08-18",
+    "targets": [
+      "Antalyaspor",
+      "Bursaspor",
+      "Bodrum FK",
+      "Kayserispor",
+      "Sivasspor",
+      "Fatih Karagümrük",
+      "Manisa FK",
+      "Iğdır FK",
+      "İstanbulspor",
+      "Bandırmaspor",
+      "Batman Petrolspor",
+      "Pendikspor",
+      "Vanspor FK",
+      "Keçiörengücü",
+      "Sarıyer",
+      "Esenler Erokspor",
+      "Ümraniyespor",
+      "Mardin 1969",
+      "Muğlaspor",
+      "Boluspor"
+    ],
+    "difficulty": "zor"
   }
 ]

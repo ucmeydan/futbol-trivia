@@ -2301,6 +2301,27 @@
       "Selçuk İnan"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 115,
+    "game": "top10",
+    "title": "Süper Lig'in 1.haftasını ilk 10 sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-08-18",
+    "targets": [
+      "Amed SK",
+      "Başakşehir",
+      "Gençlerbirliği",
+      "Beşiktaş",
+      "Rizespor",
+      "Göztepe",
+      "Samsunspor",
+      "Çorum FK",
+      "Galatasaray",
+      "Alanyaspor"
+    ],
+    "difficulty": "kolay"
   }
 
 

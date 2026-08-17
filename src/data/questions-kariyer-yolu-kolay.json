@@ -4303,6 +4303,48 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 115,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-18",
+    "correctPlayer": "Kassoum Ouattara",
+    "career": [
+      {
+        "season": "2020-2021",
+        "team": "Amiens U19",
+        "apps": "16",
+        "goals": "1"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Amiens B",
+        "apps": "22",
+        "goals": "1"
+      },
+      {
+        "season": "2022-2023",
+        "team": "Amiens",
+        "apps": "22",
+        "goals": "0"
+      },
+      {
+        "season": "2023-2026",
+        "team": "Monaco",
+        "apps": "57",
+        "goals": "1"
+      },
+      {
+        "season": "2026-",
+        "team": "Beşiktaş",
+        "apps": "3",
+        "goals": "0"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
 
   
