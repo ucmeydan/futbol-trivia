@@ -2322,6 +2322,27 @@
       "Alanyaspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 116,
+    "game": "top10",
+    "title": "Süper Lig'de sezonu 3.sırada bitiren son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-08-19",
+    "targets": [
+      "Trabzonspor",
+      "Samsunspor",
+      "Beşiktaş",
+      "Konyaspor",
+      "Fenerbahçe",
+      "Başakşehir",
+      "Bursaspor",
+      "Galatasaray",
+      "Gençlerbirliği",
+      "Gaziantepspor"
+    ],
+    "difficulty": "kolay"
   }
 
 

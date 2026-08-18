@@ -4345,6 +4345,34 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 116,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-19",
+    "correctPlayer": "Uchenna Ogundu",
+    "career": [
+      {
+        "season": "2024-2025",
+        "team": "Şanlıurfaspor",
+        "apps": "19",
+        "goals": "6"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Alanyaspor",
+        "apps": "20",
+        "goals": "3"
+      },
+      {
+        "season": "2026-",
+        "team": "Augsburg",
+        "apps": "5",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
   

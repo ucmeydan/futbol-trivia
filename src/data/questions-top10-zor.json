@@ -2752,6 +2752,27 @@
       "Bruno Petkovic"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 139,
+    "game": "top10",
+    "title": "Emre Belözoğlu'nun profesyonel kulüp kariyeri boyunca, idaresinde en fazla maça çıktığı 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-08-19",
+    "targets": [
+      "Abdullah Avcı",
+      "Fatih Terim",
+      "Aykut Kocaman",
+      "Hector Cuper",
+      "Glenn Roeder",
+      "Christoph Daum",
+      "Ersun Yanal",
+      "Mircea Lucescu",
+      "Luis Aragones",
+      "İsmail Kartal"
+    ],
+    "difficulty": "zor"
   }
 
 

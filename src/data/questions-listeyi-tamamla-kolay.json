@@ -2220,5 +2220,26 @@
       "Flavio Conceicao"
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 119,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın Dünya Kupası'nda Avustralya'ya karşı oynadığı maçtaki ilk 11'i?",
+    "type": "player",
+    "activeDate": "2026-08-19",
+    "targets": [
+      "Uğurcan Çakır",
+      "Zeki Çelik",
+      "Abdülkerim Bardakcı",
+      "Merih Demiral",
+      "Ferdi Kadıoğlu",
+      "İsmail Yüksek",
+      "Orkun Kökçü",
+      "Arda Güler",
+      "Barış Alper Yılmaz",
+      "Kerem Aktürkoğlu",
+      "Hakan Çalhanoğlu"
+    ],
+    "difficulty": "kolay"
   }
 ]
