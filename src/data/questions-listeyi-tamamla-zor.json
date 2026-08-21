@@ -2913,5 +2913,28 @@
       "Olcay Şahan"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 140,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın Avrupa kupalarında Okan Buruk yönetiminde mağlup ettiği takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-08-21",
+    "targets": [
+      "Liverpool",
+      "Juventus",
+      "Bodo Glimt",
+      "Ajax",
+      "Elfsborg",
+      "PAOK",
+      "Tottenham",
+      "Manchester United",
+      "Molde",
+      "Olimpija Ljubljana",
+      "Zalgiris",
+      "Sparta Prag"
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -5074,5 +5074,57 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 128,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-21",
+    "correctPlayer": "Yusuf Barası",
+    "career": [
+      {
+        "season": "2019-2019",
+        "team": "AZ Alkmaar U17",
+        "apps": "22",
+        "goals": "11"
+      },
+      {
+        "season": "2019-2020",
+        "team": "AZ Alkmaar U19",
+        "apps": "27",
+        "goals": "12"
+      },
+      {
+        "season": "2020–2022",
+        "team": "AZ Alkmaar U21",
+        "apps": "59",
+        "goals": "21"
+      },
+      {
+        "season": "2022–2023",
+        "team": "AZ Alkmaar",
+        "apps": "22",
+        "goals": "2"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Adana Demirspor",
+        "apps": "59",
+        "goals": "12"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Kasımpaşa",
+        "apps": "8",
+        "goals": "0"
+      },
+       {
+        "season": "2026-",
+        "team": "Eyüpspor",
+        "apps": "1",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

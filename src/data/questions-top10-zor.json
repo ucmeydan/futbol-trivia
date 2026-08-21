@@ -2773,6 +2773,27 @@
       "İsmail Kartal"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 140,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre 2013 yılının en değerli 10 Türk futbolcusu?",
+    "type": "player",
+    "activeDate": "2026-05-03",
+    "targets": [
+      "Arda Turan",
+      "Burak Yılmaz",
+      "Selçuk İnan",
+      "Nuri Şahin",
+      "Ömer Toprak",
+      "Gökhan Gönül",
+      "Volkan Demirel",
+      "Mehmet Topal",
+      "Mevlüt Erdinç",
+      "Onur Kıvrak"
+    ],
+    "difficulty": "zor"
   }
 
 

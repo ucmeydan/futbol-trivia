@@ -2343,6 +2343,28 @@
       "Gaziantepspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 117,
+    "game": "top10",
+    "title": "Fenerbahçe'nin Avrupa Kupalarında karşılaştığı son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-08-21",
+    "targets": [
+      "Lyon",
+      "Sturm Graz",
+      "Gornik Zabrze",
+      "Nottingham Forest",
+      "FCSB",
+      "Aston Villa",
+      "Brann",
+      "Ferencvaros",
+      "Viktoria Plzen",
+      "Stuttgart"
+      
+    ],
+    "difficulty": "kolay"
   }
 
 

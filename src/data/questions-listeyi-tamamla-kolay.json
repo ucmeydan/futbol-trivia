@@ -2241,5 +2241,27 @@
       "Hakan Çalhanoğlu"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 120,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin Şampiyonlar Ligi playoff turunda iç sahada Lyon ile oynadığı maçtaki ilk 11'i?",
+    "type": "player",
+    "activeDate": "2026-08-21",
+    "targets": [
+      "Ederson",
+      "Nelson Semedo",
+      "Milan Skriniar",
+      "Nathan Ake",
+      "Archie Brown",
+      "N'golo Kante",
+      "Matteo Guendouzi",
+      "Anderson Talisca",
+      "Mason Greenwood",
+      "Kerem Aktürkoğlu",
+      "Vedat Muriqi"
+    ],
+    "difficulty": "kolay"
   }
 ]
