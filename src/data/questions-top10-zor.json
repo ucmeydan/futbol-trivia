@@ -2499,7 +2499,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 127,
     "game": "top10",
@@ -2520,7 +2519,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 128,
     "game": "top10",
@@ -2541,7 +2539,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 129,
     "game": "top10",
@@ -2562,7 +2559,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 130,
     "game": "top10",
@@ -2583,8 +2579,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 131,
     "game": "top10",
     "title": "TFF 1.Lig'de sezonu ilk 2 sırada tamamlayarak doğrudan Süper Lig'e yükselen son 10 takım?",
@@ -2604,7 +2599,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 132,
     "game": "top10",
@@ -2625,7 +2619,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 133,
     "game": "top10",
@@ -2646,7 +2639,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 134,
     "game": "top10",
@@ -2667,8 +2659,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 135,
     "game": "top10",
     "title": "2025-26 sezonunda Şampiyonlar Ligi lig aşamasını ilk 10 sırada tamamlayan takımlar?",
@@ -2688,7 +2679,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 136,
     "game": "top10",
@@ -2709,7 +2699,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 137,
     "game": "top10",
@@ -2717,7 +2706,6 @@
     "type": "team-tr",
     "activeDate": "2026-08-17",
     "targets": [
-
       "Gaziantep FK",
       "Antalyaspor",
       "Kayserispor",
@@ -2728,12 +2716,10 @@
       "Kocaelispor",
       "Göztepe",
       "Rizespor"
-      
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 138,
     "game": "top10",
     "title": "2025-26 sezonunda Süper Lig'in ilk 10 sırasındaki takımların en golcü futbolcuları?",
@@ -2753,8 +2739,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 139,
     "game": "top10",
     "title": "Emre Belözoğlu'nun profesyonel kulüp kariyeri boyunca, idaresinde en fazla maça çıktığı 10 teknik direktör?",
@@ -2774,7 +2759,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 140,
     "game": "top10",
@@ -2794,11 +2778,25 @@
       "Onur Kıvrak"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 141,
+    "game": "top10",
+    "type": "player",
+    "title": "Beşiktaş'ın şampiyon olduğu 2015-16 sezonundaki kadroda ligde süre alan futbolcular?",
+    "activeDate": "2026-08-22",
+    "targets": [
+      "Atiba Hutchinson",
+      "Andreas Beck",
+      "Mario Gomez",
+      "Tolga Zengin",
+      "Oğuzhan Özyakup",
+      "Jose Sosa",
+      "İsmail Köybaşı",
+      "Olcay Şahan",
+      "Ricardo Quaresma",
+      "Luis Rhodolfo"
+    ],
+    "difficulty": "zor"
   }
-
-
-
-  
-
-
 ]

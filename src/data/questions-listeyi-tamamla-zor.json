@@ -2889,7 +2889,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 139,
     "game": "listeyi-tamamla",
@@ -2914,7 +2913,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 140,
     "game": "listeyi-tamamla",
@@ -2934,6 +2932,34 @@
       "Olimpija Ljubljana",
       "Zalgiris",
       "Sparta Prag"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 141,
+    "game": "listeyi-tamamla",
+    "title": "2005/06 sezonunda Süper Lig'de mücadele eden takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-08-22",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Kayserispor",
+      "Gençlerbirliği",
+      "Konyaspor",
+      "Sivasspor",
+      "Rizespor",
+      "Manisaspor",
+      "Kayseri Erciyesspor",
+      "Gaziantepspor",
+      "Ankaragücü",
+      "Ankaraspor",
+      "Denizlispor",
+      "Malatyaspor",
+      "Samsunspor",
+      "Diyarbakırspor"
     ],
     "difficulty": "zor"
   }

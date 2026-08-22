@@ -4407,6 +4407,45 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 118,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-22",
+    "correctPlayer": "Mert Günok",
+    "career": [
+      {
+        "season": "2009-2015",
+        "team": "Fenerbahçe",
+        "apps": "51",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2017",
+        "team": "Bursaspor",
+        "apps": "30",
+        "goals": "0"
+      },
+      {
+        "season": "2017-2021",
+        "team": "Başakşehir",
+        "apps": "118",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2026",
+        "team": "Beşiktaş",
+        "apps": "130",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Fenerbahçe",
+        "apps": "12",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
   

@@ -3456,7 +3456,7 @@
   {
     "id": 120,
     "game": "takim-arkadasi",
-    "activeDate": "2026-08-20",
+    "activeDate": "2026-08-21",
     "correctPlayer": "Merih Demiral",
     "teammates": [
       {
@@ -3478,6 +3478,36 @@
       {
         "name": "Riyad Mahrez",
         "info": "2023-26 yılları arasında Al Ahli'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 121,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-22",
+    "correctPlayer": "Arda Turan",
+    "teammates": [
+      {
+        "name": "Neymar",
+        "info": "2015-17 yılları arasında Barcelona'da birlikte oynadılar."
+      },
+      {
+        "name": "Diego Godin",
+        "info": "2011-15 yılları arasında Atletico Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Radamel Falcao",
+        "info": "2011-13 yılları arasında Atletico Madrid'de ve 2020-21 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Sergio Busquets",
+        "info": "2015-17 yılları arasında Barcelona'da birlikte oynadılar"
+      },
+      {
+        "name": "Cassio Lincoln",
+        "info": "2007-09 yılları arasında Galatasaray'da birlikte oynadılar"
       }
     ],
     "difficulty": "kolay"

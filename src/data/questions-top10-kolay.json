@@ -2365,7 +2365,29 @@
       
     ],
     "difficulty": "kolay"
-  }
+  },
+
+  {
+  "id": 118,
+  "game": "top10",
+  "type": "player",
+  "title": "Galatasaray'ın şampiyon olduğu 2022-23 sezonundaki kadroda ligde süre alan futbolcular?",
+  "activeDate": "2026-08-22",
+  "targets": [
+    "Fernando Muslera",
+    "Victor Nelsson",
+    "Sacha Boey",
+    "Abdülkerim Bardakcı",
+    "Kerem Aktürkoğlu",
+    "Lucas Torreira",
+    "Sergio Oliveira",
+    "Dries Mertens",
+    "Mauro Icardi",
+    "Milot Rashica"
+     ],
+    "difficulty": "kolay"
+
+    }
 
 
 
