@@ -2962,5 +2962,28 @@
       "Diyarbakırspor"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 142,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de 80'den fazla maça çıkmış Fransız futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-25",
+    "targets": [
+      "Lionel Carole",
+      "Olivier Veigneau",
+      "Rayane Aabid",
+      "Valentin Rosier",
+      "Oumar Dieng",
+      "Valentin Eysseric",
+      "Leo Schwechlen",
+      "Ludovic Sylvestre",
+      "Gael Clichy",
+      "Nicolas Janvier",
+      "Benjamin Stambouli"
+      
+    ],
+    "difficulty": "zor"
   }
 ]

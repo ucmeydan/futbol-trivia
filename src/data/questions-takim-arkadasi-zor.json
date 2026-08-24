@@ -3714,5 +3714,35 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 130,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-25",
+    "correctPlayer": "Alvaro Negredo",
+    "teammates": [
+      {
+        "name": "Victor Valdes",
+        "info": "2016-17 sezonunda Middlesbrough'da ve İspanya Milli Takımı'nda birlikte oynadılar"
+      },
+      {
+        "name": "Yohan Cabaye",
+        "info": "2018-20 yılları arasında Al-Nasr'da (BAE) birlikte oynadılar"
+      },
+      {
+        "name": "Felipe Melo",
+        "info": "2007-08 sezonunda Almeria'da birlikte oynadılar"
+      },
+      {
+        "name": "Sergio Agüero",
+        "info": "2013-14 sezonunda Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Jeremain Lens",
+        "info": "2017-18 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

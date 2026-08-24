@@ -2783,7 +2783,7 @@
     "id": 141,
     "game": "top10",
     "type": "player",
-    "title": "Beşiktaş'ın şampiyon olduğu 2015-16 sezonundaki kadroda ligde süre alan futbolcular?",
+    "title": "Beşiktaş'ın şampiyon olduğu 2015-16 sezonundaki kadroda ligde en çok süre alan 10 futbolcu?",
     "activeDate": "2026-08-22",
     "targets": [
       "Atiba Hutchinson",
@@ -2796,6 +2796,27 @@
       "Olcay Şahan",
       "Ricardo Quaresma",
       "Luis Rhodolfo"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 142,
+    "game": "top10",
+    "title": "Yılmaz Vural'ın teknik direktörlük kariyeri boyunca en fazla maça çıktığı 10 kulüp hangisidir? (Tüm dönemler toplamı)",
+    "type": "team-tr",
+    "activeDate": "2026-08-25",
+    "targets": [
+      "Bursaspor",
+      "Antalyaspor",
+      "Kasımpaşa",
+      "Adanaspor",
+      "Malatyaspor",
+      "Trabzonspor",
+      "Denizlispor",
+      "Menemen FK",
+      "Elazığspor",
+      "Eskişehirspor"
     ],
     "difficulty": "zor"
   }

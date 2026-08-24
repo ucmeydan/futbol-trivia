@@ -2285,5 +2285,23 @@
       "Akhisar Belediyespor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 122,
+    "game": "listeyi-tamamla",
+    "title": "Transfermarkt verilerine göre piyasa değeri 20M€ ve üzerinde olan Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-25",
+    "targets": [
+      "Arda Güler",
+      "Kenan Yıldız",
+      "Can Uzun",
+      "Barış Alper Yılmaz",
+      "Ferdi Kadıoğlu",
+      "Orkun Kökçü",
+      "Kerem Aktürkoğlu"
+    ],
+    "difficulty": "kolay"
   }
 ]
