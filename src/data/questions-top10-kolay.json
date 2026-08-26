@@ -2408,6 +2408,27 @@
       "Uğurcan Çakır"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 120,
+    "game": "top10",
+    "title": "Türkiye A Milli futbol takımını çalıştıran son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-08-27",
+    "targets": [
+      "Vincenzo Montella",
+      "Stefan Kuntz",
+      "Şenol Güneş",
+      "Mircea Lucescu",
+      "Fatih Terim",
+      "Abdullah Avcı",
+      "Guus Hiddink",
+      "Oğuz Çetin",
+      "Ersun Yanal",
+      "Mustafa Denizli"
+    ],
+    "difficulty": "kolay"
   }
 
 

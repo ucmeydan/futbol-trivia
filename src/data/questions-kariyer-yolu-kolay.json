@@ -4468,6 +4468,52 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 38,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-27",
+    "correctPlayer": "Kristjan Asllani",
+    "career": [
+      {
+        "season": "2019-2021",
+        "team": "Empoli U19",
+        "apps": "60",
+        "goals": "14"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Empoli",
+        "apps": "27",
+        "goals": "1"
+      },
+      {
+        "season": "2022-2023",
+        "team": "Inter (kiralık)",
+        "apps": "29",
+        "goals": "0"
+      },
+      {
+        "season": "2023-",
+        "team": "Inter",
+        "apps": "70",
+        "goals": "14"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Torino (kiralık)",
+        "apps": "16",
+        "goals": "0"
+      },
+      {
+        "season": "2026-2026",
+        "team": "Beşiktaş (kiralık)",
+        "apps": "17",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
   

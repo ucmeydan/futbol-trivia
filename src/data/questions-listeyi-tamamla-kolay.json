@@ -2303,5 +2303,27 @@
       "Kerem Aktürkoğlu"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 123,
+    "game": "listeyi-tamamla",
+    "title": "Transfermarkt verilerine göre piyasa değeri 20M€ ve üzerinde olan Türk futbolcular?",
+    "type": "team-eu",
+    "activeDate": "2026-08-27",
+    "targets": [
+      "PSG",
+      "Bayern Münih",
+      "Real Madrid",
+      "Liverpool",
+      "Inter",
+      "Manchester City",
+      "Arsenal",
+      "Barcelona",
+      "Atletico Madrid"
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]
