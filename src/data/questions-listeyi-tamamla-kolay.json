@@ -2242,7 +2242,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 120,
     "game": "listeyi-tamamla",
@@ -2264,7 +2263,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 121,
     "game": "listeyi-tamamla",
@@ -2286,7 +2284,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 122,
     "game": "listeyi-tamamla",
@@ -2304,11 +2301,10 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 123,
     "game": "listeyi-tamamla",
-    "title": "Transfermarkt verilerine göre piyasa değeri 20M€ ve üzerinde olan Türk futbolcular?",
+    "title": "Şampiyonlar Ligi kura çekiminde 1.torbada yer alan takımlar?",
     "type": "team-eu",
     "activeDate": "2026-08-27",
     "targets": [
@@ -2323,7 +2319,24 @@
       "Atletico Madrid"
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 124,
+    "game": "listeyi-tamamla",
+    "title": "Avrupa Ligi kura çekiminde 1.torbada yer alan takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-08-28",
+    "targets": [
+      "Bayer Leverkusen",
+      "Benfica",
+      "Juventus",
+      "Milan",
+      "Lyon",
+      "AZ Alkmaar",
+      "Olympiakos",
+      "Real Sociedad",
+      "Marsilya"
+    ],
+    "difficulty": "kolay"
   }
-
-
 ]
