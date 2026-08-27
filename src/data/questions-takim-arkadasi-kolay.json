@@ -3571,5 +3571,125 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 124,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-28",
+    "correctPlayer": "Mauro Icardi",
+    "teammates": [
+      {
+        "name": "Kylian Mbappé",
+        "info": "2019-22 yılları arasında PSG'de oynadılar"
+      },
+      {
+        "name": "Lionel Messi",
+        "info": "2021-22 sezonunda PSG'de ve Arjantin Milli takımında oynadılar"
+      },
+      {
+        "name": "Federico Dimarco",
+        "info": "2014-19 yılları arasında Inter'de oynadılar"
+      },
+      {
+        "name": "Sergio Oliveira",
+        "info": "2022-24 yılları arasında Galatasaray'da oynadılar"
+      },
+      {
+        "name": "Victor Osimhen",
+        "info": "2025-26 sezonunda Galatasaray'da oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 125,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-29",
+    "correctPlayer": "Robin van Persie",
+    "teammates": [
+      {
+        "name": "Wayne Rooney",
+        "info": "2012-15 yılları arasında Manchester United'da oynadılar"
+      },
+      {
+        "name": "Emmanuel Adebayor",
+        "info": "2015-19 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "Nani",
+        "info": "2012-15 yılları arasında Manchester United'da ve 2015-16 sezonunda Fenerbahçe'de oynadılar"
+      },
+      {
+        "name": "Ruud van Nistelrooy",
+        "info": "Hollanda Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Simon Kjaer",
+        "info": "2015-17 yılları arasında Fenerbahçe'de oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 126,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-30",
+    "correctPlayer": "Mario Gomez",
+    "teammates": [
+      {
+        "name": "Franck Ribéry",
+        "info": "2009-13 yılları arasında Bayern Münih'te birlikte oynadılar"
+      },
+      {
+        "name": "Yıldıray Baştürk",
+        "info": "2007-09 yılları arasında Stuttgart'ta birlikte oynadılar"
+      },
+      {
+        "name": "Philipp Lahm",
+        "info": "2009-13 yılları arasında Bayern Münih'te ve Alman Milli Takımı'nda birlikte oynadılar"
+      },
+      {
+        "name": "Gökhan Töre",
+        "info": "2015-16 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Oğuzhan Özyakup",
+        "info": "2015-16 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 127,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-08-31",
+    "correctPlayer": "Pepe",
+    "teammates": [
+      {
+        "name": "Karim Benzema",
+        "info": "2008-17 yılları arasında Real Madrid'de birlikte oynadılar."
+      },
+      {
+        "name": "Alvaro Negredo",
+        "info": "2017-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Mehdi Taremi",
+        "info": "2020-24 yılları arasında Porto'da birlikte oynadılar"
+      },
+      {
+        "name": "Domagoj Vida",
+        "info": "2017-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Luka Modric",
+        "info": "2012-17 yılları arasında Real Madrid'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

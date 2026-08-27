@@ -3003,7 +3003,29 @@
       
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 144,
+    "game": "listeyi-tamamla",
+    "title": "Şampiyonlar Ligi kura çekiminde 4.torbada yer alan takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-08-28",
+    "targets": [
+     "Slavia Prag",
+     "Como",
+     "Stuttgart",
+     "Lens",
+     "AEK",
+     "Viking",
+     "Slovan Bratislava",
+     "LASK",
+     "Sabah"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 ]

@@ -2840,5 +2840,50 @@
       "Moussa Sow"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 144,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de 23 yaş ve altındaki en değerli 10 futbolcu? (28 Ağustos itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-08-28",
+    "targets": [
+      "Aleksey Batrakov",
+      "Ernest Poku",
+      "Lesley Ugochukwu",
+      "Kassoum Ouattara",
+      "Semih Kılıçsoy",
+      "Noah Saviolo",
+      "Abbosbek Fayzullaev",
+      "Yiğit Efe Demir",
+      "Renato Nhaga",
+      "Kacper Kozlowski"
+      
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 145,
+    "game": "top10",
+    "title": "UEFA Avrupa Ligi'nin son 10 şampiyonu?",
+    "type": "team-eu",
+    "activeDate": "2026-08-29",
+    "targets": [
+     "Aston Villa",
+     "Tottenham",
+     "Atalanta",
+     "Sevilla",
+     "Frankfurt",
+     "Villarreal",
+     "Chelsea",
+     "Atletico Madrid",
+     "Manchester United",
+     "Porto"      
+    ],
+    "difficulty": "zor"
   }
+
+
 ]

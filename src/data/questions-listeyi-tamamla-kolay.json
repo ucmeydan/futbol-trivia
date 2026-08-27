@@ -2338,5 +2338,23 @@
       "Marsilya"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 125,
+    "game": "listeyi-tamamla",
+    "title": "Konferans Ligi şampiyonluğu yaşayan takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-08-29",
+    "targets": [
+      "Roma",
+      "West Ham",
+      "Crystal Palace",
+      "Chelsea",
+      "Olympiakos"
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

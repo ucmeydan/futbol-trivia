@@ -5234,5 +5234,43 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 132,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-08-28",
+    "correctPlayer": "Noah Saviolo",
+    "career": [
+      {
+        "season": "2021-2022",
+        "team": "Lille II",
+        "apps": "2",
+        "goals": "0"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Vitoria Guimaraes B",
+        "apps": "10",
+        "goals": "2"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Vitoria Guimaraes",
+        "apps": "36",
+        "goals": "2"
+      },
+      {
+        "season": "2026-",
+        "team": "Trabzonspor",
+        "apps": "3",
+        "goals": "1"
+      }
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 ]
