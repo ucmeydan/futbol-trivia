@@ -3023,7 +3023,35 @@
      "Sabah"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 145,
+    "game": "listeyi-tamamla",
+    "title": "Mevcut Süper Lig oyuncuları arasında, Süper Lig kariyerinde hattrick yapanlar?",
+    "type": "player",
+    "activeDate": "2026-09-01",
+    "targets": [
+     "Dusan Vlahovic",
+     "Anderson Talisca",
+     "Dorgeles Nene",
+     "Miguel Cardoso",
+     "Victor Osimhen",
+     "Enis Destan",
+     "Kerem Demirbay",
+     "Cengiz Ünder",
+     "Nuno Da Costa",
+     "Mame Thiam",
+     "Mbaye Diagne",
+     "Umut Nayir",
+     "Kerem Aktürkoğlu",
+     "Serdar Dursun"
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

@@ -2459,5 +2459,29 @@
       "Milan"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 124,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de piyasa değeri en yüksek 10 kaleci? (31 Ağustos itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-09-01",
+    "targets": [
+      "Uğurcan Çakır",
+      "Alexander Nübel",
+      "Ederson",
+      "Andre Onana",
+      "Yahia Fofana",
+      "Muhammed Şengezer",
+      "Deniz Ertaş",
+      "Alban Lafont",
+      "Okan Kocuk",
+      "Bilal Bayazıt"
+    
+    ],
+    "difficulty": "zor"
   }
+
+
 ]

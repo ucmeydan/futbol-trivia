@@ -2354,7 +2354,28 @@
       "Olympiakos"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 126,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin Şampiyonlar Ligi lig aşamasında karşılaşacağı rakipler?",
+    "type": "team-eu",
+    "activeDate": "2026-09-01",
+    "targets": [
+      "Liverpool",
+      "Atletico Madrid",
+      "Roma",
+      "Villarreal",
+      "Aston Villa",
+      "Shakhtar",
+      "LASK",
+      "Slavia Prag"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

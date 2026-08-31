@@ -2883,6 +2883,28 @@
      "Porto"      
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 146,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre TFF 1.Lig'in en değerli 10 Türk futbolcusu?",
+    "type": "player",
+    "activeDate": "2026-09-01",
+    "targets": [
+      "Ali Habeşoğlu",
+      "Bünyamin Balcı",
+      "Barış Kalaycı",
+      "Poyraz Efe Yıldırım",
+      "Ada İbik",
+      "Doğukan Sinik",
+      "Deniz Dönmezer",
+    "Yiğit Fidan",
+    "Atakan Çankaya",
+    "Görkem Sağlam"
+     ],
+
+    "difficulty": "zor"
   }
 
 
