@@ -3049,6 +3049,25 @@
 
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 146,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor'un Konferans Ligi lig aşamasında karşılaşacağı rakipler?",
+    "type": "team-eu",
+    "activeDate": "2026-09-02",
+    "targets": [
+     "Freiburg",
+     "Kızılyıldız",
+     "Hearts",
+     "Jablonec",
+     "CSKA Sofya",
+     "Kuopion"
+
+
+    ],
+    "difficulty": "zor"
   }
 
 

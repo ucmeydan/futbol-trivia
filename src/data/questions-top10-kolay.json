@@ -2481,7 +2481,31 @@
     
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 125,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig tarihinin en pahalı 10 oyuncu satışı?",
+    "type": "player",
+    "activeDate": "2026-09-02",
+    "targets": [
+      "Ferdi Kadıoğlu",
+      "Sacha Boey",
+      "Arda Güler",
+      "Uğurcan Çakır",
+      "Christ Inao Oulai",
+      "Sidiki Cherif",
+      "Cenk Tosun",
+      "Yusuf Akçiçek",
+      "Elvir Baljic",
+      "Tammy Abraham"
+    
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 ]

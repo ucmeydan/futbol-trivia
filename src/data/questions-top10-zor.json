@@ -2905,7 +2905,31 @@
      ],
 
     "difficulty": "zor"
+  },
+
+  {
+    "id": 146,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla maça çıkan 10 yabancı santrfor? (Sonradan Türk vatandaşı olanlar dahil)",
+    "type": "player",
+    "activeDate": "2026-09-02",
+    "targets": [
+     "Marcio Nobre",
+     "Elvir Bolic",
+     "Andre Kona",
+     "Bogdan Stancu",
+     "Mustapha Yatabare",
+     "Bobo",
+     "Sokol Cikalleshi",
+     "Mame Thiam",
+     "Hugo Rodallega",
+     "Souleymane Youla"
+     ],
+
+    "difficulty": "zor"
   }
+
+
 
 
 ]
