@@ -3068,7 +3068,30 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 147,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın Avrupa Ligi lig aşamasında karşılaşacağı rakipler?",
+    "type": "team-eu",
+    "activeDate": "2026-09-03",
+    "targets": [
+    "Bayer Leverkusen",
+    "Marsilya",
+    "Celtic",
+    "Union SG",
+    "Crystal Palace",
+    "Omonia",
+    "Hapoel Beer Sheva",
+    "Hoffenheim"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

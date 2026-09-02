@@ -2392,7 +2392,28 @@
       "AEK"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 128,
+    "game": "listeyi-tamamla",
+    "title": "2025/26 sezonunda Şampiyonlar Ligi'nde çeyrek final oynayan takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-09-03",
+    "targets": [
+      "Liverpool",
+      "PSG",
+      "Arsenal",
+      "Sporting",
+      "Bayern Münih",
+      "Real Madrid",
+      "Barcelona",
+      "Atletico Madrid"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

@@ -2799,7 +2799,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 142,
     "game": "top10",
@@ -2820,7 +2819,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 143,
     "game": "top10",
@@ -2841,7 +2839,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 144,
     "game": "top10",
@@ -2859,11 +2856,9 @@
       "Yiğit Efe Demir",
       "Renato Nhaga",
       "Kacper Kozlowski"
-      
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 145,
     "game": "top10",
@@ -2871,20 +2866,19 @@
     "type": "team-eu",
     "activeDate": "2026-08-29",
     "targets": [
-     "Aston Villa",
-     "Tottenham",
-     "Atalanta",
-     "Sevilla",
-     "Frankfurt",
-     "Villarreal",
-     "Chelsea",
-     "Atletico Madrid",
-     "Manchester United",
-     "Porto"      
+      "Aston Villa",
+      "Tottenham",
+      "Atalanta",
+      "Sevilla",
+      "Frankfurt",
+      "Villarreal",
+      "Chelsea",
+      "Atletico Madrid",
+      "Manchester United",
+      "Porto"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 146,
     "game": "top10",
@@ -2899,14 +2893,12 @@
       "Ada İbik",
       "Doğukan Sinik",
       "Deniz Dönmezer",
-    "Yiğit Fidan",
-    "Atakan Çankaya",
-    "Görkem Sağlam"
-     ],
-
+      "Yiğit Fidan",
+      "Atakan Çankaya",
+      "Görkem Sağlam"
+    ],
     "difficulty": "zor"
   },
-
   {
     "id": 147,
     "game": "top10",
@@ -2914,22 +2906,37 @@
     "type": "player",
     "activeDate": "2026-09-02",
     "targets": [
-     "Marcio Nobre",
-     "Elvir Bolic",
-     "Andre Kona",
-     "Bogdan Stancu",
-     "Mustapha Yatabare",
-     "Bobo",
-     "Sokol Cikalleshi",
-     "Mame Thiam",
-     "Hugo Rodallega",
-     "Souleymane Youla"
-     ],
-
+      "Marcio Nobre",
+      "Elvir Bolic",
+      "Andre Kona",
+      "Bogdan Stancu",
+      "Mustapha Yatabare",
+      "Bobo",
+      "Sokol Cikalleshi",
+      "Mame Thiam",
+      "Hugo Rodallega",
+      "Souleymane Youla"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 148,
+    "game": "top10",
+    "title": "Kariyer toplamında en fazla bonservis bedeli ödenen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-03",
+    "targets": [
+      "Neymar",
+      "Romelu Lukaku",
+      "Enzo Fernandez",
+      "Cristiano Ronaldo",
+      "Alexander Isak",
+      "Ousmane Dembele",
+      "Álvaro Morata",
+      "Joao Felix",
+      "Antoine Griezmann",
+      "Matthijs De Ligt"
+    ],
     "difficulty": "zor"
   }
-
-
-
-
 ]
