@@ -2411,7 +2411,35 @@
       "Atletico Madrid"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 129,
+    "game": "listeyi-tamamla",
+    "title": "2026/27 sezonunda Süper Lig ve 1.Lig'de mücadele eden Marmara Bölgesi takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-09-04",
+    "targets": [
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Başakşehir",
+      "Eyüpspor",
+      "Kasımpaşa",
+      "Fatih Karagümrük",
+      "Pendikspor",
+      "Kocaelispor",
+      "Bursaspor",
+      "Ümraniyespor",
+      "Sarıyer",
+      "Bandırmaspor",
+      "Esenler Erokspor",
+      "İstanbulspor"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

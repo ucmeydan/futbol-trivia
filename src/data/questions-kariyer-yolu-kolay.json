@@ -4672,6 +4672,48 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 125,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-04",
+    "correctPlayer": "Borja Sainz",
+    "career": [
+      {
+        "season": "2019–2022",
+        "team": "Alaves",
+        "apps": "44",
+        "goals": "2"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Real Zaragoza (kiralık)",
+        "apps": "35",
+        "goals": "3"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Giresunspor",
+        "apps": "34",
+        "goals": "10"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Norwich",
+        "apps": "82",
+        "goals": "27"
+      },
+      {
+        "season": "2025-",
+        "team": "Porto",
+        "apps": "52",
+        "goals": "9"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
 
   

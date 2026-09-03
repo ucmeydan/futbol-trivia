@@ -2524,7 +2524,30 @@
       "Gheorghe Hagi"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 127,
+    "game": "top10",
+    "title": "2022-23 sezonundan bu yana Süper Lig'de en fazla puan toplayan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-04",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Kasımpaşa",
+      "Alanyaspor",
+      "Konyaspor",
+      "Antalyaspor",
+      "Kayserispor"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

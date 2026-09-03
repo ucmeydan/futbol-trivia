@@ -3089,7 +3089,30 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 148,
+    "game": "listeyi-tamamla",
+    "title": "2025-26 sezonunda Avrupa Ligi'nde çeyrek final oynayan takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-09-04",
+    "targets": [
+   "Aston Villa",
+   "Freiburg",
+   "Braga",
+   "Real Betis",
+   "Celta Vigo",
+   "Porto",
+   "Nottingham Forest",
+   "Bologna"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
