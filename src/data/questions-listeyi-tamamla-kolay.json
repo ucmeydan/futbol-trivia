@@ -2437,7 +2437,31 @@
       "İstanbulspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 130,
+    "game": "listeyi-tamamla",
+    "title": "Son 10 sezonda Süper Lig'de gol krallığı yaşayan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-05",
+    "targets": [
+      "Eldor Shomurodov",
+      "Victor Osimhen",
+      "Enner Valencia",
+      "Paul Onuachu",
+      "Mauro Icardi",
+      "Umut Bozok",
+      "Aaron Boupendza",
+      "Alexander Sorloth",
+      "Mbaye Diagne",
+      "Bafetimbi Gomis",
+      "Vagner Love"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

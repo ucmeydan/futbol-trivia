@@ -4714,7 +4714,39 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 126,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-05",
+    "correctPlayer": "Aleksey Batrakov",
+    "career": [
+      {
+        "season": "2022–2024",
+        "team": "Lokomotiv Moskova II",
+        "apps": "46",
+        "goals": "17"
+      },
+      {
+        "season": "2024-2026",
+        "team": "Lokomotiv Moskova",
+        "apps": "84",
+        "goals": "34"
+      },
+      {
+        "season": "2026–",
+        "team": "Galatasaray",
+        "apps": "2",
+        "goals": "0"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
   
 

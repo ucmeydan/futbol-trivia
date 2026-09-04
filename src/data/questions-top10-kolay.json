@@ -2545,6 +2545,27 @@
       "Kayserispor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 127,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-26 sezonunda iç sahada en fazla puan toplayan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-04",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Göztepe",
+      "Başakşehir",
+      "Samsunspor",
+      "Rizespor",
+      "Gençlerbirliği",
+      "Konyaspor"
+    ],
+    "difficulty": "kolay"
   }
 
 

@@ -3110,7 +3110,32 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 149,
+    "game": "listeyi-tamamla",
+    "title": "Transfermarkt verilerine göre Süper Lig tarihinde 50 ve üzeri sayıda asist yapan yabancı oyuncular? (Sonradan Türk vatandaşı olanlar dahil)",
+    "type": "player",
+    "activeDate": "2026-09-05",
+    "targets": [
+   "Edin Visca",
+   "Alex De Souza",
+   "Ibrahim Yattara",
+   "Pablo Batalla",
+   "Tita",
+   "Wederson",
+   "Cevad Prekazi",
+   "Rodrigo Tello",
+   "Ricardo Quaresma",
+   "Haris Hajradinovic"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

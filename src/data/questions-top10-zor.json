@@ -2959,5 +2959,28 @@
       "Kayserispor"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 150,
+    "game": "top10",
+    "title": "Süper Lig'de en çok maça çıkan 10 Brezilyalı futbolcu? (Sonradan Türk vatandaşı olanlar dahil)",
+    "type": "player",
+    "activeDate": "2026-09-05",
+    "targets": [
+      "Wederson",
+      "Tita",
+      "Diego Angelo",
+      "Marcio Nobre",
+      "Alex De Souza",
+      "Guilherme (Haubert Sityá)",
+      "Bobo",
+      "Marcio Mossoro",
+      "Josef De Souza",
+      "Titi"
+    ],
+    "difficulty": "zor"
   }
+
+
 ]

@@ -5466,7 +5466,37 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 137,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-05",
+    "correctPlayer": "Saba Kharebashvili",
+    "career": [
+      {
+        "season": "2024-2024",
+        "team": "Dinamo Tiflis Akademi",
+        "apps": "8",
+        "goals": "0"
+      },
+      {
+        "season": "2024-2026",
+        "team": "Dinamo Tiflis",
+        "apps": "75",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Başakşehir",
+        "apps": "1",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 ]
