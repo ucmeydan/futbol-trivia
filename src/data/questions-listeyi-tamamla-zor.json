@@ -3133,7 +3133,33 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 150,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın 2017-18 sezonunda Leipzig deplasmanında 2-1 kazandığı maçtaki ilk 11'i?",
+    "type": "player",
+    "activeDate": "2026-09-07",
+    "targets": [
+   "Tolga Zengin",
+   "Caner Erkin",
+   "Dusko Tosic",
+   "Matej Mitrovic",
+   "Necip Uysal",
+   "Oğuzhan Özyakup",
+   "Gary Medel",
+   "Mustafa Pektemek",
+   "Anderson Talisca",
+   "Jeremain Lens",
+   "Alvaro Negredo"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

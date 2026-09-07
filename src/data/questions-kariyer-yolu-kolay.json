@@ -4744,6 +4744,34 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 127,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-07",
+    "correctPlayer": "Yusuf Akçiçek",
+    "career": [
+      {
+        "season": "2023–2024",
+        "team": "Fenerbahçe U19",
+        "apps": "11",
+        "goals": "3"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Fenerbahçe",
+        "apps": "27",
+        "goals": "2"
+      },
+      {
+        "season": "2025-",
+        "team": "Al Hilal",
+        "apps": "24",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

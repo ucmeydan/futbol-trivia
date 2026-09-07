@@ -2980,7 +2980,30 @@
       "Titi"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 151,
+    "game": "top10",
+    "title": "Mevcut Süper Lig oyuncuları arasında Süper Lig tarihinde en çok maça çıkan yabancı oyuncular?",
+    "type": "player",
+    "activeDate": "2026-09-07",
+    "targets": [
+      "Edin Visca",
+      "Haris Hajradinovic",
+      "Alexandru Maxim",
+      "Florent Hadergjonaj",
+      "Marko Jevtovic",
+      "Mame Thiam",
+      "Fredy",
+      "Miguel Cardoso",
+      "Mortadha Ben Ouanes",
+      "Olivier Kemen" 
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 ]

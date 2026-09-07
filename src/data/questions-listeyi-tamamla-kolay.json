@@ -2459,7 +2459,26 @@
       "Vagner Love"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 131,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın yaz transfer döneminde kadrosuna kattığı oyuncular?",
+    "type": "player",
+    "activeDate": "2026-09-07",
+    "targets": [
+      "Rafael Leao",
+      "Deniz Gül",
+      "Aleksey Batrakov",
+      "Lesley Ugochukwu",
+      "El Chadaille Bitshiabu"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

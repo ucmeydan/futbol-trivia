@@ -5494,6 +5494,40 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 138,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-07",
+    "correctPlayer": "Yahia Fofana",
+    "career": [
+      {
+        "season": "2016-2019",
+        "team": "Le Havre B",
+        "apps": "32",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2022",
+        "team": "Le Havre",
+        "apps": "41",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2025",
+        "team": "Angers",
+        "apps": "77",
+        "goals": "0"
+      },
+      {
+        "season": "2025-",
+        "team": "Çaykur Rizespor",
+        "apps": "30",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 
