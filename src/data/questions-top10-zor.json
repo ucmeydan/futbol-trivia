@@ -3001,7 +3001,30 @@
       "Olivier Kemen" 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 152,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 4 haftası itibarıyla en çok şut çeken 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-08",
+    "targets": [
+      "Victor Osimhen",
+      "Eldor Shomurodov",
+      "Mason Greenwood",
+      "Ernest Muçi",
+      "Adrian Benedyczak",
+      "Ahmed Kutucu",
+      "Orkun Kökçü",
+      "Jesus Ramirez",
+      "Gabriel Sara",
+      "Mohamed Salah"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

@@ -3157,7 +3157,29 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 151,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'in ilk 4 haftası itibarıyla 3 ve üzeri sayıda gol atan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-09-08",
+    "targets": [
+   "Victor Osimhen",
+   "Dusan Vlahovic",
+   "Eldor Shomurodov",
+   "Mohamed Salah",
+   "Gift Orban",
+   "Juan",
+   "Adrian Benedyczak"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

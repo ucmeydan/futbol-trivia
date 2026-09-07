@@ -2476,7 +2476,27 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 132,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin yaz transfer döneminde kadrosuna kattığı oyuncular?",
+    "type": "player",
+    "activeDate": "2026-09-08",
+    "targets": [
+      "Vedat Muriqi",
+      "Romelu Lukaku",
+      "Mason Greenwood",
+      "Kojo Peprah Oppong",
+      "Amara Diouf",
+      "Adem Yeşilyurt",
+      "Nathan Ake"
+
+    ],
+    "difficulty": "kolay"
   }
+
 
 
 

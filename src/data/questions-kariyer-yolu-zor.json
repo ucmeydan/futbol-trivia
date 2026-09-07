@@ -5528,7 +5528,48 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 139,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-08",
+    "correctPlayer": "Gabriele Guarino",
+    "career": [
+      {
+        "season": "2021-2022",
+        "team": "Empoli U19",
+        "apps": "34",
+        "goals": "4"
+      },
+      {
+        "season": "2022-2026",
+        "team": "Empoli",
+        "apps": "37",
+        "goals": "3"
+      },
+      {
+        "season": "2024–2024",
+        "team": "Modena (kiralık)",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Carrarese (kiralık)",
+        "apps": "16",
+        "goals": "2"
+      },
+      {
+        "season": "2026-",
+        "team": "Samsunspor",
+        "apps": "2",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
+
 
 
 

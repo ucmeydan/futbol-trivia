@@ -4772,6 +4772,40 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 128,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-08",
+    "correctPlayer": "Rıdvan Yılmaz",
+    "career": [
+      {
+        "season": "2017-2019",
+        "team": "Beşiktaş U19",
+        "apps": "22",
+        "goals": "3"
+      },
+      {
+        "season": "2019–2022",
+        "team": "Beşiktaş",
+        "apps": "62",
+        "goals": "4"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Rangers",
+        "apps": "77",
+        "goals": "2"
+      },
+      {
+        "season": "2025-",
+        "team": "Beşiktaş",
+        "apps": "38",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

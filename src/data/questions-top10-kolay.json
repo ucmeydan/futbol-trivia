@@ -2587,7 +2587,30 @@
       "Konyaspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 130,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 4 haftası itibarıyla en çok gol beklentisi (xG) üreten 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-08",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Göztepe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Amed SK",
+      "Rizespor",
+      "Samsunspor",
+      "Konyaspor"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
