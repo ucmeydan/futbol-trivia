@@ -3177,7 +3177,30 @@
 
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 152,
+    "game": "listeyi-tamamla",
+    "title": "2025-26 sezonunda Şampiyonlar Ligi lig aşamasını ilk 8 sırada tamamlayan takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-09-09",
+    "targets": [
+  "Arsenal",
+  "Liverpool",
+  "Bayern Münih",
+  "Sporting",
+  "Barcelona",
+  "Tottenham",
+  "Chelsea",
+  "Manchester City"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

@@ -3022,7 +3022,32 @@
       "Mohamed Salah"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 153,
+    "game": "top10",
+    "title": "21.yüzyılda hem Beşiktaş hem de Fenerbahçe'de oynamış oyuncular arasından iki takımın formasını toplamda en fazla maçta giyen 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-09",
+    "targets": [
+      "Gökhan Gönül",
+      "Caner Erkin",
+      "Rüştü Reçber",
+      "Marcio Nobre",
+      "Mehmet Aurelio",
+      "Cenk Tosun",
+      "Josef De Souza",
+      "Tümer Metin",
+      "İsmail Köybaşı",
+      "Salih Uçan"
+    ],
+    "difficulty": "zor"
   }
+
+ 
+
+
 
 
 

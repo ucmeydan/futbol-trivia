@@ -2608,6 +2608,27 @@
       "Konyaspor"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 131,
+    "game": "top10",
+    "title": "Caner Erkin'in kariyeri boyunca birlikte en fazla maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-09",
+    "targets": [
+      "Gökhan Gönül",
+      "Mehmet Topal",
+      "Volkan Demirel",
+      "Mehmet Topuz",
+      "Bekir İrtegün",
+      "Moussa Sow",
+      "Cristian Baroni",
+      "Dirk Kuyt",
+      "Emre Belözoğlu",
+      "Selçuk Şahin"
+    ],
+    "difficulty": "kolay"
   }
 
 

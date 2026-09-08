@@ -4104,5 +4104,35 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 143,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-09",
+    "correctPlayer": "Vincent Aboubakar",
+    "teammates": [
+      {
+        "name": "Alex Sandro",
+        "info": "2014-15 sezonunda Porto'da birlikte oynadılar"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2022-23 sezonunda Al Nassr'da birlikte oynadılar"
+      },
+      {
+        "name": "Sergio Oliveira",
+        "info": "2017-20 yılları arasında Porto'da birlikte oynadılar"
+      },
+      {
+        "name": "Erce Kardeşler",
+        "info": "2024-25 sezonunda Hatayspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Rachid Ghezzal",
+        "info": "2020-21 ve 2022-23 sezonlarında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

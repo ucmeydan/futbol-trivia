@@ -3901,5 +3901,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 135,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-09",
+    "correctPlayer": "Mason Greenwood",
+    "teammates": [
+      {
+        "name": "Enes Ünal",
+        "info": "2023-24 sezonunda Getafe'de birlikte oynadılar."
+      },
+      {
+        "name": "Adrien Rabiot",
+        "info": "2024-25 sezonunda Marsilya'da birlikte oynadılar."
+      },
+      {
+        "name": "Harry Maguire",
+        "info": "2019-23 yılları arasında Manchester United'da birlikte oynadılar."
+      },
+      {
+        "name": "Pierre Emerick Aubameyang",
+        "info": "2025-26 sezonunda Marsilya'da birlikte oynadılar"
+      },
+      {
+        "name": "Vedat Muriqi",
+        "info": "2026-27 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

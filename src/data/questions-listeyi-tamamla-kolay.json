@@ -2495,7 +2495,25 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 133,
+    "game": "listeyi-tamamla",
+    "title": "Hem Galatasaray hem de Liverpool formalarıyla 50 ve üzeri sayıda maça çıkan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-09",
+    "targets": [
+      "Harry Kewell",
+      "Milan Baros",
+      "Albert Riera",
+      "Ryan Babel"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

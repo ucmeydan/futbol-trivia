@@ -5568,7 +5568,31 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 140,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-09",
+    "correctPlayer": "Omar Ben Ali",
+    "career": [
+      {
+        "season": "2023-2026",
+        "team": "Sfaxien",
+        "apps": "62",
+        "goals": "18"
+      },
+      {
+        "season": "2026-",
+        "team": "Alanyaspor",
+        "apps": "4",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
