@@ -2629,6 +2629,27 @@
       "Selçuk Şahin"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 132,
+    "game": "top10",
+    "title": "Barış Alper Yılmaz'ın kariyeri boyunca birlikte en fazla maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-10",
+    "targets": [
+      "Abdülkerim Bardakcı",
+      "Lucas Torreira",
+      "Fernando Muslera",
+      "Kaan Ayhan",
+      "Davinson Sanchez",
+      "Mauro Icardi",
+      "Berkan Kutlu",
+      "Yunus Akgün",
+      "Kerem Aktürkoğlu",
+      "Victor Nelsson"
+    ],
+    "difficulty": "kolay"
   }
 
 

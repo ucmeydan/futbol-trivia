@@ -3198,7 +3198,35 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 153,
+    "game": "listeyi-tamamla",
+    "title": "Türk takımlarının Avrupa kupaları tarihi boyunca karşılaştıkları İtalyan takımları?",
+    "type": "team-eu",
+    "activeDate": "2026-09-10",
+    "targets": [
+  "Inter",
+  "Milan",
+  "Juventus",
+  "Lazio",
+  "Roma",
+  "Fiorentina",
+  "Napoli",
+  "Palermo",
+  "Parma",
+  "Atalanta",
+  "Cagliari",
+  "Bologna",
+  "Perugia"
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

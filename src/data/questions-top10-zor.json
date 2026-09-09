@@ -3043,7 +3043,30 @@
       "Salih Uçan"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 154,
+    "game": "top10",
+    "title": "Fenerbahçe formasıyla Şampiyonlar Ligi'nde gol atmış son 10 oyuncu? (Grup aşaması ve sonrası)",
+    "type": "player",
+    "activeDate": "2026-09-10",
+    "targets": [
+      "Colin Kazım Richards",
+      "Daniel Guiza",
+      "Deivid De Souza",
+      "Semih Şentürk",
+      "Diego Lugano",
+      "Mateja Kezman",
+      "Uğur Boral",
+      "Alex De Souza",
+      "Stephen Appiah",
+      "Marcio Nobre"
+    ],
+    "difficulty": "zor"
   }
+
+
 
  
 

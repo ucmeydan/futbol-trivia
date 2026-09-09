@@ -2511,7 +2511,26 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 134,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'deki mevcut yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-09-10",
+    "targets": [
+      "Vincenzo Italiano",
+      "Stanimir Stoilov",
+      "Thorsten Fink",
+      "Besnik Hasi",
+      "Joao Pereira"
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

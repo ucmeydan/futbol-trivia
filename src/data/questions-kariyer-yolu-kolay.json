@@ -4848,6 +4848,36 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 130,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-10",
+    "correctPlayer": "Franculino Dju",
+    "career": [
+      {
+        "season": "2021-2023",
+        "team": "Benfica U23",
+        "apps": "24",
+        "goals": "15"
+      },
+      {
+        "season": "2023–2026",
+        "team": "Midtjylland",
+        "apps": "117",
+        "goals": "58"
+      },
+      {
+        "season": "2026-",
+        "team": "Trabzonspor",
+        "apps": "1",
+        "goals": "1"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 
