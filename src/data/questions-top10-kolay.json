@@ -2650,7 +2650,30 @@
       "Victor Nelsson"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 133,
+    "game": "top10",
+    "title": "Galatasaray'ın Avrupa kupalarında mağlup olduğu son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-09-11",
+    "targets": [
+      "Sporting",
+      "Liverpool",
+      "Juventus",
+      "Manchester City",
+      "Monaco",
+      "Union SG",
+      "Frankfurt",
+      "AZ Alkmaar",
+      "Ajax",
+      "Young Boys"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

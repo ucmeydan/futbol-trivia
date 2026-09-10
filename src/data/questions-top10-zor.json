@@ -3064,6 +3064,27 @@
       "Marcio Nobre"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 155,
+    "game": "top10",
+    "title": "Beşiktaş formasıyla Avrupa kupalarında gol atmış son 10 oyuncu? (Ön elemeler dahil)",
+    "type": "player",
+    "activeDate": "2026-09-11",
+    "targets": [
+     "Orkun Kökçü",
+     "Amir Murillo",
+     "Hyeon Gyu Oh",
+     "Vaclav Cerny",
+     "Semih Kılıçsoy",
+     "Milot Rashica",
+     "Joao Mario",
+     "Tammy Abraham",
+     "Demir Ege Tıknaz",
+     "Rafa Silva"
+    ],
+    "difficulty": "zor"
   }
 
 

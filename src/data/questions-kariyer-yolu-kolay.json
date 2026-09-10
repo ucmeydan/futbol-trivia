@@ -4878,6 +4878,36 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 131,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-11",
+    "correctPlayer": "Franculino Dju",
+    "career": [
+      {
+        "season": "2021-2023",
+        "team": "Nürnberg U19",
+        "apps": "19",
+        "goals": "20"
+      },
+      {
+        "season": "2023–2026",
+        "team": "Nürnberg",
+        "apps": "35",
+        "goals": "19"
+      },
+      {
+        "season": "2026-",
+        "team": "Frankfurt",
+        "apps": "65",
+        "goals": "17"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 

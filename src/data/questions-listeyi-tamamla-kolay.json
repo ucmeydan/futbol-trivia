@@ -2339,7 +2339,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 125,
     "game": "listeyi-tamamla",
@@ -2355,7 +2354,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 126,
     "game": "listeyi-tamamla",
@@ -2374,7 +2372,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 127,
     "game": "listeyi-tamamla",
@@ -2393,7 +2390,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 128,
     "game": "listeyi-tamamla",
@@ -2412,7 +2408,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 129,
     "game": "listeyi-tamamla",
@@ -2438,7 +2433,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 130,
     "game": "listeyi-tamamla",
@@ -2460,8 +2454,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 131,
     "game": "listeyi-tamamla",
     "title": "Galatasaray'ın yaz transfer döneminde kadrosuna kattığı oyuncular?",
@@ -2473,11 +2466,9 @@
       "Aleksey Batrakov",
       "Lesley Ugochukwu",
       "El Chadaille Bitshiabu"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 132,
     "game": "listeyi-tamamla",
@@ -2492,11 +2483,9 @@
       "Amara Diouf",
       "Adem Yeşilyurt",
       "Nathan Ake"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 133,
     "game": "listeyi-tamamla",
@@ -2508,11 +2497,9 @@
       "Milan Baros",
       "Albert Riera",
       "Ryan Babel"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 134,
     "game": "listeyi-tamamla",
@@ -2525,27 +2512,23 @@
       "Thorsten Fink",
       "Besnik Hasi",
       "Joao Pereira"
-
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 135,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerlerinde hem Fenerbahçe hem de Roma forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-11",
+    "targets": [
+      "Romelu Lukaku",
+      "Edin Džeko",
+      "Diego Perotti",
+      "Simon Kjaer",
+      "Salih Uçan",
+      "Cengiz Ünder"
     ],
     "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

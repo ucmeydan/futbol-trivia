@@ -3224,7 +3224,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 154,
+    "game": "listeyi-tamamla",
+    "title": "Konferans Ligi'nde şampiyonluk yaşayan takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-09-11",
+    "targets": [
+ "Roma",
+ "Chelsea",
+ "West Ham",
+ "Crystal Palace",
+ "Olympiakos"
+
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

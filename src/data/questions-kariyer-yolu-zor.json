@@ -5595,7 +5595,7 @@
   {
     "id": 141,
     "game": "kariyer-yolu",
-    "activeDate": "2026-09-09",
+    "activeDate": "2026-09-10",
     "correctPlayer": "Yunus Emre Konak",
     "career": [
       {
@@ -5620,6 +5620,52 @@
         "season": "2026-",
         "team": "Lincoln City (kiralık)",
         "apps": "3",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 142,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-11",
+    "correctPlayer": "Alban Lafont",
+    "career": [
+      {
+        "season": "2015-2018",
+        "team": "Toulouse",
+        "apps": "106",
+        "goals": "0"
+      },
+      {
+        "season": "2018-2021",
+        "team": "Fiorentina",
+        "apps": "38",
+        "goals": "0"
+      },
+       {
+        "season": "2019-2021",
+        "team": "Nantes (kiralık)",
+        "apps": "69",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2026",
+        "team": "Nantes",
+        "apps": "129",
+        "goals": "0"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Panathinaikos (kiralık)",
+        "apps": "37",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Amed SK",
+        "apps": "4",
         "goals": "0"
       }
     ],
