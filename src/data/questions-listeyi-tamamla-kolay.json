@@ -2530,5 +2530,54 @@
       "Cengiz Ünder"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 135,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerlerinde hem Fenerbahçe hem de Roma forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-11",
+    "targets": [
+      "Romelu Lukaku",
+      "Edin Džeko",
+      "Diego Perotti",
+      "Simon Kjaer",
+      "Salih Uçan",
+      "Cengiz Ünder"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 136,
+    "game": "listeyi-tamamla",
+    "title": "Hem 4 büyüklerden birinin mevcut kadrolarında hem de milli takımımızın 2026 Dünya Kupası kadrosunda yer alan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-12",
+    "targets": [
+      "Orkun Kökçü",
+      "Mert Günok",
+      "Uğurcan Çakır",
+      "Eren Elmalı",
+      "Mert Müldür",
+      "Kaan Ayhan",
+      "Abdülkerim Bardakcı",
+      "Samet Akaydın",
+      "Salih Özcan",
+      "Orkun Kökçü",
+      "İsmail Yüksek",
+      "İrfan Can Kahveci",
+      "Oğuz Aydın",
+      "Deniz Gül",
+      "Kerem Aktürkoğlu",
+      "Yunus Akgün",
+      "Barış Alper Yılmaz"
+    ],
+    "difficulty": "kolay"
   }
+
+
+
+
 ]

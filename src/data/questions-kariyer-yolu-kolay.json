@@ -4908,6 +4908,48 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 131,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-12",
+    "correctPlayer": "Kartal Kayra Yılmaz",
+    "career": [
+      {
+        "season": "2018-2020",
+        "team": "Beşiktaş U21",
+        "apps": "30",
+        "goals": "1"
+      },
+      {
+        "season": "2020-",
+        "team": "Beşiktaş",
+        "apps": "38",
+        "goals": "2"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Ümraniyespor (kiralık)",
+        "apps": "47",
+        "goals": "1"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Ümraniyespor (kiralık)",
+        "apps": "26",
+        "goals": "0"
+      },
+      {
+        "season": "2023-2025",
+        "team": "Konyaspor (kiralık)",
+        "apps": "73",
+        "goals": "1"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 

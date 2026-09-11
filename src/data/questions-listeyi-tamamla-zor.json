@@ -3243,6 +3243,38 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 155,
+    "game": "listeyi-tamamla",
+    "title": "4 büyük kulübün mevcut kadrolarında yer alan Afrikalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-12",
+    "targets": [
+   "Emmanuel Agbadou",
+   "Junior Olaitan",
+   "Wilfred Ndidi",
+   "Ismael Jakobs",
+   "Wilfried Singo",
+   "Mario Lemina",
+   "Renato Nhaga",
+   "Victor Osimhen",
+   "Andre Onana",
+   "Sidny Lopes Cabral",
+   "Wagner Pina",
+   "Mohamed Salah",
+   "Chibuike Nwaiwu",
+   "Benjamin Bouchouari",
+   "Paul Onuachu",
+   "Franculino Dju",
+   "Kojo Peprah Oppong",
+   "Dorgeles Nene"
+
+
+
+    ],
+    "difficulty": "zor"
   }
 
 

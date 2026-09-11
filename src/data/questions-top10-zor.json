@@ -3085,7 +3085,30 @@
      "Rafa Silva"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 156,
+    "game": "top10",
+    "title": "Mevcut Süper Lig oyuncuları arasında Süper Lig tarihinin en golcü yerli oyuncuları?",
+    "type": "player",
+    "activeDate": "2026-09-12",
+    "targets": [
+     "Umut Nayir",
+     "Deniz Türüç",
+     "Kerem Aktürkoğlu",
+     "İrfan Can Kahveci",
+     "Umut Bozok",
+     "Güven Yalçın",
+     "Emre Kılınç",
+     "Ömer Ali Şahiner",
+     "Barış Alper Yılmaz",
+     "Serdar Dursun"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

@@ -2671,7 +2671,30 @@
       "Young Boys"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 134,
+    "game": "top10",
+    "title": "2026 yaz transfer döneminde Süper Lig'de en yüksek bonservis bedeliyle transfer edilen 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-12",
+    "targets": [
+      "Mason Greenwood",
+      "Rafael Leao",
+      "Orkun Kökçü",
+      "Aleksey Batrakov",
+      "Leandro Trossard",
+      "Sidiki Cherif",
+      "Franculino Dju",
+      "Vedat Muriqi",
+      "Aral Şimşir",
+      "Kojo Peprah Oppong"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 
