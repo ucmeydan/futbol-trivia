@@ -4254,5 +4254,35 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 148,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-14",
+    "correctPlayer": "Nihat Kahveci",
+    "teammates": [
+      {
+        "name": "Mikel Arteta",
+        "info": "2004-05 sezonunda Real Sociedad'da birlikte oynadılar"
+      },
+      {
+        "name": "Xabi Alonso",
+        "info": "2002-04 yılları arasında Real Sociedad'da birlikte oynadılar"
+      },
+      {
+        "name": "Santi Cazorla",
+        "info": "2007-09 yılları arasında Villarreal'de birlikte oynadılar"
+      },
+      {
+        "name": "Daniel Amokachi",
+        "info": "1997-2000 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Matteo Ferrari",
+        "info": "2009-11 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -3127,7 +3127,30 @@
      "Arseniy Batagov"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 158,
+    "game": "top10",
+    "title": "Ozan Tufan'ın Süper Lig kariyerinde birlikte en fazla maça çıktığı 10 takım arkadaşı?",
+    "type": "player",
+    "activeDate": "2026-09-14",
+    "targets": [
+     "Serdar Aziz",
+     "Fernandao",
+     "Altay Bayındır",
+     "Şener Özbayraklı",
+     "Hasan Ali Kaldırım",
+     "Volkan Şen",
+     "Luiz Gustavo",
+     "Josef De Souza",
+     "Harun Tekin",
+     "Volkan Demirel"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

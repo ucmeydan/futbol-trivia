@@ -5744,7 +5744,37 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 145,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-14",
+    "correctPlayer": "Ayberk Karapo",
+    "career": [
+      {
+        "season": "2022–2026",
+        "team": "Manisa FK",
+        "apps": "85",
+        "goals": "5"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Rizespor (kiralık)",
+        "apps": "12",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Kasımpaşa",
+        "apps": "4",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 

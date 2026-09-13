@@ -4999,6 +4999,55 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 134,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-14",
+    "correctPlayer": "Andreas Skov Olsen",
+    "career": [
+      {
+        "season": "2018-2019",
+        "team": "Nordsjaelland",
+        "apps": "51",
+        "goals": "27"
+      },
+      {
+        "season": "2019-2022",
+        "team": "Bologna",
+        "apps": "71",
+        "goals": "3"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Club Brugge",
+        "apps": "124",
+        "goals": "49"
+      },
+      {
+        "season": "2025–",
+        "team": "Wolfsburg",
+        "apps": "23",
+        "goals": "3"
+      },
+      {
+        "season": "2026-2026",
+        "team": "Rangers (kiralık)",
+        "apps": "11",
+        "goals": "1"
+      },
+      {
+        "season": "2026-",
+        "team": "Başakşehir (kiralık)",
+        "apps": "4",
+        "goals": "0"
+      }
+
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 

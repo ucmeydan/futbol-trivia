@@ -2713,6 +2713,27 @@
      "Bertuğ Yıldırım"
     ],
     "difficulty": "kolay"
+  },
+
+    {
+    "id": 136,
+    "game": "top10",
+    "title": "Vincenzo Montella'nın teknik direktörlüğünde milli takımımızın formasıyla en fazla maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-14",
+    "targets": [
+      "Kerem Aktürkoğlu",
+      "Kenan Yıldız",
+      "Barış Alper Yılmaz",
+      "Arda Güler",
+      "Orkun Kökçü",
+      "Abdülkerim Bardakcı",
+      "Hakan Çalhanoğlu",
+      "Mert Müldür",
+      "İsmail Yüksek",
+      "Merih Demiral"
+    ],
+    "difficulty": "kolay"
   }
 
 

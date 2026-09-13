@@ -3296,7 +3296,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 157,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde Beşiktaş forması giymiş Çek futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-14",
+    "targets": [
+   "Tomas Sivok",
+   "Tomas Zapotocny",
+   "Tomas Jun",
+   "David Jurasek",
+   "Vaclav Cerny"
+
+
+
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
