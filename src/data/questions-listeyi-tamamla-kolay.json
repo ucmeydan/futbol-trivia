@@ -2575,6 +2575,22 @@
       "Barış Alper Yılmaz"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 137,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'deki teknik direktörler arasında mevcut kulübünde 1 yıldan uzun süredir görev yapanlar?",
+    "type": "td",
+    "activeDate": "2026-09-13",
+    "targets": [
+      "Okan Buruk",
+      "Stanimir Stoilov",
+      "Serkan Özbalta",
+      "Selçuk İnan",
+      "Joao Pereira"
+    ],
+    "difficulty": "kolay"
   }
 
 

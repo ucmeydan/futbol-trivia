@@ -3106,6 +3106,27 @@
      "Serdar Dursun"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 157,
+    "game": "top10",
+    "title": "Fatih Tekke'nin Trabzonspor'u çalıştırdığı dönemde en çok maça çıkan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-13",
+    "targets": [
+     "Mustafa Eskihellaç",
+     "Oleksandr Zubkov",
+     "Ozan Tufan",
+     "Wagner Pina",
+     "Paul Onuachu",
+     "Tim Jabol Folcarelli",
+     "Felipe Augusto",
+     "Ernest Muçi",
+     "Andre Onana",
+     "Arseniy Batagov"
+    ],
+    "difficulty": "zor"
   }
 
 

@@ -3275,6 +3275,27 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 156,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig kariyerinde 40 ve üzeri asist yapan mevcut Süper Lig oyuncuları?",
+    "type": "player",
+    "activeDate": "2026-09-13",
+    "targets": [
+   "Edin Visca",
+   "Deniz Türüç",
+   "Emre Kılınç",
+   "İrfan Can Kahveci",
+   "Haris Hajradinovic",
+   "Alexandru Maxim",
+   "Kerem Aktürkoğlu"
+
+
+
+    ],
+    "difficulty": "zor"
   }
 
 

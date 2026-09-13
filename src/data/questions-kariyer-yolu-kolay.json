@@ -4950,6 +4950,55 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 133,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-13",
+    "correctPlayer": "Bertuğ Yıldırım",
+    "career": [
+      {
+        "season": "2020-2021",
+        "team": "Sarıyer",
+        "apps": "32",
+        "goals": "6"
+      },
+      {
+        "season": "2021-2023",
+        "team": "Hatayspor",
+        "apps": "37",
+        "goals": "6"
+      },
+      {
+        "season": "2023-2023",
+        "team": "Antalyaspor (kiralık)",
+        "apps": "13",
+        "goals": "2"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Rennes",
+        "apps": "29",
+        "goals": "1"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Getafe (kiralık)",
+        "apps": "26",
+        "goals": "3"
+      },
+      {
+        "season": "2025-",
+        "team": "Başakşehir",
+        "apps": "26",
+        "goals": "7"
+      }
+
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 

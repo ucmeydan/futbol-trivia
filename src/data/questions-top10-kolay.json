@@ -2692,6 +2692,27 @@
       "Kojo Peprah Oppong"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 135,
+    "game": "top10",
+    "title": "Güncel piyasa verilerine göre Süper Lig'in en değerli 10 yerli oyuncusu?",
+    "type": "player",
+    "activeDate": "2026-09-13",
+    "targets": [
+     "Barış Alper Yılmaz",
+     "Orkun Kökçü",
+     "Kerem Aktürkoğlu",
+     "Yunus Akgün",
+     "İsmail Yüksek",
+     "Uğurcan Çakır",
+     "Semih Kılıçsoy",
+     "Aral Şimşir",
+     "Arda Okan Kurtulan",
+     "Bertuğ Yıldırım"
+    ],
+    "difficulty": "kolay"
   }
 
 
