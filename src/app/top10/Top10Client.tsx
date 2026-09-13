@@ -38,6 +38,7 @@ const normalizeText = (text: string) => {
 
 export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor' }) {
   const [today, setToday] = useState("");
+  const [loaded, setLoaded] = useState(false);
   const [gameQuestions, setGameQuestions] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [lastFoundIdx, setLastFoundIdx] = useState<number | null>(null);
@@ -85,6 +86,8 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
       const latestIdx = filtered.length - 1;
       checkAndLoadQuestion(latestIdx, filtered);
     }
+
+    setLoaded(true);
   }, []);
 
   const checkAndLoadQuestion = (index: number, questionsList: any[]) => {
@@ -214,9 +217,17 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
   if (!currentQ) {
     return (
       <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 text-center">
-        <div className="w-12 h-12 border-b-2 border-slate-700 rounded-full mb-6" />
-        <p className="text-slate-500 text-sm mb-2">Bu zorluk seviyesi için henüz soru eklenmedi.</p>
-        <Link href="/top10" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Geri Dön</Link>
+        {!loaded ? (
+          <>
+            <div className="w-12 h-12 border-b-2 border-red-600 rounded-full mb-6 animate-spin" />
+            <p className="text-slate-500 text-sm">Soru yükleniyor…</p>
+          </>
+        ) : (
+          <>
+            <p className="text-slate-400 text-sm mb-2">Bu seviyede şu anda oynanacak bir soru bulunamadı.</p>
+            <Link href="/" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Diğer oyunlara dön</Link>
+          </>
+        )}
       </div>
     );
   }

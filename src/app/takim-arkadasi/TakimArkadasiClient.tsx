@@ -46,6 +46,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
   const [showError, setShowError] = useState(false);
   const [copySuccess, setCopySuccess] = useState(false);
   const [gameQuestions, setGameQuestions] = useState<any[]>([]);
+  const [loaded, setLoaded] = useState(false);
   const [showStatsPage, setShowStatsPage] = useState(false);
   const [windowDimension, setWindowDimension] = useState({ width: 1024, height: 768 });
 
@@ -93,6 +94,8 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
 
     const savedStats = safeGetItem(`takim_arkadasi_${difficulty}_stats_v2`);
     if (savedStats) setStats(JSON.parse(savedStats));
+
+    setLoaded(true);
   }, []);
 
   useEffect(() => {
@@ -232,9 +235,17 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
   if (!currentQ) {
     return (
       <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 text-center">
-        <div className="w-12 h-12 border-b-2 border-slate-700 rounded-full mb-6" />
-        <p className="text-slate-500 text-sm mb-2">Bu zorluk seviyesi için henüz soru eklenmedi.</p>
-        <Link href="/takim-arkadasi" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Geri Dön</Link>
+        {!loaded ? (
+          <>
+            <div className="w-12 h-12 border-b-2 border-red-600 rounded-full mb-6 animate-spin" />
+            <p className="text-slate-500 text-sm">Soru yükleniyor…</p>
+          </>
+        ) : (
+          <>
+            <p className="text-slate-400 text-sm mb-2">Bu seviyede şu anda oynanacak bir soru bulunamadı.</p>
+            <Link href="/" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Diğer oyunlara dön</Link>
+          </>
+        )}
       </div>
     );
   }

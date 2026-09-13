@@ -2,10 +2,22 @@
   "version": "0.0.1",
   "configurations": [
     {
+      "name": "tr-trivia-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
+    },
+    {
       "name": "expo-web",
       "runtimeExecutable": "sh",
       "runtimeArgs": ["-c", "cd FutbolTriviaApp && npx expo start --web --port 19006"],
       "port": 19006
+    },
+    {
+      "name": "duello-web",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "export PATH=\"/opt/homebrew/bin:$PATH\"; cd /Users/ufukcanmeydan/Desktop/futbol-duello/apps/mobile && exec npx expo start --web --port 19007"],
+      "port": 19007
     }
   ]
 }

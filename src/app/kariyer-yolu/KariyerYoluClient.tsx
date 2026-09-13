@@ -21,6 +21,7 @@ const toTitleCase = (str: string) => {
 };
 
 export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' | 'zor' }) {
+  const [loaded, setLoaded] = useState(false);
   const [gameQuestions, setGameQuestions] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(-1);
   const [visibleRows, setVisibleRows] = useState(1);
@@ -49,6 +50,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
     if (filtered.length > 0) {
       loadQuestion(filtered.length - 1, filtered);
     }
+    setLoaded(true);
   }, []);
 
   const loadQuestion = (index: number, questionsList: any[]) => {
@@ -189,9 +191,17 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
   if (!currentQ) {
     return (
       <div className="max-w-md mx-auto h-screen flex flex-col items-center justify-center p-4 text-white bg-slate-950 text-center">
-        <div className="w-12 h-12 border-b-2 border-slate-700 rounded-full mb-6" />
-        <p className="text-slate-500 text-sm mb-2">Bu zorluk seviyesi için henüz soru eklenmedi.</p>
-        <Link href="/kariyer-yolu" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Geri Dön</Link>
+        {!loaded ? (
+          <>
+            <div className="w-12 h-12 border-b-2 border-red-600 rounded-full mb-6 animate-spin" />
+            <p className="text-slate-500 text-sm">Soru yükleniyor…</p>
+          </>
+        ) : (
+          <>
+            <p className="text-slate-400 text-sm mb-2">Bu seviyede şu anda oynanacak bir soru bulunamadı.</p>
+            <Link href="/" className="mt-4 text-red-500 font-bold text-sm hover:underline">← Diğer oyunlara dön</Link>
+          </>
+        )}
       </div>
     );
   }
