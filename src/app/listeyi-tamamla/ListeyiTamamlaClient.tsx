@@ -8,9 +8,6 @@ import tdData from '@/data/td.json';
 import countriesData from '@/data/countries.json';
 import citiesData from '@/data/cities.json';
 import allTeamsData from '@/data/all_teams.json';
-import kolayQuestions from '@/data/questions-listeyi-tamamla-kolay.json';
-import zorQuestions from '@/data/questions-listeyi-tamamla-zor.json';
-const allQuestions = [...kolayQuestions, ...zorQuestions];
 import Link from 'next/link';
 import Confetti from 'react-confetti';
 
@@ -73,31 +70,40 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
     const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     setToday(dateStr);
 
-    const filtered = allQuestions.filter((q: any) =>
-      q.game === "listeyi-tamamla" && q.activeDate <= dateStr && q.difficulty === difficulty
-    );
-    setGameQuestions(filtered);
-
-    if (filtered.length > 0) {
-      const latestIdx = filtered.length - 1;
-      setCurrentIndex(latestIdx);
-
-      const lastPlayed = safeGetItem(`listeyi_tamamla_${difficulty}_last_played_${filtered[latestIdx].activeDate}`);
-      if (lastPlayed === dateStr) {
-        setIsGameOver(true);
-        const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${filtered[latestIdx].activeDate}`);
-        if (savedSession) {
-          const data = JSON.parse(savedSession);
-          setFoundItems(data.found || []);
-          setIsWin(data.won || false);
-        }
-      }
-    }
-
     const savedStats = safeGetItem(`listeyi_tamamla_${difficulty}_stats`);
     if (savedStats) setStats(JSON.parse(savedStats));
 
-    setLoaded(true);
+    let cancelled = false;
+    (async () => {
+      const mod = difficulty === 'kolay'
+        ? await import('@/data/questions-listeyi-tamamla-kolay.json')
+        : await import('@/data/questions-listeyi-tamamla-zor.json');
+      if (cancelled) return;
+      const questions = mod.default as any[];
+      const filtered = questions.filter((q: any) =>
+        q.game === "listeyi-tamamla" && q.activeDate <= dateStr && q.difficulty === difficulty
+      );
+      setGameQuestions(filtered);
+
+      if (filtered.length > 0) {
+        const latestIdx = filtered.length - 1;
+        setCurrentIndex(latestIdx);
+
+        const lastPlayed = safeGetItem(`listeyi_tamamla_${difficulty}_last_played_${filtered[latestIdx].activeDate}`);
+        if (lastPlayed === dateStr) {
+          setIsGameOver(true);
+          const savedSession = safeGetItem(`listeyi_tamamla_${difficulty}_session_${filtered[latestIdx].activeDate}`);
+          if (savedSession) {
+            const data = JSON.parse(savedSession);
+            setFoundItems(data.found || []);
+            setIsWin(data.won || false);
+          }
+        }
+      }
+
+      setLoaded(true);
+    })();
+    return () => { cancelled = true; };
   }, []);
 
   useEffect(() => {

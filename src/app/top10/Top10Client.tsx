@@ -15,9 +15,6 @@ import tdData from '@/data/td.json';
 import countriesData from '@/data/countries.json';
 import citiesData from '@/data/cities.json';
 import allTeamsData from '@/data/all_teams.json';
-import kolayQuestions from '@/data/questions-top10-kolay.json';
-import zorQuestions from '@/data/questions-top10-zor.json';
-const allQuestions = [...kolayQuestions, ...zorQuestions];
 import Link from 'next/link';
 import Confetti from 'react-confetti';
 
@@ -79,15 +76,24 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
     const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     setToday(dateStr);
 
-    const filtered = allQuestions.filter((q: any) => q.game === "top10" && q.activeDate <= dateStr && q.difficulty === difficulty);
-    setGameQuestions(filtered);
+    let cancelled = false;
+    (async () => {
+      const mod = difficulty === 'kolay'
+        ? await import('@/data/questions-top10-kolay.json')
+        : await import('@/data/questions-top10-zor.json');
+      if (cancelled) return;
+      const questions = mod.default as any[];
+      const filtered = questions.filter((q: any) => q.game === "top10" && q.activeDate <= dateStr && q.difficulty === difficulty);
+      setGameQuestions(filtered);
 
-    if (filtered.length > 0) {
-      const latestIdx = filtered.length - 1;
-      checkAndLoadQuestion(latestIdx, filtered);
-    }
+      if (filtered.length > 0) {
+        const latestIdx = filtered.length - 1;
+        checkAndLoadQuestion(latestIdx, filtered);
+      }
 
-    setLoaded(true);
+      setLoaded(true);
+    })();
+    return () => { cancelled = true; };
   }, []);
 
   const checkAndLoadQuestion = (index: number, questionsList: any[]) => {

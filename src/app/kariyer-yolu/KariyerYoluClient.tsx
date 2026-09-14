@@ -11,9 +11,6 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
 import playersData from '@/data/players.json';
-import kolayQuestions from '@/data/questions-kariyer-yolu-kolay.json';
-import zorQuestions from '@/data/questions-kariyer-yolu-zor.json';
-const allQuestions = [...kolayQuestions, ...zorQuestions];
 
 const toTitleCase = (str: string) => {
   if (!str) return "";
@@ -43,14 +40,23 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
   });
 
   useEffect(() => {
-    const d = new Date();
-    const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-    const filtered = allQuestions.filter((q: any) => q.game === "kariyer-yolu" && q.activeDate <= dateStr && q.difficulty === difficulty);
-    setGameQuestions(filtered);
-    if (filtered.length > 0) {
-      loadQuestion(filtered.length - 1, filtered);
-    }
-    setLoaded(true);
+    let cancelled = false;
+    (async () => {
+      const d = new Date();
+      const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      const mod = difficulty === 'kolay'
+        ? await import('@/data/questions-kariyer-yolu-kolay.json')
+        : await import('@/data/questions-kariyer-yolu-zor.json');
+      if (cancelled) return;
+      const questions = mod.default as any[];
+      const filtered = questions.filter((q: any) => q.game === "kariyer-yolu" && q.activeDate <= dateStr && q.difficulty === difficulty);
+      setGameQuestions(filtered);
+      if (filtered.length > 0) {
+        loadQuestion(filtered.length - 1, filtered);
+      }
+      setLoaded(true);
+    })();
+    return () => { cancelled = true; };
   }, []);
 
   const loadQuestion = (index: number, questionsList: any[]) => {
