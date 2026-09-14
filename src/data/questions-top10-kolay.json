@@ -2734,7 +2734,30 @@
       "Merih Demiral"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 137,
+    "game": "top10",
+    "title": "Bu sezon Beşiktaş formasıyla en çok süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-15",
+    "targets": [
+      "Alexander Nübel",
+      "Salih Özcan",
+      "Orkun Kökçü",
+      "Junior Olaitan",
+      "Amir Murillo",
+      "Emirhan Topçu",
+      "Vaclav Cerny",
+      "Tiago Djalo",
+      "Hyeon Gyu Oh",
+      "Rıdvan Yılmaz"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

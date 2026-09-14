@@ -5048,6 +5048,43 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 135,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-15",
+    "correctPlayer": "Adil Demirbağ",
+    "career": [
+      {
+        "season": "2015-2017",
+        "team": "Bucaspor",
+        "apps": "51",
+        "goals": "2"
+      },
+      {
+        "season": "2017-2020",
+        "team": "Adana Demirspor",
+        "apps": "63",
+        "goals": "3"
+      },
+      {
+        "season": "2018-2018",
+        "team": "Fatih Karagümrük (kiralık)",
+        "apps": "12",
+        "goals": "1"
+      },
+      {
+        "season": "2020–",
+        "team": "Konyaspor",
+        "apps": "181",
+        "goals": "4"
+      }
+
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 

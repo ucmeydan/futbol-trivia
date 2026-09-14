@@ -3315,6 +3315,26 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 158,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Galatasaray hem de Borussia Dortmund forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-15",
+    "targets": [
+  "Flavio Conceicao",
+  "Yasin Öztekin",
+  "Koray Günter",
+  "Michy Batshuayi",
+  "İlkay Gündoğan",
+  "Emre Mor"
+
+
+
+    ],
+    "difficulty": "zor"
   }
 
 

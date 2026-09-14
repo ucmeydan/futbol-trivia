@@ -3148,7 +3148,30 @@
      "Volkan Demirel"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 159,
+    "game": "top10",
+    "title": "Şenol Güneş'in Trabzonspor'un başında olduğu dönemde en çok maça çıkan 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-15",
+    "targets": [
+     "Alanzinho",
+     "Gustavo Colman",
+     "Shota Arveladze",
+     "Ondrej Celustka",
+     "Adrian Mierzejewski",
+     "Archil Arveladze",
+     "Ibrahim Yattara",
+     "Paulo Henrique",
+     "Didier Zokora",
+     "Hrvoje Cale"
+    ],
+    "difficulty": "zor"
   }
+
+
 
 
 
