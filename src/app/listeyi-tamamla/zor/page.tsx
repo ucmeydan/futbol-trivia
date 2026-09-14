@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import SiteFooter from '../../components/SiteFooter';
 import ListeyiTamamlaClient from '../ListeyiTamamlaClient';
 
 export const metadata: Metadata = {
@@ -53,6 +54,7 @@ export default function ListeyiTamamlaZorPage() {
           paylaş ve Türk futbol tarihini en iyi bilenlerin arasında yerini al.
         </p>
       </section>
+      <SiteFooter />
     </>
   );
 }

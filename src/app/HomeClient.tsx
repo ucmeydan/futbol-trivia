@@ -207,7 +207,7 @@ export default function HomeClient() {
             <div>
               <h3 className="text-slate-500 font-normal mb-3">Kişisel istatistikler</h3>
               <p>
-                Oyun başına tahmin dağılımın, kazanma yüzden ve günlük serilerin tarayıcında
+                Oyun başına tahmin dağılımın, kazanma yüzdesi ve günlük serilerin tarayıcında
                 saklanır. Her oturumda kendi gelişimini takip edebilir, hangi oyun modülünde
                 daha güçlü olduğunu görebilirsin. Arşiv navigasyonuyla geçmiş soruları
                 tekrar oynayarak kaçırdığın günleri tamamlayabilirsin.

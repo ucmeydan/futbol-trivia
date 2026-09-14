@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import SiteFooter from '../../components/SiteFooter';
 import ListeyiTamamlaClient from '../ListeyiTamamlaClient';
 
 export const metadata: Metadata = {
@@ -51,6 +52,7 @@ export default function ListeyiTamamlaKolayPage() {
           Zor seviyeyi de denemeni öneririz. Günlük sonucunu paylaşarak arkadaşlarına meydan okuyabilirsin.
         </p>
       </section>
+      <SiteFooter />
     </>
   );
 }

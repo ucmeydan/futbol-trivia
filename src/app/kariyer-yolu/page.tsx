@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import SiteFooter from '../components/SiteFooter';
 import DifficultySelector from '../components/DifficultySelector';
 
 export const metadata: Metadata = {
@@ -48,6 +49,7 @@ export default function KariyerYoluPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <DifficultySelector gameSlug="kariyer-yolu" gameTitle="Kariyer Yolu" />
+      <SiteFooter />
     </>
   );
 }

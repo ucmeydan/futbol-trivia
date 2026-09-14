@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import SiteFooter from '../../components/SiteFooter';
 import TakimArkadasiClient from '../TakimArkadasiClient';
 
 export const metadata: Metadata = {
@@ -53,6 +54,7 @@ export default function TakimArkadasiZorPage() {
           ipucunda bulduğunu arkadaşlarınla kıyasla.
         </p>
       </section>
+      <SiteFooter />
     </>
   );
 }

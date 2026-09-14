@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import SiteFooter from '../components/SiteFooter';
 import DifficultySelector from '../components/DifficultySelector';
 
 export const metadata: Metadata = {
@@ -48,6 +49,7 @@ export default function Top10Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <DifficultySelector gameSlug="top10" gameTitle="Top 10" />
+      <SiteFooter />
     </>
   );
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import SiteFooter from '../../components/SiteFooter';
 import KariyerYoluClient from '../KariyerYoluClient';
 
 export const metadata: Metadata = {
@@ -52,6 +53,7 @@ export default function KariyerYoluKolayPage() {
           pekiştirir hem de yeni oyuncuları tanımak için eğlenceli bir yol sunar.
         </p>
       </section>
+      <SiteFooter />
     </>
   );
 }

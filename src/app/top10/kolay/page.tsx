@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import SiteFooter from '../../components/SiteFooter';
 import Top10Client from '../Top10Client';
 
 export const metadata: Metadata = {
@@ -51,6 +52,7 @@ export default function Top10KolayPage() {
           herkes için uygundur. Soruları kaçırmamak için her gün siteye uğramayı unutma.
         </p>
       </section>
+      <SiteFooter />
     </>
   );
 }

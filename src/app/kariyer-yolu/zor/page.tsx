@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import SiteFooter from '../../components/SiteFooter';
 import KariyerYoluClient from '../KariyerYoluClient';
 
 export const metadata: Metadata = {
@@ -54,6 +55,7 @@ export default function KariyerYoluZorPage() {
           düzeyde ne kadar güçlü olduğunu kanıtlar. Sonucu paylaş ve arkadaşlarının skoru ile kıyasla.
         </p>
       </section>
+      <SiteFooter />
     </>
   );
 }
