@@ -54,7 +54,7 @@ export default function IletisimPage() {
           </nav>
 
           <header className="mb-12">
-            <p className="text-xs text-red-600 tracking-[0.2em] uppercase font-medium mb-3">İletişim</p>
+            <p className="text-xs text-red-600 tracking-wide font-medium mb-3">İletişim</p>
             <h1 className="text-4xl font-light text-white tracking-tight mb-4">Bize ulaşın</h1>
             <p className="text-slate-500 text-sm">Sorularınız, önerileriniz ve geri bildirimleriniz için buradayız</p>
           </header>
@@ -129,7 +129,7 @@ export default function IletisimPage() {
           </div>
 
           <nav aria-label="İlgili sayfalar" className="mt-14 pt-8 border-t border-slate-900">
-            <p className="text-xs text-slate-600 tracking-widest uppercase mb-4">Ayrıca bakınız</p>
+            <p className="text-xs text-slate-600 tracking-wide mb-4">Ayrıca bakınız</p>
             <div className="flex flex-wrap gap-3">
               <Link href="/" className="text-sm text-slate-500 hover:text-slate-300 border border-slate-800 hover:border-slate-700 px-4 py-2 rounded-full transition-all">Oyunlar</Link>
               <Link href="/hakkimizda" className="text-sm text-slate-500 hover:text-slate-300 border border-slate-800 hover:border-slate-700 px-4 py-2 rounded-full transition-all">Hakkımızda</Link>
@@ -138,7 +138,7 @@ export default function IletisimPage() {
           </nav>
 
           <footer className="mt-10 pb-10">
-            <p className="text-[10px] text-slate-800 tracking-widest uppercase">© 2026 FutbolTrivia</p>
+            <p className="text-[10px] text-slate-800 tracking-wide">© 2026 FutbolTrivia</p>
           </footer>
 
         </div>

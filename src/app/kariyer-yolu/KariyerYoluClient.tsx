@@ -279,7 +279,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
       <div className="w-full bg-slate-900/40 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl mb-6 relative z-10">
         <table className="w-full text-left border-collapse">
           <thead>
-            <tr className="bg-slate-800/50 text-[11px] text-slate-400 uppercase tracking-wider">
+            <tr className="bg-slate-800/50 text-[11px] text-slate-400 tracking-wider">
               <th className="px-4 py-3 font-semibold">Sezon</th>
               <th className="px-4 py-3 font-semibold">Takım</th>
               <th className="px-4 py-3 font-semibold text-center">Maç</th>
@@ -332,7 +332,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
               className={`w-full p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 focus:border-red-600 outline-none font-bold text-base text-white ${isError ? "border-red-600 animate-shake" : ""}`}
             />
             <div className="flex justify-end mt-3 px-1">
-              <button onClick={() => handleGuess("pas")} className="text-amber-400 hover:text-amber-300 font-bold text-xs underline tracking-widest transition-colors">Pas Geç</button>
+              <button onClick={() => handleGuess("pas")} className="text-amber-400 hover:text-amber-300 font-bold text-xs underline tracking-wide transition-colors">Pas Geç</button>
             </div>
           </div>
         ) : (

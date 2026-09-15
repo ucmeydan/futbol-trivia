@@ -1,7 +1,34 @@
 @import "tailwindcss";
 
-:root {
-  --font-bebas: 'Bebas Neue', sans-serif;
+/* ============================================================
+   TEMA PALETİ — yumuşatılmış, sıcak-nötr koyu tema
+   slate token'ları merkezi olarak yeniden tanımlanır; tüm
+   bg-/text-/border-slate-* yardımcı sınıfları otomatik uyum sağlar.
+   ============================================================ */
+@theme {
+  --color-slate-950: #15161c; /* ana zemin — near-black yerine yumuşak kömür */
+  --color-slate-900: #1e2027; /* kartlar / derin yüzey */
+  --color-slate-800: #2c2f38; /* kenarlıklar */
+  --color-slate-700: #40444f; /* güçlü kenarlık / orta yüzey / hover */
+  --color-slate-600: #767d8b; /* soluk metin — artık okunaklı */
+  --color-slate-500: #9ba2b0; /* ikincil metin */
+  --color-slate-400: #bcc2cd; /* gövde metni */
+  --color-slate-300: #d6dae1; /* parlak metin */
+  --color-slate-200: #e7eaee;
+  --color-slate-100: #f2f4f6;
+}
+
+/* Modern-yumuşak başlık/gösterim fontu (Plus Jakarta Sans),
+   gövde Inter kalır. .font-bebas sınıfı da bu fonta yönlendirilir
+   (artık all-caps condensed değil). */
+h1, h2, h3, h4,
+.font-display,
+.font-bebas {
+  font-family: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+}
+.font-bebas {
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 /* ============================================================
@@ -17,14 +44,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-}
-
-/* ============================================================
-   FONT UTILITY
-   ============================================================ */
-
-.font-bebas {
-  font-family: var(--font-bebas);
 }
 
 /* ============================================================

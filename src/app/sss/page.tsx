@@ -238,7 +238,7 @@ export default function SSSPage() {
           <div className="space-y-12">
             {sections.map((section) => (
               <div key={section.title}>
-                <h2 className="text-slate-500 text-xs font-bold tracking-[0.2em] uppercase mb-6 border-b border-slate-800 pb-3">
+                <h2 className="text-slate-500 text-xs font-bold tracking-wide mb-6 border-b border-slate-800 pb-3">
                   {section.title}
                 </h2>
                 <div className="space-y-6">

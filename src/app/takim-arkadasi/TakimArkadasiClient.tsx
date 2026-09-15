@@ -281,7 +281,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
           </div>
 
           <div className="space-y-3 mb-10 text-left">
-            <p className="text-[10px] text-slate-500 font-bold tracking-widest mb-4">Tahmin dağılımı</p>
+            <p className="text-[10px] text-slate-500 font-bold tracking-wide mb-4">Tahmin dağılımı</p>
             {[1, 2, 3, 4, 5, 6, 7].map((num) => (
               <div key={num} className="flex items-center gap-3">
                 <span className="text-[11px] font-bold w-4 text-slate-500">{num}</span>
@@ -414,7 +414,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
             />
             <div className="flex items-center justify-between mt-3 px-1">
               <span className="text-slate-600 text-[11px]">{remainingAttempts} tahmin hakkın kaldı</span>
-              <button onClick={() => handleGuess("pas")} className="text-amber-400 hover:text-amber-300 font-bold text-xs underline tracking-widest transition-colors">Pas Geç</button>
+              <button onClick={() => handleGuess("pas")} className="text-amber-400 hover:text-amber-300 font-bold text-xs underline tracking-wide transition-colors">Pas Geç</button>
             </div>
           </div>
         ) : (

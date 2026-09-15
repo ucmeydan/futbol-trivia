@@ -359,7 +359,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
         {/* Sayaç + skor satırı */}
         <div className="flex justify-between items-center mb-4 px-4">
           <div className="text-left">
-            <span className="font-bebas text-xs text-slate-500 block uppercase tracking-widest">Bulunan</span>
+            <span className="font-bebas text-xs text-slate-500 block tracking-wide">Bulunan</span>
             <span className="font-bebas text-4xl text-white leading-none">
               {foundItems.length}
               <span className="text-slate-700 text-2xl">/{currentQ.targets.length}</span>
@@ -506,7 +506,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
           <div className="p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 animate-in zoom-in duration-300">
             <div className="flex items-center justify-between mb-3 bg-slate-950/50 p-3 rounded-xl border border-slate-800">
               <div className="text-left">
-                <p className="text-slate-500 text-[10px] font-semibold uppercase tracking-wide">Sıradaki soru</p>
+                <p className="text-slate-500 text-[10px] font-semibold tracking-wide">Sıradaki soru</p>
                 <p className="font-bold text-lg text-white mt-1 leading-none tabular-nums">{nextGameTime}</p>
               </div>
               <button

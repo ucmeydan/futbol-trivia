@@ -23,12 +23,12 @@ export default function DifficultySelector({ gameSlug, gameTitle }: Props) {
 
       {/* Başlık */}
       <div className="text-center mb-14 relative z-10">
-        <p className="text-slate-600 text-[10px] font-bold tracking-[0.3em] uppercase mb-3">Futbol Trivia</p>
+        <p className="text-slate-600 text-[10px] font-bold tracking-wide mb-3">Futbol Trivia</p>
         <h1 className="font-bebas text-5xl md:text-6xl tracking-wide text-white mb-4 leading-none">
           {gameTitle}
         </h1>
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900 border border-slate-800">
-          <span className="text-slate-400 text-xs font-semibold tracking-widest uppercase">Zorluk Seviyesi Seç</span>
+          <span className="text-slate-400 text-xs font-semibold tracking-wide">Zorluk Seviyesi Seç</span>
         </div>
       </div>
 
@@ -64,7 +64,7 @@ export default function DifficultySelector({ gameSlug, gameTitle }: Props) {
             </p>
           </div>
 
-          <div className="flex items-center gap-2 mt-7 text-xs font-bold tracking-widest text-green-500" aria-hidden="true">
+          <div className="flex items-center gap-2 mt-7 text-xs font-bold tracking-wide text-green-500" aria-hidden="true">
             OYNA
             <span className="transition-transform duration-300 group-hover:translate-x-2">→</span>
           </div>
@@ -99,7 +99,7 @@ export default function DifficultySelector({ gameSlug, gameTitle }: Props) {
             </p>
           </div>
 
-          <div className="flex items-center gap-2 mt-7 text-xs font-bold tracking-widest text-red-500" aria-hidden="true">
+          <div className="flex items-center gap-2 mt-7 text-xs font-bold tracking-wide text-red-500" aria-hidden="true">
             OYNA
             <span className="transition-transform duration-300 group-hover:translate-x-2">→</span>
           </div>

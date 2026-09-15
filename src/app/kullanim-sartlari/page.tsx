@@ -45,7 +45,7 @@ export default function KullanimSartlariPage() {
 
         <header className="mb-10">
           <h1 className="text-2xl font-light text-white mb-3 tracking-tight">Kullanım Koşulları</h1>
-          <p className="text-xs text-slate-600 tracking-widest uppercase">Son güncelleme: 25 Nisan 2026 · Sürüm 1.0</p>
+          <p className="text-xs text-slate-600 tracking-wide">Son güncelleme: 25 Nisan 2026 · Sürüm 1.0</p>
         </header>
 
         <p className="text-sm leading-relaxed mb-10 text-slate-400">

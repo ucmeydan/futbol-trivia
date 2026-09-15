@@ -1,4 +1,4 @@
-import { Bebas_Neue, Inter } from "next/font/google";
+import { Plus_Jakarta_Sans, Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
@@ -76,15 +76,15 @@ export const metadata: Metadata = {
   },
 };
 
-const bebasNeue = Bebas_Neue({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-bebas",
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin", "latin-ext"],
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-jakarta",
   display: "swap",
 });
 
 const inter = Inter({
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   display: "swap",
 });
 
@@ -134,7 +134,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body
-        className={`${inter.className} ${bebasNeue.variable} bg-slate-950 text-white antialiased`}
+        className={`${inter.className} ${jakarta.variable} bg-slate-950 text-white antialiased`}
       >
         {children}
         <ServiceWorkerRegister />

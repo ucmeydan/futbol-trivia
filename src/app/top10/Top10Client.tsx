@@ -264,7 +264,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
           "{currentQ.title}"
         </h2>
 
-        <p className="text-slate-500 text-[11px] font-bold tracking-[0.2em] uppercase mb-6">İpucu Tercihi</p>
+        <p className="text-slate-500 text-[11px] font-bold tracking-wide mb-6">İpucu Tercihi</p>
 
         <div className="flex flex-col gap-3 w-full">
           <button
@@ -353,7 +353,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
             ))}
           </div>
           {lives === 1 && !isGameOver && (
-            <span className="text-[10px] font-bold text-red-500 animate-pulse italic uppercase">SON HAKKIN!</span>
+            <span className="text-[10px] font-bold text-red-500 animate-pulse italic">SON HAKKIN!</span>
           )}
         </div>
       </div>
@@ -523,12 +523,12 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
           <div className="p-4 bg-slate-900 rounded-2xl border-2 border-slate-800 animate-in zoom-in duration-300">
             <div className="flex items-center justify-between mb-3 bg-slate-950/50 p-3 rounded-xl border border-slate-800">
               <div className="text-left">
-                <p className="text-slate-500 text-[10px] font-semibold uppercase tracking-wide">Sıradaki soru</p>
+                <p className="text-slate-500 text-[10px] font-semibold tracking-wide">Sıradaki soru</p>
                 <p className="font-bold text-lg text-white mt-1 leading-none tabular-nums">{nextGameTime}</p>
               </div>
               <button
                 onClick={() => setShowStatsPopup(true)}
-                className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors uppercase"
+                className="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-[11px] font-bold transition-colors"
               >
                 İstatistik
               </button>

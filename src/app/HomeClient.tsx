@@ -150,7 +150,7 @@ export default function HomeClient() {
                 </div>
 
                 <div className="space-y-2">
-                  <p className="text-white/80 text-xs font-semibold uppercase tracking-widest">Nasıl oynanır?</p>
+                  <p className="text-white/80 text-xs font-semibold tracking-wide">Nasıl oynanır?</p>
                   <p className="text-slate-400 text-sm leading-relaxed">{game.description}</p>
                   <p className="text-slate-400 text-sm leading-relaxed">
                     {game.detailHighlight
@@ -163,8 +163,8 @@ export default function HomeClient() {
                   </p>
                 </div>
 
-                <div className={`flex items-center text-xs font-bold tracking-widest mt-7 ${ctaColor}`} aria-hidden="true">
-                  HEMEN OYNA
+                <div className={`flex items-center text-xs font-bold tracking-wide mt-7 ${ctaColor}`} aria-hidden="true">
+                  Hemen oyna
                   <span className="ml-2 transition-transform duration-300 group-hover:translate-x-2">→</span>
                 </div>
               </div>
@@ -183,7 +183,7 @@ export default function HomeClient() {
       {/* SEO içerik bloğu */}
       <section aria-label="Platform hakkında" className="w-full max-w-5xl relative z-10 px-4 mt-20">
         <div className="border-t border-slate-900 pt-12 pb-4">
-          <h2 className="text-slate-600 text-xs tracking-[0.2em] uppercase mb-8">FutbolTrivia hakkında</h2>
+          <h2 className="text-slate-600 text-xs tracking-wide mb-8">FutbolTrivia hakkında</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-sm text-slate-600 leading-relaxed font-light mb-10">
             <div>
@@ -255,7 +255,7 @@ export default function HomeClient() {
             <span className="hidden md:block text-slate-800" aria-hidden="true">•</span>
             <Link href="/kullanim-sartlari" className="hover:text-white transition-colors px-2">Kullanım Koşulları</Link>
           </nav>
-          <p className="text-center text-slate-700 text-[10px] tracking-[0.3em] uppercase font-mono">
+          <p className="text-center text-slate-700 text-[10px] tracking-wide font-mono">
             © 2026 Futbol Trivia · Tüm hakları saklıdır.
           </p>
         </div>

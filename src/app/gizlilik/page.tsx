@@ -66,7 +66,7 @@ export default function GizlilikPage() {
           </nav>
 
           <header className="mb-12">
-            <p className="text-xs text-red-600 tracking-[0.2em] uppercase font-medium mb-3">Yasal</p>
+            <p className="text-xs text-red-600 tracking-wide font-medium mb-3">Yasal</p>
             <h1 className="text-4xl font-light text-white tracking-tight mb-4">Gizlilik Politikası</h1>
             <p className="text-slate-500 text-sm">Son güncelleme: 3 Haziran 2026 &nbsp;·&nbsp; Sürüm 1.2</p>
           </header>
@@ -213,7 +213,7 @@ export default function GizlilikPage() {
           </div>
 
           <nav aria-label="İlgili sayfalar" className="mt-14 pt-8 border-t border-slate-900">
-            <p className="text-xs text-slate-600 tracking-widest uppercase mb-4">Ayrıca bakınız</p>
+            <p className="text-xs text-slate-600 tracking-wide mb-4">Ayrıca bakınız</p>
             <div className="flex flex-wrap gap-3">
               <Link href="/hakkimizda" className="text-sm text-slate-500 hover:text-slate-300 border border-slate-800 hover:border-slate-700 px-4 py-2 rounded-full transition-all">Hakkımızda</Link>
               <Link href="/iletisim" className="text-sm text-slate-500 hover:text-slate-300 border border-slate-800 hover:border-slate-700 px-4 py-2 rounded-full transition-all">İletişim</Link>
@@ -222,7 +222,7 @@ export default function GizlilikPage() {
           </nav>
 
           <footer className="mt-10 pb-10">
-            <p className="text-[10px] text-slate-800 tracking-widest uppercase">
+            <p className="text-[10px] text-slate-800 tracking-wide">
               © 2026 FutbolTrivia · Son güncelleme: 3 Haziran 2026 · Sürüm 1.2
             </p>
           </footer>

@@ -15,7 +15,7 @@ export default function Top10KolayPage() {
       <Top10Client difficulty="kolay" />
 
       <section className="max-w-2xl mx-auto px-6 py-12 text-slate-400 text-sm leading-relaxed space-y-4 border-t border-slate-900 mt-8">
-        <h2 className="text-slate-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Top 10 Kolay — Nasıl Oynanır?</h2>
+        <h2 className="text-slate-500 text-xs font-bold tracking-wide mb-6">Top 10 Kolay — Nasıl Oynanır?</h2>
 
         <p>
           Top 10 Kolay seviyesinde güncel Süper Lig bilgin ön plana çıkar. Sorular büyük ölçüde son birkaç sezonu

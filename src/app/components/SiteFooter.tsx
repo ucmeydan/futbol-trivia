@@ -15,7 +15,7 @@ export default function SiteFooter() {
           <Link href="/gizlilik" className="hover:text-white transition-colors px-1">Gizlilik Politikası</Link>
           <Link href="/kullanim-sartlari" className="hover:text-white transition-colors px-1">Kullanım Koşulları</Link>
         </nav>
-        <p className="text-center text-slate-700 text-[10px] tracking-[0.3em] uppercase font-mono">
+        <p className="text-center text-slate-700 text-[10px] tracking-wide font-mono">
           © 2026 Futbol Trivia · Tüm hakları saklıdır.
         </p>
       </div>

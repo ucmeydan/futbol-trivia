@@ -15,7 +15,7 @@ export default function KariyerYoluKolayPage() {
       <KariyerYoluClient difficulty="kolay" />
 
       <section className="max-w-2xl mx-auto px-6 py-12 text-slate-400 text-sm leading-relaxed space-y-4 border-t border-slate-900 mt-8">
-        <h2 className="text-slate-500 text-xs font-bold tracking-[0.2em] uppercase mb-6">Kariyer Yolu Kolay — Nasıl Oynanır?</h2>
+        <h2 className="text-slate-500 text-xs font-bold tracking-wide mb-6">Kariyer Yolu Kolay — Nasıl Oynanır?</h2>
 
         <p>
           Kariyer Yolu Kolay seviyesinde Türkiye'de birden fazla sezon oynamış, taraftarların büyük çoğunluğunun
