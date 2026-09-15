@@ -1,21 +1,22 @@
 @import "tailwindcss";
 
 /* ============================================================
-   TEMA PALETİ — yumuşatılmış, sıcak-nötr koyu tema
+   TEMA PALETİ — "Derin Gece Mavisi" (atmosferik lacivert koyu tema)
    slate token'ları merkezi olarak yeniden tanımlanır; tüm
    bg-/text-/border-slate-* yardımcı sınıfları otomatik uyum sağlar.
    ============================================================ */
 @theme {
-  --color-slate-950: #15161c; /* ana zemin — near-black yerine yumuşak kömür */
-  --color-slate-900: #1e2027; /* kartlar / derin yüzey */
-  --color-slate-800: #2c2f38; /* kenarlıklar */
-  --color-slate-700: #40444f; /* güçlü kenarlık / orta yüzey / hover */
-  --color-slate-600: #767d8b; /* soluk metin — artık okunaklı */
-  --color-slate-500: #9ba2b0; /* ikincil metin */
-  --color-slate-400: #bcc2cd; /* gövde metni */
-  --color-slate-300: #d6dae1; /* parlak metin */
-  --color-slate-200: #e7eaee;
-  --color-slate-100: #f2f4f6;
+  /* "Derin Gece Mavisi" — premium, atmosferik lacivert derinlik */
+  --color-slate-950: #0a0e1a; /* ana zemin — derin lacivert-siyah */
+  --color-slate-900: #101729; /* kartlar / derin yüzey */
+  --color-slate-800: #1a2438; /* kenarlıklar */
+  --color-slate-700: #24324f; /* güçlü kenarlık / orta yüzey / hover */
+  --color-slate-600: #6b7a99; /* soluk metin — mavi-gri, okunaklı */
+  --color-slate-500: #8ea0c4; /* ikincil metin */
+  --color-slate-400: #a9b6d1; /* gövde metni */
+  --color-slate-300: #c7d0e2; /* parlak metin */
+  --color-slate-200: #e0e5ef;
+  --color-slate-100: #eef1f7;
 }
 
 /* Modern-yumuşak başlık/gösterim fontu (Plus Jakarta Sans),
@@ -52,7 +53,7 @@ body {
 
 /* Doğru cevap açılma animasyonu */
 @keyframes revealCorrect {
-  0%   { transform: scale(1);   background: #0f172a; }
+  0%   { transform: scale(1);   background: #101729; }
   50%  { transform: scale(1.1); background: #ffffff; color: #000000; }
   100% { transform: scale(1);   background: #22c55e; color: #ffffff; }
 }
@@ -126,7 +127,7 @@ body {
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #1e293b transparent;
+  scrollbar-color: #24324f transparent;
 }
 
 *::-webkit-scrollbar {
@@ -139,7 +140,7 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #1e293b;
+  background: #24324f;
   border-radius: 10px;
 }
 
@@ -149,7 +150,7 @@ body {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #1e293b;
+  background: #24324f;
   border-radius: 10px;
 }
 

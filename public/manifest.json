@@ -4,7 +4,7 @@
   "description": "Her gün yenilenen sorularla futbol bilgini test et. Süper Lig odaklı günlük bilgi yarışması.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#020617",
+  "background_color": "#0a0e1a",
   "theme_color": "#dc2626",
   "orientation": "portrait",
   "lang": "tr",
