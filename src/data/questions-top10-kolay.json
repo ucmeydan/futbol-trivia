@@ -2755,6 +2755,27 @@
       "Rıdvan Yılmaz"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 138,
+    "game": "top10",
+    "title": "Bu sezon Fenerbahçe formasıyla en çok süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-16",
+    "targets": [
+      "Milan Skriniar",
+      "Nathan Ake",
+      "Matteo Guendouzi",
+      "Mason Greenwood",
+      "Nelson Semedo",
+      "N'golo Kante",
+      "Archie Brown",
+      "Kerem Aktürkoğlu",
+      "Ederson",
+      "Anderson Talisca"
+    ],
+    "difficulty": "kolay"
   }
 
 

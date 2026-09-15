@@ -2629,7 +2629,28 @@
       "Ümit Davala"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 140,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Galatasaray formasıyla resmi maçlarda gol atan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-09-16",
+    "targets": [
+      "Victor Osimhen",
+      "Abdülkerim Bardakcı",
+      "Lucas Torreira",
+      "Gabriel Sara",
+      "Davinson Sanchez",
+      "Roland Sallai",
+      "Yunus Akgün" 
+    
+  ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

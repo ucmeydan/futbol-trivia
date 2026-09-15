@@ -3335,6 +3335,34 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 159,
+    "game": "listeyi-tamamla",
+    "title": "2016-17 sezonundan bu yana herhangi bir maçta Fenerbahçe'de forma giymiş kaleciler?",
+    "type": "player",
+    "activeDate": "2026-09-16",
+    "targets": [
+      "Ederson",
+      "Mert Günok",
+      "Tarık Çetin",
+      "İrfan Can Eğribayat",
+      "Dominik Livakovic",
+      "Ertuğrul Çetin",
+      "Altay Bayındır",
+      "Furkan Akyüz",
+      "Berke Özer",
+      "Harun Tekin",
+      "Oytun Özdoğan",
+      "Volkan Demirel",
+      "Carlos Kameni",
+      "Erten Ersu",
+      "Ertuğrul Taşkıran",
+      "Fabiano"  
+    
+  ],
+    "difficulty": "zor"
   }
 
 

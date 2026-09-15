@@ -3169,6 +3169,27 @@
      "Hrvoje Cale"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 160,
+    "game": "top10",
+    "title": "2002-03 sezonunda Süper Lig'i ilk 10 sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-09-16",
+    "targets": [
+     "Beşiktaş",
+     "Galatasaray",
+     "Gençlerbirliği",
+     "Gaziantepspor",
+     "Malatyaspor",
+     "Fenerbahçe",
+     "Trabzonspor",
+     "Ankaragücü",
+    "İstanbulspor",
+    "Denizlispor"
+    ],
+    "difficulty": "zor"
   }
 
 
