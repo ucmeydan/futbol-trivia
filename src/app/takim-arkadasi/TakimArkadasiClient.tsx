@@ -108,7 +108,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
       const uniquePlayers = Array.from(new Set(playersData as string[]));
       const filtered = uniquePlayers
         .filter(item => normalizeText(item).includes(normalizedQuery))
-        .slice(0, 5);
+        
       setSuggestions(filtered);
       setSelectedIndex(-1);
     } else {
@@ -399,7 +399,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
         {!isGameOver ? (
           <div className="relative">
             {suggestions.length > 0 && (
-              <div className="absolute bottom-full w-full mb-3 bg-slate-800 border border-slate-700 rounded-2xl overflow-hidden z-50 shadow-2xl">
+              <div className="absolute bottom-full w-full mb-3 bg-slate-800 border border-slate-700 rounded-2xl overflow-y-auto max-h-60 z-50 shadow-2xl">
                 {suggestions.map((s, i) => (
                   <button key={i} onClick={() => handleGuess(s)} className={`w-full p-4 text-left border-b border-slate-700 text-sm font-semibold text-white transition-colors ${selectedIndex === i ? "bg-red-600" : "hover:bg-red-600"}`}>
                     {formatName(s)}

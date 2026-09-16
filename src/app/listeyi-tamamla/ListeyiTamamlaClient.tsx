@@ -154,7 +154,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
         .filter(item => normalizeText(item).includes(normalizedQuery))
         .filter(item => !foundItems.some(f => normalizeText(f) === normalizeText(item)))
         .filter(item => !wrongGuesses.some(w => normalizeText(w) === normalizeText(item)))
-        .slice(0, 5);
+        
       setSuggestions(filtered);
       setSelectedIndex(0);
     } else {
@@ -474,7 +474,7 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
         {!isGameOver ? (
           <div className="relative">
             {suggestions.length > 0 && (
-              <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden z-50 shadow-2xl">
+              <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-y-auto max-h-60 z-50 shadow-2xl">
                 {suggestions.map((s, i) => (
                   <button
                     key={i}

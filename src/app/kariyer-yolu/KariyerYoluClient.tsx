@@ -159,7 +159,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
       const uniquePlayers = Array.from(new Set(playersData as string[]));
       const filtered = uniquePlayers
         .filter(p => normalizeText(p).includes(normalizedQuery))
-        .slice(0, 5);
+        
       setSuggestions(filtered);
       setSelectedIndex(-1);
     } else {
@@ -318,7 +318,7 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
         {!isGameOver ? (
           <div className="relative font-sans">
             {suggestions.length > 0 && (
-              <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-hidden z-50 shadow-2xl">
+              <div className="absolute bottom-full w-full mb-2 bg-slate-800 border border-slate-700 rounded-xl overflow-y-auto max-h-60 z-50 shadow-2xl">
                 {suggestions.map((s, i) => (
                   <button key={i} onClick={() => handleGuess(s)} className={`w-full p-3.5 text-left border-b border-slate-700 last:border-0 font-semibold text-white text-sm ${selectedIndex === i ? "bg-red-600" : "hover:bg-red-600"}`}>
                     {toTitleCase(s)}
