@@ -5133,6 +5133,48 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 137,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-17",
+    "correctPlayer": "Aral Şimşir",
+    "career": [
+      {
+        "season": "2019–2021",
+        "team": "Midtjylland U19",
+        "apps": "53",
+        "goals": "26"
+      },
+      {
+        "season": "2021-2026",
+        "team": "Midtjylland",
+        "apps": "145",
+        "goals": "26"
+      },
+      {
+        "season": "2022–2022",
+        "team": "Jerv (kiralık)",
+        "apps": "23",
+        "goals": "3"
+      },
+      {
+        "season": "2022–2022",
+        "team": "Lillestrom (kiralık)",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Trabzonspor",
+        "apps": "7",
+        "goals": "0"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 

@@ -2648,7 +2648,29 @@
     
   ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 141,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde Beşiktaş formasıyla 60 ve üzeri sayıda gol atan yerli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-17",
+    "targets": [
+      "Feyyaz Uçar",
+      "Mehmet Özdilek",
+      "Ali Gültiken",
+      "Metin Tekin",
+      "Oktay Derelioğlu",
+      "Sergen Yalçın",
+      "Cenk Tosun",
+      "Oktay Derelioğlu"
+    
+  ],
+    "difficulty": "kolay"
   }
+
+
 
 
 

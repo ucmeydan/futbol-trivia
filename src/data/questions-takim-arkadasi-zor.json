@@ -4344,5 +4344,35 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 151,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-17",
+    "correctPlayer": "Marek Hamsik",
+    "teammates": [
+      {
+        "name": "Jailson",
+        "info": "2019-20 sezonunda Dalian Yifang'da birlikte oynadılar"
+      },
+      {
+        "name": "Marcus Berg",
+        "info": "2021 yılında Goteborg'da birlikte oynadılar"
+      },
+      {
+        "name": "Ezequiel Lavezzi",
+        "info": "2007-12 yılları arasında Napoli'de birlikte oynadılar"
+      },
+      {
+        "name": "Dries Mertens",
+        "info": "2013-19 yılları arasında Napoli'de birlikte oynadılar"
+      },
+      {
+        "name": "Andreas Cornelius",
+        "info": "2021-22 sezonunda Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

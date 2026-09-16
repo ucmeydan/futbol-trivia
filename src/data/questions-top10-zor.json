@@ -2939,7 +2939,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 149,
     "game": "top10",
@@ -2960,7 +2959,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 150,
     "game": "top10",
@@ -2981,7 +2979,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 151,
     "game": "top10",
@@ -2998,11 +2995,10 @@
       "Fredy",
       "Miguel Cardoso",
       "Mortadha Ben Ouanes",
-      "Olivier Kemen" 
+      "Olivier Kemen"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 152,
     "game": "top10",
@@ -3023,7 +3019,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 153,
     "game": "top10",
@@ -3044,7 +3039,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 154,
     "game": "top10",
@@ -3065,7 +3059,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 155,
     "game": "top10",
@@ -3073,20 +3066,19 @@
     "type": "player",
     "activeDate": "2026-09-11",
     "targets": [
-     "Orkun Kökçü",
-     "Amir Murillo",
-     "Hyeon Gyu Oh",
-     "Vaclav Cerny",
-     "Semih Kılıçsoy",
-     "Milot Rashica",
-     "Joao Mario",
-     "Tammy Abraham",
-     "Demir Ege Tıknaz",
-     "Rafa Silva"
+      "Orkun Kökçü",
+      "Amir Murillo",
+      "Hyeon Gyu Oh",
+      "Vaclav Cerny",
+      "Semih Kılıçsoy",
+      "Milot Rashica",
+      "Joao Mario",
+      "Tammy Abraham",
+      "Demir Ege Tıknaz",
+      "Rafa Silva"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 156,
     "game": "top10",
@@ -3094,20 +3086,19 @@
     "type": "player",
     "activeDate": "2026-09-12",
     "targets": [
-     "Umut Nayir",
-     "Deniz Türüç",
-     "Kerem Aktürkoğlu",
-     "İrfan Can Kahveci",
-     "Umut Bozok",
-     "Güven Yalçın",
-     "Emre Kılınç",
-     "Ömer Ali Şahiner",
-     "Barış Alper Yılmaz",
-     "Serdar Dursun"
+      "Umut Nayir",
+      "Deniz Türüç",
+      "Kerem Aktürkoğlu",
+      "İrfan Can Kahveci",
+      "Umut Bozok",
+      "Güven Yalçın",
+      "Emre Kılınç",
+      "Ömer Ali Şahiner",
+      "Barış Alper Yılmaz",
+      "Serdar Dursun"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 157,
     "game": "top10",
@@ -3115,20 +3106,19 @@
     "type": "player",
     "activeDate": "2026-09-13",
     "targets": [
-     "Mustafa Eskihellaç",
-     "Oleksandr Zubkov",
-     "Ozan Tufan",
-     "Wagner Pina",
-     "Paul Onuachu",
-     "Tim Jabol Folcarelli",
-     "Felipe Augusto",
-     "Ernest Muçi",
-     "Andre Onana",
-     "Arseniy Batagov"
+      "Mustafa Eskihellaç",
+      "Oleksandr Zubkov",
+      "Ozan Tufan",
+      "Wagner Pina",
+      "Paul Onuachu",
+      "Tim Jabol Folcarelli",
+      "Felipe Augusto",
+      "Ernest Muçi",
+      "Andre Onana",
+      "Arseniy Batagov"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 158,
     "game": "top10",
@@ -3136,20 +3126,19 @@
     "type": "player",
     "activeDate": "2026-09-14",
     "targets": [
-     "Serdar Aziz",
-     "Fernandao",
-     "Altay Bayındır",
-     "Şener Özbayraklı",
-     "Hasan Ali Kaldırım",
-     "Volkan Şen",
-     "Luiz Gustavo",
-     "Josef De Souza",
-     "Harun Tekin",
-     "Volkan Demirel"
+      "Serdar Aziz",
+      "Fernandao",
+      "Altay Bayındır",
+      "Şener Özbayraklı",
+      "Hasan Ali Kaldırım",
+      "Volkan Şen",
+      "Luiz Gustavo",
+      "Josef De Souza",
+      "Harun Tekin",
+      "Volkan Demirel"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 159,
     "game": "top10",
@@ -3157,20 +3146,19 @@
     "type": "player",
     "activeDate": "2026-09-15",
     "targets": [
-     "Alanzinho",
-     "Gustavo Colman",
-     "Shota Arveladze",
-     "Ondrej Celustka",
-     "Adrian Mierzejewski",
-     "Archil Arveladze",
-     "Ibrahim Yattara",
-     "Paulo Henrique",
-     "Didier Zokora",
-     "Hrvoje Cale"
+      "Alanzinho",
+      "Gustavo Colman",
+      "Shota Arveladze",
+      "Ondrej Celustka",
+      "Adrian Mierzejewski",
+      "Archil Arveladze",
+      "Ibrahim Yattara",
+      "Paulo Henrique",
+      "Didier Zokora",
+      "Hrvoje Cale"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 160,
     "game": "top10",
@@ -3178,35 +3166,37 @@
     "type": "team-tr",
     "activeDate": "2026-09-16",
     "targets": [
-     "Beşiktaş",
-     "Galatasaray",
-     "Gençlerbirliği",
-     "Gaziantepspor",
-     "Malatyaspor",
-     "Fenerbahçe",
-     "Trabzonspor",
-     "Ankaragücü",
-    "İstanbulspor",
-    "Denizlispor"
+      "Beşiktaş",
+      "Galatasaray",
+      "Gençlerbirliği",
+      "Gaziantepspor",
+      "Malatyaspor",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Ankaragücü",
+      "İstanbulspor",
+      "Denizlispor"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 161,
+    "game": "top10",
+    "title": "Thomas Reis'in Samsunspor teknik direktörü olduğu dönemde Samsunspor formasıyla en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-17",
+    "targets": [
+      "Marius Mouandilmadji",
+      "Okan Kocuk",
+      "Zeki Yavru",
+      "Carlo Holse",
+      "Rick Van Drongelen",
+      "Lubomir Satka",
+      "Olivier Ntcham",
+      "Emre Kılınç",
+      "Soner Gönül",
+      "Soner Aydoğdu"
     ],
     "difficulty": "zor"
   }
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
 ]

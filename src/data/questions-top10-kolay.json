@@ -2776,6 +2776,27 @@
       "Anderson Talisca"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 139,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 5 haftasında en çok faul yapan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-17",
+    "targets": [
+      "Alanyaspor",
+      "Beşiktaş",
+      "Kasımpaşa",
+      "Göztepe",
+      "Eyüpspor",
+      "Gaziantep FK",
+      "Başakşehir",
+      "Fenerbahçe",
+      "Konyaspor",
+      "Gençlerbirliği"
+    ],
+    "difficulty": "kolay"
   }
 
 

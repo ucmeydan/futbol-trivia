@@ -3363,7 +3363,32 @@
     
   ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 160,
+    "game": "listeyi-tamamla",
+    "title": "Hem Beşiktaş hem de Marislya forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-17",
+    "targets": [
+      "Yordan Letchkov",
+      "Amir Murillo",
+      "Cengiz Ünder",
+      "Mamadou Niang",
+      "Edouard Cisse",
+      "Pascal Nouma",
+      "Vedran Runje",
+      "Georges Kevin N'koudou",
+      "Michy Batshuayi",
+      "Jean Onana",
+      "Eric Bailly"
+    
+  ],
+    "difficulty": "zor"
   }
+
+
 
 
 
