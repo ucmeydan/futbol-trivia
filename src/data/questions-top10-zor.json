@@ -3198,5 +3198,26 @@
       "Soner Aydoğdu"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 162,
+    "game": "top10",
+    "title": "Selçuk Şahin'in futbolculuk kariyerinde birlikte en çok maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-18",
+    "targets": [
+      "Volkan Demirel",
+      "Gökhan Gönül",
+      "Alex De Souza",
+      "Semih Şentürk",
+      "Mehmet Topuz",
+      "Diego Lugano",
+      "Mehmet Aurelio",
+      "Cristian Baroni",
+      "Emre Belözoğlu",
+      "Caner Erkin"
+    ],
+    "difficulty": "zor"
   }
 ]

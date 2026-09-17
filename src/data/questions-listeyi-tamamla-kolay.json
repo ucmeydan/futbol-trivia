@@ -2531,7 +2531,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 135,
     "game": "listeyi-tamamla",
@@ -2548,7 +2547,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 136,
     "game": "listeyi-tamamla",
@@ -2576,7 +2574,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 137,
     "game": "listeyi-tamamla",
@@ -2592,7 +2589,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 138,
     "game": "listeyi-tamamla",
@@ -2614,7 +2610,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 139,
     "game": "listeyi-tamamla",
@@ -2630,8 +2625,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 140,
     "game": "listeyi-tamamla",
     "title": "Bu sezon Galatasaray formasıyla resmi maçlarda gol atan oyuncular?",
@@ -2644,12 +2638,10 @@
       "Gabriel Sara",
       "Davinson Sanchez",
       "Roland Sallai",
-      "Yunus Akgün" 
-    
-  ],
+      "Yunus Akgün"
+    ],
     "difficulty": "kolay"
   },
-
   {
     "id": 141,
     "game": "listeyi-tamamla",
@@ -2665,18 +2657,21 @@
       "Sergen Yalçın",
       "Cenk Tosun",
       "Oktay Derelioğlu"
-    
-  ],
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 142,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın kulüp tarihinde Avrupa kupalarında mağlup ettiği Fransa Ligi takımları?",
+    "type": "team-eu",
+    "activeDate": "2026-09-18",
+    "targets": [
+      "PSG",
+      "Lyon",
+      "Marsilya",
+      "Monaco"
+    ],
     "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-
-
-
 ]

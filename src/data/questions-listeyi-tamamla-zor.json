@@ -2963,7 +2963,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 142,
     "game": "listeyi-tamamla",
@@ -2982,11 +2981,9 @@
       "Gael Clichy",
       "Nicolas Janvier",
       "Benjamin Stambouli"
-      
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 143,
     "game": "listeyi-tamamla",
@@ -2994,17 +2991,15 @@
     "type": "team-eu",
     "activeDate": "2026-08-27",
     "targets": [
-     "Zimbru",
-     "Maribor",
-     "Twente",
-     "Gornik Zabrze",
-    "Sturm Graz",
-    "Lyon"
-      
+      "Zimbru",
+      "Maribor",
+      "Twente",
+      "Gornik Zabrze",
+      "Sturm Graz",
+      "Lyon"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 144,
     "game": "listeyi-tamamla",
@@ -3012,19 +3007,18 @@
     "type": "team-eu",
     "activeDate": "2026-08-28",
     "targets": [
-     "Slavia Prag",
-     "Como",
-     "Stuttgart",
-     "Lens",
-     "AEK",
-     "Viking",
-     "Slovan Bratislava",
-     "LASK",
-     "Sabah"
+      "Slavia Prag",
+      "Como",
+      "Stuttgart",
+      "Lens",
+      "AEK",
+      "Viking",
+      "Slovan Bratislava",
+      "LASK",
+      "Sabah"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 145,
     "game": "listeyi-tamamla",
@@ -3032,44 +3026,39 @@
     "type": "player",
     "activeDate": "2026-09-01",
     "targets": [
-     "Dusan Vlahovic",
-     "Anderson Talisca",
-     "Dorgeles Nene",
-     "Miguel Cardoso",
-     "Victor Osimhen",
-     "Enis Destan",
-     "Kerem Demirbay",
-     "Cengiz Ünder",
-     "Nuno Da Costa",
-     "Mame Thiam",
-     "Mbaye Diagne",
-     "Umut Nayir",
-     "Kerem Aktürkoğlu",
-     "Serdar Dursun"
-
+      "Dusan Vlahovic",
+      "Anderson Talisca",
+      "Dorgeles Nene",
+      "Miguel Cardoso",
+      "Victor Osimhen",
+      "Enis Destan",
+      "Kerem Demirbay",
+      "Cengiz Ünder",
+      "Nuno Da Costa",
+      "Mame Thiam",
+      "Mbaye Diagne",
+      "Umut Nayir",
+      "Kerem Aktürkoğlu",
+      "Serdar Dursun"
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 146,
     "game": "listeyi-tamamla",
     "title": "Trabzonspor'un Konferans Ligi lig aşamasında karşılaşacağı rakipler?",
     "type": "team-eu",
     "activeDate": "2026-09-02",
     "targets": [
-     "Freiburg",
-     "Kızılyıldız",
-     "Hearts",
-     "Jablonec",
-     "CSKA Sofya",
-     "Kuopion"
-
-
+      "Freiburg",
+      "Kızılyıldız",
+      "Hearts",
+      "Jablonec",
+      "CSKA Sofya",
+      "Kuopion"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 147,
     "game": "listeyi-tamamla",
@@ -3077,20 +3066,17 @@
     "type": "team-eu",
     "activeDate": "2026-09-03",
     "targets": [
-    "Bayer Leverkusen",
-    "Marsilya",
-    "Celtic",
-    "Union SG",
-    "Crystal Palace",
-    "Omonia",
-    "Hapoel Beer Sheva",
-    "Hoffenheim"
-
-
+      "Bayer Leverkusen",
+      "Marsilya",
+      "Celtic",
+      "Union SG",
+      "Crystal Palace",
+      "Omonia",
+      "Hapoel Beer Sheva",
+      "Hoffenheim"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 148,
     "game": "listeyi-tamamla",
@@ -3098,20 +3084,17 @@
     "type": "team-eu",
     "activeDate": "2026-09-04",
     "targets": [
-   "Aston Villa",
-   "Freiburg",
-   "Braga",
-   "Real Betis",
-   "Celta Vigo",
-   "Porto",
-   "Nottingham Forest",
-   "Bologna"
-
-
+      "Aston Villa",
+      "Freiburg",
+      "Braga",
+      "Real Betis",
+      "Celta Vigo",
+      "Porto",
+      "Nottingham Forest",
+      "Bologna"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 149,
     "game": "listeyi-tamamla",
@@ -3119,22 +3102,19 @@
     "type": "player",
     "activeDate": "2026-09-05",
     "targets": [
-   "Edin Visca",
-   "Alex De Souza",
-   "Ibrahim Yattara",
-   "Pablo Batalla",
-   "Tita",
-   "Wederson",
-   "Cevad Prekazi",
-   "Rodrigo Tello",
-   "Ricardo Quaresma",
-   "Haris Hajradinovic"
-
-
+      "Edin Visca",
+      "Alex De Souza",
+      "Ibrahim Yattara",
+      "Pablo Batalla",
+      "Tita",
+      "Wederson",
+      "Cevad Prekazi",
+      "Rodrigo Tello",
+      "Ricardo Quaresma",
+      "Haris Hajradinovic"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 150,
     "game": "listeyi-tamamla",
@@ -3142,23 +3122,20 @@
     "type": "player",
     "activeDate": "2026-09-07",
     "targets": [
-   "Tolga Zengin",
-   "Caner Erkin",
-   "Dusko Tosic",
-   "Matej Mitrovic",
-   "Necip Uysal",
-   "Oğuzhan Özyakup",
-   "Gary Medel",
-   "Mustafa Pektemek",
-   "Anderson Talisca",
-   "Jeremain Lens",
-   "Alvaro Negredo"
-
-
+      "Tolga Zengin",
+      "Caner Erkin",
+      "Dusko Tosic",
+      "Matej Mitrovic",
+      "Necip Uysal",
+      "Oğuzhan Özyakup",
+      "Gary Medel",
+      "Mustafa Pektemek",
+      "Anderson Talisca",
+      "Jeremain Lens",
+      "Alvaro Negredo"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 151,
     "game": "listeyi-tamamla",
@@ -3166,40 +3143,34 @@
     "type": "player",
     "activeDate": "2026-09-08",
     "targets": [
-   "Victor Osimhen",
-   "Dusan Vlahovic",
-   "Eldor Shomurodov",
-   "Mohamed Salah",
-   "Gift Orban",
-   "Juan",
-   "Adrian Benedyczak"
-
-
+      "Victor Osimhen",
+      "Dusan Vlahovic",
+      "Eldor Shomurodov",
+      "Mohamed Salah",
+      "Gift Orban",
+      "Juan",
+      "Adrian Benedyczak"
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 152,
     "game": "listeyi-tamamla",
     "title": "2025-26 sezonunda Şampiyonlar Ligi lig aşamasını ilk 8 sırada tamamlayan takımlar?",
     "type": "team-eu",
     "activeDate": "2026-09-09",
     "targets": [
-  "Arsenal",
-  "Liverpool",
-  "Bayern Münih",
-  "Sporting",
-  "Barcelona",
-  "Tottenham",
-  "Chelsea",
-  "Manchester City"
-
-
+      "Arsenal",
+      "Liverpool",
+      "Bayern Münih",
+      "Sporting",
+      "Barcelona",
+      "Tottenham",
+      "Chelsea",
+      "Manchester City"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 153,
     "game": "listeyi-tamamla",
@@ -3207,44 +3178,37 @@
     "type": "team-eu",
     "activeDate": "2026-09-10",
     "targets": [
-  "Inter",
-  "Milan",
-  "Juventus",
-  "Lazio",
-  "Roma",
-  "Fiorentina",
-  "Napoli",
-  "Palermo",
-  "Parma",
-  "Atalanta",
-  "Cagliari",
-  "Bologna",
-  "Perugia"
-
-
+      "Inter",
+      "Milan",
+      "Juventus",
+      "Lazio",
+      "Roma",
+      "Fiorentina",
+      "Napoli",
+      "Palermo",
+      "Parma",
+      "Atalanta",
+      "Cagliari",
+      "Bologna",
+      "Perugia"
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 154,
     "game": "listeyi-tamamla",
     "title": "Konferans Ligi'nde şampiyonluk yaşayan takımlar?",
     "type": "team-eu",
     "activeDate": "2026-09-11",
     "targets": [
- "Roma",
- "Chelsea",
- "West Ham",
- "Crystal Palace",
- "Olympiakos"
-
-
-
+      "Roma",
+      "Chelsea",
+      "West Ham",
+      "Crystal Palace",
+      "Olympiakos"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 155,
     "game": "listeyi-tamamla",
@@ -3252,31 +3216,27 @@
     "type": "player",
     "activeDate": "2026-09-12",
     "targets": [
-   "Emmanuel Agbadou",
-   "Junior Olaitan",
-   "Wilfred Ndidi",
-   "Ismael Jakobs",
-   "Wilfried Singo",
-   "Mario Lemina",
-   "Renato Nhaga",
-   "Victor Osimhen",
-   "Andre Onana",
-   "Sidny Lopes Cabral",
-   "Wagner Pina",
-   "Mohamed Salah",
-   "Chibuike Nwaiwu",
-   "Benjamin Bouchouari",
-   "Paul Onuachu",
-   "Franculino Dju",
-   "Kojo Peprah Oppong",
-   "Dorgeles Nene"
-
-
-
+      "Emmanuel Agbadou",
+      "Junior Olaitan",
+      "Wilfred Ndidi",
+      "Ismael Jakobs",
+      "Wilfried Singo",
+      "Mario Lemina",
+      "Renato Nhaga",
+      "Victor Osimhen",
+      "Andre Onana",
+      "Sidny Lopes Cabral",
+      "Wagner Pina",
+      "Mohamed Salah",
+      "Chibuike Nwaiwu",
+      "Benjamin Bouchouari",
+      "Paul Onuachu",
+      "Franculino Dju",
+      "Kojo Peprah Oppong",
+      "Dorgeles Nene"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 156,
     "game": "listeyi-tamamla",
@@ -3284,20 +3244,16 @@
     "type": "player",
     "activeDate": "2026-09-13",
     "targets": [
-   "Edin Visca",
-   "Deniz Türüç",
-   "Emre Kılınç",
-   "İrfan Can Kahveci",
-   "Haris Hajradinovic",
-   "Alexandru Maxim",
-   "Kerem Aktürkoğlu"
-
-
-
+      "Edin Visca",
+      "Deniz Türüç",
+      "Emre Kılınç",
+      "İrfan Can Kahveci",
+      "Haris Hajradinovic",
+      "Alexandru Maxim",
+      "Kerem Aktürkoğlu"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 157,
     "game": "listeyi-tamamla",
@@ -3305,18 +3261,14 @@
     "type": "player",
     "activeDate": "2026-09-14",
     "targets": [
-   "Tomas Sivok",
-   "Tomas Zapotocny",
-   "Tomas Jun",
-   "David Jurasek",
-   "Vaclav Cerny"
-
-
-
+      "Tomas Sivok",
+      "Tomas Zapotocny",
+      "Tomas Jun",
+      "David Jurasek",
+      "Vaclav Cerny"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 158,
     "game": "listeyi-tamamla",
@@ -3324,19 +3276,15 @@
     "type": "player",
     "activeDate": "2026-09-15",
     "targets": [
-  "Flavio Conceicao",
-  "Yasin Öztekin",
-  "Koray Günter",
-  "Michy Batshuayi",
-  "İlkay Gündoğan",
-  "Emre Mor"
-
-
-
+      "Flavio Conceicao",
+      "Yasin Öztekin",
+      "Koray Günter",
+      "Michy Batshuayi",
+      "İlkay Gündoğan",
+      "Emre Mor"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 159,
     "game": "listeyi-tamamla",
@@ -3359,13 +3307,11 @@
       "Carlos Kameni",
       "Erten Ersu",
       "Ertuğrul Taşkıran",
-      "Fabiano Ribeiro"  
-    
-  ],
+      "Fabiano Ribeiro"
+    ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 160,
     "game": "listeyi-tamamla",
     "title": "Hem Beşiktaş hem de Marislya forması giymiş futbolcular?",
@@ -3383,34 +3329,24 @@
       "Michy Batshuayi",
       "Jean Onana",
       "Eric Bailly"
-    
-  ],
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 161,
+    "game": "listeyi-tamamla",
+    "title": "Şampiyonlar Ligi finallerinde gol atmış ve Süper Lig'de forma giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-18",
+    "targets": [
+      "Mohamed Salah",
+      "Marco Asensio",
+      "İlkay Gündoğan",
+      "Álvaro Morata",
+      "Didier Drogba",
+      "Samuel Eto'o",
+      "Dirk Kuyt"
+    ],
     "difficulty": "zor"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
