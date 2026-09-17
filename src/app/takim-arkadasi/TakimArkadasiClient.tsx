@@ -8,7 +8,6 @@ const safeSetItem = (key: string, value: string): void => {
 };
 
 import { useState, useEffect } from 'react';
-import playersData from '@/data/players.json';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
 
@@ -46,6 +45,7 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
   const [loaded, setLoaded] = useState(false);
   const [showStatsPage, setShowStatsPage] = useState(false);
   const [windowDimension, setWindowDimension] = useState({ width: 1024, height: 768 });
+  const [playersData, setPlayersData] = useState<string[]>([]);
 
   const [stats, setStats] = useState({
     totalGames: 0,
@@ -73,6 +73,10 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
       setIsGameOver(false);
     }
   };
+
+  useEffect(() => {
+    import('@/data/players.json').then((m) => setPlayersData(m.default as string[]));
+  }, []);
 
   useEffect(() => {
     setMounted(true);

@@ -10,8 +10,6 @@ const safeSetItem = (key: string, value: string): void => {
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
-import playersData from '@/data/players.json';
-
 const toTitleCase = (str: string) => {
   if (!str) return "";
   return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
@@ -32,12 +30,17 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
   const [showStatsPage, setShowStatsPage] = useState(false);
   const [copySuccess, setCopySuccess] = useState(false);
   const [windowDimension, setWindowDimension] = useState({ width: 1024, height: 768 });
+  const [playersData, setPlayersData] = useState<string[]>([]);
 
   const [stats, setStats] = useState({
     totalGames: 0,
     wins: 0,
     distribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, "7+": 0 }
   });
+
+  useEffect(() => {
+    import('@/data/players.json').then((m) => setPlayersData(m.default as string[]));
+  }, []);
 
   useEffect(() => {
     let cancelled = false;

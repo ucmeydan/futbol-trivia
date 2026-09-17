@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import playersData from '@/data/players.json';
 import teamsData from '@/data/teams.json';
 import europeanTeamsData from '@/data/european_teams.json';
 import tdData from '@/data/td.json';
@@ -64,6 +63,11 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
 
   const inputRef = useRef<HTMLInputElement>(null);
   const [windowDimension, setWindowDimension] = useState({ width: 1024, height: 768 });
+  const [playersData, setPlayersData] = useState<string[]>([]);
+
+  useEffect(() => {
+    import('@/data/players.json').then((m) => setPlayersData(m.default as string[]));
+  }, []);
 
   useEffect(() => {
     const d = new Date();
