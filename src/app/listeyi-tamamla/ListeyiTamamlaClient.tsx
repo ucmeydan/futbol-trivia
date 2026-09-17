@@ -1,12 +1,6 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import teamsData from '@/data/teams.json';
-import europeanTeamsData from '@/data/european_teams.json';
-import tdData from '@/data/td.json';
-import countriesData from '@/data/countries.json';
-import citiesData from '@/data/cities.json';
-import allTeamsData from '@/data/all_teams.json';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
 
@@ -64,10 +58,12 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
   const inputRef = useRef<HTMLInputElement>(null);
   const [windowDimension, setWindowDimension] = useState({ width: 1024, height: 768 });
   const [playersData, setPlayersData] = useState<string[]>([]);
-
-  useEffect(() => {
-    import('@/data/players.json').then((m) => setPlayersData(m.default as string[]));
-  }, []);
+  const [teamsData, setTeamsData] = useState<string[]>([]);
+  const [europeanTeamsData, setEuropeanTeamsData] = useState<string[]>([]);
+  const [tdData, setTdData] = useState<string[]>([]);
+  const [countriesData, setCountriesData] = useState<string[]>([]);
+  const [citiesData, setCitiesData] = useState<string[]>([]);
+  const [allTeamsData, setAllTeamsData] = useState<string[]>([]);
 
   useEffect(() => {
     const d = new Date();
@@ -79,10 +75,29 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
 
     let cancelled = false;
     (async () => {
-      const mod = difficulty === 'kolay'
-        ? await import('@/data/questions-listeyi-tamamla-kolay.json')
-        : await import('@/data/questions-listeyi-tamamla-zor.json');
+      const [
+        mod,
+        playersM, teamsM, euM, tdM, countriesM, citiesM, allTeamsM,
+      ] = await Promise.all([
+        difficulty === 'kolay'
+          ? import('@/data/questions-listeyi-tamamla-kolay.json')
+          : import('@/data/questions-listeyi-tamamla-zor.json'),
+        import('@/data/players.json'),
+        import('@/data/teams.json'),
+        import('@/data/european_teams.json'),
+        import('@/data/td.json'),
+        import('@/data/countries.json'),
+        import('@/data/cities.json'),
+        import('@/data/all_teams.json'),
+      ]);
       if (cancelled) return;
+      setPlayersData(playersM.default as string[]);
+      setTeamsData(teamsM.default as string[]);
+      setEuropeanTeamsData(euM.default as string[]);
+      setTdData(tdM.default as string[]);
+      setCountriesData(countriesM.default as string[]);
+      setCitiesData(citiesM.default as string[]);
+      setAllTeamsData(allTeamsM.default as string[]);
       const questions = mod.default as any[];
       const filtered = questions.filter((q: any) =>
         q.game === "listeyi-tamamla" && q.activeDate <= dateStr && q.difficulty === difficulty
