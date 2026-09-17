@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import playersData from '@/data/players.json';
 import allQuestions from '@/data/questions.json';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
@@ -29,6 +28,7 @@ export default function TakimArkadasiClient() {
   const [mounted, setMounted] = useState(false);
   const [query, setQuery] = useState('');
   const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [playersData, setPlayersData] = useState<string[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [attempts, setAttempts] = useState(1);
@@ -66,6 +66,10 @@ export default function TakimArkadasiClient() {
       setIsGameOver(false);
     }
   };
+
+  useEffect(() => {
+    import('@/data/players.json').then((m) => setPlayersData(m.default as string[]));
+  }, []);
 
   useEffect(() => {
     setMounted(true);

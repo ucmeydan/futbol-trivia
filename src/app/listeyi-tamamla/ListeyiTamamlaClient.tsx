@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import playersData from '@/data/players.json';
 import teamsData from '@/data/teams.json';
 import europeanTeamsData from '@/data/european_teams.json';
 import allQuestions from '@/data/questions.json';
@@ -37,6 +36,7 @@ export default function ListeyiTamamlaClient() {
   const [isWin, setIsWin] = useState(false);
   const [showAll, setShowAll] = useState(false);
   const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [playersData, setPlayersData] = useState<string[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [bonusAnim, setBonusAnim] = useState(false);
   const [nextGameTime, setNextGameTime] = useState("");
@@ -53,6 +53,10 @@ export default function ListeyiTamamlaClient() {
 
   const inputRef = useRef<HTMLInputElement>(null);
   const [windowDimension, setWindowDimension] = useState({ width: 0, height: 0 });
+
+  useEffect(() => {
+    import('@/data/players.json').then((m) => setPlayersData(m.default as string[]));
+  }, []);
 
   useEffect(() => {
     const d = new Date();

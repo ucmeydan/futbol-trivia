@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
-import playersData from '@/data/players.json';
 import allQuestions from '@/data/questions.json';
 
 const toTitleCase = (str: string) => {
@@ -18,6 +17,7 @@ export default function KariyerYoluClient() {
   const [finalAttempt, setFinalAttempt] = useState(0);
   const [query, setQuery] = useState('');
   const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [playersData, setPlayersData] = useState<string[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const [isGameOver, setIsGameOver] = useState(false);
   const [isWin, setIsWin] = useState(false);
@@ -31,6 +31,10 @@ export default function KariyerYoluClient() {
     wins: 0,
     distribution: { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, "7+": 0 }
   });
+
+  useEffect(() => {
+    import('@/data/players.json').then((m) => setPlayersData(m.default as string[]));
+  }, []);
 
   useEffect(() => {
     const d = new Date();

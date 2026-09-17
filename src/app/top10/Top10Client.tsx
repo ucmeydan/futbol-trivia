@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import playersData from '@/data/players.json';
 import teamsData from '@/data/teams.json';
 import europeanTeamsData from '@/data/european_teams.json';
 import allQuestions from '@/data/questions.json';
@@ -39,6 +38,7 @@ export default function Top10Client() {
   const [isWin, setIsWin] = useState(false);
   const [showAll, setShowAll] = useState(false);
   const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [playersData, setPlayersData] = useState<string[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [nextGameTime, setNextGameTime] = useState("");
   const [copySuccess, setCopySuccess] = useState(false);
@@ -58,6 +58,10 @@ export default function Top10Client() {
   const getLetterHint = (name: string) => {
     return name.split('').map(char => (char === ' ' ? '\u00A0\u00A0' : '_')).join(' ');
   };
+
+  useEffect(() => {
+    import('@/data/players.json').then((m) => setPlayersData(m.default as string[]));
+  }, []);
 
   useEffect(() => {
     const d = new Date();
