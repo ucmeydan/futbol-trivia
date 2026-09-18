@@ -1,3 +1,5 @@
+export const dynamic = 'force-static';
+
 import type { Metadata } from 'next';
 import SiteFooter from '../components/SiteFooter';
 import DifficultySelector from '../components/DifficultySelector';

@@ -139,6 +139,7 @@ export default function HomeClient() {
             <Link
               key={game.href}
               href={game.href}
+              prefetch={false}
               className={`group relative overflow-hidden bg-slate-900/50 border border-slate-800/80 p-6 md:p-8 rounded-3xl transition-all duration-500 ${hoverClass}`}
             >
               <div className="relative z-10">
@@ -245,15 +246,15 @@ export default function HomeClient() {
             aria-label="Alt navigasyon"
             className="flex flex-col md:flex-row items-center justify-center gap-y-4 md:gap-x-12 mb-10 text-sm font-medium text-slate-500"
           >
-            <Link href="/hakkimizda" className="hover:text-white transition-colors px-2">Hakkımızda</Link>
+            <Link href="/hakkimizda" prefetch={false} className="hover:text-white transition-colors px-2">Hakkımızda</Link>
             <span className="hidden md:block text-slate-800" aria-hidden="true">•</span>
-            <Link href="/sss" className="hover:text-white transition-colors px-2">SSS</Link>
+            <Link href="/sss" prefetch={false} className="hover:text-white transition-colors px-2">SSS</Link>
             <span className="hidden md:block text-slate-800" aria-hidden="true">•</span>
-            <Link href="/iletisim" className="hover:text-white transition-colors px-2">İletişim</Link>
+            <Link href="/iletisim" prefetch={false} className="hover:text-white transition-colors px-2">İletişim</Link>
             <span className="hidden md:block text-slate-800" aria-hidden="true">•</span>
-            <Link href="/gizlilik" className="hover:text-white transition-colors px-2">Gizlilik Politikası</Link>
+            <Link href="/gizlilik" prefetch={false} className="hover:text-white transition-colors px-2">Gizlilik Politikası</Link>
             <span className="hidden md:block text-slate-800" aria-hidden="true">•</span>
-            <Link href="/kullanim-sartlari" className="hover:text-white transition-colors px-2">Kullanım Koşulları</Link>
+            <Link href="/kullanim-sartlari" prefetch={false} className="hover:text-white transition-colors px-2">Kullanım Koşulları</Link>
           </nav>
           <p className="text-center text-slate-700 text-[10px] tracking-wide font-mono">
             © 2026 Futbol Trivia · Tüm hakları saklıdır.
