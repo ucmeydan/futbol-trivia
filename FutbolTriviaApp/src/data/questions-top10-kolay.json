@@ -1,5 +1,4 @@
 [
-  
   {
     "id": 1,
     "game": "top10",
@@ -60,9 +59,8 @@
       "Ernest Muçi"
     ],
     "difficulty": "kolay"
-  }, 
-
-   {
+  },
+  {
     "id": 4,
     "game": "top10",
     "title": "Fenerbahçe formasıyla Süper Lig'de en fazla gol atan 10 yabancı futbolcu?",
@@ -75,11 +73,10 @@
       "Enner Valencia",
       "Marcio Nobre",
       "Fernandao",
-      "Edin Dzeko", 
+      "Edin Džeko",
       "Michy Batshuayi",
       "Deivid De Souza",
       "Dirk Kuyt"
-
     ],
     "difficulty": "kolay"
   },
@@ -100,7 +97,6 @@
       "Bruma",
       "Mauro Icardi",
       "Younes Belhanda"
-
     ],
     "difficulty": "kolay"
   },
@@ -124,7 +120,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 7,
     "game": "top10",
@@ -145,7 +140,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 8,
     "game": "top10",
@@ -166,14 +160,13 @@
     ],
     "difficulty": "kolay"
   },
-{
+  {
     "id": 9,
     "game": "top10",
     "title": "Süper Lig'in son 5 sezonunun toplamında (2021-22 / 2025-26) en fazla puan alan 10 takım?",
     "type": "team-tr",
     "activeDate": "2026-04-19",
     "targets": [
-      
       "Galatasaray",
       "Fenerbahçe",
       "Trabzonspor",
@@ -187,8 +180,7 @@
     ],
     "difficulty": "kolay"
   },
-  
-{
+  {
     "id": 10,
     "game": "top10",
     "title": "Beşiktaş tarihinde en yüksek bonservis ödenen 10 futbolcu?",
@@ -202,14 +194,12 @@
       "Hyeon Gyu Oh",
       "Moatasem Al Musrati",
       "Ernest Muçi",
-      "Wilfried Ndidi",
+      "Wilfred Ndidi",
       "Rodrigo Tabata",
       "Ricardo Quaresma"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 11,
     "game": "top10",
@@ -227,11 +217,9 @@
       "Garry Rodrigues",
       "Abdul Kader Keita",
       "Burak Yılmaz"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 12,
     "game": "top10",
@@ -249,11 +237,9 @@
       "Gabriel Sara",
       "Mario Lemina",
       "Victor Osimhen"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 13,
     "game": "top10",
@@ -261,21 +247,19 @@
     "type": "player",
     "activeDate": "2026-04-23",
     "targets": [
-     "Victor Osimhen",
-     "Matteo Guendouzi",
-     "Barış Alper Yılmaz",
-     "Orkun Kökçü",
-     "Wilfried Singo",
-     "Noa Lang",
-     "Kerem Aktürkoğlu",
-     "Gabriel Sara",
-     "Leroy Sane",
-     "Edson Alvarez"
-
+      "Victor Osimhen",
+      "Matteo Guendouzi",
+      "Barış Alper Yılmaz",
+      "Orkun Kökçü",
+      "Wilfried Singo",
+      "Noa Lang",
+      "Kerem Aktürkoğlu",
+      "Gabriel Sara",
+      "Leroy Sane",
+      "Edson Alvarez"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 14,
     "game": "top10",
@@ -283,23 +267,19 @@
     "type": "team-tr",
     "activeDate": "2026-04-24",
     "targets": [
-     "Galatasaray",
-     "Fenerbahçe",
-     "Beşiktaş",
-     "Trabzonspor",
-     "Kocaelispor",
-     "Göztepe",
-     "Konyaspor",
-     "Samsunspor",
-     "Gaziantep FK",
-     "Gençlerbirliği"
-
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Kocaelispor",
+      "Göztepe",
+      "Konyaspor",
+      "Samsunspor",
+      "Gaziantep FK",
+      "Gençlerbirliği"
     ],
     "difficulty": "kolay"
   },
-
-
-
   {
     "id": 15,
     "game": "top10",
@@ -317,11 +297,9 @@
       "Moussa Sow",
       "Youssef En Nesyri",
       "Simon Kjaer"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 16,
     "game": "top10",
@@ -335,15 +313,13 @@
       "Leroy Sane",
       "Sebastian Szymanski",
       "Victor Osimhen",
-      "Edin Dzeko",
+      "Edin Džeko",
       "Gabriel Sara",
       "Dries Mertens",
       "Lucas Torreira"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 17,
     "game": "top10",
@@ -361,11 +337,9 @@
       "Göztepe",
       "Rizespor",
       "Kasımpaşa"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 18,
     "game": "top10",
@@ -383,11 +357,9 @@
       "Trabzon",
       "Eskişehir",
       "Kayseri"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 19,
     "game": "top10",
@@ -405,12 +377,9 @@
       "Christoph Daum",
       "Luis Aragones",
       "Zico"
-
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 20,
     "game": "top10",
@@ -428,12 +397,9 @@
       "Krzysztof Piatek",
       "Paul Onuachu",
       "Umut Bozok"
-
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 21,
     "game": "top10",
@@ -451,12 +417,9 @@
       "Altay",
       "Gaziantepspor",
       "Samsunspor"
-
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 22,
     "game": "top10",
@@ -474,11 +437,9 @@
       "Oleksandr Zubkov",
       "Ernest Muçi",
       "Christ Inao Oulai"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 23,
     "game": "top10",
@@ -486,7 +447,6 @@
     "type": "team-all",
     "activeDate": "2026-05-03",
     "targets": [
-      
       "Galatasaray",
       "Trabzonspor",
       "Beşiktaş",
@@ -497,12 +457,9 @@
       "Manisaspor",
       "Eskişehirspor",
       "Fenerbahçe"
-
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 24,
     "game": "top10",
@@ -510,7 +467,6 @@
     "type": "team-tr",
     "activeDate": "2026-05-04",
     "targets": [
-      
       "Galatasaray",
       "Fenerbahçe",
       "Trabzonspor",
@@ -521,11 +477,9 @@
       "Konyaspor",
       "Gaziantep FK",
       "Göztepe"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 25,
     "game": "top10",
@@ -533,156 +487,140 @@
     "type": "team-tr",
     "activeDate": "2026-05-05",
     "targets": [
-     "Erzurumspor",
-     "Esenler Erokspor",
-     "Amed SK",
-     "Keçiörengücü",
-     "Bodrum FK",
-     "Çorum FK",
-     "Boluspor",
-     "Pendikspor",
-     "İstanbulspor",
-     "Manisa FK"
-
+      "Erzurumspor",
+      "Esenler Erokspor",
+      "Amed SK",
+      "Keçiörengücü",
+      "Bodrum FK",
+      "Çorum FK",
+      "Boluspor",
+      "Pendikspor",
+      "İstanbulspor",
+      "Manisa FK"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 26,
     "game": "top10",
     "title": "Galatasaray formasıyla bu sezon Şampiyonlar Ligi'nde en fazla süre alan 10 futbolcu?",
     "type": "player",
     "activeDate": "2026-05-06",
     "targets": [
-     "Uğurcan Çakır",
-     "Davinson Sanchez",
-     "Lucas Torreira",
-     "Barış Alper Yılmaz",
-     "Abdülkerim Bardakcı",
-     "Roland Sallai",
-     "Ismael Jakobs",
-     "Victor Osimhen",
-     "Gabriel Sara",
-     "Mario Lemina"
-
+      "Uğurcan Çakır",
+      "Davinson Sanchez",
+      "Lucas Torreira",
+      "Barış Alper Yılmaz",
+      "Abdülkerim Bardakcı",
+      "Roland Sallai",
+      "Ismael Jakobs",
+      "Victor Osimhen",
+      "Gabriel Sara",
+      "Mario Lemina"
     ],
     "difficulty": "kolay"
-},
-
-
-{
+  },
+  {
     "id": 27,
     "game": "top10",
     "title": "Beşiktaş'ta görev alan son 10 teknik direktör?",
     "type": "td",
     "activeDate": "2026-05-07",
     "targets": [
-    "Sergen Yalçın",
-    "Ole Gunnar Solskjaer",
-    "Serdar Topraktepe",
-    "Giovanni Van Bronckhorst",
-    "Fernando Santos",
-    "Rıza Çalımbay",
-    "Burak Yılmaz",
-    "Şenol Güneş",
-    "Valerien Ismael",
-    "Önder Karaveli"
-
+      "Sergen Yalçın",
+      "Ole Gunnar Solskjaer",
+      "Serdar Topraktepe",
+      "Giovanni Van Bronckhorst",
+      "Fernando Santos",
+      "Rıza Çalımbay",
+      "Burak Yılmaz",
+      "Şenol Güneş",
+      "Valerien Ismael",
+      "Önder Karaveli"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 28,
     "game": "top10",
     "title": "Fenerbahçe'nin çeyrek final oynadığı 2007-08 Şampiyonlar Ligi sezonunda Fenerbahçe formasıyla en çok süre alan 10 oyuncu?",
     "type": "player",
     "activeDate": "2026-05-08",
     "targets": [
-   "Volkan Demirel",
-   "Edu Dracena",
-   "Mehmet Aurelio",
-   "Alex De Souza",
-   "Diego Lugano",
-   "Deivid De Souza",
-   "Wederson",
-   "Gökhan Gönül",
-   "Roberto Carlos",
-   "Semih Şentürk"
-
+      "Volkan Demirel",
+      "Edu Dracena",
+      "Mehmet Aurelio",
+      "Alex De Souza",
+      "Diego Lugano",
+      "Deivid De Souza",
+      "Wederson",
+      "Gökhan Gönül",
+      "Roberto Carlos",
+      "Semih Şentürk"
     ],
     "difficulty": "kolay"
-},
-
-
-{
+  },
+  {
     "id": 29,
     "game": "top10",
     "title": "Beşiktaş'ın gruptan namağlup lider çıktığı 2017-18 Şampiyonlar Ligi sezonunda Beşiktaş formasıyla en çok süre alan oyuncular?",
     "type": "player",
     "activeDate": "2026-05-09",
     "targets": [
-  "Ricardo Quaresma",
-  "Atiba Hutchinson",
-  "Ryan Babel",
-  "Fabri",
-  "Pepe",
-  "Anderson Talisca",
-  "Caner Erkin",
-  "Dusko Tosic",
-  "Adriano",
-  "Cenk Tosun"
-
+      "Ricardo Quaresma",
+      "Atiba Hutchinson",
+      "Ryan Babel",
+      "Fabri",
+      "Pepe",
+      "Anderson Talisca",
+      "Caner Erkin",
+      "Dusko Tosic",
+      "Adriano",
+      "Cenk Tosun"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 30,
     "game": "top10",
     "title": "Transfermarkt güncel piyasa değerlerine göre Süper Lig'in en değerli 10 takımı?",
     "type": "team-tr",
     "activeDate": "2026-05-10",
     "targets": [
-  "Galatasaray",
-  "Fenerbahçe",
-  "Beşiktaş",
-  "Trabzonspor",
-  "Başakşehir",
-  "Göztepe",
-  "Samsunspor",
-  "Rizespor",
-  "Konyaspor",
-  "Alanyaspor"
-
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Göztepe",
+      "Samsunspor",
+      "Rizespor",
+      "Konyaspor",
+      "Alanyaspor"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 31,
     "game": "top10",
     "title": "Süper Lig'de şampiyonluk kazanan son 10 teknik direktör?",
     "type": "td",
     "activeDate": "2026-05-11",
     "targets": [
-  "Okan Buruk",
-  "Abdullah Avcı",
-  "Sergen Yalçın",
-  "Fatih Terim",
-  "Şenol Güneş",
-  "Hamza Hamzaoğlu",
-  "Ersun Yanal",
-  "Aykut Kocaman",
-  "Ertuğrul Sağlam",
-  "Mustafa Denizli"
-
+      "Okan Buruk",
+      "Abdullah Avcı",
+      "Sergen Yalçın",
+      "Fatih Terim",
+      "Şenol Güneş",
+      "Hamza Hamzaoğlu",
+      "Ersun Yanal",
+      "Aykut Kocaman",
+      "Ertuğrul Sağlam",
+      "Mustafa Denizli"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 32,
     "game": "top10",
     "title": "A Milli Takım tarihinde en çok maça çıkan 10 futbolcu hangisidir?",
@@ -701,9 +639,8 @@
       "Mehmet Topal"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 33,
     "game": "top10",
     "title": "Galatasaray'ı çalıştıran son 10 teknik direktör? (Geçici teknik direktörler hariç)",
@@ -720,12 +657,10 @@
       "Cesare Prandelli",
       "Roberto Mancini",
       "Gheorghe Hagi"
-
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 34,
     "game": "top10",
     "title": "Süper Lig tarihinde tüm sezonların toplamında en fazla gol yiyen 10 takım?",
@@ -742,13 +677,10 @@
       "Altay",
       "Antalyaspor",
       "Samsunspor"
-
     ],
     "difficulty": "kolay"
-},
-
-
-{
+  },
+  {
     "id": 35,
     "game": "top10",
     "title": "Beşiktaş'ın Süper Lig tarihinde en çok mağlup ettiği 10 takım?",
@@ -765,12 +697,10 @@
       "Antalyaspor",
       "Samsunspor",
       "Gaziantepspor"
-
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 36,
     "game": "top10",
     "title": "Bu sezon Süper Lig'de en fazla beraberlik alan 10 takım? (Eşit sayıda beraberlik alan takımlar harf sırasına göre sıralanmışlardır)",
@@ -787,464 +717,2129 @@
       "Gaziantep FK",
       "Kocaelispor",
       "Konyaspor"
-
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 37,
     "game": "top10",
     "title": "Bu sezon Fenerbahçe formasıyla en fazla maça çıkan yabancı futbolcular?",
     "type": "player",
     "activeDate": "2026-05-17",
     "targets": [
-     "Jayden Oosterwolde",
-     "Anderson Talisca",
-     "Fred",
-     "Milan Skriniar",
-     "Dorgeles Nene",
-     "Nelson Semedo",
-     "Marco Asensio",
-     "Archie Brown",
-     "Ederson",
-     "Youssef En Nesyri"
-     
-
+      "Jayden Oosterwolde",
+      "Anderson Talisca",
+      "Fred",
+      "Milan Skriniar",
+      "Dorgeles Nene",
+      "Nelson Semedo",
+      "Marco Asensio",
+      "Archie Brown",
+      "Ederson",
+      "Youssef En Nesyri"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 38,
     "game": "top10",
     "title": "Süper Lig'in ilk 10 sırasında yer alan takımların mevcut teknik direktörleri?",
     "type": "td",
     "activeDate": "2026-05-18",
     "targets": [
-     "Okan Buruk",
-     "Zeki Murat Göle",
-     "Fatih Tekke",
-     "Sergen Yalçın",
-     "Nuri Şahin",
-     "Stanimir Stoilov",
-     "Thorsten Fink",
-     "İlhan Palut",
-     "Recep Uçar",
-     "Selçuk İnan"
-     
-
+      "Okan Buruk",
+      "Zeki Murat Göle",
+      "Fatih Tekke",
+      "Sergen Yalçın",
+      "Nuri Şahin",
+      "Stanimir Stoilov",
+      "Thorsten Fink",
+      "İlhan Palut",
+      "Recep Uçar",
+      "Selçuk İnan"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 39,
     "game": "top10",
     "title": "Ülkemizi Avrupa kupalarında temsil eden son 10 takım?",
     "type": "team-tr",
     "activeDate": "2026-05-19",
     "targets": [
-     "Galatasaray",
-     "Samsunspor",
-     "Fenerbahçe",
-     "Beşiktaş",
-     "Başakşehir",
-     "Trabzonspor",
-     "Adana Demirspor",
-     "Konyaspor",
-     "Sivasspor",
-     "Yeni Malatyaspor"
-     
-
+      "Galatasaray",
+      "Samsunspor",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Başakşehir",
+      "Trabzonspor",
+      "Adana Demirspor",
+      "Konyaspor",
+      "Sivasspor",
+      "Yeni Malatyaspor"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 40,
     "game": "top10",
     "title": "Milli takımımızın 2026 Dünya Kupası geniş kadrosuna davet edilen oyuncular arasında en çok Milli maça çıkan 10 oyuncu?",
     "type": "player",
     "activeDate": "2026-05-20",
     "targets": [
-    "Hakan Çalhanoğlu",
-    "Kaan Ayhan",
-    "Merih Demiral",
-    "Zeki Çelik",
-    "Çağlar Söyüncü",
-    "Kerem Aktürkoğlu",
-    "Orkun Kökçü",
-    "İrfan Can Kahveci",
-    "Mert Müldür",
-    "Uğurcan Çakır"
-     
-
+      "Hakan Çalhanoğlu",
+      "Kaan Ayhan",
+      "Merih Demiral",
+      "Zeki Çelik",
+      "Çağlar Söyüncü",
+      "Kerem Aktürkoğlu",
+      "Orkun Kökçü",
+      "İrfan Can Kahveci",
+      "Mert Müldür",
+      "Uğurcan Çakır"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 41,
     "game": "top10",
     "title": "Galatasaray tarihinde en yüksek bonservis ödenen 10 yerli oyuncu? (Eşit bedellerde daha önce transfer edilen oyuncu üst sırada yer alır)",
     "type": "player",
     "activeDate": "2026-05-21",
     "targets": [
-    "Uğurcan Çakır",
-    "Burak Yılmaz",
-    "Ahmed Kutucu",
-    "Bülent Akın",
-    "Serkan Aykut",
-    "Hasan Şaş",
-    "Tarık Çamdal",
-    "Serdar Aziz",
-    "Olcan Adın",
-    "Eren Derdiyok"
-     
-
+      "Uğurcan Çakır",
+      "Burak Yılmaz",
+      "Ahmed Kutucu",
+      "Bülent Akın",
+      "Serkan Aykut",
+      "Hasan Şaş",
+      "Tarık Çamdal",
+      "Serdar Aziz",
+      "Olcan Adın",
+      "Eren Derdiyok"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 42,
     "game": "top10",
     "title": "Bu sezon Süper Lig'de en fazla gol katkısı (Gol+asist) yapan 10 oyuncu?",
     "type": "player",
     "activeDate": "2026-05-22",
     "targets": [
-
-   "Eldor Shomurodov",
-   "Paul Onuachu",
-   "Marco Asensio",
-   "Anderson Talisca",
-   "Victor Osimhen",
-   "Barış Alper Yılmaz",
-   "Mohamed Bayo",
-   "Yunus Akgün",
-   "Orkun Kökçü",
-   "Qazim Laçi"
-     
-
+      "Eldor Shomurodov",
+      "Paul Onuachu",
+      "Marco Asensio",
+      "Anderson Talisca",
+      "Victor Osimhen",
+      "Barış Alper Yılmaz",
+      "Mohamed Bayo",
+      "Yunus Akgün",
+      "Orkun Kökçü",
+      "Qazim Laçi"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 43,
     "game": "top10",
     "title": "Milli takımımızın 2026 Dünya Kupası geniş kadrosuna davet edilen oyuncular arasında Milli takım formasıyla en çok gol atan 10 oyuncu? (Aynı sayıda gol atan oyuncular arasında daha az maça çıkan üst sıraya yazılmıştır)",
     "type": "player",
     "activeDate": "2026-05-23",
     "targets": [
-    "Hakan Çalhanoğlu",
-    "Kerem Aktürkoğlu",
-    "Arda Güler",
-    "İrfan Can Kahveci",
-    "Merih Demiral",
-    "Kenan Yıldız",
-    "Kaan Ayhan",
-    "Yunus Akgün",
-    "Mert Müldür",
-    "Orkun Kökçü"
-
-     
-
+      "Hakan Çalhanoğlu",
+      "Kerem Aktürkoğlu",
+      "Arda Güler",
+      "İrfan Can Kahveci",
+      "Merih Demiral",
+      "Kenan Yıldız",
+      "Kaan Ayhan",
+      "Yunus Akgün",
+      "Mert Müldür",
+      "Orkun Kökçü"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 44,
     "game": "top10",
     "title": "Fenerbahçe'nin Süper Lig tarihinde en çok mağlup ettiği 10 takım?",
     "type": "team-tr",
     "activeDate": "2026-05-24",
     "targets": [
-    "Ankaragücü",
-    "Bursaspor",
-    "Galatasaray",
-    "Beşiktaş",
-    "Altay",
-    "Gençlerbirliği",
-    "Trabzonspor",
-    "İstanbulspor",
-    "Gaziantepspor",
-    "Antalyaspor"
-
+      "Ankaragücü",
+      "Bursaspor",
+      "Galatasaray",
+      "Beşiktaş",
+      "Altay",
+      "Gençlerbirliği",
+      "Trabzonspor",
+      "İstanbulspor",
+      "Gaziantepspor",
+      "Antalyaspor"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 45,
     "game": "top10",
     "title": "Transfermarkt verilerine göre Süper Lig kulüplerinin 2025/26 sezonunda en yüksek bonservisli oyuncu satışları?",
     "type": "player",
     "activeDate": "2026-05-25",
     "targets": [
-    "Uğurcan Çakır",
-    "Yusuf Akçiçek",
-    "Tammy Abraham",
-    "Gedson Fernandes",
-    "Romulo",
-    "Youssef En Nesyri",
-    "Krzysztof Piatek",
-    "Sebastian Szymanski",
-    "Keny Arroyo",
-    "Demir Ege Tıknaz"
-    
-
+      "Uğurcan Çakır",
+      "Yusuf Akçiçek",
+      "Tammy Abraham",
+      "Gedson Fernandes",
+      "Romulo",
+      "Youssef En Nesyri",
+      "Krzysztof Piatek",
+      "Sebastian Szymanski",
+      "Keny Arroyo",
+      "Demir Ege Tıknaz"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 46,
     "game": "top10",
     "title": "Transfermarkt verilerine göre 2025/26 sezonunda transferde bonservise en çok para ödeyen Süper Lig kulüpleri?",
     "type": "team-tr",
     "activeDate": "2026-05-26",
     "targets": [
-    "Galatasaray",
-    "Fenerbahçe",
-    "Beşiktaş",
-    "Trabzonspor",
-    "Başakşehir",
-    "Samsunspor",
-    "Göztepe",
-    "Konyaspor",
-    "Rizespor",
-    "Alanyaspor"
-    
-
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Samsunspor",
+      "Göztepe",
+      "Konyaspor",
+      "Rizespor",
+      "Alanyaspor"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 47,
     "game": "top10",
     "title": "2025/26 sezonunda TFF 1.Lig'i ilk 10 sırada tamamlayan takımlar?",
     "type": "team-tr",
     "activeDate": "2026-05-27",
     "targets": [
-    "Erzurumspor",
-    "Amed SK",
-    "Esenler Erokspor",
-    "Çorum FK",
-    "Bodrum FK",
-    "Pendikspor",
-    "Keçiörengücü",
-    "Bandırmaspor",
-    "Manisa FK",
-    "Sivasspor"
-    
-
+      "Erzurumspor",
+      "Amed SK",
+      "Esenler Erokspor",
+      "Çorum FK",
+      "Bodrum FK",
+      "Pendikspor",
+      "Keçiörengücü",
+      "Bandırmaspor",
+      "Manisa FK",
+      "Sivasspor"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 48,
     "game": "top10",
     "title": "2025/26 sezonunda bir takımın başında en çok maça çıkan 10 teknik direktör?",
     "type": "td",
     "activeDate": "2026-05-28",
     "targets": [
-   "Fatih Tekke",
-   "Joao Pereira",
-   "Okan Buruk",
-   "Selçuk İnan",
-   "Stanimir Stoilov",
-   "Sergen Yalçın",
-   "Nuri Şahin",
-   "Domenico Tedesco",
-   "Burak Yılmaz",
-   "Thomas Reis"
-    
-
+      "Fatih Tekke",
+      "Joao Pereira",
+      "Okan Buruk",
+      "Selçuk İnan",
+      "Stanimir Stoilov",
+      "Sergen Yalçın",
+      "Nuri Şahin",
+      "Domenico Tedesco",
+      "Burak Yılmaz",
+      "Thomas Reis"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 49,
     "game": "top10",
     "title": "Süper Lig'de bu sezon bonservisine en çok ücret ödenen 10 futbolcu?",
     "type": "player",
     "activeDate": "2026-05-29",
     "targets": [
-   "Victor Osimhen",
-   "Wilfried Singo",
-   "Orkun Kökçü",
-   "Matteo Guendouzi",
-   "Uğurcan Çakır",
-   "Kerem Aktürkoğlu",
-   "Dorgeles Nene",
-   "Emmanuel Agbadou",
-   "Tammy Abraham",
-   "Hyeon Gyu Oh"
-    
-
+      "Victor Osimhen",
+      "Wilfried Singo",
+      "Orkun Kökçü",
+      "Matteo Guendouzi",
+      "Uğurcan Çakır",
+      "Kerem Aktürkoğlu",
+      "Dorgeles Nene",
+      "Emmanuel Agbadou",
+      "Tammy Abraham",
+      "Hyeon Gyu Oh"
     ],
     "difficulty": "kolay"
-},
-
-
-
-{
+  },
+  {
     "id": 50,
     "game": "top10",
     "title": "Şampiyonlar Ligi tarihinin en golcü 10 futbolcusu?",
     "type": "player",
     "activeDate": "2026-05-30",
     "targets": [
-   "Cristiano Ronaldo",
-   "Lionel Messi",
-   "Robert Lewandowski",
-   "Karim Benzema",
-   "Raúl",
-   "Kylian Mbappé",
-   "Erling Haaland",
-   "Thomas Müller",
-   "Ruud van Nistelrooy",
-   "Harry Kane"
-    
-
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Robert Lewandowski",
+      "Karim Benzema",
+      "Raúl",
+      "Kylian Mbappé",
+      "Erling Haaland",
+      "Thomas Müller",
+      "Ruud van Nistelrooy",
+      "Harry Kane"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 51,
     "game": "top10",
     "title": "Transfermarkt verilerine göre Süper Lig'in son 10 asist kralı?",
     "type": "player",
     "activeDate": "2026-05-31",
     "targets": [
-   "Marco Asensio",
-   "Dusan Tadic",
-   "Dries Mertens",
-   "Kerem Aktürkoğlu",
-   "Edin Visca",
-   "Rachid Ghezzal",
-   "Wesley Sneijder",
-   "Jose Sosa",
-   "Mehmet Ekici",
-   "Cicinho"
-    
-
+      "Marco Asensio",
+      "Dusan Tadic",
+      "Dries Mertens",
+      "Kerem Aktürkoğlu",
+      "Edin Visca",
+      "Rachid Ghezzal",
+      "Wesley Sneijder",
+      "Jose Sosa",
+      "Mehmet Ekici",
+      "Cicinho"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 52,
     "game": "top10",
     "title": "Bu sezon Süper Lig'i ilk 10 sırada tamamlayan takımların 9 numaralı futbolcuları?",
     "type": "player",
     "activeDate": "2026-06-01",
     "targets": [
-   "Mauro Icardi",
-   "Kerem Aktürkoğlu",
-   "Anthony Nwakaeme",
-   "Hyeon Gyu Oh",
-   "Davie Selke",
-   "Juan",
-   "Marius Mouandilmadji",
-   "Ali Sowe",
-   "Deniz Türüç",
-   "Bruno Petkovic"
-    
-
+      "Mauro Icardi",
+      "Kerem Aktürkoğlu",
+      "Anthony Nwakaeme",
+      "Hyeon Gyu Oh",
+      "Davie Selke",
+      "Juan",
+      "Marius Mouandilmadji",
+      "Ali Sowe",
+      "Deniz Türüç",
+      "Bruno Petkovic"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 53,
     "game": "top10",
     "title": "Transfermarkt verilerine göre Milli takımımızın güncel kadrosundaki piyasa değeri en yüksek 10 futbolcu?",
     "type": "player",
     "activeDate": "2026-06-02",
     "targets": [
-   "Arda Güler",
-   "Kenan Yıldız",
-   "Can Uzun",
-   "Ferdi Kadıoğlu",
-   "Barış Alper Yılmaz",
-   "Orkun Kökçü",
-   "Kerem Aktürkoğlu",
-   "Yunus Akgün",
-   "Hakan Çalhanoğlu",
-   "Uğurcan Çakır"
-    
-
+      "Arda Güler",
+      "Kenan Yıldız",
+      "Can Uzun",
+      "Ferdi Kadıoğlu",
+      "Barış Alper Yılmaz",
+      "Orkun Kökçü",
+      "Kerem Aktürkoğlu",
+      "Yunus Akgün",
+      "Hakan Çalhanoğlu",
+      "Uğurcan Çakır"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 54,
     "game": "top10",
     "title": "Süper Lig'de güncellemeler sonrası Transfermarkt piyasa değeri en yüksek 10 futbolcu?",
     "type": "player",
     "activeDate": "2026-06-03",
     "targets": [
-   "Victor Osimhen",
-   "Barış Alper Yılmaz",
-   "Gabriel Sara",
-   "Matteo Guendouzi",
-   "Orkun Kökçü",
-   "Wilfried Singo",
-   "Christ Inao Oulai",
-   "Noa Lang",
-   "Leroy Sane",
-   "Kerem Aktürkoğlu"
-    
+      "Victor Osimhen",
+      "Barış Alper Yılmaz",
+      "Gabriel Sara",
+      "Matteo Guendouzi",
+      "Orkun Kökçü",
+      "Wilfried Singo",
+      "Christ Inao Oulai",
+      "Noa Lang",
+      "Leroy Sane",
+      "Kerem Aktürkoğlu"
     ],
     "difficulty": "kolay"
-},
-
-{
+  },
+  {
     "id": 55,
     "game": "top10",
     "title": "EURO 2024'te milli takımımızın formasıyla en çok süre alan 10 futbolcu?",
     "type": "player",
     "activeDate": "2026-06-04",
     "targets": [
-   "Ferdi Kadıoğlu",
-   "Barış Alper Yılmaz",
-   "Kaan Ayhan",
-   "Mert Günok",
-   "Abdülkerim Bardakcı",
-   "Hakan Çalhanoğlu",
-   "Kenan Yıldız",
-   "Mert Müldür",
-   "Arda Güler",
-   "Samet Akaydın"
+      "Ferdi Kadıoğlu",
+      "Barış Alper Yılmaz",
+      "Kaan Ayhan",
+      "Mert Günok",
+      "Abdülkerim Bardakcı",
+      "Hakan Çalhanoğlu",
+      "Kenan Yıldız",
+      "Mert Müldür",
+      "Arda Güler",
+      "Samet Akaydın"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 56,
+    "game": "top10",
+    "title": "Fenerbahçe'yi çalıştıran son 10 yabancı teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-06-05",
+    "targets": [
+      "Domenico Tedesco",
+      "Jose Mourinho",
+      "Jorge Jesus",
+      "Vitor Pereira",
+      "Erwin Koeman",
+      "Phillip Cocu",
+      "Dick Advocaat",
+      "Christoph Daum",
+      "Luis Aragones",
+      "Zico"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 57,
+    "game": "top10",
+    "title": "Süper Lig'de 2024-25 sezonunu ilk 10 sırada bitiren takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-06-06",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Samsunspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Eyüpspor",
+      "Trabzonspor",
+      "Göztepe",
+      "Rizespor",
+      "Kasımpaşa"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 58,
+    "game": "top10",
+    "title": "Milli takımımızın Avrupa şampiyonalarında karşılaştığı son 10 ülke?",
+    "type": "country",
+    "activeDate": "2026-06-07",
+    "targets": [
+      "Hollanda",
+      "Avusturya",
+      "Çekya",
+      "Portekiz",
+      "Gürcistan",
+      "İsviçre",
+      "Galler",
+      "İtalya",
+      "İspanya",
+      "Hırvatistan"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 59,
+    "game": "top10",
+    "title": "Fenerbahçe'de 9 numaralı formayı giyen son 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-08",
+    "targets": [
+      "Kerem Aktürkoğlu",
+      "Edin Džeko",
+      "Diego Rossi",
+      "Papiss Cisse",
+      "Mevlüt Erdinç",
+      "Roberto Soldado",
+      "Fernandao",
+      "Pierre Webo",
+      "Miroslav Stoch",
+      "Daniel Guiza"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 60,
+    "game": "top10",
+    "title": "Türkiye Kupasını kazanan son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-06-09",
+    "targets": [
+      "Trabzonspor",
+      "Galatasaray",
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Sivasspor",
+      "Akhisar Belediyespor",
+      "Konyaspor",
+      "Kayserispor",
+      "Kocaelispor",
+      "Gençlerbirliği"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 61,
+    "game": "top10",
+    "title": "Edin Dzeko'nun Fenerbahçe kariyerinde birlikte en fazla maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-10",
+    "targets": [
+      "Dusan Tadic",
+      "Sebastian Szymanski",
+      "Fred",
+      "İrfan Can Kahveci",
+      "Dominik Livakovic",
+      "Bright Osayi Samuel",
+      "İsmail Yüksek",
+      "Mert Müldür",
+      "Alexander Djiku",
+      "Ferdi Kadıoğlu"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 62,
+    "game": "top10",
+    "title": "Galatasaray'da Okan Buruk yönetiminde en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-10",
+    "targets": [
+      "Barış Alper Yılmaz",
+      "Lucas Torreira",
+      "Abdülkerim Bardakcı",
+      "Dries Mertens",
+      "Mauro Icardi",
+      "Fernando Muslera",
+      "Kaan Ayhan",
+      "Davinson Sanchez",
+      "Yunus Akgün",
+      "Berkan Kutlu"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 63,
+    "game": "top10",
+    "title": "Süper Lig'in son 5 sezonunun toplamında (2021-22 / 2025-26) en fazla puan alan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-06-12",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Konyaspor",
+      "Alanyaspor",
+      "Kasımpaşa",
+      "Antalyaspor",
+      "Kayserispor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 64,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de oynayıp Dünya Kupası'na katılan en değerli 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-13",
+    "targets": [
+      "Barış Alper Yılmaz",
+      "Orkun Kökçü",
+      "Wilfried Singo",
+      "Christ Inao Oulai",
+      "Noa Lang",
+      "Leroy Sane",
+      "Kerem Aktürkoğlu",
+      "Yunus Akgün",
+      "Davinson Sanchez",
+      "Emmanuel Agbadou"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 65,
+    "game": "top10",
+    "title": "A Milli futbol takımımızın Türkiye'de en fazla maç yaptığı 10 şehir?",
+    "type": "city",
+    "activeDate": "2026-06-14",
+    "targets": [
+      "İstanbul",
+      "İzmir",
+      "Ankara",
+      "Antalya",
+      "Bursa",
+      "Konya",
+      "Adana",
+      "Trabzon",
+      "Eskişehir",
+      "Kayseri"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 66,
+    "game": "top10",
+    "title": "A Milli takımımızda Euro 2008'de en fazla süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-15",
+    "targets": [
+      "Hakan Balta",
+      "Hamit Altıntop",
+      "Tuncay Şanlı",
+      "Nihat Kahveci",
+      "Mehmet Aurelio",
+      "Sabri Sarıoğlu",
+      "Arda Turan",
+      "Colin Kazım Richards",
+      "Emre Aşık",
+      "Servet Çetin"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 67,
+    "game": "top10",
+    "title": "Vincenzo Montella'nın teknik direktörlüğünde milli takımımızın formasıyla en fazla maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-16",
+    "targets": [
+      "Kerem Aktürkoğlu",
+      "Kenan Yıldız",
+      "Barış Alper Yılmaz",
+      "Hakan Çalhanoğlu",
+      "Arda Güler",
+      "Orkun Kökçü",
+      "Abdülkerim Bardakcı",
+      "Mert Müldür",
+      "İsmail Yüksek",
+      "Merih Demiral"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 68,
+    "game": "top10",
+    "title": "2026 Dünya Kupası'na katılan ülkeler arasında en yüksek nüfusa sahip 10 ülke? ",
+    "type": "country",
+    "activeDate": "2026-06-18",
+    "targets": [
+      "Amerika Birleşik Devletleri",
+      "Brezilya",
+      "Meksika",
+      "Japonya",
+      "Demokratik Kongo Cumhuriyeti",
+      "Mısır",
+      "İran",
+      "Türkiye",
+      "Almanya",
+      "Fransa"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 69,
+    "game": "top10",
+    "title": "Milli takımımızın 2026 Dünya Kupası kadrosunda yer alan en genç 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-19",
+    "targets": [
+      "Can Uzun",
+      "Arda Güler",
+      "Kenan Yıldız",
+      "Deniz Gül",
+      "Orkun Kökçü",
+      "Oğuz Aydın",
+      "Yunus Akgün",
+      "Eren Elmalı",
+      "Barış Alper Yılmaz",
+      "Ozan Kabak"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 70,
+    "game": "top10",
+    "title": "Fenerbahçe'nin Avrupa Kupalarında karşılaştığı son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-06-20",
+    "targets": [
+      "Nottingham Forest",
+      "FCSB",
+      "Aston Villa",
+      "Brann",
+      "Ferencvaros",
+      "Viktoria Plzen",
+      "Stuttgart",
+      "Nice",
+      "Dinamo Zagreb",
+      "Benfica"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 71,
+    "game": "top10",
+    "title": "Kariyerinde hem Fenerbahçe hem de Galatasaray'da forma giyen oyuncular arasında bu iki takımda toplamda en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-23",
+    "targets": [
+      "Mehmet Topal",
+      "Caner Erkin",
+      "Emre Belözoğlu",
+      "Kerem Aktürkoğlu",
+      "Servet Çetin",
+      "Serdar Aziz",
+      "Burak Yılmaz",
+      "Stjepan Tomas",
+      "Emre Aşık",
+      "Colin Kazım Richards"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 72,
+    "game": "top10",
+    "title": "2025/26 sezonunda Galatasaray formasıyla en fazla süre alan 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-06-24",
+    "targets": [
+      "Abdülkerim Bardakcı",
+      "Barış Alper Yılmaz",
+      "Uğurcan Çakır",
+      "Yunus Akgün",
+      "Eren Elmalı",
+      "Günay Güvenç",
+      "Kaan Ayhan",
+      "Kazımcan Karataş",
+      "Ahmed Kutucu",
+      "Arda Ünyay"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 73,
+    "game": "top10",
+    "title": "Süper Lig'de sezonu 3.sırada bitiren son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-06-25",
+    "targets": [
+      "Trabzonspor",
+      "Samsunspor",
+      "Beşiktaş",
+      "Konyaspor",
+      "Fenerbahçe",
+      "Başakşehir",
+      "Bursaspor",
+      "Galatasaray",
+      "Gençlerbirliği",
+      "Gaziantepspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 74,
+    "game": "top10",
+    "title": "2025-26 sezonunda Süper Lig'de mücadele eden en yüksek yaş ortalamasına sahip 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-06-26",
+    "targets": [
+      "Kayserispor",
+      "Kocaelispor",
+      "Başakşehir",
+      "Alanyaspor",
+      "Konyaspor",
+      "Fenerbahçe",
+      "Antalyaspor",
+      "Kasımpaşa",
+      "Galatasaray",
+      "Rizespor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 75,
+    "game": "top10",
+    "title": "Beşiktaş'ta görev alan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-06-27",
+    "targets": [
+      "Vincenzo Italiano",
+      "Sergen Yalçın",
+      "Ole Gunnar Solskjaer",
+      "Serdar Topraktepe",
+      "Giovanni Van Bronckhorst",
+      "Fernando Santos",
+      "Rıza Çalımbay",
+      "Burak Yılmaz",
+      "Şenol Güneş",
+      "Valerien Ismael"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 76,
+    "game": "top10",
+    "title": "Milli takımımızın formasıyla 2026 Dünya Kupası'nda en fazla süre lan 10 futbolcu? ",
+    "type": "player",
+    "activeDate": "2026-06-28",
+    "targets": [
+      "Uğurcan Çakır",
+      "Arda Güler",
+      "Abdülkerim Bardakcı",
+      "Kenan Yıldız",
+      "Hakan Çalhanoğlu",
+      "Merih Demiral",
+      "Barış Alper Yılmaz",
+      "Zeki Çelik",
+      "Ferdi Kadıoğlu",
+      "Orkun Kökçü"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 77,
+    "game": "top10",
+    "title": "Aktif futbol kariyeri devam eden oyuncular arasında Türkiye A Milli takım formasıyla en çok gol atan 10 futbolcu? ",
+    "type": "player",
+    "activeDate": "2026-06-29",
+    "targets": [
+      "Hakan Çalhanoğlu",
+      "Cenk Tosun",
+      "Cengiz Ünder",
+      "Kerem Aktürkoğlu",
+      "Ozan Tufan",
+      "Serdar Dursun",
+      "Arda Güler",
+      "Kenan Karaman",
+      "İrfan Can Kahveci",
+      "Merih Demiral"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 78,
+    "game": "top10",
+    "title": "Beşiktaş'ın gruptan namağlup lider çıktığı 2017-18 Şampiyonlar Ligi sezonunda Beşiktaş formasıyla en çok süre alan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-06-30",
+    "targets": [
+      "Ricardo Quaresma",
+      "Atiba Hutchinson",
+      "Ryan Babel",
+      "Fabri",
+      "Pepe",
+      "Anderson Talisca",
+      "Caner Erkin",
+      "Dusko Tosic",
+      "Adriano",
+      "Cenk Tosun"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 79,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de güncel piyasa değeri en yüksek 10 stoper?",
+    "type": "player",
+    "activeDate": "2026-07-01",
+    "targets": [
+      "Jayden Oosterwolde",
+      "Davinson Sanchez",
+      "Emmanuel Agbadou",
+      "Arseniy Batagov",
+      "Milan Skriniar",
+      "Chibuike Nwaiwu",
+      "Tiago Djalo",
+      "Emirhan Topçu",
+      "Abdülkerim Bardakcı",
+      "Yiğit Efe Demir"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 80,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de güncel piyasa değeri en yüksek 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-07-02",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Göztepe",
+      "Samsunspor",
+      "Rizespor",
+      "Konyaspor",
+      "Alanyaspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 81,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-26 sezonunu son 10 sırada bitiren takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-07-03",
+    "targets": [
+      "Fatih Karagümrük",
+      "Kayserispor",
+      "Antalyaspor",
+      "Eyüpspor",
+      "Gençlerbirliği",
+      "Kasımpaşa",
+      "Gaziantep FK",
+      "Alanyaspor",
+      "Kocaelispor",
+      "Konyaspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 82,
+    "game": "top10",
+    "title": "Süper Lig'de en yüksek stadyum kapasitesine sahip kulüpler?",
+    "type": "team-tr",
+    "activeDate": "2026-07-05",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Konyaspor",
+      "Trabzonspor",
+      "Kocaelispor",
+      "Samsunspor",
+      "Amed SK",
+      "Gaziantep FK",
+      "Göztepe"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 83,
+    "game": "top10",
+    "title": "Beşiktaş formasıyla en fazla maça çıkan 10 Brezilyalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-06",
+    "targets": [
+      "Bobo",
+      "Marcio Nobre",
+      "Ronaldo Guiaro",
+      "Adriano",
+      "Josef De Souza",
+      "Welinton",
+      "Anderson Talisca",
+      "Carlos Zago",
+      "Ramon Motta",
+      "Ricardinho"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 84,
+    "game": "top10",
+    "title": "Galatasaray'ı çalıştıran son 10 teknik direktör? (Geçici teknik direktörler hariç)",
+    "type": "td",
+    "activeDate": "2026-07-07",
+    "targets": [
+      "Okan Buruk",
+      "Domenec Torrent",
+      "Fatih Terim",
+      "Igor Tudor",
+      "Jan Olde Riekerink",
+      "Mustafa Denizli",
+      "Hamza Hamzaoğlu",
+      "Cesare Prandelli",
+      "Roberto Mancini",
+      "Gheorghe Hagi"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 85,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'in piyasa değeri en yüksek 10 orta saha oyuncusu?",
+    "type": "player",
+    "activeDate": "2026-07-09",
+    "targets": [
+      "Matteo Guendouzi",
+      "Gabriel Sara",
+      "Orkun Kökçü",
+      "Christ Inao Oulai",
+      "Marco Asensio",
+      "İsmail Yüksek",
+      "Ernest Muçi",
+      "Sofyan Amrabat",
+      "Lucas Torreira",
+      "Wilfred Ndidi"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 86,
+    "game": "top10",
+    "title": "2025-26 sezonunda Fenerbahçe formasıyla maça çıkan en yaşlı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-10",
+    "targets": [
+      "Mert Günok",
+      "N'golo Kante",
+      "Cenk Tosun",
+      "Fred",
+      "Ederson",
+      "Nelson Semedo",
+      "Anderson Talisca",
+      "Alexander Djiku",
+      "Dominik Livakovic",
+      "Milan Skriniar"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 87,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en çok maça çıkan 10 Güney Amerikalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-11",
+    "targets": [
+      "Fernando Muslera",
+      "Faryd Mondragon",
+      "Lucas Torreira",
+      "Felipe Melo",
+      "Claudio Taffarel",
+      "Marcao",
+      "Mauro Icardi",
+      "Davinson Sanchez",
+      "Capone",
+      "Mariano"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 88,
+    "game": "top10",
+    "title": "Türkiye A Milli futbol takımını çalıştıran son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-07-12",
+    "targets": [
+      "Vincenzo Montella",
+      "Stefan Kuntz",
+      "Şenol Güneş",
+      "Mircea Lucescu",
+      "Fatih Terim",
+      "Abdullah Avcı",
+      "Guus Hiddink",
+      "Oğuz Çetin",
+      "Ersun Yanal",
+      "Mustafa Denizli"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 89,
+    "game": "top10",
+    "title": "Fenerbahçe'nin transfer ettiği son 10 yabancı stoper?",
+    "type": "player",
+    "activeDate": "2026-07-13",
+    "targets": [
+      "Milan Skriniar",
+      "Diego Carlos",
+      "Leonardo Bonucci",
+      "Omar Fayed",
+      "Rodrigo Becao",
+      "Alexander Djiku",
+      "Jayden Oosterwolde",
+      "Gustavo Henrique",
+      "Luan Peres",
+      "Kim Min Jae"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 90,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Beşiktaş'ın mevcut kadrosundaki piyasa değeri en yüksek 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-07-14",
+    "targets": [
+      "Orkun Kökçü",
+      "Emmanuel Agbadou",
+      "Hyeon Gyu Oh",
+      "Alexander Nübel",
+      "Kassoum Ouattara",
+      "Semih Kılıçsoy",
+      "Wilfred Ndidi",
+      "Vaclav Cerny",
+      "Amir Murillo",
+      "Tiago Djalo"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 91,
+    "game": "top10",
+    "title": "2025-26 sezonunda Trabzonspor formasıyla en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-15",
+    "targets": [
+      "Wagner Pina",
+      "Andre Onana",
+      "Paul Onuachu",
+      "Mustafa Eskihellaç",
+      "Felipe Augusto",
+      "Tim Jabol Folcarelli",
+      "Oleksandr Zubkov",
+      "Arseniy Batagov",
+      "Ernest Muçi",
+      "Christ Inao Oulai"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 92,
+    "game": "top10",
+    "title": "Fenerbahçe'nin 2025-26 sezonunda Avrupa Liginde oynadığı 10 maçın toplamında en fazla süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-07-16",
+    "targets": [
+      "Ederson",
+      "Nelson Semedo",
+      "Jayden Oosterwolde",
+      "Kerem Aktürkoğlu",
+      "Milan Skriniar",
+      "Archie Brown",
+      "Dorgeles Nene",
+      "Youssef En Nesyri",
+      "Marco Asensio",
+      "İsmail Yüksek"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 93,
+    "game": "top10",
+    "title": "Avrupa kupaları tarihinde en çok gol atan 10 Türk Takımı? (Ön elemeler dahil)",
+    "type": "team-tr",
+    "activeDate": "2026-07-17",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Göztepe",
+      "Sivasspor",
+      "Bursaspor",
+      "Osmanlıspor",
+      "Gaziantepspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 94,
+    "game": "top10",
+    "title": "Mauro Icardi'nin Galatasaray kariyerinde birlikte en fazla maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-18",
+    "targets": [
+      "Lucas Torreira",
+      "Barış Alper Yılmaz",
+      "Abdülkerim Bardakcı",
+      "Kaan Ayhan",
+      "Fernando Muslera",
+      "Dries Mertens",
+      "Kerem Aktürkoğlu",
+      "Davinson Sanchez",
+      "Victor Nelsson",
+      "Sacha Boey"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 95,
+    "game": "top10",
+    "title": "Süper Lig'de şampiyonluk kazanan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-07-22",
+    "targets": [
+      "Okan Buruk",
+      "Abdullah Avcı",
+      "Sergen Yalçın",
+      "Fatih Terim",
+      "Şenol Güneş",
+      "Hamza Hamzaoğlu",
+      "Ersun Yanal",
+      "Aykut Kocaman",
+      "Ertuğrul Sağlam",
+      "Mustafa Denizli"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 96,
+    "game": "top10",
+    "title": "2024-25 sezonunda Galatasaray formasıyla en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-23",
+    "targets": [
+      "Abdülkerim Bardakcı",
+      "Lucas Torreira",
+      "Barış Alper Yılmaz",
+      "Fernando Muslera",
+      "Davinson Sanchez",
+      "Gabriel Sara",
+      "Victor Osimhen",
+      "Yunus Akgün",
+      "Dries Mertens",
+      "Kaan Ayhan"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 97,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'in en değerli 10 oyuncusu? (24 Temmuz itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-07-25",
+    "targets": [
+      "Victor Osimhen",
+      "Mason Greenwood",
+      "Barış Alper Yılmaz",
+      "Gabriel Sara",
+      "Matteo Guendouzi",
+      "Orkun Kökçü",
+      "Wilfried Singo",
+      "Lesley Ugochukwu",
+      "Kerem Aktürkoğlu",
+      "Leroy Sane"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 98,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'in en değerli 10 takımı? (25 Temmuz itibarıyla)",
+    "type": "team-tr",
+    "activeDate": "2026-07-26",
+    "targets": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Göztepe",
+      "Samsunspor",
+      "Rizespor",
+      "Alanyaspor",
+      "Konyaspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 99,
+    "game": "top10",
+    "title": "Şampiyonlar Ligi tarihinde en çok maça çıkan 10 takım? (Şampiyon Kulüpler Kupası dahil)",
+    "type": "team-all",
+    "activeDate": "2026-07-27",
+    "targets": [
+      "Real Madrid",
+      "Bayern Münih",
+      "Barcelona",
+      "Juventus",
+      "Benfica",
+      "Manchester United",
+      "Milan",
+      "Porto",
+      "Liverpool",
+      "Dinamo Kiev"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 100,
+    "game": "top10",
+    "title": "2025/26 sezonunda TFF 1.Lig'i ilk 10 sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-07-28",
+    "targets": [
+      "Erzurumspor",
+      "Amed SK",
+      "Esenler Erokspor",
+      "Çorum FK",
+      "Bodrum FK",
+      "Pendikspor",
+      "Keçiörengücü",
+      "Bandırmaspor",
+      "Manisa FK",
+      "Sivasspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 101,
+    "game": "top10",
+    "title": "Fenerbahçe'nin çeyrek final oynadığı 2007-08 Şampiyonlar Ligi sezonunda Fenerbahçe formasıyla en çok süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-07-29",
+    "targets": [
+      "Volkan Demirel",
+      "Edu Dracena",
+      "Mehmet Aurelio",
+      "Alex De Souza",
+      "Diego Lugano",
+      "Deivid De Souza",
+      "Wederson",
+      "Gökhan Gönül",
+      "Roberto Carlos",
+      "Semih Şentürk"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 102,
+    "game": "top10",
+    "title": "Beşiktaş'ın Süper Lig tarihinde en çok mağlup ettiği 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-07-30",
+    "targets": [
+      "Ankaragücü",
+      "Gençlerbirliği",
+      "Bursaspor",
+      "Fenerbahçe",
+      "Altay",
+      "Galatasaray",
+      "Trabzonspor",
+      "Antalyaspor",
+      "Samsunspor",
+      "Gaziantepspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 103,
+    "game": "top10",
+    "title": "Galatasaray formasıyla 2025-26 sezonunda Şampiyonlar Ligi'nde en fazla süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-07-31",
+    "targets": [
+      "Uğurcan Çakır",
+      "Davinson Sanchez",
+      "Lucas Torreira",
+      "Barış Alper Yılmaz",
+      "Abdülkerim Bardakcı",
+      "Roland Sallai",
+      "Ismael Jakobs",
+      "Victor Osimhen",
+      "Gabriel Sara",
+      "Mario Lemina"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 104,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en yüksek bonservis ödenen 10 yerli oyuncu? (Eşit bedellerde daha önce transfer edilen oyuncu üst sırada yer alır)",
+    "type": "player",
+    "activeDate": "2026-08-01",
+    "targets": [
+      "Uğurcan Çakır",
+      "Burak Yılmaz",
+      "Ahmed Kutucu",
+      "Bülent Akın",
+      "Serkan Aykut",
+      "Hasan Şaş",
+      "Tarık Çamdal",
+      "Serdar Aziz",
+      "Olcan Adın",
+      "Eren Derdiyok"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 105,
+    "game": "top10",
+    "title": "Süper Lig tarihinde tüm sezonların toplamında en fazla gol yiyen 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-08-03",
+    "targets": [
+      "Ankaragücü",
+      "Gençlerbirliği",
+      "Fenerbahçe",
+      "Bursaspor",
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Altay",
+      "Antalyaspor",
+      "Samsunspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 106,
+    "game": "top10",
+    "title": "2025-26 sezonunda Fenerbahçe formasıyla en fazla maça çıkan yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-08-08",
+    "targets": [
+      "Jayden Oosterwolde",
+      "Anderson Talisca",
+      "Fred",
+      "Milan Skriniar",
+      "Dorgeles Nene",
+      "Nelson Semedo",
+      "Marco Asensio",
+      "Archie Brown",
+      "Ederson",
+      "Youssef En Nesyri"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 107,
+    "game": "top10",
+    "title": "2025-26 sezonunda Süper Lig'i ilk 10 sırada tamamlayan takımların mevcut teknik direktörleri?",
+    "type": "td",
+    "activeDate": "2026-08-09",
+    "targets": [
+      "Okan Buruk",
+      "İsmail Kartal",
+      "Fatih Tekke",
+      "Vincenzo Italiano",
+      "Nuri Şahin",
+      "Stanimir Stoilov",
+      "Thorsten Fink",
+      "Recep Uçar",
+      "İlhan Palut",
+      "Selçuk İnan"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 108,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en yüksek bonservis ödenen 10 yerli oyuncu? (Eşit bedellerde daha önce transfer edilen oyuncu üst sırada yer alır)",
+    "type": "player",
+    "activeDate": "2026-08-10",
+    "targets": [
+      "Uğurcan Çakır",
+      "Burak Yılmaz",
+      "Ahmed Kutucu",
+      "Bülent Akın",
+      "Serkan Aykut",
+      "Hasan Şaş",
+      "Tarık Çamdal",
+      "Serdar Aziz",
+      "Olcan Adın",
+      "Eren Derdiyok"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 109,
+    "game": "top10",
+    "title": "Fenerbahçe'nin Süper Lig tarihinde en çok mağlup ettiği 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-08-12",
+    "targets": [
+      "Ankaragücü",
+      "Bursaspor",
+      "Galatasaray",
+      "Beşiktaş",
+      "Altay",
+      "Gençlerbirliği",
+      "Trabzonspor",
+      "İstanbulspor",
+      "Gaziantepspor",
+      "Antalyaspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 110,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig kulüplerinin 2025/26 sezonunda en yüksek bonservisli oyuncu satışları?",
+    "type": "player",
+    "activeDate": "2026-08-13",
+    "targets": [
+      "Uğurcan Çakır",
+      "Yusuf Akçiçek",
+      "Tammy Abraham",
+      "Gedson Fernandes",
+      "Romulo",
+      "Youssef En Nesyri",
+      "Krzysztof Piatek",
+      "Sebastian Szymanski",
+      "Keny Arroyo",
+      "Demir Ege Tıknaz"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 111,
+    "game": "top10",
+    "title": "Dünya kupaları tarihinde en çok gol atan 10 ülke?",
+    "type": "country",
+    "activeDate": "2026-08-14",
+    "targets": [
+      "Brezilya",
+      "Almanya",
+      "Arjantin",
+      "Fransa",
+      "İtalya",
+      "İngiltere",
+      "İspanya",
+      "Hollanda",
+      "Uruguay",
+      "Macaristan"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 112,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-26 sezonunu ilk 10 sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-08-15",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Göztepe",
+      "Samsunspor",
+      "Rizespor",
+      "Konyaspor",
+      "Kocaelispor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 113,
+    "game": "top10",
+    "title": "Milli takımımızın Avrupa şampiyonalarında karşılaştığı son 10 ülke?",
+    "type": "country",
+    "activeDate": "2026-08-16",
+    "targets": [
+      "Hollanda",
+      "Avusturya",
+      "Çekya",
+      "Portekiz",
+      "Gürcistan",
+      "İsviçre",
+      "Galler",
+      "İtalya",
+      "İspanya",
+      "Hırvatistan"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 114,
+    "game": "top10",
+    "title": "2025/26 sezonunda Süper Lig'i ilk 10 sırada tamamlayan takımların mevcut teknik direktörleri?",
+    "type": "td",
+    "activeDate": "2026-08-17",
+    "targets": [
+      "Okan Buruk",
+      "İsmail Kartal",
+      "Fatih Tekke",
+      "Vincenzo Italiano",
+      "Nuri Şahin",
+      "Stanimir Stoilov",
+      "Thorsten Fink",
+      "Recep Uçar",
+      "İlhan Palut",
+      "Selçuk İnan"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 115,
+    "game": "top10",
+    "title": "Süper Lig'in 1.haftasını ilk 10 sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-08-18",
+    "targets": [
+      "Amed SK",
+      "Başakşehir",
+      "Gençlerbirliği",
+      "Beşiktaş",
+      "Rizespor",
+      "Göztepe",
+      "Samsunspor",
+      "Çorum FK",
+      "Galatasaray",
+      "Alanyaspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 116,
+    "game": "top10",
+    "title": "Süper Lig'de sezonu 3.sırada bitiren son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-08-19",
+    "targets": [
+      "Trabzonspor",
+      "Samsunspor",
+      "Beşiktaş",
+      "Konyaspor",
+      "Fenerbahçe",
+      "Başakşehir",
+      "Bursaspor",
+      "Galatasaray",
+      "Gençlerbirliği",
+      "Gaziantepspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 117,
+    "game": "top10",
+    "title": "Fenerbahçe'nin Avrupa Kupalarında karşılaştığı son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-08-21",
+    "targets": [
+      "Lyon",
+      "Sturm Graz",
+      "Gornik Zabrze",
+      "Nottingham Forest",
+      "FCSB",
+      "Aston Villa",
+      "Brann",
+      "Ferencvaros",
+      "Viktoria Plzen",
+      "Stuttgart"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 118,
+    "game": "top10",
+    "type": "player",
+    "title": "Galatasaray'ın şampiyon olduğu 2022-23 sezonundaki kadroda ligde en çok süre alan 10 futbolcu?",
+    "activeDate": "2026-08-22",
+    "targets": [
+      "Fernando Muslera",
+      "Victor Nelsson",
+      "Sacha Boey",
+      "Abdülkerim Bardakcı",
+      "Kerem Aktürkoğlu",
+      "Lucas Torreira",
+      "Sergio Oliveira",
+      "Dries Mertens",
+      "Mauro Icardi",
+      "Milot Rashica"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 119,
+    "game": "top10",
+    "title": "Milli takımımızın 2026 Dünya Kupası'nda yer alan oyuncular arasında en çok Milli maça çıkan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-08-25",
+    "targets": [
+      "Hakan Çalhanoğlu",
+      "Kaan Ayhan",
+      "Merih Demiral",
+      "Zeki Çelik",
+      "Çağlar Söyüncü",
+      "Kerem Aktürkoğlu",
+      "Orkun Kökçü",
+      "İrfan Can Kahveci",
+      "Mert Müldür",
+      "Uğurcan Çakır"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 120,
+    "game": "top10",
+    "title": "Türkiye A Milli futbol takımını çalıştıran son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-08-27",
+    "targets": [
+      "Vincenzo Montella",
+      "Stefan Kuntz",
+      "Şenol Güneş",
+      "Mircea Lucescu",
+      "Fatih Terim",
+      "Abdullah Avcı",
+      "Guus Hiddink",
+      "Oğuz Çetin",
+      "Ersun Yanal",
+      "Mustafa Denizli"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 121,
+    "game": "top10",
+    "title": "Süper Lig'de ilk 2 hafta sonunda ilk 10 sırada yer alan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-08-28",
+    "targets": [
+      "Gençlerbirliği",
+      "Galatasaray",
+      "Samsunspor",
+      "Trabzonspor",
+      "Alanyaspor",
+      "Gaziantep FK",
+      "Kasımpaşa",
+      "Fenerbahçe",
+      "Amed SK",
+      "Başakşehir"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 122,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de piyasa değeri en yüksek 10 santrfor? (28 Ağustos itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-08-29",
+    "targets": [
+      "Victor Osimhen",
+      "Dusan Vlahovic",
+      "Hyeon Gyu Oh",
+      "Juan",
+      "Semih Kılıçsoy",
+      "Gift Orban",
+      "Bertuğ Yıldırım",
+      "Eldor Shomurodov",
+      "Marius Mouandilmadji",
+      "Janderson"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 123,
+    "game": "top10",
+    "title": "Şampiyonlar Ligi kazanan son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-08-30",
+    "targets": [
+      "PSG",
+      "Real Madrid",
+      "Manchester City",
+      "Chelsea",
+      "Bayern Münih",
+      "Liverpool",
+      "Barcelona",
+      "Inter",
+      "Manchester United",
+      "Milan"
+    ],
+    "difficulty": "kolay"
+  },
+
+   {
+    "id": 124,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig'de piyasa değeri en yüksek 10 kaleci? (31 Ağustos itibarıyla)",
+    "type": "player",
+    "activeDate": "2026-09-01",
+    "targets": [
+      "Uğurcan Çakır",
+      "Alexander Nübel",
+      "Ederson",
+      "Andre Onana",
+      "Yahia Fofana",
+      "Muhammed Şengezer",
+      "Deniz Ertaş",
+      "Alban Lafont",
+      "Okan Kocuk",
+      "Bilal Bayazıt"
     
     ],
     "difficulty": "kolay"
-}
+  },
 
+  {
+    "id": 125,
+    "game": "top10",
+    "title": "Transfermarkt verilerine göre Süper Lig tarihinin en pahalı 10 oyuncu satışı?",
+    "type": "player",
+    "activeDate": "2026-09-02",
+    "targets": [
+      "Ferdi Kadıoğlu",
+      "Sacha Boey",
+      "Arda Güler",
+      "Uğurcan Çakır",
+      "Christ Inao Oulai",
+      "Sidiki Cherif",
+      "Cenk Tosun",
+      "Yusuf Akçiçek",
+      "Elvir Baljic",
+      "Tammy Abraham"
+    
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 126,
+    "game": "top10",
+    "title": "Galatasaray'ı çalıştıran son 10 teknik direktör? (Geçici teknik direktörler hariç)",
+    "type": "td",
+    "activeDate": "2026-09-03",
+    "targets": [
+      "Okan Buruk",
+      "Domenec Torrent",
+      "Fatih Terim",
+      "Igor Tudor",
+      "Jan Olde Riekerink",
+      "Mustafa Denizli",
+      "Hamza Hamzaoğlu",
+      "Cesare Prandelli",
+      "Roberto Mancini",
+      "Gheorghe Hagi"
+    ],
+    "difficulty": "kolay"
+  },
 
+   {
+    "id": 127,
+    "game": "top10",
+    "title": "2022-23 sezonundan bu yana Süper Lig'de en fazla puan toplayan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-04",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Kasımpaşa",
+      "Alanyaspor",
+      "Konyaspor",
+      "Antalyaspor",
+      "Kayserispor"
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 128,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-26 sezonunda iç sahada en fazla puan toplayan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-05",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Göztepe",
+      "Başakşehir",
+      "Samsunspor",
+      "Rizespor",
+      "Gençlerbirliği",
+      "Konyaspor"
+    ],
+    "difficulty": "kolay"
+  },
 
+   {
+    "id": 129,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-26 sezonunda en yüksek averaja sahip 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-07",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Başakşehir",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Göztepe",
+      "Samsunspor",
+      "Alanyaspor",
+      "Rizespor",
+      "Konyaspor"
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 130,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 4 haftası itibarıyla en çok gol beklentisi (xG) üreten 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-08",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Göztepe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Amed SK",
+      "Rizespor",
+      "Samsunspor",
+      "Konyaspor"
+    ],
+    "difficulty": "kolay"
+  },
 
+   {
+    "id": 131,
+    "game": "top10",
+    "title": "Caner Erkin'in kariyeri boyunca birlikte en fazla maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-09",
+    "targets": [
+      "Gökhan Gönül",
+      "Mehmet Topal",
+      "Volkan Demirel",
+      "Mehmet Topuz",
+      "Bekir İrtegün",
+      "Moussa Sow",
+      "Cristian Baroni",
+      "Dirk Kuyt",
+      "Emre Belözoğlu",
+      "Selçuk Şahin"
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 132,
+    "game": "top10",
+    "title": "Barış Alper Yılmaz'ın kariyeri boyunca birlikte en fazla maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-10",
+    "targets": [
+      "Abdülkerim Bardakcı",
+      "Lucas Torreira",
+      "Fernando Muslera",
+      "Kaan Ayhan",
+      "Davinson Sanchez",
+      "Mauro Icardi",
+      "Berkan Kutlu",
+      "Yunus Akgün",
+      "Kerem Aktürkoğlu",
+      "Victor Nelsson"
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 133,
+    "game": "top10",
+    "title": "Galatasaray'ın Avrupa kupalarında mağlup olduğu son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-09-11",
+    "targets": [
+      "Sporting",
+      "Liverpool",
+      "Juventus",
+      "Manchester City",
+      "Monaco",
+      "Union SG",
+      "Frankfurt",
+      "AZ Alkmaar",
+      "Ajax",
+      "Young Boys"
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 134,
+    "game": "top10",
+    "title": "2026 yaz transfer döneminde Süper Lig'de en yüksek bonservis bedeliyle transfer edilen 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-12",
+    "targets": [
+      "Mason Greenwood",
+      "Rafael Leao",
+      "Orkun Kökçü",
+      "Aleksey Batrakov",
+      "Leandro Trossard",
+      "Sidiki Cherif",
+      "Franculino Dju",
+      "Vedat Muriqi",
+      "Aral Şimşir",
+      "Kojo Peprah Oppong"
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 135,
+    "game": "top10",
+    "title": "Güncel piyasa verilerine göre Süper Lig'in en değerli 10 yerli oyuncusu?",
+    "type": "player",
+    "activeDate": "2026-09-13",
+    "targets": [
+     "Barış Alper Yılmaz",
+     "Orkun Kökçü",
+     "Kerem Aktürkoğlu",
+     "Yunus Akgün",
+     "İsmail Yüksek",
+     "Uğurcan Çakır",
+     "Semih Kılıçsoy",
+     "Aral Şimşir",
+     "Arda Okan Kurtulan",
+     "Bertuğ Yıldırım"
+    ],
+    "difficulty": "kolay"
+  },
 
+    {
+    "id": 136,
+    "game": "top10",
+    "title": "Vincenzo Montella'nın teknik direktörlüğünde milli takımımızın formasıyla en fazla maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-14",
+    "targets": [
+      "Kerem Aktürkoğlu",
+      "Kenan Yıldız",
+      "Barış Alper Yılmaz",
+      "Arda Güler",
+      "Orkun Kökçü",
+      "Abdülkerim Bardakcı",
+      "Hakan Çalhanoğlu",
+      "Mert Müldür",
+      "İsmail Yüksek",
+      "Merih Demiral"
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 137,
+    "game": "top10",
+    "title": "Bu sezon Beşiktaş formasıyla en çok süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-15",
+    "targets": [
+      "Alexander Nübel",
+      "Salih Özcan",
+      "Orkun Kökçü",
+      "Junior Olaitan",
+      "Amir Murillo",
+      "Emirhan Topçu",
+      "Vaclav Cerny",
+      "Tiago Djalo",
+      "Hyeon Gyu Oh",
+      "Rıdvan Yılmaz"
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 138,
+    "game": "top10",
+    "title": "Bu sezon Fenerbahçe formasıyla en çok süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-16",
+    "targets": [
+      "Milan Skriniar",
+      "Nathan Ake",
+      "Matteo Guendouzi",
+      "Mason Greenwood",
+      "Nelson Semedo",
+      "N'golo Kante",
+      "Archie Brown",
+      "Kerem Aktürkoğlu",
+      "Ederson",
+      "Anderson Talisca"
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 139,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 5 haftasında en çok faul yapan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-17",
+    "targets": [
+      "Alanyaspor",
+      "Beşiktaş",
+      "Kasımpaşa",
+      "Göztepe",
+      "Eyüpspor",
+      "Gaziantep FK",
+      "Başakşehir",
+      "Fenerbahçe",
+      "Konyaspor",
+      "Gençlerbirliği"
+    ],
+    "difficulty": "kolay"
+  },
 
+  {
+    "id": 140,
+    "game": "top10",
+    "title": "Bu sezon Galatasaray formasıyla en fazla süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-18",
+    "targets": [
+      "Davinson Sanchez",
+      "Lucas Torreira",
+      "Roland Sallai",
+      "Barış Alper Yılmaz",
+      "Yunus Akgün",
+      "Gabriel Sara",
+      "Uğurcan Çakır",
+      "Ismael Jakobs",
+      "Abdülkerim Bardakcı",
+      "Victor Osimhen"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 141,
+    "game": "top10",
+    "title": "Mevcut Süper Lig takımları arasında kuruluş tarihi en eski 10 kulüp?",
+    "type": "team-tr",
+    "activeDate": "2026-09-19",
+    "targets": [
+      "Beşiktaş",
+      "Galatasaray",
+      "Fenerbahçe",
+      "Eyüpspor",
+      "Kasımpaşa",
+      "Konyaspor",
+      "Gençlerbirliği",
+      "Göztepe",
+      "Alanyaspor",
+      "Rizespor"
+    ],
+    "difficulty": "kolay"
+  }
 
 
 
