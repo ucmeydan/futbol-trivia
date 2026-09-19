@@ -9,17 +9,7 @@ import * as Haptics from 'expo-haptics';
 import ConfettiCannon from 'react-native-confetti-cannon';
 import LoadingScreen from '../components/LoadingScreen';
 
-import playersData from '../data/players.json';
-import teamsData from '../data/teams.json';
-import europeanTeamsData from '../data/european_teams.json';
-import tdData from '../data/td.json';
-import countriesData from '../data/countries.json';
-import citiesData from '../data/cities.json';
-import allTeamsData from '../data/all_teams.json';
-import kolayQuestions from '../data/questions-listeyi-tamamla-kolay.json';
-import zorQuestions from '../data/questions-listeyi-tamamla-zor.json';
-
-const allQuestions = [...(kolayQuestions as any[]), ...(zorQuestions as any[])];
+import { getData } from '../utils/questionSync';
 
 const formatName = (name: string) =>
   name.toLowerCase().split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
@@ -69,6 +59,10 @@ export default function ListeyiTamamla({ difficulty, navigation }: Props) {
       const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
       setToday(dateStr);
 
+      const allQuestions = [
+        ...getData('questions-listeyi-tamamla-kolay'),
+        ...getData('questions-listeyi-tamamla-zor'),
+      ];
       const filtered = allQuestions.filter((q: any) =>
         q.game === 'listeyi-tamamla' && q.activeDate <= dateStr && q.difficulty === difficulty
       );
@@ -113,13 +107,13 @@ export default function ListeyiTamamla({ difficulty, navigation }: Props) {
     if (query.length < 2 || !currentQ) { setSuggestions([]); return; }
 
     let src: string[] = [];
-    if (currentQ.type === 'player') src = playersData as string[];
-    else if (currentQ.type === 'team-tr' || currentQ.type === 'team') src = teamsData as string[];
-    else if (currentQ.type === 'team-eu') src = europeanTeamsData as string[];
-    else if (currentQ.type === 'td') src = tdData as string[];
-    else if (currentQ.type === 'country') src = countriesData as string[];
-    else if (currentQ.type === 'city') src = citiesData as string[];
-    else if (currentQ.type === 'team-all') src = allTeamsData as string[];
+    if (currentQ.type === 'player') src = getData('players') as string[];
+    else if (currentQ.type === 'team-tr' || currentQ.type === 'team') src = getData('teams') as string[];
+    else if (currentQ.type === 'team-eu') src = getData('european_teams') as string[];
+    else if (currentQ.type === 'td') src = getData('td') as string[];
+    else if (currentQ.type === 'country') src = getData('countries') as string[];
+    else if (currentQ.type === 'city') src = getData('cities') as string[];
+    else if (currentQ.type === 'team-all') src = getData('all_teams') as string[];
 
     const norm = normalizeText(query);
     const filtered = Array.from(new Set(src))

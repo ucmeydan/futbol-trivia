@@ -10,7 +10,7 @@ import DifficultyScreen from './src/screens/DifficultyScreen';
 import GameScreen from './src/screens/GameScreen';
 import StatsScreen from './src/screens/StatsScreen';
 import type { RootStackParamList } from './src/types/navigation';
-import { syncQuestionsInBackground } from './src/utils/questionSync';
+import { hydrateData, syncQuestionsInBackground } from './src/utils/questionSync';
 import { requestNotificationPermission, scheduleDailyNotification } from './src/utils/notifications';
 import { initCrashReporting } from './src/utils/crashReporting';
 import ErrorBoundary from './src/components/ErrorBoundary';
@@ -114,8 +114,8 @@ export default function App() {
     // Reklam takibi izni (ATT) — açılışta, ilk açılışta pencere çıksın (Guideline 2.1)
     ensureTrackingPermission();
 
-    // Arka planda soru verilerini güncelle — UI'ı bloklamaz
-    syncQuestionsInBackground();
+    // Senkronlanmış veriyi belleğe yükle, sonra siteden tazesini çek — UI'ı bloklamaz
+    hydrateData().then(() => syncQuestionsInBackground());
 
     // Bildirim izni al ve günlük 20:00 bildirimini zamanla
     requestNotificationPermission().then(granted => {

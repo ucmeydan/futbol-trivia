@@ -9,17 +9,7 @@ import * as Haptics from 'expo-haptics';
 import ConfettiCannon from 'react-native-confetti-cannon';
 import LoadingScreen from '../components/LoadingScreen';
 
-import playersData from '../data/players.json';
-import teamsData from '../data/teams.json';
-import europeanTeamsData from '../data/european_teams.json';
-import tdData from '../data/td.json';
-import countriesData from '../data/countries.json';
-import citiesData from '../data/cities.json';
-import allTeamsData from '../data/all_teams.json';
-import kolayQuestions from '../data/questions-top10-kolay.json';
-import zorQuestions from '../data/questions-top10-zor.json';
-
-const allQuestions = [...(kolayQuestions as any[]), ...(zorQuestions as any[])];
+import { getData } from '../utils/questionSync';
 
 const formatName = (name: string) =>
   name.toLowerCase().split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
@@ -64,6 +54,10 @@ export default function Top10({ difficulty, navigation }: Props) {
     (async () => {
       const d = new Date();
       const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      const allQuestions = [
+        ...getData('questions-top10-kolay'),
+        ...getData('questions-top10-zor'),
+      ];
       const filtered = allQuestions.filter((q: any) =>
         q.game === 'top10' && q.activeDate <= dateStr && q.difficulty === difficulty
       );
@@ -96,13 +90,13 @@ export default function Top10({ difficulty, navigation }: Props) {
     const q = gameQuestions[currentIndex];
     if (query.length < 2 || !q) { setSuggestions([]); return; }
     let src: string[] = [];
-    if (q.type === 'player') src = playersData as string[];
-    else if (q.type === 'team' || q.type === 'team-tr') src = teamsData as string[];
-    else if (q.type === 'team-eu') src = europeanTeamsData as string[];
-    else if (q.type === 'td') src = tdData as string[];
-    else if (q.type === 'country') src = countriesData as string[];
-    else if (q.type === 'city') src = citiesData as string[];
-    else if (q.type === 'team-all') src = allTeamsData as string[];
+    if (q.type === 'player') src = getData('players') as string[];
+    else if (q.type === 'team' || q.type === 'team-tr') src = getData('teams') as string[];
+    else if (q.type === 'team-eu') src = getData('european_teams') as string[];
+    else if (q.type === 'td') src = getData('td') as string[];
+    else if (q.type === 'country') src = getData('countries') as string[];
+    else if (q.type === 'city') src = getData('cities') as string[];
+    else if (q.type === 'team-all') src = getData('all_teams') as string[];
     const norm = normalizeText(query);
     const filtered = Array.from(new Set(src))
       .filter(item => normalizeText(item).includes(norm))

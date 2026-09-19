@@ -9,11 +9,7 @@ import * as Haptics from 'expo-haptics';
 import ConfettiCannon from 'react-native-confetti-cannon';
 import LoadingScreen from '../components/LoadingScreen';
 
-import playersData from '../data/players.json';
-import kolayQuestions from '../data/questions-takim-arkadasi-kolay.json';
-import zorQuestions from '../data/questions-takim-arkadasi-zor.json';
-
-const allQuestions = [...(kolayQuestions as any[]), ...(zorQuestions as any[])];
+import { getData } from '../utils/questionSync';
 
 const formatName = (name: string) => {
   if (!name) return '';
@@ -64,6 +60,10 @@ export default function TakimArkadasi({ difficulty, navigation }: Props) {
     (async () => {
       const d = new Date();
       const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      const allQuestions = [
+        ...getData('questions-takim-arkadasi-kolay'),
+        ...getData('questions-takim-arkadasi-zor'),
+      ];
       const filtered = allQuestions.filter((q: any) =>
         q.game === 'takim-arkadasi' && q.activeDate <= dateStr && q.difficulty === difficulty
       );
@@ -80,7 +80,7 @@ export default function TakimArkadasi({ difficulty, navigation }: Props) {
   useEffect(() => {
     if (query.length < 2) { setSuggestions([]); return; }
     const norm = normalizeText(query);
-    const filtered = Array.from(new Set(playersData as string[]))
+    const filtered = Array.from(new Set(getData('players') as string[]))
       .filter(p => normalizeText(p).includes(norm))
       .slice(0, 5);
     setSuggestions(filtered);
