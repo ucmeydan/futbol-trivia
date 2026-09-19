@@ -5229,6 +5229,40 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 139,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-19",
+    "correctPlayer": "Selçuk İnan",
+    "career": [
+      {
+        "season": "2001-2006",
+        "team": "Dardanelspor",
+        "apps": "78",
+        "goals": "6"
+      },
+      {
+        "season": "2006–2008",
+        "team": "Manisaspor",
+        "apps": "86",
+        "goals": "12"
+      },
+      {
+        "season": "2008-2011",
+        "team": "Trabzonspor",
+        "apps": "113",
+        "goals": "7"
+      },
+      {
+        "season": "2011–2020",
+        "team": "Galatasaray",
+        "apps": "331",
+        "goals": "59"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

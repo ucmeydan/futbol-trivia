@@ -3219,5 +3219,26 @@
       "Caner Erkin"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 163,
+    "game": "top10",
+    "title": "Mevcut Süper Lig teknik direktörleri arasındaki en genç 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-09-19",
+    "targets": [
+      "Nuri Şahin",
+      "Uğur Uçar",
+      "Selçuk İnan",
+      "Özhan Pulat",
+      "Joao Pereira",
+      "Orhan Ak",
+      "Emre Belözoğlu",
+      "Serkan Özbalta",
+      "Vincenzo Italiano",
+      "İlhan Palut"
+    ],
+    "difficulty": "zor"
   }
 ]

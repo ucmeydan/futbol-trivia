@@ -2818,6 +2818,27 @@
       "Victor Osimhen"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 141,
+    "game": "top10",
+    "title": "Mevcut Süper Lig takımları arasında kuruluş tarihi en eski 10 kulüp?",
+    "type": "team-tr",
+    "activeDate": "2026-09-19",
+    "targets": [
+      "Beşiktaş",
+      "Galatasaray",
+      "Fenerbahçe",
+      "Eyüpspor",
+      "Kasımpaşa",
+      "Konyaspor",
+      "Gençlerbirliği",
+      "Göztepe",
+      "Alanyaspor",
+      "Rizespor"
+    ],
+    "difficulty": "kolay"
   }
 
 

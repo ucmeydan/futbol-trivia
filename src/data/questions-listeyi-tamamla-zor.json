@@ -3348,5 +3348,22 @@
       "Dirk Kuyt"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 162,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de birden fazla takımla şampiyonluk yaşayan mevcut Süper Lig oyuncuları?",
+    "type": "player",
+    "activeDate": "2026-09-19",
+    "targets": [
+      "Edin Visca",
+      "Uğurcan Çakır",
+      "Günay Güvenç",
+      "Mert Günok",
+      "Volkan Babacan"
+
+    ],
+    "difficulty": "zor"
   }
 ]

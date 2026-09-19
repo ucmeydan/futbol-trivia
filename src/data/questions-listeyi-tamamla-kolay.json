@@ -2673,5 +2673,24 @@
       "Monaco"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 143,
+    "game": "listeyi-tamamla",
+    "title": "Avrupa'nın piyasa değeri en yüksek 8 liginde geçtiğimiz sezon şampiyon olan takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-09-19",
+    "targets": [
+      "PSG",
+      "Arsenal",
+      "Inter",
+      "Bayern Münih",
+      "Barcelona",
+      "Porto",
+      "PSV",
+      "Galatasaray"
+    ],
+    "difficulty": "kolay"
   }
 ]

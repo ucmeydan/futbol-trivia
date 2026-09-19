@@ -4199,5 +4199,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 145,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-19",
+    "correctPlayer": "Mehmet Topal",
+    "teammates": [
+      {
+        "name": "Cassio Lincoln",
+        "info": "1998-2003 yılları arasında Leeds United'da birlikte oynadılar"
+      },
+      {
+        "name": "Miralem Pjanic",
+        "info": "2003-04 sezonunda Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Juan Mata",
+        "info": "2008-10 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Dirk Kuyt",
+        "info": "2003-08 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Arda Turan",
+        "info": "2008-11 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]
