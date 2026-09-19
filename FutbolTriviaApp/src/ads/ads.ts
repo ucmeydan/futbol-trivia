@@ -10,8 +10,8 @@ const TEST_INTERSTITIAL = {
 // its REAL interstitial ad unit IDs here AND the real iosAppId in app.json
 // (react-native-google-mobile-ads plugin) before submitting to the App Store.
 const PROD_INTERSTITIAL = {
-  ios: TEST_INTERSTITIAL.ios, // TODO: real iOS interstitial unit id
-  android: TEST_INTERSTITIAL.android, // TODO: real Android interstitial unit id
+  ios: 'ca-app-pub-9343989966072677/8268188973', // Futbol Trivia — iOS interstitial
+  android: TEST_INTERSTITIAL.android, // TODO: real Android interstitial unit id (Android sonra)
 };
 
 const ids = __DEV__ ? TEST_INTERSTITIAL : PROD_INTERSTITIAL;
