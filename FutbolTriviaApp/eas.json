@@ -1,7 +1,8 @@
 {
   "cli": {
     "version": ">= 20.0.0",
-    "appVersionSource": "remote"
+    "appVersionSource": "remote",
+    "promptToConfigurePushNotifications": false
   },
   "build": {
     "development": {
@@ -32,6 +33,12 @@
   },
   "submit": {
     "production": {
+      "ios": {
+        "ascApiKeyPath": "/Users/ufukcanmeydan/Downloads/AuthKey_478Q3ZM8N9.p8",
+        "ascApiKeyId": "478Q3ZM8N9",
+        "ascApiKeyIssuerId": "eabf1f00-6600-4c93-9cc7-a7e448758a98",
+        "ascAppId": "6813849387"
+      },
       "android": {
         "track": "internal"
       }
