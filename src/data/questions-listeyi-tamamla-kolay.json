@@ -2692,5 +2692,25 @@
       "Galatasaray"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 144,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe forması giymiş Hollandalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-20",
+    "targets": [
+      "Robin van Persie",
+      "Dirk Kuyt",
+      "Jeremain Lens",
+      "Gregory van der Wiel",
+      "Jayden Oosterwolde",
+      "Vincent Janssen",
+      "Anthony Musaba",
+      "Pierre Van Hooijdonk",
+      "Nathan Ake"
+    ],
+    "difficulty": "kolay"
   }
 ]

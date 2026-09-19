@@ -3240,5 +3240,27 @@
       "İlhan Palut"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 164,
+    "game": "top10",
+    "title": "Trabzonspor formasıyla Avrupa kupalarında gol atan son 10 oyuncu? (Ön elemeler dahil)",
+    "type": "player",
+    "activeDate": "2026-09-20",
+    "targets": [
+      "Enis Destan",
+      "Denis Dragus",
+      "Cihan Çanak",
+      "Trezeguet",
+      "Jens Stryger Larsen",
+      "Anastasios Bakasetas",
+      "Enis Bardhi",
+      "Vitor Hugo",
+      "Marek Hamsik",
+      "Umut Bozok"
+
+    ],
+    "difficulty": "zor"
   }
 ]
