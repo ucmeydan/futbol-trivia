@@ -18,6 +18,7 @@
       "supportsTablet": false,
       "requireFullScreen": true,
       "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
         "NSPrivacyCollectedDataTypes": [],
         "CFBundleDisplayName": "Futbol Trivia",
         "UIRequiresFullScreen": true,
@@ -51,6 +52,20 @@
           "color": "#020617",
           "androidMode": "default",
           "androidCollapsedTitle": "Futbol Trivia"
+        }
+      ],
+      "@sentry/react-native",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511"
+        }
+      ],
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "İzin verirsen sana daha uygun reklamlar gösterebiliriz. Reddedebilirsin."
         }
       ]
     ],

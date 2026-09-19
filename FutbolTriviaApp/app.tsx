@@ -12,7 +12,13 @@ import StatsScreen from './src/screens/StatsScreen';
 import type { RootStackParamList } from './src/types/navigation';
 import { syncQuestionsInBackground } from './src/utils/questionSync';
 import { requestNotificationPermission, scheduleDailyNotification } from './src/utils/notifications';
+import { initCrashReporting } from './src/utils/crashReporting';
 import ErrorBoundary from './src/components/ErrorBoundary';
+import { ensureTrackingPermission } from './src/ads/att';
+import { maybeShowInterstitialOnGameEnd } from './src/ads/interstitial';
+
+// Uygulama render edilmeden önce bir kez başlat (DSN tanımlı değilse no-op).
+initCrashReporting();
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -105,6 +111,9 @@ function HomeTabs() {
 
 export default function App() {
   useEffect(() => {
+    // Reklam takibi izni (ATT) — açılışta, ilk açılışta pencere çıksın (Guideline 2.1)
+    ensureTrackingPermission();
+
     // Arka planda soru verilerini güncelle — UI'ı bloklamaz
     syncQuestionsInBackground();
 
@@ -142,7 +151,11 @@ export default function App() {
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="Home" component={HomeTabs} />
           <Stack.Screen name="Difficulty" component={DifficultyScreen} />
-          <Stack.Screen name="Game" component={GameScreen} />
+          <Stack.Screen
+            name="Game"
+            component={GameScreen}
+            listeners={{ blur: () => { maybeShowInterstitialOnGameEnd(); } }}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
