@@ -3384,5 +3384,24 @@
       "Milan Skriniar"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 164,
+    "game": "listeyi-tamamla",
+    "title": "Tarihinde en az bir sezon Süper Lig'de mücadele etmiş Ankara takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-09-21",
+    "targets": [
+      "Ankaragücü",
+      "Ankaraspor",
+      "Gençlerbirliği",
+      "Hacettepe",
+      "Ankara Demirspor",
+      "PTT",
+      "Petrolofisi",
+      "Osmanlıspor"
+    ],
+    "difficulty": "zor"
   }
 ]

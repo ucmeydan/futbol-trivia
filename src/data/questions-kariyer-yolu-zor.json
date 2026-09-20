@@ -5995,6 +5995,59 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 151,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-21",
+    "correctPlayer": "Festy Ebosele",
+    "career": [
+      {
+        "season": "2018-2020",
+        "team": "Derby County U18",
+        "apps": "30",
+        "goals": "3"
+      },
+      {
+        "season": "2020-2021",
+        "team": "Derby County U23",
+        "apps": "23",
+        "goals": "1"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Derby County",
+        "apps": "41",
+        "goals": "2"
+      },
+      {
+        "season": "2022–2024",
+        "team": "Udinese",
+        "apps": "50",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Watford (kiralık)",
+        "apps": "19",
+        "goals": "1"
+      },
+      {
+        "season": "2025–",
+        "team": "Başakşehir",
+        "apps": "27",
+        "goals": "1"
+      },
+      {
+        "season": "2026–",
+        "team": "Erzurumspor (kiralık)",
+        "apps": "5",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 
 

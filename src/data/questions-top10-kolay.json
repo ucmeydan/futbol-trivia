@@ -2860,6 +2860,27 @@
       "Göztepe"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 143,
+    "game": "top10",
+    "title": "EURO 2024'te milli takımımızın formasıyla en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-21",
+    "targets": [
+      "Ferdi Kadıoğlu",
+      "Barış Alper Yılmaz",
+      "Kaan Ayhan",
+      "Mert Günok",
+      "Abdülkerim Bardakcı",
+      "Hakan Çalhanoğlu",
+      "Kenan Yıldız",
+      "Mert Müldür",
+      "Arda Güler",
+      "Samet Akaydın"
+    ],
+    "difficulty": "kolay"
   }
 
 

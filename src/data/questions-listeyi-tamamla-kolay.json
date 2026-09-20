@@ -2712,5 +2712,22 @@
       "Nathan Ake"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 145,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe forması giymiş Fransız futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-21",
+    "targets": [
+      "Nicolas Anelka",
+      "N'golo Kante",
+      "Matteo Guendouzi",
+      "Mathieu Valbuena",
+      "Adil Rami",
+      "Allan Saint Maximin"
+    ],
+    "difficulty": "kolay"
   }
 ]
