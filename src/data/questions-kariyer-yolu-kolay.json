@@ -5357,6 +5357,48 @@
       
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 142,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-22",
+    "correctPlayer": "Junior Olaitan",
+    "career": [
+      {
+        "season": "2022–2023",
+        "team": "Niort",
+        "apps": "46",
+        "goals": "6"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Troyes (kiralık)",
+        "apps": "20",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Grenoble",
+        "apps": "25",
+        "goals": "4"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Göztepe",
+        "apps": "18",
+        "goals": "2"
+      },
+      {
+        "season": "2026-",
+        "team": "Beşiktaş",
+        "apps": "31",
+        "goals": "2"
+      }
+
+
+    ],
+    "difficulty": "kolay"
   }
 
 

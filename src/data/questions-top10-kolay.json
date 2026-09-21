@@ -2881,6 +2881,27 @@
       "Samet Akaydın"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 144,
+    "game": "top10",
+    "title": "Süper Lig'de son 10 sezonun asist kralları?",
+    "type": "player",
+    "activeDate": "2026-09-22",
+    "targets": [
+      "Marco Asensio",
+      "Dusan Tadic",
+      "Dries Mertens",
+      "Kerem Aktürkoğlu",
+      "Edin Visca",
+      "Rachid Ghezzal",
+      "Wesley Sneijder",
+      "Jose Sosa",
+      "Mehmet Ekici",
+      "Cicinho"
+    ],
+    "difficulty": "kolay"
   }
 
 

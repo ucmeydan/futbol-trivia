@@ -3403,5 +3403,21 @@
       "Osmanlıspor"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 165,
+    "game": "listeyi-tamamla",
+    "title": "Bogdan Stancu'nun Türkiye kariyerinde forma giydiği takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-09-22",
+    "targets": [
+      "Galatasaray",
+      "Gençlerbirliği",
+      "Orduspor",
+      "Eyüpspor",
+      "Bursaspor"
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -6048,6 +6048,46 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 152,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-22",
+    "correctPlayer": "Joe Mendes",
+    "career": [
+      {
+        "season": "2021-2022",
+        "team": "Hammarby TFF",
+        "apps": "26",
+        "goals": "4"
+      },
+      {
+        "season": "2022-2023",
+        "team": "AIK",
+        "apps": "35",
+        "goals": "1"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Braga",
+        "apps": "41",
+        "goals": "1"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Basel (kiralık)",
+        "apps": "33",
+        "goals": "1"
+      },
+      {
+        "season": "2025-",
+        "team": "Samsunspor",
+        "apps": "49",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 
