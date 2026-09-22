@@ -6088,6 +6088,58 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 153,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-23",
+    "correctPlayer": "Mehmet Nas",
+    "career": [
+      {
+        "season": "1997-2004",
+        "team": "Samsunspor",
+        "apps": "175",
+        "goals": "4"
+      },
+      {
+        "season": "2004-20209",
+        "team": "Gençlerbirliği",
+        "apps": "168",
+        "goals": "9"
+      },
+      {
+        "season": "2009–2010",
+        "team": "Manisaspor",
+        "apps": "36",
+        "goals": "1"
+      },
+      {
+        "season": "2010–2013",
+        "team": "Sivasspor",
+        "apps": "98",
+        "goals": "5"
+      },
+      {
+        "season": "2013-2014",
+        "team": "Elazığspor",
+        "apps": "28",
+        "goals": "0"
+      },
+      {
+        "season": "2014–2015",
+        "team": "Gaziantep BB",
+        "apps": "22",
+        "goals": "1"
+      },
+      {
+        "season": "2015-2016",
+        "team": "Sivas Belediye",
+        "apps": "29",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

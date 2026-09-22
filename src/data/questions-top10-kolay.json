@@ -2902,6 +2902,27 @@
       "Cicinho"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 145,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 6 haftasında en çok gol atan 10 oyuncu? (Eşitlik durumunda daha az süre sahada kalan oyuncu daha üst sırada yer almaktadır)",
+    "type": "player",
+    "activeDate": "2026-09-23",
+    "targets": [
+      "Gift Orban",
+      "Mohamed Salah",
+      "Victor Osimhen",
+      "Vedat Muriqi",
+      "Eldor Shomurodov",
+      "Dusan Vlahovic",
+      "Juan",
+      "Mason Greenwood",
+      "Jesus Ramirez",
+      "Adrian Benedyczak"
+    ],
+    "difficulty": "kolay"
   }
 
 

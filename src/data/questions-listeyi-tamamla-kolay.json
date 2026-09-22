@@ -2674,7 +2674,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 143,
     "game": "listeyi-tamamla",
@@ -2693,7 +2692,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 144,
     "game": "listeyi-tamamla",
@@ -2713,7 +2711,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 145,
     "game": "listeyi-tamamla",
@@ -2730,7 +2727,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 146,
     "game": "listeyi-tamamla",
@@ -2747,6 +2743,24 @@
       "Gençlerbirliği",
       "Ankaragücü",
       "Kocaelispor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 147,
+    "game": "listeyi-tamamla",
+    "title": "2025-26 sezonunda Şampiyonlar Ligi'nde Galatasaray formasıyla gol atan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-09-23",
+    "targets": [
+      "Victor Osimhen",
+      "Yunus Akgün",
+      "Noa Lang",
+      "Barış Alper Yılmaz",
+      "Gabriel Sara",
+      "Davinson Sanchez",
+      "Mario Lemina",
+      "Sacha Boey"
     ],
     "difficulty": "kolay"
   }

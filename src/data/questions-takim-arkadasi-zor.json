@@ -4523,5 +4523,35 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 157,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-23",
+    "correctPlayer": "Ante Rebic",
+    "teammates": [
+      {
+        "name": "Marcel Sabitzer",
+        "info": "2014-15 sezonunda Leipzig'de birlikte oynadılar"
+      },
+      {
+        "name": "Sandro Tonali",
+        "info": "2020-23 yılları arasında Milan'da birlikte oynadılar"
+      },
+      {
+        "name": "Arthur Masuaku",
+        "info": "2023-24 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Simon Kjaer",
+        "info": "2020-23 yılları arasında Milan'da birlikte oynadılar"
+      },
+      {
+        "name": "Vincent Aboubakar",
+        "info": "2023-24 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
