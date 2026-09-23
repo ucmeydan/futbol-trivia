@@ -6140,6 +6140,34 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 154,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-24",
+    "correctPlayer": "Ömer Ali Şahiner",
+    "career": [
+      {
+        "season": "2008-2012",
+        "team": "Konya Şekerspor",
+        "apps": "68",
+        "goals": "18"
+      },
+      {
+        "season": "2012–2021",
+        "team": "Konyaspor",
+        "apps": "298",
+        "goals": "36"
+      },
+      {
+        "season": "2021-",
+        "team": "Başakşehir",
+        "apps": "179",
+        "goals": "9"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

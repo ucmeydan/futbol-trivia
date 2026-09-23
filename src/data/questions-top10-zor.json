@@ -3325,5 +3325,26 @@
       "Felipe Melo"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 168,
+    "game": "top10",
+    "title": "Fenerbahçe tarihinde en çok gol atan 10 Afrikalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-24",
+    "targets": [
+      "Moussa Sow",
+      "Youssef En Nesyri",
+      "Jay Jay Okocha",
+      "Pierre Webo",
+      "Emmanuel Emenike",
+      "Samuel Johnson",
+      "Uche Okechukwu",
+      "Stephen Appiah",
+      "John Moshoeu",
+      "Aatif Chahechouhe"
+    ],
+    "difficulty": "zor"
   }
 ]

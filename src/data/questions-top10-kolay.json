@@ -1503,7 +1503,7 @@
   {
     "id": 76,
     "game": "top10",
-    "title": "Milli takımımızın formasıyla 2026 Dünya Kupası'nda en fazla süre lan 10 futbolcu? ",
+    "title": "Milli takımımızın formasıyla 2026 Dünya Kupası'nda en fazla süre alan 10 futbolcu? ",
     "type": "player",
     "activeDate": "2026-06-28",
     "targets": [
@@ -2921,6 +2921,27 @@
       "Mason Greenwood",
       "Jesus Ramirez",
       "Adrian Benedyczak"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 146,
+    "game": "top10",
+    "title": "Milli takımımızın 2026 Dünya Kupası kadrosunda yer alan en genç 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-24",
+    "targets": [
+      "Can Uzun",
+      "Arda Güler",
+      "Kenan Yıldız",
+      "Deniz Gül",
+      "Orkun Kökçü",
+      "Oğuz Aydın",
+      "Yunus Akgün",
+      "Eren Elmalı",
+      "Barış Alper Yılmaz",
+      "Ozan Kabak"
     ],
     "difficulty": "kolay"
   }
