@@ -5493,6 +5493,52 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 145,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-25",
+    "correctPlayer": "Jackson Muleka",
+    "career": [
+      {
+        "season": "2017–2020",
+        "team": "TP Mazembe",
+        "apps": "31",
+        "goals": "14"
+      },
+      {
+        "season": "2020–2022",
+        "team": "Standard Liege",
+        "apps": "54",
+        "goals": "15"
+      },
+      {
+        "season": "2022-2022",
+        "team": "Kasımpaşa (kiralık)",
+        "apps": "14",
+        "goals": "12"
+      },
+      {
+        "season": "2022–2025",
+        "team": "Beşiktaş",
+        "apps": "80",
+        "goals": "15"
+      },
+      {
+        "season": "2024–2025",
+        "team": "AL Kholood (kiralık)",
+        "apps": "30",
+        "goals": "7"
+      },
+      {
+        "season": "2025-",
+        "team": "Konyaspor",
+        "apps": "41",
+        "goals": "8"
+      }
+    ],
+    "difficulty": "kolay"
   }
 
 

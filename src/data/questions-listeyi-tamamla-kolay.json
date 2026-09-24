@@ -2784,5 +2784,20 @@
       "Çekoslovakya"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 149,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de bu sezon görevinden ayrılmış teknik direktörler? (25 Eylül itibarıyla)",
+    "type": "td",
+    "activeDate": "2026-09-25",
+    "targets": [
+     "Mirel Radoi",
+     "Fatih Tekke",
+     "Uğur Uçar",
+     "Özhan Pulat"
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -2944,6 +2944,27 @@
       "Ozan Kabak"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 147,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 6 haftasında en çok isabetli şut atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-25",
+    "targets": [
+      "Victor Osimhen",
+      "Vedat Muriqi",
+      "Mohamed Salah",
+      "Mason Greenwood",
+      "Dusan Vlahovic",
+      "Jesus Ramirez",
+      "Adrian Benedyczak",
+      "Gift Orban",
+      "Eldor Shomurodov",
+      "Ermin Mahmic"
+    ],
+    "difficulty": "kolay"
   }
 
 

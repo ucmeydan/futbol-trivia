@@ -3453,5 +3453,25 @@
       "Albert Riera"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 168,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de yer alan 5 şampiyon takımın kadrolarındaki 9 ve 10 numaralı formaları giyen oyuncular?",
+    "type": "player",
+    "activeDate": "2026-09-25",
+    "targets": [
+     "Hyeon Gyu Oh",
+     "Orkun Kökçü",
+     "Leroy Sane",
+     "Marco Asensio",
+     "Romelu Lukaku",
+     "Mohamed Salah",
+     "Franculino Dju",
+     "Edin Visca",
+     "Davie Selke"
+    ],
+    "difficulty": "zor"
   }
 ]

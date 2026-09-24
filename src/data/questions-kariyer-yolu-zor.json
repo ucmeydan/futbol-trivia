@@ -6168,6 +6168,41 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 155,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-25",
+    "correctPlayer": "Kojo Peprah Oppong",
+    "career": [
+      {
+        "season": "2023-2025",
+        "team": "Norrkoping",
+        "apps": "23",
+        "goals": "0"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Sundsvall (kiralık)",
+        "apps": "42",
+        "goals": "0"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Nice",
+        "apps": "43",
+        "goals": "1"
+      },
+      {
+        "season": "2026-",
+        "team": "Fenerbahçe",
+        "apps": "1",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 
 
