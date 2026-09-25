@@ -2799,5 +2799,21 @@
      "Özhan Pulat"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 150,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig ve 1.Lig'de mücadele eden Karadeniz bölgesi takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-09-26",
+    "targets": [
+     "Trabzonspor",
+     "Samsunspor",
+     "Rizespor",
+     "Çorum FK",
+     "Boluspor"
+    ],
+    "difficulty": "kolay"
   }
 ]

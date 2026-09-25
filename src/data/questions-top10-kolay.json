@@ -2965,6 +2965,27 @@
       "Ermin Mahmic"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 148,
+    "game": "top10",
+    "title": "Süper Lig'de veya 1.Lig'de temsilcisi bulunan en kalabalık 10 şehir?'",
+    "type": "city",
+    "activeDate": "2026-09-26",
+    "targets": [
+      "İstanbul",
+      "Ankara",
+      "İzmir",
+      "Bursa",
+      "Antalya",
+      "Konya",
+      "Gaziantep",
+      "Kocaeli",
+      "Diyarbakır",
+      "Manisa"
+    ],
+    "difficulty": "kolay"
   }
 
 

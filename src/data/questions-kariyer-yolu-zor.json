@@ -6203,6 +6203,53 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 156,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-26",
+    "correctPlayer": "Nduka Ozokwo",
+    "career": [
+      {
+        "season": "2007-2010",
+        "team": "Nice",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2010–2011",
+        "team": "Boluspor",
+        "apps": "14",
+        "goals": "0"
+      },
+      {
+        "season": "2011-2014",
+        "team": "Mersin İdman Yurdu",
+        "apps": "112",
+        "goals": "11"
+      },
+      {
+        "season": "2015-2016",
+        "team": "Adanaspor",
+        "apps": "48",
+        "goals": "8"
+      },
+      {
+        "season": "2016-2017",
+        "team": "Wil 1900",
+        "apps": "18",
+        "goals": "3"
+      },
+      {
+        "season": "2017-2020",
+        "team": "Ankaragücü",
+        "apps": "4",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 
 

@@ -4409,5 +4409,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 152,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-26",
+    "correctPlayer": "Arda Güler",
+    "teammates": [
+      {
+        "name": "Mbwana Samatta",
+        "info": "2021-22 sezonunda Fenerbahçe'de birlikte oynadılar."
+      },
+      {
+        "name": "Altay Bayındır",
+        "info": "2021-23 yılları arasında Fenerbahçe'de ve Türk Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Joselu",
+        "info": "2023-24 sezonunda Real Madrid'de birlikte oynadılar."
+      },
+      {
+        "name": "Jude Bellingham",
+        "info": "2023-26 yılları arasında Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "info": "2024-26 yılları arasında Real Madrid'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

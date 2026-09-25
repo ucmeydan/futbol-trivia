@@ -3349,7 +3349,7 @@
   },
 
   {
-    "id": 60,
+    "id": 169,
     "game": "top10",
     "title": "TFF 1. Lig'de sezonu ilk sırada tamamlayan son 10 takım?",
     "type": "team-tr",
@@ -3365,6 +3365,28 @@
       "Denizlispor",
       "Rizespor",
       "Sivasspor"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 170,
+    "game": "top10",
+    "title": "Milli takımımızın resmi maçlarda mağlup ettiği son 10 ülke?",
+    "type": "country",
+    "activeDate": "2026-09-26",
+    "targets": [
+      "Amerika Birleşik Devletleri",
+      "Kosova",
+      "Romanya",
+      "Bulgaristan",
+      "Gürcistan",
+      "Macaristan",
+      "İzlanda",
+      "Karadağ",
+      "Avusturya",
+      "Çekya"
+
     ],
     "difficulty": "zor"
   }

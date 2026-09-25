@@ -3473,5 +3473,29 @@
      "Davie Selke"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 169,
+    "game": "listeyi-tamamla",
+    "title": "Türkiye Kupası'nı teknik direktör olarak birden fazla kez kazanan isimler?",
+    "type": "td",
+    "activeDate": "2026-09-26",
+    "targets": [
+     "Fatih Terim",
+     "Şenol Güneş",
+     "Gündüz Kılıç",
+    "Ahmet Suat Özyazıcı",
+    "Aykut Kocaman",
+    "Adnan Süvari",
+    "Necdet Niş",
+    "Gordon Milne",
+    "Samet Aybaba",
+    "Jean Tigana",
+    "Mustafa Denizli",
+    "Okan Buruk"
+
+    ],
+    "difficulty": "zor"
   }
 ]
