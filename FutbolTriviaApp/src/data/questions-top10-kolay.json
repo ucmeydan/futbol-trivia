@@ -1503,7 +1503,7 @@
   {
     "id": 76,
     "game": "top10",
-    "title": "Milli takımımızın formasıyla 2026 Dünya Kupası'nda en fazla süre lan 10 futbolcu? ",
+    "title": "Milli takımımızın formasıyla 2026 Dünya Kupası'nda en fazla süre alan 10 futbolcu? ",
     "type": "player",
     "activeDate": "2026-06-28",
     "targets": [
@@ -2837,6 +2837,132 @@
       "Göztepe",
       "Alanyaspor",
       "Rizespor"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 142,
+    "game": "top10",
+    "title": "Süper Lig'de en yüksek stadyum kapasitesine sahip kulüpler?",
+    "type": "team-tr",
+    "activeDate": "2026-09-20",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Konyaspor",
+      "Trabzonspor",
+      "Kocaelispor",
+      "Samsunspor",
+      "Amed SK",
+      "Gaziantep FK",
+      "Göztepe"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 143,
+    "game": "top10",
+    "title": "EURO 2024'te milli takımımızın formasıyla en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-21",
+    "targets": [
+      "Ferdi Kadıoğlu",
+      "Barış Alper Yılmaz",
+      "Kaan Ayhan",
+      "Mert Günok",
+      "Abdülkerim Bardakcı",
+      "Hakan Çalhanoğlu",
+      "Kenan Yıldız",
+      "Mert Müldür",
+      "Arda Güler",
+      "Samet Akaydın"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 144,
+    "game": "top10",
+    "title": "Süper Lig'de son 10 sezonun asist kralları?",
+    "type": "player",
+    "activeDate": "2026-09-22",
+    "targets": [
+      "Marco Asensio",
+      "Dusan Tadic",
+      "Dries Mertens",
+      "Kerem Aktürkoğlu",
+      "Edin Visca",
+      "Rachid Ghezzal",
+      "Wesley Sneijder",
+      "Jose Sosa",
+      "Mehmet Ekici",
+      "Cicinho"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 145,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 6 haftasında en çok gol atan 10 oyuncu? (Eşitlik durumunda daha az süre sahada kalan oyuncu daha üst sırada yer almaktadır)",
+    "type": "player",
+    "activeDate": "2026-09-23",
+    "targets": [
+      "Gift Orban",
+      "Mohamed Salah",
+      "Victor Osimhen",
+      "Vedat Muriqi",
+      "Eldor Shomurodov",
+      "Dusan Vlahovic",
+      "Juan",
+      "Mason Greenwood",
+      "Jesus Ramirez",
+      "Adrian Benedyczak"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 146,
+    "game": "top10",
+    "title": "Milli takımımızın 2026 Dünya Kupası kadrosunda yer alan en genç 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-24",
+    "targets": [
+      "Can Uzun",
+      "Arda Güler",
+      "Kenan Yıldız",
+      "Deniz Gül",
+      "Orkun Kökçü",
+      "Oğuz Aydın",
+      "Yunus Akgün",
+      "Eren Elmalı",
+      "Barış Alper Yılmaz",
+      "Ozan Kabak"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 147,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 6 haftasında en çok isabetli şut atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-25",
+    "targets": [
+      "Victor Osimhen",
+      "Vedat Muriqi",
+      "Mohamed Salah",
+      "Mason Greenwood",
+      "Dusan Vlahovic",
+      "Jesus Ramirez",
+      "Adrian Benedyczak",
+      "Gift Orban",
+      "Eldor Shomurodov",
+      "Ermin Mahmic"
     ],
     "difficulty": "kolay"
   }

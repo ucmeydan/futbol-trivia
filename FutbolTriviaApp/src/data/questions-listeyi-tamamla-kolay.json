@@ -2674,7 +2674,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 143,
     "game": "listeyi-tamamla",
@@ -2690,6 +2689,114 @@
       "Porto",
       "PSV",
       "Galatasaray"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 144,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe forması giymiş Hollandalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-20",
+    "targets": [
+      "Robin van Persie",
+      "Dirk Kuyt",
+      "Jeremain Lens",
+      "Gregory van der Wiel",
+      "Jayden Oosterwolde",
+      "Vincent Janssen",
+      "Anthony Musaba",
+      "Pierre Van Hooijdonk",
+      "Nathan Ake"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 145,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe forması giymiş Fransız futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-21",
+    "targets": [
+      "Nicolas Anelka",
+      "N'golo Kante",
+      "Matteo Guendouzi",
+      "Mathieu Valbuena",
+      "Adil Rami",
+      "Allan Saint Maximin"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 146,
+    "game": "listeyi-tamamla",
+    "title": "Türkiye Kupası'nı birden fazla kez kazanan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-09-22",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Altay",
+      "Göztepe",
+      "Gençlerbirliği",
+      "Ankaragücü",
+      "Kocaelispor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 147,
+    "game": "listeyi-tamamla",
+    "title": "2025-26 sezonunda Şampiyonlar Ligi'nde Galatasaray formasıyla gol atan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-09-23",
+    "targets": [
+      "Victor Osimhen",
+      "Yunus Akgün",
+      "Noa Lang",
+      "Barış Alper Yılmaz",
+      "Gabriel Sara",
+      "Davinson Sanchez",
+      "Mario Lemina",
+      "Sacha Boey"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 148,
+    "game": "listeyi-tamamla",
+    "title": "Tarihinde Dünya Kupası finali kaybetmiş ülkeler?",
+    "type": "country",
+    "activeDate": "2026-09-24",
+    "targets": [
+      "Brezilya",
+      "Fransa",
+      "İsveç",
+      "Macaristan",
+      "Almanya",
+      "Hollanda",
+      "Arjantin",
+      "Hırvatistan",
+      "İtalya",
+      "Çekoslovakya"
+    ],
+    "difficulty": "kolay"
+  },
+
+   {
+    "id": 149,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de bu sezon görevinden ayrılmış teknik direktörler? (25 Eylül itibarıyla)",
+    "type": "td",
+    "activeDate": "2026-09-25",
+    "targets": [
+     "Mirel Radoi",
+     "Fatih Tekke",
+     "Uğur Uçar",
+     "Özhan Pulat"
     ],
     "difficulty": "kolay"
   }

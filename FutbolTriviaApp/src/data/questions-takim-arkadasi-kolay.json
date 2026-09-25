@@ -4229,5 +4229,185 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 146,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-20",
+    "correctPlayer": "Tugay Kerimoğlu",
+    "teammates": [
+      {
+        "name": "Lucas Neill",
+        "info": "2001-07 yılları arasında Blackburn'de birlikte oynadılar"
+      },
+      {
+        "name": "Andy Cole",
+        "info": "2002-04 yılları arasında Blackburn'de birlikte oynadılar"
+      },
+      {
+        "name": "Zoran Simovic",
+        "info": "1987-90 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Morten Gamst Pedersen",
+        "info": "2004-09 yılları arasında Blackburn'de birlikte oynadılar"
+      },
+      {
+        "name": "Suat Kaya",
+        "info": "1992-2000 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 147,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-21",
+    "correctPlayer": "Salih Uçan",
+    "teammates": [
+      {
+        "name": "Raul Meireles",
+        "info": "2012-14 sezonunda Fenerbahçe'de birlikte oynadılar."
+      },
+      {
+        "name": "Onur Bulut",
+        "info": "2023-25 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Demirel",
+        "info": "2012-14 yılları arasında Fenerbahçe'de birlikte oynadılar."
+      },
+      {
+        "name": "Gedson Fernandes",
+        "info": "2022-25 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Francesco Totti",
+        "info": "2014-16 yılları arasında Roma'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 148,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-22",
+    "correctPlayer": "Oğuzhan Özyakup",
+    "teammates": [
+      {
+        "name": "Orkun Kökçü",
+        "info": "2019-20 sezonunda Feyenoord'da birlikte oynadılar."
+      },
+      {
+        "name": "Robin van Persie",
+        "info": "2011-12 sezonunda Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Caner Erkin",
+        "info": "2016-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Mikel Arteta",
+        "info": "2011-12 sezonunda Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Mario Gomez",
+        "info": "2015-16 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 149,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-23",
+    "correctPlayer": "Rafael Leao",
+    "teammates": [
+      {
+        "name": "Bruno Fernandes",
+        "info": "2017-18 sezonunda Sporting'te ve Portekiz Milli takımında birlikte oynadılar."
+      },
+      {
+        "name": "Zeki Çelik",
+        "info": "2018-19 sezonunda Lille'de birlikte oynadılar"
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "info": "2019-21 yılları arasında Milan'da birlikte oynadılar"
+      },
+      {
+        "name": "İlkay Gündoğan",
+        "info": "2026-27 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Theo Hernandez",
+        "info": "2019-25 yılları arasında Milan'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 150,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-24",
+    "correctPlayer": "Gedson Fernandes",
+    "teammates": [
+      {
+        "name": "Joao Felix",
+        "info": "2018-19 sezonunda Benfica'da birlikte oynadılar."
+      },
+      {
+        "name": "Mert Günok",
+        "info": "2022-25 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Vincent Aboubakar",
+        "info": "2023-2024 yıllarında Beşiktaş'ta birlikte oynadılar."
+      },
+      {
+        "name": "Heung Min Son",
+        "info": "2020-21 sezonunda Tottenham'da birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2020-21 sezonunda Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 151,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-25",
+    "correctPlayer": "Okan Buruk",
+    "teammates": [
+      {
+        "name": "Tümer Metin",
+        "info": "2004-06 yılları arasında Beşiktaş'ta ve Türk Milli takımında birlikte oynadılar."
+      },
+      {
+        "name": "Ronaldo Nazario",
+        "info": "2001-02 sezonunda Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Daniel Pancu",
+        "info": "2004-06 yılları arasında Beşiktaş'ta birlikte oynadılar."
+      },
+      {
+        "name": "Marco Materazzi",
+        "info": "2001-04 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Claudio Taffarel",
+        "info": "1998-2001 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

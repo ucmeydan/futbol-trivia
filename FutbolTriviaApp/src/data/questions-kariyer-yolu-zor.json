@@ -5995,6 +5995,214 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 151,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-21",
+    "correctPlayer": "Festy Ebosele",
+    "career": [
+      {
+        "season": "2018-2020",
+        "team": "Derby County U18",
+        "apps": "30",
+        "goals": "3"
+      },
+      {
+        "season": "2020-2021",
+        "team": "Derby County U23",
+        "apps": "23",
+        "goals": "1"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Derby County",
+        "apps": "41",
+        "goals": "2"
+      },
+      {
+        "season": "2022–2024",
+        "team": "Udinese",
+        "apps": "50",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Watford (kiralık)",
+        "apps": "19",
+        "goals": "1"
+      },
+      {
+        "season": "2025–",
+        "team": "Başakşehir",
+        "apps": "27",
+        "goals": "1"
+      },
+      {
+        "season": "2026–",
+        "team": "Erzurumspor (kiralık)",
+        "apps": "5",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 152,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-22",
+    "correctPlayer": "Joe Mendes",
+    "career": [
+      {
+        "season": "2021-2022",
+        "team": "Hammarby TFF",
+        "apps": "26",
+        "goals": "4"
+      },
+      {
+        "season": "2022-2023",
+        "team": "AIK",
+        "apps": "35",
+        "goals": "1"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Braga",
+        "apps": "41",
+        "goals": "1"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Basel (kiralık)",
+        "apps": "33",
+        "goals": "1"
+      },
+      {
+        "season": "2025-",
+        "team": "Samsunspor",
+        "apps": "49",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 153,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-23",
+    "correctPlayer": "Mehmet Nas",
+    "career": [
+      {
+        "season": "1997-2004",
+        "team": "Samsunspor",
+        "apps": "175",
+        "goals": "4"
+      },
+      {
+        "season": "2004-20209",
+        "team": "Gençlerbirliği",
+        "apps": "168",
+        "goals": "9"
+      },
+      {
+        "season": "2009–2010",
+        "team": "Manisaspor",
+        "apps": "36",
+        "goals": "1"
+      },
+      {
+        "season": "2010–2013",
+        "team": "Sivasspor",
+        "apps": "98",
+        "goals": "5"
+      },
+      {
+        "season": "2013-2014",
+        "team": "Elazığspor",
+        "apps": "28",
+        "goals": "0"
+      },
+      {
+        "season": "2014–2015",
+        "team": "Gaziantep BB",
+        "apps": "22",
+        "goals": "1"
+      },
+      {
+        "season": "2015-2016",
+        "team": "Sivas Belediye",
+        "apps": "29",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 154,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-24",
+    "correctPlayer": "Ömer Ali Şahiner",
+    "career": [
+      {
+        "season": "2008-2012",
+        "team": "Konya Şekerspor",
+        "apps": "68",
+        "goals": "18"
+      },
+      {
+        "season": "2012–2021",
+        "team": "Konyaspor",
+        "apps": "298",
+        "goals": "36"
+      },
+      {
+        "season": "2021-",
+        "team": "Başakşehir",
+        "apps": "179",
+        "goals": "9"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 155,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-25",
+    "correctPlayer": "Kojo Peprah Oppong",
+    "career": [
+      {
+        "season": "2023-2025",
+        "team": "Norrkoping",
+        "apps": "23",
+        "goals": "0"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Sundsvall (kiralık)",
+        "apps": "42",
+        "goals": "0"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Nice",
+        "apps": "43",
+        "goals": "1"
+      },
+      {
+        "season": "2026-",
+        "team": "Fenerbahçe",
+        "apps": "1",
+        "goals": "0"
+      }
+
+    ],
+    "difficulty": "zor"
   }
 
 

@@ -3240,5 +3240,132 @@
       "İlhan Palut"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 164,
+    "game": "top10",
+    "title": "Trabzonspor formasıyla Avrupa kupalarında gol atan son 10 oyuncu? (Ön elemeler dahil)",
+    "type": "player",
+    "activeDate": "2026-09-20",
+    "targets": [
+      "Enis Destan",
+      "Denis Dragus",
+      "Cihan Çanak",
+      "Trezeguet",
+      "Jens Stryger Larsen",
+      "Anastasios Bakasetas",
+      "Enis Bardhi",
+      "Vitor Hugo",
+      "Marek Hamsik",
+      "Umut Bozok"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 165,
+    "game": "top10",
+    "title": "Ersun Yanal'ın teknik direktörlük kariyerinde en çok maça çıktığı 10 kulüp?",
+    "type": "team-tr",
+    "activeDate": "2026-09-21",
+    "targets": [
+      "Trabzonspor",
+      "Fenerbahçe",
+      "Gençlerbirliği",
+      "Eskişehirspor",
+      "Ankaragücü",
+      "Manisaspor",
+      "Antalyaspor",
+      "Denizlispor",
+      "Amed SK",
+      "Alanyaspor"
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 166,
+    "game": "top10",
+    "title": "Aykut Kocaman'ın Fenerbahçe'nin başında olduğu dönemde en fazla maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-22",
+    "targets": [
+      "Volkan Demirel",
+      "Cristian Baroni",
+      "Mehmet Topuz",
+      "Caner Erkin",
+      "Gökhan Gönül",
+      "Joseph Yobo",
+      "Miroslav Stoch",
+      "Mehmet Topal",
+      "Selçuk Şahin",
+      "Bekir İrtegün"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 167,
+    "game": "top10",
+    "title": "Wesley Sneijder'in Galatasaray kariyerinde birlikte en çok maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-23",
+    "targets": [
+      "Fernando Muslera",
+      "Selçuk İnan",
+      "Sabri Sarıoğlu",
+      "Hakan Balta",
+      "Semih Kaya",
+      "Burak Yılmaz",
+      "Umut Bulut",
+      "Aurelien Chedjou",
+      "Yasin Öztekin",
+      "Felipe Melo"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 168,
+    "game": "top10",
+    "title": "Fenerbahçe tarihinde en çok gol atan 10 Afrikalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-24",
+    "targets": [
+      "Moussa Sow",
+      "Youssef En Nesyri",
+      "Jay Jay Okocha",
+      "Pierre Webo",
+      "Emmanuel Emenike",
+      "Samuel Johnson",
+      "Uche Okechukwu",
+      "Stephen Appiah",
+      "John Moshoeu",
+      "Aatif Chahechouhe"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 60,
+    "game": "top10",
+    "title": "TFF 1. Lig'de sezonu ilk sırada tamamlayan son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-25",
+    "targets": [
+      "Erzurumspor",
+      "Kocaelispor",
+      "Eyüpspor",
+      "Samsunspor",
+      "Ankaragücü",
+      "Adana Demirspor",
+      "Hatayspor",
+      "Denizlispor",
+      "Rizespor",
+      "Sivasspor"
+    ],
+    "difficulty": "zor"
   }
 ]
