@@ -3389,5 +3389,26 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 171,
+    "game": "top10",
+    "title": "Fenerbahçe'de 10 numaralı formayı giyen son 10 futbolcu? (Hazırlık maçları dahil değil)",
+    "type": "player",
+    "activeDate": "2026-09-27",
+    "targets": [
+      "Marco Asensio",
+      "Jhon Duran",
+      "Dusan Tadic",
+      "Arda Güler",
+      "Mesut Özil",
+      "Mbwana Samatta",
+      "Max Kruse",
+      "Giuliano",
+      "Robin van Persie",
+      "Diego Ribas"
+    ],
+    "difficulty": "zor"
   }
 ]

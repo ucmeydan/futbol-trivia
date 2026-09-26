@@ -2986,6 +2986,27 @@
       "Manisa"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 149,
+    "game": "top10",
+    "title": "Süper Lig'de 2026 takvim yılında en çok gol atan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-27",
+    "targets": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Alanyaspor",
+      "Rizespor",
+      "Göztepe",
+      "Samsunspor",
+      "Konyaspor"
+    ],
+    "difficulty": "kolay"
   }
 
 

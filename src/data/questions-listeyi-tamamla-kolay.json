@@ -2815,5 +2815,19 @@
      "Boluspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 151,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde Galatasaray forması giymiş Faslı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-27",
+    "targets": [
+    "Nordin Amrabat",
+    "Hakim Ziyech",
+    "Younes Belhanda"
+    ],
+    "difficulty": "kolay"
   }
 ]
