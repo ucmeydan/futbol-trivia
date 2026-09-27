@@ -2829,5 +2829,19 @@
     "Younes Belhanda"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 152,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Dünya Kupası hem de Şampiyonlar Ligi kazanmış olup Türkiye Ligi'nde oynamış futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-28",
+    "targets": [
+    "N'golo Kante",
+    "Roberto Carlos",
+    "Juan Mata"
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -6296,6 +6296,40 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 158,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-28",
+    "correctPlayer": "Tayfun Cora",
+    "career": [
+      {
+        "season": "2002–2013",
+        "team": "Trabzonspor",
+        "apps": "151",
+        "goals": "8"
+      },
+      {
+        "season": "2006-2007",
+        "team": "Kayserispor (kiralık)",
+        "apps": "38",
+        "goals": "0"
+      },
+      {
+        "season": "2013–2014",
+        "team": "Karşıyaka",
+        "apps": "21",
+        "goals": "0"
+      },
+      {
+        "season": "2014–2014",
+        "team": "Manisaspor",
+        "apps": "6",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

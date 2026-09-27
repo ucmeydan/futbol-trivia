@@ -4469,5 +4469,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 154,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-28",
+    "correctPlayer": "Álvaro Morata",
+    "teammates": [
+      {
+        "name": "Gareth Bale",
+        "info": "2016-17 sezonunda Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Arturo Vidal",
+        "info": "2014-16 yılları arasında Juventus'da birlikte oynadılar"
+      },
+      {
+        "name": "Mauro Icardi",
+        "info": "2024-25 sezonunda Galatasaray'da birlikte oynadılar."
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2013-17 yılları arasında Real Madrid'de ve 2020-21 sezonunda Juventus'da birlikte oynadılar"
+      },
+      {
+        "name": "Nico Paz",
+        "info": "2025-26 sezonunda Como'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

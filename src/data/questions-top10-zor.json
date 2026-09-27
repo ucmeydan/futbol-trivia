@@ -3410,5 +3410,27 @@
       "Diego Ribas"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 172,
+    "game": "top10",
+    "title": "İngiltere Premier Lig tarihinde en fazla maça çıkan 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-28",
+    "targets": [
+      "Muzzy İzzet",
+      "Tugay Kerimoğlu",
+      "Tuncay Şanlı",
+      "Çağlar Söyüncü",
+      "Alpay Özalan",
+      "Emre Belözoğlu",
+      "Enes Ünal",
+      "Cenk Tosun",
+      "Ferdi Kadıoğlu",
+      "Colin Kazım Richards"
+
+    ],
+    "difficulty": "zor"
   }
 ]

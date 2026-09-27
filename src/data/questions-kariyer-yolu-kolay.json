@@ -5462,5 +5462,79 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 148,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-28",
+    "correctPlayer": "Domagoj Vida",
+    "career": [
+      {
+        "season": "2006–2010",
+        "team": "Osijek",
+        "apps": "90",
+        "goals": "6"
+      },
+      {
+        "season": "2010–2011",
+        "team": "Leverkusen",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2011-2013",
+        "team": "Dinamo Zagreb",
+        "apps": "68",
+        "goals": "8"
+      },
+      {
+        "season": "2013–2018",
+        "team": "Dinamo Kiev",
+        "apps": "160",
+        "goals": "13"
+      },
+      {
+        "season": "2018-2022",
+        "team": "Beşiktaş",
+        "apps": "165",
+        "goals": "16"
+      },
+      {
+        "season": "2022-",
+        "team": "AEK",
+        "apps": "125",
+        "goals": "10"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 149,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-29",
+    "correctPlayer": "Christ Inao Oulai",
+    "career": [
+      {
+        "season": "2024–2025",
+        "team": "Bastia",
+        "apps": "18",
+        "goals": "1"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Trabzonspor",
+        "apps": "31",
+        "goals": "2"
+      },
+      {
+        "season": "2026-",
+        "team": "Fiorentina",
+        "apps": "5",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

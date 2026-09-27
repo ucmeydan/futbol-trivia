@@ -3514,7 +3514,7 @@
     "game": "listeyi-tamamla",
     "title": "Kariyerinde Galatasaray forması giymiş Portekizli futbolcular?",
     "type": "player",
-    "activeDate": "2026-09-27",
+    "activeDate": "2026-09-28",
     "targets": [
       "Abel Xavier",
       "Rafael Leao",
@@ -3523,6 +3523,26 @@
       "Bruma",
       "Fernando Meira",
       "Sergio Oliveira"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 172,
+    "game": "listeyi-tamamla",
+    "title": "3 büyük takımın herhangi birinde oynamış İtalyan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-29",
+    "targets": [
+      "Morgan De Sanctis",
+      "Nicolo Zaniolo",
+      "Joao Pedro",
+      "Leonardo Bonucci",
+      "Fabio Miretti",
+      "Federico Giunti",
+      "Cher Ndour",
+      "Ciro Immobile",
+      "Matteo Ferrari"
     ],
     "difficulty": "zor"
   }

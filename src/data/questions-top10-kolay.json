@@ -3007,6 +3007,27 @@
       "Konyaspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 150,
+    "game": "top10",
+    "title": "Türkiye Kupası tarihinde en çok maç kazanan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-28",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Bursaspor",
+      "Ankaragücü",
+      "Gençlerbirliği",
+      "Eskişehirspor",
+      "Konyaspor",
+      "Antalyaspor"
+    ],
+    "difficulty": "kolay"
   }
 
 
