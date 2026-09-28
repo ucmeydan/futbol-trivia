@@ -3432,5 +3432,26 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 173,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla asist yapan 10 yabancı oyuncu?",
+    "type": "player",
+    "activeDate": "2026-09-29",
+    "targets": [
+      "Edin Visca",
+      "Alex De Souza",
+      "Ibrahim Yattara",
+      "Pablo Batalla",
+      "Tita",
+      "Wederson",
+      "Cevad Prekazi",
+      "Rodrigo Tello",
+      "Ricardo Quaresma",
+      "Haris Hajradinovic"
+    ],
+    "difficulty": "zor"
   }
 ]

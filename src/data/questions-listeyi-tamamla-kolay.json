@@ -2843,5 +2843,25 @@
     "Juan Mata"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 153,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın 2025-26 sezonunda Avrupa kupalarında karşılaştığı takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-09-29",
+    "targets": [
+      "Liverpool",
+      "Manchester City",
+      "Union SG",
+      "Ajax",
+      "Frankfurt",
+      "Bodo Glimt",
+      "Atletico Madrid",
+      "Monaco",
+      "Juventus"
+    ],
+    "difficulty": "kolay"
   }
 ]

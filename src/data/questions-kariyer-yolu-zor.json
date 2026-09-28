@@ -6330,6 +6330,46 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 159,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-29",
+    "correctPlayer": "Kenan Hasagic",
+    "career": [
+      {
+        "season": "1998-1999",
+        "team": "Worwarts",
+        "apps": "21",
+        "goals": "0"
+      },
+      {
+        "season": "1999-2001",
+        "team": "Altay",
+        "apps": "42",
+        "goals": "0"
+      },
+      {
+        "season": "2001–2004",
+        "team": "Zeljeznicar",
+        "apps": "55",
+        "goals": "0"
+      },
+      {
+        "season": "2004–2007",
+        "team": "Gaziantepspor",
+        "apps": "76",
+        "goals": "0"
+      },
+      {
+        "season": "2007–2012",
+        "team": "İBB",
+        "apps": "84",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 
