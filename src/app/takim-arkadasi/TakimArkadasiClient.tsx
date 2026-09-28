@@ -312,12 +312,12 @@ export default function TakimArkadasiClient({ difficulty }: { difficulty: 'kolay
   }
 
   return (
-    <div className="max-w-md mx-auto min-h-screen flex flex-col p-4 text-white bg-slate-950 font-sans relative overflow-y-auto overflow-x-hidden">
+    <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans relative overflow-y-auto overflow-x-hidden">
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} />}
 
       <div className="flex flex-col items-center mb-8">
         <div className="w-full flex justify-between items-center mb-4">
-          <Link href="/takim-arkadasi" className="text-slate-500 font-medium text-xs hover:text-white transition-colors">← Geri dön</Link>
+          <Link href="/takim-arkadasi" className="text-slate-400 font-semibold text-sm hover:text-white transition-colors py-2 pr-3 -ml-1">← Geri dön</Link>
           <div className="flex items-center gap-3">
             <button
               onClick={() => loadQuestion(currentIndex - 1, gameQuestions)}

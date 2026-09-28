@@ -122,6 +122,18 @@ body {
 }
 
 /* ============================================================
+   OYUN CONTAINER — iOS safe-area desteği
+   PWA standalone modunda status bar içeriğin üzerine binmesini önler.
+   ============================================================ */
+
+.game-container {
+  padding-top: max(1rem, env(safe-area-inset-top));
+  padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+  padding-left: max(1rem, env(safe-area-inset-left));
+  padding-right: max(1rem, env(safe-area-inset-right));
+}
+
+/* ============================================================
    KAYDIRMA ÇUBUĞU (SCROLLBAR)
    ============================================================ */
 

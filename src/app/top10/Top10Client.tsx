@@ -353,7 +353,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
   const correctRate = Math.round((stats.totalCorrect / (stats.totalGames * 10 || 1)) * 100);
 
   return (
-    <div className="max-w-md mx-auto min-h-screen flex flex-col p-3 text-white bg-slate-950 relative overflow-y-auto">
+    <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 relative overflow-y-auto">
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} numberOfPieces={300} style={{ zIndex: 150 }} />}
 
       {showBigX && (
@@ -364,7 +364,7 @@ export default function Top10Client({ difficulty }: { difficulty: 'kolay' | 'zor
 
       {/* Üst bar */}
       <div className="flex justify-between items-start mb-2 relative z-10">
-        <Link href="/top10" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1">← Geri Dön</Link>
+        <Link href="/top10" className="text-slate-400 font-semibold text-sm hover:text-white transition-colors py-2 pr-3 -ml-1">← Geri Dön</Link>
         <div className="flex flex-col items-end">
           <div className="flex gap-1 mb-1" aria-label={`${lives} can kaldı`}>
             {[...Array(3)].map((_, i) => (

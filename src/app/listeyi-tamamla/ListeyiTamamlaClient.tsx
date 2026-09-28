@@ -292,22 +292,22 @@ export default function ListeyiTamamlaClient({ difficulty }: { difficulty: 'kola
   const offset = circumference - (timeLeft / 90) * circumference;
 
   return (
-    <div className="max-w-md mx-auto min-h-screen flex flex-col p-4 text-white bg-slate-950 relative overflow-y-auto">
+    <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 relative overflow-y-auto">
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} />}
 
       {/* Üst bar */}
       <div className="flex justify-between items-center mb-4 relative z-10">
-        <Link href="/listeyi-tamamla" className="text-slate-500 font-bold text-xs hover:text-white transition-colors">← Geri Dön</Link>
+        <Link href="/listeyi-tamamla" className="text-slate-400 font-semibold text-sm hover:text-white transition-colors py-2 pr-3 -ml-1">← Geri Dön</Link>
         {!isGameOver && isActive && (
           <button
             onClick={() => giveUpConfirm
               ? finishGame(false)
               : (setGiveUpConfirm(true), setTimeout(() => setGiveUpConfirm(false), 3000))
             }
-            className={`text-xs font-bold px-3 py-1.5 rounded-lg border transition-all ${
+            className={`text-sm font-bold px-4 py-2 rounded-xl border transition-all ${
               giveUpConfirm
                 ? 'bg-red-600 border-red-600 text-white animate-pulse'
-                : 'text-red-600 border-red-900/30 hover:border-red-600/50'
+                : 'text-red-500 border-red-900/40 hover:border-red-600/60'
             }`}
           >
             {giveUpConfirm ? 'Emin misin?' : 'Pes Et'}

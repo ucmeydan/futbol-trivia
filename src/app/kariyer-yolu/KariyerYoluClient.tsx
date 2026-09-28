@@ -263,11 +263,11 @@ export default function KariyerYoluClient({ difficulty }: { difficulty: 'kolay' 
   }
 
   return (
-    <div className="max-w-md mx-auto min-h-screen flex flex-col p-4 text-white bg-slate-950 font-sans relative overflow-x-hidden">
+    <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans relative overflow-x-hidden">
       {isWin && <Confetti width={windowDimension.width} height={windowDimension.height} recycle={false} numberOfPieces={400} style={{ zIndex: 150 }} />}
 
       <div className="flex justify-between items-start mb-6 relative z-10">
-        <Link href="/kariyer-yolu" className="text-slate-500 font-bold text-xs hover:text-white transition-colors pt-1">← Geri Dön</Link>
+        <Link href="/kariyer-yolu" className="text-slate-400 font-semibold text-sm hover:text-white transition-colors py-2 pr-3 -ml-1">← Geri Dön</Link>
       </div>
 
       <div className="text-center mb-16 relative z-10">
