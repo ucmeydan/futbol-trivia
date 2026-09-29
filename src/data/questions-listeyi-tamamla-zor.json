@@ -3545,5 +3545,24 @@
       "Matteo Ferrari"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 173,
+    "game": "top10",
+    "title": "Süper Lig tarihinde 110 ve üzeri sayıda maça çıkan İskandinav futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-30",
+    "targets": [
+      "Erkan Zengin",
+      "Samuel Holmen",
+      "Jimmy Durmaz",
+      "Abdul Khalili",
+      "Jonas Svensson",
+      "Victor Nelsson",
+      "Sam Larsson"
+      
+    ],
+    "difficulty": "zor"
   }
 ]

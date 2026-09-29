@@ -3049,6 +3049,29 @@
       "Colin Kazım Richards"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 152,
+    "game": "top10",
+    "title": "Mevcut Süper Lig teknik direktörleri arasında Süper Lig tarihinde en fazla galibiyet alan teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-09-30",
+    "targets": [
+      "Okan Buruk",
+      "İsmail Kartal",
+      "İlhan Palut",
+      "Emre Belözoğlu",
+      "Nuri Şahin",
+      "Recep Uçar",
+      "Selçuk İnan",
+      "Thomas Reis",
+      "Stanimir Stoilov",
+      "Burak Yılmaz"
+      
+
+    ],
+    "difficulty": "kolay"
   }
 
 

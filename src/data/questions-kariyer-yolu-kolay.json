@@ -5536,5 +5536,45 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 150,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-30",
+    "correctPlayer": "Emirhan Topçu",
+    "career": [
+      {
+        "season": "2017–2017",
+        "team": "Rizespor U21",
+        "apps": "13",
+        "goals": "1"
+      },
+      {
+        "season": "2017–2024",
+        "team": "Rizespor",
+        "apps": "89",
+        "goals": "2"
+      },
+      {
+        "season": "2020-2020",
+        "team": "Celik Zenica (kiralık)",
+        "apps": " ",
+        "goals": "0"
+      },
+      {
+        "season": "2021–2021",
+        "team": "Menemenspor (kiralık)",
+        "apps": "15",
+        "goals": "0"
+      },
+      {
+        "season": "2024-",
+        "team": "Beşiktaş",
+        "apps": "79",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

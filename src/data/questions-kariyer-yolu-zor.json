@@ -6370,6 +6370,34 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 160,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-30",
+    "correctPlayer": "Bünyamin Balcı",
+    "career": [
+      {
+        "season": "2016-2017",
+        "team": "Antalyaspor U19",
+        "apps": "15",
+        "goals": "1"
+      },
+      {
+        "season": "2017–2019",
+        "team": "Antalyaspor U21",
+        "apps": "25",
+        "goals": "3"
+      },
+      {
+        "season": "2019-",
+        "team": "Antalyaspor",
+        "apps": "229",
+        "goals": "6"
+      }
+    ],
+    "difficulty": "zor"
   }
 
 

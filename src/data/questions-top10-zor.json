@@ -3453,5 +3453,28 @@
       "Haris Hajradinovic"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 174,
+    "game": "top10",
+    "title": "Süper Lig'in mevcut kadrolarında en çok yabancı oyuncuyla temsil edilen ülkeler?",
+    "type": "country",
+    "activeDate": "2026-09-30",
+    "targets": [
+      "Portekiz",
+      "Fildişi Sahili",
+      "Fransa",
+      "Brezilya",
+      "Almanya",
+      "Nijerya",
+      "Mali",
+      "Senegal",
+      "Romanya",
+      "Kosova"
+    ],
+    "difficulty": "zor"
   }
+
+
 ]
