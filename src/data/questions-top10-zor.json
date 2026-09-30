@@ -3474,6 +3474,27 @@
       "Kosova"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 175,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla maça çıkan 10 Kamerunlu futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-01",
+    "targets": [
+      "Alioum Saidou",
+      "Pierre Webo",
+      "Dany Nounkeu",
+      "Rigobert Song",
+      "Armand Deumi",
+      "Herve Tum",
+      "Olivier Kemen",
+      "Jean-Armel Kana-Biyik",
+      "Gustave Bebbe",
+      "Vincent Aboubakar"
+    ],
+    "difficulty": "zor"
   }
 
 

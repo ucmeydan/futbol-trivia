@@ -986,7 +986,7 @@
   {
     "id": 40,
     "game": "listeyi-tamamla",
-    "title": "2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
+    "title": "Transfermarkt verilerine göre 2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-05-02",
     "targets": [
@@ -1875,7 +1875,7 @@
   {
     "id": 90,
     "game": "top10",
-    "title": "2021 yılındaki piyasa değeri 10M€ ücerindeki Türk futbolcular?",
+    "title": "Transfermarkt verilerine göre 2021 yılındaki piyasa değeri 10M€ ücerindeki Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-06-24",
     "targets": [
@@ -2483,7 +2483,7 @@
   {
     "id": 121,
     "game": "listeyi-tamamla",
-    "title": "2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
+    "title": "Transfermarkt verilerine göre 2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-07-28",
     "targets": [
@@ -3098,7 +3098,7 @@
   {
     "id": 149,
     "game": "listeyi-tamamla",
-    "title": "Süper Lig tarihinde 50 ve üzeri sayıda asist yapan yabancı oyuncular? (Sonradan Türk vatandaşı olanlar dahil)",
+    "title": "Transfermarkt verilerine göre Süper Lig tarihinde 50 ve üzeri sayıda asist yapan yabancı oyuncular? (Sonradan Türk vatandaşı olanlar dahil)",
     "type": "player",
     "activeDate": "2026-09-05",
     "targets": [
@@ -3549,7 +3549,7 @@
 
   {
     "id": 173,
-    "game": "top10",
+    "game": "listeyi-tamamla",
     "title": "Süper Lig tarihinde 110 ve üzeri sayıda maça çıkan İskandinav futbolcular?",
     "type": "player",
     "activeDate": "2026-09-30",
@@ -3562,6 +3562,22 @@
       "Victor Nelsson",
       "Sam Larsson"
       
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 174,
+    "game": "listeyi-tamamla",
+    "title": "Hull City'de forma giymiş Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-01",
+    "targets": [
+      "Enis Destan",
+      "Abdulkadir Ömür",
+      "Bora Aydınlık",
+      "Ozan Tufan",
+      "Doğukan Sinik"
     ],
     "difficulty": "zor"
   }

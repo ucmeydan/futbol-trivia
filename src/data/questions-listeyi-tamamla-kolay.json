@@ -2879,5 +2879,23 @@
       "Jose Sosa"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 155,
+    "game": "listeyi-tamamla",
+    "title": "Fatih Terim'in Milli takımı yönettiği dönemde 40 ve üzeri sayıda Milli maça çıkan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-01",
+    "targets": [
+      "Tuncay Şanlı",
+      "Arda Turan",
+      "Gökhan Gönül",
+      "Mehmet Topal",
+      "Hamit Altıntop",
+      "Volkan Demirel",
+      "Hakan Balta"
+    ],
+    "difficulty": "kolay"
   }
 ]

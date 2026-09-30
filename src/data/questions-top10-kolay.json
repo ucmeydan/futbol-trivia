@@ -2460,8 +2460,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 124,
     "game": "top10",
     "title": "Süper Lig'de piyasa değeri en yüksek 10 kaleci? (31 Ağustos itibarıyla)",
@@ -2478,11 +2477,9 @@
       "Alban Lafont",
       "Okan Kocuk",
       "Bilal Bayazıt"
-    
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 125,
     "game": "top10",
@@ -2500,11 +2497,9 @@
       "Yusuf Akçiçek",
       "Elvir Baljic",
       "Tammy Abraham"
-    
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 126,
     "game": "top10",
@@ -2525,8 +2520,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 127,
     "game": "top10",
     "title": "2022-23 sezonundan bu yana Süper Lig'de en fazla puan toplayan 10 takım?",
@@ -2546,7 +2540,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 128,
     "game": "top10",
@@ -2567,8 +2560,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 129,
     "game": "top10",
     "title": "Süper Lig'de 2025-26 sezonunda en yüksek averaja sahip 10 takım?",
@@ -2588,7 +2580,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 130,
     "game": "top10",
@@ -2609,8 +2600,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 131,
     "game": "top10",
     "title": "Caner Erkin'in kariyeri boyunca birlikte en fazla maça çıktığı 10 futbolcu?",
@@ -2630,7 +2620,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 132,
     "game": "top10",
@@ -2651,7 +2640,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 133,
     "game": "top10",
@@ -2672,7 +2660,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 134,
     "game": "top10",
@@ -2693,7 +2680,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 135,
     "game": "top10",
@@ -2701,21 +2687,20 @@
     "type": "player",
     "activeDate": "2026-09-13",
     "targets": [
-     "Barış Alper Yılmaz",
-     "Orkun Kökçü",
-     "Kerem Aktürkoğlu",
-     "Yunus Akgün",
-     "İsmail Yüksek",
-     "Uğurcan Çakır",
-     "Semih Kılıçsoy",
-     "Aral Şimşir",
-     "Arda Okan Kurtulan",
-     "Bertuğ Yıldırım"
+      "Barış Alper Yılmaz",
+      "Orkun Kökçü",
+      "Kerem Aktürkoğlu",
+      "Yunus Akgün",
+      "İsmail Yüksek",
+      "Uğurcan Çakır",
+      "Semih Kılıçsoy",
+      "Aral Şimşir",
+      "Arda Okan Kurtulan",
+      "Bertuğ Yıldırım"
     ],
     "difficulty": "kolay"
   },
-
-    {
+  {
     "id": 136,
     "game": "top10",
     "title": "Vincenzo Montella'nın teknik direktörlüğünde milli takımımızın formasıyla en fazla maça çıkan 10 futbolcu?",
@@ -2735,7 +2720,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 137,
     "game": "top10",
@@ -2756,7 +2740,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 138,
     "game": "top10",
@@ -2777,7 +2760,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 139,
     "game": "top10",
@@ -2798,7 +2780,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 140,
     "game": "top10",
@@ -2819,7 +2800,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 141,
     "game": "top10",
@@ -2840,7 +2820,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 142,
     "game": "top10",
@@ -2861,7 +2840,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 143,
     "game": "top10",
@@ -2882,7 +2860,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 144,
     "game": "top10",
@@ -2903,7 +2880,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 145,
     "game": "top10",
@@ -2924,7 +2900,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 146,
     "game": "top10",
@@ -2945,7 +2920,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 147,
     "game": "top10",
@@ -2966,7 +2940,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 148,
     "game": "top10",
@@ -2987,7 +2960,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 149,
     "game": "top10",
@@ -3008,7 +2980,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 150,
     "game": "top10",
@@ -3029,7 +3000,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 151,
     "game": "top10",
@@ -3050,7 +3020,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 152,
     "game": "top10",
@@ -3068,17 +3037,14 @@
       "Thomas Reis",
       "Stanimir Stoilov",
       "Burak Yılmaz"
-      
-
     ],
     "difficulty": "kolay"
   },
-
   {
-    "id": 152,
+    "id": 153,
     "game": "top10",
     "title": "Süper Lig'de 2026-27 sezonunun ilk 6 haftasında yerli oyunculara en fazla süre veren kulüpler?",
-    "type": "td",
+    "type": "team-tr",
     "activeDate": "2026-10-01",
     "targets": [
       "Konyaspor",
@@ -3091,17 +3057,14 @@
       "Beşiktaş",
       "Kocaelispor",
       "Gençlerbirliği"
-      
-
     ],
     "difficulty": "kolay"
   },
-
   {
-    "id": 153,
+    "id": 154,
     "game": "top10",
     "title": "Süper Lig'de 2026-27 sezonunun ilk 6 haftasında süre alan oyuncuları en düşük yaş ortalamasına sahip 10 kulüp?",
-    "type": "td",
+    "type": "team-tr",
     "activeDate": "2026-10-02",
     "targets": [
       "Göztepe",
@@ -3114,23 +3077,7 @@
       "Gençlerbirliği",
       "Alanyaspor",
       "Gaziantep FK"
-      
-
     ],
     "difficulty": "kolay"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
