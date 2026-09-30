@@ -220,7 +220,7 @@
   {
     "id": 12,
     "game": "listeyi-tamamla",
-    "title": "Transfermarkt verilerine göre piyasa değeri 20M€'nun üzerinde olan Türk futbolcular?",
+    "title": "Piyasa değeri 20M€'nun üzerinde olan Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-04-22",
     "targets": [
@@ -408,7 +408,7 @@
   {
     "id": 22,
     "game": "listeyi-tamamla",
-    "title": "Transfermarkt verilerine göre Süper Lig'de güncel piyasa değeri 6M€ ve üzerinde olan Türk futbolcular?",
+    "title": "Süper Lig'de güncel piyasa değeri 6M€ ve üzerinde olan Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-05-02",
     "targets": [
@@ -523,7 +523,7 @@
   {
     "id": 28,
     "game": "listeyi-tamamla",
-    "title": "Sofascore verilerine göre bu sezon Süper ligde en az 7 asist yapan futbolcular",
+    "title": "Bu sezon Süper ligde en az 7 asist yapan futbolcular",
     "type": "player",
     "activeDate": "2026-05-08",
     "targets": [
@@ -542,7 +542,7 @@
   {
     "id": 29,
     "game": "listeyi-tamamla",
-    "title": "Transfermarkt verilerine göre Süper Ligde piyasa değeri 10M€ ve üzerinde olan savunma oyuncuları?",
+    "title": "Süper Ligde piyasa değeri 10M€ ve üzerinde olan savunma oyuncuları?",
     "type": "player",
     "activeDate": "2026-05-09",
     "targets": [
@@ -2287,7 +2287,7 @@
   {
     "id": 122,
     "game": "listeyi-tamamla",
-    "title": "Transfermarkt verilerine göre piyasa değeri 20M€ ve üzerinde olan Türk futbolcular?",
+    "title": "Piyasa değeri 20M€ ve üzerinde olan Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-08-25",
     "targets": [

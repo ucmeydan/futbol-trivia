@@ -243,7 +243,7 @@
   {
     "id": 13,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig'de güncel piyasa değeri en yüksek 10 futbolcu?",
+    "title": "Süper Lig'de güncel piyasa değeri en yüksek 10 futbolcu?",
     "type": "player",
     "activeDate": "2026-04-23",
     "targets": [
@@ -583,7 +583,7 @@
   {
     "id": 30,
     "game": "top10",
-    "title": "Transfermarkt güncel piyasa değerlerine göre Süper Lig'in en değerli 10 takımı?",
+    "title": "Güncel piyasa değerlerine göre Süper Lig'in en değerli 10 takımı?",
     "type": "team-tr",
     "activeDate": "2026-05-10",
     "targets": [
@@ -883,7 +883,7 @@
   {
     "id": 45,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig kulüplerinin 2025/26 sezonunda en yüksek bonservisli oyuncu satışları?",
+    "title": "Süper Lig kulüplerinin 2025/26 sezonunda en yüksek bonservisli oyuncu satışları?",
     "type": "player",
     "activeDate": "2026-05-25",
     "targets": [
@@ -903,7 +903,7 @@
   {
     "id": 46,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre 2025/26 sezonunda transferde bonservise en çok para ödeyen Süper Lig kulüpleri?",
+    "title": "2025/26 sezonunda transferde bonservise en çok para ödeyen Süper Lig kulüpleri?",
     "type": "team-tr",
     "activeDate": "2026-05-26",
     "targets": [
@@ -1003,7 +1003,7 @@
   {
     "id": 51,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig'in son 10 asist kralı?",
+    "title": "Süper Lig'in son 10 asist kralı?",
     "type": "player",
     "activeDate": "2026-05-31",
     "targets": [
@@ -1043,7 +1043,7 @@
   {
     "id": 53,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Milli takımımızın güncel kadrosundaki piyasa değeri en yüksek 10 futbolcu?",
+    "title": "Milli takımımızın güncel kadrosundaki piyasa değeri en yüksek 10 futbolcu?",
     "type": "player",
     "activeDate": "2026-06-02",
     "targets": [
@@ -1063,7 +1063,7 @@
   {
     "id": 54,
     "game": "top10",
-    "title": "Süper Lig'de güncellemeler sonrası Transfermarkt piyasa değeri en yüksek 10 futbolcu?",
+    "title": "Süper Lig'de güncellemeler sonrası piyasa değeri en yüksek 10 futbolcu?",
     "type": "player",
     "activeDate": "2026-06-03",
     "targets": [
@@ -1263,7 +1263,7 @@
   {
     "id": 64,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig'de oynayıp Dünya Kupası'na katılan en değerli 10 futbolcu?",
+    "title": "Süper Lig'de oynayıp Dünya Kupası'na katılan en değerli 10 futbolcu?",
     "type": "player",
     "activeDate": "2026-06-13",
     "targets": [
@@ -1563,7 +1563,7 @@
   {
     "id": 79,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig'de güncel piyasa değeri en yüksek 10 stoper?",
+    "title": "Süper Lig'de güncel piyasa değeri en yüksek 10 stoper?",
     "type": "player",
     "activeDate": "2026-07-01",
     "targets": [
@@ -1583,7 +1583,7 @@
   {
     "id": 80,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig'de güncel piyasa değeri en yüksek 10 takım?",
+    "title": "Süper Lig'de güncel piyasa değeri en yüksek 10 takım?",
     "type": "team-tr",
     "activeDate": "2026-07-02",
     "targets": [
@@ -1683,7 +1683,7 @@
   {
     "id": 85,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig'in piyasa değeri en yüksek 10 orta saha oyuncusu?",
+    "title": "Süper Lig'in piyasa değeri en yüksek 10 orta saha oyuncusu?",
     "type": "player",
     "activeDate": "2026-07-09",
     "targets": [
@@ -1783,7 +1783,7 @@
   {
     "id": 90,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Beşiktaş'ın mevcut kadrosundaki piyasa değeri en yüksek 10 oyuncu?",
+    "title": "Beşiktaş'ın mevcut kadrosundaki piyasa değeri en yüksek 10 oyuncu?",
     "type": "player",
     "activeDate": "2026-07-14",
     "targets": [
@@ -1923,7 +1923,7 @@
   {
     "id": 97,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig'in en değerli 10 oyuncusu? (24 Temmuz itibarıyla)",
+    "title": "Süper Lig'in en değerli 10 oyuncusu? (24 Temmuz itibarıyla)",
     "type": "player",
     "activeDate": "2026-07-25",
     "targets": [
@@ -1943,7 +1943,7 @@
   {
     "id": 98,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig'in en değerli 10 takımı? (25 Temmuz itibarıyla)",
+    "title": "Süper Lig'in en değerli 10 takımı? (25 Temmuz itibarıyla)",
     "type": "team-tr",
     "activeDate": "2026-07-26",
     "targets": [
@@ -2183,7 +2183,7 @@
   {
     "id": 110,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig kulüplerinin 2025/26 sezonunda en yüksek bonservisli oyuncu satışları?",
+    "title": "Süper Lig kulüplerinin 2025/26 sezonunda en yüksek bonservisli oyuncu satışları?",
     "type": "player",
     "activeDate": "2026-08-13",
     "targets": [
@@ -2423,7 +2423,7 @@
   {
     "id": 122,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig'de piyasa değeri en yüksek 10 santrfor? (28 Ağustos itibarıyla)",
+    "title": "Süper Lig'de piyasa değeri en yüksek 10 santrfor? (28 Ağustos itibarıyla)",
     "type": "player",
     "activeDate": "2026-08-29",
     "targets": [
@@ -2464,7 +2464,7 @@
    {
     "id": 124,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig'de piyasa değeri en yüksek 10 kaleci? (31 Ağustos itibarıyla)",
+    "title": "Süper Lig'de piyasa değeri en yüksek 10 kaleci? (31 Ağustos itibarıyla)",
     "type": "player",
     "activeDate": "2026-09-01",
     "targets": [
@@ -2486,7 +2486,7 @@
   {
     "id": 125,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre Süper Lig tarihinin en pahalı 10 oyuncu satışı?",
+    "title": "Süper Lig tarihinin en pahalı 10 oyuncu satışı?",
     "type": "player",
     "activeDate": "2026-09-02",
     "targets": [
@@ -2963,6 +2963,159 @@
       "Gift Orban",
       "Eldor Shomurodov",
       "Ermin Mahmic"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 148,
+    "game": "top10",
+    "title": "Süper Lig'de veya 1.Lig'de temsilcisi bulunan en kalabalık 10 şehir?'",
+    "type": "city",
+    "activeDate": "2026-09-26",
+    "targets": [
+      "İstanbul",
+      "Ankara",
+      "İzmir",
+      "Bursa",
+      "Antalya",
+      "Konya",
+      "Gaziantep",
+      "Kocaeli",
+      "Diyarbakır",
+      "Manisa"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 149,
+    "game": "top10",
+    "title": "Süper Lig'de 2026 takvim yılında en çok gol atan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-27",
+    "targets": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Alanyaspor",
+      "Rizespor",
+      "Göztepe",
+      "Samsunspor",
+      "Konyaspor"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 150,
+    "game": "top10",
+    "title": "Türkiye Kupası tarihinde en çok maç kazanan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-09-28",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Bursaspor",
+      "Ankaragücü",
+      "Gençlerbirliği",
+      "Eskişehirspor",
+      "Konyaspor",
+      "Antalyaspor"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 151,
+    "game": "top10",
+    "title": "Kariyerinde hem Fenerbahçe hem de Galatasaray'da forma giyen oyuncular arasında bu iki takımda toplamda en çok maça çıkan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-09-29",
+    "targets": [
+      "Mehmet Topal",
+      "Caner Erkin",
+      "Emre Belözoğlu",
+      "Kerem Aktürkoğlu",
+      "Servet Çetin",
+      "Serdar Aziz",
+      "Burak Yılmaz",
+      "Stjepan Tomas",
+      "Emre Aşık",
+      "Colin Kazım Richards"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 152,
+    "game": "top10",
+    "title": "Mevcut Süper Lig teknik direktörleri arasında Süper Lig tarihinde en fazla galibiyet alan teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-09-30",
+    "targets": [
+      "Okan Buruk",
+      "İsmail Kartal",
+      "İlhan Palut",
+      "Emre Belözoğlu",
+      "Nuri Şahin",
+      "Recep Uçar",
+      "Selçuk İnan",
+      "Thomas Reis",
+      "Stanimir Stoilov",
+      "Burak Yılmaz"
+      
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 152,
+    "game": "top10",
+    "title": "Süper Lig'de 2026-27 sezonunun ilk 6 haftasında yerli oyunculara en fazla süre veren kulüpler?",
+    "type": "td",
+    "activeDate": "2026-10-01",
+    "targets": [
+      "Konyaspor",
+      "Samsunspor",
+      "Başakşehir",
+      "Erzurumspor",
+      "Galatasaray",
+      "Göztepe",
+      "Rizespor",
+      "Beşiktaş",
+      "Kocaelispor",
+      "Gençlerbirliği"
+      
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 153,
+    "game": "top10",
+    "title": "Süper Lig'de 2026-27 sezonunun ilk 6 haftasında süre alan oyuncuları en düşük yaş ortalamasına sahip 10 kulüp?",
+    "type": "td",
+    "activeDate": "2026-10-02",
+    "targets": [
+      "Göztepe",
+      "Samsunspor",
+      "Kasımpaşa",
+      "Eyüpspor",
+      "Konyaspor",
+      "Rizespor",
+      "Beşiktaş",
+      "Gençlerbirliği",
+      "Alanyaspor",
+      "Gaziantep FK"
+      
+
     ],
     "difficulty": "kolay"
   }

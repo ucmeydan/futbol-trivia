@@ -986,7 +986,7 @@
   {
     "id": 40,
     "game": "listeyi-tamamla",
-    "title": "Transfermarkt verilerine göre 2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
+    "title": "2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-05-02",
     "targets": [
@@ -1875,7 +1875,7 @@
   {
     "id": 90,
     "game": "top10",
-    "title": "Transfermarkt verilerine göre 2021 yılındaki piyasa değeri 10M€ ücerindeki Türk futbolcular?",
+    "title": "2021 yılındaki piyasa değeri 10M€ ücerindeki Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-06-24",
     "targets": [
@@ -2483,7 +2483,7 @@
   {
     "id": 121,
     "game": "listeyi-tamamla",
-    "title": "Transfermarkt verilerine göre 2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
+    "title": "2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-07-28",
     "targets": [
@@ -3098,7 +3098,7 @@
   {
     "id": 149,
     "game": "listeyi-tamamla",
-    "title": "Transfermarkt verilerine göre Süper Lig tarihinde 50 ve üzeri sayıda asist yapan yabancı oyuncular? (Sonradan Türk vatandaşı olanlar dahil)",
+    "title": "Süper Lig tarihinde 50 ve üzeri sayıda asist yapan yabancı oyuncular? (Sonradan Türk vatandaşı olanlar dahil)",
     "type": "player",
     "activeDate": "2026-09-05",
     "targets": [
@@ -3349,7 +3349,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 162,
     "game": "listeyi-tamamla",
@@ -3362,11 +3361,9 @@
       "Günay Güvenç",
       "Mert Günok",
       "Volkan Babacan"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 163,
     "game": "listeyi-tamamla",
@@ -3385,7 +3382,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 164,
     "game": "listeyi-tamamla",
@@ -3404,7 +3400,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 165,
     "game": "listeyi-tamamla",
@@ -3420,7 +3415,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 166,
     "game": "listeyi-tamamla",
@@ -3437,7 +3431,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 167,
     "game": "listeyi-tamamla",
@@ -3454,23 +3447,121 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 168,
     "game": "listeyi-tamamla",
     "title": "Bu sezon Süper Lig'de yer alan 5 şampiyon takımın kadrolarındaki 9 ve 10 numaralı formaları giyen oyuncular?",
     "type": "player",
     "activeDate": "2026-09-25",
     "targets": [
-     "Hyeon Gyu Oh",
-     "Orkun Kökçü",
-     "Leroy Sane",
-     "Marco Asensio",
-     "Romelu Lukaku",
-     "Mohamed Salah",
-     "Franculino Dju",
-     "Edin Visca",
-     "Davie Selke"
+      "Hyeon Gyu Oh",
+      "Orkun Kökçü",
+      "Leroy Sane",
+      "Marco Asensio",
+      "Romelu Lukaku",
+      "Mohamed Salah",
+      "Franculino Dju",
+      "Edin Visca",
+      "Davie Selke"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 169,
+    "game": "listeyi-tamamla",
+    "title": "Türkiye Kupası'nı teknik direktör olarak birden fazla kez kazanan isimler?",
+    "type": "td",
+    "activeDate": "2026-09-26",
+    "targets": [
+      "Fatih Terim",
+      "Şenol Güneş",
+      "Gündüz Kılıç",
+      "Ahmet Suat Özyazıcı",
+      "Aykut Kocaman",
+      "Adnan Süvari",
+      "Necdet Niş",
+      "Gordon Milne",
+      "Samet Aybaba",
+      "Jean Tigana",
+      "Mustafa Denizli",
+      "Okan Buruk"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 170,
+    "game": "listeyi-tamamla",
+    "title": "1999-2000 sezonundan bu yana Türkiye Kupası finallerine ev sahipliği yapmış şehirler?",
+    "type": "city",
+    "activeDate": "2026-09-27",
+    "targets": [
+      "Antalya",
+      "Gaziantep",
+      "İstanbul",
+      "İzmir",
+      "Sivas",
+      "Diyarbakır",
+      "Eskişehir",
+      "Bursa",
+      "Konya",
+      "Kayseri",
+      "Şanlıurfa"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 171,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde Galatasaray forması giymiş Portekizli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-28",
+    "targets": [
+      "Abel Xavier",
+      "Rafael Leao",
+      "Gedson Fernandes",
+      "Josue",
+      "Bruma",
+      "Fernando Meira",
+      "Sergio Oliveira"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 172,
+    "game": "listeyi-tamamla",
+    "title": "3 büyük takımın herhangi birinde oynamış İtalyan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-29",
+    "targets": [
+      "Morgan De Sanctis",
+      "Nicolo Zaniolo",
+      "Joao Pedro",
+      "Leonardo Bonucci",
+      "Fabio Miretti",
+      "Federico Giunti",
+      "Cher Ndour",
+      "Ciro Immobile",
+      "Matteo Ferrari"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 173,
+    "game": "top10",
+    "title": "Süper Lig tarihinde 110 ve üzeri sayıda maça çıkan İskandinav futbolcular?",
+    "type": "player",
+    "activeDate": "2026-09-30",
+    "targets": [
+      "Erkan Zengin",
+      "Samuel Holmen",
+      "Jimmy Durmaz",
+      "Abdul Khalili",
+      "Jonas Svensson",
+      "Victor Nelsson",
+      "Sam Larsson"
+      
     ],
     "difficulty": "zor"
   }

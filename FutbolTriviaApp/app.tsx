@@ -39,7 +39,7 @@ function HomeScreen({ navigation }: any) {
       <ScrollView contentContainerStyle={{ paddingBottom: 32 }}>
         <View style={[styles.header, { paddingTop: insets.top + 24 }]}>
           <Text style={styles.headerTitle}>Futbol Trivia</Text>
-          <Text style={styles.headerSub}>SÜPER LİG ÖZEL</Text>
+          <Text style={styles.headerSub}>GÜNLÜK FUTBOL BİLGİSİ</Text>
           <Text style={styles.headerDesc}>Her gün yenilenen sorularla futbol bilgini test et.</Text>
         </View>
 

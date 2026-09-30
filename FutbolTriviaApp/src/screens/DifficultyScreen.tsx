@@ -32,7 +32,7 @@ export default function DifficultyScreen({ route, navigation }: Props) {
           <Text style={styles.cardEmoji}>🟢</Text>
           <View style={styles.cardText}>
             <Text style={[styles.cardTitle, { color: '#22c55e' }]}>Kolay</Text>
-            <Text style={styles.cardDesc}>"Futbolu ve Süper Lig'i severim ancak çok sıkı bir takipçi değilim" diyorsan bu seviye tam sana göre.</Text>
+            <Text style={styles.cardDesc}>"Futbolu severim ancak çok sıkı bir takipçi değilim" diyorsan bu seviye tam sana göre.</Text>
           </View>
         </TouchableOpacity>
 
@@ -44,7 +44,7 @@ export default function DifficultyScreen({ route, navigation }: Props) {
           <Text style={styles.cardEmoji}>🔴</Text>
           <View style={styles.cardText}>
             <Text style={[styles.cardTitle, { color: '#ef4444' }]}>Zor</Text>
-            <Text style={styles.cardDesc}>"Ben Süper Lig gurmesiyim." diyorsan bu seviye tam sana göre.</Text>
+            <Text style={styles.cardDesc}>"Ben futbol gurmesiyim." diyorsan bu seviye tam sana göre.</Text>
           </View>
         </TouchableOpacity>
       </View>
