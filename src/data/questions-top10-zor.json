@@ -1454,7 +1454,7 @@
       "Andrea Bertolacci",
       "Nicolo Zaniolo",
       "Franco Tongya",
-      "Joao Pedro",
+      "João Pedro",
       "Federico Macheda"
     ],
     "difficulty": "zor"
@@ -3199,8 +3199,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 162,
     "game": "top10",
     "title": "Selçuk Şahin'in futbolculuk kariyerinde birlikte en çok maça çıktığı 10 futbolcu?",
@@ -3220,8 +3219,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 163,
     "game": "top10",
     "title": "Mevcut Süper Lig teknik direktörleri arasındaki en genç 10 teknik direktör?",
@@ -3241,8 +3239,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 164,
     "game": "top10",
     "title": "Trabzonspor formasıyla Avrupa kupalarında gol atan son 10 oyuncu? (Ön elemeler dahil)",
@@ -3259,11 +3256,9 @@
       "Vitor Hugo",
       "Marek Hamsik",
       "Umut Bozok"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 165,
     "game": "top10",
@@ -3284,8 +3279,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 166,
     "game": "top10",
     "title": "Aykut Kocaman'ın Fenerbahçe'nin başında olduğu dönemde en fazla maça çıkan 10 futbolcu?",
@@ -3305,7 +3299,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 167,
     "game": "top10",
@@ -3326,7 +3319,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 168,
     "game": "top10",
@@ -3347,7 +3339,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 169,
     "game": "top10",
@@ -3368,7 +3359,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 170,
     "game": "top10",
@@ -3386,11 +3376,9 @@
       "Karadağ",
       "Avusturya",
       "Çekya"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 171,
     "game": "top10",
@@ -3411,7 +3399,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 172,
     "game": "top10",
@@ -3429,11 +3416,9 @@
       "Cenk Tosun",
       "Ferdi Kadıoğlu",
       "Colin Kazım Richards"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 173,
     "game": "top10",
@@ -3454,7 +3439,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 174,
     "game": "top10",
@@ -3475,7 +3459,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 175,
     "game": "top10",
@@ -3488,7 +3471,7 @@
       "Dany Nounkeu",
       "Rigobert Song",
       "Armand Deumi",
-      "Herve Tum",
+      "Hervé Tum",
       "Olivier Kemen",
       "Jean-Armel Kana-Biyik",
       "Gustave Bebbe",
@@ -3496,6 +3479,4 @@
     ],
     "difficulty": "zor"
   }
-
-
 ]

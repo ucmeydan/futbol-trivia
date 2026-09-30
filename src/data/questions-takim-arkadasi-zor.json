@@ -1018,7 +1018,7 @@
     "id": 36,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-09",
-    "correctPlayer": "Franck Ribery",
+    "correctPlayer": "Franck Ribéry",
     "teammates": [
       {
         "name": "Mamadou Niang",
@@ -1801,7 +1801,7 @@
     "id": 64,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-05",
-    "correctPlayer": "Franck Ribery",
+    "correctPlayer": "Franck Ribéry",
     "teammates": [
       {
         "name": "Mamadou Niang",
@@ -3595,12 +3595,11 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 126,
     "game": "takim-arkadasi",
     "activeDate": "2026-08-18",
-    "correctPlayer": "Franck Ribery",
+    "correctPlayer": "Franck Ribéry",
     "teammates": [
       {
         "name": "Mamadou Niang",
@@ -3625,7 +3624,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 127,
     "game": "takim-arkadasi",
@@ -3655,7 +3653,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 128,
     "game": "takim-arkadasi",
@@ -3685,7 +3682,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 129,
     "game": "takim-arkadasi",
@@ -3715,7 +3711,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 130,
     "game": "takim-arkadasi",
@@ -3745,7 +3740,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 131,
     "game": "takim-arkadasi",
@@ -3775,7 +3769,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 132,
     "game": "takim-arkadasi",
@@ -3805,7 +3798,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 133,
     "game": "takim-arkadasi",
@@ -3835,7 +3827,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 134,
     "game": "takim-arkadasi",
@@ -3865,7 +3856,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 135,
     "game": "takim-arkadasi",
@@ -3895,7 +3885,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 136,
     "game": "takim-arkadasi",
@@ -3925,7 +3914,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 137,
     "game": "takim-arkadasi",
@@ -3955,8 +3943,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 138,
     "game": "takim-arkadasi",
     "activeDate": "2026-09-03",
@@ -3985,7 +3972,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 139,
     "game": "takim-arkadasi",
@@ -4015,7 +4001,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 140,
     "game": "takim-arkadasi",
@@ -4045,7 +4030,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 141,
     "game": "takim-arkadasi",
@@ -4075,8 +4059,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 142,
     "game": "takim-arkadasi",
     "activeDate": "2026-09-08",
@@ -4105,7 +4088,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 143,
     "game": "takim-arkadasi",
@@ -4135,7 +4117,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 144,
     "game": "takim-arkadasi",
@@ -4165,7 +4146,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 145,
     "game": "takim-arkadasi",
@@ -4195,7 +4175,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 146,
     "game": "takim-arkadasi",
@@ -4225,7 +4204,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 147,
     "game": "takim-arkadasi",
@@ -4255,7 +4233,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 148,
     "game": "takim-arkadasi",
@@ -4285,7 +4262,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 149,
     "game": "takim-arkadasi",
@@ -4315,8 +4291,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 150,
     "game": "takim-arkadasi",
     "activeDate": "2026-09-16",
@@ -4345,7 +4320,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 151,
     "game": "takim-arkadasi",
@@ -4375,8 +4349,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 152,
     "game": "takim-arkadasi",
     "activeDate": "2026-09-18",
@@ -4405,7 +4378,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 153,
     "game": "takim-arkadasi",
@@ -4435,7 +4407,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 154,
     "game": "takim-arkadasi",
@@ -4465,7 +4436,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 155,
     "game": "takim-arkadasi",
@@ -4524,7 +4494,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 157,
     "game": "takim-arkadasi",
@@ -4554,7 +4523,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 158,
     "game": "takim-arkadasi",
@@ -4584,7 +4552,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 159,
     "game": "takim-arkadasi",
@@ -4614,7 +4581,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 160,
     "game": "takim-arkadasi",
@@ -4644,7 +4610,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 161,
     "game": "takim-arkadasi",
@@ -4674,8 +4639,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 162,
     "game": "takim-arkadasi",
     "activeDate": "2026-09-28",
@@ -4704,7 +4668,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 163,
     "game": "takim-arkadasi",
@@ -4734,8 +4697,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 164,
     "game": "takim-arkadasi",
     "activeDate": "2026-09-30",
@@ -4764,7 +4726,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 165,
     "game": "takim-arkadasi",

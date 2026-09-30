@@ -2028,7 +2028,7 @@
       "Bafetimbi Gomis",
       "Cedric Carrasso",
       "Lionel Carole",
-      "Franck Ribery",
+      "Franck Ribéry",
       "Sebastian Perez",
       "Didier Six"
     ],
@@ -3526,7 +3526,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 172,
     "game": "listeyi-tamamla",
@@ -3536,7 +3535,7 @@
     "targets": [
       "Morgan De Sanctis",
       "Nicolo Zaniolo",
-      "Joao Pedro",
+      "João Pedro",
       "Leonardo Bonucci",
       "Fabio Miretti",
       "Federico Giunti",
@@ -3546,7 +3545,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 173,
     "game": "listeyi-tamamla",
@@ -3561,11 +3559,9 @@
       "Jonas Svensson",
       "Victor Nelsson",
       "Sam Larsson"
-      
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 174,
     "game": "listeyi-tamamla",
