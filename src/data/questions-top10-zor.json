@@ -3478,5 +3478,26 @@
       "Vincent Aboubakar"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 176,
+    "game": "top10",
+    "title": "Süper Lig'in mevcut puan durumunda ilk 10 sırada yer alan takımların 10 numaralı formayı giyen oyuncuları?'",
+    "type": "player",
+    "activeDate": "2026-10-02",
+    "targets": [
+      "Samuel Ballet",
+      "Leroy Sane",
+      "Orkun Kökçü",
+      "Berkan Kutlu",
+      "Ianis Hagi",
+      "Marco Asensio",
+      "Mohamed Salah",
+      "Haris Hajradinovic",
+      "Ibrahim Olawoyin",
+      "Kacper Kozlowski"
+    ],
+    "difficulty": "zor"
   }
 ]

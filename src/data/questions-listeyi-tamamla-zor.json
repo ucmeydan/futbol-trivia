@@ -3576,5 +3576,20 @@
       "Doğukan Sinik"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 175,
+    "game": "listeyi-tamamla",
+    "title": "Şampiyonlar Ligi tarihinde hat-trick yapmış Türk futbolcular? (Grup aşaması ve sonrası)",
+    "type": "player",
+    "activeDate": "2026-10-02",
+    "targets": [
+      "Tuncay Şanlı",
+      "Arda Turan",
+      "Burak Yılmaz",
+      "İrfan Can Kahveci"
+    ],
+    "difficulty": "zor"
   }
 ]

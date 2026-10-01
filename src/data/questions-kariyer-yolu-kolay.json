@@ -5640,5 +5640,51 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 152,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-02",
+    "correctPlayer": "Kaan Ayhan",
+    "career": [
+      {
+        "season": "2011–2013",
+        "team": "Schalke U19",
+        "apps": "63",
+        "goals": "24"
+      },
+      {
+        "season": "2013–2016",
+        "team": "Schalke 04",
+        "apps": "39",
+        "goals": "1"
+      },
+      {
+        "season": "2016–2016",
+        "team": "Frankfurt (kiralık)",
+        "apps": "2",
+        "goals": "0"
+      },
+      {
+        "season": "2016–2020",
+        "team": "Fortuna Düsseldorf",
+        "apps": "121",
+        "goals": "8"
+      },
+      {
+        "season": "2020–2023",
+        "team": "Sassuolo",
+        "apps": "55",
+        "goals": "2"
+      },
+      {
+        "season": "2023–2026",
+        "team": "Galatasaray",
+        "apps": "128",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

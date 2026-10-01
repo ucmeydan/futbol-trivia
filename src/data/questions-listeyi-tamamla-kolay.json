@@ -2897,5 +2897,20 @@
       "Hakan Balta"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 156,
+    "game": "listeyi-tamamla",
+    "title": "2026-27 sezonunda Süper Lig ve TFF 1.Lig'de mücadele edecek Ege Bölgesi takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-10-02",
+    "targets": [
+      "Göztepe",
+      "Manisa FK",
+      "Bodrum FK",
+      "Muğlaspor"
+    ],
+    "difficulty": "kolay"
   }
 ]
