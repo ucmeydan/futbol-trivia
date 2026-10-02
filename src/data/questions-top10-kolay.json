@@ -3079,5 +3079,26 @@
       "Gaziantep FK"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 155,
+    "game": "top10",
+    "title": "Süper Lig'de güncel piyasa değeri en yüksek 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-10-03",
+    "targets": [
+      "Galatasaray",
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Başakşehir",
+      "Göztepe",
+      "Çorum FK",
+      "Samsunspor",
+      "Rizespor",
+      "Kasımpaşa"
+    ],
+    "difficulty": "kolay"
   }
 ]

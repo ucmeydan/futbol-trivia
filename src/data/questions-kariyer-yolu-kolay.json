@@ -5686,5 +5686,33 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 153,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-03",
+    "correctPlayer": "Mehmet Topuz",
+    "career": [
+      {
+        "season": "2000–2004",
+        "team": "Kayseri Erciyesspor",
+        "apps": "63",
+        "goals": "14"
+      },
+      {
+        "season": "2004–2009",
+        "team": "Kayserispor",
+        "apps": "199",
+        "goals": "43"
+      },
+      {
+        "season": "2009–2016",
+        "team": "Fenerbahçe",
+        "apps": "217",
+        "goals": "13"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]
