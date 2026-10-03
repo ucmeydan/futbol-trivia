@@ -3100,5 +3100,26 @@
       "Kasımpaşa"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 156,
+    "game": "top10",
+    "title": "Süper Lig'de şampiyonluk kazanan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-10-04",
+    "targets": [
+      "Okan Buruk",
+      "Abdullah Avcı",
+      "Sergen Yalçın",
+      "Fatih Terim",
+      "Şenol Güneş",
+      "Hamza Hamzaoğlu",
+      "Ersun Yanal",
+      "Aykut Kocaman",
+      "Ertuğrul Sağlam",
+      "Mustafa Denizli"
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -3619,5 +3619,21 @@
       "Marcelo"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 177,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor forması giymiş Arjantinli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-04",
+    "targets": [
+      "Gaston Campi",
+      "Emmanuel Mas",
+      "Gustavo Colman",
+      "Luis Ibanez",
+      "Jose Sosa"
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -6481,5 +6481,39 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 164,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-04",
+    "correctPlayer": "Emrecan Bulut",
+    "career": [
+      {
+        "season": "2022–2023",
+        "team": "Somaspor",
+        "apps": "34",
+        "goals": "16"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Beşiktaş",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2024",
+        "team": "Ümraniyespor (kiralık)",
+        "apps": "13",
+        "goals": "2"
+      },
+      {
+        "season": "2024–",
+        "team": "Rizespor",
+        "apps": "55",
+        "goals": "7"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -2764,7 +2764,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 148,
     "game": "listeyi-tamamla",
@@ -2785,38 +2784,35 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 149,
     "game": "listeyi-tamamla",
     "title": "Süper Lig'de bu sezon görevinden ayrılmış teknik direktörler? (25 Eylül itibarıyla)",
     "type": "td",
     "activeDate": "2026-09-25",
     "targets": [
-     "Mirel Radoi",
-     "Fatih Tekke",
-     "Uğur Uçar",
-     "Özhan Pulat"
+      "Mirel Radoi",
+      "Fatih Tekke",
+      "Uğur Uçar",
+      "Özhan Pulat"
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 150,
     "game": "listeyi-tamamla",
     "title": "Bu sezon Süper Lig ve 1.Lig'de mücadele eden Karadeniz bölgesi takımları?",
     "type": "team-tr",
     "activeDate": "2026-09-26",
     "targets": [
-     "Trabzonspor",
-     "Samsunspor",
-     "Rizespor",
-     "Çorum FK",
-     "Boluspor"
+      "Trabzonspor",
+      "Samsunspor",
+      "Rizespor",
+      "Çorum FK",
+      "Boluspor"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 151,
     "game": "listeyi-tamamla",
@@ -2824,13 +2820,12 @@
     "type": "player",
     "activeDate": "2026-09-27",
     "targets": [
-    "Nordin Amrabat",
-    "Hakim Ziyech",
-    "Younes Belhanda"
+      "Nordin Amrabat",
+      "Hakim Ziyech",
+      "Younes Belhanda"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 152,
     "game": "listeyi-tamamla",
@@ -2838,13 +2833,12 @@
     "type": "player",
     "activeDate": "2026-09-28",
     "targets": [
-    "N'golo Kante",
-    "Roberto Carlos",
-    "Juan Mata"
+      "N'golo Kante",
+      "Roberto Carlos",
+      "Juan Mata"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 153,
     "game": "listeyi-tamamla",
@@ -2864,7 +2858,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 154,
     "game": "listeyi-tamamla",
@@ -2880,7 +2873,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 155,
     "game": "listeyi-tamamla",
@@ -2898,8 +2890,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 156,
     "game": "listeyi-tamamla",
     "title": "2026-27 sezonunda Süper Lig ve TFF 1.Lig'de mücadele edecek Ege Bölgesi takımları?",
@@ -2913,7 +2904,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 157,
     "game": "listeyi-tamamla",
@@ -2930,6 +2920,21 @@
       "Osmanlıspor",
       "Bursaspor",
       "Pendikspor"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 158,
+    "game": "listeyi-tamamla",
+    "title": "Hakan Çalhanoğlu'nun profesyonel futbolculuk kariyerinde forma giydiği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-10-04",
+    "targets": [
+      "Karlsruhe",
+      "Hamburg",
+      "Bayer Leverkusen",
+      "Inter",
+      "Milan"
     ],
     "difficulty": "kolay"
   }
