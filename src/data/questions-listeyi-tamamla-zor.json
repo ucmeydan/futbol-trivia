@@ -3652,5 +3652,20 @@
       "Abdoulaye Ba"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 179,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de forma giyen İtalyan kaleciler?",
+    "type": "player",
+    "activeDate": "2026-10-06",
+    "targets": [
+      "Salvatore Sirigu",
+      "Simone Scuffet",
+      "Morgan De Sanctis",
+      "Emiliano Viviano"
+    ],
+    "difficulty": "zor"
   }
 ]

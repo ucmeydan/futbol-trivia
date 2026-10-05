@@ -5822,5 +5822,57 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 157,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-07",
+    "correctPlayer": "Eljif Elmas",
+    "career": [
+      {
+        "season": "2015–2017",
+        "team": "Rabotnicki",
+        "apps": "46",
+        "goals": "8"
+      },
+      {
+        "season": "2017–2019",
+        "team": "Fenerbahçe",
+        "apps": "47",
+        "goals": "4"
+      },
+      {
+        "season": "2019–2024",
+        "team": "Napoli",
+        "apps": "189",
+        "goals": "19"
+      },
+      {
+        "season": "2024–",
+        "team": "Leipzig",
+        "apps": "22",
+        "goals": "0"
+      },
+      {
+        "season": "2025–2025",
+        "team": "Torino (kiralık)",
+        "apps": "13",
+        "goals": "4"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Napoli (kiralık)",
+        "apps": "44",
+        "goals": "1"
+      },
+      {
+        "season": "2026–",
+        "team": "Atalanta (kiralık)",
+        "apps": "4",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -2954,5 +2954,30 @@
       "Valencia"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 160,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın mevcut kadrosundaki yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-06",
+    "targets": [
+      "Davinson Sanchez",
+      "Roland Sallai",
+      "Wilfried Singo",
+      "Ismael Jakobs",
+      "Lesley Ugochukwu",
+      "Renato Nhaga",
+      "Lucas Torreira",
+      "Mario Lemina",
+      "El Chadaille Bitshiabu",
+      "Leroy Sane",
+      "Victor Osimhen",
+      "Gabriel Sara",
+      "Aleksey Batrakov",
+      "Rafael Leao"
+    ],
+    "difficulty": "kolay"
   }
 ]

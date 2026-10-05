@@ -6543,5 +6543,39 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 166,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-06",
+    "correctPlayer": "Filip Daems",
+    "career": [
+      {
+        "season": "1998–2001",
+        "team": "Lierse",
+        "apps": "105",
+        "goals": "6"
+      },
+      {
+        "season": "2001-2005",
+        "team": "Gençlerbirliği",
+        "apps": "125",
+        "goals": "17"
+      },
+      {
+        "season": "2005-2015",
+        "team": "Monchengladbach",
+        "apps": "232",
+        "goals": "16"
+      },
+      {
+        "season": "2015-2017",
+        "team": "Westerlo",
+        "apps": "53",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

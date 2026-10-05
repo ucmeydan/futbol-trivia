@@ -3563,5 +3563,27 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 180,
+    "game": "top10",
+    "title": "Başakşehir'in şampiyon olduğu 2019/20 sezonunda Süper Lig'de en fazla süre alan 10 futbolcusu?",
+    "type": "player",
+    "activeDate": "2026-10-06",
+    "targets": [
+      "Mert Günok",
+      "Junior Caicara",
+      "Edin Visca",
+      "Gael Clichy",
+      "Enzo Crivelli",
+      "Alexandru Epureanu",
+      "İrfan Can Kahveci",
+      "Mahmut Tekdemir",
+      "Demba Ba",
+      "Martin Skrtel"
+
+    ],
+    "difficulty": "zor"
   }
 ]

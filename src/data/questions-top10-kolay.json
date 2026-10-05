@@ -3142,5 +3142,26 @@
       "Samsunspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 158,
+    "game": "top10",
+    "title": "Bu sezon Trabzonspor formasıyla en fazla süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-06",
+    "targets": [
+      "Andre Onana",
+      "Mohamed Salah",
+      "Stefan Savic",
+      "Chibuike Nwaiwu",
+      "Mustafa Eskihellaç",
+      "Paul Onuachu",
+      "Wagner Pina",
+      "Melih Kabasakal",
+      "Aral Şimşir",
+      "Ernest Muçi"
+    ],
+    "difficulty": "kolay"
   }
 ]
