@@ -3541,5 +3541,27 @@
       "OFK Beograd"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 179,
+    "game": "top10",
+    "title": "Aktif futbol kariyeri devam eden futbolcular arasında A Milli takım formasıyla en çok gol atan 10 oyuncu? (Eşitlik durumunda daha az maça çıkan oyuncu üst sırada yer alır)",
+    "type": "player",
+    "activeDate": "2026-10-05",
+    "targets": [
+      "Hakan Çalhanoğlu",
+      "Cenk Tosun",
+      "Cengiz Ünder",
+      "Kerem Aktürkoğlu",
+      "Ozan Tufan",
+      "Serdar Dursun",
+      "Arda Güler",
+      "Halil Dervişoğlu",
+      "Kenan Karaman",
+      "Barış Alper Yılmaz"
+
+    ],
+    "difficulty": "zor"
   }
 ]

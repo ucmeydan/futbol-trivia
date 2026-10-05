@@ -3635,5 +3635,22 @@
       "Jose Sosa"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 178,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe formasıyla resmi maça çıkan Senegalli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-05",
+    "targets": [
+      "Moussa Sow",
+      "Issiar Dia",
+      "Papiss Cisse",
+      "Mame Thiam",
+      "Mamadou Niang",
+      "Abdoulaye Ba"
+    ],
+    "difficulty": "zor"
   }
 ]

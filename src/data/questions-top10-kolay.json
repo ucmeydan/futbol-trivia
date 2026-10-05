@@ -3121,5 +3121,26 @@
       "Mustafa Denizli"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 157,
+    "game": "top10",
+    "title": "Süper Lig tarihinde tüm sezonların toplamında en fazla gol atan 10 takım? ",
+    "type": "team-tr",
+    "activeDate": "2026-10-05",
+    "targets": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Gençlerbirliği",
+      "Ankaragücü",
+      "Bursaspor",
+      "Altay",
+      "Gaziantepspor",
+      "Samsunspor"
+    ],
+    "difficulty": "kolay"
   }
 ]

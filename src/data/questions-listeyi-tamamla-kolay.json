@@ -2937,5 +2937,22 @@
       "Milan"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 159,
+    "game": "listeyi-tamamla",
+    "title": "Mehmet Topal'ın profesyonel futbolculuk kariyerinde forma giydiği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-10-05",
+    "targets": [
+      "Dardanelspor",
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Başakşehir",
+      "Valencia"
+    ],
+    "difficulty": "kolay"
   }
 ]

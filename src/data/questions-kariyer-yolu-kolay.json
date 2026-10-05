@@ -5717,7 +5717,7 @@
   },
 
   {
-    "id": 103,
+    "id": 154,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-04",
     "correctPlayer": "Mesut Özil",
@@ -5757,6 +5757,68 @@
         "team": "Başakşehir",
         "apps": "7",
         "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+   {
+    "id": 155,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-05",
+    "correctPlayer": "Barış Alper Yılmaz",
+    "career": [
+      {
+        "season": "2017–2020",
+        "team": "Ankara Demirspor",
+        "apps": "43",
+        "goals": "1"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Keçiörengücü",
+        "apps": "36",
+        "goals": "8"
+      },
+      {
+        "season": "2021–",
+        "team": "Galatasaray",
+        "apps": "212",
+        "goals": "37"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+   {
+    "id": 156,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-06",
+    "correctPlayer": "Nihat Kahveci",
+    "career": [
+      {
+        "season": "1997–2002",
+        "team": "Beşiktaş",
+        "apps": "145",
+        "goals": "33"
+      },
+      {
+        "season": "2002–2006",
+        "team": "Real Sociedad",
+        "apps": "142",
+        "goals": "58"
+      },
+      {
+        "season": "2006–2009",
+        "team": "Villarreal",
+        "apps": "78",
+        "goals": "25"
+      },
+      {
+        "season": "2009–2011",
+        "team": "Beşiktaş",
+        "apps": "52",
+        "goals": "9"
       }
     ],
     "difficulty": "kolay"
