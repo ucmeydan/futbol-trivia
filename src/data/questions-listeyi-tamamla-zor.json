@@ -3577,7 +3577,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 175,
     "game": "listeyi-tamamla",
@@ -3592,7 +3591,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 176,
     "game": "listeyi-tamamla",
@@ -3620,7 +3618,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 177,
     "game": "listeyi-tamamla",
@@ -3636,7 +3633,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 178,
     "game": "listeyi-tamamla",
@@ -3653,7 +3649,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 179,
     "game": "listeyi-tamamla",
@@ -3665,6 +3660,34 @@
       "Simone Scuffet",
       "Morgan De Sanctis",
       "Emiliano Viviano"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 180,
+    "game": "listeyi-tamamla",
+    "title": "2005/06 sezonunda Süper Lig'de mücadele eden takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-07",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Kayserispor",
+      "Gençlerbirliği",
+      "Konyaspor",
+      "Sivasspor",
+      "Rizespor",
+      "Manisaspor",
+      "Kayseri Erciyesspor",
+      "Gaziantepspor",
+      "Ankaragücü",
+      "Ankaraspor",
+      "Denizlispor",
+      "Malatyaspor",
+      "Samsunspor",
+      "Diyarbakırspor"
     ],
     "difficulty": "zor"
   }

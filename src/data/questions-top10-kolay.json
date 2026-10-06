@@ -3163,5 +3163,26 @@
       "Ernest Muçi"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 15,
+    "game": "top10",
+    "title": "Fenerbahçe tarihinde en yüksek bonservis geliri elde edilen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-04-25",
+    "targets": [
+      "Ferdi Kadıoğlu",
+      "Arda Güler",
+      "Sidiki Cherif",
+      "Yusuf Akçiçek",
+      "Vedat Muriqi",
+      "Elvir Baljic",
+      "Kim Min Jae",
+      "Eljif Elmas",
+      "Moussa Sow",
+      "Youssef En Nesyri"
+    ],
+    "difficulty": "kolay"
   }
 ]

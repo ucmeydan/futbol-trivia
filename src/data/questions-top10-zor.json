@@ -3479,8 +3479,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 176,
     "game": "top10",
     "title": "Süper Lig'in mevcut puan durumunda ilk 10 sırada yer alan takımların 10 numaralı formayı giyen oyuncuları?'",
@@ -3500,7 +3499,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 177,
     "game": "top10",
@@ -3521,7 +3519,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 178,
     "game": "top10",
@@ -3542,7 +3539,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 179,
     "game": "top10",
@@ -3560,11 +3556,9 @@
       "Halil Dervişoğlu",
       "Kenan Karaman",
       "Barış Alper Yılmaz"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 180,
     "game": "top10",
@@ -3582,7 +3576,26 @@
       "Mahmut Tekdemir",
       "Demba Ba",
       "Martin Skrtel"
-
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 181,
+    "game": "top10",
+    "title": "Süper Lig'de 2023/24 sezonunda en çok gol atan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-07",
+    "targets": [
+      "Mauro Icardi",
+      "Edin Džeko",
+      "Mame Thiam",
+      "Rey Manaj",
+      "Krzysztof Piatek",
+      "Adam Buksa",
+      "Paul Onuachu",
+      "Denis Dragus",
+      "Nuno Da Costa",
+      "Aytaç Kara"
     ],
     "difficulty": "zor"
   }

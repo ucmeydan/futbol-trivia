@@ -2979,5 +2979,23 @@
       "Rafael Leao"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 161,
+    "game": "listeyi-tamamla",
+    "title": "Hem Beşiktaş hem Fenerbahçe hem de Galatasaray'da oynamış futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-07",
+    "targets": [
+      "Mehmet Yozgatlı",
+      "Burak Yılmaz",
+      "Sergen Yalçın",
+      "Caner Erkin",
+      "Mehmet Topal",
+      "Michy Batshuayi",
+      "Emre Aşık"
+    ],
+    "difficulty": "kolay"
   }
 ]
