@@ -986,7 +986,7 @@
   {
     "id": 40,
     "game": "listeyi-tamamla",
-    "title": "2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
+    "title": "Transfermarkt verilerine göre 2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-05-02",
     "targets": [
@@ -1875,7 +1875,7 @@
   {
     "id": 90,
     "game": "top10",
-    "title": "2021 yılındaki piyasa değeri 10M€ ücerindeki Türk futbolcular?",
+    "title": "Transfermarkt verilerine göre 2021 yılındaki piyasa değeri 10M€ ücerindeki Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-06-24",
     "targets": [
@@ -2028,7 +2028,7 @@
       "Bafetimbi Gomis",
       "Cedric Carrasso",
       "Lionel Carole",
-      "Franck Ribery",
+      "Franck Ribéry",
       "Sebastian Perez",
       "Didier Six"
     ],
@@ -2483,7 +2483,7 @@
   {
     "id": 121,
     "game": "listeyi-tamamla",
-    "title": "2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
+    "title": "Transfermarkt verilerine göre 2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
     "type": "player",
     "activeDate": "2026-07-28",
     "targets": [
@@ -3098,7 +3098,7 @@
   {
     "id": 149,
     "game": "listeyi-tamamla",
-    "title": "Süper Lig tarihinde 50 ve üzeri sayıda asist yapan yabancı oyuncular? (Sonradan Türk vatandaşı olanlar dahil)",
+    "title": "Transfermarkt verilerine göre Süper Lig tarihinde 50 ve üzeri sayıda asist yapan yabancı oyuncular? (Sonradan Türk vatandaşı olanlar dahil)",
     "type": "player",
     "activeDate": "2026-09-05",
     "targets": [
@@ -3526,7 +3526,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 172,
     "game": "listeyi-tamamla",
@@ -3536,7 +3535,7 @@
     "targets": [
       "Morgan De Sanctis",
       "Nicolo Zaniolo",
-      "Joao Pedro",
+      "João Pedro",
       "Leonardo Bonucci",
       "Fabio Miretti",
       "Federico Giunti",
@@ -3546,10 +3545,9 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 173,
-    "game": "top10",
+    "game": "listeyi-tamamla",
     "title": "Süper Lig tarihinde 110 ve üzeri sayıda maça çıkan İskandinav futbolcular?",
     "type": "player",
     "activeDate": "2026-09-30",
@@ -3561,7 +3559,135 @@
       "Jonas Svensson",
       "Victor Nelsson",
       "Sam Larsson"
-      
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 174,
+    "game": "listeyi-tamamla",
+    "title": "Hull City'de forma giymiş Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-01",
+    "targets": [
+      "Enis Destan",
+      "Abdulkadir Ömür",
+      "Bora Aydınlık",
+      "Ozan Tufan",
+      "Doğukan Sinik"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 175,
+    "game": "listeyi-tamamla",
+    "title": "Şampiyonlar Ligi tarihinde hat-trick yapmış Türk futbolcular? (Grup aşaması ve sonrası)",
+    "type": "player",
+    "activeDate": "2026-10-02",
+    "targets": [
+      "Tuncay Şanlı",
+      "Arda Turan",
+      "Burak Yılmaz",
+      "İrfan Can Kahveci"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 176,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ta Ricardo Quaresma ile birlikte en az 50 maça çıkan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-10-03",
+    "targets": [
+      "Atiba Hutchinson",
+      "Necip Uysal",
+      "Oğuzhan Özyakup",
+      "Adriano",
+      "Gökhan Gönül",
+      "Dusko Tosic",
+      "Cenk Tosun",
+      "İsmail Köybaşı",
+      "Tolgay Arslan",
+      "Fabri",
+      "Ryan Babel",
+      "Andreas Beck",
+      "Anderson Talisca",
+      "Caner Erkin",
+      "Fabian Ernst",
+      "Gary Medel",
+      "Marcelo"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 177,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor forması giymiş Arjantinli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-04",
+    "targets": [
+      "Gaston Campi",
+      "Emmanuel Mas",
+      "Gustavo Colman",
+      "Luis Ibanez",
+      "Jose Sosa"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 178,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe formasıyla resmi maça çıkan Senegalli futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-05",
+    "targets": [
+      "Moussa Sow",
+      "Issiar Dia",
+      "Papiss Cisse",
+      "Mame Thiam",
+      "Mamadou Niang",
+      "Abdoulaye Ba"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 179,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de forma giyen İtalyan kaleciler?",
+    "type": "player",
+    "activeDate": "2026-10-06",
+    "targets": [
+      "Salvatore Sirigu",
+      "Simone Scuffet",
+      "Morgan De Sanctis",
+      "Emiliano Viviano"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 180,
+    "game": "listeyi-tamamla",
+    "title": "2005/06 sezonunda Süper Lig'de mücadele eden takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-07",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Kayserispor",
+      "Gençlerbirliği",
+      "Konyaspor",
+      "Sivasspor",
+      "Rizespor",
+      "Manisaspor",
+      "Kayseri Erciyesspor",
+      "Gaziantepspor",
+      "Ankaragücü",
+      "Ankaraspor",
+      "Denizlispor",
+      "Malatyaspor",
+      "Samsunspor",
+      "Diyarbakırspor"
     ],
     "difficulty": "zor"
   }

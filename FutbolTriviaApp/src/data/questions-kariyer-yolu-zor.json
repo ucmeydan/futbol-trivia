@@ -4994,7 +4994,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 126,
     "game": "kariyer-yolu",
@@ -5037,11 +5036,9 @@
         "apps": "1",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 127,
     "game": "kariyer-yolu",
@@ -5075,7 +5072,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 128,
     "game": "kariyer-yolu",
@@ -5118,7 +5114,7 @@
         "apps": "8",
         "goals": "0"
       },
-       {
+      {
         "season": "2026-",
         "team": "Eyüpspor",
         "apps": "1",
@@ -5127,7 +5123,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 129,
     "game": "kariyer-yolu",
@@ -5173,7 +5168,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 130,
     "game": "kariyer-yolu",
@@ -5207,7 +5201,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 131,
     "game": "kariyer-yolu",
@@ -5235,7 +5228,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 132,
     "game": "kariyer-yolu",
@@ -5266,12 +5258,9 @@
         "apps": "3",
         "goals": "1"
       }
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 133,
     "game": "kariyer-yolu",
@@ -5299,8 +5288,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 134,
     "game": "kariyer-yolu",
     "activeDate": "2026-09-02",
@@ -5351,7 +5339,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 135,
     "game": "kariyer-yolu",
@@ -5397,7 +5384,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 136,
     "game": "kariyer-yolu",
@@ -5467,7 +5453,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 137,
     "game": "kariyer-yolu",
@@ -5495,8 +5480,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 138,
     "game": "kariyer-yolu",
     "activeDate": "2026-09-07",
@@ -5529,7 +5513,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 139,
     "game": "kariyer-yolu",
@@ -5569,7 +5552,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 140,
     "game": "kariyer-yolu",
@@ -5591,7 +5573,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 141,
     "game": "kariyer-yolu",
@@ -5610,7 +5591,7 @@
         "apps": "14",
         "goals": "0"
       },
-       {
+      {
         "season": "2026-2026",
         "team": "Oxford (kiralık)",
         "apps": "16",
@@ -5625,7 +5606,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 142,
     "game": "kariyer-yolu",
@@ -5644,7 +5624,7 @@
         "apps": "38",
         "goals": "0"
       },
-       {
+      {
         "season": "2019-2021",
         "team": "Nantes (kiralık)",
         "apps": "69",
@@ -5671,8 +5651,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 143,
     "game": "kariyer-yolu",
     "activeDate": "2026-09-12",
@@ -5690,7 +5669,7 @@
         "apps": "19",
         "goals": "2"
       },
-       {
+      {
         "season": "2024-2026",
         "team": "Glasgow Rangers",
         "apps": "103",
@@ -5705,7 +5684,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 144,
     "game": "kariyer-yolu",
@@ -5745,7 +5723,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 145,
     "game": "kariyer-yolu",
@@ -5773,7 +5750,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 145,
     "game": "kariyer-yolu",
@@ -5819,7 +5795,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 146,
     "game": "kariyer-yolu",
@@ -5853,7 +5828,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 147,
     "game": "kariyer-yolu",
@@ -5881,8 +5855,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 148,
     "game": "kariyer-yolu",
     "activeDate": "2026-09-18",
@@ -5912,12 +5885,10 @@
         "apps": "0",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 149,
     "game": "kariyer-yolu",
     "activeDate": "2026-09-19",
@@ -5956,7 +5927,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 150,
     "game": "kariyer-yolu",
@@ -5996,7 +5966,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 151,
     "game": "kariyer-yolu",
@@ -6045,11 +6014,9 @@
         "apps": "5",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 152,
     "game": "kariyer-yolu",
@@ -6089,7 +6056,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 153,
     "game": "kariyer-yolu",
@@ -6141,7 +6107,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 154,
     "game": "kariyer-yolu",
@@ -6169,7 +6134,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 155,
     "game": "kariyer-yolu",
@@ -6200,21 +6164,482 @@
         "apps": "1",
         "goals": "0"
       }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 156,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-26",
+    "correctPlayer": "Nduka Ozokwo",
+    "career": [
+      {
+        "season": "2007-2010",
+        "team": "Nice",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2010–2011",
+        "team": "Boluspor",
+        "apps": "14",
+        "goals": "0"
+      },
+      {
+        "season": "2011-2014",
+        "team": "Mersin İdman Yurdu",
+        "apps": "112",
+        "goals": "11"
+      },
+      {
+        "season": "2015-2016",
+        "team": "Adanaspor",
+        "apps": "48",
+        "goals": "8"
+      },
+      {
+        "season": "2016-2017",
+        "team": "Wil 1900",
+        "apps": "18",
+        "goals": "3"
+      },
+      {
+        "season": "2017-2020",
+        "team": "Ankaragücü",
+        "apps": "4",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 157,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-27",
+    "correctPlayer": "Christopher Operi",
+    "career": [
+      {
+        "season": "2013–2013",
+        "team": "Caen U19",
+        "apps": "2",
+        "goals": "0"
+      },
+      {
+        "season": "2013-2015",
+        "team": "Caen B",
+        "apps": "38",
+        "goals": "4"
+      },
+      {
+        "season": "2015–2017",
+        "team": "Chateauroux",
+        "apps": "79",
+        "goals": "3"
+      },
+      {
+        "season": "2017–2021",
+        "team": "Gent",
+        "apps": "17",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2024",
+        "team": "Le Havre",
+        "apps": "78",
+        "goals": "5"
+      },
+      {
+        "season": "2024-",
+        "team": "Başakşehir",
+        "apps": "48",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 158,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-28",
+    "correctPlayer": "Tayfun Cora",
+    "career": [
+      {
+        "season": "2002–2013",
+        "team": "Trabzonspor",
+        "apps": "151",
+        "goals": "8"
+      },
+      {
+        "season": "2006-2007",
+        "team": "Kayserispor (kiralık)",
+        "apps": "38",
+        "goals": "0"
+      },
+      {
+        "season": "2013–2014",
+        "team": "Karşıyaka",
+        "apps": "21",
+        "goals": "0"
+      },
+      {
+        "season": "2014–2014",
+        "team": "Manisaspor",
+        "apps": "6",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 159,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-29",
+    "correctPlayer": "Kenan Hasagić",
+    "career": [
+      {
+        "season": "1998-1999",
+        "team": "Worwarts",
+        "apps": "21",
+        "goals": "0"
+      },
+      {
+        "season": "1999-2001",
+        "team": "Altay",
+        "apps": "42",
+        "goals": "0"
+      },
+      {
+        "season": "2001–2004",
+        "team": "Zeljeznicar",
+        "apps": "55",
+        "goals": "0"
+      },
+      {
+        "season": "2004–2007",
+        "team": "Gaziantepspor",
+        "apps": "76",
+        "goals": "0"
+      },
+      {
+        "season": "2007–2012",
+        "team": "İBB",
+        "apps": "84",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 160,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-09-30",
+    "correctPlayer": "Bünyamin Balcı",
+    "career": [
+      {
+        "season": "2016-2017",
+        "team": "Antalyaspor U19",
+        "apps": "15",
+        "goals": "1"
+      },
+      {
+        "season": "2017–2019",
+        "team": "Antalyaspor U21",
+        "apps": "25",
+        "goals": "3"
+      },
+      {
+        "season": "2019-",
+        "team": "Antalyaspor",
+        "apps": "229",
+        "goals": "6"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 161,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-01",
+    "correctPlayer": "Lorik Cana",
+    "career": [
+      {
+        "season": "2002-2005",
+        "team": "PSG",
+        "apps": "81",
+        "goals": "2"
+      },
+      {
+        "season": "2005–2009",
+        "team": "Marsilya",
+        "apps": "175",
+        "goals": "8"
+      },
+      {
+        "season": "2009–2010",
+        "team": "Sunderland",
+        "apps": "35",
+        "goals": "0"
+      },
+      {
+        "season": "2010–2011",
+        "team": "Galatasaray",
+        "apps": "31",
+        "goals": "1"
+      },
+      {
+        "season": "2011-2015",
+        "team": "Lazio",
+        "apps": "111",
+        "goals": "4"
+      },
+      {
+        "season": "2015-2016",
+        "team": "Nantes",
+        "apps": "24",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
 
+   {
+    "id": 162,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-02",
+    "correctPlayer": "Lubomir Satka",
+    "career": [
+      {
+        "season": "2014-2017",
+        "team": "Newcastle United",
+        "apps": "1",
+        "goals": "0"
+      },
+      {
+        "season": "2016–2016",
+        "team": "York City (kiralık)",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2017–2019",
+        "team": "Dunanjska Streda",
+        "apps": "83",
+        "goals": "5"
+      },
+      {
+        "season": "2019–2023",
+        "team": "Lech Poznan",
+        "apps": "113",
+        "goals": "5"
+      },
+      {
+        "season": "2023-2026",
+        "team": "Samsunspor",
+        "apps": "99",
+        "goals": "2"
+      },
+      {
+        "season": "2026-",
+        "team": "Omonia",
+        "apps": "5",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+
+   {
+    "id": 163,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-03",
+    "correctPlayer": "Lubomir Satka",
+    "career": [
+      {
+        "season": "2019-2020",
+        "team": "Bursaspor U19",
+        "apps": "9",
+        "goals": "2"
+      },
+      {
+        "season": "2020–2022",
+        "team": "Bursaspor",
+        "apps": "18",
+        "goals": "1"
+      },
+      {
+        "season": "2022–",
+        "team": "İstanbulspor",
+        "apps": "66",
+        "goals": "5"
+      },
+      {
+        "season": "2025–2025",
+        "team": "Bursaspor (kiralık)",
+        "apps": "9",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 164,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-04",
+    "correctPlayer": "Emrecan Bulut",
+    "career": [
+      {
+        "season": "2022–2023",
+        "team": "Somaspor",
+        "apps": "34",
+        "goals": "16"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Beşiktaş",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2024",
+        "team": "Ümraniyespor (kiralık)",
+        "apps": "13",
+        "goals": "2"
+      },
+      {
+        "season": "2024–",
+        "team": "Rizespor",
+        "apps": "55",
+        "goals": "7"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 165,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-05",
+    "correctPlayer": "Deniz Dilmen",
+    "career": [
+      {
+        "season": "2021–2023",
+        "team": "Başakşehir U19",
+        "apps": "41",
+        "goals": "0"
+      },
+      {
+        "season": "2023-",
+        "team": "Başakşehir",
+        "apps": "16",
+        "goals": "0"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Pendikspor (kiralık)",
+        "apps": "34",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 166,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-06",
+    "correctPlayer": "Filip Daems",
+    "career": [
+      {
+        "season": "1998–2001",
+        "team": "Lierse",
+        "apps": "105",
+        "goals": "6"
+      },
+      {
+        "season": "2001-2005",
+        "team": "Gençlerbirliği",
+        "apps": "125",
+        "goals": "17"
+      },
+      {
+        "season": "2005-2015",
+        "team": "Monchengladbach",
+        "apps": "232",
+        "goals": "16"
+      },
+      {
+        "season": "2015-2017",
+        "team": "Westerlo",
+        "apps": "53",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 167,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-07",
+    "correctPlayer": "João Figueiredo",
+    "career": [
+      {
+        "season": "2016–2018",
+        "team": "Atletico Mineiro",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2017-2017",
+        "team": "Democrata (kiralık)",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2018-2019",
+        "team": "Kauno Zalgiris",
+        "apps": "43",
+        "goals": "14"
+      },
+      {
+        "season": "2019–2020",
+        "team": "Ofi Girit",
+        "apps": "38",
+        "goals": "12"
+      },
+      {
+        "season": "2020-2022",
+        "team": "Al Wasl",
+        "apps": "31",
+        "goals": "13"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Gaziantep FK (kiralık)",
+        "apps": "38",
+        "goals": "10"
+      },
+      {
+        "season": "2022-2023",
+        "team": "Gaziantep FK",
+        "apps": "26",
+        "goals": "9"
+      },
+      {
+        "season": "2023-2025",
+        "team": "Başakşehir",
+        "apps": "102",
+        "goals": "24"
+      },
+      {
+        "season": "2025-",
+        "team": "Johor DT",
+        "apps": "20",
+        "goals": "11"
+      }
     ],
     "difficulty": "zor"
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]

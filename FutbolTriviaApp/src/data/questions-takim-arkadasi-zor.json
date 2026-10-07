@@ -1018,7 +1018,7 @@
     "id": 36,
     "game": "takim-arkadasi",
     "activeDate": "2026-05-09",
-    "correctPlayer": "Franck Ribery",
+    "correctPlayer": "Franck Ribéry",
     "teammates": [
       {
         "name": "Mamadou Niang",
@@ -1801,7 +1801,7 @@
     "id": 64,
     "game": "takim-arkadasi",
     "activeDate": "2026-06-05",
-    "correctPlayer": "Franck Ribery",
+    "correctPlayer": "Franck Ribéry",
     "teammates": [
       {
         "name": "Mamadou Niang",
@@ -3595,12 +3595,11 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 126,
     "game": "takim-arkadasi",
     "activeDate": "2026-08-18",
-    "correctPlayer": "Franck Ribery",
+    "correctPlayer": "Franck Ribéry",
     "teammates": [
       {
         "name": "Mamadou Niang",
@@ -3625,7 +3624,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 127,
     "game": "takim-arkadasi",
@@ -3655,7 +3653,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 128,
     "game": "takim-arkadasi",
@@ -3685,7 +3682,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 129,
     "game": "takim-arkadasi",
@@ -3715,7 +3711,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 130,
     "game": "takim-arkadasi",
@@ -3745,7 +3740,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 131,
     "game": "takim-arkadasi",
@@ -3775,7 +3769,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 132,
     "game": "takim-arkadasi",
@@ -3805,7 +3798,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 133,
     "game": "takim-arkadasi",
@@ -3835,7 +3827,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 134,
     "game": "takim-arkadasi",
@@ -3865,7 +3856,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 135,
     "game": "takim-arkadasi",
@@ -3895,7 +3885,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 136,
     "game": "takim-arkadasi",
@@ -3925,7 +3914,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 137,
     "game": "takim-arkadasi",
@@ -3955,8 +3943,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 138,
     "game": "takim-arkadasi",
     "activeDate": "2026-09-03",
@@ -3985,7 +3972,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 139,
     "game": "takim-arkadasi",
@@ -4015,7 +4001,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 140,
     "game": "takim-arkadasi",
@@ -4045,7 +4030,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 141,
     "game": "takim-arkadasi",
@@ -4075,8 +4059,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 142,
     "game": "takim-arkadasi",
     "activeDate": "2026-09-08",
@@ -4105,7 +4088,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 143,
     "game": "takim-arkadasi",
@@ -4135,7 +4117,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 144,
     "game": "takim-arkadasi",
@@ -4165,7 +4146,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 145,
     "game": "takim-arkadasi",
@@ -4195,7 +4175,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 146,
     "game": "takim-arkadasi",
@@ -4225,7 +4204,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 147,
     "game": "takim-arkadasi",
@@ -4255,7 +4233,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 148,
     "game": "takim-arkadasi",
@@ -4285,7 +4262,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 149,
     "game": "takim-arkadasi",
@@ -4315,8 +4291,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 150,
     "game": "takim-arkadasi",
     "activeDate": "2026-09-16",
@@ -4345,7 +4320,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 151,
     "game": "takim-arkadasi",
@@ -4375,8 +4349,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 152,
     "game": "takim-arkadasi",
     "activeDate": "2026-09-18",
@@ -4405,7 +4378,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 153,
     "game": "takim-arkadasi",
@@ -4435,7 +4407,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 154,
     "game": "takim-arkadasi",
@@ -4465,7 +4436,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 155,
     "game": "takim-arkadasi",
@@ -4524,7 +4494,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 157,
     "game": "takim-arkadasi",
@@ -4554,7 +4523,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 158,
     "game": "takim-arkadasi",
@@ -4584,7 +4552,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 159,
     "game": "takim-arkadasi",
@@ -4610,6 +4577,360 @@
       {
         "name": "Jose Sosa",
         "info": "2014-15 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 160,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-26",
+    "correctPlayer": "Jeremain Lens",
+    "teammates": [
+      {
+        "name": "Dries Mertens",
+        "info": "2011-13 sezonunda PSV'de birlikte oynadılar"
+      },
+      {
+        "name": "Fernandao",
+        "info": "2016-17 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Younes Belhanda",
+        "info": "2013-15 yılları arasında Dinamo Kiev'de birlikte oynadılar"
+      },
+      {
+        "name": "Alvaro Negredo",
+        "info": "2017-18 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Rachid Ghezzal",
+        "info": "2020-22 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 161,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-27",
+    "correctPlayer": "Florent Malouda",
+    "teammates": [
+      {
+        "name": "Fernando Torres",
+        "info": "2011-13 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Şen",
+        "info": "2013-14 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Didier Drogba",
+        "info": "2007-12 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Juninho Pernambucano",
+        "info": "2003-07 yılları arasında Lyon'da birlikte oynadılar"
+      },
+      {
+        "name": "Alanzinho",
+        "info": "2013-14 sezonunda Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 162,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-28",
+    "correctPlayer": "Papiss Cisse",
+    "teammates": [
+      {
+        "name": "Ozan Tufan",
+        "info": "2020-21 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Hatem Ben Arfa",
+        "info": "2012-14 yılları arasında Newcastle United'da birlikte oynadılar"
+      },
+      {
+        "name": "Yohan Cabaye",
+        "info": "2012-14 yılları arasında Newcastle United'da birlikte oynadılar"
+      },
+      {
+        "name": "Altay Bayındır",
+        "info": "2020-21 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Merih Demiral",
+        "info": "2018-19 sezonunda Alanyaspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 163,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-29",
+    "correctPlayer": "Abdul Kader Keita",
+    "teammates": [
+      {
+        "name": "Mamadou Niang",
+        "info": "2011-12 sezonunda Al Sadd'da birlikte oynadılar"
+      },
+      {
+        "name": "Tony Sylva",
+        "info": "2005-07 yılları arasında Lille'de birlikte oynadılar"
+      },
+      {
+        "name": "Karim Benzema",
+        "info": "2007-09 yılları arasında Lyon'da birlikte oynadılar"
+      },
+      {
+        "name": "Caner Erkin",
+        "info": "2009-10 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Hakan Balta",
+        "info": "2009-10 sezonunda Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 164,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-09-30",
+    "correctPlayer": "Bruma",
+    "teammates": [
+      {
+        "name": "Wesley Sneijder",
+        "info": "2014-17 yılları arasında Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Enner Valencia",
+        "info": "2022-23 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Timo Werner",
+        "info": "2017-19 yılları arasında Leipzig'de birlikte oynadılar"
+      },
+      {
+        "name": "Eren Derdiyok",
+        "info": "2016-17 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Orkun Kökçü",
+        "info": "2024-25 sezonunda Benfica'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 165,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-01",
+    "correctPlayer": "Loris Karius",
+    "teammates": [
+      {
+        "name": "Edin Dzeko",
+        "info": "2025-26 sezonunda Schalke'de birlikte oynadılar"
+      },
+      {
+        "name": "Gary Medel",
+        "info": "2018-19 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Adem Ljajic",
+        "info": "2018-20 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Mohamed Salah",
+        "info": "2016-18 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Kenan Karaman",
+        "info": "2025-26 sezonunda Schalke'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 166,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-02",
+    "correctPlayer": "Emirhan İlkhan",
+    "teammates": [
+      {
+        "name": "Fabio Quagliarella",
+        "info": "2022-23 sezonunda Sampdoria'da birlikte oynadılar"
+      },
+      {
+        "name": "Vanja Milinkovic Savic",
+        "info": "2024-25 sezonunda Torino'da birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Babacan",
+        "info": "2023-24 sezonunda Başakşehir'de birlikte oynadılar"
+      },
+      {
+        "name": "Michy Batshuayi",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Adem Ljajic",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 167,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-03",
+    "correctPlayer": "Hakim Ziyech",
+    "teammates": [
+      {
+        "name": "Jesus Corona",
+        "info": "2014-15 sezonunda Twente'de birlikte oynadılar"
+      },
+      {
+        "name": "Angelino",
+        "info": "2023-24 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Thiago Silva",
+        "info": "2020-23 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Dusan Tadic",
+        "info": "2018-20 yılları arasında Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Mauro Icardi",
+        "info": "2023-25 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 168,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-04",
+    "correctPlayer": "Juan Mata",
+    "teammates": [
+      {
+        "name": "Manuel Fernandes",
+        "info": "2007-11 yılları arasında Valencia'da birlikte oynadılar"
+      },
+      {
+        "name": "David Luiz",
+        "info": "2011-14 yılları arasında Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Milot Rashica",
+        "info": "2022-23 sezonunda Galatasaray'da birlikte oynadılar"
+      },
+      {
+        "name": "Paul Pogba",
+        "info": "2016-22 yılları arasında Manchester United'da birlikte oynadılar"
+      },
+      {
+        "name": "Zlatan Ibrahimovic",
+        "info": "2016-18 yılları arasında Manchester United'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 169,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-05",
+    "correctPlayer": "Nelson Semedo",
+    "teammates": [
+      {
+        "name": "Kostas Mitroglou",
+        "info": "2015-17 yılları arasında Benfica'da birlikte oynadılar"
+      },
+      {
+        "name": "Adama Traore",
+        "info": "2020-22 yılları arasında Wolves'ta birlikte oynadılar"
+      },
+      {
+        "name": "Alejandro Grimaldo",
+        "info": "2016-17 yılları arasında Benfica'da birlikte oynadılar"
+      },
+      {
+        "name": "Ousmane Dembele",
+        "info": "2017-20 yılları arasında Barcelona'da birlikte oynadılar"
+      },
+      {
+        "name": "Matteo Guendouzi",
+        "info": "2025-26 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 170,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-06",
+    "correctPlayer": "Alexander Sorloth",
+    "teammates": [
+      {
+        "name": "John Obi Mikel",
+        "info": "2019-20 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Filip Novak",
+        "info": "2019-20 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Gerard Moreno",
+        "info": "2023-24 sezonunda Villarreal'de birlikte oynadılar"
+      },
+      {
+        "name": "Takefusa Kubo",
+        "info": "2022-23 sezonunda Real Sociedad'da birlikte oynadılar"
+      },
+      {
+        "name": "Julian Alvarez",
+        "info": "2024-26 yılları arasında Atletico Madrid'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 171,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-07",
+    "correctPlayer": "Allan Saint Maximin",
+    "teammates": [
+      {
+        "name": "Edin Dzeko",
+        "info": "2024-25 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Riyad Mahrez",
+        "info": "2023-24 sezonunda Al Ahli'de birlikte oynadılar"
+      },
+      {
+        "name": "Jonjo Shelvey",
+        "info": "2019-23 yılları arasında Newcastle'da birlikte oynadılar"
+      },
+      {
+        "name": "Joelinton",
+        "info": "2019-23 yılları arasında Newcastle'da birlikte oynadılar"
+      },
+      {
+        "name": "Çağlar Söyüncü",
+        "info": "2024-25 sezonunda Fenerbahçe'de birlikte oynadılar"
       }
     ],
     "difficulty": "zor"
