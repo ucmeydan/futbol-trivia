@@ -5,7 +5,8 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, View, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
+import { AppState, type AppStateStatus } from 'react-native';
 import DifficultyScreen from './src/screens/DifficultyScreen';
 import GameScreen from './src/screens/GameScreen';
 import StatsScreen from './src/screens/StatsScreen';
@@ -110,6 +111,8 @@ function HomeTabs() {
 }
 
 export default function App() {
+  const appState = useRef<AppStateStatus>(AppState.currentState);
+
   useEffect(() => {
     // Reklam takibi izni (ATT) — açılışta, ilk açılışta pencere çıksın (Guideline 2.1)
     ensureTrackingPermission();
@@ -121,6 +124,16 @@ export default function App() {
     requestNotificationPermission().then(granted => {
       if (granted) scheduleDailyNotification();
     });
+
+    // Uygulama öne gelince (arka plandan dönerken) günlük sync tetikle
+    const subscription = AppState.addEventListener('change', (nextState) => {
+      if (appState.current.match(/inactive|background/) && nextState === 'active') {
+        syncQuestionsInBackground();
+      }
+      appState.current = nextState;
+    });
+
+    return () => subscription.remove();
   }, []);
 
   // Deep link URL → navigation state eşlemesi
