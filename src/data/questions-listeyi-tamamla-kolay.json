@@ -2997,5 +2997,31 @@
       "Emre Aşık"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 162,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın mevcut kadrosundaki yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-08",
+    "targets": [
+      "Alexander Nübel",
+      "Amir Murillo",
+      "Emmanuel Agbadou",
+      "Tiago Djalo",
+      "Kassoum Ouattara",
+      "Wilfred Ndidi",
+      "Junior Olaitan",
+      "Milot Rashica",
+      "Vaclav Cerny",
+      "Leandro Trossard",
+      "Hyeon Gyu Oh",
+      "Dusan Vlahovic",
+      "Ernest Poku",
+      "Fabio Miretti"
+
+    ],
+    "difficulty": "kolay"
   }
 ]

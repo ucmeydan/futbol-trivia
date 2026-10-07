@@ -3598,5 +3598,26 @@
       "Aytaç Kara"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 182,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en fazla gol atan 10 İtalyan futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-08",
+    "targets": [
+      "Fabio Borini",
+      "Mario Balotelli",
+      "Stefano Napoleoni",
+      "Ciro Immobile",
+      "Stefano Okaka",
+      "Andrea Bertolacci",
+      "Franco Tongya",
+      "Nicolo Zaniolo",
+      "João Pedro",
+      "Federico Macheda"
+    ],
+    "difficulty": "zor"
   }
 ]

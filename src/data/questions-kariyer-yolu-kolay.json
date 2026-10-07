@@ -5874,5 +5874,46 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 28,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-08",
+    "correctPlayer": "Ernest Muçi",
+    "career": [
+      {
+        "season": "2018–2021",
+        "team": "KF Tirana",
+        "apps": "64",
+        "goals": "20"
+      },
+      {
+        "season": "2021-2024",
+        "team": "Legia Varşova",
+        "apps": "114",
+        "goals": "21"
+      },
+      {
+        "season": "2024-2026",
+        "team": "Beşiktaş",
+        "apps": "61",
+        "goals": "11"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Trabzonspor (kiralık)",
+        "apps": "35",
+        "goals": "15"
+      },
+      {
+        "season": "2026-",
+        "team": "Trabzonspor",
+        "apps": "7",
+        "goals": "1"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
 ]

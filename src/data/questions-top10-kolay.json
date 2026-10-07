@@ -3166,11 +3166,11 @@
   },
 
   {
-    "id": 15,
+    "id": 159,
     "game": "top10",
     "title": "Fenerbahçe tarihinde en yüksek bonservis geliri elde edilen 10 futbolcu?",
     "type": "player",
-    "activeDate": "2026-04-25",
+    "activeDate": "2026-10-07",
     "targets": [
       "Ferdi Kadıoğlu",
       "Arda Güler",
@@ -3182,6 +3182,27 @@
       "Eljif Elmas",
       "Moussa Sow",
       "Youssef En Nesyri"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 160,
+    "game": "top10",
+    "title": "Süper Lig'de 2024-25 sezonunu ilk 10 sırada bitiren takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-08",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Samsunspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Eyüpspor",
+      "Trabzonspor",
+      "Göztepe",
+      "Rizespor",
+      "Kasımpaşa"
     ],
     "difficulty": "kolay"
   }

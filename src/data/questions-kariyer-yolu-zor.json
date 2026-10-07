@@ -6641,5 +6641,51 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 168,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-08",
+    "correctPlayer": "Tim Jabol Folcarelli",
+    "career": [
+      {
+        "season": "2017-2018",
+        "team": "Mulhouse",
+        "apps": "10",
+        "goals": "0"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Saint Louis Neuweg",
+        "apps": "21",
+        "goals": "1"
+      },
+      {
+        "season": "2019-2020",
+        "team": "Rennes B",
+        "apps": "18",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2023",
+        "team": "Le Puy Foot",
+        "apps": "44",
+        "goals": "4"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Ajaccio",
+        "apps": "50",
+        "goals": "4"
+      },
+      {
+        "season": "2025-",
+        "team": "Trabzonspor",
+        "apps": "40",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
