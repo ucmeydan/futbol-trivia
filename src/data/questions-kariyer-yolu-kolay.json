@@ -5423,8 +5423,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 147,
     "game": "kariyer-yolu",
     "activeDate": "2026-09-27",
@@ -5463,7 +5462,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 148,
     "game": "kariyer-yolu",
@@ -5509,7 +5507,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 149,
     "game": "kariyer-yolu",
@@ -5537,7 +5534,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 150,
     "game": "kariyer-yolu",
@@ -5577,7 +5573,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 151,
     "game": "kariyer-yolu",
@@ -5641,7 +5636,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 152,
     "game": "kariyer-yolu",
@@ -5687,7 +5681,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 153,
     "game": "kariyer-yolu",
@@ -5715,7 +5708,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 154,
     "game": "kariyer-yolu",
@@ -5761,8 +5753,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 155,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-05",
@@ -5789,8 +5780,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 156,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-06",
@@ -5823,8 +5813,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 157,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-07",
@@ -5875,7 +5864,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 158,
     "game": "kariyer-yolu",
@@ -5912,7 +5900,39 @@
         "apps": "7",
         "goals": "1"
       }
-
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 159,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-09",
+    "correctPlayer": "Fabio Miretti",
+    "career": [
+      {
+        "season": "2021–2022",
+        "team": "Juventus U23",
+        "apps": "33",
+        "goals": "4"
+      },
+      {
+        "season": "2022-",
+        "team": "Juventus",
+        "apps": "106",
+        "goals": "3"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Genoa (kiralık)",
+        "apps": "26",
+        "goals": "3"
+      },
+      {
+        "season": "2026-",
+        "team": "Beşiktaş (kiralık)",
+        "apps": "3",
+        "goals": "0"
+      }
     ],
     "difficulty": "kolay"
   }

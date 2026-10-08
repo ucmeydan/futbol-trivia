@@ -3691,7 +3691,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 181,
     "game": "listeyi-tamamla",
@@ -3707,6 +3706,24 @@
       "Hugo Rodallega",
       "Alexander Sorloth",
       "Anastasios Bakasetas"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 182,
+    "game": "listeyi-tamamla",
+    "title": "Tarihinde yalnızca 1 sezon Süper Lig'de mücadele edip küme düşmüş olan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-09",
+    "targets": [
+      "Bodrum FK",
+      "Pendikspor",
+      "Ümraniyespor",
+      "Petrolofisi",
+      "Bucaspor 1928",
+      "Siirtspor",
+      "Kırıkkale FK",
+      "Kahramanmaraşspor"
     ],
     "difficulty": "zor"
   }

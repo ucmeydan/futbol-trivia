@@ -4799,5 +4799,64 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 165,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-09",
+    "correctPlayer": "Çağlar Söyüncü",
+    "teammates": [
+      {
+        "name": "Onur Bulut",
+        "info": "2016-18 yılları arasında Freiburg'da birlikte oynadılar."
+      },
+      {
+        "name": "Cengiz Ünder",
+        "info": "2014-16 yılları arasında Altınordu'da, 2024-25 sezonunda Fenerbahçe'de ve Türk Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "info": "2023-24 sezonunda Atletico'da birlikte oynadılar."
+      },
+      {
+        "name": "Jamie Vardy",
+        "info": "2018-23 yılları arasında Leicester'da birlikte oynadılar"
+      },
+      {
+        "name": "Edin Džeko",
+        "info": "2024-25 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 166,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-10",
+    "correctPlayer": "Radamel Falcao",
+    "teammates": [
+      {
+        "name": "Kylian Mbappé",
+        "info": "2013-14 yılları arasında Monaco'da birlikte oynadılar."
+      },
+      {
+        "name": "Sofiane Feghouli",
+        "info": "2019-21 yılları arasında Galatasaray'da birlikte oynadılar."
+      },
+      {
+        "name": "Gabi",
+        "info": "2011-13 yılları arasında Atletico'da birlikte oynadılar."
+      },
+      {
+        "name": "Hulk",
+        "info": "2009-11 yılları arasında Porto'da birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Muslera",
+        "info": "2019-21 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

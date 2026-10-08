@@ -3023,5 +3023,25 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 163,
+    "game": "listeyi-tamamla",
+    "title": "Mevcut Süper Lig takımları arasında, Süper Lig'de herhangi bir sezonu ilk 4 sıraada bitiremeyen takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-09",
+    "targets": [
+      "Rizespor",
+      "Kasımpaşa",
+      "Alanyaspor",
+      "Gaziantep FK",
+      "Eyüpspor",
+      "Erzurumspor",
+      "Amed SK",
+      "Çorum FK"
+
+    ],
+    "difficulty": "kolay"
   }
 ]

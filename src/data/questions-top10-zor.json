@@ -3619,5 +3619,27 @@
       "Federico Macheda"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 183,
+    "game": "top10",
+    "title": "Trabzonspor tarihinde en yüksek bonservis ödenen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-09",
+    "targets": [
+      "Franculino Dju",
+      "Aral Şimşir",
+      "Noah Saviolo",
+      "Christ Inao Oulai",
+      "Ernest Muçi",
+      "Sidny Lopes Cabral",
+      "Majeed Waris",
+      "Felipe Augusto",
+      "Gökhan Ünal",
+      "Oleksandr Zubkov"
+      
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -3205,5 +3205,26 @@
       "Kasımpaşa"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 161,
+    "game": "top10",
+    "title": "Süper Lig'de güncel piyasa değeri en yüksek 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-09",
+    "targets": [
+      "Victor Osimhen",
+      "Mason Greenwood",
+      "Rafael Leao",
+      "Dusan Vlahovic",
+      "Aleksey Batrakov",
+      "Gabriel Sara",
+      "Matteo Guendouzi",
+      "Franculino Dju",
+      "Lesley Ugochukwu",
+      "Ernest Poku"
+    ],
+    "difficulty": "kolay"
   }
 ]
