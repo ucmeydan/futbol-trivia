@@ -8,6 +8,7 @@ const MIN_GAP_MS = 5 * 60 * 1000; // ...and never more often than once / 5 min
 let gameCount = 0;
 let lastShownAt = 0;
 let initialized = false;
+let pendingAd: any = null; // preloaded at game start, consumed at game end
 
 async function ensureInit(): Promise<boolean> {
   if (initialized) return true;
@@ -23,21 +24,37 @@ async function ensureInit(): Promise<boolean> {
 }
 
 /**
- * Call when the player leaves a game. Occasionally shows an interstitial; the
- * frequency caps above keep it rare and unobtrusive. Never blocks navigation.
+ * Oyun ekranı açılırken çağır — reklamı arka planda önceden yükler.
+ * Oyun bitiminde reklam hazır olduğu için anında gösterilebilir.
+ */
+export async function preloadInterstitial(): Promise<void> {
+  if (!(await ensureInit())) return;
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const { InterstitialAd, AdEventType } = require('react-native-google-mobile-ads');
+    const ad = InterstitialAd.createForAdRequest(INTERSTITIAL_UNIT_ID);
+    ad.addAdEventListener(AdEventType.LOADED, () => { pendingAd = ad; });
+    ad.addAdEventListener(AdEventType.ERROR, () => {}); // sessizce geç
+    ad.load();
+  } catch {
+    // ignore
+  }
+}
+
+/**
+ * Oyuncunun oyundan çıkışında çağır. Önceden yüklenmiş reklam varsa gösterir;
+ * yoksa (ağ yoktu, frekans limiti) sessizce geçer. Navigasyonu bloklamaz.
  */
 export async function maybeShowInterstitialOnGameEnd(): Promise<void> {
   gameCount++;
   if (gameCount % SHOW_EVERY !== 0) return;
   if (Date.now() - lastShownAt < MIN_GAP_MS) return;
-  if (!(await ensureInit())) return;
+
+  const ad = pendingAd;
+  pendingAd = null; // tüket
+  if (!ad) return;  // önyükleme başarısızsa reklamı atla
 
   try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const ads = require('react-native-google-mobile-ads');
-    const { InterstitialAd, AdEventType } = ads;
-    const ad = InterstitialAd.createForAdRequest(INTERSTITIAL_UNIT_ID);
-
     await new Promise<void>((resolve) => {
       let done = false;
       const finish = () => {
@@ -45,14 +62,13 @@ export async function maybeShowInterstitialOnGameEnd(): Promise<void> {
         done = true;
         resolve();
       };
-      ad.addAdEventListener(AdEventType.LOADED, () => {
-        lastShownAt = Date.now(); // start the cooldown from this display
-        ad.show().catch(finish);
-      });
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      const { AdEventType } = require('react-native-google-mobile-ads');
       ad.addAdEventListener(AdEventType.CLOSED, finish);
       ad.addAdEventListener(AdEventType.ERROR, finish);
       setTimeout(finish, 12000); // safety: never hang
-      ad.load();
+      lastShownAt = Date.now();
+      ad.show().catch(finish);
     });
   } catch {
     // ignore — ads are best-effort
