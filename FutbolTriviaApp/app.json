@@ -2,7 +2,7 @@
   "expo": {
     "name": "Futbol Trivia",
     "slug": "futbol-trivia",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "futboltrivia",
@@ -14,7 +14,7 @@
     },
     "ios": {
       "bundleIdentifier": "com.futboltrivia.app",
-      "buildNumber": "9",
+      "buildNumber": "10",
       "supportsTablet": false,
       "requireFullScreen": true,
       "infoPlist": {
