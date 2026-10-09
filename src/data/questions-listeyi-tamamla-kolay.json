@@ -2938,7 +2938,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 159,
     "game": "listeyi-tamamla",
@@ -2955,7 +2954,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 160,
     "game": "listeyi-tamamla",
@@ -2980,7 +2978,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 161,
     "game": "listeyi-tamamla",
@@ -2998,7 +2995,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 162,
     "game": "listeyi-tamamla",
@@ -3020,11 +3016,9 @@
       "Dusan Vlahovic",
       "Ernest Poku",
       "Fabio Miretti"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 163,
     "game": "listeyi-tamamla",
@@ -3040,7 +3034,24 @@
       "Erzurumspor",
       "Amed SK",
       "Çorum FK"
-
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 164,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'in ilk 6 haftasında 10 ve üzeri sayıda gol atan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-10",
+    "targets": [
+      "Fenerbahçe",
+      "Amed SK",
+      "Beşiktaş",
+      "Galatasaray",
+      "Trabzonspor",
+      "Çorum FK",
+      "Göztepe",
+      "Başakşehir"
     ],
     "difficulty": "kolay"
   }

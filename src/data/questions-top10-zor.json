@@ -3641,5 +3641,26 @@
       
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 184,
+    "game": "top10",
+    "title": "Mircea Lucescu'nun Türk Milli takımı teknik direktörü olduğu dönemde en çok milli maça çıkan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-10-10",
+    "targets": [
+      "Çağlar Söyüncü",
+      "Cenk Tosun",
+      "Okay Yokuşlu",
+      "Oğuzhan Özyakup",
+      "Cengiz Ünder",
+      "Hakan Çalhanoğlu",
+      "Kaan Ayhan",
+      "Mehmet Topal",
+      "Yunus Mallı",
+      "Yusuf Yazıcı"
+      
+    ],
+    "difficulty": "zor"
   }
 ]

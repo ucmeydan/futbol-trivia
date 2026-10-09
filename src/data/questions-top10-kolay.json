@@ -3226,5 +3226,27 @@
       "Ernest Poku"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 162,
+    "game": "top10",
+    "title": "Süper Lig'in ilk haftasında sahadaki yaş ortalaması en genç 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-10-09",
+    "targets": [
+      "Göztepe",
+      "Samsunspor",
+      "Kocaelispor",
+      "Kasımpaşa",
+      "Eyüpspor",
+      "Beşiktaş",
+      "Rizespor",
+      "Gençlerbirliği",
+      "Başakşehir",
+      "Gaziantep FK"
+
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -5935,5 +5935,33 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 160,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-10",
+    "correctPlayer": "Hasan Şaş",
+    "career": [
+      {
+        "season": "1994–1995",
+        "team": "Köln II",
+        "apps": "5",
+        "goals": "0"
+      },
+      {
+        "season": "1995-1998",
+        "team": "Ankaragücü",
+        "apps": "89",
+        "goals": "11"
+      },
+      {
+        "season": "1998–2009",
+        "team": "Galatasaray",
+        "apps": "354",
+        "goals": "38"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

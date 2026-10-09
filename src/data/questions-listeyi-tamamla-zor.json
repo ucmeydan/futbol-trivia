@@ -3726,5 +3726,27 @@
       "Kahramanmaraşspor"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 183,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın 2012-13 sezonu Şampiyonlar Ligi grup aşamasında Manchester United'ı 1-0 mağlup ettiği maçtaki ilk 11'i?",
+    "type": "player",
+    "activeDate": "2026-10-10",
+    "targets": [
+      "Fernando Muslera",
+      "Albert Riera",
+      "Dany Nounkeu",
+      "Semih Kaya",
+      "Emmanuel Eboue",
+      "Hamit Altıntop",
+      "Selçuk İnan",
+      "Felipe Melo",
+      "Nordin Amrabat",
+      "Johan Elmander",
+      "Burak Yılmaz"
+    ],
+    "difficulty": "zor"
   }
 ]
