@@ -14,7 +14,7 @@
     },
     "ios": {
       "bundleIdentifier": "com.futboltrivia.app",
-      "buildNumber": "10",
+      "buildNumber": "11",
       "supportsTablet": false,
       "requireFullScreen": true,
       "infoPlist": {

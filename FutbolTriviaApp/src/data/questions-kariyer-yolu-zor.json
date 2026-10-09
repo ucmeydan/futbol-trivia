@@ -6401,8 +6401,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 162,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-02",
@@ -6447,9 +6446,7 @@
     ],
     "difficulty": "zor"
   },
-
-
-   {
+  {
     "id": 163,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-03",
@@ -6482,7 +6479,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 164,
     "game": "kariyer-yolu",
@@ -6516,7 +6512,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 165,
     "game": "kariyer-yolu",
@@ -6544,7 +6539,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 166,
     "game": "kariyer-yolu",
@@ -6578,8 +6572,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 167,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-07",
@@ -6638,6 +6631,123 @@
         "team": "Johor DT",
         "apps": "20",
         "goals": "11"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 168,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-08",
+    "correctPlayer": "Tim Jabol Folcarelli",
+    "career": [
+      {
+        "season": "2017-2018",
+        "team": "Mulhouse",
+        "apps": "10",
+        "goals": "0"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Saint Louis Neuweg",
+        "apps": "21",
+        "goals": "1"
+      },
+      {
+        "season": "2019-2020",
+        "team": "Rennes B",
+        "apps": "18",
+        "goals": "0"
+      },
+      {
+        "season": "2021-2023",
+        "team": "Le Puy Foot",
+        "apps": "44",
+        "goals": "4"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Ajaccio",
+        "apps": "50",
+        "goals": "4"
+      },
+      {
+        "season": "2025-",
+        "team": "Trabzonspor",
+        "apps": "40",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 169,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-09",
+    "correctPlayer": "Mithat Pala",
+    "career": [
+      {
+        "season": "2019-2020",
+        "team": "Pazarspor",
+        "apps": "28",
+        "goals": "4"
+      },
+      {
+        "season": "2020-",
+        "team": "Rizespor",
+        "apps": "148",
+        "goals": "6"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Afyonspor (kiralık)",
+        "apps": "37",
+        "goals": "8"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 170,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-10",
+    "correctPlayer": "Paul Mukairu",
+    "career": [
+      {
+        "season": "2019-2022",
+        "team": "Antalyaspor",
+        "apps": "53",
+        "goals": "8"
+      },
+      {
+        "season": "2020-2021",
+        "team": "Anderlecht (kiralık)",
+        "apps": "29",
+        "goals": "4"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Kopenhag",
+        "apps": "25",
+        "goals": "0"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Reading (kiralık)",
+        "apps": "38",
+        "goals": "6"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Boluspor (kiralık)",
+        "apps": "39",
+        "goals": "7"
+      },
+      {
+        "season": "2025-",
+        "team": "Pogon Szczesin",
+        "apps": "45",
+        "goals": "10"
       }
     ],
     "difficulty": "zor"

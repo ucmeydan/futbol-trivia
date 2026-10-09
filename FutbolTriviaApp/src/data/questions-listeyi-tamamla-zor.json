@@ -3690,5 +3690,63 @@
       "Diyarbakırspor"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 181,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor tarihinde 30 ve üzeri sayıda gol atan yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-08",
+    "targets": [
+      "Shota Arveladze",
+      "Anthony Nwakaeme",
+      "Paul Onuachu",
+      "Davor Vugrinec",
+      "Ibrahim Yattara",
+      "Hugo Rodallega",
+      "Alexander Sorloth",
+      "Anastasios Bakasetas"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 182,
+    "game": "listeyi-tamamla",
+    "title": "Tarihinde yalnızca 1 sezon Süper Lig'de mücadele edip küme düşmüş olan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-09",
+    "targets": [
+      "Bodrum FK",
+      "Pendikspor",
+      "Ümraniyespor",
+      "Petrolofisi",
+      "Bucaspor",
+      "Siirtspor",
+      "Kırıkkalespor",
+      "Kahramanmaraşspor"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 183,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın 2012-13 sezonu Şampiyonlar Ligi grup aşamasında Manchester United'ı 1-0 mağlup ettiği maçtaki ilk 11'i?",
+    "type": "player",
+    "activeDate": "2026-10-10",
+    "targets": [
+      "Fernando Muslera",
+      "Albert Riera",
+      "Dany Nounkeu",
+      "Semih Kaya",
+      "Emmanuel Eboue",
+      "Hamit Altıntop",
+      "Selçuk İnan",
+      "Felipe Melo",
+      "Nordin Amrabat",
+      "Johan Elmander",
+      "Burak Yılmaz"
+    ],
+    "difficulty": "zor"
   }
 ]

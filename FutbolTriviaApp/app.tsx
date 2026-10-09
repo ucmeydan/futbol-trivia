@@ -16,7 +16,7 @@ import { requestNotificationPermission, scheduleDailyNotification } from './src/
 import { initCrashReporting } from './src/utils/crashReporting';
 import ErrorBoundary from './src/components/ErrorBoundary';
 import { ensureTrackingPermission } from './src/ads/att';
-import { maybeShowInterstitialOnGameEnd } from './src/ads/interstitial';
+import { maybeShowInterstitialOnGameEnd, preloadInterstitial } from './src/ads/interstitial';
 
 // Uygulama render edilmeden önce bir kez başlat (DSN tanımlı değilse no-op).
 initCrashReporting();
@@ -167,7 +167,10 @@ export default function App() {
           <Stack.Screen
             name="Game"
             component={GameScreen}
-            listeners={{ blur: () => { maybeShowInterstitialOnGameEnd(); } }}
+            listeners={{
+                focus: () => { preloadInterstitial(); },
+                blur:  () => { maybeShowInterstitialOnGameEnd(); },
+              }}
           />
         </Stack.Navigator>
       </NavigationContainer>

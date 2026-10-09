@@ -2938,7 +2938,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 159,
     "game": "listeyi-tamamla",
@@ -2955,7 +2954,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 160,
     "game": "listeyi-tamamla",
@@ -2980,7 +2978,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 161,
     "game": "listeyi-tamamla",
@@ -2995,6 +2992,66 @@
       "Mehmet Topal",
       "Michy Batshuayi",
       "Emre Aşık"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 162,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın mevcut kadrosundaki yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-08",
+    "targets": [
+      "Alexander Nübel",
+      "Amir Murillo",
+      "Emmanuel Agbadou",
+      "Tiago Djalo",
+      "Kassoum Ouattara",
+      "Wilfred Ndidi",
+      "Junior Olaitan",
+      "Milot Rashica",
+      "Vaclav Cerny",
+      "Leandro Trossard",
+      "Hyeon Gyu Oh",
+      "Dusan Vlahovic",
+      "Ernest Poku",
+      "Fabio Miretti"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 163,
+    "game": "listeyi-tamamla",
+    "title": "Mevcut Süper Lig takımları arasında, Süper Lig'de herhangi bir sezonu ilk 4 sıraada bitiremeyen takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-09",
+    "targets": [
+      "Rizespor",
+      "Kasımpaşa",
+      "Alanyaspor",
+      "Gaziantep FK",
+      "Eyüpspor",
+      "Erzurumspor",
+      "Amed SK",
+      "Çorum FK"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 164,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'in ilk 6 haftasında 10 ve üzeri sayıda gol atan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-10",
+    "targets": [
+      "Fenerbahçe",
+      "Amed SK",
+      "Beşiktaş",
+      "Galatasaray",
+      "Trabzonspor",
+      "Çorum FK",
+      "Göztepe",
+      "Başakşehir"
     ],
     "difficulty": "kolay"
   }

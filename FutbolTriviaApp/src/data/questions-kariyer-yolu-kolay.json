@@ -5423,8 +5423,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 147,
     "game": "kariyer-yolu",
     "activeDate": "2026-09-27",
@@ -5463,7 +5462,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 148,
     "game": "kariyer-yolu",
@@ -5509,7 +5507,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 149,
     "game": "kariyer-yolu",
@@ -5537,7 +5534,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 150,
     "game": "kariyer-yolu",
@@ -5577,7 +5573,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 151,
     "game": "kariyer-yolu",
@@ -5641,7 +5636,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 152,
     "game": "kariyer-yolu",
@@ -5687,7 +5681,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 153,
     "game": "kariyer-yolu",
@@ -5715,7 +5708,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 154,
     "game": "kariyer-yolu",
@@ -5761,8 +5753,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 155,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-05",
@@ -5789,8 +5780,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 156,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-06",
@@ -5823,8 +5813,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 157,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-07",
@@ -5871,6 +5860,106 @@
         "team": "Atalanta (kiralık)",
         "apps": "4",
         "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 158,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-08",
+    "correctPlayer": "Ernest Muçi",
+    "career": [
+      {
+        "season": "2018–2021",
+        "team": "KF Tirana",
+        "apps": "64",
+        "goals": "20"
+      },
+      {
+        "season": "2021-2024",
+        "team": "Legia Varşova",
+        "apps": "114",
+        "goals": "21"
+      },
+      {
+        "season": "2024-2026",
+        "team": "Beşiktaş",
+        "apps": "61",
+        "goals": "11"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Trabzonspor (kiralık)",
+        "apps": "35",
+        "goals": "15"
+      },
+      {
+        "season": "2026-",
+        "team": "Trabzonspor",
+        "apps": "7",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 159,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-09",
+    "correctPlayer": "Fabio Miretti",
+    "career": [
+      {
+        "season": "2021–2022",
+        "team": "Juventus U23",
+        "apps": "33",
+        "goals": "4"
+      },
+      {
+        "season": "2022-",
+        "team": "Juventus",
+        "apps": "106",
+        "goals": "3"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Genoa (kiralık)",
+        "apps": "26",
+        "goals": "3"
+      },
+      {
+        "season": "2026-",
+        "team": "Beşiktaş (kiralık)",
+        "apps": "3",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 160,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-10",
+    "correctPlayer": "Hasan Şaş",
+    "career": [
+      {
+        "season": "1994–1995",
+        "team": "Köln II",
+        "apps": "5",
+        "goals": "0"
+      },
+      {
+        "season": "1995-1998",
+        "team": "Ankaragücü",
+        "apps": "89",
+        "goals": "11"
+      },
+      {
+        "season": "1998–2009",
+        "team": "Galatasaray",
+        "apps": "354",
+        "goals": "38"
       }
     ],
     "difficulty": "kolay"

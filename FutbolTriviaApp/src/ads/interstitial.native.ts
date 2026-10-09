@@ -41,34 +41,49 @@ export async function preloadInterstitial(): Promise<void> {
   }
 }
 
+async function showAd(ad: any): Promise<void> {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const { AdEventType } = require('react-native-google-mobile-ads');
+  await new Promise<void>((resolve) => {
+    let done = false;
+    const finish = () => { if (done) return; done = true; resolve(); };
+    ad.addAdEventListener(AdEventType.CLOSED, finish);
+    ad.addAdEventListener(AdEventType.ERROR, finish);
+    setTimeout(finish, 12000);
+    lastShownAt = Date.now();
+    ad.show().catch(finish);
+  });
+}
+
 /**
- * Oyuncunun oyundan çıkışında çağır. Önceden yüklenmiş reklam varsa gösterir;
- * yoksa (ağ yoktu, frekans limiti) sessizce geçer. Navigasyonu bloklamaz.
+ * Oyuncunun oyundan çıkışında çağır. Önceden yüklenmiş reklam varsa anında
+ * gösterir; yoksa o an yüklemeyi dener (fallback). Navigasyonu bloklamaz.
  */
 export async function maybeShowInterstitialOnGameEnd(): Promise<void> {
   gameCount++;
   if (gameCount % SHOW_EVERY !== 0) return;
   if (Date.now() - lastShownAt < MIN_GAP_MS) return;
+  if (!(await ensureInit())) return;
 
-  const ad = pendingAd;
-  pendingAd = null; // tüket
-  if (!ad) return;  // önyükleme başarısızsa reklamı atla
+  const preloaded = pendingAd;
+  pendingAd = null;
 
   try {
+    if (preloaded) {
+      await showAd(preloaded);
+      return;
+    }
+    // Fallback: preload başarısız olduysa sıfırdan yükle + göster
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const { InterstitialAd, AdEventType } = require('react-native-google-mobile-ads');
+    const ad = InterstitialAd.createForAdRequest(INTERSTITIAL_UNIT_ID);
     await new Promise<void>((resolve) => {
       let done = false;
-      const finish = () => {
-        if (done) return;
-        done = true;
-        resolve();
-      };
-      // eslint-disable-next-line @typescript-eslint/no-var-requires
-      const { AdEventType } = require('react-native-google-mobile-ads');
-      ad.addAdEventListener(AdEventType.CLOSED, finish);
+      const finish = () => { if (done) return; done = true; resolve(); };
+      ad.addAdEventListener(AdEventType.LOADED, () => { showAd(ad).then(finish).catch(finish); });
       ad.addAdEventListener(AdEventType.ERROR, finish);
-      setTimeout(finish, 12000); // safety: never hang
-      lastShownAt = Date.now();
-      ad.show().catch(finish);
+      setTimeout(finish, 12000);
+      ad.load();
     });
   } catch {
     // ignore — ads are best-effort

@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { reportError } from '../utils/crashReporting';
 
 type Props = { children: React.ReactNode };
 type State = { hasError: boolean; error?: Error };
@@ -20,8 +21,8 @@ export default class ErrorBoundary extends React.Component<Props, State> {
   }
 
   componentDidCatch(error: Error, info: React.ErrorInfo) {
-    // Production'da buraya crash reporting (Sentry vb.) eklenebilir
     console.error('[ErrorBoundary]', error, info);
+    reportError(error, { componentStack: info.componentStack ?? undefined });
   }
 
   handleRetry = () => {
