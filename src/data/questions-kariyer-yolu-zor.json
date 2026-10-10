@@ -6751,5 +6751,50 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 171,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-11",
+    "correctPlayer": "Paul Mukairu",
+    "career": [
+      {
+        "season": "2013-2016",
+        "team": "Midtjylland",
+        "apps": "113",
+        "goals": "31"
+      },
+      {
+        "season": "2016-2020",
+        "team": "Celta Vigo",
+        "apps": "135",
+        "goals": "18"
+      },
+      {
+        "season": "2020-2023",
+        "team": "Midtjylland",
+        "apps": "101",
+        "goals": "15"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Alanyaspor",
+        "apps": "23",
+        "goals": "2"
+      },
+      {
+        "season": "2024-2026",
+        "team": "Aris",
+        "apps": "32",
+        "goals": "0"
+      },
+      {
+        "season": "2026-2026",
+        "team": "Larisa",
+        "apps": "10",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

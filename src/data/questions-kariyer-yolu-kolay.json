@@ -5963,5 +5963,51 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 161,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-11",
+    "correctPlayer": "Uğur Uçar",
+    "career": [
+      {
+        "season": "2005-2010",
+        "team": "Galatasaray",
+        "apps": "93",
+        "goals": "1"
+      },
+      {
+        "season": "2006-2007",
+        "team": "Kayserispor (kiralık)",
+        "apps": "27",
+        "goals": "0"
+      },
+      {
+        "season": "2010–2012",
+        "team": "Ankaragücü",
+        "apps": "37",
+        "goals": "0"
+      },
+      {
+        "season": "2012–2014",
+        "team": "Karabükspor",
+        "apps": "42",
+        "goals": "0"
+      },
+      {
+        "season": "2014-2021",
+        "team": "Başakşehir",
+        "apps": "113",
+        "goals": "1"
+      },
+      {
+        "season": "2021-2022",
+        "team": "Pendikspor",
+        "apps": "7",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

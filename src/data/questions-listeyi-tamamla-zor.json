@@ -3748,5 +3748,25 @@
       "Burak Yılmaz"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 184,
+    "game": "listeyi-tamamla",
+    "title": "Burak Yılmaz'ın futbolculuk kariyerinde, birlikte 90 ve üzeri sayıda maça çıktığı oyuncular?",
+    "type": "player",
+    "activeDate": "2026-10-11",
+    "targets": [
+      "Selçuk İnan",
+      "Umut Bulut",
+      "Fernando Muslera",
+      "Semih Kaya",
+      "Wesley Sneijder",
+      "Felipe Melo",
+      "Olcan Adın",
+      "Hakan Balta",
+      "Sabri Sarıoğlu"
+    ],
+    "difficulty": "zor"
   }
 ]

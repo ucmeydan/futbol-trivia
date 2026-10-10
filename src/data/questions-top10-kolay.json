@@ -3248,5 +3248,26 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id":163,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en yüksek bonservis ödenen 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-11",
+    "targets": [
+      "Victor Osimhen",
+      "Rafael Leao",
+      "Wilfried Singo",
+      "Uğurcan Çakır",
+      "Aleksey Batrakov",
+      "Gabriel Sara",
+      "Mario Jardel",
+      "Nicolo Zaniolo",
+      "Mbaye Diagne",
+      "Bruma"
+    ],
+    "difficulty": "kolay"
   }
 ]

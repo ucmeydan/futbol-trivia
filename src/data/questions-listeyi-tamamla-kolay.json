@@ -3054,5 +3054,20 @@
       "Başakşehir"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 164,
+    "game": "listeyi-tamamla",
+    "title": "Şampiyonlar Ligi final maçında forma giyen Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-11",
+    "targets": [
+      "Yıldıray Baştürk",
+      "Hamit Altıntop",
+      "Nuri Şahin",
+      "Hakan Çalhanoğlu"
+    ],
+    "difficulty": "kolay"
   }
 ]

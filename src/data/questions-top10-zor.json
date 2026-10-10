@@ -3662,5 +3662,27 @@
       
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 185,
+    "game": "top10",
+    "title": "Arda Turan'ın futbolculuk kariyerinde birlikte en fazla maça çıktığı 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-10-11",
+    "targets": [
+      "Sabri Sarıoğlu",
+      "Servet Çetin",
+      "Hakan Balta",
+      "Mehmet Topal",
+      "Gabi",
+      "Diego Godin",
+      "Juanfran Torres",
+      "Ayhan Akman",
+      "Koke",
+      "Miranda"
+
+    ],
+    "difficulty": "zor"
   }
 ]
