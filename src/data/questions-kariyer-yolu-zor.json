@@ -6796,5 +6796,45 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 172,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-12",
+    "correctPlayer": "Mahamadou Susoho",
+    "career": [
+      {
+        "season": "2021-2023",
+        "team": "Manchester City U18",
+        "apps": "17",
+        "goals": "1"
+      },
+      {
+        "season": "2023-2026",
+        "team": "Manchester City U21",
+        "apps": "25",
+        "goals": "3"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Peterbrough (kiralık)",
+        "apps": "17",
+        "goals": "1"
+      },
+      {
+        "season": "2025-2025",
+        "team": "Livingston (kiralık)",
+        "apps": "19",
+        "goals": "1"
+      },
+      {
+        "season": "2026-",
+        "team": "Kocaelispor",
+        "apps": "15",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

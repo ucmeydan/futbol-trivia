@@ -6009,5 +6009,39 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 161,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-11",
+    "correctPlayer": "Uğur Uçar",
+    "career": [
+      {
+        "season": "1995-2000",
+        "team": "Gençlerbirliği",
+        "apps": "166",
+        "goals": "13"
+      },
+      {
+        "season": "2000-2001",
+        "team": "Bursaspor (kiralık)",
+        "apps": "26",
+        "goals": "1"
+      },
+      {
+        "season": "2001–2007",
+        "team": "Fenerbahçe",
+        "apps": "240",
+        "goals": "12"
+      },
+      {
+        "season": "2007–2009",
+        "team": "Köln",
+        "apps": "37",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

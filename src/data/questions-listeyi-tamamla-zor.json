@@ -3768,5 +3768,25 @@
       "Sabri Sarıoğlu"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 185,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Galatasaray hem de Atletico Madrid forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-12",
+    "targets": [
+      "Arda Turan",
+      "Radamel Falcao",
+      "Lucas Torreira",
+      "Álvaro Morata",
+      "Leo Franco",
+      "Emre Belözoğlu",
+      "Emiliano Insua",
+      "Leo Franco",
+      "Gustavo Assuncao"
+    ],
+    "difficulty": "zor"
   }
 ]

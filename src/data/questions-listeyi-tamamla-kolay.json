@@ -3055,8 +3055,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 164,
     "game": "listeyi-tamamla",
     "title": "Şampiyonlar Ligi final maçında forma giyen Türk futbolcular?",
@@ -3067,6 +3066,21 @@
       "Hamit Altıntop",
       "Nuri Şahin",
       "Hakan Çalhanoğlu"
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 165,
+    "game": "listeyi-tamamla",
+    "title": "Cengiz Ünder'in Türkiye kariyerinde forma giydiği takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-12",
+    "targets": [
+      "Çorum FK",
+      "Başakşehir",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Altınordu"
     ],
     "difficulty": "kolay"
   }

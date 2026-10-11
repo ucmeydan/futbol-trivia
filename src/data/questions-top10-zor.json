@@ -3684,5 +3684,26 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 186,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en çok maça çıkan 10 Arjantinli futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-12",
+    "targets": [
+      "Pablo Batalla",
+      "Jose Sosa",
+      "Cristian Zurita",
+      "Gustavo Colman",
+      "Oscar Scarione",
+      "Franco Cangele",
+      "Mauro Icardi",
+      "Lucas Biglia",
+      "Fernando Belluschi",
+      "Leonardo Iglesias"
+    ],
+    "difficulty": "zor"
   }
 ]

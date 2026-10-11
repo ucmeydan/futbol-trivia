@@ -3269,5 +3269,28 @@
       "Bruma"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id":164,
+    "game": "top10",
+    "title": "Milli takımımızın Uluslar Ligi'nde oynadığı 4 maçta en fazla süre alan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-12",
+    "targets": [
+      "Zeki Çelik",
+      "Abdülkerim Bardakcı",
+      "İsmail Yüksek",
+      "Salih Özcan",
+      "Arda Güler",
+      "Ferdi Kadıoğlu",
+      "Uğurcan Çakır",
+      "Oğuz Aydın",
+      "Merih Demiral",
+      "Barış Alper Yılmaz"
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]
