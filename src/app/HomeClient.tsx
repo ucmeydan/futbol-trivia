@@ -1,6 +1,68 @@
 'use client';
 
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
+
+const APP_STORE_URL = 'https://apps.apple.com/tr/app/futbol-trivia/id6813849387?l=tr';
+
+function AppStorePopup({ onClose }: { onClose: () => void }) {
+  return (
+    <div
+      className="fixed inset-0 z-[200] flex items-end sm:items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-in fade-in duration-300"
+      onClick={onClose}
+    >
+      <div
+        className="relative w-full max-w-sm bg-slate-900 border border-slate-700 rounded-3xl p-6 shadow-2xl animate-in slide-in-from-bottom-6 duration-400"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Kapat butonu */}
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors text-lg leading-none"
+          aria-label="Kapat"
+        >✕</button>
+
+        {/* İkon + Başlık */}
+        <div className="flex items-center gap-4 mb-4">
+          <div className="w-14 h-14 flex items-center justify-center bg-slate-950 border-2 border-slate-800 rounded-2xl shadow-lg shrink-0">
+            <svg className="w-8 h-8 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+              <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17M14 14.66V17M18 4H6v7a6 6 0 0 0 12 0V4Z" />
+            </svg>
+          </div>
+          <div>
+            <p className="text-xs font-semibold text-red-500 uppercase tracking-widest mb-0.5">Yeni</p>
+            <h2 className="text-lg font-bold text-white leading-tight">Futbol Trivia artık<br />App Store'da!</h2>
+          </div>
+        </div>
+
+        <p className="text-slate-400 text-sm leading-relaxed mb-5">
+          Tüm oyunları cebinde taşı. İndir, oyna — hepsi ücretsiz.
+        </p>
+
+        {/* App Store badge */}
+        <a
+          href={APP_STORE_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 w-full bg-white hover:bg-slate-100 active:scale-95 transition-all duration-150 rounded-2xl px-5 py-3.5 shadow-lg"
+          onClick={onClose}
+        >
+          {/* Apple logo */}
+          <svg className="w-7 h-7 shrink-0 text-black" viewBox="0 0 814 1000" fill="currentColor">
+            <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 790.7 0 663 0 541.8c0-207.5 135.4-317.3 269-317.3 70.1 0 128.4 46.4 172.5 46.4 42.8 0 109.5-49 192.3-49 30.5 0 111.4 2.6 166.3 56.5zm-174.4-209.5c31.8-37.5 54.1-89.9 54.1-142.3 0-7.1-.6-14.3-1.9-20.1-51.6 1.9-112.3 34.4-149.3 77.3-28.2 32.7-51.9 85.6-51.9 138.6 0 8.3 1.3 16.6 1.9 19.2 3.2.6 8.4 1.3 13.6 1.3 46.4 0 102.5-31.2 133.5-73.9z"/>
+          </svg>
+          <div>
+            <p className="text-black text-[10px] font-medium leading-none mb-0.5">App Store'dan İndir</p>
+            <p className="text-black text-base font-bold leading-none">App Store</p>
+          </div>
+          <svg className="w-4 h-4 text-black/50 ml-auto shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M9 18l6-6-6-6" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  );
+}
 
 const GAMES = [
   {
@@ -92,8 +154,24 @@ const ctaColorMap: Record<string, string> = {
 };
 
 export default function HomeClient() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+    try {
+      if (!localStorage.getItem('appstore_popup_dismissed')) {
+        setShowPopup(true);
+      }
+    } catch {}
+  }, []);
+
+  const handleClose = () => {
+    setShowPopup(false);
+    try { localStorage.setItem('appstore_popup_dismissed', '1'); } catch {}
+  };
+
   return (
     <main className="min-h-screen bg-slate-950 text-white font-sans flex flex-col items-center relative overflow-hidden">
+      {showPopup && <AppStorePopup onClose={handleClose} />}
 
       {/* Arka plan ışık efekti */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-96 bg-red-600/8 blur-[140px] pointer-events-none" aria-hidden="true" />
