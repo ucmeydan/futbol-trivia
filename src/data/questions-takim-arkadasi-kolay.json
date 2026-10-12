@@ -4918,5 +4918,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 169,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-13",
+    "correctPlayer": "Emre Belözoğlu",
+    "teammates": [
+      {
+        "name": "Gheorghe Hagi",
+        "info": "1997-2000 yılları arasında Galatasaray'da oynadılar"
+      },
+      {
+        "name": "Ronaldo Nazario",
+        "info": "2001-02 sezonunda Inter'de oynadılar"
+      },
+      {
+        "name": "Michael Owen",
+        "info": "2005-08 yılları arasında Newcastle United'da oynadılar"
+      },
+      {
+        "name": "Robinho",
+        "info": "2018-19 sezonunda Başakşehir'de oynadılar"
+      },
+      {
+        "name": "Alex De Souza",
+        "info": "2008-13 yılları arasında Fenerbahçe'de oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

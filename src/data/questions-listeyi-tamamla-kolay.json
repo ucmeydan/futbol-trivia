@@ -3083,5 +3083,21 @@
       "Altınordu"
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 166,
+    "game": "listeyi-tamamla",
+    "title": "Aykut Kocaman'ın teknik direktörlük kariyerinde çalıştırdığı takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-13",
+    "targets": [
+      "İstanbulspor",
+      "Malatyaspor",
+      "Konyaspor",
+      "Ankaraspor",
+      "Başakşehir",
+      "Fenerbahçe"
+    ],
+    "difficulty": "kolay"
   }
 ]

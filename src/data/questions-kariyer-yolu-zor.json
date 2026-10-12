@@ -6836,5 +6836,39 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 173,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-13",
+    "correctPlayer": "Rhaldney",
+    "career": [
+      {
+        "season": "2018-2022",
+        "team": "Nautico",
+        "apps": "120",
+        "goals": "4"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Atletico Goianense",
+        "apps": "140",
+        "goals": "6"
+      },
+      {
+        "season": "2025-",
+        "team": "Göztepe",
+        "apps": "26",
+        "goals": "2"
+      },
+      {
+        "season": "2026-2026",
+        "team": "Alverca (kiralık)",
+        "apps": "14",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

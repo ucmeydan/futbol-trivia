@@ -3705,5 +3705,26 @@
       "Leonardo Iglesias"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 187,
+    "game": "top10",
+    "title": "Beşiktaş formasıyla en fazla maça çıkan 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-13",
+    "targets": [
+      "Atiba Hutchinson",
+      "Ricardo Quaresma",
+      "Bobo",
+      "Tomas Sivok",
+      "Filip Holosko",
+      "Domagoj Vida",
+      "Fabian Ernst",
+      "Oscar Cordoba",
+      "Ronaldo Guiaro",
+      "Gedson Fernandes"
+    ],
+    "difficulty": "zor"
   }
 ]

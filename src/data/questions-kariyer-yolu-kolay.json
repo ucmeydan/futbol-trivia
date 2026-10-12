@@ -6014,8 +6014,8 @@
   {
     "id": 161,
     "game": "kariyer-yolu",
-    "activeDate": "2026-10-11",
-    "correctPlayer": "Uğur Uçar",
+    "activeDate": "2026-10-12",
+    "correctPlayer": "Ümit Özat",
     "career": [
       {
         "season": "1995-2000",
@@ -6039,6 +6039,40 @@
         "season": "2007–2009",
         "team": "Köln",
         "apps": "37",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 162,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-13",
+    "correctPlayer": "Tarık Çetin",
+    "career": [
+      {
+        "season": "2017-2018",
+        "team": "Fenerbahçe",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2018-2019",
+        "team": "Fatih Karagümrük (kiralık)",
+        "apps": "44",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2025",
+        "team": "Rizespor",
+        "apps": "88",
+        "goals": "0"
+      },
+      {
+        "season": "2025-",
+        "team": "Fenerbahçe (kiralık)",
+        "apps": "5",
         "goals": "0"
       }
     ],

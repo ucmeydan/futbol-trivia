@@ -3290,6 +3290,27 @@
       "Barış Alper Yılmaz"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 165,
+    "game": "top10",
+    "title": "Süper Lig'de güncel piyasa değeri en düşük 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-10-13",
+    "targets": [
+      "Eyüpspor",
+      "Erzurumspor",
+      "Kocaelispor",
+      "Gençlerbirliği",
+      "Gaziantep FK",
+      "Amed SK",
+      "Konyaspor",
+      "Alanyaspor",
+      "Kasımpaşa",
+      "Rizespor"
+    ],
+    "difficulty": "kolay"
   }
 
 

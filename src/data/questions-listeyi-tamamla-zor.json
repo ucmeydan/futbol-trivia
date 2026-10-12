@@ -3788,5 +3788,29 @@
       "Gustavo Assuncao"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 186,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray formasıyla minimum 60 maça çıkmış Afrikalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-13",
+    "targets": [
+      "Emmanuel Eboue",
+      "Victor Osimhen",
+      "Henry Onyekuru",
+      "Shabani Nonda",
+      "Christian Luyindama",
+      "Ismael Jakobs",
+      "Mbaye Diagne",
+      "Rigobert Song",
+      "Aurelien Chedjou",
+      "Younes Belhanda",
+      "Sofiane Feghouli",
+      "Mario Lemina",
+      "Garry Rodrigues"
+    ],
+    "difficulty": "zor"
   }
 ]
