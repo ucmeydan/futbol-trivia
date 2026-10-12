@@ -119,6 +119,24 @@ const GAMES = [
     ),
   },
   {
+    href: '/kadro-bul',
+    title: 'Kadro Bul',
+    description: "Tarihin ünlü maçlarından bir takımın 11'ini bul. Her oyuncu için wordle tarzında harf harf tahmin yap.",
+    detail: 'Her oyuncu için 6 tahmin hakkın var. Doğru harf yeşil, yanlış yerde sarı, olmayan harf gri.',
+    detailHighlight: null,
+    decorNumber: '11',
+    accentColor: 'emerald',
+    icon: (
+      <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 shrink-0" aria-hidden="true">
+        <svg className="w-8 h-8 text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+          <rect x="3" y="3" width="18" height="18" rx="2" />
+          <path d="M12 3v18M3 12h18" strokeLinecap="round" />
+          <circle cx="12" cy="12" r="3" />
+        </svg>
+      </div>
+    ),
+  },
+  {
     href: '/takim-arkadasi',
     title: 'Takım Arkadaşı',
     description: "Yolu Türkiye'den geçmiş oyuncuları, kulüp ya da milli takım kariyerindeki takım arkadaşlarından bulmaya çalış.",
@@ -140,17 +158,19 @@ const GAMES = [
 ];
 
 const accentMap: Record<string, string> = {
-  green: 'hover:border-green-500/50 hover:shadow-[0_0_40px_-10px_rgba(34,197,94,0.2)] group-hover:text-green-400',
-  amber: 'hover:border-amber-400/50 hover:shadow-[0_0_40px_-10px_rgba(251,191,36,0.2)] group-hover:text-amber-400',
-  sky:   'hover:border-sky-500/50 hover:shadow-[0_0_40px_-10px_rgba(14,165,233,0.2)] group-hover:text-sky-400',
-  red:   'hover:border-red-500/50 hover:shadow-[0_0_40px_-10px_rgba(239,68,68,0.2)] group-hover:text-red-500',
+  green:   'hover:border-green-500/50 hover:shadow-[0_0_40px_-10px_rgba(34,197,94,0.2)] group-hover:text-green-400',
+  amber:   'hover:border-amber-400/50 hover:shadow-[0_0_40px_-10px_rgba(251,191,36,0.2)] group-hover:text-amber-400',
+  sky:     'hover:border-sky-500/50 hover:shadow-[0_0_40px_-10px_rgba(14,165,233,0.2)] group-hover:text-sky-400',
+  red:     'hover:border-red-500/50 hover:shadow-[0_0_40px_-10px_rgba(239,68,68,0.2)] group-hover:text-red-500',
+  emerald: 'hover:border-emerald-500/50 hover:shadow-[0_0_40px_-10px_rgba(16,185,129,0.2)] group-hover:text-emerald-400',
 };
 
 const ctaColorMap: Record<string, string> = {
-  green: 'text-green-500',
-  amber: 'text-amber-400',
-  sky:   'text-sky-400',
-  red:   'text-red-500',
+  green:   'text-green-500',
+  amber:   'text-amber-400',
+  sky:     'text-sky-400',
+  red:     'text-red-500',
+  emerald: 'text-emerald-400',
 };
 
 export default function HomeClient() {

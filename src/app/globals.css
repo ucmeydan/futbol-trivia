@@ -111,6 +111,16 @@ body {
   animation: error-ping 0.6s ease-out forwards;
 }
 
+/* Kadro Bul — yanlış uzunluk titremesi */
+@keyframes wiggle {
+  0%, 100% { transform: translateX(0); }
+  15%  { transform: translateX(-6px); }
+  30%  { transform: translateX(6px); }
+  45%  { transform: translateX(-4px); }
+  60%  { transform: translateX(4px); }
+  75%  { transform: translateX(-2px); }
+}
+
 /* Parıltı geçişi — doğru cevap vurgusu */
 @keyframes shimmer {
   0%   { transform: translateX(-100%) skewX(-20deg); opacity: 0;   }
