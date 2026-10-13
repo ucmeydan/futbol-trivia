@@ -6797,7 +6797,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 172,
     "game": "kariyer-yolu",
@@ -6837,8 +6836,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 173,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-13",
@@ -6867,6 +6865,39 @@
         "team": "Alverca (kiralık)",
         "apps": "14",
         "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 174,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-14",
+    "correctPlayer": "Jakub Kaluzinski",
+    "career": [
+      {
+        "season": "2018-2020",
+        "team": "Lechia Gdansk U19",
+        "apps": "19",
+        "goals": "3"
+      },
+      {
+        "season": "2020–2023",
+        "team": "Lechia Gdansk",
+        "apps": "67",
+        "goals": "3"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Antalyaspor",
+        "apps": "79",
+        "goals": "0"
+      },
+      {
+        "season": "2025-",
+        "team": "Başakşehir",
+        "apps": "18",
+        "goals": "0"
       }
     ],
     "difficulty": "zor"

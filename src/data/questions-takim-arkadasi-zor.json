@@ -5016,7 +5016,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 175,
     "game": "takim-arkadasi",
@@ -5046,7 +5045,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 176,
     "game": "takim-arkadasi",
@@ -5076,7 +5074,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 177,
     "game": "takim-arkadasi",
@@ -5102,6 +5099,35 @@
       {
         "name": "Emre Belözoğlu",
         "info": "2019-20 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 178,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-14",
+    "correctPlayer": "Gael Clichy",
+    "teammates": [
+      {
+        "name": "Thierry Henry",
+        "info": "2003-07 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "Carlos Tevez",
+        "info": "2011-13 yılları arasında Manchester City'de oynadılar"
+      },
+      {
+        "name": "Arda Turan",
+        "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
+      },
+      {
+        "name": "Aleksandr Hleb",
+        "info": "2005-18 yılları arasında Arsenal'de oynadılar"
+      },
+      {
+        "name": "Kerim Frei",
+        "info": "2017-20 yılları arasında Başakşehir'de oynadılar"
       }
     ],
     "difficulty": "zor"

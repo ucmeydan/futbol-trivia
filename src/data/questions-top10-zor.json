@@ -3599,7 +3599,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 182,
     "game": "top10",
@@ -3620,7 +3619,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 183,
     "game": "top10",
@@ -3638,7 +3636,6 @@
       "Felipe Augusto",
       "Gökhan Ünal",
       "Oleksandr Zubkov"
-      
     ],
     "difficulty": "zor"
   },
@@ -3659,11 +3656,9 @@
       "Mehmet Topal",
       "Yunus Mallı",
       "Yusuf Yazıcı"
-      
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 185,
     "game": "top10",
@@ -3681,11 +3676,9 @@
       "Ayhan Akman",
       "Koke",
       "Miranda"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 186,
     "game": "top10",
@@ -3706,7 +3699,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 187,
     "game": "top10",
@@ -3724,6 +3716,26 @@
       "Oscar Cordoba",
       "Ronaldo Guiaro",
       "Gedson Fernandes"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 188,
+    "game": "top10",
+    "title": "Galatasaray formasıyla en çok maça çıkan 10 Brezilyalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-14",
+    "targets": [
+      "Felipe Melo",
+      "Marcao",
+      "Claudio Taffarel",
+      "Capone",
+      "Mariano",
+      "Gabriel Sara",
+      "Cassio Lincoln",
+      "Joao Batista",
+      "Alex Telles",
+      "Fernando Reges"
     ],
     "difficulty": "zor"
   }

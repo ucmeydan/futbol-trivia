@@ -5936,7 +5936,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 160,
     "game": "kariyer-yolu",
@@ -5964,7 +5963,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 161,
     "game": "kariyer-yolu",
@@ -6010,7 +6008,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 161,
     "game": "kariyer-yolu",
@@ -6044,7 +6041,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 162,
     "game": "kariyer-yolu",
@@ -6074,6 +6070,33 @@
         "team": "Fenerbahçe (kiralık)",
         "apps": "5",
         "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 163,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-14",
+    "correctPlayer": "Renato Nhaga",
+    "career": [
+      {
+        "season": "2024–2025",
+        "team": "Casa Pia U19",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Casa Pia",
+        "apps": "24",
+        "goals": "2"
+      },
+      {
+        "season": "2016–",
+        "team": "Galatasaray",
+        "apps": "9",
+        "goals": "2"
       }
     ],
     "difficulty": "kolay"

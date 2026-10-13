@@ -3727,7 +3727,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 183,
     "game": "listeyi-tamamla",
@@ -3749,7 +3748,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 184,
     "game": "listeyi-tamamla",
@@ -3769,8 +3767,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 185,
     "game": "listeyi-tamamla",
     "title": "Kariyerinde hem Galatasaray hem de Atletico Madrid forması giymiş futbolcular?",
@@ -3789,7 +3786,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 186,
     "game": "listeyi-tamamla",
@@ -3810,6 +3806,20 @@
       "Sofiane Feghouli",
       "Mario Lemina",
       "Garry Rodrigues"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 187,
+    "game": "listeyi-tamamla",
+    "title": "Hem Fenerbahçe hem de Manchester City forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-14",
+    "targets": [
+      "Nathan Ake",
+      "Ederson",
+      "Edin Džeko",
+      "Nicolas Anelka"
     ],
     "difficulty": "zor"
   }
