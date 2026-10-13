@@ -158,7 +158,9 @@ export default function HomeClient() {
 
   useEffect(() => {
     try {
-      if (!localStorage.getItem('appstore_popup_dismissed')) {
+      const d = new Date();
+      const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      if (localStorage.getItem('appstore_popup_dismissed') !== today) {
         setShowPopup(true);
       }
     } catch {}
@@ -166,7 +168,11 @@ export default function HomeClient() {
 
   const handleClose = () => {
     setShowPopup(false);
-    try { localStorage.setItem('appstore_popup_dismissed', '1'); } catch {}
+    try {
+      const d = new Date();
+      const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      localStorage.setItem('appstore_popup_dismissed', today);
+    } catch {}
   };
 
   return (
