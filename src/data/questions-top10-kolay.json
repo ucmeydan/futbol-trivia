@@ -3319,5 +3319,25 @@
       "Gustavo Henrique"
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 167,
+    "game": "top10",
+    "title": "2026/27 sezonunda transferde bonservise en çok para ödeyen Süper Lig kulüpleri?",
+    "type": "team-tr",
+    "activeDate": "2026-10-15",
+    "targets": [
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Galatasaray",
+      "Trabzonspor",
+      "Çorum FK",
+      "Samsunspor",
+      "Kasımpaşa",
+      "Başakşehir",
+      "Amed SK",
+      "Rizespor"
+    ],
+    "difficulty": "kolay"
   }
 ]

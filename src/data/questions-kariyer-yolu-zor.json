@@ -6901,5 +6901,56 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 175,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-15",
+    "correctPlayer": "Atınç Nukan",
+    "career": [
+      {
+        "season": "2009-2015",
+        "team": "Beşiktaş",
+        "apps": "21",
+        "goals": "1"
+      },
+      {
+        "season": "2013–2014",
+        "team": "Dardanelspor (kiralık)",
+        "apps": "20",
+        "goals": "1"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Leipzig",
+        "apps": "14",
+        "goals": "1"
+      },
+      {
+        "season": "2016–2018",
+        "team": "Beşiktaş (kiralık)",
+        "apps": "16",
+        "goals": "1"
+      },
+      {
+        "season": "2019–2024",
+        "team": "Göztepe",
+        "apps": "108",
+        "goals": "10"
+      },
+      {
+        "season": "2024–2026",
+        "team": "Bandırmaspor",
+        "apps": "74",
+        "goals": "6"
+      },
+      {
+        "season": "2026-",
+        "team": "Fatih Karagümrük",
+        "apps": "3",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

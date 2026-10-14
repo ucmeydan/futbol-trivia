@@ -3123,5 +3123,26 @@
       "Ognjen Mimovic"
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 168,
+    "game": "listeyi-tamamla",
+    "title": "Türkiye A Milli futbol takımının Avrupa şampiyonaları ve Dünya kupalarında mağlup ettiği ülkeler?",
+    "type": "country",
+    "activeDate": "2026-10-15",
+    "targets": [
+      "Çin",
+      "Japonya",
+      "Senegal",
+      "Güney Kore",
+      "Çekya",
+      "Gürcistan",
+      "Avusturya",
+      "İsviçre",
+      "Hırvatistan",
+      "Belçika",
+      "Amerika Birleşik Devletleri"
+    ],
+    "difficulty": "kolay"
   }
 ]

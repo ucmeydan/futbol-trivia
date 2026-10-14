@@ -3822,5 +3822,27 @@
       "Nicolas Anelka"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 188,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'in son 4 sezonunda küme düşen takımlar? (2021/22 - 2024/25)",
+    "type": "team-tr",
+    "activeDate": "2026-10-15",
+    "targets": [
+      "Giresunspor",
+      "Ümraniyespor",
+      "Ankaragücü",
+      "Fatih Karagümrük",
+      "Pendikspor",
+      "İstanbulspor",
+      "Bodrum FK",
+      "Sivasspor",
+      "Hatayspor",
+      "Adana Demirspor",
+      "Kayserispor",
+      "Antalyaspor"
+    ],
+    "difficulty": "zor"
   }
 ]
