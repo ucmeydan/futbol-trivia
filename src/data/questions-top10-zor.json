@@ -3758,5 +3758,25 @@
       "Ümraniyespor"
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 190,
+    "game": "top10",
+    "title": "Şenol Güneş'in teknik direktörlük kariyerinde Şampiyonlar Ligi'nde karşılaştığı son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-10-16",
+    "targets": [
+      "Bayern Münih",
+      "Porto",
+      "Leipzig",
+      "Monaco",
+      "Dinamo Kiev",
+      "Napoli",
+      "Benfica",
+      "CSKA Moskova",
+      "Inter",
+      "Lille"
+    ],
+    "difficulty": "zor"
   }
 ]

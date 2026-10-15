@@ -3100,6 +3100,7 @@
     ],
     "difficulty": "kolay"
   },
+
   {
     "id": 167,
     "game": "listeyi-tamamla",
@@ -3107,24 +3108,25 @@
     "type": "player",
     "activeDate": "2026-10-14",
     "targets": [
-      "Ederson",
-      "Nathan Ake",
-      "Kojo Peprah Oppong",
-      "Milan Skriniar",
-      "Nelson Semedo",
-      "Archie Brown",
-      "N'golo Kante",
-      "Matteo Guendouzi",
-      "Marco Asensio",
-      "Dorgeles Nene",
-      "Mason Greenwood",
-      "Vedat Muriqi",
-      "Romelu Lukaku",
-      "Ognjen Mimovic"
+    "Ederson",
+    "Nathan Ake",
+    "Kojo Oppong",
+    "Milan Skriniar",
+    "Nelson Semedo",
+    "Archie Brown",
+    "N'Golo Kante",
+    "Matteo Guendouzi",
+    "Marco Asensio",
+    "Dorgeles Nene",
+    "Mason Greenwood",
+    "Vedat Muriqi",
+    "Romelu Lukaku",
+    "Ognjen Mimovic"
     ],
     "difficulty": "kolay"
   },
-  {
+
+{
     "id": 168,
     "game": "listeyi-tamamla",
     "title": "Türkiye A Milli futbol takımının Avrupa şampiyonaları ve Dünya kupalarında mağlup ettiği ülkeler?",
@@ -3142,6 +3144,26 @@
       "Hırvatistan",
       "Belçika",
       "Amerika Birleşik Devletleri"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 169,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de 5 ve üzeri sayıda gol atan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-10-16",
+    "targets": [
+
+      "Victor Osimhen",
+      "Gift Orban",
+      "Mohamed Salah",
+      "Dusan Vlahovic",
+      "Vedat Muriqi",
+      "Eldor Shomurodov",
+      "Juan"
+      
     ],
     "difficulty": "kolay"
   }

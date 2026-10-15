@@ -6797,6 +6797,7 @@
     ],
     "difficulty": "zor"
   },
+
   {
     "id": 172,
     "game": "kariyer-yolu",
@@ -6836,7 +6837,8 @@
     ],
     "difficulty": "zor"
   },
-  {
+
+   {
     "id": 173,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-13",
@@ -6869,7 +6871,8 @@
     ],
     "difficulty": "zor"
   },
-  {
+
+   {
     "id": 174,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-14",
@@ -6902,7 +6905,8 @@
     ],
     "difficulty": "zor"
   },
-  {
+
+   {
     "id": 175,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-15",
@@ -6950,6 +6954,78 @@
         "apps": "3",
         "goals": "0"
       }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 176,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-04-20",
+    "correctPlayer": "Ryan Mendes",
+    "career": [
+      {
+        "season": "2009-2012",
+        "team": "Le Havre",
+        "apps": "95",
+        "goals": "24"
+      },
+      {
+        "season": "2012–2017",
+        "team": "Lille",
+        "apps": "74",
+        "goals": "9"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Nottingham Forest(kiralık)",
+        "apps": "32",
+        "goals": "2"
+      },
+      {
+        "season": "2017–2018",
+        "team": "Kayserispor",
+        "apps": "46",
+        "goals": "8"
+      },
+      {
+        "season": "2018-2020",
+        "team": "Al Sharjah",
+        "apps": "50",
+        "goals": "22"
+      },
+      {
+        "season": "2020-2023",
+        "team": "Al-Nasr (BAE)",
+        "apps": "86",
+        "goals": "17"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Fatih Karagümrük",
+        "apps": "26",
+        "goals": "6"
+      },
+      {
+        "season": "2024-2025",
+        "team": "Kocaelispor",
+        "apps": "39",
+        "goals": "12"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Iğdır FK",
+        "apps": "33",
+        "goals": "5"
+      },
+      {
+        "season": "2026-",
+        "team": "RS Berkane",
+        "apps": "2",
+        "goals": "0"
+      }
+
+
     ],
     "difficulty": "zor"
   }

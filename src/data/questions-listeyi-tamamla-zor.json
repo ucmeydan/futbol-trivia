@@ -3727,6 +3727,7 @@
     ],
     "difficulty": "zor"
   },
+
   {
     "id": 183,
     "game": "listeyi-tamamla",
@@ -3748,6 +3749,7 @@
     ],
     "difficulty": "zor"
   },
+
   {
     "id": 184,
     "game": "listeyi-tamamla",
@@ -3767,7 +3769,8 @@
     ],
     "difficulty": "zor"
   },
-  {
+
+   {
     "id": 185,
     "game": "listeyi-tamamla",
     "title": "Kariyerinde hem Galatasaray hem de Atletico Madrid forması giymiş futbolcular?",
@@ -3786,6 +3789,7 @@
     ],
     "difficulty": "zor"
   },
+
   {
     "id": 186,
     "game": "listeyi-tamamla",
@@ -3809,6 +3813,7 @@
     ],
     "difficulty": "zor"
   },
+
   {
     "id": 187,
     "game": "listeyi-tamamla",
@@ -3816,13 +3821,14 @@
     "type": "player",
     "activeDate": "2026-10-14",
     "targets": [
-      "Nathan Ake",
-      "Ederson",
-      "Edin Džeko",
-      "Nicolas Anelka"
+     "Nathan Ake",
+     "Ederson",
+     "Edin Dzeko",
+     "Nicolas Anelka"
     ],
     "difficulty": "zor"
   },
+
   {
     "id": 188,
     "game": "listeyi-tamamla",
@@ -3830,6 +3836,7 @@
     "type": "team-tr",
     "activeDate": "2026-10-15",
     "targets": [
+      
       "Giresunspor",
       "Ümraniyespor",
       "Ankaragücü",
@@ -3842,6 +3849,31 @@
       "Adana Demirspor",
       "Kayserispor",
       "Antalyaspor"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 189,
+    "game": "listeyi-tamamla",
+    "title": "Transfermarkt verilerine göre 2004 yılında piyasa değeri 5M€ ve üzerinde olan Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-16",
+    "targets": [
+      "Nihat Kahveci",
+      "Emre Belözoğlu",
+      "Tuncay Şanlı",
+      "Gökdeniz Karadeniz",
+      "Rüştü Reçber",
+      "Necati Ateş",
+      "Fatih Tekke",
+      "Hasan Şaş",
+      "Yıldıray Baştürk",
+      "İbrahim Akın",
+      "Sabri Sarıoğlu",
+      "Servet Çetin",
+      "Okan Buruk",
+      "Ümit Davala"
     ],
     "difficulty": "zor"
   }

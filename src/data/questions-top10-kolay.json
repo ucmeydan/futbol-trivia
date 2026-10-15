@@ -3080,6 +3080,7 @@
     ],
     "difficulty": "kolay"
   },
+
   {
     "id": 155,
     "game": "top10",
@@ -3100,6 +3101,7 @@
     ],
     "difficulty": "kolay"
   },
+
   {
     "id": 156,
     "game": "top10",
@@ -3120,6 +3122,7 @@
     ],
     "difficulty": "kolay"
   },
+
   {
     "id": 157,
     "game": "top10",
@@ -3140,6 +3143,7 @@
     ],
     "difficulty": "kolay"
   },
+
   {
     "id": 158,
     "game": "top10",
@@ -3160,6 +3164,7 @@
     ],
     "difficulty": "kolay"
   },
+
   {
     "id": 159,
     "game": "top10",
@@ -3180,6 +3185,7 @@
     ],
     "difficulty": "kolay"
   },
+
   {
     "id": 160,
     "game": "top10",
@@ -3200,7 +3206,8 @@
     ],
     "difficulty": "kolay"
   },
-  {
+
+   {
     "id": 161,
     "game": "top10",
     "title": "Süper Lig'de güncel piyasa değeri en yüksek 10 yabancı futbolcu?",
@@ -3220,7 +3227,8 @@
     ],
     "difficulty": "kolay"
   },
-  {
+
+   {
     "id": 162,
     "game": "top10",
     "title": "Süper Lig'in ilk haftasında sahadaki yaş ortalaması en genç 10 takım?",
@@ -3237,11 +3245,13 @@
       "Gençlerbirliği",
       "Başakşehir",
       "Gaziantep FK"
+
     ],
     "difficulty": "kolay"
   },
+
   {
-    "id": 163,
+    "id":163,
     "game": "top10",
     "title": "Galatasaray tarihinde en yüksek bonservis ödenen 10 futbolcu?",
     "type": "player",
@@ -3260,8 +3270,9 @@
     ],
     "difficulty": "kolay"
   },
+
   {
-    "id": 164,
+    "id":164,
     "game": "top10",
     "title": "Milli takımımızın Uluslar Ligi'nde oynadığı 4 maçta en fazla süre alan futbolcular?",
     "type": "player",
@@ -3280,6 +3291,7 @@
     ],
     "difficulty": "kolay"
   },
+
   {
     "id": 165,
     "game": "top10",
@@ -3300,6 +3312,7 @@
     ],
     "difficulty": "kolay"
   },
+
   {
     "id": 166,
     "game": "top10",
@@ -3317,9 +3330,11 @@
       "Alexander Djiku",
       "Jayden Oosterwolde",
       "Gustavo Henrique"
+      
     ],
     "difficulty": "kolay"
   },
+
   {
     "id": 167,
     "game": "top10",
@@ -3339,5 +3354,28 @@
       "Rizespor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 168,
+    "game": "top10",
+    "title": "Ülkemizi Avrupa kupalarında temsil eden son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-10-16",
+    "targets": [
+      "Trabzonspor",
+      "Galatasaray",
+      "Samsunspor",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Başakşehir",
+      "Adana Demirspor",
+      "Konyaspor",
+      "Sivasspor",
+      "Yeni Malatyaspor"
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]
