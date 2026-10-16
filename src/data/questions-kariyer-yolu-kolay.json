@@ -6173,5 +6173,45 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 166,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-17",
+    "correctPlayer": "Rafa Silva",
+    "career": [
+      {
+        "season": "2012–2013",
+        "team": "Feirense",
+        "apps": "47",
+        "goals": "11"
+      },
+      {
+        "season": "2013–2017",
+        "team": "Braga",
+        "apps": "127",
+        "goals": "26"
+      },
+      {
+        "season": "2017–2024",
+        "team": "Benfica",
+        "apps": "326",
+        "goals": "94"
+      },
+      {
+        "season": "2024–2026",
+        "team": "Beşiktaş",
+        "apps": "65",
+        "goals": "23"
+      },
+      {
+        "season": "2026–",
+        "team": "Benfica",
+        "apps": "32",
+        "goals": "11"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

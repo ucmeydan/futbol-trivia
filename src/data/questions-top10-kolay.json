@@ -3375,6 +3375,27 @@
       "Yeni Malatyaspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 169,
+    "game": "top10",
+    "title": "Fenerbahçe'nin çeyrek final oynadığı 2007-08 Şampiyonlar Ligi sezonunda Fenerbahçe formasıyla en çok süre alan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-10-17",
+    "targets": [
+      "Volkan Demirel",
+      "Edu Dracena",
+      "Mehmet Aurelio",
+      "Alex De Souza",
+      "Diego Lugano",
+      "Deivid De Souza",
+      "Wederson",
+      "Gökhan Gönül",
+      "Roberto Carlos",
+      "Semih Şentürk"
+    ],
+    "difficulty": "kolay"
   }
 
 

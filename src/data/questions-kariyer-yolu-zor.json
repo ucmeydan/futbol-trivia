@@ -552,7 +552,7 @@
     "id": 14,
     "game": "kariyer-yolu",
     "activeDate": "2026-04-13",
-    "correctPlayer": "Sebastien Frey",
+    "correctPlayer": "Sébastien Frey",
     "career": [
       {
         "season": "1997–1998",
@@ -6797,7 +6797,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 172,
     "game": "kariyer-yolu",
@@ -6837,8 +6836,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 173,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-13",
@@ -6871,8 +6869,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 174,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-14",
@@ -6905,8 +6902,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 175,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-15",
@@ -6957,7 +6953,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 176,
     "game": "kariyer-yolu",
@@ -7024,8 +7019,69 @@
         "apps": "2",
         "goals": "0"
       }
-
-
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 177,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-17",
+    "correctPlayer": "Sébastien Frey",
+    "career": [
+      {
+        "season": "1997–1998",
+        "team": "Cannes",
+        "apps": "23",
+        "goals": "0"
+      },
+      {
+        "season": "1998–2003",
+        "team": "Inter",
+        "apps": "47",
+        "goals": "0"
+      },
+      {
+        "season": "1999–2000",
+        "team": "Hellas Verona (kiralık)",
+        "apps": "31",
+        "goals": "0"
+      },
+      {
+        "season": "2001–2003",
+        "team": "Parma (kiralık)",
+        "apps": "78",
+        "goals": "0"
+      },
+      {
+        "season": "2003–2005",
+        "team": "Parma",
+        "apps": "80",
+        "goals": "0"
+      },
+      {
+        "season": "2005–2006",
+        "team": "Fiorentina (kiralık)",
+        "apps": "23",
+        "goals": "0"
+      },
+      {
+        "season": "2006–2011",
+        "team": "Fiorentina",
+        "apps": "195",
+        "goals": "0"
+      },
+      {
+        "season": "2011–2013",
+        "team": "Genoa",
+        "apps": "76",
+        "goals": "0"
+      },
+      {
+        "season": "2013–2015",
+        "team": "Bursaspor",
+        "apps": "39",
+        "goals": "0"
+      }
     ],
     "difficulty": "zor"
   }

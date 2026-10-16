@@ -3876,5 +3876,21 @@
       "Ümit Davala"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 190,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın 1999/00 sezonunda Uefa Kupasında elediği takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-10-17",
+    "targets": [
+      "Bologna",
+      "Mallorca",
+      "Dortmund",
+      "Leeds United",
+      "Arsenal"
+    ],
+    "difficulty": "zor"
   }
 ]
