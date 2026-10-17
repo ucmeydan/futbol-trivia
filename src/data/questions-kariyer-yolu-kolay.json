@@ -6213,5 +6213,39 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 167,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-18",
+    "correctPlayer": "Davinson Sanchez",
+    "career": [
+      {
+        "season": "2014–2016",
+        "team": "Atletico Nacional",
+        "apps": "44",
+        "goals": "1"
+      },
+      {
+        "season": "2016–2017",
+        "team": "Ajax",
+        "apps": "47",
+        "goals": "7"
+      },
+      {
+        "season": "2017–2023",
+        "team": "Tottenham",
+        "apps": "207",
+        "goals": "5"
+      },
+      {
+        "season": "2023-",
+        "team": "Galatasaray",
+        "apps": "130",
+        "goals": "11"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

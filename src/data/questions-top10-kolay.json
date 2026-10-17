@@ -3396,6 +3396,28 @@
       "Semih Şentürk"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 170,
+    "game": "top10",
+    "title": "Galatasaray'ın mevcut kadrosundaki piyasa değeri en yüksek 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-10-18",
+    "targets": [
+      "Victor Osimhen",
+      "Rafael Leao",
+      "Barış Alper Yılmaz",
+      "Aleksey Batrakov",
+      "Gabriel Sara",
+      "Lesley Ugochukwu",
+      "Wilfried Singo",
+      "Yunus Akgün",
+      "El Chadaille Bitshiabu",
+      "Davinson Sanchez"
+
+    ],
+    "difficulty": "kolay"
   }
 
 

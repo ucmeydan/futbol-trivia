@@ -7084,5 +7084,33 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 178,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-18",
+    "correctPlayer": "Rafael Luis",
+    "career": [
+      {
+        "season": "2022–",
+        "team": "Benfica B",
+        "apps": "59",
+        "goals": "0"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Strasbourg (kiralık)",
+        "apps": "18",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Gençlerbirliği (kiralık)",
+        "apps": "5",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -3182,5 +3182,21 @@
       "Fenerbahçe"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 171,
+    "game": "listeyi-tamamla",
+    "title": "Wesley Sneijder'in futbolculuk kariyerinde 50'den fazla maça çıktığı kulüpler?",
+    "type": "team-all",
+    "activeDate": "2026-10-18",
+    "targets": [
+      "Galatasaray",
+      "Ajax",
+      "Real Madrid",
+      "Inter"
+      
+    ],
+    "difficulty": "zor"
   }
 ]

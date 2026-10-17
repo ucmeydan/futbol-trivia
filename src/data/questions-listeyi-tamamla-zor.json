@@ -3892,5 +3892,23 @@
       "Arsenal"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 191,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Galatasaray hem de Lille forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-18",
+    "targets": [
+      "Rafael Leao",
+      "Victor Osimhen",
+      "Aurelien Chedjou",
+      "Ali Lukunku",
+      "Abdul Kader Keita",
+      "Burak Yılmaz",
+      "Mustafa Kapı"
+    ],
+    "difficulty": "zor"
   }
 ]
