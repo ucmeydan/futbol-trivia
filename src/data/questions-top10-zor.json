@@ -3820,5 +3820,26 @@
       "Kopenhag"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 193,
+    "game": "top10",
+    "title": "Trabzonspor - Beşiktaş derbilerinde gol atan son 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-19",
+    "targets": [
+      "Ernest Muçi",
+      "Oleksandr Zubkov",
+      "Orkun Kökçü",
+      "Christ Inao Oulai",
+      "Vaclav Cerny",
+      "Tammy Abraham",
+      "Rafa Silva",
+      "Simon Banza",
+      "Gedson Fernandes",
+      "Okay Yokuşlu"
+    ],
+    "difficulty": "zor"
   }
 ]

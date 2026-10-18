@@ -3345,7 +3345,7 @@
         "info": "2014-15 sezonunda Chelsea'de birlikte oynadılar."
       },
       {
-        "name": "Edin Dzeko",
+        "name": "Edin Džeko",
         "info": "2016-17 sezonunda Roma'da birlikte oynadılar"
       },
       {
@@ -5016,7 +5016,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 174,
     "game": "takim-arkadasi",
@@ -5042,6 +5041,35 @@
       {
         "name": "Vedat Muriqi",
         "info": "2026-27 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 175,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-19",
+    "correctPlayer": "Mohamed Salah",
+    "teammates": [
+      {
+        "name": "Eden Hazard",
+        "info": "2014-15 sezonunda Chelsea'de birlikte oynadılar."
+      },
+      {
+        "name": "Edin Džeko",
+        "info": "2016-17 sezonunda Roma'da birlikte oynadılar"
+      },
+      {
+        "name": "James Milner",
+        "info": "2017-23 yılları arasında Liverpool'da birlikte oynadılar"
+      },
+      {
+        "name": "Ozan Tufan",
+        "info": "2026-27 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Sadio Mané",
+        "info": "2017-22 yılları arasında Liverpool'da birlikte oynadılar"
       }
     ],
     "difficulty": "kolay"

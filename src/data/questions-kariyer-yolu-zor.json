@@ -7112,5 +7112,33 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 179,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-19",
+    "correctPlayer": "Andrei Borza",
+    "career": [
+      {
+        "season": "2022–2023",
+        "team": "Farul",
+        "apps": "45",
+        "goals": "3"
+      },
+      {
+        "season": "2023-2026",
+        "team": "Rapid 1923",
+        "apps": "100",
+        "goals": "3"
+      },
+      {
+        "season": "2026-",
+        "team": "Çorum FK",
+        "apps": "8",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

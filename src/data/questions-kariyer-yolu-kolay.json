@@ -6247,5 +6247,57 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 168,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-19",
+    "correctPlayer": "Berkan Kutlu",
+    "career": [
+      {
+        "season": "2018–2020",
+        "team": "Sion U21",
+        "apps": "41",
+        "goals": "3"
+      },
+      {
+        "season": "2020–2020",
+        "team": "Sion",
+        "apps": "2",
+        "goals": "0"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Alanyaspor",
+        "apps": "42",
+        "goals": "3"
+      },
+      {
+        "season": "2021–2026",
+        "team": "Galatasaray",
+        "apps": "159",
+        "goals": "3"
+      },
+      {
+        "season": "2023-2024",
+        "team": "Genoa (kiralık)",
+        "apps": "8",
+        "goals": "10"
+      },
+      {
+        "season": "2026–2026",
+        "team": "Konyaspor",
+        "apps": "17",
+        "goals": "2"
+      },
+      {
+        "season": "2026-",
+        "team": "Kocaelispor",
+        "apps": "8",
+        "goals": "3"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

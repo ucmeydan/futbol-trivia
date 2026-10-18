@@ -3198,5 +3198,24 @@
       
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 172,
+    "game": "listeyi-tamamla",
+    "title": "3 büyük takımın herhangi birinde en az 80 maça çıkmış Hollandalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-19",
+    "targets": [
+     
+      "Wesley Sneijder",
+      "Ryan Babel",
+      "Jayden Oosterwolde",
+      "Dirk Kuyt",
+      "Robin van Persie",
+      "Jeremain Lens"
+      
+    ],
+    "difficulty": "zor"
   }
 ]

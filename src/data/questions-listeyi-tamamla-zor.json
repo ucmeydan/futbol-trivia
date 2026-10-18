@@ -3910,5 +3910,24 @@
       "Mustafa Kapı"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 192,
+    "game": "listeyi-tamamla",
+    "title": "Başakşehir'in mevcut kadrosunda, daha önce 4 büyük takımdan herhangi birinin formasını giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-19",
+    "targets": [
+      "Volkan Babacan",
+      "Emin Bayram",
+      "Onur Bulut",
+      "Umut Güneş",
+      "Yusuf Sarı",
+      "Edin Visca",
+      "Umut Bozok"
+
+    ],
+    "difficulty": "zor"
   }
 ]
