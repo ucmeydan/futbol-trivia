@@ -7140,5 +7140,33 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 180,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-19",
+    "correctPlayer": "Baran Gezek",
+    "career": [
+      {
+        "season": "2022–2026",
+        "team": "Kayserispor",
+        "apps": "41",
+        "goals": "1"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Eyüpspor (kiralık)",
+        "apps": "19",
+        "goals": "0"
+      },
+      {
+        "season": "2026-",
+        "team": "Alanyaspor",
+        "apps": "8",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
