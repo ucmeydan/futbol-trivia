@@ -7145,7 +7145,7 @@
   {
     "id": 180,
     "game": "kariyer-yolu",
-    "activeDate": "2026-10-19",
+    "activeDate": "2026-10-20",
     "correctPlayer": "Baran Gezek",
     "career": [
       {
@@ -7166,6 +7166,41 @@
         "apps": "8",
         "goals": "0"
       }
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 181,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-21",
+    "correctPlayer": "Josh Simpson",
+    "career": [
+      {
+        "season": "2004–2006",
+        "team": "Millwall",
+        "apps": "48",
+        "goals": "2"
+      },
+      {
+        "season": "2006-2009",
+        "team": "Kaiserslautern",
+        "apps": "65",
+        "goals": "12"
+      },
+      {
+        "season": "2009-2012",
+        "team": "Manisaspor",
+        "apps": "89",
+        "goals": "23"
+      },
+       {
+        "season": "2012-2014",
+        "team": "Young Boys",
+        "apps": "11",
+        "goals": "0"
+      }
+
     ],
     "difficulty": "zor"
   }

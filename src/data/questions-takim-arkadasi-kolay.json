@@ -5073,5 +5073,35 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 176,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-20",
+    "correctPlayer": "Leandro Trossard",
+    "teammates": [
+      {
+        "name": "Ruslan Malinovskyi",
+        "info": "2017-19 yılları arasında Genk'te birlikte oynadılar."
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "info": "2020-23 yılları arasında Brighton'da birlikte oynadılar"
+      },
+      {
+        "name": "Mbwana Samatta",
+        "info": "2016-19 yılları arasında Genk'te birlikte oynadılar"
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "info": "2023-26 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Orkun Kökçü",
+        "info": "2026-27 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

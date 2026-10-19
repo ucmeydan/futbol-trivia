@@ -3217,5 +3217,22 @@
       
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 173,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde Beşiktaş forması giymiş Kuzey Amerikalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-20",
+    "targets": [
+      "Atiba Hutchinson",
+      "Cyle Larin",
+      "Jermaine Jones",
+      "Tyler Boyd",
+      "Amir Murillo"
+
+    ],
+    "difficulty": "kolay"
   }
 ]

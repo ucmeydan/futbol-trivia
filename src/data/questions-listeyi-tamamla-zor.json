@@ -3727,7 +3727,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 183,
     "game": "listeyi-tamamla",
@@ -3749,7 +3748,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 184,
     "game": "listeyi-tamamla",
@@ -3769,8 +3767,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 185,
     "game": "listeyi-tamamla",
     "title": "Kariyerinde hem Galatasaray hem de Atletico Madrid forması giymiş futbolcular?",
@@ -3789,7 +3786,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 186,
     "game": "listeyi-tamamla",
@@ -3813,7 +3809,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 187,
     "game": "listeyi-tamamla",
@@ -3821,14 +3816,13 @@
     "type": "player",
     "activeDate": "2026-10-14",
     "targets": [
-     "Nathan Ake",
-     "Ederson",
-     "Edin Dzeko",
-     "Nicolas Anelka"
+      "Nathan Ake",
+      "Ederson",
+      "Edin Dzeko",
+      "Nicolas Anelka"
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 188,
     "game": "listeyi-tamamla",
@@ -3836,7 +3830,6 @@
     "type": "team-tr",
     "activeDate": "2026-10-15",
     "targets": [
-      
       "Giresunspor",
       "Ümraniyespor",
       "Ankaragücü",
@@ -3852,7 +3845,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 189,
     "game": "listeyi-tamamla",
@@ -3877,7 +3869,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 190,
     "game": "listeyi-tamamla",
@@ -3893,7 +3884,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 191,
     "game": "listeyi-tamamla",
@@ -3911,7 +3901,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 192,
     "game": "listeyi-tamamla",
@@ -3926,7 +3915,22 @@
       "Yusuf Sarı",
       "Edin Visca",
       "Umut Bozok"
-
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 193,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig tarihinde 200 ve üzeri sayıda maça çıkan yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-10-20",
+    "targets": [
+      "Christoph Daum",
+      "Gordon Milne",
+      "Nenad Bijedic",
+      "Safet Susic",
+      "Gheorghe Mulțescu",
+      "Milorad Mitrovic"
     ],
     "difficulty": "zor"
   }

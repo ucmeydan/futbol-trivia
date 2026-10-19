@@ -3439,7 +3439,30 @@
       "Konyaspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 172,
+    "game": "top10",
+    "title": "Mevcut Süper Lig takımları arasında stadyum kapasitesi en düşük 10 kulüp?",
+    "type": "team-tr",
+    "activeDate": "2026-10-20",
+    "targets": [
+      "Eyüpspor",
+      "Alanyaspor",
+      "Kasımpaşa",
+      "Çorum FK",
+      "Rizespor",
+      "Başakşehir",
+      "Gençlerbirliği",
+      "Erzurumspor",
+      "Göztepe",
+      "Amed SK"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

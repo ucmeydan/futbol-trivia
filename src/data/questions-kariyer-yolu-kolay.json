@@ -6299,5 +6299,39 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 169,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-20",
+    "correctPlayer": "Dusan Vlahovic",
+    "career": [
+      {
+        "season": "2016–2018",
+        "team": "Partizan",
+        "apps": "27",
+        "goals": "3"
+      },
+      {
+        "season": "2018–2022",
+        "team": "Fiorentina",
+        "apps": "108",
+        "goals": "49"
+      },
+      {
+        "season": "2022–2026",
+        "team": "Juventus",
+        "apps": "168",
+        "goals": "68"
+      },
+      {
+        "season": "2026-",
+        "team": "Beşiktaş",
+        "apps": "8",
+        "goals": "6"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]
