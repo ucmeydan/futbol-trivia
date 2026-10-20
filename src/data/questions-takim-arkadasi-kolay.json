@@ -5103,5 +5103,93 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 177,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-21",
+    "correctPlayer": "Gökhan Gönül",
+    "teammates": [
+      {
+        "name": "Giray Kaçar",
+        "info": "2006-07 sezonunda Hacettepe'de birlikte oynadılar."
+      },
+      {
+        "name": "Dirk Kuyt",
+        "info": "2012-15 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Tarık Çetin",
+        "info": "2021-23 yılları arasında Rizespor'da birlikte oynadılar"
+      },
+      {
+        "name": "Diego Lugano",
+        "info": "2007-11 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Ricardo Quaresma",
+        "info": "2016-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 178,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-22",
+    "correctPlayer": "Ederson",
+    "teammates": [
+      {
+        "name": "Kyle Walker",
+        "info": "2017-25 yılları arasında Manchester City'de oynadılar"
+      },
+      {
+        "name": "Victor Lindelöf",
+        "info": "2015-17 yılları arasında Benfica'da oynadılar"
+      },
+      {
+        "name": "Nicolas Otamendi",
+        "info": "2017-20 yılları arasında Manchester City'de oynadılar"
+      },
+      {
+        "name": "Neymar",
+        "info": "Brezilya Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Nelson Semedo",
+        "info": "2015-17 arasında Benfica'da ve 2025-26 sezonunda Fenerbahçe'de oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 179,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-23",
+    "correctPlayer": "Merih Demiral",
+    "teammates": [
+      {
+        "name": "Ozan Tufan",
+        "info": "2018-19 sezonunda Alanyaspor'da ve Türk Milli takımında birlikte oynadılar."
+      },
+      {
+        "name": "Gianluigi Buffon",
+        "info": "2019-21 yılları arasında Juventus'ta birlikte oynadılar"
+      },
+      {
+        "name": "Ademola Lookman",
+        "info": "2022-23 sezonunda Atalanta'da birlikte oynadılar."
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2019-21 yılları arasında Juventus'ta birlikte oynadılar"
+      },
+      {
+        "name": "Riyad Mahrez",
+        "info": "2023-26 yılları arasında Al Ahli'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -3779,7 +3779,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 191,
     "game": "top10",
@@ -3800,8 +3799,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 192,
     "game": "top10",
     "title": "Şampiyonlar Ligi'nde Türk takımlarını mağlup eden son 10 takım? (Grup aşaması ve sonrası)",
@@ -3821,7 +3819,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 193,
     "game": "top10",
@@ -3839,6 +3836,46 @@
       "Simon Banza",
       "Gedson Fernandes",
       "Okay Yokuşlu"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 194,
+    "game": "top10",
+    "title": "Süper Lig tarihinde en çok maça çıkan 10 Bosna Hersekli futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-20",
+    "targets": [
+      "Edin Visca",
+      "Elvir Bolic",
+      "Haris Hajradinovic",
+      "Amir Hadziahmetovic",
+      "Elvir Baljic",
+      "Deni Milošević",
+      "Zijad Švrakić",
+      "Riad Baljic",
+      "Kenan Hasagić",
+      "Ibrahim Šehić"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 195,
+    "game": "top10",
+    "title": "3 büyük kulüpten herhangi birinin formasıyla en fazla maça çıkan 10 Fransız futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-21",
+    "targets": [
+      "Valentin Rosier",
+      "Sacha Boey",
+      "Bafetimbi Gomis",
+      "Edouard Cisse",
+      "Mathieu Valbuena",
+      "Lionel Carole",
+      "Pascal Nouma",
+      "Nicolas Anelka",
+      "Matteo Guendouzi",
+      "Sebastian Perez"
     ],
     "difficulty": "zor"
   }

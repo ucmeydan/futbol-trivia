@@ -3234,5 +3234,21 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 174,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe forması giymiş İspanyol futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-21",
+    "targets": [
+      "Roberto Soldado",
+      "Daniel Guiza",
+      "Josico",
+      "Marco Asensio"
+
+    ],
+    "difficulty": "kolay"
   }
 ]

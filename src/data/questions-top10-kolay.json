@@ -3460,6 +3460,27 @@
       "Amed SK"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 173,
+    "game": "top10",
+    "title": "Süper Lig'in ilk 8 haftasında en çok isabetli şut atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-10-21",
+    "targets": [
+      "Victor Osimhen",
+      "Mohamed Salah",
+      "Vedat Muriqi",
+      "Mason Greenwood",
+      "Dusan Vlahovic",
+      "Adrian Benedyczak",
+      "Jesus Ramirez",
+      "Gift Orban",
+      "Ernest Muçi",
+      "Juan"
+    ],
+    "difficulty": "kolay"
   }
 
 

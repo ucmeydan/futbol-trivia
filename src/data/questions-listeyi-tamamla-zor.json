@@ -3933,5 +3933,25 @@
       "Milorad Mitrovic"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 194,
+    "game": "listeyi-tamamla",
+    "title": "Radamel Falcao'nun futbolculuk kariyerinde forma giydiği kulüpler?",
+    "type": "team-all",
+    "activeDate": "2026-10-21",
+    "targets": [
+      "Galatasaray",
+      "Rayo Vallecano",
+      "Atletico Madrid",
+      "Porto",
+      "Manchester United",
+      "Chelsea",
+      "Millonarios",
+      "River Plate",
+      "Monaco"
+    ],
+    "difficulty": "zor"
   }
 ]
