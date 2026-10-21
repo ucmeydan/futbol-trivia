@@ -6367,5 +6367,27 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 171,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-22",
+    "correctPlayer": "Gökdeniz Karadeniz",
+    "career": [
+      {
+        "season": "1997-2008",
+        "team": "Trabzonspor",
+        "apps": "294",
+        "goals": "80"
+      },
+      {
+        "season": "2008–2018",
+        "team": "Rubin Kazan",
+        "apps": "300",
+        "goals": "52"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

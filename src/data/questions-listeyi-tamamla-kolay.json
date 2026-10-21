@@ -3250,5 +3250,24 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 175,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de mevcut piyasa değeri 10M€ ve üzerinde olan santrforlar?",
+    "type": "player",
+    "activeDate": "2026-10-22",
+    "targets": [
+      
+    "Victor Osimhen",
+    "Dusan Vlahovic",
+    "Franculino Dju",
+    "Hyeon Gyu Oh",
+    "Juan",
+    "Deniz Gül"
+
+    ],
+    "difficulty": "kolay"
   }
 ]

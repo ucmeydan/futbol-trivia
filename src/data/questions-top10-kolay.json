@@ -3481,6 +3481,28 @@
       "Juan"
     ],
     "difficulty": "kolay"
+  },
+
+
+  {
+    "id": 174,
+    "game": "top10",
+    "title": "Süper Lig'de 2015-16 sezonundan bu yana son 12 sezonun toplamında en çok puan toplayan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-10-22",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Başakşehir",
+      "Trabzonspor",
+      "Konyaspor",
+      "Kasımpaşa",
+      "Antalyaspor",
+      "Alanyaspor",
+      "Kayserispor"
+    ],
+    "difficulty": "kolay"
   }
 
 

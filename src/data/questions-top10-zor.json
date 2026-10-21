@@ -3878,5 +3878,26 @@
       "Sebastian Perez"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 196,
+    "game": "top10",
+    "title": "Tuncay Şanlı'nın kariyeri boyunca birlikte en fazla maça çıktığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-22",
+    "targets": [
+      "Ümit Özat",
+      "Mehmet Aurelio",
+      "Volkan Demirel",
+      "Rüştü Reçber",
+      "Alex De Souza",
+      "Fabio Luciano",
+      "Serkan Balcı",
+      "Servet Çetin",
+      "Önder Turacı",
+      "Mehmet Yozgatlı"
+    ],
+    "difficulty": "zor"
   }
 ]

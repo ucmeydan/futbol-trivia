@@ -7203,5 +7203,39 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 182,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-22",
+    "correctPlayer": "Darius Vassell",
+    "career": [
+      {
+        "season": "1998–2006",
+        "team": "Aston Villa",
+        "apps": "201",
+        "goals": "45"
+      },
+      {
+        "season": "2006–2009",
+        "team": "Manchester City",
+        "apps": "124",
+        "goals": "22"
+      },
+      {
+        "season": "2009–2010",
+        "team": "Ankaragücü",
+        "apps": "25",
+        "goals": "4"
+      },
+      {
+        "season": "2010–2011",
+        "team": "Leicester City",
+        "apps": "45",
+        "goals": "6"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
