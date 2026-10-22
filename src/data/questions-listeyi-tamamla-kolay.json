@@ -3269,5 +3269,26 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 176,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Şampiyonlar Ligi lig aşamasında ilk 3 maçında yenilgi almayan takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-10-23",
+    "targets": [
+      
+    "PSG",
+    "Aston Villa",
+    "Liverpool",
+    "Real Madrid",
+    "Real Betis",
+    "Stuttgart",
+    "Arsenal",
+    "Bayern Münih"
+
+    ],
+    "difficulty": "kolay"
   }
 ]

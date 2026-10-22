@@ -7237,5 +7237,69 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 183,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-23",
+    "correctPlayer": "Nacer Chadli",
+    "career": [
+      {
+        "season": "2007–2010",
+        "team": "AGOVV",
+        "apps": "95",
+        "goals": "29"
+      },
+      {
+        "season": "2010–2013",
+        "team": "Twente",
+        "apps": "123",
+        "goals": "40"
+      },
+      {
+        "season": "2013–2016",
+        "team": "Tottenham",
+        "apps": "119",
+        "goals": "25"
+      },
+      {
+        "season": "2016–2018",
+        "team": "West Brom",
+        "apps": "38",
+        "goals": "6"
+      },
+      {
+        "season": "2018–2020",
+        "team": "Monaco",
+        "apps": "22",
+        "goals": "0"
+      },
+      {
+        "season": "2019–2020",
+        "team": "Anderlecht (kiralık)",
+        "apps": "19",
+        "goals": "8"
+      },
+      {
+        "season": "2020–2023",
+        "team": "Başakşehir",
+        "apps": "51",
+        "goals": "6"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Westerlo (kiralık)",
+        "apps": "27",
+        "goals": "6"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Westerlo",
+        "apps": "19",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

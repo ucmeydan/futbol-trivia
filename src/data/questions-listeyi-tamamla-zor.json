@@ -3971,5 +3971,23 @@
       "Lille"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 196,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde Beşiktaş formasıyla gol sevinci yaşamış İngiliz futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-23",
+    "targets": [
+      "Alex Oxlade Chamberlain",
+      "Tammy Abraham",
+      "Nathan Redmond",
+      "Joe Worrall",
+      "Dele Alli",
+      "Alan Walsh",
+      "Les Ferdinand"
+    ],
+    "difficulty": "zor"
   }
 ]

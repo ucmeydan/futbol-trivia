@@ -3503,6 +3503,28 @@
       "Kayserispor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 175,
+    "game": "top10",
+    "title": "Fenerbahçe'nin mevcut kadrosundaki güncel piyasa değeri en yüksek 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-10-23",
+    "targets": [
+      "Mason Greenwood",
+      "Matteo Guendouzi",
+      "Dorgeles Nene",
+      "Kerem Aktürkoğlu",
+      "Archie Brown",
+      "Jayden Oosterwolde",
+      "İsmail Yüksek",
+      "Marco Asensio",
+      "Kojo Peprah Oppong",
+      "Nathan Ake"
+
+    ],
+    "difficulty": "kolay"
   }
 
 
