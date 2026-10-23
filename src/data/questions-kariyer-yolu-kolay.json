@@ -6435,5 +6435,103 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 173,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-23",
+    "correctPlayer": "Andre Onana",
+    "career": [
+      {
+        "season": "2013–2015",
+        "team": "Barcelona U19",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Ajax U21",
+        "apps": "39",
+        "goals": "0"
+      },
+      {
+        "season": "2016–2022",
+        "team": "Ajax",
+        "apps": "214",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Inter",
+        "apps": "41",
+        "goals": "0"
+      },
+      {
+        "season": "2023–2025",
+        "team": "Manchester United",
+        "apps": "102",
+        "goals": "0"
+      },
+      {
+        "season": "2025–",
+        "team": "Trabzonspor (kiralık)",
+        "apps": "44",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 174,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-24",
+    "correctPlayer": "Kelechi Iheanacho",
+    "career": [
+      {
+        "season": "2014-2015",
+        "team": "Manchester City U21",
+        "apps": "7",
+        "goals": "5"
+      },
+      {
+        "season": "2015–2017",
+        "team": "Manchester City",
+        "apps": "64",
+        "goals": "21"
+      },
+      {
+        "season": "2017-2024",
+        "team": "Leicester",
+        "apps": "232",
+        "goals": "61"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Sevilla",
+        "apps": "11",
+        "goals": "3"
+      },
+      {
+        "season": "2025-2025",
+        "team": "Middlesbrough (kiralık)",
+        "apps": "15",
+        "goals": "1"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Celtic",
+        "apps": "24",
+        "goals": "9"
+      },
+      {
+        "season": "2026-",
+        "team": "Bursaspor",
+        "apps": "11",
+        "goals": "15"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

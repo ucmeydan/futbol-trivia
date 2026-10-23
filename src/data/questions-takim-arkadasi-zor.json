@@ -5016,7 +5016,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 175,
     "game": "takim-arkadasi",
@@ -5046,7 +5045,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 176,
     "game": "takim-arkadasi",
@@ -5076,7 +5074,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 177,
     "game": "takim-arkadasi",
@@ -5106,7 +5103,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 178,
     "game": "takim-arkadasi",
@@ -5136,7 +5132,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 179,
     "game": "takim-arkadasi",
@@ -5166,7 +5161,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 180,
     "game": "takim-arkadasi",
@@ -5196,7 +5190,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 181,
     "game": "takim-arkadasi",
@@ -5226,8 +5219,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 182,
     "game": "takim-arkadasi",
     "activeDate": "2026-10-18",
@@ -5256,7 +5248,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 183,
     "game": "takim-arkadasi",
@@ -5286,7 +5277,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 184,
     "game": "takim-arkadasi",
@@ -5316,7 +5306,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 185,
     "game": "takim-arkadasi",
@@ -5400,6 +5389,35 @@
       {
         "name": "Eldor Shomurodov",
         "info": "2026-27 sezonunda Başakşehir'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 188,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-24",
+    "correctPlayer": "Mbaye Diagne",
+    "teammates": [
+      {
+        "name": "Sofyan Amrabat",
+        "info": "2019-20 sezonunda Club Brugge'de birlikte oynadılar"
+      },
+      {
+        "name": "Lois Openda",
+        "info": "2019-20 sezonunda Club Brugge'de birlikte oynadılar"
+      },
+      {
+        "name": "Conor Gallagher",
+        "info": "2021 yılında West Bromwich'te birlikte oynadılar"
+      },
+      {
+        "name": "Trezeguet",
+        "info": "2018 yılında Kasımpaşa'da birlikte oynadılar"
+      },
+      {
+        "name": "Kerem Aktürkoğlu",
+        "info": "2021-22 sezonunda Galatasaray'da birlikte oynadılar"
       }
     ],
     "difficulty": "zor"

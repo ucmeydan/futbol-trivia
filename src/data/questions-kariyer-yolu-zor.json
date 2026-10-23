@@ -7085,7 +7085,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 178,
     "game": "kariyer-yolu",
@@ -7113,7 +7112,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 179,
     "game": "kariyer-yolu",
@@ -7141,7 +7139,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 180,
     "game": "kariyer-yolu",
@@ -7169,8 +7166,7 @@
     ],
     "difficulty": "zor"
   },
-
-   {
+  {
     "id": 181,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-21",
@@ -7194,17 +7190,15 @@
         "apps": "89",
         "goals": "23"
       },
-       {
+      {
         "season": "2012-2014",
         "team": "Young Boys",
         "apps": "11",
         "goals": "0"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 182,
     "game": "kariyer-yolu",
@@ -7238,7 +7232,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 183,
     "game": "kariyer-yolu",
@@ -7298,6 +7291,51 @@
         "team": "Westerlo",
         "apps": "19",
         "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 184,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-24",
+    "correctPlayer": "Patryk Szysz",
+    "career": [
+      {
+        "season": "2014–2018",
+        "team": "Gornik Leczna",
+        "apps": "57",
+        "goals": "23"
+      },
+      {
+        "season": "2016–2017",
+        "team": "Motor Lublin (kiralık)",
+        "apps": "24",
+        "goals": "4"
+      },
+      {
+        "season": "2018–2022",
+        "team": "Zaglebie Lubin",
+        "apps": "107",
+        "goals": "25"
+      },
+      {
+        "season": "2022–2025",
+        "team": "Başakşehir",
+        "apps": "44",
+        "goals": "6"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Arka Gdynia",
+        "apps": "25",
+        "goals": "0"
+      },
+      {
+        "season": "2026–",
+        "team": "Odra Opole",
+        "apps": "12",
+        "goals": "3"
       }
     ],
     "difficulty": "zor"

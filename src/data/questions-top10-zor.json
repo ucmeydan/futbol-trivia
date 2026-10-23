@@ -3918,5 +3918,47 @@
       "Leeds United"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 198,
+    "game": "top10",
+    "title": "Beşiktaş'ın iç sahada karşılaştığı son 10 İngiliz takımı?",
+    "type": "team-eu",
+    "activeDate": "2026-10-23",
+    "targets": [
+      "Crystal Palace",
+      "Wolves",
+      "Liverpool",
+      "Tottenham",
+      "Arsenal",
+      "Stoke City",
+      "Manchester United",
+      "Bolton",
+      "Chelsea",
+      "Leeds United"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 199,
+    "game": "top10",
+    "title": "2008 yılında piyasa değeri en yüksek 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-24",
+    "targets": [
+      "Arda Turan",
+      "Nihat Kahveci",
+      "Hamit Altıntop",
+      "Tuncay Şanlı",
+      "Gökdeniz Karadeniz",
+      "Servet Çetin",
+      "Mehmet Aurelio",
+      "Emre Belözoğlu",
+      "Yıldıray Baştürk",
+      "Semih Şentürk"
+    ],
+    "difficulty": "zor"
   }
 ]

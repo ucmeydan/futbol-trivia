@@ -3989,5 +3989,23 @@
       "Les Ferdinand"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 197,
+    "game": "listeyi-tamamla",
+    "title": "21. yüzyılda hem Fenerbahçe hem de Porto forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-24",
+    "targets": [
+      "Abdoulaye Ba",
+      "Fabiano",
+      "Raul Meireles",
+      "Diego Ribas",
+      "Diego Reyes",
+      "Bruno Alves",
+      "Josef De Souza"
+    ],
+    "difficulty": "zor"
   }
 ]

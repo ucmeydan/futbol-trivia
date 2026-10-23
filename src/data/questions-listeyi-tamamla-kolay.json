@@ -3290,5 +3290,28 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 176,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Avrupa Ligi lig aşamasında ilk 3 maçında yenilgi almayan takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-10-24",
+    "targets": [
+      
+    "Bournemouth",
+    "Beşiktaş",
+    "Ferencvaros",
+    "Benfica",
+    "Bayer Leverkusen",
+    "Olympiakos",
+    "Union SG",
+    "Juventus",
+    "Sunderland",
+    "Rennes"
+
+    ],
+    "difficulty": "kolay"
   }
 ]
