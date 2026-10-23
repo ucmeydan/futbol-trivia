@@ -3972,7 +3972,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 196,
     "game": "listeyi-tamamla",
@@ -3990,7 +3989,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 197,
     "game": "listeyi-tamamla",
@@ -3999,7 +3997,7 @@
     "activeDate": "2026-10-24",
     "targets": [
       "Abdoulaye Ba",
-      "Fabiano",
+      "Fabiano Ribeiro",
       "Raul Meireles",
       "Diego Ribas",
       "Diego Reyes",
