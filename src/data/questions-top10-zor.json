@@ -3960,5 +3960,26 @@
       "Semih Şentürk"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 200,
+    "game": "top10",
+    "title": "İspanya'nın 2026 Dünya Kupası maçlarında en çok süre alan 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-25",
+    "targets": [
+      "Unai Simon",
+      "Marc Cucurella",
+      "Pau Cubarsi",
+      "Aymeric Laporte",
+      "Rodri",
+      "Lamine Yamal",
+      "Mikel Oyarzabal",
+      "Pedro Porro",
+      "Pedri",
+      "Dani Olmo"
+    ],
+    "difficulty": "zor"
   }
 ]

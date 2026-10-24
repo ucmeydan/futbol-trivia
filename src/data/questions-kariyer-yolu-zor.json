@@ -7339,5 +7339,39 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 185,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-25",
+    "correctPlayer": "Attila Mocsi",
+    "career": [
+      {
+        "season": "2017–2020",
+        "team": "Videoton",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2020–2022",
+        "team": "Haladas",
+        "apps": "56",
+        "goals": "2"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Zalaegerszeg",
+        "apps": "51",
+        "goals": "1"
+      },
+      {
+        "season": "2023–",
+        "team": "Rizespor",
+        "apps": "100",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

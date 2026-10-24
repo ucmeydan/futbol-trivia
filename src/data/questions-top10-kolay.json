@@ -3519,5 +3519,27 @@
       "Erzurumspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 177,
+    "game": "top10",
+    "title": "Galatasaray tarihinde en yüksek bonservis ödenen 10 yerli oyuncu? (Eşit bedellerde daha önce transfer edilen oyuncu üst sırada yer alır)",
+    "type": "player",
+    "activeDate": "2026-10-25",
+    "targets": [
+      "Uğurcan Çakır",
+      "Deniz Gül",
+      "Burak Yılmaz",
+      "Ahmed Kutucu",
+      "Bülent Akın",
+      "Serkan Aykut",
+      "Hasan Şaş",
+      "Tarık Çamdal",
+      "Serdar Aziz",
+      "Olcan Adın"
+     
+    ],
+    "difficulty": "kolay"
   }
 ]

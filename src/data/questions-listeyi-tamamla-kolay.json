@@ -3313,5 +3313,21 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 177,
+    "game": "listeyi-tamamla",
+    "title": "Milli takımımızın Euro 2008 Avrupa Şampiyonasında karşılaştığı ülkeler?",
+    "type": "country",
+    "activeDate": "2026-10-25",
+    "targets": [
+      "Portekiz",
+      "Çekya",
+      "İsviçre",
+      "Hırvatistan",
+      "Almanya"
+    ],
+    "difficulty": "kolay"
   }
 ]

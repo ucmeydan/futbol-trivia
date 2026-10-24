@@ -6487,5 +6487,39 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 174,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-25",
+    "correctPlayer": "Deniz Barış",
+    "career": [
+      {
+        "season": "1999-2002",
+        "team": "St. Pauli",
+        "apps": "39",
+        "goals": "1"
+      },
+      {
+        "season": "2002–2004",
+        "team": "Gençlerbirliği",
+        "apps": "75",
+        "goals": "5"
+      },
+      {
+        "season": "2004-2010",
+        "team": "Fenerbahçe",
+        "apps": "155",
+        "goals": "4"
+      },
+      {
+        "season": "2010–2014",
+        "team": "Antalyaspor",
+        "apps": "110",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

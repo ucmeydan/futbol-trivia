@@ -4005,5 +4005,28 @@
       "Josef De Souza"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 198,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın Şampiyonlar Ligi grup aşaması ve sonrasında mağlup ettiği takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-10-25",
+    "targets": [
+      "Barcelona",
+      "PSG",
+      "Göteborg",
+      "Chelsea",
+      "Sparta Prag",
+      "Liverpool",
+      "Marsilya",
+      "Manchester United",
+      "Napoli",
+      "Porto",
+      "Leipzig",
+      "Monaco"
+    ],
+    "difficulty": "zor"
   }
 ]
