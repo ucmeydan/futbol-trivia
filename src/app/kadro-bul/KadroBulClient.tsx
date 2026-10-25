@@ -66,7 +66,7 @@ const DEFAULT_STATS: Stats = {
 const TEAM_COLORS: Record<string, { primary: string; secondary?: string; split?: 'stripe' | 'half' }> = {
   'Fenerbahçe':         { primary: '#FFDD00', secondary: '#003399' },
   'Beşiktaş':           { primary: '#1a1a1a', secondary: '#ffffff' },
-  'Galatasaray':        { primary: '#E8211B', secondary: '#F7A014', split: 'half' },
+  'Galatasaray':        { primary: '#F7A014', secondary: '#E8211B', split: 'half' },
   'Trabzonspor':        { primary: '#8B1C2E', secondary: '#1B4CA1' },
   'Bursaspor':          { primary: '#00862A' },
   'Başakşehir':         { primary: '#E8211B', secondary: '#1A3A5C' },
@@ -192,7 +192,7 @@ function JerseySvg({
   const defId = `jersey-${splitType}-${number}-${size}`;
   const bodyPath = "M22,5 L11,9 L2,24 L2,35 L12,31 L13,52 L43,52 L44,31 L54,35 L54,24 L45,9 L34,5 Q28,15 22,5Z";
   const isLight = (c: string) => ['#ffffff','#FFFFFF','#FDE100','#FFDD00','#F7A014','#6CABDD'].includes(c);
-  const numColor = splitType === 'half' ? 'white' : isLight(fill) ? '#000000' : 'white';
+  const numColor = splitType === 'half' ? (isLight(fill) ? '#000000' : 'white') : isLight(fill) ? '#000000' : 'white';
 
   return (
     <svg viewBox="0 0 56 58" width={w} height={h}>
