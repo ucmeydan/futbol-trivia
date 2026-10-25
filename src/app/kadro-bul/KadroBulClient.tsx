@@ -2,7 +2,9 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
-import questionsRaw from '@/data/questions-kadro-bul.json';
+import Confetti from 'react-confetti';
+import questionsKolayRaw from '@/data/questions-kadro-bul-kolay.json';
+import questionsZorRaw from '@/data/questions-kadro-bul-zor.json';
 
 const safeGetItem = (key: string): string | null => {
   try { return localStorage.getItem(key); } catch { return null; }
@@ -15,11 +17,12 @@ const safeSetItem = (key: string, value: string): void => {
 
 type PlayerData = {
   number: number;
-  answer: string; // e.g. "TORRES" or "BARIŞ ALPER"
+  answer: string;
 };
 
 type MatchData = {
   id: number;
+  difficulty?: 'kolay' | 'zor';
   activeDate: string;
   league: string;
   season: string;
@@ -30,31 +33,44 @@ type MatchData = {
   matchDate: string;
   targetTeam: string;
   teamColor: string;
-  formation: number[]; // [1,4,4,2] → GK, DEF, MID, FWD
-  players: PlayerData[]; // ordered GK first
+  formation: number[];
+  players: PlayerData[];
 };
 
 type LetterResult = 'correct' | 'present' | 'absent';
 
 type PlayerState = {
-  guesses: string[]; // letters only, no spaces
+  guesses: string[];
   results: LetterResult[][];
   status: 'pending' | 'solved' | 'failed';
+};
+
+const DIST_KEYS = ['11', '12-15', '16-20', '21-30', '31-40', '41-50', '50+'] as const;
+type DistKey = typeof DIST_KEYS[number];
+
+type Stats = {
+  totalGames: number;
+  wins: number;
+  distribution: Record<DistKey, number>;
 };
 
 // ─── Constants ───────────────────────────────────────────────────────────────
 
 const MAX_GUESSES = 6;
 
-const TEAM_COLORS: Record<string, { primary: string; secondary?: string }> = {
-  // Türk takımları
+const DEFAULT_STATS: Stats = {
+  totalGames: 0,
+  wins: 0,
+  distribution: { '11': 0, '12-15': 0, '16-20': 0, '21-30': 0, '31-40': 0, '41-50': 0, '50+': 0 },
+};
+
+const TEAM_COLORS: Record<string, { primary: string; secondary?: string; split?: 'stripe' | 'half' }> = {
   'Fenerbahçe':         { primary: '#FFDD00', secondary: '#003399' },
   'Beşiktaş':           { primary: '#1a1a1a', secondary: '#ffffff' },
-  'Galatasaray':        { primary: '#E8211B', secondary: '#F7A014' },
+  'Galatasaray':        { primary: '#F7A014', secondary: '#E8211B', split: 'half' },
   'Trabzonspor':        { primary: '#8B1C2E', secondary: '#1B4CA1' },
   'Bursaspor':          { primary: '#00862A' },
   'Başakşehir':         { primary: '#E8211B', secondary: '#1A3A5C' },
-  // İngiltere
   'Liverpool':          { primary: '#C8102E' },
   'Man City':           { primary: '#6CABDD' },
   'Chelsea':            { primary: '#034694' },
@@ -62,26 +78,22 @@ const TEAM_COLORS: Record<string, { primary: string; secondary?: string }> = {
   'Manchester United':  { primary: '#DA291C' },
   'Tottenham':          { primary: '#132257' },
   'Newcastle':          { primary: '#241F20', secondary: '#ffffff' },
-  // İspanya
   'Real Madrid':        { primary: '#FEBE10', secondary: '#ffffff' },
   'Barcelona':          { primary: '#A50044', secondary: '#004D98' },
   'Atletico Madrid':    { primary: '#CB3524', secondary: '#2D4B8E' },
   'Sevilla':            { primary: '#D4AF37', secondary: '#ffffff' },
-  // Almanya
   'Bayern Munich':      { primary: '#DC052D' },
   'Borussia Dortmund':  { primary: '#FDE100', secondary: '#000000' },
-  // İtalya
   'Juventus':           { primary: '#000000', secondary: '#ffffff' },
   'AC Milan':           { primary: '#FB090B', secondary: '#000000' },
   'Inter Milan':        { primary: '#010E80', secondary: '#000000' },
-  // Fransa
   'PSG':                { primary: '#003366', secondary: '#DA020E' },
 };
 
 const KEYBOARD_ROWS = [
-  ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'İ', 'O', 'P', 'Ğ', 'Ü'],
-  ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Ş', 'Ö'],
-  ['⌫', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', 'Ç', '↵'],
+  ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'Ğ', 'Ü'],
+  ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Ş', 'İ'],
+  ['⌫', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', 'Ö', 'Ç', '↵'],
 ];
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -90,13 +102,18 @@ function stripSpaces(s: string) {
   return s.replace(/\s/g, '');
 }
 
+// Normalize Turkish special chars to ASCII equivalents so both forms are accepted in guesses
+function normalizeChar(ch: string): string {
+  const map: Record<string, string> = { 'İ': 'I', 'Ü': 'U', 'Ö': 'O' };
+  return map[ch] ?? ch;
+}
+
 function evaluateGuess(guess: string, answer: string): LetterResult[] {
-  const g = guess.split('');
-  const a = answer.split('');
+  const g = [...guess].map(normalizeChar);
+  const a = [...answer].map(normalizeChar);
   const result: LetterResult[] = Array(g.length).fill('absent');
   const remaining = [...a];
 
-  // First pass: exact matches
   g.forEach((ch, i) => {
     if (ch === a[i]) {
       result[i] = 'correct';
@@ -104,7 +121,6 @@ function evaluateGuess(guess: string, answer: string): LetterResult[] {
     }
   });
 
-  // Second pass: wrong position
   g.forEach((ch, i) => {
     if (result[i] === 'correct') return;
     const idx = remaining.indexOf(ch);
@@ -117,7 +133,6 @@ function evaluateGuess(guess: string, answer: string): LetterResult[] {
   return result;
 }
 
-// Build display map: [{type:'letter',pos}|{type:'space'}]
 function buildDisplayMap(answer: string) {
   const out: ({ type: 'letter'; pos: number } | { type: 'space' })[] = [];
   let pos = 0;
@@ -137,11 +152,12 @@ function getKeyColors(
     const res = results[gi];
     if (!res) return;
     [...guess].forEach((ch, li) => {
-      const cur = map[ch];
+      const key = normalizeChar(ch);
+      const cur = map[key];
       const next = res[li];
       if (cur === 'correct') return;
       if (!cur || next === 'correct' || (next === 'present' && cur === 'absent')) {
-        map[ch] = next;
+        map[key] = next;
       }
     });
   });
@@ -153,51 +169,67 @@ function todayStr() {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
+function getDistKey(total: number): DistKey {
+  if (total <= 11) return '11';
+  if (total <= 15) return '12-15';
+  if (total <= 20) return '16-20';
+  if (total <= 30) return '21-30';
+  if (total <= 40) return '31-40';
+  if (total <= 50) return '41-50';
+  return '50+';
+}
+
 // ─── Sub-components ───────────────────────────────────────────────────────────
 
 function JerseySvg({
   number,
   fill,
   secondaryFill,
+  splitType = 'stripe',
   size,
+  showNumber = true,
 }: {
   number: number;
   fill: string;
   secondaryFill?: string;
+  splitType?: 'stripe' | 'half';
   size: 'sm' | 'lg';
+  showNumber?: boolean;
 }) {
   const [w, h] = size === 'lg' ? [80, 84] : [44, 46];
-  const patternId = `stripes-${number}-${size}`;
+  const defId = `jersey-${splitType}-${number}-${size}`;
   const bodyPath = "M22,5 L11,9 L2,24 L2,35 L12,31 L13,52 L43,52 L44,31 L54,35 L54,24 L45,9 L34,5 Q28,15 22,5Z";
-  const numColor = fill === '#ffffff' || fill === '#FFFFFF' || fill === '#FDE100' || fill === '#FFDD00' ? '#000000' : 'white';
+  const isLight = (c: string) => ['#ffffff','#FFFFFF','#FDE100','#FFDD00','#F7A014','#6CABDD'].includes(c);
+  const numColor = splitType === 'half' ? (isLight(fill) ? '#000000' : 'white') : isLight(fill) ? '#000000' : 'white';
 
   return (
     <svg viewBox="0 0 56 58" width={w} height={h}>
       {secondaryFill && (
         <defs>
-          <pattern id={patternId} width="8" height="58" patternUnits="userSpaceOnUse">
-            <rect width="4" height="58" fill={fill} />
-            <rect x="4" width="4" height="58" fill={secondaryFill} />
-          </pattern>
-          <clipPath id={`clip-${patternId}`}>
-            <path d={bodyPath} />
-          </clipPath>
+          {splitType === 'half' ? (
+            <linearGradient id={defId} x1="0" x2="1" y1="0" y2="0">
+              <stop offset="50%" stopColor={fill} />
+              <stop offset="50%" stopColor={secondaryFill} />
+            </linearGradient>
+          ) : (
+            <pattern id={defId} width="8" height="58" patternUnits="userSpaceOnUse">
+              <rect width="4" height="58" fill={fill} />
+              <rect x="4" width="4" height="58" fill={secondaryFill} />
+            </pattern>
+          )}
         </defs>
       )}
-      {/* Body + sleeves */}
       <path
         d={bodyPath}
-        fill={secondaryFill ? `url(#${patternId})` : fill}
+        fill={secondaryFill ? `url(#${defId})` : fill}
         stroke="rgba(0,0,0,0.18)"
         strokeWidth="0.9"
         strokeLinejoin="round"
       />
-      {/* Upper highlight */}
       <path
         d="M22,5 L11,9 L2,24 L2,31 L12,28 L13,38 L43,38 L44,28 L54,31 L54,24 L45,9 L34,5 Q28,15 22,5Z"
         fill="rgba(255,255,255,0.07)"
       />
-      {/* V-neck collar */}
       <path
         d="M22,5 Q28,16 34,5"
         fill="none"
@@ -205,19 +237,20 @@ function JerseySvg({
         strokeWidth="1.4"
         strokeLinecap="round"
       />
-      {/* Number */}
-      <text
-        x="28"
-        y="37"
-        textAnchor="middle"
-        fill={numColor}
-        fontSize={size === 'lg' ? 17 : 15}
-        fontWeight="900"
-        fontFamily="system-ui,-apple-system,sans-serif"
-        opacity="0.95"
-      >
-        {number}
-      </text>
+      {showNumber && (
+        <text
+          x="28"
+          y="37"
+          textAnchor="middle"
+          fill={numColor}
+          fontSize={size === 'lg' ? 17 : 15}
+          fontWeight="900"
+          fontFamily="system-ui,-apple-system,sans-serif"
+          opacity="0.95"
+        >
+          {number}
+        </text>
+      )}
     </svg>
   );
 }
@@ -226,16 +259,20 @@ function Jersey({
   number,
   color,
   secondaryColor,
+  splitType,
   status,
   isActive,
   onClick,
+  showNumber,
 }: {
   number: number;
   color: string;
   secondaryColor?: string;
+  splitType?: 'stripe' | 'half';
   status: 'pending' | 'solved' | 'failed';
   isActive: boolean;
   onClick: () => void;
+  showNumber?: boolean;
 }) {
   const fill = status === 'solved' ? '#16a34a' : status === 'failed' ? '#374151' : color;
   const secondary = status === 'pending' ? secondaryColor : undefined;
@@ -257,7 +294,7 @@ function Jersey({
       aria-label={`Oyuncu #${number}`}
       style={shadowStyle}
     >
-      <JerseySvg number={number} fill={fill} secondaryFill={secondary} size="sm" />
+      <JerseySvg number={number} fill={fill} secondaryFill={secondary} splitType={status === 'pending' ? splitType : undefined} size="sm" showNumber={showNumber} />
     </button>
   );
 }
@@ -355,52 +392,71 @@ function KeyboardKey({
 
 // ─── Main Component ───────────────────────────────────────────────────────────
 
-export default function KadroBulClient() {
+export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | 'zor' }) {
   const [mounted, setMounted] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const [matches, setMatches] = useState<MatchData[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [view, setView] = useState<'intro' | 'pitch' | 'guessing'>('intro');
+  const [view, setView] = useState<'intro' | 'pitch' | 'guessing' | 'result'>('intro');
   const [playerStates, setPlayerStates] = useState<PlayerState[]>([]);
   const [activePlayerIdx, setActivePlayerIdx] = useState<number | null>(null);
   const [input, setInput] = useState('');
   const [shake, setShake] = useState(false);
   const [copySuccess, setCopySuccess] = useState(false);
+  const [stats, setStats] = useState<Stats>({ ...DEFAULT_STATS, distribution: { ...DEFAULT_STATS.distribution } });
+  const [gameRecorded, setGameRecorded] = useState(false);
+  const [windowDimension, setWindowDimension] = useState({ width: 1024, height: 768 });
 
-  // Load questions
+  const sessionKey = (activeDate: string) => `kadro_bul_${difficulty}_session_${activeDate}`;
+  const statsKey = `kadro_bul_${difficulty}_stats_v1`;
+
+  // Load questions & stats
   useEffect(() => {
     setMounted(true);
-    const all = questionsRaw as unknown as MatchData[];
+    setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
+
+    const all = (difficulty === 'kolay' ? questionsKolayRaw : questionsZorRaw) as unknown as MatchData[];
     const today = todayStr();
     const available = all.filter((m) => m.activeDate <= today);
     setMatches(available);
+
+    const savedStats = safeGetItem(`kadro_bul_${difficulty}_stats_v1`);
+    if (savedStats) setStats(JSON.parse(savedStats));
+
     if (available.length > 0) {
       const idx = available.length - 1;
       setCurrentIndex(idx);
-      loadMatch(idx, available);
+      loadMatchInner(idx, available);
     }
     setLoaded(true);
-  }, []);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [difficulty]);
 
   function initPlayerStates(match: MatchData): PlayerState[] {
     return match.players.map(() => ({ guesses: [], results: [], status: 'pending' }));
   }
 
-  function loadMatch(idx: number, matchList: MatchData[]) {
+  function loadMatchInner(idx: number, matchList: MatchData[]) {
     const match = matchList[idx];
     setCurrentIndex(idx);
     setView('intro');
     setActivePlayerIdx(null);
     setInput('');
+    setGameRecorded(false);
 
-    const saved = safeGetItem(`kadro_bul_session_${match.activeDate}`);
+    const saved = safeGetItem(`kadro_bul_${difficulty}_session_${match.activeDate}`);
     if (saved) {
       const data = JSON.parse(saved);
       setPlayerStates(data.playerStates);
+      setGameRecorded(data.gameRecorded ?? false);
       setView('pitch');
     } else {
       setPlayerStates(initPlayerStates(match));
     }
+  }
+
+  function loadMatch(idx: number) {
+    loadMatchInner(idx, matches);
   }
 
   const currentMatch = matches[currentIndex];
@@ -409,16 +465,48 @@ export default function KadroBulClient() {
     playerStates.length > 0 &&
     playerStates.every((ps) => ps.status !== 'pending');
 
+  const isWin = isAllDone && playerStates.every((ps) => ps.status === 'solved');
   const solvedCount = playerStates.filter((ps) => ps.status === 'solved').length;
+  const totalGuesses = playerStates.reduce((sum, ps) => sum + ps.guesses.length, 0);
 
-  // Persist state whenever it changes (after intro screen is left)
+  // Record stats once when game ends
+  useEffect(() => {
+    if (!isAllDone || gameRecorded || !currentMatch || playerStates.length === 0) return;
+
+    const win = playerStates.every((ps) => ps.status === 'solved');
+    const total = playerStates.reduce((sum, ps) => sum + ps.guesses.length, 0);
+
+    const savedStats = safeGetItem(statsKey);
+    const newStats: Stats = savedStats
+      ? JSON.parse(savedStats)
+      : { ...DEFAULT_STATS, distribution: { ...DEFAULT_STATS.distribution } };
+
+    newStats.totalGames += 1;
+    if (win) {
+      newStats.wins += 1;
+      newStats.distribution[getDistKey(total)] += 1;
+    }
+
+    safeSetItem(statsKey, JSON.stringify(newStats));
+    setStats(newStats);
+    setGameRecorded(true);
+
+    safeSetItem(
+      sessionKey(currentMatch.activeDate),
+      JSON.stringify({ playerStates, gameRecorded: true })
+    );
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isAllDone, gameRecorded]);
+
+  // Persist session state
   useEffect(() => {
     if (!currentMatch || playerStates.length === 0 || view === 'intro') return;
     safeSetItem(
-      `kadro_bul_session_${currentMatch.activeDate}`,
-      JSON.stringify({ playerStates })
+      sessionKey(currentMatch.activeDate),
+      JSON.stringify({ playerStates, gameRecorded })
     );
-  }, [playerStates, currentMatch, view]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [playerStates, currentMatch, view, gameRecorded]);
 
   const handleKeyPress = useCallback(
     (key: string) => {
@@ -466,8 +554,7 @@ export default function KadroBulClient() {
         return;
       }
 
-      const answer2 = stripSpaces(currentMatch.players[activePlayerIdx].answer);
-      if (input.length < answer2.length) {
+      if (input.length < answer.length) {
         setInput((prev) => prev + key);
       }
     },
@@ -490,7 +577,7 @@ export default function KadroBulClient() {
 
   function handleSelectPlayer(idx: number) {
     const ps = playerStates[idx];
-    if (ps.status !== 'pending') return; // already done
+    if (ps.status !== 'pending') return;
     setActivePlayerIdx(idx);
     setInput('');
     setView('guessing');
@@ -526,7 +613,7 @@ export default function KadroBulClient() {
       `${currentMatch.league} · ${currentMatch.season}`,
       ``,
       emojiRows.join(''),
-      `${solvedCount}/11 oyuncu bulundu`,
+      isWin ? `✅ ${solvedCount}/11 · ${totalGuesses} toplam tahmin` : `❌ ${solvedCount}/11 oyuncu bulundu`,
       ``,
       `futboltrivia.com.tr/kadro-bul`,
     ].join('\n');
@@ -537,7 +624,7 @@ export default function KadroBulClient() {
     });
   }
 
-  // ─── Pitch layout ────────────────────────────────────────────────────────
+  // ─── Pitch layout ──────────────────────────────────────────────────────────
 
   function buildPitchRows(match: MatchData): PlayerData[][] {
     const rows: PlayerData[][] = [];
@@ -546,7 +633,7 @@ export default function KadroBulClient() {
       rows.push(match.players.slice(offset, offset + count));
       offset += count;
     }
-    return rows.reverse(); // attackers at top
+    return rows.reverse();
   }
 
   function playerIndexInMatch(player: PlayerData, match: MatchData) {
@@ -568,9 +655,120 @@ export default function KadroBulClient() {
         ) : (
           <>
             <p className="text-slate-400 text-sm mb-4">Henüz oynanacak bir maç yok.</p>
-            <Link href="/" className="text-red-500 font-bold text-sm hover:underline">← Ana sayfaya dön</Link>
+            <Link href="/kadro-bul" className="text-red-500 font-bold text-sm hover:underline">← Geri dön</Link>
           </>
         )}
+      </div>
+    );
+  }
+
+  // ── Result screen ──────────────────────────────────────────────────────────
+  if (view === 'result') {
+    const winPercentage = stats.totalGames > 0 ? Math.round((stats.wins / stats.totalGames) * 100) : 0;
+    const maxDist = Math.max(...Object.values(stats.distribution), 1);
+    const myDistKey = isWin ? getDistKey(totalGuesses) : null;
+
+    return (
+      <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans relative overflow-x-hidden">
+        {isWin && (
+          <Confetti
+            width={windowDimension.width}
+            height={windowDimension.height}
+            recycle={false}
+            numberOfPieces={400}
+            style={{ zIndex: 150 }}
+          />
+        )}
+
+        {/* Header */}
+        <div className="flex items-center justify-between mb-4">
+          <button
+            onClick={() => setView('pitch')}
+            className="text-slate-400 font-semibold text-sm hover:text-white transition-colors py-2 pr-3 -ml-1"
+          >
+            ← Sahaya Dön
+          </button>
+          <div className="flex items-center gap-2">
+            <span className="text-red-500 font-bold text-base">Kadro Bul</span>
+            <span className="text-slate-600 text-xs">#{currentMatch.id}</span>
+          </div>
+          <div className="w-16" />
+        </div>
+
+        {/* Result card */}
+        <div className="bg-slate-900 border-2 border-slate-800 rounded-3xl p-6 shadow-2xl">
+
+          {/* Win/loss header */}
+          <div className="text-center mb-6">
+            <p className="text-5xl mb-2">{isWin ? '🏆' : '😔'}</p>
+            <p className="font-bold text-xl mb-1" style={{ color: isWin ? '#22c55e' : '#ef4444' }}>
+              {isWin ? 'Tebrikler!' : 'Maalesef!'}
+            </p>
+            <p className="text-slate-400 text-sm">
+              {currentMatch.homeTeam} {currentMatch.homeScore}–{currentMatch.awayScore} {currentMatch.awayTeam}
+            </p>
+            <p className="text-slate-600 text-xs mt-0.5">
+              {currentMatch.matchDate} · {currentMatch.league}
+            </p>
+            {!isWin && (
+              <p className="text-slate-500 text-xs mt-2">{solvedCount}/11 oyuncu bulundu</p>
+            )}
+            {isWin && (
+              <p className="text-green-500 text-xs mt-2 font-semibold">{totalGuesses} toplam tahmin ile tamamlandı</p>
+            )}
+          </div>
+
+          {/* Stats row */}
+          <div className="flex justify-between mb-6 border-b border-slate-800 pb-6">
+            <div className="flex-1 text-center">
+              <div className="text-2xl font-bold">{stats.totalGames}</div>
+              <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight">Oynanan oyun</div>
+            </div>
+            <div className="flex-1 text-center" style={{ borderLeft: '1px solid #1e293b', borderRight: '1px solid #1e293b' }}>
+              <div className="text-2xl font-bold text-green-500">{winPercentage}%</div>
+              <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight">Kazanma yüzdesi</div>
+            </div>
+            <div className="flex-1 text-center">
+              <div className="text-2xl font-bold text-sky-500">{stats.wins}</div>
+              <div className="text-[8px] text-slate-500 font-semibold mt-1 leading-tight">Toplam galibiyet</div>
+            </div>
+          </div>
+
+          {/* Distribution */}
+          <p className="text-[10px] font-bold text-slate-500 mb-3 tracking-wider">TOPLAM TAHMİN DAĞILIMI</p>
+          <div className="space-y-1.5 mb-6">
+            {DIST_KEYS.map((key) => (
+              <div key={key} className="flex items-center gap-3">
+                <span className="text-[10px] font-bold shrink-0 text-slate-500" style={{ width: 36, textAlign: 'left' }}>{key}</span>
+                <div className="flex-grow rounded overflow-hidden" style={{ backgroundColor: 'rgba(15,23,42,0.5)', height: 20 }}>
+                  <div
+                    className="h-full flex items-center px-2 transition-all duration-1000"
+                    style={{
+                      width: `${(stats.distribution[key] / maxDist) * 100 || 5}%`,
+                      backgroundColor: myDistKey === key ? '#dc2626' : '#334155',
+                    }}
+                  >
+                    <span style={{ fontSize: 9, fontWeight: 700, color: 'white' }}>{stats.distribution[key]}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Buttons */}
+          <button
+            onClick={shareScore}
+            className="w-full bg-white text-black py-3 rounded-2xl font-bold text-sm active:scale-95 transition-all mb-2"
+          >
+            {copySuccess ? 'Kopyalandı!' : 'Skoru Paylaş'}
+          </button>
+          <button
+            onClick={() => setView('pitch')}
+            className="w-full bg-slate-800 text-white py-3 rounded-xl text-xs font-semibold hover:bg-slate-700 transition-colors"
+          >
+            Sahayı Gör
+          </button>
+        </div>
       </div>
     );
   }
@@ -580,16 +778,16 @@ export default function KadroBulClient() {
     return (
       <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans">
         <div className="w-full flex justify-between items-center mb-6">
-          <Link href="/" className="text-slate-400 font-semibold text-sm hover:text-white transition-colors py-2 pr-3 -ml-1">← Geri dön</Link>
+          <Link href="/kadro-bul" className="text-slate-400 font-semibold text-sm hover:text-white transition-colors py-2 pr-3 -ml-1">← Geri dön</Link>
           <div className="flex items-center gap-3">
             <button
-              onClick={() => loadMatch(currentIndex - 1, matches)}
+              onClick={() => loadMatch(currentIndex - 1)}
               disabled={currentIndex === 0}
               className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
             >‹</button>
             <span className="font-bebas text-2xl text-red-600 leading-none">#{currentMatch.id}</span>
             <button
-              onClick={() => loadMatch(currentIndex + 1, matches)}
+              onClick={() => loadMatch(currentIndex + 1)}
               disabled={currentIndex === matches.length - 1}
               className="w-9 h-9 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
             >›</button>
@@ -601,9 +799,9 @@ export default function KadroBulClient() {
           <h1 className="text-4xl font-bold text-white tracking-tight">Kadro Bul</h1>
           <p className="text-slate-400 text-sm text-center max-w-xs leading-relaxed">
             Maçta oynayan 11 futbolcuyu bul. Her oyuncu için 6 tahmin hakkın var.
+            {difficulty === 'zor' && ' Daha zorlu maçlar içerir.'}
           </p>
 
-          {/* Match card */}
           <div className="w-full bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl">
             <div className="text-center mb-5">
               <p className="text-xs font-bold text-slate-500 tracking-widest uppercase mb-1">{currentMatch.league}</p>
@@ -657,7 +855,6 @@ export default function KadroBulClient() {
 
     return (
       <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans">
-        {/* Header */}
         <div className="flex items-center justify-between mb-4">
           <button
             onClick={() => { setView('pitch'); setInput(''); setActivePlayerIdx(null); }}
@@ -677,11 +874,17 @@ export default function KadroBulClient() {
           </button>
         </div>
 
-        {/* Jersey + number */}
         <div className="flex justify-center mb-5">
           <div className="flex flex-col items-center gap-1">
             <div style={{ filter: 'drop-shadow(0 4px 14px rgba(0,0,0,0.65))' }}>
-              <JerseySvg number={player.number} fill={guessingTeamColors.primary} secondaryFill={guessingTeamColors.secondary} size="lg" />
+              <JerseySvg
+                number={player.number}
+                fill={guessingTeamColors.primary}
+                secondaryFill={guessingTeamColors.secondary}
+                splitType={guessingTeamColors.split}
+                size="lg"
+                showNumber
+              />
             </div>
             <p className="text-xs text-slate-500 font-semibold">
               {currentGuessIdx}/{MAX_GUESSES} tahmin · {answer.length} harf
@@ -689,7 +892,6 @@ export default function KadroBulClient() {
           </div>
         </div>
 
-        {/* Wordle grid */}
         <div className={`flex flex-col gap-1.5 mb-6 transition-all ${shake ? 'animate-[wiggle_0.4s_ease]' : ''}`}>
           {Array.from({ length: MAX_GUESSES }).map((_, gi) => {
             const isPast = gi < ps.guesses.length;
@@ -708,14 +910,17 @@ export default function KadroBulClient() {
           })}
         </div>
 
-        {/* Solved/failed banner */}
         {ps.status !== 'pending' && (
-          <div className={`text-center py-2 mb-4 rounded-xl font-bold text-sm ${ps.status === 'solved' ? 'bg-green-600/20 text-green-400' : 'bg-slate-800 text-slate-400'}`}>
+          <div
+            className="text-center py-2 mb-4 rounded-xl font-bold text-sm"
+            style={ps.status === 'solved'
+              ? { backgroundColor: 'rgba(22,163,74,0.2)', color: '#4ade80' }
+              : { backgroundColor: 'rgba(51,65,85,0.5)', color: '#94a3b8' }}
+          >
             {ps.status === 'solved' ? `🎉 ${player.answer}` : `Cevap: ${player.answer}`}
           </div>
         )}
 
-        {/* Keyboard */}
         <div className="mt-auto space-y-1.5">
           {KEYBOARD_ROWS.map((row, ri) => (
             <div key={ri} className="flex justify-center gap-1">
@@ -723,7 +928,7 @@ export default function KadroBulClient() {
                 <KeyboardKey
                   key={key}
                   label={key}
-                  color={keyColors[key]}
+                  color={keyColors[normalizeChar(key)]}
                   onPress={handleKeyPress}
                 />
               ))}
@@ -750,7 +955,7 @@ export default function KadroBulClient() {
         </button>
         <div className="flex items-center gap-2">
           <button
-            onClick={() => loadMatch(currentIndex - 1, matches)}
+            onClick={() => loadMatch(currentIndex - 1)}
             disabled={currentIndex === 0}
             className="w-8 h-8 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
           >‹</button>
@@ -759,7 +964,7 @@ export default function KadroBulClient() {
             <span className="text-slate-600 font-normal ml-1.5 text-xs">#{currentMatch.id}</span>
           </h1>
           <button
-            onClick={() => loadMatch(currentIndex + 1, matches)}
+            onClick={() => loadMatch(currentIndex + 1)}
             disabled={currentIndex === matches.length - 1}
             className="w-8 h-8 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
           >›</button>
@@ -767,56 +972,43 @@ export default function KadroBulClient() {
         <div className="text-xs text-slate-500 font-semibold">{solvedCount}/11</div>
       </div>
 
-      {/* Match info strip */}
-      <div className="flex items-center justify-center gap-3 mb-3 bg-slate-900/50 border border-slate-800/50 rounded-xl px-4 py-2">
-        <span className="text-sm font-bold text-white">{currentMatch.homeTeam}</span>
-        <div className="shrink-0 bg-slate-950 border border-slate-800 rounded-lg px-2.5 py-0.5">
-          <span className="font-bebas text-lg text-white tracking-wide leading-none">
-            {currentMatch.homeScore}–{currentMatch.awayScore}
-          </span>
+      {/* Match info strip + date */}
+      <div className="flex flex-col items-center mb-3 gap-0.5">
+        <div className="flex items-center justify-center gap-3 w-full bg-slate-900/50 border border-slate-800/50 rounded-xl px-4 py-2">
+          <span className="text-sm font-bold text-white">{currentMatch.homeTeam}</span>
+          <div className="shrink-0 bg-slate-950 border border-slate-800 rounded-lg px-2.5 py-0.5">
+            <span className="font-bebas text-lg text-white tracking-wide leading-none">
+              {currentMatch.homeScore}–{currentMatch.awayScore}
+            </span>
+          </div>
+          <span className="text-sm font-bold text-white">{currentMatch.awayTeam}</span>
         </div>
-        <span className="text-sm font-bold text-white">{currentMatch.awayTeam}</span>
+        <p className="text-[11px] text-slate-600">{currentMatch.matchDate} · {currentMatch.league}</p>
       </div>
 
       {/* Pitch */}
-      <div className="relative w-full flex-1 rounded-2xl overflow-hidden mb-3"
+      <div
+        className="relative w-full flex-1 rounded-2xl overflow-hidden mb-3"
         style={{
           background: 'repeating-linear-gradient(180deg, #1b6229 0px, #1b6229 24px, #1d6e2e 24px, #1d6e2e 48px)',
           minHeight: 340,
           maxHeight: 500,
           boxShadow: 'inset 0 0 40px rgba(0,0,0,0.35)',
-        }}>
-
+        }}
+      >
         {/* Pitch markings */}
-        <div className="absolute pointer-events-none"
-          style={{ inset: 7, border: '1.5px solid rgba(255,255,255,0.22)', borderRadius: 4 }}>
-
-          {/* Center line */}
-          <div className="absolute left-0 right-0"
-            style={{ top: '50%', height: '1.5px', background: 'rgba(255,255,255,0.22)' }} />
-
-          {/* Center circle */}
+        <div
+          className="absolute pointer-events-none"
+          style={{ inset: 7, border: '1.5px solid rgba(255,255,255,0.22)', borderRadius: 4 }}
+        >
+          <div className="absolute left-0 right-0" style={{ top: '50%', height: '1.5px', background: 'rgba(255,255,255,0.22)' }} />
           <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: 76, height: 76, borderRadius: '50%', border: '1.5px solid rgba(255,255,255,0.22)' }} />
-
-          {/* Center spot */}
           <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: 5, height: 5, borderRadius: '50%', background: 'rgba(255,255,255,0.4)' }} />
-
-          {/* Top penalty box */}
           <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', top: 0, width: '56%', height: '20%', borderBottom: '1.5px solid rgba(255,255,255,0.22)', borderLeft: '1.5px solid rgba(255,255,255,0.22)', borderRight: '1.5px solid rgba(255,255,255,0.22)' }} />
-
-          {/* Top goal area */}
           <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', top: 0, width: '28%', height: '9%', borderBottom: '1.5px solid rgba(255,255,255,0.18)', borderLeft: '1.5px solid rgba(255,255,255,0.18)', borderRight: '1.5px solid rgba(255,255,255,0.18)' }} />
-
-          {/* Bottom penalty box */}
           <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', bottom: 0, width: '56%', height: '20%', borderTop: '1.5px solid rgba(255,255,255,0.22)', borderLeft: '1.5px solid rgba(255,255,255,0.22)', borderRight: '1.5px solid rgba(255,255,255,0.22)' }} />
-
-          {/* Bottom goal area */}
           <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', bottom: 0, width: '28%', height: '9%', borderTop: '1.5px solid rgba(255,255,255,0.18)', borderLeft: '1.5px solid rgba(255,255,255,0.18)', borderRight: '1.5px solid rgba(255,255,255,0.18)' }} />
-
-          {/* Bottom penalty spot */}
           <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', bottom: '13%', marginBottom: -2, width: 4, height: 4, borderRadius: '50%', background: 'rgba(255,255,255,0.32)' }} />
-
-          {/* Corner arcs */}
           <div className="absolute top-0 left-0" style={{ width: 14, height: 14, borderRight: '1.5px solid rgba(255,255,255,0.16)', borderBottom: '1.5px solid rgba(255,255,255,0.16)', borderBottomRightRadius: '100%' }} />
           <div className="absolute top-0 right-0" style={{ width: 14, height: 14, borderLeft: '1.5px solid rgba(255,255,255,0.16)', borderBottom: '1.5px solid rgba(255,255,255,0.16)', borderBottomLeftRadius: '100%' }} />
           <div className="absolute bottom-0 left-0" style={{ width: 14, height: 14, borderRight: '1.5px solid rgba(255,255,255,0.16)', borderTop: '1.5px solid rgba(255,255,255,0.16)', borderTopRightRadius: '100%' }} />
@@ -837,18 +1029,31 @@ export default function KadroBulClient() {
                       number={player.number}
                       color={teamColors.primary}
                       secondaryColor={teamColors.secondary}
+                      splitType={teamColors.split}
                       status={ps.status}
                       isActive={activePlayerIdx === idx}
                       onClick={() => ps.status === 'pending' ? handleSelectPlayer(idx) : undefined}
+                      showNumber
                     />
-                    <div className="text-center" style={{ minWidth: 40 }}>
+                    <div className="flex flex-col items-center gap-0.5" style={{ minWidth: 40 }}>
                       {ps.status === 'solved' ? (
-                        <span className="text-green-400 font-bold leading-none" style={{ fontSize: 9 }}>{player.answer}</span>
+                        <span className="leading-none" style={{ fontSize: 9, color: '#4ade80', fontWeight: 700 }}>{player.answer}</span>
                       ) : ps.status === 'failed' ? (
-                        <span className="text-slate-500 font-semibold leading-none" style={{ fontSize: 9 }}>{player.answer}</span>
+                        <span className="leading-none" style={{ fontSize: 9, color: '#64748b', fontWeight: 600 }}>{player.answer}</span>
                       ) : (
-                        <span className="text-white/20 tracking-[2px] text-[8px]">
+                        <span style={{ color: 'rgba(255,255,255,0.2)', letterSpacing: '2px', fontSize: 8 }}>
                           {'·'.repeat(stripSpaces(player.answer).length)}
+                        </span>
+                      )}
+                      {ps.guesses.length > 0 && (
+                        <span style={{
+                          fontSize: 8, fontWeight: 700, lineHeight: 1,
+                          padding: '1px 4px', borderRadius: 3,
+                          backgroundColor: ps.status === 'solved' ? 'rgba(74,222,128,0.15)' : 'rgba(71,85,105,0.4)',
+                          color: ps.status === 'solved' ? '#4ade80' : '#64748b',
+                          border: `1px solid ${ps.status === 'solved' ? 'rgba(74,222,128,0.3)' : 'rgba(71,85,105,0.5)'}`,
+                        }}>
+                          {ps.guesses.length}
                         </span>
                       )}
                     </div>
@@ -860,16 +1065,20 @@ export default function KadroBulClient() {
         </div>
       </div>
 
-      {/* Tap hint or completion */}
+      {/* Bottom bar */}
       {isAllDone ? (
         <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 text-center">
-          <p className="font-bold text-white mb-1">{solvedCount === 11 ? '🏆 Kadroyu tamamladın!' : `${solvedCount}/11 oyuncu bulundu`}</p>
-          <p className="text-slate-500 text-xs mb-3">{currentMatch.targetTeam} · {currentMatch.league} {currentMatch.season}</p>
+          <p className="font-bold text-white mb-1">
+            {isWin ? '🏆 Kadroyu tamamladın!' : `${solvedCount}/11 oyuncu bulundu`}
+          </p>
+          <p className="text-slate-500 text-xs mb-3">
+            {currentMatch.targetTeam} · {currentMatch.league} {currentMatch.season}
+          </p>
           <button
-            onClick={shareScore}
-            className="w-full bg-white text-black py-3 rounded-xl font-bold text-sm hover:bg-slate-200 active:scale-95 transition-all"
+            onClick={() => setView('result')}
+            className="w-full bg-red-600 hover:bg-red-500 text-white py-3 rounded-xl font-bold text-sm active:scale-95 transition-all"
           >
-            {copySuccess ? 'Kopyalandı!' : 'Skoru Paylaş'}
+            Sonuçları Gör
           </button>
         </div>
       ) : (

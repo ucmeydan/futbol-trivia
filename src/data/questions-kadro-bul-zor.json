@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "difficulty": "zor",
+    "activeDate": "2026-10-26",
+    "league": "Şampiyonlar Ligi",
+    "season": "2023/24",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Manchester United",
+    "homeScore": 3,
+    "awayScore": 3,
+    "matchDate": "29.11.2023",
+    "targetTeam": "Galatasaray",
+    "teamColor": "#cc0000",
+    "formation": [1, 4, 2, 3, 1],
+    "players": [
+      { "number": 1, "answer": "MUSLERA" },
+      { "number": 3, "answer": "ANGELINO" },
+      { "number": 42, "answer": "ABDÜLKERİM" },
+      { "number": 23, "answer": "KAAN" },
+      { "number": 93, "answer": "BOEY" },
+      { "number": 34, "answer": "TORREIRA" },
+      { "number": 91, "answer": "NDOMBELE" },
+      { "number": 14, "answer": "ZAHA" },
+      { "number": 10, "answer": "MERTENS" },
+      { "number": 22, "answer": "ZIYECH" },
+      { "number": 9, "answer": "ICARDI" }
+    ]
+  }
+]
