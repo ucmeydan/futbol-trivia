@@ -1,12 +1,17 @@
 import type { NextConfig } from 'next'
 
+const isDev = process.env.NODE_ENV === 'development';
+
 const nextConfig: NextConfig = {
   async headers() {
     return [
       {
         source: '/_next/static/:path*',
         headers: [
-          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
+          {
+            key: 'Cache-Control',
+            value: isDev ? 'no-store' : 'public, max-age=31536000, immutable',
+          },
         ],
       },
       {
