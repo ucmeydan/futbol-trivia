@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "activeDate": "2026-10-25",
+    "difficulty": "kolay",
+    "activeDate": "2026-10-26",
     "league": "Şampiyonlar Ligi",
     "season": "2023/24",
     "homeTeam": "Galatasaray",

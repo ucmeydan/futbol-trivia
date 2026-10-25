@@ -22,6 +22,7 @@ type PlayerData = {
 
 type MatchData = {
   id: number;
+  difficulty?: 'kolay' | 'zor';
   activeDate: string;
   league: string;
   season: string;
