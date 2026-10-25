@@ -3981,5 +3981,29 @@
       "Dani Olmo"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 201,
+    "game": "top10",
+    "title": "Galatasaray'ın transfer ettiği son 10 yabancı defans oyuncusu? (Kiralık oyuncular dahil)",
+    "type": "player",
+    "activeDate": "2026-10-26",
+    "targets": [
+      "El Chadaille Bitshiabu",
+      "Wilfried Singo",
+      "Przemyslaw Frankowski",
+      "Carlos Cuesta",
+      "Ismael Jakobs",
+      "Elias Jelert",
+      "Derrick Kohn",
+      "Serge Aurier",
+      "Davinson Sanchez",
+      "Angelino"
+
+
+
+    ],
+    "difficulty": "zor"
   }
 ]

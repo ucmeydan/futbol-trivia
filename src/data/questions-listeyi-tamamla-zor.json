@@ -4028,5 +4028,44 @@
       "Monaco"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 199,
+    "game": "listeyi-tamamla",
+    "title": "Hem Fenerbahçe hem de Galatasaray forması giymiş yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-26",
+    "targets": [
+      "Haim Revivo",
+      "Elvir Bolic",
+      "Elvir Baljic",
+      "Stjepan Tomas",
+      "Garry Rodrigues",
+      "Bruma",
+      "Michy Batshuayi"
+    ],
+    "difficulty": "zor"
+  },
+
+
+  {
+    "id": 200,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde Galatasaray forması giymiş Kolombiyalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-27",
+    "targets": [
+      "Faryd Mondragon",
+      "Yaser Asprilla",
+      "Carlos Cuesta",
+      "Robinson Zapata",
+      "Radamel Falcao",
+      "Davinson Sanchez",
+      "Juan Pablo Pino",
+      "Gustavo Victoria",
+      "Jersson Gonzalez"
+    ],
+    "difficulty": "zor"
   }
 ]

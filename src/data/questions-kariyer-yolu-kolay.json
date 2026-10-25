@@ -6521,5 +6521,39 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 175,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-26",
+    "correctPlayer": "Feyyaz Uçar",
+    "career": [
+      {
+        "season": "1982-1994",
+        "team": "Beşiktaş",
+        "apps": "361",
+        "goals": "190"
+      },
+      {
+        "season": "1994–1995",
+        "team": "Fenerbahçe",
+        "apps": "37",
+        "goals": "14"
+      },
+      {
+        "season": "1995-1996",
+        "team": "Antalyaspor",
+        "apps": "25",
+        "goals": "8"
+      },
+      {
+        "season": "1996–1997",
+        "team": "Kuşadasıspor",
+        "apps": "1",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

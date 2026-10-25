@@ -5451,5 +5451,151 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 190,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-26",
+    "correctPlayer": "Franck Ribéry",
+    "teammates": [
+      {
+        "name": "Mamadou Niang",
+        "info": "2005-07 yılları arasında Marsilya'da birlikte oynadılar"
+      },
+      {
+        "name": "Dusan Vlahovic",
+        "info": "2019-21 yılları arasında Fiorentina'da birlikte oynadılar"
+      },
+      {
+        "name": "Luca Toni",
+        "info": "2007-09 yılları arasında Bayern'de birlikte oynadılar"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "info": "2014-19 yılları arasında Bayern'de birlikte oynadılar"
+      },
+      {
+        "name": "Faryd Mondragon",
+        "info": "2004-05 sezonunda Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 191,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-27",
+    "correctPlayer": "Robinho",
+    "teammates": [
+      {
+        "name": "Ruud van Nistelrooy",
+        "info": "2016-18 yılları arasında Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Zlatan Ibrahimovic",
+        "info": "2010-12 yılları arasında Milan'da birlikte oynadılar"
+      },
+      {
+        "name": "Vincent Kompany",
+        "info": "2008-10 yılları arasında Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Demba Ba",
+        "info": "2019-20 sezonunda Başakşehir'de birlikte oynadılar"
+      },
+      {
+        "name": "Ziya Erdal",
+        "info": "2017-19 yılları arasında Sivasspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 192,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-28",
+    "correctPlayer": "Domagoj Vida",
+    "teammates": [
+      {
+        "name": "Michael Ballack",
+        "info": "2010-11 sezonunda Leverkusen'de birlikte oynadılar"
+      },
+      {
+        "name": "Andrej Kramaric",
+        "info": "2011-13 yılları arasında Dinamo Zagreb'te birlikte oynadılar"
+      },
+      {
+        "name": "Adem Ljajic",
+        "info": "2018-22 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Younes Belhanda",
+        "info": "2013-16 yılları arasında Dinamo Kiev'de birlikte oynadılar"
+      },
+      {
+        "name": "Miralem Pjanic",
+        "info": "2021-22 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 193,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-29",
+    "correctPlayer": "Mateja Kezman",
+    "teammates": [
+      {
+        "name": "Park Ji Sung",
+        "info": "2003-04 sezonunda PSV'de birlikte oynadılar"
+      },
+      {
+        "name": "Adrian Mutu",
+        "info": "2004-05 sezonunda Chelsea'de birlikte oynadılar"
+      },
+      {
+        "name": "Mevlüt Erdinç",
+        "info": "2009-10 sezonunda PSG'de birlikte oynadılar"
+      },
+      {
+        "name": "Fernando Torres",
+        "info": "2005-06 sezonunda Atletico Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Diego Lugano",
+        "info": "2006-08 yılları arasında Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 194,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-30",
+    "correctPlayer": "Alvaro Negredo",
+    "teammates": [
+      {
+        "name": "Victor Valdes",
+        "info": "2016-17 sezonunda Middlesbrough'da ve İspanya Milli Takımı'nda birlikte oynadılar"
+      },
+      {
+        "name": "Yohan Cabaye",
+        "info": "2018-20 yılları arasında Al-Nasr'da (BAE) birlikte oynadılar"
+      },
+      {
+        "name": "Felipe Melo",
+        "info": "2007-08 sezonunda Almeria'da birlikte oynadılar"
+      },
+      {
+        "name": "Sergio Agüero",
+        "info": "2013-14 sezonunda Manchester City'de birlikte oynadılar"
+      },
+      {
+        "name": "Jeremain Lens",
+        "info": "2017-18 sezonunda Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -7373,5 +7373,39 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 186,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-26",
+    "correctPlayer": "Arda Kızıldağ",
+    "career": [
+      {
+        "season": "2017–2022",
+        "team": "Gençlerbirliği",
+        "apps": "62",
+        "goals": "2"
+      },
+      {
+        "season": "2017–2019",
+        "team": "Hacettepe (kiralık)",
+        "apps": "36",
+        "goals": "1"
+      },
+      {
+        "season": "2022–",
+        "team": "Gaziantep FK",
+        "apps": "100",
+        "goals": "9"
+      },
+      {
+        "season": "2023–2023",
+        "team": "Ankaragücü (kiralık)",
+        "apps": "9",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

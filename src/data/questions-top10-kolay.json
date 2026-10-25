@@ -3541,5 +3541,47 @@
      
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 178,
+    "game": "top10",
+    "title": "Galatasaray - Fenerbahçe derbilerinde gol atan son 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-26",
+    "targets": [
+     "Lucas Torreira",
+     "Barış Alper Yılmaz",
+     "Victor Osimhen",
+     "Jayden Oosterwolde",
+     "Matteo Guendouzi",
+     "Jhon Duran",
+     "Leroy Sane",
+     "Sebastian Szymanski",
+     "Edin Džeko",
+     "Gabriel Sara"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 179,
+    "game": "top10",
+    "title": "Fenerbahçe'nin resmi maçlarda karşılaştığı son 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-10-27",
+    "targets": [
+      "Galatasaray",
+      "Slavia Prag",
+      "Alanyaspor",
+      "Aston Villa",
+      "Rizespor",
+      "Eyüpspor",
+      "Gaziantep FK",
+      "Roma",
+      "Beşiktaş",
+      "Samsunspor"
+    ],
+    "difficulty": "kolay"
   }
 ]

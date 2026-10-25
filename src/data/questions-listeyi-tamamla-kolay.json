@@ -3329,5 +3329,28 @@
       "Almanya"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 178,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de mücadele eden ve logosunda kırmızı renk bulunan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-26",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Göztepe",
+      "Çorum FK",
+      "Rizespor",
+      "Kasımpaşa",
+      "Samsunspor",
+      "Amed SK",
+      "Gaziantep FK",
+      "Gençlerbirliği",
+      "Eyüpspor"
+    ],
+    "difficulty": "kolay"
   }
 ]
