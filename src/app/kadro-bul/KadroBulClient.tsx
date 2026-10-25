@@ -63,10 +63,10 @@ const DEFAULT_STATS: Stats = {
   distribution: { '11': 0, '12-15': 0, '16-20': 0, '21-30': 0, '31-40': 0, '41-50': 0, '50+': 0 },
 };
 
-const TEAM_COLORS: Record<string, { primary: string; secondary?: string }> = {
+const TEAM_COLORS: Record<string, { primary: string; secondary?: string; split?: 'stripe' | 'half' }> = {
   'Fenerbahçe':         { primary: '#FFDD00', secondary: '#003399' },
   'Beşiktaş':           { primary: '#1a1a1a', secondary: '#ffffff' },
-  'Galatasaray':        { primary: '#E8211B', secondary: '#F7A014' },
+  'Galatasaray':        { primary: '#E8211B', secondary: '#F7A014', split: 'half' },
   'Trabzonspor':        { primary: '#8B1C2E', secondary: '#1B4CA1' },
   'Bursaspor':          { primary: '#00862A' },
   'Başakşehir':         { primary: '#E8211B', secondary: '#1A3A5C' },
@@ -177,36 +177,43 @@ function JerseySvg({
   number,
   fill,
   secondaryFill,
+  splitType = 'stripe',
   size,
   showNumber = true,
 }: {
   number: number;
   fill: string;
   secondaryFill?: string;
+  splitType?: 'stripe' | 'half';
   size: 'sm' | 'lg';
   showNumber?: boolean;
 }) {
   const [w, h] = size === 'lg' ? [80, 84] : [44, 46];
-  const patternId = `stripes-${number}-${size}`;
+  const defId = `jersey-${splitType}-${number}-${size}`;
   const bodyPath = "M22,5 L11,9 L2,24 L2,35 L12,31 L13,52 L43,52 L44,31 L54,35 L54,24 L45,9 L34,5 Q28,15 22,5Z";
-  const numColor = fill === '#ffffff' || fill === '#FFFFFF' || fill === '#FDE100' || fill === '#FFDD00' ? '#000000' : 'white';
+  const isLight = (c: string) => ['#ffffff','#FFFFFF','#FDE100','#FFDD00','#F7A014','#6CABDD'].includes(c);
+  const numColor = splitType === 'half' ? 'white' : isLight(fill) ? '#000000' : 'white';
 
   return (
     <svg viewBox="0 0 56 58" width={w} height={h}>
       {secondaryFill && (
         <defs>
-          <pattern id={patternId} width="8" height="58" patternUnits="userSpaceOnUse">
-            <rect width="4" height="58" fill={fill} />
-            <rect x="4" width="4" height="58" fill={secondaryFill} />
-          </pattern>
-          <clipPath id={`clip-${patternId}`}>
-            <path d={bodyPath} />
-          </clipPath>
+          {splitType === 'half' ? (
+            <linearGradient id={defId} x1="0" x2="1" y1="0" y2="0">
+              <stop offset="50%" stopColor={fill} />
+              <stop offset="50%" stopColor={secondaryFill} />
+            </linearGradient>
+          ) : (
+            <pattern id={defId} width="8" height="58" patternUnits="userSpaceOnUse">
+              <rect width="4" height="58" fill={fill} />
+              <rect x="4" width="4" height="58" fill={secondaryFill} />
+            </pattern>
+          )}
         </defs>
       )}
       <path
         d={bodyPath}
-        fill={secondaryFill ? `url(#${patternId})` : fill}
+        fill={secondaryFill ? `url(#${defId})` : fill}
         stroke="rgba(0,0,0,0.18)"
         strokeWidth="0.9"
         strokeLinejoin="round"
@@ -244,6 +251,7 @@ function Jersey({
   number,
   color,
   secondaryColor,
+  splitType,
   status,
   isActive,
   onClick,
@@ -252,6 +260,7 @@ function Jersey({
   number: number;
   color: string;
   secondaryColor?: string;
+  splitType?: 'stripe' | 'half';
   status: 'pending' | 'solved' | 'failed';
   isActive: boolean;
   onClick: () => void;
@@ -277,7 +286,7 @@ function Jersey({
       aria-label={`Oyuncu #${number}`}
       style={shadowStyle}
     >
-      <JerseySvg number={number} fill={fill} secondaryFill={secondary} size="sm" showNumber={showNumber} />
+      <JerseySvg number={number} fill={fill} secondaryFill={secondary} splitType={status === 'pending' ? splitType : undefined} size="sm" showNumber={showNumber} />
     </button>
   );
 }
@@ -865,6 +874,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
                 number={player.number}
                 fill={guessingTeamColors.primary}
                 secondaryFill={guessingTeamColors.secondary}
+                splitType={guessingTeamColors.split}
                 size="lg"
                 showNumber={difficulty === 'kolay'}
               />
@@ -1012,6 +1022,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
                       number={player.number}
                       color={teamColors.primary}
                       secondaryColor={teamColors.secondary}
+                      splitType={teamColors.split}
                       status={ps.status}
                       isActive={activePlayerIdx === idx}
                       onClick={() => ps.status === 'pending' ? handleSelectPlayer(idx) : undefined}
