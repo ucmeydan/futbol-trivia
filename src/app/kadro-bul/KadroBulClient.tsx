@@ -798,8 +798,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
           <h1 className="text-4xl font-bold text-white tracking-tight">Kadro Bul</h1>
           <p className="text-slate-400 text-sm text-center max-w-xs leading-relaxed">
             Maçta oynayan 11 futbolcuyu bul. Her oyuncu için 6 tahmin hakkın var.
-            {difficulty === 'kolay' && ' Forma numaraları görünür.'}
-            {difficulty === 'zor' && ' Forma numaraları gizli.'}
+            {difficulty === 'zor' && ' Daha zorlu maçlar içerir.'}
           </p>
 
           <div className="w-full bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl">
@@ -883,7 +882,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
                 secondaryFill={guessingTeamColors.secondary}
                 splitType={guessingTeamColors.split}
                 size="lg"
-                showNumber={difficulty === 'kolay'}
+                showNumber
               />
             </div>
             <p className="text-xs text-slate-500 font-semibold">
@@ -1033,7 +1032,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
                       status={ps.status}
                       isActive={activePlayerIdx === idx}
                       onClick={() => ps.status === 'pending' ? handleSelectPlayer(idx) : undefined}
-                      showNumber={difficulty === 'kolay'}
+                      showNumber
                     />
                     <div className="flex flex-col items-center gap-0.5" style={{ minWidth: 40 }}>
                       {ps.status === 'solved' ? (
