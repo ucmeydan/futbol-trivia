@@ -796,32 +796,25 @@ export default function KadroBulClient() {
             style={{ top: '50%', height: '1.5px', background: 'rgba(255,255,255,0.22)' }} />
 
           {/* Center circle */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
-            style={{ width: 76, height: 76, borderRadius: '50%', border: '1.5px solid rgba(255,255,255,0.22)' }} />
+          <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: 76, height: 76, borderRadius: '50%', border: '1.5px solid rgba(255,255,255,0.22)' }} />
 
           {/* Center spot */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
-            style={{ width: 5, height: 5, borderRadius: '50%', background: 'rgba(255,255,255,0.4)' }} />
+          <div style={{ position: 'absolute', left: '50%', top: '50%', transform: 'translate(-50%, -50%)', width: 5, height: 5, borderRadius: '50%', background: 'rgba(255,255,255,0.4)' }} />
 
           {/* Top penalty box */}
-          <div className="absolute left-1/2 -translate-x-1/2"
-            style={{ top: 0, width: '56%', height: '20%', borderBottom: '1.5px solid rgba(255,255,255,0.22)', borderLeft: '1.5px solid rgba(255,255,255,0.22)', borderRight: '1.5px solid rgba(255,255,255,0.22)' }} />
+          <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', top: 0, width: '56%', height: '20%', borderBottom: '1.5px solid rgba(255,255,255,0.22)', borderLeft: '1.5px solid rgba(255,255,255,0.22)', borderRight: '1.5px solid rgba(255,255,255,0.22)' }} />
 
           {/* Top goal area */}
-          <div className="absolute left-1/2 -translate-x-1/2"
-            style={{ top: 0, width: '28%', height: '9%', borderBottom: '1.5px solid rgba(255,255,255,0.18)', borderLeft: '1.5px solid rgba(255,255,255,0.18)', borderRight: '1.5px solid rgba(255,255,255,0.18)' }} />
+          <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', top: 0, width: '28%', height: '9%', borderBottom: '1.5px solid rgba(255,255,255,0.18)', borderLeft: '1.5px solid rgba(255,255,255,0.18)', borderRight: '1.5px solid rgba(255,255,255,0.18)' }} />
 
           {/* Bottom penalty box */}
-          <div className="absolute left-1/2 -translate-x-1/2"
-            style={{ bottom: 0, width: '56%', height: '20%', borderTop: '1.5px solid rgba(255,255,255,0.22)', borderLeft: '1.5px solid rgba(255,255,255,0.22)', borderRight: '1.5px solid rgba(255,255,255,0.22)' }} />
+          <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', bottom: 0, width: '56%', height: '20%', borderTop: '1.5px solid rgba(255,255,255,0.22)', borderLeft: '1.5px solid rgba(255,255,255,0.22)', borderRight: '1.5px solid rgba(255,255,255,0.22)' }} />
 
           {/* Bottom goal area */}
-          <div className="absolute left-1/2 -translate-x-1/2"
-            style={{ bottom: 0, width: '28%', height: '9%', borderTop: '1.5px solid rgba(255,255,255,0.18)', borderLeft: '1.5px solid rgba(255,255,255,0.18)', borderRight: '1.5px solid rgba(255,255,255,0.18)' }} />
+          <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', bottom: 0, width: '28%', height: '9%', borderTop: '1.5px solid rgba(255,255,255,0.18)', borderLeft: '1.5px solid rgba(255,255,255,0.18)', borderRight: '1.5px solid rgba(255,255,255,0.18)' }} />
 
           {/* Bottom penalty spot */}
-          <div className="absolute left-1/2 -translate-x-1/2"
-            style={{ bottom: '13%', marginBottom: -2, width: 4, height: 4, borderRadius: '50%', background: 'rgba(255,255,255,0.32)' }} />
+          <div style={{ position: 'absolute', left: '50%', transform: 'translateX(-50%)', bottom: '13%', marginBottom: -2, width: 4, height: 4, borderRadius: '50%', background: 'rgba(255,255,255,0.32)' }} />
 
           {/* Corner arcs */}
           <div className="absolute top-0 left-0" style={{ width: 14, height: 14, borderRight: '1.5px solid rgba(255,255,255,0.16)', borderBottom: '1.5px solid rgba(255,255,255,0.16)', borderBottomRightRadius: '100%' }} />
