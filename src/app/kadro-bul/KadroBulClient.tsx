@@ -90,8 +90,8 @@ const TEAM_COLORS: Record<string, { primary: string; secondary?: string; split?:
 };
 
 const KEYBOARD_ROWS = [
-  ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'İ', 'O', 'P', 'Ğ', 'Ü'],
-  ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Ş', 'Ö'],
+  ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'İ', 'I', 'O', 'P', 'Ğ'],
+  ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Ş', 'Ö', 'Ü'],
   ['⌫', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', 'Ç', '↵'],
 ];
 
@@ -101,9 +101,14 @@ function stripSpaces(s: string) {
   return s.replace(/\s/g, '');
 }
 
+// Normalize İ (U+0130 dotted) → I (U+0049 ASCII) so both are interchangeable in guesses
+function normalizeChar(ch: string): string {
+  return ch === 'İ' ? 'I' : ch;
+}
+
 function evaluateGuess(guess: string, answer: string): LetterResult[] {
-  const g = guess.replace(/İ/g, 'I').split('');
-  const a = answer.replace(/İ/g, 'I').split('');
+  const g = [...guess].map(normalizeChar);
+  const a = [...answer].map(normalizeChar);
   const result: LetterResult[] = Array(g.length).fill('absent');
   const remaining = [...a];
 
@@ -145,11 +150,12 @@ function getKeyColors(
     const res = results[gi];
     if (!res) return;
     [...guess].forEach((ch, li) => {
-      const cur = map[ch];
+      const key = normalizeChar(ch);
+      const cur = map[key];
       const next = res[li];
       if (cur === 'correct') return;
       if (!cur || next === 'correct' || (next === 'present' && cur === 'absent')) {
-        map[ch] = next;
+        map[key] = next;
       }
     });
   });
@@ -921,7 +927,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
                 <KeyboardKey
                   key={key}
                   label={key}
-                  color={keyColors[key]}
+                  color={keyColors[normalizeChar(key)]}
                   onPress={handleKeyPress}
                 />
               ))}
