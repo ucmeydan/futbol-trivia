@@ -1017,27 +1017,25 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
                       onClick={() => ps.status === 'pending' ? handleSelectPlayer(idx) : undefined}
                       showNumber={difficulty === 'kolay'}
                     />
-                    <div className="text-center" style={{ minWidth: 40 }}>
+                    <div className="flex flex-col items-center gap-0.5" style={{ minWidth: 40 }}>
                       {ps.status === 'solved' ? (
-                        <span className="leading-none" style={{ fontSize: 9, color: '#4ade80', fontWeight: 700 }}>
-                          {player.answer}
-                          {ps.guesses.length > 0 && (
-                            <span style={{ color: '#4ade80', opacity: 0.65 }}> {ps.guesses.length}</span>
-                          )}
-                        </span>
+                        <span className="leading-none" style={{ fontSize: 9, color: '#4ade80', fontWeight: 700 }}>{player.answer}</span>
                       ) : ps.status === 'failed' ? (
-                        <span className="leading-none" style={{ fontSize: 9, color: '#64748b', fontWeight: 600 }}>
-                          {player.answer}
-                          {ps.guesses.length > 0 && (
-                            <span style={{ color: '#475569' }}> {ps.guesses.length}</span>
-                          )}
-                        </span>
+                        <span className="leading-none" style={{ fontSize: 9, color: '#64748b', fontWeight: 600 }}>{player.answer}</span>
                       ) : (
                         <span style={{ color: 'rgba(255,255,255,0.2)', letterSpacing: '2px', fontSize: 8 }}>
                           {'·'.repeat(stripSpaces(player.answer).length)}
-                          {ps.guesses.length > 0 && (
-                            <span style={{ color: '#94a3b8', letterSpacing: 0, marginLeft: 2 }}>{ps.guesses.length}</span>
-                          )}
+                        </span>
+                      )}
+                      {ps.guesses.length > 0 && (
+                        <span style={{
+                          fontSize: 8, fontWeight: 700, lineHeight: 1,
+                          padding: '1px 4px', borderRadius: 3,
+                          backgroundColor: ps.status === 'solved' ? 'rgba(74,222,128,0.15)' : 'rgba(71,85,105,0.4)',
+                          color: ps.status === 'solved' ? '#4ade80' : '#64748b',
+                          border: `1px solid ${ps.status === 'solved' ? 'rgba(74,222,128,0.3)' : 'rgba(71,85,105,0.5)'}`,
+                        }}>
+                          {ps.guesses.length}
                         </span>
                       )}
                     </div>
