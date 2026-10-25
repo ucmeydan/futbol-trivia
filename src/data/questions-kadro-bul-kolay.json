@@ -11,11 +11,13 @@
     "awayScore": 3,
     "matchDate": "29.11.2023",
     "targetTeam": "Galatasaray",
-    "teamColor": "#cc0000",
+    "teamColor": "#F7A014",
+    "teamColorSecondary": "#E8211B",
+    "teamColorSplit": "half",
     "formation": [1, 4, 2, 3, 1],
     "players": [
-      { "number": 1, "answer": "MUSLERA" },
-      { "number": 3, "answer": "ANGELINO" },
+      { "number": 1,  "answer": "MUSLERA" },
+      { "number": 3,  "answer": "ANGELINO" },
       { "number": 42, "answer": "ABDÜLKERİM" },
       { "number": 23, "answer": "KAAN" },
       { "number": 93, "answer": "BOEY" },
@@ -24,7 +26,7 @@
       { "number": 14, "answer": "ZAHA" },
       { "number": 10, "answer": "MERTENS" },
       { "number": 22, "answer": "ZIYECH" },
-      { "number": 9, "answer": "ICARDI" }
+      { "number": 9,  "answer": "ICARDI" }
     ]
   }
 ]

@@ -33,6 +33,8 @@ type MatchData = {
   matchDate: string;
   targetTeam: string;
   teamColor: string;
+  teamColorSecondary?: string;
+  teamColorSplit?: 'stripe' | 'half';
   formation: number[];
   players: PlayerData[];
 };
@@ -851,7 +853,9 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
     const answer = stripSpaces(player.answer);
     const keyColors = getKeyColors(ps.guesses, ps.results);
     const currentGuessIdx = ps.guesses.length;
-    const guessingTeamColors = TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor };
+    const guessingTeamColors = currentMatch.teamColorSecondary
+      ? { primary: currentMatch.teamColor, secondary: currentMatch.teamColorSecondary, split: currentMatch.teamColorSplit }
+      : (TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor });
 
     return (
       <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans">
@@ -941,7 +945,9 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
 
   // ── Pitch view ─────────────────────────────────────────────────────────────
   const pitchRows = buildPitchRows(currentMatch);
-  const teamColors = TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor };
+  const teamColors = currentMatch.teamColorSecondary
+    ? { primary: currentMatch.teamColor, secondary: currentMatch.teamColorSecondary, split: currentMatch.teamColorSplit }
+    : (TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor });
 
   return (
     <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans">
