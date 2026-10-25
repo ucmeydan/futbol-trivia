@@ -101,9 +101,10 @@ function stripSpaces(s: string) {
   return s.replace(/\s/g, '');
 }
 
-// Normalize İ (U+0130 dotted) → I (U+0049 ASCII) so both are interchangeable in guesses
+// Normalize Turkish special chars to ASCII equivalents so both forms are accepted in guesses
 function normalizeChar(ch: string): string {
-  return ch === 'İ' ? 'I' : ch;
+  const map: Record<string, string> = { 'İ': 'I', 'Ü': 'U', 'Ö': 'O' };
+  return map[ch] ?? ch;
 }
 
 function evaluateGuess(guess: string, answer: string): LetterResult[] {
