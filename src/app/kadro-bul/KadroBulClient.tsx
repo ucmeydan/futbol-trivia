@@ -3,7 +3,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import Confetti from 'react-confetti';
-import questionsRaw from '@/data/questions-kadro-bul.json';
+import questionsKolayRaw from '@/data/questions-kadro-bul-kolay.json';
+import questionsZorRaw from '@/data/questions-kadro-bul-zor.json';
 
 const safeGetItem = (key: string): string | null => {
   try { return localStorage.getItem(key); } catch { return null; }
@@ -397,7 +398,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
     setMounted(true);
     setWindowDimension({ width: window.innerWidth, height: window.innerHeight });
 
-    const all = questionsRaw as unknown as MatchData[];
+    const all = (difficulty === 'kolay' ? questionsKolayRaw : questionsZorRaw) as unknown as MatchData[];
     const today = todayStr();
     const available = all.filter((m) => m.activeDate <= today);
     setMatches(available);
