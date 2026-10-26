@@ -4005,5 +4005,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 202,
+    "game": "top10",
+    "title": "Rıza Çalımbay'ın teknik direktörlük kariyerinde en fazla maçta oynattığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-27",
+    "targets": [
+      "Hakan Arslan",
+      "Ziya Erdal",
+      "Mustapha Yatabare",
+      "Uğur Çiftçi",
+      "Caner Osmanpaşa",
+      "Erdoğan Yeşilyurt",
+      "Max Gradel",
+      "Ricardo Pedriel",
+      "Bülent Ertuğrul",
+      "Ali Şaşal Vural"
+
+
+    ],
+    "difficulty": "zor"
   }
 ]

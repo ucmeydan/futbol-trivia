@@ -3352,5 +3352,29 @@
       "Eyüpspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 179,
+    "game": "listeyi-tamamla",
+    "title": "2026/27 sezonunda en az bir takımla Süper Lig'de temsil edilen şehirler?",
+    "type": "city",
+    "activeDate": "2026-10-27",
+    "targets": [
+      "İstanbul",
+      "Ankara",
+      "Rize",
+      "Samsun",
+      "Trabzon",
+      "Konya",
+      "Antalya",
+      "İzmir",
+      "Kocaeli",
+      "Gaziantep",
+      "Erzurum",
+      "Diyarbakır",
+      "Çorum"
+    ],
+    "difficulty": "kolay"
   }
 ]

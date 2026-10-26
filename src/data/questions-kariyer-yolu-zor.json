@@ -7407,5 +7407,33 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 187,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-27",
+    "correctPlayer": "Pedro Malheiro",
+    "career": [
+      {
+        "season": "2020–2024",
+        "team": "Boavista",
+        "apps": "79",
+        "goals": "2"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Trabzonspor",
+        "apps": "43",
+        "goals": "6"
+      },
+      {
+        "season": "2025–",
+        "team": "Al Wasl",
+        "apps": "44",
+        "goals": "5"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

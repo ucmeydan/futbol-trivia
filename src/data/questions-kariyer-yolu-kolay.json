@@ -6555,5 +6555,33 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 176,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-27",
+    "correctPlayer": "Semih Kılıçsoy",
+    "career": [
+      {
+        "season": "2020-2023",
+        "team": "Beşiktaş U19",
+        "apps": "69",
+        "goals": "42"
+      },
+      {
+        "season": "2023-",
+        "team": "Beşiktaş",
+        "apps": "92",
+        "goals": "17"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Cagliari (kiralık)",
+        "apps": "25",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]
