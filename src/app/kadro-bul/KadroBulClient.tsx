@@ -33,6 +33,8 @@ type MatchData = {
   matchDate: string;
   targetTeam: string;
   teamColor: string;
+  teamColorSecondary?: string;
+  teamColorSplit?: 'stripe' | 'half';
   formation: number[];
   players: PlayerData[];
 };
@@ -196,7 +198,7 @@ function JerseySvg({
   size: 'sm' | 'lg';
   showNumber?: boolean;
 }) {
-  const [w, h] = size === 'lg' ? [80, 84] : [44, 46];
+  const [w, h] = size === 'lg' ? [80, 84] : [52, 55];
   const defId = `jersey-${splitType}-${number}-${size}`;
   const bodyPath = "M22,5 L11,9 L2,24 L2,35 L12,31 L13,52 L43,52 L44,31 L54,35 L54,24 L45,9 L34,5 Q28,15 22,5Z";
   const isLight = (c: string) => ['#ffffff','#FFFFFF','#FDE100','#FFDD00','#F7A014','#6CABDD'].includes(c);
@@ -243,7 +245,7 @@ function JerseySvg({
           y="37"
           textAnchor="middle"
           fill={numColor}
-          fontSize={size === 'lg' ? 17 : 15}
+          fontSize={size === 'lg' ? 17 : 16}
           fontWeight="900"
           fontFamily="system-ui,-apple-system,sans-serif"
           opacity="0.95"
@@ -851,7 +853,9 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
     const answer = stripSpaces(player.answer);
     const keyColors = getKeyColors(ps.guesses, ps.results);
     const currentGuessIdx = ps.guesses.length;
-    const guessingTeamColors = TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor };
+    const guessingTeamColors = currentMatch.teamColorSecondary
+      ? { primary: currentMatch.teamColor, secondary: currentMatch.teamColorSecondary, split: currentMatch.teamColorSplit }
+      : (TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor });
 
     return (
       <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans">
@@ -941,7 +945,9 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
 
   // ── Pitch view ─────────────────────────────────────────────────────────────
   const pitchRows = buildPitchRows(currentMatch);
-  const teamColors = TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor };
+  const teamColors = currentMatch.teamColorSecondary
+    ? { primary: currentMatch.teamColor, secondary: currentMatch.teamColorSecondary, split: currentMatch.teamColorSplit }
+    : (TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor });
 
   return (
     <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans">
@@ -959,9 +965,9 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
             disabled={currentIndex === 0}
             className="w-8 h-8 flex items-center justify-center rounded-xl bg-slate-800 border border-slate-700 text-slate-300 hover:bg-slate-700 disabled:opacity-20 disabled:cursor-not-allowed transition-all text-lg font-bold"
           >‹</button>
-          <h1 className="text-base font-bold text-white">
-            <span className="text-red-500">Kadro Bul</span>
-            <span className="text-slate-600 font-normal ml-1.5 text-xs">#{currentMatch.id}</span>
+          <h1 className="flex flex-col items-center gap-0.5">
+            <span className="text-base font-bold text-red-500 leading-none">Kadro Bul</span>
+            <span className="text-slate-500 font-normal text-xs leading-none">#{currentMatch.id}</span>
           </h1>
           <button
             onClick={() => loadMatch(currentIndex + 1)}
@@ -991,8 +997,8 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
         className="relative w-full flex-1 rounded-2xl overflow-hidden mb-3"
         style={{
           background: 'repeating-linear-gradient(180deg, #1b6229 0px, #1b6229 24px, #1d6e2e 24px, #1d6e2e 48px)',
-          minHeight: 340,
-          maxHeight: 500,
+          minHeight: 400,
+          maxHeight: 580,
           boxShadow: 'inset 0 0 40px rgba(0,0,0,0.35)',
         }}
       >
@@ -1037,9 +1043,9 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
                     />
                     <div className="flex flex-col items-center gap-0.5" style={{ minWidth: 40 }}>
                       {ps.status === 'solved' ? (
-                        <span className="leading-none" style={{ fontSize: 9, color: '#4ade80', fontWeight: 700 }}>{player.answer}</span>
+                        <span className="leading-none" style={{ fontSize: 10, color: '#4ade80', fontWeight: 700 }}>{player.answer}</span>
                       ) : ps.status === 'failed' ? (
-                        <span className="leading-none" style={{ fontSize: 9, color: '#64748b', fontWeight: 600 }}>{player.answer}</span>
+                        <span className="leading-none" style={{ fontSize: 10, color: '#64748b', fontWeight: 600 }}>{player.answer}</span>
                       ) : (
                         <span style={{ color: 'rgba(255,255,255,0.2)', letterSpacing: '2px', fontSize: 8 }}>
                           {'·'.repeat(stripSpaces(player.answer).length)}
@@ -1082,7 +1088,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
           </button>
         </div>
       ) : (
-        <p className="text-center text-slate-600 text-xs pb-1">Tahmin yapmak için bir forma dokun</p>
+        <p className="text-center text-slate-600 text-xs pb-1">Tahmin yapmak için bir formaya dokun.</p>
       )}
     </div>
   );

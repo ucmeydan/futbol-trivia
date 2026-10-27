@@ -137,20 +137,39 @@ const GAMES = [
       </div>
     ),
   },
+  {
+    href: '/kadro-bul',
+    title: 'Kadro Bul',
+    description: 'Verilen tarihte oynanmış maçtaki 11 futbolcuyu eksiksiz olarak hatırlayabilir misin? Forma numaraları ipucu olarak verilir.',
+    detail: 'Her oyuncu için 6 tahmin hakkın var. Türk oyuncular isimleriyle, yabancılar soy isimleriyle sorulur.',
+    detailHighlight: null,
+    decorNumber: '11',
+    accentColor: 'orange',
+    icon: (
+      <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 shrink-0" aria-hidden="true">
+        <svg viewBox="0 0 56 58" width="36" height="38" fill="none">
+          <path d="M22,5 L11,9 L2,24 L2,35 L12,31 L13,52 L28,52 L28,5 Q25,15 22,5Z" fill="#DC2626" stroke="rgba(0,0,0,0.15)" strokeWidth="1" />
+          <path d="M34,5 L45,9 L54,24 L54,35 L44,31 L43,52 L28,52 L28,5 Q31,15 34,5Z" fill="#F1F5F9" stroke="rgba(0,0,0,0.15)" strokeWidth="1" />
+        </svg>
+      </div>
+    ),
+  },
 ];
 
 const accentMap: Record<string, string> = {
-  green: 'hover:border-green-500/50 hover:shadow-[0_0_40px_-10px_rgba(34,197,94,0.2)] group-hover:text-green-400',
-  amber: 'hover:border-amber-400/50 hover:shadow-[0_0_40px_-10px_rgba(251,191,36,0.2)] group-hover:text-amber-400',
-  sky:   'hover:border-sky-500/50 hover:shadow-[0_0_40px_-10px_rgba(14,165,233,0.2)] group-hover:text-sky-400',
-  red:   'hover:border-red-500/50 hover:shadow-[0_0_40px_-10px_rgba(239,68,68,0.2)] group-hover:text-red-500',
+  green:  'hover:border-green-500/50 hover:shadow-[0_0_40px_-10px_rgba(34,197,94,0.2)] group-hover:text-green-400',
+  amber:  'hover:border-amber-400/50 hover:shadow-[0_0_40px_-10px_rgba(251,191,36,0.2)] group-hover:text-amber-400',
+  sky:    'hover:border-sky-500/50 hover:shadow-[0_0_40px_-10px_rgba(14,165,233,0.2)] group-hover:text-sky-400',
+  red:    'hover:border-red-500/50 hover:shadow-[0_0_40px_-10px_rgba(239,68,68,0.2)] group-hover:text-red-500',
+  orange: 'hover:border-orange-500/50 hover:shadow-[0_0_40px_-10px_rgba(249,115,22,0.2)] group-hover:text-orange-400',
 };
 
 const ctaColorMap: Record<string, string> = {
-  green: 'text-green-500',
-  amber: 'text-amber-400',
-  sky:   'text-sky-400',
-  red:   'text-red-500',
+  green:  'text-green-500',
+  amber:  'text-amber-400',
+  sky:    'text-sky-400',
+  red:    'text-red-500',
+  orange: 'text-orange-400',
 };
 
 export default function HomeClient() {
@@ -281,12 +300,12 @@ export default function HomeClient() {
               </p>
             </div>
             <div>
-              <h3 className="text-slate-500 font-normal mb-3">Her gün yenilenen dört oyun</h3>
+              <h3 className="text-slate-500 font-normal mb-3">Her gün yenilenen beş oyun</h3>
               <p>
-                Listeyi Tamamla, Top 10, Kariyer Yolu ve Takım Arkadaşı olmak üzere dört farklı
-                oyun modülü her gün güncellenir. Her modül farklı bir futbol bilgisi boyutunu
-                test eder: zamana karşı yarışma, istatistik listeleri, kariyer geçmişi ve
-                takım arkadaşlıkları. Kayıt gerektirmez, ücretsizdir.
+                Listeyi Tamamla, Top 10, Kariyer Yolu, Takım Arkadaşı ve Kadro Bul olmak üzere
+                beş farklı oyun modülü her gün güncellenir. Her modül farklı bir futbol bilgisi
+                boyutunu test eder: zamana karşı yarışma, istatistik listeleri, kariyer geçmişi,
+                takım arkadaşlıkları ve 11 kişilik kadro tahminleri. Kayıt gerektirmez, ücretsizdir.
               </p>
             </div>
             <div>
@@ -312,11 +331,11 @@ export default function HomeClient() {
             <div>
               <h3 className="text-slate-500 font-normal mb-3">Nasıl oynanır?</h3>
               <p>
-                Ana sayfadaki dört oyundan birini seç ve oynamaya başla. Her oyunun kendine
-                özgü kuralları vardır: Listeyi Tamamla'da 90 saniyeyle yarışırsın,
-                Top 10'da 3 yanlış hakkın vardır, Kariyer Yolu'nda kariyer tablosunu
-                adım adım açarsın, Takım Arkadaşı'nda ise 7 tahmin hakkınla gizlenen
-                futbolcuyu bulmaya çalışırsın.
+                Ana sayfadaki beş oyundan birini seç ve oynamaya başla. Listeyi Tamamla'da
+                90 saniyeyle yarışırsın, Top 10'da 3 yanlış hakkın vardır, Kariyer Yolu'nda
+                kariyer tablosunu adım adım açarsın, Takım Arkadaşı'nda 7 tahmin hakkınla
+                gizlenen futbolcuyu bulmaya çalışırsın. Kadro Bul'da ise gerçek bir maçın
+                11 futbolcusunu Wordle mantığıyla tahmin edersin — her oyuncu için 6 hakkın var.
               </p>
             </div>
           </div>
