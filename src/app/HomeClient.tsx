@@ -140,21 +140,16 @@ const GAMES = [
   {
     href: '/kadro-bul',
     title: 'Kadro Bul',
-    description: 'Gerçek bir maçın 11 futbolcusunu bul! Her oyuncu için Wordle gibi harf harf tahmin yap — doğru harf yeşil, yanlış yerde sarı.',
-    detail: 'Her oyuncu için 6 tahmin hakkın var. Forma numaraları ve diziliş ipucu olarak gösterilir.',
+    description: 'Verilen tarihte oynanmış maçtaki 11 futbolcuyu eksiksiz olarak hatırlayabilir misin? Forma numaraları ipucu olarak verilir.',
+    detail: 'Her oyuncu için 6 tahmin hakkın var. Türk oyuncular isimleriyle, yabancılar soy isimleriyle sorulur.',
     detailHighlight: null,
     decorNumber: '11',
     accentColor: 'orange',
     icon: (
       <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center bg-slate-950/50 rounded-xl border border-slate-800 opacity-90 shrink-0" aria-hidden="true">
         <svg viewBox="0 0 56 58" width="36" height="38" fill="none">
-          <defs>
-            <linearGradient id="home-jersey" x1="0" x2="1" y1="0" y2="0">
-              <stop offset="50%" stopColor="#F7A014" />
-              <stop offset="50%" stopColor="#E8211B" />
-            </linearGradient>
-          </defs>
-          <path d="M22,5 L11,9 L2,24 L2,35 L12,31 L13,52 L43,52 L44,31 L54,35 L54,24 L45,9 L34,5 Q28,15 22,5Z" fill="url(#home-jersey)" stroke="rgba(0,0,0,0.2)" strokeWidth="1" />
+          <path d="M22,5 L11,9 L2,24 L2,35 L12,31 L13,52 L28,52 L28,5 Q25,15 22,5Z" fill="#DC2626" stroke="rgba(0,0,0,0.15)" strokeWidth="1" />
+          <path d="M34,5 L45,9 L54,24 L54,35 L44,31 L43,52 L28,52 L28,5 Q31,15 34,5Z" fill="#F1F5F9" stroke="rgba(0,0,0,0.15)" strokeWidth="1" />
         </svg>
       </div>
     ),
