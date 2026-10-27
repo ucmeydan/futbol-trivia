@@ -6583,5 +6583,97 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 177,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-28",
+    "correctPlayer": "Servet Çetin",
+    "career": [
+      {
+        "season": "1999-2001",
+        "team": "Kartalspor",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2001-2002",
+        "team": "Göztepe",
+        "apps": "32",
+        "goals": "1"
+      },
+      {
+        "season": "2002-2003",
+        "team": "Denizlispor",
+        "apps": "45",
+        "goals": "2"
+      },
+      {
+        "season": "2003-2006",
+        "team": "Fenerbahçe",
+        "apps": "60",
+        "goals": "4"
+      },
+      {
+        "season": "2006-2007",
+        "team": "Sivasspor",
+        "apps": "33",
+        "goals": "2"
+      },
+      {
+        "season": "2007-2012",
+        "team": "Galatasaray",
+        "apps": "176",
+        "goals": "12"
+      },
+      {
+        "season": "2012-2014",
+        "team": "Eskişehirspor",
+        "apps": "57",
+        "goals": "2"
+      },
+      {
+        "season": "2014-2016",
+        "team": "Mersin İdman Yurdu",
+        "apps": "47",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 178,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-29",
+    "correctPlayer": "Fatih Aksoy",
+    "career": [
+      {
+        "season": "2015-2017",
+        "team": "Beşiktaş U19",
+        "apps": "9",
+        "goals": "1"
+      },
+      {
+        "season": "2017-2019",
+        "team": "Beşiktaş",
+        "apps": "18",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2020",
+        "team": "Sivasspor",
+        "apps": "38",
+        "goals": "1"
+      },
+      {
+        "season": "2020-",
+        "team": "Alanyaspor",
+        "apps": "179",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -3376,5 +3376,25 @@
       "Çorum"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 180,
+    "game": "listeyi-tamamla",
+    "title": "Mevcut Süper Lig takımları arasında stadyumu 30.000 ve üzeri kapasitede olan kulüpler?",
+    "type": "team-tr",
+    "activeDate": "2026-10-28",
+    "targets": [
+     "Fenerbahçe",
+     "Galatasaray",
+     "Trabzonspor",
+     "Beşiktaş",
+     "Konyaspor",
+     "Kocaelispor",
+     "Samsunspor",
+     "Amed SK",
+     "Gaziantep FK"
+    ],
+    "difficulty": "kolay"
   }
 ]

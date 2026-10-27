@@ -4028,5 +4028,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 203,
+    "game": "top10",
+    "title": "Süper Lig'de 4 büyükler dışındaki kulüplerde oynayan güncel piyasa değeri en yüksek 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-28",
+    "targets": [
+      "Juan",
+      "Alexandre Penetra",
+      "Ermin Mahmic",
+      "Kacper Kozlowski",
+      "Abbosbek Fayzullaev",
+      "Gift Orban",
+      "Mohamed Diomande",
+      "Adrian Benedyczak",
+      "Jerome Opoku",
+      "Eldor Shomurodov"
+
+    ],
+    "difficulty": "zor"
   }
 ]
+

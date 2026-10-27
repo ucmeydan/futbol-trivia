@@ -3583,5 +3583,49 @@
       "Samsunspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 180,
+    "game": "top10",
+    "title": "2026 Ballon D'or sıralamasında ilk 10 sırada yer alan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-28",
+    "targets": [
+      "Harry Kane",
+      "Kylian Mbappé",
+      "Lamine Yamal",
+      "Rodri",
+      "Lionel Messi",
+      "Khvicha Kvaratskhelia",
+      "Ousmane Dembele",
+      "Erling Haaland",
+      "Michael Olise",
+      "Fabian Ruiz"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 181,
+    "game": "top10",
+    "title": "Güncel FIFA Dünya sıralamasında ilk 10 sırada yer alan ülkeler?",
+    "type": "country",
+    "activeDate": "2026-10-29",
+    "targets": [
+      "İspanya",
+      "Arjantin",
+      "Fransa",
+      "İngiltere",
+      "Portekiz",
+      "Brezilya",
+      "Fas",
+      "Belçika",
+      "Hollanda",
+      "Meksika"
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

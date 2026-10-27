@@ -4067,5 +4067,33 @@
       "Jersson Gonzalez"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 201,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor'un mevcut kadrosundaki yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-28",
+    "targets": [
+      "Andre Onana",
+      "Wagner Pina",
+      "Stefan Savic",
+      "Arseniy Batagov",
+      "Chibuike Nwaiwu",
+      "Sidny Lopes Cabral",
+      "Fabinho",
+      "Batista Mendy",
+      "Benjamin Bouchouari",
+      "Tim Jabol Folcarelli",
+      "Ruslan Malinovskyi",
+      "Ernest Muçi",
+      "Noah Saviolo",
+      "Mohamed Salah",
+      "Paul Onuachu",
+      "Franculino Dju"
+
+    ],
+    "difficulty": "zor"
   }
 ]

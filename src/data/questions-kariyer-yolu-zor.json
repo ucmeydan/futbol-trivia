@@ -7435,5 +7435,39 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 188,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-28",
+    "correctPlayer": "Arif Kocaman",
+    "career": [
+      {
+        "season": "2021–2022",
+        "team": "Sakaryaspor",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2026",
+        "team": "Kayserispor",
+        "apps": "59",
+        "goals": "2"
+      },
+      {
+        "season": "2026–2026",
+        "team": "Sakaryaspor (kiralık)",
+        "apps": "12",
+        "goals": "0"
+      },
+      {
+        "season": "2026–",
+        "team": "Antalyaspor",
+        "apps": "0",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
