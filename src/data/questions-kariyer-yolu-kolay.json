@@ -6675,5 +6675,33 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 179,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-30",
+    "correctPlayer": "Suat Kaya",
+    "career": [
+      {
+        "season": "1986-1987",
+        "team": "Galatasaray",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "1987-1992",
+        "team": "Konyaspor",
+        "apps": "121",
+        "goals": "13"
+      },
+      {
+        "season": "1992-2003",
+        "team": "Galatasaray",
+        "apps": "345",
+        "goals": "40"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

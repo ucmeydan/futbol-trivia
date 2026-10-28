@@ -4050,6 +4050,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 204,
+    "game": "top10",
+    "title": "Milli takımımızın resmi maçlarda karşılaştığı son 10 Avrupa ülkesi?",
+    "type": "country",
+    "activeDate": "2026-10-29",
+    "targets": [
+      "İtalya",
+      "Belçika",
+      "Fransa",
+      "Kosova",
+      "Romanya",
+      "İspanya",
+      "Bulgaristan",
+      "Gürcistan",
+      "Macaristan",
+      "Karadağ"
+
+    ],
+    "difficulty": "zor"
   }
 ]
 

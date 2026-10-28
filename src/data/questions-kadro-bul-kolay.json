@@ -30,5 +30,36 @@
     ]
 
      
+  },
+
+  {
+    "id": 2,
+    "difficulty": "kolay",
+    "activeDate": "2026-10-29",
+    "league": "Süper Lig",
+    "season": "2020/21",
+    "homeTeam": "Hatayspor",
+    "awayTeam": "Beşiktaş",
+    "homeScore": 2,
+    "awayScore": 2,
+    "matchDate": "10.01.2021",
+    "targetTeam": "Beşiktaş",
+    "teamColor": "#21130d", 
+    "formation": [1, 4, 2, 3, 1],
+    "players": [
+      { "number": 30, "answer": "ERSİN" },
+      { "number": 21, "answer": "N'SAKALA" },
+      { "number": 24, "answer": "VİDA" },
+      { "number": 23, "answer": "WELİNTON" },
+      { "number": 2, "answer": "ROSİER" },
+      { "number": 5, "answer": "SOUZA" },
+      { "number": 20, "answer": "NECİP" },
+      { "number": 17, "answer": "LARİN" },
+      { "number": 13, "answer": "HUTCHİNSON" },
+      { "number": 18, "answer": "GHEZZAL" },
+      { "number": 14, "answer": "ABOUBAKAR" }
+    ]
+
+     
   }
 ]

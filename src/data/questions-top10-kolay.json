@@ -3625,6 +3625,27 @@
       "Meksika"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 182,
+    "game": "listeyi-tamamla",
+    "title": "Güncel piyasa değeri en yüksek 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-30",
+    "targets": [
+     "Arda Güler",
+     "Kenan Yıldız",
+     "Can Uzun",
+     "Ferdi Kadıoğlu",
+     "Barış Alper Yılmaz",
+     "Orkun Kökçü",
+     "Yunus Akgün",
+     "Kerem Aktürkoğlu",
+     "Hakan Çalhanoğlu",
+     "Aral Şimşir"
+    ],
+    "difficulty": "kolay"
   }
 
 

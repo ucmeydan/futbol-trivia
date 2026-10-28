@@ -12,7 +12,6 @@
     "matchDate": "02.08.2017",
     "targetTeam": "Başakşehir",
     "teamColor": "#f28d3c",
-    "teamColorSecondary": "#1A3A5C",
     "formation": [1, 4, 2, 3, 1],
     "players": [
       { "number": 1,  "answer": "VOLKAN" },
@@ -26,6 +25,37 @@
       { "number": 8,  "answer": "MOSSORO" },
       { "number": 7,  "answer": "VISCA" },
       { "number": 10, "answer": "ADEBAYOR" }
+    ]
+  },
+
+   {
+    "id": 2,
+    "difficulty": "zor",
+    "activeDate": "2026-10-29",
+    "league": "Avrupa Ligi",
+    "season": "2009/10",
+    "homeTeam": "FCSB",
+    "awayTeam": "Fenerbahçe",
+    "homeScore": 0,
+    "awayScore": 1,
+    "matchDate": "22.10.2009",
+    "targetTeam": "Fenerbahçe",
+    "teamColor": "#FFDD00",
+    "teamColorSecondary": "#003399",
+    "teamColorSplit": "stripe",
+    "formation": [1, 4, 2, 3, 1],
+    "players": [
+      { "number": 1,  "answer": "VOLKAN" },
+      { "number": 3,  "answer": "CARLOS" },
+      { "number": 58,  "answer": "BİLİCA" },
+      { "number": 2,  "answer": "LUGANO" },
+      { "number": 77, "answer": "GÖKHAN" },
+      { "number": 16,  "answer": "BARONİ" },
+      { "number": 5, "answer": "EMRE" },
+      { "number": 27, "answer": "SANTOS" },
+      { "number": 20,  "answer": "ÖZER" },
+      { "number": 66,  "answer": "MEHMET" },
+      { "number": 8, "answer": "COLİN KAZIM" }
     ]
   }
 ]

@@ -3396,5 +3396,26 @@
      "Gaziantep FK"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 181,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Şampiyonlar Ligi lig aşamasında mücadele eden İngiliz ve İspanyol takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-10-29",
+    "targets": [
+     "Arsenal",
+     "Liverpool",
+     "Manchester City",
+     "Manchester United",
+     "Aston Villa",
+     "Barcelona",
+     "Real Madrid",
+     "Villarreal",
+     "Atletico Madrid",
+     "Real Betis"
+    ],
+    "difficulty": "kolay"
   }
 ]
