@@ -104,15 +104,20 @@ function stripSpaces(s: string) {
   return s.replace(/\s/g, '');
 }
 
-// Normalize Turkish special chars to ASCII equivalents so both forms are accepted in guesses
+// Apostrofu ve boşlukları çıkar — tahmin uzunluğu ve evaluasyon için
+function stripForGuess(s: string) {
+  return s.replace(/[\s']/g, '');
+}
+
+// Sadece I-İ aynı kabul edilir
 function normalizeChar(ch: string): string {
-  const map: Record<string, string> = { 'İ': 'I', 'Ü': 'U', 'Ö': 'O' };
-  return map[ch] ?? ch;
+  if (ch === 'İ') return 'I';
+  return ch;
 }
 
 function evaluateGuess(guess: string, answer: string): LetterResult[] {
-  const g = [...guess].map(normalizeChar);
-  const a = [...answer].map(normalizeChar);
+  const g = [...stripForGuess(guess)].map(normalizeChar);
+  const a = [...stripForGuess(answer)].map(normalizeChar);
   const result: LetterResult[] = Array(g.length).fill('absent');
   const remaining = [...a];
 
@@ -136,10 +141,11 @@ function evaluateGuess(guess: string, answer: string): LetterResult[] {
 }
 
 function buildDisplayMap(answer: string) {
-  const out: ({ type: 'letter'; pos: number } | { type: 'space' })[] = [];
+  const out: ({ type: 'letter'; pos: number } | { type: 'space' } | { type: 'apostrophe' })[] = [];
   let pos = 0;
   for (const ch of answer) {
     if (ch === ' ') out.push({ type: 'space' });
+    else if (ch === "'") out.push({ type: 'apostrophe' });
     else out.push({ type: 'letter', pos: pos++ });
   }
   return out;
@@ -343,11 +349,27 @@ function GuessRow({
   tileSize?: 'sm' | 'md';
 }) {
   const displayMap = buildDisplayMap(answer);
+  const dim = tileSize === 'sm' ? 28 : 36;
   return (
     <div className="flex items-center gap-1 justify-center">
       {displayMap.map((cell, i) => {
         if (cell.type === 'space') {
           return <div key={i} className="w-2" />;
+        }
+        if (cell.type === 'apostrophe') {
+          return (
+            <div
+              key={i}
+              style={{
+                width: dim * 0.5, height: dim,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                fontWeight: 900, fontSize: tileSize === 'sm' ? 11 : 13,
+                color: '#94a3b8',
+              }}
+            >
+              &apos;
+            </div>
+          );
         }
         const pos = cell.pos;
         const letter = guess[pos] || '';
@@ -516,7 +538,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
       const ps = playerStates[activePlayerIdx];
       if (ps.status !== 'pending') return;
 
-      const answer = stripSpaces(currentMatch.players[activePlayerIdx].answer);
+      const answer = stripForGuess(currentMatch.players[activePlayerIdx].answer);
 
       if (key === '⌫') {
         setInput((prev) => prev.slice(0, -1));
@@ -560,7 +582,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
         setInput((prev) => prev + key);
       }
     },
-    [activePlayerIdx, currentMatch, playerStates, input]
+    [activePlayerIdx, currentMatch, playerStates, input]  // eslint-disable-line
   );
 
   // Physical keyboard support
@@ -850,7 +872,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
   if (view === 'guessing' && activePlayerIdx !== null) {
     const ps = playerStates[activePlayerIdx];
     const player = currentMatch.players[activePlayerIdx];
-    const answer = stripSpaces(player.answer);
+    const answer = stripForGuess(player.answer);
     const keyColors = getKeyColors(ps.guesses, ps.results);
     const currentGuessIdx = ps.guesses.length;
     const guessingTeamColors = currentMatch.teamColorSecondary
@@ -1048,7 +1070,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
                         <span className="leading-none" style={{ fontSize: 10, color: '#64748b', fontWeight: 600 }}>{player.answer}</span>
                       ) : (
                         <span style={{ color: 'rgba(255,255,255,0.2)', letterSpacing: '2px', fontSize: 8 }}>
-                          {'·'.repeat(stripSpaces(player.answer).length)}
+                          {'·'.repeat(stripForGuess(player.answer).length)}
                         </span>
                       )}
                       {ps.guesses.length > 0 && (
