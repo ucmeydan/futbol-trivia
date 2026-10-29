@@ -4072,6 +4072,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 205,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de maç başı yaş ortalaması en düşük 10 kulüp?",
+    "type": "player",
+    "activeDate": "2026-10-30",
+    "targets": [
+      "Göztepe",
+      "Samsunspor",
+      "Kasımpaşa",
+      "Kocaelispor",
+      "Rizespor",
+      "Eyüpspor",
+      "Gençlerbirliği",
+      "Beşiktaş",
+      "Alanyaspor",
+      "Başakşehir"
+
+    ],
+    "difficulty": "zor"
   }
 ]
 

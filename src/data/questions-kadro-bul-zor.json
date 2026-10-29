@@ -57,5 +57,34 @@
       { "number": 66,  "answer": "MEHMET" },
       { "number": 8, "answer": "COLİN KAZIM" }
     ]
+  },
+
+  {
+    "id": 3,
+    "difficulty": "zor",
+    "activeDate": "2026-10-30",
+    "league": "Konferans Ligi",
+    "season": "2022/23",
+    "homeTeam": "Sivasspor",
+    "awayTeam": "CFR Cluj",
+    "homeScore": 3,
+    "awayScore": 0,
+    "matchDate": "27.10.2022",
+    "targetTeam": "Fenerbahçe",
+    "teamColor": "#bf2424",
+    "formation": [1, 4, 2, 3, 1],
+    "players": [
+      { "number": 35,  "answer": "ALİ ŞAŞAL" },
+      { "number": 3,  "answer": "UĞUR" },
+      { "number": 88,  "answer": "CANER" },
+      { "number": 6,  "answer": "GOUTAS" },
+      { "number": 2, "answer": "MURAT" },
+      { "number": 37,  "answer": "HAKAN" },
+      { "number": 28, "answer": "KEİTA" },
+      { "number": 17, "answer": "ERDOĞAN" },
+      { "number": 11,  "answer": "SABA" },
+      { "number": 10,  "answer": "N'JİE" },
+      { "number": 9, "answer": "YATABARE" }
+    ]
   }
 ]

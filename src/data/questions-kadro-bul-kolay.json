@@ -61,5 +61,36 @@
     ]
 
      
+  },
+
+  {
+    "id": 3,
+    "difficulty": "kolay",
+    "activeDate": "2026-10-30",
+    "league": "Avrupa Şampiyonası",
+    "season": "2024",
+    "homeTeam": "Avusturya",
+    "awayTeam": "Türkiye",
+    "homeScore": 1,
+    "awayScore": 2,
+    "matchDate": "02.07.2024",
+    "targetTeam": "Türkiye",
+    "teamColor": "#bf2424", 
+    "formation": [1, 4, 2, 3, 1],
+    "players": [
+      { "number": 1, "answer": "MERT" },
+      { "number": 20, "answer": "FERDİ" },
+      { "number": 14, "answer": "ABDÜLKERİM" },
+      { "number": 3, "answer": "MERİH" },
+      { "number": 18, "answer": "MERT" },
+      { "number": 16, "answer": "İSMAİL" },
+      { "number": 22, "answer": "KAAN" },
+      { "number": 19, "answer": "KENAN" },
+      { "number": 6, "answer": "ORKUN" },
+      { "number": 21, "answer": "BARIŞ ALPER" },
+      { "number": 8, "answer": "ARDA" }
+    ]
+
+     
   }
 ]

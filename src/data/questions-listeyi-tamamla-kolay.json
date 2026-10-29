@@ -3417,5 +3417,24 @@
      "Real Betis"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 182,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın 2026-27 sezonu yaz transfer döneminde kadrosuna kattığı yabancı oyuncular?",
+    "type": "player",
+    "activeDate": "2026-10-30",
+    "targets": [
+     "Dusan Vlahovic",
+     "Leandro Trossard",
+     "Ernest Poku",
+     "Fabio Miretti",
+     "Kassoum Ouattara",
+     "Alexander Nübel"
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

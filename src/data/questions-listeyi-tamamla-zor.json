@@ -4112,5 +4112,22 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 203,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon TFF 1.Lig'in ilk 12 haftası itibarıyla 7 ve üzeri sayıda gol atan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-10-30",
+    "targets": [
+      "Kelechi Iheanacho",
+      "Rey Manaj",
+      "Taulant Seferi",
+      "Daniel Moreno",
+      "Julien Anziani",
+      "Mame Diouf"
+    ],
+    "difficulty": "zor"
   }
 ]
