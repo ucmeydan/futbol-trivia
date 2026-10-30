@@ -7407,5 +7407,149 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 187,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-27",
+    "correctPlayer": "Pedro Malheiro",
+    "career": [
+      {
+        "season": "2020–2024",
+        "team": "Boavista",
+        "apps": "79",
+        "goals": "2"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Trabzonspor",
+        "apps": "43",
+        "goals": "6"
+      },
+      {
+        "season": "2025–",
+        "team": "Al Wasl",
+        "apps": "44",
+        "goals": "5"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 188,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-28",
+    "correctPlayer": "Arif Kocaman",
+    "career": [
+      {
+        "season": "2021–2022",
+        "team": "Sakaryaspor",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2026",
+        "team": "Kayserispor",
+        "apps": "59",
+        "goals": "2"
+      },
+      {
+        "season": "2026–2026",
+        "team": "Sakaryaspor (kiralık)",
+        "apps": "12",
+        "goals": "0"
+      },
+      {
+        "season": "2026–",
+        "team": "Antalyaspor",
+        "apps": "0",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 189,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-29",
+    "correctPlayer": "Taha Şahin",
+    "career": [
+      {
+        "season": "2018–2019",
+        "team": "Kasımpaşa U21",
+        "apps": "25",
+        "goals": "0"
+      },
+      {
+        "season": "2019–2021",
+        "team": "Aksaray Belediyespor",
+        "apps": "61",
+        "goals": "4"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Manisa FK",
+        "apps": "54",
+        "goals": "2"
+      },
+      {
+        "season": "2023–",
+        "team": "Rizespor",
+        "apps": "107",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 190,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-30",
+    "correctPlayer": "Engin İpekoğlu",
+    "career": [
+      {
+        "season": "1978–1982",
+        "team": "Prater SV",
+        "apps": "48",
+        "goals": "0"
+      },
+      {
+        "season": "1982–1989",
+        "team": "Sakaryaspor",
+        "apps": "105",
+        "goals": "0"
+      },
+      {
+        "season": "1989–1991",
+        "team": "Beşiktaş",
+        "apps": "75",
+        "goals": "0"
+      },
+      {
+        "season": "1991–1996",
+        "team": "Fenerbahçe",
+        "apps": "131",
+        "goals": "0"
+      },
+      {
+        "season": "1996–1999",
+        "team": "Dardanelspor",
+        "apps": "99",
+        "goals": "0"
+      },
+      {
+        "season": "1999–2000",
+        "team": "Fenerbahçe",
+        "apps": "7",
+        "goals": "0"
+      }
+
+
+    ],
+    "difficulty": "zor"
   }
 ]

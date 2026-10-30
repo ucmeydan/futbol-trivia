@@ -3352,5 +3352,89 @@
       "Eyüpspor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 179,
+    "game": "listeyi-tamamla",
+    "title": "2026/27 sezonunda en az bir takımla Süper Lig'de temsil edilen şehirler?",
+    "type": "city",
+    "activeDate": "2026-10-27",
+    "targets": [
+      "İstanbul",
+      "Ankara",
+      "Rize",
+      "Samsun",
+      "Trabzon",
+      "Konya",
+      "Antalya",
+      "İzmir",
+      "Kocaeli",
+      "Gaziantep",
+      "Erzurum",
+      "Diyarbakır",
+      "Çorum"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 180,
+    "game": "listeyi-tamamla",
+    "title": "Mevcut Süper Lig takımları arasında stadyumu 30.000 ve üzeri kapasitede olan kulüpler?",
+    "type": "team-tr",
+    "activeDate": "2026-10-28",
+    "targets": [
+     "Fenerbahçe",
+     "Galatasaray",
+     "Trabzonspor",
+     "Beşiktaş",
+     "Konyaspor",
+     "Kocaelispor",
+     "Samsunspor",
+     "Amed SK",
+     "Gaziantep FK"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 181,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Şampiyonlar Ligi lig aşamasında mücadele eden İngiliz ve İspanyol takımlar?",
+    "type": "team-eu",
+    "activeDate": "2026-10-29",
+    "targets": [
+     "Arsenal",
+     "Liverpool",
+     "Manchester City",
+     "Manchester United",
+     "Aston Villa",
+     "Barcelona",
+     "Real Madrid",
+     "Villarreal",
+     "Atletico Madrid",
+     "Real Betis"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 182,
+    "game": "listeyi-tamamla",
+    "title": "Beşiktaş'ın 2026-27 sezonu yaz transfer döneminde kadrosuna kattığı yabancı oyuncular?",
+    "type": "player",
+    "activeDate": "2026-10-30",
+    "targets": [
+     "Dusan Vlahovic",
+     "Leandro Trossard",
+     "Ernest Poku",
+     "Fabio Miretti",
+     "Kassoum Ouattara",
+     "Alexander Nübel"
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]

@@ -4005,5 +4005,95 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 202,
+    "game": "top10",
+    "title": "Rıza Çalımbay'ın teknik direktörlük kariyerinde en fazla maçta oynattığı 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-27",
+    "targets": [
+      "Hakan Arslan",
+      "Ziya Erdal",
+      "Mustapha Yatabare",
+      "Uğur Çiftçi",
+      "Caner Osmanpaşa",
+      "Erdoğan Yeşilyurt",
+      "Max Gradel",
+      "Ricardo Pedriel",
+      "Bülent Ertuğrul",
+      "Ali Şaşal Vural"
+
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 203,
+    "game": "top10",
+    "title": "Süper Lig'de 4 büyükler dışındaki kulüplerde oynayan güncel piyasa değeri en yüksek 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-10-28",
+    "targets": [
+      "Juan",
+      "Alexandre Penetra",
+      "Ermin Mahmic",
+      "Kacper Kozlowski",
+      "Abbosbek Fayzullaev",
+      "Gift Orban",
+      "Mohamed Diomande",
+      "Adrian Benedyczak",
+      "Jerome Opoku",
+      "Eldor Shomurodov"
+
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 204,
+    "game": "top10",
+    "title": "Milli takımımızın resmi maçlarda karşılaştığı son 10 Avrupa ülkesi?",
+    "type": "country",
+    "activeDate": "2026-10-29",
+    "targets": [
+      "İtalya",
+      "Belçika",
+      "Fransa",
+      "Kosova",
+      "Romanya",
+      "İspanya",
+      "Bulgaristan",
+      "Gürcistan",
+      "Macaristan",
+      "Karadağ"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 205,
+    "game": "top10",
+    "title": "Bu sezon Süper Lig'de maç başı yaş ortalaması en düşük 10 kulüp?",
+    "type": "player",
+    "activeDate": "2026-10-30",
+    "targets": [
+      "Göztepe",
+      "Samsunspor",
+      "Kasımpaşa",
+      "Kocaelispor",
+      "Rizespor",
+      "Eyüpspor",
+      "Gençlerbirliği",
+      "Beşiktaş",
+      "Alanyaspor",
+      "Başakşehir"
+
+    ],
+    "difficulty": "zor"
   }
 ]
+

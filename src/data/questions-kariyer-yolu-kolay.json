@@ -6555,5 +6555,153 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 176,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-27",
+    "correctPlayer": "Semih Kılıçsoy",
+    "career": [
+      {
+        "season": "2020-2023",
+        "team": "Beşiktaş U19",
+        "apps": "69",
+        "goals": "42"
+      },
+      {
+        "season": "2023-",
+        "team": "Beşiktaş",
+        "apps": "92",
+        "goals": "17"
+      },
+      {
+        "season": "2025-2026",
+        "team": "Cagliari (kiralık)",
+        "apps": "25",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 177,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-28",
+    "correctPlayer": "Servet Çetin",
+    "career": [
+      {
+        "season": "1999-2001",
+        "team": "Kartalspor",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2001-2002",
+        "team": "Göztepe",
+        "apps": "32",
+        "goals": "1"
+      },
+      {
+        "season": "2002-2003",
+        "team": "Denizlispor",
+        "apps": "45",
+        "goals": "2"
+      },
+      {
+        "season": "2003-2006",
+        "team": "Fenerbahçe",
+        "apps": "60",
+        "goals": "4"
+      },
+      {
+        "season": "2006-2007",
+        "team": "Sivasspor",
+        "apps": "33",
+        "goals": "2"
+      },
+      {
+        "season": "2007-2012",
+        "team": "Galatasaray",
+        "apps": "176",
+        "goals": "12"
+      },
+      {
+        "season": "2012-2014",
+        "team": "Eskişehirspor",
+        "apps": "57",
+        "goals": "2"
+      },
+      {
+        "season": "2014-2016",
+        "team": "Mersin İdman Yurdu",
+        "apps": "47",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 178,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-29",
+    "correctPlayer": "Fatih Aksoy",
+    "career": [
+      {
+        "season": "2015-2017",
+        "team": "Beşiktaş U19",
+        "apps": "9",
+        "goals": "1"
+      },
+      {
+        "season": "2017-2019",
+        "team": "Beşiktaş",
+        "apps": "18",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2020",
+        "team": "Sivasspor",
+        "apps": "38",
+        "goals": "1"
+      },
+      {
+        "season": "2020-",
+        "team": "Alanyaspor",
+        "apps": "179",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 179,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-30",
+    "correctPlayer": "Suat Kaya",
+    "career": [
+      {
+        "season": "1986-1987",
+        "team": "Galatasaray",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "1987-1992",
+        "team": "Konyaspor",
+        "apps": "121",
+        "goals": "13"
+      },
+      {
+        "season": "1992-2003",
+        "team": "Galatasaray",
+        "apps": "345",
+        "goals": "40"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

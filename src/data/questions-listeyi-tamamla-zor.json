@@ -4067,5 +4067,67 @@
       "Jersson Gonzalez"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 201,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor'un mevcut kadrosundaki yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-28",
+    "targets": [
+      "Andre Onana",
+      "Wagner Pina",
+      "Stefan Savic",
+      "Arseniy Batagov",
+      "Chibuike Nwaiwu",
+      "Sidny Lopes Cabral",
+      "Fabinho",
+      "Batista Mendy",
+      "Benjamin Bouchouari",
+      "Tim Jabol Folcarelli",
+      "Ruslan Malinovskyi",
+      "Ernest Muçi",
+      "Noah Saviolo",
+      "Mohamed Salah",
+      "Paul Onuachu",
+      "Franculino Dju"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 202,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de hattrick yapan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-10-29",
+    "targets": [
+      "Dusan Vlahovic",
+      "Gift Orban",
+      "Vedat Muriqi",
+      "Mohamed Salah",
+      "Andre Henrique"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 203,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon TFF 1.Lig'in ilk 12 haftası itibarıyla 7 ve üzeri sayıda gol atan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-10-30",
+    "targets": [
+      "Kelechi Iheanacho",
+      "Rey Manaj",
+      "Taulant Seferi",
+      "Daniel Moreno",
+      "Julien Anziani",
+      "Mame Diouf"
+    ],
+    "difficulty": "zor"
   }
 ]
