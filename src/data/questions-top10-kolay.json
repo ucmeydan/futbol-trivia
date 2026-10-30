@@ -3646,6 +3646,48 @@
      "Aral Şimşir"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 183,
+    "game": "top10",
+    "title": "Beşiktaş'ın resmi maçlarda karşılaştığı son 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-10-31",
+    "targets": [
+      "Başakşehir",
+      "Crystal Palace",
+      "Trabzonspor",
+      "Hoffenheim",
+      "Kocaelispor",
+      "Amed SK",
+      "Marsilya",
+      "Erzurumspor",
+      "Fenerbahçe",
+      "Çorum FK"
+    ],
+    "difficulty": "kolay"
+  },
+
+   {
+    "id": 184,
+    "game": "top10",
+    "title": "Okan Buruk'un Galatasaray teknik direktörü olduğu dönemde en yüksek bonservis bedeli ödenerek transfer edilen 10 oyuncu? ",
+    "type": "player",
+    "activeDate": "2026-11-01",
+    "targets": [
+      "Victor Osimhen",
+      "Rafael Leao",
+      "Wilfried Singo",
+      "Uğurcan Çakır",
+      "Aleksey Batrakov",
+      "Gabriel Sara",
+      "Nicolo Zaniolo",
+      "Mauro Icardi",
+      "Deniz Gül",
+      "Davinson Sanchez"
+    ],
+    "difficulty": "kolay"
   }
 
 

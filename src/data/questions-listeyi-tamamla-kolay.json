@@ -3434,6 +3434,24 @@
      "Alexander Nübel"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 183,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de mücadele eden ve logosunda yeşil renk bulunan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-10-31",
+    "targets": [
+      "Fenerbahçe",
+      "Rizespor",
+      "Konyaspor",
+      "Alanyaspor",
+      "Amed SK",
+      "Kocaelispor"
+    
+    ],
+    "difficulty": "kolay"
   }
 
 

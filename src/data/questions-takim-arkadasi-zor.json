@@ -5597,5 +5597,209 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 195,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-10-31",
+    "correctPlayer": "Wesley Sneijder",
+    "teammates": [
+      {
+        "name": "Jari Litmanen",
+        "info": "2003-04 sezonunda Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Jan Vertonghen",
+        "info": "2006-07 sezounda Ajax'ta birlikte oynadılar"
+      },
+      {
+        "name": "Marcelo",
+        "info": "2007-09 yılları arasında Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Yuto Nagatomo",
+        "info": "2011-13 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Umut Bulut",
+        "info": "2013-16 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 196,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-01",
+    "correctPlayer": "Nicolas Pepe",
+    "teammates": [
+      {
+        "name": "Eric Bailly",
+        "info": "2024-25 sezonunda Villarreal'de birlikte oynadılar"
+      },
+      {
+        "name": "Rafael Leao",
+        "info": "2018-19 sezonunda Lille'de birlikte oynadılar"
+      },
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "info": "2019-22 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Bukayo Saka",
+        "info": "2019-22 yılları arasında Arsenal'de birlikte oynadılar"
+      },
+      {
+        "name": "Paul Onuachu",
+        "info": "2023-24 sezonunda Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 197,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-02",
+    "correctPlayer": "Gary Medel",
+    "teammates": [
+      {
+        "name": "Alexis Sanchez",
+        "info": "Şili Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Ivan Rakitic",
+        "info": "2011-13 yılları arasında Sevilla'da birlikte oynadılar"
+      },
+      {
+        "name": "Samir Handanovic",
+        "info": "2014-17 yılları arasında Inter'de birlikte oynadılar"
+      },
+      {
+        "name": "Riccardo Orsolini",
+        "info": "2019-23 yılları arasında Bologna'da birlikte oynadılar"
+      },
+      {
+        "name": "Caner Erkin",
+        "info": "2017-19 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 198,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-03",
+    "correctPlayer": "Vagner Love",
+    "teammates": [
+      {
+        "name": "Jo",
+        "info": "2006-08 yılları arasında CSKA Moskova'da birlikte oynadılar"
+      },
+      {
+        "name": "Pepe",
+        "info": "2018 yılında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Emre Akbaba",
+        "info": "2016-18 yılları arasında Alanyaspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Bernardo Silva",
+        "info": "2015-16 sezonunda Monaco'da birlikte oynadılar"
+      },
+      {
+        "name": "Ricardo Quaresma",
+        "info": "2018 yılında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 199,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-04",
+    "correctPlayer": "Oscar Cardozo",
+    "teammates": [
+      {
+        "name": "David Luiz",
+        "info": "2007-11 yılları arasında Benfica'da birlikte oynadılar"
+      },
+      {
+        "name": "Luis Pedro Cavanda",
+        "info": "2015-16 sezonunda Trabzonspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Roque Santa Cruz",
+        "info": "2022-25 yılları arasında Libertad'da ve Paraguay Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Angel Di Maria",
+        "info": "2007-10 yılları arasında Benfica'da birlikte oynadılar"
+      },
+      {
+        "name": "Mehmet Ekici",
+        "info": "2014-16 yılları arasında Trabzonspor'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 200,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-05",
+    "correctPlayer": "Simao Sabrosa",
+    "teammates": [
+      {
+        "name": "Patrick Kluivert",
+        "info": "1999-2001 yılları arasında Barcelona'da birlikte oynadılar."
+      },
+      {
+        "name": "Luisao",
+        "info": "2003-07 yılları arasında Benfica'da birlikte oynadılar"
+      },
+      {
+        "name": "Diego Forlan",
+        "info": "2007-11 yılları arasında Atletico'da birlikte oynadılar"
+      },
+      {
+        "name": "Fabian Ernst",
+        "info": "2011-12 yılları arasında Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Koke",
+        "info": "2009-11 yılları arasında Atletico'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 201,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-06",
+    "correctPlayer": "Samir Nasri",
+    "teammates": [
+      {
+        "name": "Mamadou Niang",
+        "info": "2006-08 arası Marsilya'da oynadılar"
+      },
+      {
+        "name": "Tomas Rosicky",
+        "info": "2008-12 arası Arsenal'de oynadılar"
+      },
+      {
+        "name": "Thierry Henry",
+        "info": "2011-12 sezonunda Arsenal'de ve Fransa Milli Takımında oynadılar "
+      },
+      {
+        "name": "Sergio Agüero",
+        "info": "2011-17 arası Manchester City'de oynadılar"
+      },
+      {
+        "name": "Nazım Sangare",
+        "info": "2017-18 sezonunda Antalyaspor'da oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

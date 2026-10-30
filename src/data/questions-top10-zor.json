@@ -4094,6 +4094,125 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 206,
+    "game": "top10",
+    "title": "Fatih Terim'in Galatasaray teknik direktörü olduğu dönemlerde en yüksek bonservis bedeli ödenerek transfer edilen 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-10-31",
+    "targets": [
+      "Bruma",
+      "Mbaye Diagne",
+      "Nordin Amrabat",
+      "Wesley Sneijder",
+      "Burak Yılmaz",
+      "Victor Nelsson",
+      "Fernando Muslera",
+      "Alexandru Cicaldau",
+      "Aurelien Chedjou",
+      "Sacha Boey"
+    
+
+    ],
+    "difficulty": "zor"
+  },
+
+   {
+    "id": 207,
+    "game": "top10",
+    "title": "Victor Osimhen'in Galatasaray formasıyla gol attığı son 10 rakip takım?",
+    "type": "player",
+    "activeDate": "2026-11-01",
+    "targets": [
+      "Fenerbahçe",
+      "Lille",
+      "Başakşehir",
+      "Göztepe",
+      "Erzurumspor",
+      "Çorum FK",
+      "Antalyaspor",
+      "Beşiktaş",
+      "Alanyaspor",
+      "Rizespor"
+    
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 208,
+    "game": "top10",
+    "title": "Fenerbahçe'nin Avrupa kupalarında mağlup ettiği son 10 takım? (Ön elemeler dahil)",
+    "type": "team-eu",
+    "activeDate": "2026-11-02",
+    "targets": [
+      "Lyon",
+      "Sturm Graz",
+      "Gornik Zabrze",
+      "Nottingham Forest",
+      "Brann",
+      "Stuttgart",
+      "Nice",
+      "Feyenoord",
+      "Rangers",
+      "Anderlecht"
+
+    
+
+    ],
+    "difficulty": "zor"
+  },
+
+
+
+
+  {
+    "id": 211,
+    "game": "top10",
+    "title": "Şenol Güneş'in Beşiktaş teknik direktörü olduğu dönemlerde en yüksek bonservis bedeli ödenerek transfer edilen 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-11-05",
+    "targets": [
+      "Milot Rashica",
+      "Bakhtiyor Zaynutdinov",
+      "Matej Mitrovic",
+      "Jeremain Lens",
+      "Jean Onana",
+      "Anderson Talisca",
+      "Luis Rhodolfo",
+      "Denys Boyko",
+      "Amir Hadziahmetovic",
+      "Vagner Love"
+    
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 216,
+    "game": "top10",
+    "title": "Aykut Kocaman'ın Fenerbahçe teknik direktörü olduğu dönemlerde en yüksek bonservis bedeli ödenerek transfer edilen 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-11-10",
+    "targets": [
+      "Moussa Sow",
+      "Raul Meireles",
+      "Mamadou Niang",
+      "Emmanuel Emenike",
+      "Milos Krasic",
+      "Giuliano",
+      "Issiar Dia",
+      "Roberto Soldado",
+      "Serdar Kesimal",
+      "Mehmet Topal"
+    
+
+    ],
+    "difficulty": "zor"
   }
 ]
 

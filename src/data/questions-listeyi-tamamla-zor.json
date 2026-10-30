@@ -4129,5 +4129,21 @@
       "Mame Diouf"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 204,
+    "game": "listeyi-tamamla",
+    "title": "Konyaspor tarihinde 2M€ ve üzeri bonservis bedeliyle satılan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-10-31",
+    "targets": [
+      "Amir Hadziahmetovic",
+      "Abdülkerim Bardakcı",
+      "Riad Bajic",
+      "Mehdi Bourabia",
+      "Jagos Vukovic"
+    ],
+    "difficulty": "zor"
   }
 ]

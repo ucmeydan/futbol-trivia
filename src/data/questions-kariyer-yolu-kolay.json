@@ -6703,5 +6703,158 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 180,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-10-31",
+    "correctPlayer": "Ertuğrul Sağlam",
+    "career": [
+      {
+        "season": "1986-1989",
+        "team": "Gaziantepspor",
+        "apps": "7",
+        "goals": "0"
+      },
+      {
+        "season": "1989-1994",
+        "team": "Samsunspor",
+        "apps": "101",
+        "goals": "35"
+      },
+      {
+        "season": "1994-2000",
+        "team": "Beşiktaş",
+        "apps": "216",
+        "goals": "97"
+      },
+      {
+        "season": "2000-2003",
+        "team": "Samsunspor",
+        "apps": "79",
+        "goals": "23"
+      }
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 181,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-01",
+    "correctPlayer": "Semih Şentürk",
+    "career": [
+      {
+        "season": "1999-2014",
+        "team": "Fenerbahçe",
+        "apps": "281",
+        "goals": "87"
+      },
+      {
+        "season": "2001-2002",
+        "team": "İzmirspor (kiralık)",
+        "apps": "23",
+        "goals": "3"
+      },
+      {
+        "season": "2014-2014",
+        "team": "Antalyaspor",
+        "apps": "18",
+        "goals": "5"
+      },
+      {
+        "season": "2014-2016",
+        "team": "Başakşehir",
+        "apps": "41",
+        "goals": "17"
+      },
+      {
+        "season": "2016-2018",
+        "team": "Eskişehirspor",
+        "apps": "48",
+        "goals": "19"
+      }
+
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 182,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-02",
+    "correctPlayer": "Luis Neto",
+    "career": [
+      {
+        "season": "2007-2011",
+        "team": "Varzim",
+        "apps": "63",
+        "goals": "2"
+      },
+      {
+        "season": "2011-2012",
+        "team": "Nacional",
+        "apps": "33",
+        "goals": "1"
+      },
+      {
+        "season": "2012-2013",
+        "team": "Siena",
+        "apps": "22",
+        "goals": "1"
+      },
+      {
+        "season": "2013-2019",
+        "team": "Zenit",
+        "apps": "175",
+        "goals": "1"
+      },
+      {
+        "season": "2017-2018",
+        "team": "Fenerbahçe (kiralık)",
+        "apps": "16",
+        "goals": "0"
+      },
+      {
+        "season": "2019-2024",
+        "team": "Sporting",
+        "apps": "107",
+        "goals": "1"
+      }
+
+
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 182,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-03",
+    "correctPlayer": "Mehmet Özdilek",
+    "career": [
+      {
+        "season": "1984-1988",
+        "team": "Kahramanmaraşspor",
+        "apps": "107",
+        "goals": "63"
+      },
+      {
+        "season": "1988-2001",
+        "team": "Beşiktaş",
+        "apps": "491",
+        "goals": "150"
+      }
+
+
+
+    ],
+    "difficulty": "kolay"
   }
+
+
 ]
