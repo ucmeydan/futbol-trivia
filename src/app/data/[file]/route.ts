@@ -7,6 +7,8 @@ import cities from '../../../data/cities.json';
 import countries from '../../../data/countries.json';
 import europeanTeams from '../../../data/european_teams.json';
 import players from '../../../data/players.json';
+import qKadroBulKolay from '../../../data/questions-kadro-bul-kolay.json';
+import qKadroBulZor from '../../../data/questions-kadro-bul-zor.json';
 import qKariyerKolay from '../../../data/questions-kariyer-yolu-kolay.json';
 import qKariyerZor from '../../../data/questions-kariyer-yolu-zor.json';
 import qListeyiKolay from '../../../data/questions-listeyi-tamamla-kolay.json';
@@ -24,6 +26,8 @@ const FILES: Record<string, unknown> = {
   'countries': countries,
   'european_teams': europeanTeams,
   'players': players,
+  'questions-kadro-bul-kolay': qKadroBulKolay,
+  'questions-kadro-bul-zor': qKadroBulZor,
   'questions-kariyer-yolu-kolay': qKariyerKolay,
   'questions-kariyer-yolu-zor': qKariyerZor,
   'questions-listeyi-tamamla-kolay': qListeyiKolay,
