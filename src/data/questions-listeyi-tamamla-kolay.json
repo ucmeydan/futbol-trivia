@@ -3452,6 +3452,26 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 184,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de güncel piyasa değeri 10M€ ve üzerinde olan Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-11-01",
+    "targets": [
+      "Barış Alper Yılmaz",
+      "Orkun Kökçü",
+      "Yunus Akgün",
+      "Kerem Aktürkoğlu",
+      "Aral Şimşir",
+      "İsmail Yüksek",
+      "Deniz Gül",
+      "Uğurcan Çakır"
+    
+    ],
+    "difficulty": "kolay"
   }
 
 

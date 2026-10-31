@@ -107,8 +107,6 @@
     "matchDate": "07.03.2024",
     "targetTeam": "Fenerbahçe",
     "teamColor": "#FFDD00",
-    "teamColorSecondary": "#003399",
-    "teamColorSplit": "stripe", 
     "formation": [1, 4, 2, 3, 1],
     "players": [
       { "number": 40, "answer": "LİVAKOVİC" },

@@ -4145,5 +4145,28 @@
       "Jagos Vukovic"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 205,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'de bu sezon maça çıkan 35 yaş ve üzeri oyuncular?",
+    "type": "player",
+    "activeDate": "2026-11-01",
+    "targets": [
+      "Paulo Victor",
+      "Mustafa Yumlu",
+      "Orhan Ovacıklı",
+      "Ertuğrul Taşkıran",
+      "Edin Visca",
+      "Fredy",
+      "Alexandru Maxim",
+      "İlkay Gündoğan",
+      "Eren Tozlu",
+      "Stefan Savic",
+      "N'golo Kante",
+      "Serdar Dursun"
+    ],
+    "difficulty": "zor"
   }
 ]
