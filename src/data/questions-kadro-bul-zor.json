@@ -332,5 +332,72 @@
         "answer": "KUBİLAY"
       }
     ]
+  },
+  {
+    "id": 6,
+    "difficulty": "zor",
+    "activeDate": "2026-11-02",
+    "league": "Avrupa Ligi",
+    "season": "2022/23",
+    "homeTeam": "Trabzonspor",
+    "awayTeam": "Monaco",
+    "homeScore": 4,
+    "awayScore": 0,
+    "matchDate": "13.10.2022",
+    "targetTeam": "Trabzonspor",
+    "teamColor": "#8B1C2E",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "number": 1,
+        "answer": "ÇAKIR"
+      },
+      {
+        "number": 18,
+        "answer": "ELMALI"
+      },
+      {
+        "number": 24,
+        "answer": "DENSWİL"
+      },
+      {
+        "number": 3,
+        "answer": "BARTRA"
+      },
+      {
+        "number": 4,
+        "answer": "TÜRKMEN"
+      },
+      {
+        "number": 25,
+        "answer": "GBAMİN"
+      },
+      {
+        "number": 17,
+        "answer": "HAMSİK"
+      },
+      {
+        "number": 29,
+        "answer": "BARDHİ"
+      },
+      {
+        "number": 11,
+        "answer": "BAKASETAS"
+      },
+      {
+        "number": 21,
+        "answer": "DJANİNY"
+      },
+      {
+        "number": 9,
+        "answer": "BOZOK"
+      }
+    ]
   }
 ]
