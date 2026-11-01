@@ -28,6 +28,8 @@ const FILES = [
   'players',
   'td',
   'teams',
+  'questions-kadro-bul-kolay',
+  'questions-kadro-bul-zor',
   'questions-kariyer-yolu-kolay',
   'questions-kariyer-yolu-zor',
   'questions-listeyi-tamamla-kolay',
