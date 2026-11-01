@@ -333,5 +333,71 @@
         "answer": "KANE"
       }
     ]
+  },
+  {
+    "id": 6,
+    "difficulty": "kolay",
+    "activeDate": "2026-11-02",
+    "league": "Avrupa Şampiyonası",
+    "season": "2008",
+    "homeTeam": "Türkiye",
+    "awayTeam": "Çek Cumhuriyeti",
+    "homeScore": 3,
+    "awayScore": 2,
+    "matchDate": "15.06.2008",
+    "targetTeam": "Türkiye",
+    "teamColor": "#bf2424",
+    "formation": [
+      1,
+      4,
+      4,
+      2
+    ],
+    "players": [
+      {
+        "number": 23,
+        "answer": "VOLKAN"
+      },
+      {
+        "number": 3,
+        "answer": "HAKAN"
+      },
+      {
+        "number": 2,
+        "answer": "SERVET"
+      },
+      {
+        "number": 13,
+        "answer": "EMRE"
+      },
+      {
+        "number": 22,
+        "answer": "HAMİT"
+      },
+      {
+        "number": 6,
+        "answer": "TOPAL"
+      },
+      {
+        "number": 7,
+        "answer": "AURELİO"
+      },
+      {
+        "number": 14,
+        "answer": "ARDA"
+      },
+      {
+        "number": 17,
+        "answer": "TUNCAY"
+      },
+      {
+        "number": 8,
+        "answer": "NİHAT"
+      },
+      {
+        "number": 9,
+        "answer": "SEMİH"
+      }
+    ]
   }
 ]
