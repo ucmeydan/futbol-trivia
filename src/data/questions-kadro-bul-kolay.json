@@ -11,27 +11,61 @@
     "awayScore": 3,
     "matchDate": "29.11.2023",
     "targetTeam": "Galatasaray",
-    "teamColor": "#F7A014", 
-    "teamColorSecondary": "#E8211B", 
-    "teamColorSplit": "half",
-    "formation": [1, 4, 2, 3, 1],
+    "teamColor": "#F7A014",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
     "players": [
-      { "number": 1, "answer": "MUSLERA" },
-      { "number": 3, "answer": "ANGELINO" },
-      { "number": 42, "answer": "ABDÜLKERİM" },
-      { "number": 23, "answer": "KAAN" },
-      { "number": 93, "answer": "BOEY" },
-      { "number": 34, "answer": "TORREIRA" },
-      { "number": 91, "answer": "NDOMBELE" },
-      { "number": 14, "answer": "ZAHA" },
-      { "number": 10, "answer": "MERTENS" },
-      { "number": 22, "answer": "ZIYECH" },
-      { "number": 9, "answer": "ICARDI" }
+      {
+        "number": 1,
+        "answer": "MUSLERA"
+      },
+      {
+        "number": 3,
+        "answer": "ANGELINO"
+      },
+      {
+        "number": 42,
+        "answer": "ABDÜLKERİM"
+      },
+      {
+        "number": 23,
+        "answer": "KAAN"
+      },
+      {
+        "number": 93,
+        "answer": "BOEY"
+      },
+      {
+        "number": 34,
+        "answer": "TORREIRA"
+      },
+      {
+        "number": 91,
+        "answer": "NDOMBELE"
+      },
+      {
+        "number": 14,
+        "answer": "ZAHA"
+      },
+      {
+        "number": 10,
+        "answer": "MERTENS"
+      },
+      {
+        "number": 22,
+        "answer": "ZIYECH"
+      },
+      {
+        "number": 9,
+        "answer": "ICARDI"
+      }
     ]
-
-     
   },
-
   {
     "id": 2,
     "difficulty": "kolay",
@@ -44,25 +78,61 @@
     "awayScore": 2,
     "matchDate": "10.01.2021",
     "targetTeam": "Beşiktaş",
-    "teamColor": "#21130d", 
-    "formation": [1, 4, 2, 3, 1],
+    "teamColor": "#21130d",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
     "players": [
-      { "number": 30, "answer": "ERSİN" },
-      { "number": 21, "answer": "N'SAKALA" },
-      { "number": 24, "answer": "VİDA" },
-      { "number": 23, "answer": "WELİNTON" },
-      { "number": 2, "answer": "ROSİER" },
-      { "number": 5, "answer": "SOUZA" },
-      { "number": 20, "answer": "NECİP" },
-      { "number": 17, "answer": "LARİN" },
-      { "number": 13, "answer": "HUTCHİNSON" },
-      { "number": 18, "answer": "GHEZZAL" },
-      { "number": 14, "answer": "ABOUBAKAR" }
+      {
+        "number": 30,
+        "answer": "ERSİN"
+      },
+      {
+        "number": 21,
+        "answer": "N'SAKALA"
+      },
+      {
+        "number": 24,
+        "answer": "VİDA"
+      },
+      {
+        "number": 23,
+        "answer": "WELİNTON"
+      },
+      {
+        "number": 2,
+        "answer": "ROSİER"
+      },
+      {
+        "number": 5,
+        "answer": "SOUZA"
+      },
+      {
+        "number": 20,
+        "answer": "NECİP"
+      },
+      {
+        "number": 17,
+        "answer": "LARİN"
+      },
+      {
+        "number": 13,
+        "answer": "HUTCHİNSON"
+      },
+      {
+        "number": 18,
+        "answer": "GHEZZAL"
+      },
+      {
+        "number": 14,
+        "answer": "ABOUBAKAR"
+      }
     ]
-
-     
   },
-
   {
     "id": 3,
     "difficulty": "kolay",
@@ -75,25 +145,61 @@
     "awayScore": 2,
     "matchDate": "02.07.2024",
     "targetTeam": "Türkiye",
-    "teamColor": "#bf2424", 
-    "formation": [1, 4, 2, 3, 1],
+    "teamColor": "#bf2424",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
     "players": [
-      { "number": 1, "answer": "MERT" },
-      { "number": 20, "answer": "FERDİ" },
-      { "number": 14, "answer": "ABDÜLKERİM" },
-      { "number": 3, "answer": "MERİH" },
-      { "number": 18, "answer": "MERT" },
-      { "number": 16, "answer": "İSMAİL" },
-      { "number": 22, "answer": "KAAN" },
-      { "number": 19, "answer": "KENAN" },
-      { "number": 6, "answer": "ORKUN" },
-      { "number": 21, "answer": "BARIŞ ALPER" },
-      { "number": 8, "answer": "ARDA" }
+      {
+        "number": 1,
+        "answer": "MERT"
+      },
+      {
+        "number": 20,
+        "answer": "FERDİ"
+      },
+      {
+        "number": 14,
+        "answer": "ABDÜLKERİM"
+      },
+      {
+        "number": 3,
+        "answer": "MERİH"
+      },
+      {
+        "number": 18,
+        "answer": "MERT"
+      },
+      {
+        "number": 16,
+        "answer": "İSMAİL"
+      },
+      {
+        "number": 22,
+        "answer": "KAAN"
+      },
+      {
+        "number": 19,
+        "answer": "KENAN"
+      },
+      {
+        "number": 6,
+        "answer": "ORKUN"
+      },
+      {
+        "number": 21,
+        "answer": "BARIŞ ALPER"
+      },
+      {
+        "number": 8,
+        "answer": "ARDA"
+      }
     ]
-
-     
   },
-
   {
     "id": 4,
     "difficulty": "kolay",
@@ -107,24 +213,60 @@
     "matchDate": "07.03.2024",
     "targetTeam": "Fenerbahçe",
     "teamColor": "#FFDD00",
-    "formation": [1, 4, 2, 3, 1],
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
     "players": [
-      { "number": 40, "answer": "LİVAKOVİC" },
-      { "number": 24, "answer": "OOSTERWOLDE" },
-      { "number": 2, "answer": "ÇAĞLAR" },
-      { "number": 6, "answer": "DJİKU" },
-      { "number": 21, "answer": "OSAYİ SAMUEL" },
-      { "number": 5, "answer": "İSMAİL" },
-      { "number": 35, "answer": "FRED" },
-      { "number": 10, "answer": "TADİC" },
-      { "number": 53, "answer": "SZYMANSKİ" },
-      { "number": 20, "answer": "CENGİZ" },
-      { "number": 23, "answer": "BATSHUAYİ" }
+      {
+        "number": 40,
+        "answer": "LİVAKOVİC"
+      },
+      {
+        "number": 24,
+        "answer": "OOSTERWOLDE"
+      },
+      {
+        "number": 2,
+        "answer": "ÇAĞLAR"
+      },
+      {
+        "number": 6,
+        "answer": "DJİKU"
+      },
+      {
+        "number": 21,
+        "answer": "OSAYİ SAMUEL"
+      },
+      {
+        "number": 5,
+        "answer": "İSMAİL"
+      },
+      {
+        "number": 35,
+        "answer": "FRED"
+      },
+      {
+        "number": 10,
+        "answer": "TADİC"
+      },
+      {
+        "number": 53,
+        "answer": "SZYMANSKİ"
+      },
+      {
+        "number": 20,
+        "answer": "CENGİZ"
+      },
+      {
+        "number": 23,
+        "answer": "BATSHUAYİ"
+      }
     ]
-
-     
   },
-
   {
     "id": 5,
     "difficulty": "kolay",
@@ -138,21 +280,58 @@
     "matchDate": "24.10.2023",
     "targetTeam": "Bayern Münih",
     "teamColor": "#bf2424",
-    "formation": [1, 4, 2, 3, 1],
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
     "players": [
-      { "number": 26, "answer": "ULREİCH" },
-      { "number": 19, "answer": "DAVİES" },
-      { "number": 3, "answer": "KİM" },
-      { "number": 4, "answer": "DE LİGT" },
-      { "number": 40, "answer": "MAZRAOUİ" },
-      { "number": 27, "answer": "LAİMER" },
-      { "number": 6, "answer": "KİMMİCH" },
-      { "number": 10, "answer": "SANE" },
-      { "number": 42, "answer": "MUSİALA" },
-      { "number": 11, "answer": "COMAN" },
-      { "number": 9, "answer": "KANE" }
+      {
+        "number": 26,
+        "answer": "ULREİCH"
+      },
+      {
+        "number": 19,
+        "answer": "DAVİES"
+      },
+      {
+        "number": 3,
+        "answer": "KİM"
+      },
+      {
+        "number": 4,
+        "answer": "DE LİGT"
+      },
+      {
+        "number": 40,
+        "answer": "MAZRAOUİ"
+      },
+      {
+        "number": 27,
+        "answer": "LAİMER"
+      },
+      {
+        "number": 6,
+        "answer": "KİMMİCH"
+      },
+      {
+        "number": 10,
+        "answer": "SANE"
+      },
+      {
+        "number": 42,
+        "answer": "MUSİALA"
+      },
+      {
+        "number": 11,
+        "answer": "COMAN"
+      },
+      {
+        "number": 9,
+        "answer": "KANE"
+      }
     ]
-
-     
   }
 ]

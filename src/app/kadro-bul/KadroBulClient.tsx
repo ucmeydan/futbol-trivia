@@ -34,7 +34,7 @@ type MatchData = {
   targetTeam: string;
   teamColor: string;
   teamColorSecondary?: string;
-  teamColorSplit?: 'stripe' | 'half';
+  teamColorSplit?: string;
   formation: number[];
   players: PlayerData[];
 };
@@ -66,30 +66,30 @@ const DEFAULT_STATS: Stats = {
   distribution: { '11': 0, '12-15': 0, '16-20': 0, '21-30': 0, '31-40': 0, '41-50': 0, '50+': 0 },
 };
 
-const TEAM_COLORS: Record<string, { primary: string; secondary?: string; split?: 'stripe' | 'half' }> = {
-  'Fenerbahçe':         { primary: '#FFDD00', secondary: '#003399' },
-  'Beşiktaş':           { primary: '#1a1a1a', secondary: '#ffffff' },
-  'Galatasaray':        { primary: '#F7A014', secondary: '#E8211B', split: 'half' },
-  'Trabzonspor':        { primary: '#8B1C2E', secondary: '#1B4CA1' },
+const TEAM_COLORS: Record<string, { primary: string }> = {
+  'Fenerbahçe':         { primary: '#FFDD00' },
+  'Beşiktaş':           { primary: '#1a1a1a' },
+  'Galatasaray':        { primary: '#E8211B' },
+  'Trabzonspor':        { primary: '#8B1C2E' },
   'Bursaspor':          { primary: '#00862A' },
-  'Başakşehir':         { primary: '#E8211B', secondary: '#1A3A5C' },
+  'Başakşehir':         { primary: '#E8211B' },
   'Liverpool':          { primary: '#C8102E' },
   'Man City':           { primary: '#6CABDD' },
   'Chelsea':            { primary: '#034694' },
   'Arsenal':            { primary: '#EF0107' },
   'Manchester United':  { primary: '#DA291C' },
   'Tottenham':          { primary: '#132257' },
-  'Newcastle':          { primary: '#241F20', secondary: '#ffffff' },
-  'Real Madrid':        { primary: '#FEBE10', secondary: '#ffffff' },
-  'Barcelona':          { primary: '#A50044', secondary: '#004D98' },
-  'Atletico Madrid':    { primary: '#CB3524', secondary: '#2D4B8E' },
-  'Sevilla':            { primary: '#D4AF37', secondary: '#ffffff' },
+  'Newcastle':          { primary: '#241F20' },
+  'Real Madrid':        { primary: '#FEBE10' },
+  'Barcelona':          { primary: '#A50044' },
+  'Atletico Madrid':    { primary: '#CB3524' },
+  'Sevilla':            { primary: '#D4AF37' },
   'Bayern Munich':      { primary: '#DC052D' },
-  'Borussia Dortmund':  { primary: '#FDE100', secondary: '#000000' },
-  'Juventus':           { primary: '#000000', secondary: '#ffffff' },
-  'AC Milan':           { primary: '#FB090B', secondary: '#000000' },
-  'Inter Milan':        { primary: '#010E80', secondary: '#000000' },
-  'PSG':                { primary: '#003366', secondary: '#DA020E' },
+  'Borussia Dortmund':  { primary: '#FDE100' },
+  'Juventus':           { primary: '#000000' },
+  'AC Milan':           { primary: '#FB090B' },
+  'Inter Milan':        { primary: '#010E80' },
+  'PSG':                { primary: '#003366' },
 };
 
 const KEYBOARD_ROWS = [
@@ -192,44 +192,24 @@ function getDistKey(total: number): DistKey {
 function JerseySvg({
   number,
   fill,
-  secondaryFill,
-  splitType = 'stripe',
   size,
   showNumber = true,
 }: {
   number: number;
   fill: string;
-  secondaryFill?: string;
-  splitType?: 'stripe' | 'half';
   size: 'sm' | 'lg';
   showNumber?: boolean;
 }) {
   const [w, h] = size === 'lg' ? [80, 84] : [52, 55];
-  const defId = `jersey-${splitType}-${number}-${size}`;
   const bodyPath = "M22,5 L11,9 L2,24 L2,35 L12,31 L13,52 L43,52 L44,31 L54,35 L54,24 L45,9 L34,5 Q28,15 22,5Z";
-  const isLight = (c: string) => ['#ffffff','#FFFFFF','#FDE100','#FFDD00','#F7A014','#6CABDD'].includes(c);
-  const numColor = splitType === 'half' ? (isLight(fill) ? '#000000' : 'white') : isLight(fill) ? '#000000' : 'white';
+  const isLight = (c: string) => ['#ffffff','#FFFFFF','#FDE100','#FFDD00','#F7A014','#6CABDD','#D4AF37'].includes(c);
+  const numColor = isLight(fill) ? '#000000' : '#ffffff';
 
   return (
     <svg viewBox="0 0 56 58" width={w} height={h}>
-      {secondaryFill && (
-        <defs>
-          {splitType === 'half' ? (
-            <linearGradient id={defId} x1="0" x2="1" y1="0" y2="0">
-              <stop offset="50%" stopColor={fill} />
-              <stop offset="50%" stopColor={secondaryFill} />
-            </linearGradient>
-          ) : (
-            <pattern id={defId} width="8" height="58" patternUnits="userSpaceOnUse">
-              <rect width="4" height="58" fill={fill} />
-              <rect x="4" width="4" height="58" fill={secondaryFill} />
-            </pattern>
-          )}
-        </defs>
-      )}
       <path
         d={bodyPath}
-        fill={secondaryFill ? `url(#${defId})` : fill}
+        fill={fill}
         stroke="rgba(0,0,0,0.18)"
         strokeWidth="0.9"
         strokeLinejoin="round"
@@ -266,8 +246,6 @@ function JerseySvg({
 function Jersey({
   number,
   color,
-  secondaryColor,
-  splitType,
   status,
   isActive,
   onClick,
@@ -275,15 +253,12 @@ function Jersey({
 }: {
   number: number;
   color: string;
-  secondaryColor?: string;
-  splitType?: 'stripe' | 'half';
   status: 'pending' | 'solved' | 'failed';
   isActive: boolean;
   onClick: () => void;
   showNumber?: boolean;
 }) {
   const fill = status === 'solved' ? '#16a34a' : status === 'failed' ? '#374151' : color;
-  const secondary = status === 'pending' ? secondaryColor : undefined;
   const ringClass = isActive
     ? 'ring-2 ring-white ring-offset-1 ring-offset-transparent scale-110'
     : status === 'solved'
@@ -302,7 +277,7 @@ function Jersey({
       aria-label={`Oyuncu #${number}`}
       style={shadowStyle}
     >
-      <JerseySvg number={number} fill={fill} secondaryFill={secondary} splitType={status === 'pending' ? splitType : undefined} size="sm" showNumber={showNumber} />
+      <JerseySvg number={number} fill={fill} size="sm" showNumber={showNumber} />
     </button>
   );
 }
@@ -875,9 +850,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
     const answer = stripForGuess(player.answer);
     const keyColors = getKeyColors(ps.guesses, ps.results);
     const currentGuessIdx = ps.guesses.length;
-    const guessingTeamColors = currentMatch.teamColorSecondary
-      ? { primary: currentMatch.teamColor, secondary: currentMatch.teamColorSecondary, split: currentMatch.teamColorSplit }
-      : (TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor });
+    const guessingTeamColors = TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor };
 
     return (
       <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans">
@@ -906,8 +879,6 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
               <JerseySvg
                 number={player.number}
                 fill={guessingTeamColors.primary}
-                secondaryFill={guessingTeamColors.secondary}
-                splitType={guessingTeamColors.split}
                 size="lg"
                 showNumber
               />
@@ -967,9 +938,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
 
   // ── Pitch view ─────────────────────────────────────────────────────────────
   const pitchRows = buildPitchRows(currentMatch);
-  const teamColors = currentMatch.teamColorSecondary
-    ? { primary: currentMatch.teamColor, secondary: currentMatch.teamColorSecondary, split: currentMatch.teamColorSplit }
-    : (TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor });
+  const teamColors = TEAM_COLORS[currentMatch.targetTeam] ?? { primary: currentMatch.teamColor };
 
   return (
     <div className="max-w-md mx-auto min-h-screen flex flex-col game-container text-white bg-slate-950 font-sans">
@@ -1056,8 +1025,6 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
                     <Jersey
                       number={player.number}
                       color={teamColors.primary}
-                      secondaryColor={teamColors.secondary}
-                      splitType={teamColors.split}
                       status={ps.status}
                       isActive={activePlayerIdx === idx}
                       onClick={() => ps.status === 'pending' ? handleSelectPlayer(idx) : undefined}
