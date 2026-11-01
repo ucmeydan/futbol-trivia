@@ -3472,6 +3472,28 @@
     
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 185,
+    "game": "listeyi-tamamla",
+    "title": "Avrupa kupaları tarihinde grup aşamasında mücadele eden Türk takımları? (Şampiyonlar Ligi, Avrupa Ligi ve Konferans Ligi)",
+    "type": "team-tr",
+    "activeDate": "2026-11-02",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Başakşehir",
+      "Bursaspor",
+      "Samsunspor",
+      "Konyaspor",
+      "Sivasspor",
+      "Osmanlıspor",
+      "Akhisar Belediyespor"
+    ],
+    "difficulty": "kolay"
   }
 
 

@@ -4168,5 +4168,34 @@
       "Serdar Dursun"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 206,
+    "game": "listeyi-tamamla",
+    "title": "2001-02 sezonunda Süper Lig'de mücadele eden takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-02",
+    "targets": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Gaziantepspor",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Ankaragücü",
+      "Yozgatspor",
+      "Samsunspor",
+      "Rizespor",
+      "Gençlerbirliği",
+      "Denizlispor",
+      "İstanbulspor",
+      "Kocaelispor",
+      "Bursaspor",
+      "Antalyaspor",
+      "Göztepe",
+      "Diyarbakırspor",
+      "Malatyaspor"
+    ],
+    "difficulty": "zor"
   }
 ]
