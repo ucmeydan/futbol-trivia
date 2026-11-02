@@ -399,5 +399,72 @@
         "answer": "SEMİH"
       }
     ]
+  },
+  {
+    "id": 7,
+    "difficulty": "kolay",
+    "activeDate": "2026-11-03",
+    "league": "Şampiyonlar Ligi",
+    "season": "2007/08",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Inter",
+    "homeScore": 1,
+    "awayScore": 0,
+    "matchDate": "19.09.2007",
+    "targetTeam": "Fenerbahçe",
+    "teamColor": "#FFDD00",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "number": 1,
+        "answer": "VOLKAN"
+      },
+      {
+        "number": 3,
+        "answer": "ROBERTO CARLOS"
+      },
+      {
+        "number": 2,
+        "answer": "LUGANO"
+      },
+      {
+        "number": 36,
+        "answer": "EDU DRACENA"
+      },
+      {
+        "number": 19,
+        "answer": "HASAN"
+      },
+      {
+        "number": 24,
+        "answer": "BARIŞ"
+      },
+      {
+        "number": 15,
+        "answer": "AURELİO"
+      },
+      {
+        "number": 6,
+        "answer": "WEDERSON"
+      },
+      {
+        "number": 20,
+        "answer": "ALEX"
+      },
+      {
+        "number": 99,
+        "answer": "DEİVİD"
+      },
+      {
+        "number": 9,
+        "answer": "KEŽMAN"
+      }
+    ]
   }
 ]
