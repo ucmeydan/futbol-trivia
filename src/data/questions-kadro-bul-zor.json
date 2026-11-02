@@ -399,5 +399,72 @@
         "answer": "UMUT"
       }
     ]
+  },
+  {
+    "id": 7,
+    "difficulty": "zor",
+    "activeDate": "2026-11-03",
+    "league": "Avrupa Ligi",
+    "season": "2008/09",
+    "homeTeam": "Hamburg",
+    "awayTeam": "Galatasaray",
+    "homeScore": 1,
+    "awayScore": 1,
+    "matchDate": "12.03.2009",
+    "targetTeam": "Galatasaray",
+    "teamColor": "#E8211B",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "number": 26,
+        "answer": "DE SANCTİS"
+      },
+      {
+        "number": 74,
+        "answer": "YAMAN"
+      },
+      {
+        "number": 22,
+        "answer": "BALTA"
+      },
+      {
+        "number": 21,
+        "answer": "AŞIK"
+      },
+      {
+        "number": 55,
+        "answer": "SARIOĞLU"
+      },
+      {
+        "number": 8,
+        "answer": "ÖZBEK"
+      },
+      {
+        "number": 18,
+        "answer": "AKMAN"
+      },
+      {
+        "number": 19,
+        "answer": "KEWELL"
+      },
+      {
+        "number": 10,
+        "answer": "LİNCOLN"
+      },
+      {
+        "number": 66,
+        "answer": "TURAN"
+      },
+      {
+        "number": 20,
+        "answer": "NONDA"
+      }
+    ]
   }
 ]
