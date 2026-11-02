@@ -4213,6 +4213,27 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 217,
+    "game": "top10",
+    "title": "Bundesliga'da en çok maça çıkan 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-11-03",
+    "targets": [
+      "Halil Altıntop",
+      "Ömer Toprak",
+      "Nuri Şahin",
+      "Yıldıray Baştürk",
+      "Yunus Mallı",
+      "Hamit Altıntop",
+      "Salih Özcan",
+      "Atakan Karazor",
+      "Özcan Arkoç",
+      "Ozan Kabak"
+    ],
+    "difficulty": "zor"
   }
 ]
 
