@@ -4197,5 +4197,29 @@
       "Malatyaspor"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 207,
+    "game": "listeyi-tamamla",
+    "title": "Başakşehir FK'nın Avrupa kupalarında mağlup ettiği takımlar? (Grup aşaması ve sonrası)",
+    "type": "team-eu",
+    "activeDate": "2026-11-03",
+    "targets": [
+     
+      "Braga",
+      "Ludogorets",
+      "Monchengladbach",
+      "Wolfsberger",
+      "Sporting",
+      "Kopenhag",
+      "Manchester United",
+      "Fiorentina",
+      "Hearts",
+      "Rigas FS",
+      "Heidenheim"
+     
+    ],
+    "difficulty": "zor"
   }
 ]

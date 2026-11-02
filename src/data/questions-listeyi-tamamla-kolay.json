@@ -3494,6 +3494,27 @@
       "Akhisar Belediyespor"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 186,
+    "game": "listeyi-tamamla",
+    "title": "Tarihinde en az bir sezon Süper Lig'de mücadele etmiş Karadeniz takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-11-03",
+    "targets": [
+      "Akçaabat Sebatspor",
+      "Giresunspor",
+      "Karabükspor",
+      "Orduspor",
+      "Zonguldakspor",
+      "Boluspor",
+      "Rizespor",
+      "Samsunspor",
+      "Trabzonspor",
+      "Çorum FK"
+    ],
+    "difficulty": "kolay"
   }
 
 
