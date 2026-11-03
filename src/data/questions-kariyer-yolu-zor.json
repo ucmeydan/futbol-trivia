@@ -7340,7 +7340,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 185,
     "game": "kariyer-yolu",
@@ -7374,7 +7373,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 186,
     "game": "kariyer-yolu",
@@ -7408,7 +7406,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 187,
     "game": "kariyer-yolu",
@@ -7436,7 +7433,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 188,
     "game": "kariyer-yolu",
@@ -7470,7 +7466,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 189,
     "game": "kariyer-yolu",
@@ -7504,7 +7499,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 190,
     "game": "kariyer-yolu",
@@ -7547,12 +7541,9 @@
         "apps": "7",
         "goals": "0"
       }
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 191,
     "game": "kariyer-yolu",
@@ -7601,12 +7592,9 @@
         "apps": "109",
         "goals": "2"
       }
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 192,
     "game": "kariyer-yolu",
@@ -7655,12 +7643,9 @@
         "apps": "109",
         "goals": "2"
       }
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 191,
     "game": "kariyer-yolu",
@@ -7697,12 +7682,9 @@
         "apps": "30",
         "goals": "5"
       }
-
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 192,
     "game": "kariyer-yolu",
@@ -7727,11 +7709,9 @@
         "apps": "20",
         "goals": "5"
       }
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 193,
     "game": "kariyer-yolu",
@@ -7750,12 +7730,58 @@
         "apps": "54",
         "goals": "3"
       }
-
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 194,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-04",
+    "correctPlayer": "Efkan Bekiroğlu",
+    "career": [
+      {
+        "season": "2014-2015",
+        "team": "FC Unterföhring",
+        "apps": "33",
+        "goals": "21"
+      },
+      {
+        "season": "2015-2018",
+        "team": "FC Augsburg II",
+        "apps": "87",
+        "goals": "30"
+      },
+      {
+        "season": "2018-2020",
+        "team": "TSV 1860 Münih",
+        "apps": "63",
+        "goals": "17"
+      },
+      {
+        "season": "2020-2023",
+        "team": "Alanyaspor",
+        "apps": "89",
+        "goals": "9"
+      },
+      {
+        "season": "2023-2025",
+        "team": "Ankaragücü",
+        "apps": "54",
+        "goals": "16"
+      },
+      {
+        "season": "2025-2025",
+        "team": "Sivasspor (kiralık)",
+        "apps": "15",
+        "goals": "3"
+      },
+      {
+        "season": "2025-",
+        "team": "Göztepe",
+        "apps": "35",
+        "goals": "5"
+      }
     ],
     "difficulty": "zor"
   }
-
-  
-
-
 ]
