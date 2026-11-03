@@ -5936,7 +5936,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 160,
     "game": "kariyer-yolu",
@@ -5964,7 +5963,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 161,
     "game": "kariyer-yolu",
@@ -6010,7 +6008,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 161,
     "game": "kariyer-yolu",
@@ -6044,7 +6041,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 162,
     "game": "kariyer-yolu",
@@ -6078,7 +6074,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 163,
     "game": "kariyer-yolu",
@@ -6106,7 +6101,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 164,
     "game": "kariyer-yolu",
@@ -6146,7 +6140,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 165,
     "game": "kariyer-yolu",
@@ -6174,8 +6167,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 166,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-17",
@@ -6214,7 +6206,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 167,
     "game": "kariyer-yolu",
@@ -6248,7 +6239,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 168,
     "game": "kariyer-yolu",
@@ -6300,7 +6290,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 169,
     "game": "kariyer-yolu",
@@ -6334,8 +6323,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 170,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-21",
@@ -6368,7 +6356,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 171,
     "game": "kariyer-yolu",
@@ -6390,7 +6377,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 172,
     "game": "kariyer-yolu",
@@ -6436,7 +6422,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 173,
     "game": "kariyer-yolu",
@@ -6488,8 +6473,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 174,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-25",
@@ -6522,8 +6506,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 175,
     "game": "kariyer-yolu",
     "activeDate": "2026-10-26",
@@ -6556,7 +6539,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 176,
     "game": "kariyer-yolu",
@@ -6584,7 +6566,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 177,
     "game": "kariyer-yolu",
@@ -6642,7 +6623,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 178,
     "game": "kariyer-yolu",
@@ -6676,7 +6656,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 179,
     "game": "kariyer-yolu",
@@ -6704,7 +6683,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 180,
     "game": "kariyer-yolu",
@@ -6735,11 +6713,9 @@
         "apps": "79",
         "goals": "23"
       }
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 181,
     "game": "kariyer-yolu",
@@ -6776,12 +6752,9 @@
         "apps": "48",
         "goals": "19"
       }
-
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 182,
     "game": "kariyer-yolu",
@@ -6824,13 +6797,9 @@
         "apps": "107",
         "goals": "1"
       }
-
-
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 182,
     "game": "kariyer-yolu",
@@ -6849,12 +6818,52 @@
         "apps": "491",
         "goals": "150"
       }
-
-
-
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 183,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-04",
+    "correctPlayer": "Dries Mertens",
+    "career": [
+      {
+        "season": "2006-2007",
+        "team": "KAA Gent",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2007-2009",
+        "team": "AGOVV Apeldoorn",
+        "apps": "113",
+        "goals": "32"
+      },
+      {
+        "season": "2009-2011",
+        "team": "FC Utrecht",
+        "apps": "86",
+        "goals": "21"
+      },
+      {
+        "season": "2011-2013",
+        "team": "PSV Eindhoven",
+        "apps": "88",
+        "goals": "45"
+      },
+      {
+        "season": "2013-2022",
+        "team": "SSC Napoli",
+        "apps": "397",
+        "goals": "148"
+      },
+      {
+        "season": "2022-2025",
+        "team": "Galatasaray",
+        "apps": "136",
+        "goals": "25"
+      }
     ],
     "difficulty": "kolay"
   }
-
-
 ]
