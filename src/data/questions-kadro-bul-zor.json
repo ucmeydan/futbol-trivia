@@ -466,5 +466,72 @@
         "answer": "NONDA"
       }
     ]
+  },
+  {
+    "id": 8,
+    "difficulty": "zor",
+    "activeDate": "2026-11-04",
+    "league": "Konferans Ligi",
+    "season": "2023/24",
+    "homeTeam": "Adana Demirspor",
+    "awayTeam": "CFR Cluj",
+    "homeScore": 2,
+    "awayScore": 1,
+    "matchDate": "03.08.2023",
+    "targetTeam": "Adana Demirspor",
+    "teamColor": "#6CABDD",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "number": 18,
+        "answer": "KARACİC"
+      },
+      {
+        "number": 77,
+        "answer": "RODRİGUES"
+      },
+      {
+        "number": 5,
+        "answer": "GRAVİLLON"
+      },
+      {
+        "number": 4,
+        "answer": "GÜLER"
+      },
+      {
+        "number": 22,
+        "answer": "SVENSSON"
+      },
+      {
+        "number": 90,
+        "answer": "STAMBOULİ"
+      },
+      {
+        "number": 8,
+        "answer": "AKBABA"
+      },
+      {
+        "number": 11,
+        "answer": "AKİNTOLA"
+      },
+      {
+        "number": 10,
+        "answer": "BELHANDA"
+      },
+      {
+        "number": 7,
+        "answer": "SARI"
+      },
+      {
+        "number": 99,
+        "answer": "NDİAYE"
+      }
+    ]
   }
 ]
