@@ -466,5 +466,72 @@
         "answer": "KEZMAN"
       }
     ]
+  },
+  {
+    "id": 8,
+    "difficulty": "kolay",
+    "activeDate": "2026-11-04",
+    "league": "Şampiyonlar Ligi",
+    "season": "2016/17",
+    "homeTeam": "Napoli",
+    "awayTeam": "Beşiktaş",
+    "homeScore": 2,
+    "awayScore": 3,
+    "matchDate": "19.10.2016",
+    "targetTeam": "Beşiktaş",
+    "teamColor": "#ffffff",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "number": 1,
+        "answer": "FABRI"
+      },
+      {
+        "number": 88,
+        "answer": "CENGİZ"
+      },
+      {
+        "number": 6,
+        "answer": "TOSİC"
+      },
+      {
+        "number": 30,
+        "answer": "MARCELO"
+      },
+      {
+        "number": 32,
+        "answer": "BECK"
+      },
+      {
+        "number": 20,
+        "answer": "MUSTAFA"
+      },
+      {
+        "number": 13,
+        "answer": "HUTCHİNSON"
+      },
+      {
+        "number": 3,
+        "answer": "ADRİANO"
+      },
+      {
+        "number": 18,
+        "answer": "GÜVEN"
+      },
+      {
+        "number": 7,
+        "answer": "QUARESMA"
+      },
+      {
+        "number": 9,
+        "answer": "ABOUBAKAR"
+      }
+    ]
   }
 ]
