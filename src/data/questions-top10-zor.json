@@ -4234,6 +4234,28 @@
       "Ozan Kabak"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 218,
+    "game": "top10",
+    "title": "Yılmaz Vural'ın teknik direktörlük kariyeri boyunca en fazla maça çıktığı 10 kulüp hangisidir? (Tüm dönemler toplamı)",
+    "type": "team-tr",
+    "activeDate": "2026-11-04",
+    "targets": [
+
+      "Bursaspor",
+      "Antalyaspor",
+      "Kasımpaşa",
+      "Adanaspor",
+      "Malatyaspor",
+      "Trabzonspor",
+      "Denizlispor",
+      "Menemen FK",
+      "Elazığspor",
+      "Eskişehirspor"
+    ],
+    "difficulty": "zor"
   }
 ]
 

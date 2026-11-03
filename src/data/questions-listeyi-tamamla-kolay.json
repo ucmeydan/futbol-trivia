@@ -3515,7 +3515,29 @@
       "Çorum FK"
     ],
     "difficulty": "kolay"
+  },
+
+
+  {
+    "id": 187,
+    "game": "listeyi-tamamla",
+    "title": "Son 10 sezonun tamamında Süper Lig'de yer alan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-04",
+    "targets": [
+     "Beşiktaş",
+     "Fenerbahçe",
+     "Galatasaray",
+     "Trabzonspor",
+     "Başakşehir",
+     "Konyaspor",
+     "Alanyaspor",
+     "Kasımpaşa"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

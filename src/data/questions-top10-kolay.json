@@ -3730,6 +3730,27 @@
       "Kasımpaşa"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 187,
+    "game": "top10",
+    "title": "Şampiyonlar Lig'ni finalde kaybeden son 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-11-04",
+    "targets": [
+     "Arsenal",
+     "Inter",
+     "Dortmund",
+     "Liverpool",
+     "Manchester City",
+     "PSG",
+     "Tottenham",
+     "Juventus",
+     "Atletico Madrid",
+     "Bayern Münih"
+    ],
+    "difficulty": "kolay"
   }
 
 
