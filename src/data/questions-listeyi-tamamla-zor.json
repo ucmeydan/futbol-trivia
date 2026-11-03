@@ -4221,5 +4221,24 @@
      
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 208,
+    "game": "listeyi-tamamla",
+    "title": "1.Lig'den Süper Lig'e yükseldiği ilk sezonda Süper Ligdeki ilk sezonunu ilk 5 sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-04",
+    "targets": [
+     
+      "Kocaelispor",
+      "Samsunspor",
+      "Başakşehir",
+      "Sakaryaspor",
+      "Rizespor",
+      "Osmanlıspor"
+     
+    ],
+    "difficulty": "zor"
   }
 ]
