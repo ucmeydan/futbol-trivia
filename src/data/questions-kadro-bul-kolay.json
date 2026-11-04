@@ -533,5 +533,72 @@
         "answer": "ABOUBAKAR"
       }
     ]
+  },
+  {
+    "id": 9,
+    "difficulty": "kolay",
+    "activeDate": "2026-11-05",
+    "league": "Avrupa Şampiyonası",
+    "season": "2020",
+    "homeTeam": "Türkiye",
+    "awayTeam": "İtalya",
+    "homeScore": 0,
+    "awayScore": 3,
+    "matchDate": "11.06.2021",
+    "targetTeam": "Türkiye",
+    "teamColor": "#bf2424",
+    "formation": [
+      1,
+      4,
+      1,
+      4,
+      1
+    ],
+    "players": [
+      {
+        "number": 23,
+        "answer": "UĞURCAN"
+      },
+      {
+        "number": 13,
+        "answer": "UMUT"
+      },
+      {
+        "number": 4,
+        "answer": "ÇAĞLAR"
+      },
+      {
+        "number": 3,
+        "answer": "MERİH"
+      },
+      {
+        "number": 2,
+        "answer": "ZEKİ"
+      },
+      {
+        "number": 5,
+        "answer": "OKAY"
+      },
+      {
+        "number": 10,
+        "answer": "HAKAN"
+      },
+      {
+        "number": 6,
+        "answer": "OZAN"
+      },
+      {
+        "number": 11,
+        "answer": "YUSUF"
+      },
+      {
+        "number": 9,
+        "answer": "KENAN"
+      },
+      {
+        "number": 17,
+        "answer": "BURAK"
+      }
+    ]
   }
 ]
