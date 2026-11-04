@@ -3751,6 +3751,27 @@
      "Bayern Münih"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 188,
+    "game": "top10",
+    "title": "Dünyada güncel kadro değeri en yüksek 10 kulüp?",
+    "type": "team-all",
+    "activeDate": "2026-11-05",
+    "targets": [
+     "Real Madrid",
+     "Manchester City",
+     "Arsenal",
+     "PSG",
+     "Barcelona",
+     "Chelsea",
+     "Liverpool",
+     "Bayern Münih",
+     "Manchester United",
+     "Tottenham"
+    ],
+    "difficulty": "kolay"
   }
 
 

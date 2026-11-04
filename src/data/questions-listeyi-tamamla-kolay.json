@@ -3535,6 +3535,25 @@
      "Kasımpaşa"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 188,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de mücadele eden ve logosunda mavi renk bulunan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-05",
+    "targets": [
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Başakşehir",
+      "Rizespor",
+      "Kasımpaşa",
+      "Kocaelispor",
+      "Erzurumspor"
+    
+    ],
+    "difficulty": "kolay"
   }
 
 

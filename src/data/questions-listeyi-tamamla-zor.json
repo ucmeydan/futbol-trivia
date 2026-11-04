@@ -4240,5 +4240,26 @@
      
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 209,
+    "game": "listeyi-tamamla",
+    "title": "Mevcut piyasa değeri 10M€ ve üzerinde olan TFF 1.Lig takımları?",
+    "type": "team-tr",
+    "activeDate": "2026-11-05",
+    "targets": [
+     
+      "Bursaspor",
+      "Antalyaspor",
+      "Kayserispor",
+      "Fatih Karagümrük",
+      "Bodrum FK",
+      "Iğdır FK",
+      "Esenler Erokspor",
+      "İstanbulspor"
+     
+    ],
+    "difficulty": "zor"
   }
 ]
