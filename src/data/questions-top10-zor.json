@@ -4166,7 +4166,48 @@
     "difficulty": "zor"
   },
 
+   {
+    "id": 209,
+    "game": "top10",
+    "title": "Bundesliga'da en çok maça çıkan 10 Türk futbolcu?",
+    "type": "player",
+    "activeDate": "2026-11-03",
+    "targets": [
+      "Halil Altıntop",
+      "Ömer Toprak",
+      "Nuri Şahin",
+      "Yıldıray Baştürk",
+      "Yunus Mallı",
+      "Hamit Altıntop",
+      "Salih Özcan",
+      "Atakan Karazor",
+      "Özcan Arkoç",
+      "Ozan Kabak"
+    ],
+    "difficulty": "zor"
+  },
 
+{
+    "id": 210,
+    "game": "top10",
+    "title": "Yılmaz Vural'ın teknik direktörlük kariyeri boyunca en fazla maça çıktığı 10 kulüp hangisidir? (Tüm dönemler toplamı)",
+    "type": "team-tr",
+    "activeDate": "2026-11-04",
+    "targets": [
+
+      "Bursaspor",
+      "Antalyaspor",
+      "Kasımpaşa",
+      "Adanaspor",
+      "Malatyaspor",
+      "Trabzonspor",
+      "Denizlispor",
+      "Menemen FK",
+      "Elazığspor",
+      "Eskişehirspor"
+    ],
+    "difficulty": "zor"
+  },
 
 
   {
@@ -4193,6 +4234,29 @@
   },
 
   {
+    "id": 212,
+    "game": "top10",
+    "title": "Başakşehir'in başında görev alan son 10 teknik direktör? (İBB dönemi dahil)",
+    "type": "td",
+    "activeDate": "2026-11-06",
+    "targets": [
+
+     "Nuri Şahin",
+     "Çağdaş Atan",
+     "Emre Belözoğlu",
+     "Aykut Kocaman",
+     "Okan Buruk",
+     "Abdullah Avcı",
+     "Cihat Arslan",
+     "Bülent Korkmaz",
+     "Carlos Carvalhal",
+     "Arif Erdem"
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
     "id": 216,
     "game": "top10",
     "title": "Aykut Kocaman'ın Fenerbahçe teknik direktörü olduğu dönemlerde en yüksek bonservis bedeli ödenerek transfer edilen 10 oyuncu?",
@@ -4213,49 +4277,12 @@
 
     ],
     "difficulty": "zor"
-  },
-
-  {
-    "id": 217,
-    "game": "top10",
-    "title": "Bundesliga'da en çok maça çıkan 10 Türk futbolcu?",
-    "type": "player",
-    "activeDate": "2026-11-03",
-    "targets": [
-      "Halil Altıntop",
-      "Ömer Toprak",
-      "Nuri Şahin",
-      "Yıldıray Baştürk",
-      "Yunus Mallı",
-      "Hamit Altıntop",
-      "Salih Özcan",
-      "Atakan Karazor",
-      "Özcan Arkoç",
-      "Ozan Kabak"
-    ],
-    "difficulty": "zor"
-  },
-
-   {
-    "id": 218,
-    "game": "top10",
-    "title": "Yılmaz Vural'ın teknik direktörlük kariyeri boyunca en fazla maça çıktığı 10 kulüp hangisidir? (Tüm dönemler toplamı)",
-    "type": "team-tr",
-    "activeDate": "2026-11-04",
-    "targets": [
-
-      "Bursaspor",
-      "Antalyaspor",
-      "Kasımpaşa",
-      "Adanaspor",
-      "Malatyaspor",
-      "Trabzonspor",
-      "Denizlispor",
-      "Menemen FK",
-      "Elazığspor",
-      "Eskişehirspor"
-    ],
-    "difficulty": "zor"
   }
+
+
+
+  
+
+
 ]
 
