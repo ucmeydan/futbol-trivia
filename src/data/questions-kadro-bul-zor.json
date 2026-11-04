@@ -533,5 +533,73 @@
         "answer": "NDİAYE"
       }
     ]
+  },
+  {
+    "id": 9,
+    "difficulty": "zor",
+    "activeDate": "2026-11-05",
+    "league": "UEFA Kupası",
+    "season": "2003/04",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Villarreal",
+    "homeScore": 2,
+    "awayScore": 2,
+    "matchDate": "26.02.2004",
+    "targetTeam": "Galatasaray",
+    "teamColor": "#E8211B",
+    "formation": [
+      1,
+      4,
+      1,
+      2,
+      1,
+      2
+    ],
+    "players": [
+      {
+        "number": 1,
+        "answer": "MONDRAGON"
+      },
+      {
+        "number": 67,
+        "answer": "HAKAN"
+      },
+      {
+        "number": 4,
+        "answer": "AK"
+      },
+      {
+        "number": 2,
+        "answer": "ÜMİT"
+      },
+      {
+        "number": 29,
+        "answer": "PRATES"
+      },
+      {
+        "number": 24,
+        "answer": "PETRE"
+      },
+      {
+        "number": 33,
+        "answer": "ERDOĞAN"
+      },
+      {
+        "number": 55,
+        "answer": "SABRİ"
+      },
+      {
+        "number": 20,
+        "answer": "GÜVEN"
+      },
+      {
+        "number": 9,
+        "answer": "KARAN"
+      },
+      {
+        "number": 25,
+        "answer": "ATEŞ"
+      }
+    ]
   }
 ]
