@@ -7822,5 +7822,65 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 196,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-06",
+    "correctPlayer": "Vincent Janssen",
+    "career": [
+      {
+        "season": "2011–2013",
+        "team": "Feyenoord U19",
+        "apps": "20",
+        "goals": "7"
+      },
+      {
+        "season": "2013–2015",
+        "team": "Almere City",
+        "apps": "76",
+        "goals": "33"
+      },
+      {
+        "season": "2015–2016",
+        "team": "AZ Alkmaar",
+        "apps": "49",
+        "goals": "31"
+      },
+      {
+        "season": "2016–2019",
+        "team": "Tottenham",
+        "apps": "42",
+        "goals": "6"
+      },
+      {
+        "season": "2017–2018",
+        "team": "Fenerbahçe (kiralık)",
+        "apps": "18",
+        "goals": "5"
+      },
+      {
+        "season": "2019–2022",
+        "team": "Monterrey",
+        "apps": "94",
+        "goals": "24"
+      },
+      {
+        "season": "2022–2026",
+        "team": "Antwerp",
+        "apps": "173",
+        "goals": "64"
+      },
+      {
+        "season": "2026-",
+        "team": "Portland Timbers",
+        "apps": "15",
+        "goals": "5"
+      }
+
+
+    ],
+    "difficulty": "zor"
   }
 ]

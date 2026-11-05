@@ -6916,5 +6916,51 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 185,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-06",
+    "correctPlayer": "Marco Asensio",
+    "career": [
+      {
+        "season": "2013–2015",
+        "team": "Mallorca",
+        "apps": "56",
+        "goals": "7"
+      },
+      {
+        "season": "2015–2023",
+        "team": "Real Madrid",
+        "apps": "286",
+        "goals": "61"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Espanyol (kiralık)",
+        "apps": "37",
+        "goals": "4"
+      },
+      {
+        "season": "2023–2025",
+        "team": "PSG",
+        "apps": "47",
+        "goals": "7"
+      },
+      {
+        "season": "2025–2025",
+        "team": "Aston Villa (kiralık)",
+        "apps": "21",
+        "goals": "8"
+      },
+      {
+        "season": "2025–",
+        "team": "Fenerbahçe",
+        "apps": "46",
+        "goals": "15"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

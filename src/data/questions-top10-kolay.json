@@ -3772,6 +3772,27 @@
      "Tottenham"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 189,
+    "game": "top10",
+    "title": "Fenerbahçe'de 9 numaralı formayı giyen son 10 futbolcu?",
+    "type": "player",
+    "activeDate": "2026-11-06",
+    "targets": [
+      "Kerem Aktürkoğlu",
+      "Edin Džeko",
+      "Diego Rossi",
+      "Papiss Cisse",
+      "Mevlüt Erdinç",
+      "Roberto Soldado",
+      "Fernandao",
+      "Pierre Webo",
+      "Miroslav Stoch",
+      "Daniel Guiza"
+    ],
+    "difficulty": "kolay"
   }
 
 
