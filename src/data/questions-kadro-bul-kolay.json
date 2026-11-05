@@ -600,5 +600,71 @@
         "answer": "BURAK"
       }
     ]
+  },
+  {
+    "id": 10,
+    "difficulty": "kolay",
+    "activeDate": "2026-11-06",
+    "league": "Türkiye Kupası",
+    "season": "2025/26",
+    "homeTeam": "Trabzonspor",
+    "awayTeam": "Konyaspor",
+    "homeScore": 2,
+    "awayScore": 1,
+    "matchDate": "22.05.2026",
+    "targetTeam": "Trabzonspor",
+    "teamColor": "#8B1C2E",
+    "formation": [
+      1,
+      4,
+      4,
+      2
+    ],
+    "players": [
+      {
+        "number": 24,
+        "answer": "ONANA"
+      },
+      {
+        "number": 19,
+        "answer": "ESKİHELLAÇ"
+      },
+      {
+        "number": 15,
+        "answer": "SAVİC"
+      },
+      {
+        "number": 27,
+        "answer": "NWAİWU"
+      },
+      {
+        "number": 20,
+        "answer": "PİNA"
+      },
+      {
+        "number": 10,
+        "answer": "MUCİ"
+      },
+      {
+        "number": 26,
+        "answer": "JABOL-FOLC."
+      },
+      {
+        "number": 8,
+        "answer": "BOUCHOUARİ"
+      },
+      {
+        "number": 22,
+        "answer": "ZUBKOV"
+      },
+      {
+        "number": 30,
+        "answer": "ONUACHU"
+      },
+      {
+        "number": 99,
+        "answer": "FELİPE AUG."
+      }
+    ]
   }
 ]
