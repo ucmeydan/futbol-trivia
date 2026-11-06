@@ -4281,5 +4281,22 @@
       "Liverpool"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 211,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde Galatasaray forması giymiş Nijeryalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-11-07",
+    "targets": [
+      "Valentine Ozornwafor",
+      "Jesse Sekidika",
+      "Peter Etebo",
+      "Dominic Iorfa",
+      "Victor Osimhen",
+      "Henry Onyekuru"
+    ],
+    "difficulty": "zor"
   }
 ]

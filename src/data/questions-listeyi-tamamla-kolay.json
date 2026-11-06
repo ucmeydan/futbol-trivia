@@ -3570,6 +3570,22 @@
       "Mauro Icardi"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 190,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde hem Trabzonspor hem de Liverpool forması giymiş futbolcular?",
+    "type": "player",
+    "activeDate": "2026-11-07",
+    "targets": [
+      "Daniel Sturridge",
+      "Fabinho",
+      "Mohamed Salah",
+      "Rigobert Song",
+      "Lazar Markovic"
+    ],
+    "difficulty": "kolay"
   }
 
 

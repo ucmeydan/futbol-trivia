@@ -3793,7 +3793,30 @@
       "Daniel Guiza"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 190,
+    "game": "top10",
+    "title": "Süper Lig'de 2026-27 sezonunun ilk 10 haftasında en fazla şut çeken 10 takım?",
+    "type": "player",
+    "activeDate": "2026-11-07",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Amed SK",
+      "Göztepe",
+      "Rizespor",
+      "Trabzonspor",
+      "Gaziantep FK",
+      "Başakşehir",
+      "Samsunspor"
+    ],
+    "difficulty": "kolay"
   }
+
+
 
 
 ]

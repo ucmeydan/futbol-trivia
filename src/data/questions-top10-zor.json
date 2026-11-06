@@ -4257,6 +4257,29 @@
   },
 
   {
+    "id": 213,
+    "game": "top10",
+    "title": "Beşiktaş'ın transfer ettiği son 10 yabancı stoper?",
+    "type": "player",
+    "activeDate": "2026-11-07",
+    "targets": [
+      "Emmanuel Agbadou",
+      "Tiago Djalo",
+      "Felix Uduokhai",
+      "Gabriel Paulista",
+      "Joe Worrall",
+      "Eric Bailly",
+      "Omar Colley",
+      "Romain Saiss",
+      "Javi Montero",
+      "Welinton"
+    
+
+    ],
+    "difficulty": "zor"
+  },
+
+  {
     "id": 216,
     "game": "top10",
     "title": "Aykut Kocaman'ın Fenerbahçe teknik direktörü olduğu dönemlerde en yüksek bonservis bedeli ödenerek transfer edilen 10 oyuncu?",
@@ -4278,6 +4301,8 @@
     ],
     "difficulty": "zor"
   }
+
+  
 
 
 
