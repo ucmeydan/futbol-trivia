@@ -667,5 +667,72 @@
         "answer": "SARABİA"
       }
     ]
+  },
+  {
+    "id": 11,
+    "difficulty": "zor",
+    "activeDate": "2026-11-07",
+    "league": "Avrupa Ligi",
+    "season": "2011/12",
+    "homeTeam": "Beşiktaş",
+    "awayTeam": "Atletico Madrid",
+    "homeScore": 0,
+    "awayScore": 3,
+    "matchDate": "15.03.2012",
+    "targetTeam": "Atletico Madrid",
+    "teamColor": "#CE1126",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "number": 13,
+        "answer": "COURTOİS"
+      },
+      {
+        "number": 6,
+        "answer": "FİLİPE LUÍS"
+      },
+      {
+        "number": 2,
+        "answer": "GODİN"
+      },
+      {
+        "number": 23,
+        "answer": "MİRANDA"
+      },
+      {
+        "number": 20,
+        "answer": "TORRES"
+      },
+      {
+        "number": 4,
+        "answer": "SUÁREZ"
+      },
+      {
+        "number": 14,
+        "answer": "GABİ"
+      },
+      {
+        "number": 11,
+        "answer": "ARDA"
+      },
+      {
+        "number": 7,
+        "answer": "LÓPEZ"
+      },
+      {
+        "number": 19,
+        "answer": "KOKE"
+      },
+      {
+        "number": 9,
+        "answer": "FALCAO"
+      }
+    ]
   }
 ]
