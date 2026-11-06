@@ -6917,7 +6917,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 185,
     "game": "kariyer-yolu",
@@ -6962,5 +6961,44 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 186,
+    "difficulty": "kolay",
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-07",
+    "correctPlayer": "Victor Osimhen",
+    "career": [
+      {
+        "team": "VfL Wolfsburg",
+        "season": "2017-2019",
+        "apps": "16",
+        "goals": "0"
+      },
+      {
+        "team": "Charleroi kiralık",
+        "season": "2018-2019",
+        "apps": "36",
+        "goals": "20"
+      },
+      {
+        "team": "LOSC Lille",
+        "season": "2019-2020",
+        "apps": "38",
+        "goals": "18"
+      },
+      {
+        "team": "SSC Napoli",
+        "season": "2020-2025",
+        "apps": "133",
+        "goals": "76"
+      },
+      {
+        "team": "Galatasaray",
+        "season": "2024-",
+        "apps": "85",
+        "goals": "69"
+      }
+    ]
   }
 ]
