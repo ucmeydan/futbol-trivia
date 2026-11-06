@@ -7823,7 +7823,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 196,
     "game": "kariyer-yolu",
@@ -7878,9 +7877,46 @@
         "apps": "15",
         "goals": "5"
       }
-
-
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 197,
+    "difficulty": "zor",
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-07",
+    "correctPlayer": "Giray Kaçar",
+    "career": [
+      {
+        "team": "Gençlerbirliği Oftaşspor",
+        "season": "2004-2008",
+        "apps": "67",
+        "goals": "2"
+      },
+      {
+        "team": "Trabzonspor",
+        "season": "2008-2014",
+        "apps": "171",
+        "goals": "8"
+      },
+      {
+        "team": "Antalyaspor",
+        "season": "2014-2014",
+        "apps": "16",
+        "goals": "0"
+      },
+      {
+        "team": "Çaykur Rizespor",
+        "season": "2014-2015",
+        "apps": "29",
+        "goals": "1"
+      },
+      {
+        "team": "Göztepe",
+        "season": "2015-2016",
+        "apps": "19",
+        "goals": "1"
+      }
+    ]
   }
 ]
