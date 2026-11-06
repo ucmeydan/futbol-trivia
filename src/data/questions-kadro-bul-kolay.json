@@ -666,5 +666,73 @@
         "answer": "AUGUSTO"
       }
     ]
+  },
+  {
+    "id": 11,
+    "difficulty": "kolay",
+    "activeDate": "2026-11-07",
+    "league": "Şampiyonlar Ligi",
+    "season": "2012/13",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Real Madrid",
+    "homeScore": 3,
+    "awayScore": 2,
+    "matchDate": "09.04.2013",
+    "targetTeam": "Galatasaray",
+    "teamColor": "#E8211B",
+    "formation": [
+      1,
+      4,
+      1,
+      2,
+      1,
+      2
+    ],
+    "players": [
+      {
+        "number": 25,
+        "answer": "MUSLERA"
+      },
+      {
+        "number": 11,
+        "answer": "RİERA"
+      },
+      {
+        "number": 26,
+        "answer": "SEMİH"
+      },
+      {
+        "number": 5,
+        "answer": "GÖKHAN"
+      },
+      {
+        "number": 27,
+        "answer": "EBOUÉ"
+      },
+      {
+        "number": 10,
+        "answer": "FELİPE MELO"
+      },
+      {
+        "number": 8,
+        "answer": "SELÇUK"
+      },
+      {
+        "number": 4,
+        "answer": "HAMİT"
+      },
+      {
+        "number": 14,
+        "answer": "SNEİJDER"
+      },
+      {
+        "number": 19,
+        "answer": "UMUT"
+      },
+      {
+        "number": 12,
+        "answer": "DROGBA"
+      }
+    ]
   }
 ]
