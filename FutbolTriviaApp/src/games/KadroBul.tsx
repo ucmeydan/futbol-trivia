@@ -79,10 +79,9 @@ function stripSpaces(s: string) { return s.replace(/\s/g, ''); }
 
 function stripForGuess(s: string) { return s.replace(/[\s']/g, ''); }
 
-// Sadece I-İ aynı kabul edilir
+// Aksanlı/özel harfleri temel Latin karşılığına çevir (SUÁREZ→SUAREZ, İ→I, Ş→S vb.)
 function normalizeChar(ch: string): string {
-  if (ch === 'İ') return 'I';
-  return ch;
+  return ch.normalize('NFD').replace(/[̀-ͯ]/g, '');
 }
 
 function evaluateGuess(guess: string, answer: string): LetterResult[] {
