@@ -109,9 +109,14 @@ function stripForGuess(s: string) {
   return s.replace(/[\s']/g, '');
 }
 
-// Aksanlı/özel harfleri temel Latin karşılığına çevir (SUÁREZ→SUAREZ, İ→I, Ş→S vb.)
+// Yabancı dil aksanlarını soy (SUÁREZ→SUAREZ, İ→I), Türkçe karakterleri koru (Ş,Ç,Ğ,Ü,Ö)
 function normalizeChar(ch: string): string {
-  return ch.normalize('NFD').replace(/[̀-ͯ]/g, '');
+  if (ch === 'İ') return 'I';
+  // NFD: birleşik işaretleri ayır, sonra aksan işaretlerini sil.
+  // Cedilla (0327=Ş,Ç), diaeresis (0308=Ü,Ö), breve (0306=Ğ) KORUNUR.
+  return ch.normalize('NFD')
+    .replace(/[̀-̅̇̉-̨̦-ͯ]/g, '')
+    .normalize('NFC');
 }
 
 function evaluateGuess(guess: string, answer: string): LetterResult[] {
