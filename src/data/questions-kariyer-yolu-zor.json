@@ -7918,5 +7918,86 @@
         "goals": "1"
       }
     ]
+  },
+  {
+    "id": 198,
+    "difficulty": "zor",
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-09",
+    "correctPlayer": "Hakan Özmert",
+    "career": [
+      {
+        "team": "Sakaryaspor",
+        "season": "2003-2007",
+        "apps": "56",
+        "goals": "1"
+      },
+      {
+        "team": "Karşıyaka (kiralık)",
+        "season": "2005-2005",
+        "apps": "12",
+        "goals": "1"
+      },
+      {
+        "team": "Antalyaspor",
+        "season": "2007-2010",
+        "apps": "73",
+        "goals": "7"
+      },
+      {
+        "team": "Kardemir Karabükspor",
+        "season": "2010-2011",
+        "apps": "32",
+        "goals": "3"
+      },
+      {
+        "team": "Orduspor",
+        "season": "2011-2012",
+        "apps": "30",
+        "goals": "2"
+      },
+      {
+        "team": "Kasımpaşa",
+        "season": "2012-2013",
+        "apps": "13",
+        "goals": "1"
+      },
+      {
+        "team": "Kardemir Karabükspor",
+        "season": "2013-2015",
+        "apps": "58",
+        "goals": "2"
+      },
+      {
+        "team": "Sivasspor",
+        "season": "2015-2016",
+        "apps": "8",
+        "goals": "0"
+      },
+      {
+        "team": "Başakşehir",
+        "season": "2016-2018",
+        "apps": "26",
+        "goals": "2"
+      },
+      {
+        "team": "Antalyaspor",
+        "season": "2018-2023",
+        "apps": "144",
+        "goals": "11"
+      },
+      {
+        "team": "Bodrum FK",
+        "season": "2023-2023",
+        "apps": "18",
+        "goals": "2"
+      },
+      {
+        "team": "Sarıyer",
+        "season": "2023-2024",
+        "apps": "21",
+        "goals": "1"
+      }
+    ]
   }
 ]
