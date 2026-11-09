@@ -734,5 +734,72 @@
         "answer": "DROGBA"
       }
     ]
+  },
+  {
+    "id": 12,
+    "difficulty": "kolay",
+    "activeDate": "2026-11-08",
+    "league": "Dünya Kupası",
+    "season": "2026",
+    "homeTeam": "Türkiye",
+    "awayTeam": "Paraguay",
+    "homeScore": 0,
+    "awayScore": 1,
+    "matchDate": "20.06.2026",
+    "targetTeam": "Türkiye",
+    "teamColor": "#bf2424",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "number": 23,
+        "answer": "MERT"
+      },
+      {
+        "number": 20,
+        "answer": "FERDİ"
+      },
+      {
+        "number": 14,
+        "answer": "OZAN"
+      },
+      {
+        "number": 3,
+        "answer": "MERİH"
+      },
+      {
+        "number": 18,
+        "answer": "ZEKİ"
+      },
+      {
+        "number": 16,
+        "answer": "OKAY"
+      },
+      {
+        "number": 10,
+        "answer": "HAKAN"
+      },
+      {
+        "number": 11,
+        "answer": "KENAN"
+      },
+      {
+        "number": 8,
+        "answer": "ARDA"
+      },
+      {
+        "number": 19,
+        "answer": "KEREM"
+      },
+      {
+        "number": 7,
+        "answer": "KEREM"
+      }
+    ]
   }
 ]
