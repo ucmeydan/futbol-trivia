@@ -6976,7 +6976,7 @@
         "goals": "0"
       },
       {
-        "team": "Charleroi kiralık",
+        "team": "Charleroi (kiralık)",
         "season": "2018-2019",
         "apps": "36",
         "goals": "20"
@@ -6994,10 +6994,82 @@
         "goals": "76"
       },
       {
+        "team": "Galatasaray (kiralık)",
+        "season": "2024-2025",
+        "apps": "41",
+        "goals": "37"
+      },
+      {
         "team": "Galatasaray",
-        "season": "2024-",
-        "apps": "85",
-        "goals": "69"
+        "season": "2025-",
+        "apps": "44",
+        "goals": "32"
+      }
+
+
+    ]
+  },
+
+  {
+    "id": 187,
+    "difficulty": "kolay",
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-09",
+    "correctPlayer": "Gökhan İnler",
+    "career": [
+      {
+        "team": "Aarau",
+        "season": "2005-2006",
+        "apps": "27",
+        "goals": "3"
+      },
+      {
+        "team": "FC Zürich",
+        "season": "2006-2007",
+        "apps": "60",
+        "goals": "4"
+      },
+      {
+        "team": "Udinese",
+        "season": "2007-2011",
+        "apps": "162",
+        "goals": "9"
+      },
+      {
+        "team": "Napoli",
+        "season": "2011-2015",
+        "apps": "166",
+        "goals": "13"
+      },
+      {
+        "team": "Leicester",
+        "season": "2015-2016",
+        "apps": "10",
+        "goals": "0"
+      },
+      {
+        "team": "Beşiktaş",
+        "season": "2016-2017",
+        "apps": "30",
+        "goals": "0"
+      },
+      {
+        "team": "Başakşehir",
+        "season": "2017-2020",
+        "apps": "64",
+        "goals": "1"
+      },
+      {
+        "team": "Adana Demirspor",
+        "season": "2020-2023",
+        "apps": "95",
+        "goals": "4"
+      },
+      {
+        "team": "Beşiktaş",
+        "season": "2023-2024",
+        "apps": "0",
+        "goals": "0"
       }
     ]
   }
