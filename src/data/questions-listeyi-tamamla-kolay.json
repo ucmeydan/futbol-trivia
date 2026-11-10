@@ -3100,7 +3100,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 167,
     "game": "listeyi-tamamla",
@@ -3108,25 +3107,24 @@
     "type": "player",
     "activeDate": "2026-10-14",
     "targets": [
-    "Ederson",
-    "Nathan Ake",
-    "Kojo Oppong",
-    "Milan Skriniar",
-    "Nelson Semedo",
-    "Archie Brown",
-    "N'Golo Kante",
-    "Matteo Guendouzi",
-    "Marco Asensio",
-    "Dorgeles Nene",
-    "Mason Greenwood",
-    "Vedat Muriqi",
-    "Romelu Lukaku",
-    "Ognjen Mimovic"
+      "Ederson",
+      "Nathan Ake",
+      "Kojo Oppong",
+      "Milan Skriniar",
+      "Nelson Semedo",
+      "Archie Brown",
+      "N'Golo Kante",
+      "Matteo Guendouzi",
+      "Marco Asensio",
+      "Dorgeles Nene",
+      "Mason Greenwood",
+      "Vedat Muriqi",
+      "Romelu Lukaku",
+      "Ognjen Mimovic"
     ],
     "difficulty": "kolay"
   },
-
-{
+  {
     "id": 168,
     "game": "listeyi-tamamla",
     "title": "Türkiye A Milli futbol takımının Avrupa şampiyonaları ve Dünya kupalarında mağlup ettiği ülkeler?",
@@ -3147,7 +3145,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 169,
     "game": "listeyi-tamamla",
@@ -3155,7 +3152,6 @@
     "type": "player",
     "activeDate": "2026-10-16",
     "targets": [
-
       "Victor Osimhen",
       "Gift Orban",
       "Mohamed Salah",
@@ -3163,11 +3159,9 @@
       "Vedat Muriqi",
       "Eldor Shomurodov",
       "Juan"
-      
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 170,
     "game": "listeyi-tamamla",
@@ -3183,8 +3177,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 171,
     "game": "listeyi-tamamla",
     "title": "Wesley Sneijder'in futbolculuk kariyerinde 50'den fazla maça çıktığı kulüpler?",
@@ -3195,11 +3188,9 @@
       "Ajax",
       "Real Madrid",
       "Inter"
-      
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 172,
     "game": "listeyi-tamamla",
@@ -3207,18 +3198,15 @@
     "type": "player",
     "activeDate": "2026-10-19",
     "targets": [
-     
       "Wesley Sneijder",
       "Ryan Babel",
       "Jayden Oosterwolde",
       "Dirk Kuyt",
       "Robin van Persie",
       "Jeremain Lens"
-      
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 173,
     "game": "listeyi-tamamla",
@@ -3231,12 +3219,10 @@
       "Jermaine Jones",
       "Tyler Boyd",
       "Amir Murillo"
-
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 174,
     "game": "listeyi-tamamla",
     "title": "Fenerbahçe forması giymiş İspanyol futbolcular?",
@@ -3247,11 +3233,9 @@
       "Daniel Guiza",
       "Josico",
       "Marco Asensio"
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 175,
     "game": "listeyi-tamamla",
@@ -3259,18 +3243,15 @@
     "type": "player",
     "activeDate": "2026-10-22",
     "targets": [
-      
-    "Victor Osimhen",
-    "Dusan Vlahovic",
-    "Franculino Dju",
-    "Hyeon Gyu Oh",
-    "Juan",
-    "Deniz Gül"
-
+      "Victor Osimhen",
+      "Dusan Vlahovic",
+      "Franculino Dju",
+      "Hyeon Gyu Oh",
+      "Juan",
+      "Deniz Gül"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 176,
     "game": "listeyi-tamamla",
@@ -3278,20 +3259,17 @@
     "type": "team-all",
     "activeDate": "2026-10-23",
     "targets": [
-      
-    "PSG",
-    "Aston Villa",
-    "Liverpool",
-    "Real Madrid",
-    "Real Betis",
-    "Stuttgart",
-    "Arsenal",
-    "Bayern Münih"
-
+      "PSG",
+      "Aston Villa",
+      "Liverpool",
+      "Real Madrid",
+      "Real Betis",
+      "Stuttgart",
+      "Arsenal",
+      "Bayern Münih"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 176,
     "game": "listeyi-tamamla",
@@ -3299,22 +3277,19 @@
     "type": "team-all",
     "activeDate": "2026-10-24",
     "targets": [
-      
-    "Bournemouth",
-    "Beşiktaş",
-    "Ferencvaros",
-    "Benfica",
-    "Bayer Leverkusen",
-    "Olympiakos",
-    "Union SG",
-    "Juventus",
-    "Sunderland",
-    "Rennes"
-
+      "Bournemouth",
+      "Beşiktaş",
+      "Ferencvaros",
+      "Benfica",
+      "Bayer Leverkusen",
+      "Olympiakos",
+      "Union SG",
+      "Juventus",
+      "Sunderland",
+      "Rennes"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 177,
     "game": "listeyi-tamamla",
@@ -3330,8 +3305,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 178,
     "game": "listeyi-tamamla",
     "title": "Bu sezon Süper Lig'de mücadele eden ve logosunda kırmızı renk bulunan takımlar?",
@@ -3353,7 +3327,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 179,
     "game": "listeyi-tamamla",
@@ -3377,7 +3350,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 180,
     "game": "listeyi-tamamla",
@@ -3385,19 +3357,18 @@
     "type": "team-tr",
     "activeDate": "2026-10-28",
     "targets": [
-     "Fenerbahçe",
-     "Galatasaray",
-     "Trabzonspor",
-     "Beşiktaş",
-     "Konyaspor",
-     "Kocaelispor",
-     "Samsunspor",
-     "Amed SK",
-     "Gaziantep FK"
+      "Fenerbahçe",
+      "Galatasaray",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Konyaspor",
+      "Kocaelispor",
+      "Samsunspor",
+      "Amed SK",
+      "Gaziantep FK"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 181,
     "game": "listeyi-tamamla",
@@ -3405,20 +3376,19 @@
     "type": "team-eu",
     "activeDate": "2026-10-29",
     "targets": [
-     "Arsenal",
-     "Liverpool",
-     "Manchester City",
-     "Manchester United",
-     "Aston Villa",
-     "Barcelona",
-     "Real Madrid",
-     "Villarreal",
-     "Atletico Madrid",
-     "Real Betis"
+      "Arsenal",
+      "Liverpool",
+      "Manchester City",
+      "Manchester United",
+      "Aston Villa",
+      "Barcelona",
+      "Real Madrid",
+      "Villarreal",
+      "Atletico Madrid",
+      "Real Betis"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 182,
     "game": "listeyi-tamamla",
@@ -3426,16 +3396,15 @@
     "type": "player",
     "activeDate": "2026-10-30",
     "targets": [
-     "Dusan Vlahovic",
-     "Leandro Trossard",
-     "Ernest Poku",
-     "Fabio Miretti",
-     "Kassoum Ouattara",
-     "Alexander Nübel"
+      "Dusan Vlahovic",
+      "Leandro Trossard",
+      "Ernest Poku",
+      "Fabio Miretti",
+      "Kassoum Ouattara",
+      "Alexander Nübel"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 183,
     "game": "listeyi-tamamla",
@@ -3449,11 +3418,9 @@
       "Alanyaspor",
       "Amed SK",
       "Kocaelispor"
-    
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 184,
     "game": "listeyi-tamamla",
@@ -3469,11 +3436,9 @@
       "İsmail Yüksek",
       "Deniz Gül",
       "Uğurcan Çakır"
-    
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 185,
     "game": "listeyi-tamamla",
@@ -3495,7 +3460,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 186,
     "game": "listeyi-tamamla",
@@ -3516,8 +3480,6 @@
     ],
     "difficulty": "kolay"
   },
-
-
   {
     "id": 187,
     "game": "listeyi-tamamla",
@@ -3525,18 +3487,17 @@
     "type": "team-tr",
     "activeDate": "2026-11-04",
     "targets": [
-     "Beşiktaş",
-     "Fenerbahçe",
-     "Galatasaray",
-     "Trabzonspor",
-     "Başakşehir",
-     "Konyaspor",
-     "Alanyaspor",
-     "Kasımpaşa"
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Trabzonspor",
+      "Başakşehir",
+      "Konyaspor",
+      "Alanyaspor",
+      "Kasımpaşa"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 188,
     "game": "listeyi-tamamla",
@@ -3551,11 +3512,9 @@
       "Kasımpaşa",
       "Kocaelispor",
       "Erzurumspor"
-    
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 189,
     "game": "listeyi-tamamla",
@@ -3571,8 +3530,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 190,
     "game": "listeyi-tamamla",
     "title": "Kariyerinde hem Trabzonspor hem de Liverpool forması giymiş futbolcular?",
@@ -3586,9 +3544,19 @@
       "Lazar Markovic"
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 191,
+    "game": "listeyi-tamamla",
+    "title": "Trabzonspor formasıyla 150'den fazla maça çıkan yabancı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-11-10",
+    "targets": [
+      "Ibrahim Yattara",
+      "Anthony Nwakaeme",
+      "Gustavo Colman",
+      "Alanzinho"
+    ],
+    "difficulty": "kolay"
   }
-
-
-
-
 ]

@@ -4006,7 +4006,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 198,
     "game": "listeyi-tamamla",
@@ -4029,7 +4028,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 199,
     "game": "listeyi-tamamla",
@@ -4047,8 +4045,6 @@
     ],
     "difficulty": "zor"
   },
-
-
   {
     "id": 200,
     "game": "listeyi-tamamla",
@@ -4068,7 +4064,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 201,
     "game": "listeyi-tamamla",
@@ -4092,11 +4087,9 @@
       "Mohamed Salah",
       "Paul Onuachu",
       "Franculino Dju"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 202,
     "game": "listeyi-tamamla",
@@ -4109,11 +4102,9 @@
       "Vedat Muriqi",
       "Mohamed Salah",
       "Andre Henrique"
-
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 203,
     "game": "listeyi-tamamla",
@@ -4130,7 +4121,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 204,
     "game": "listeyi-tamamla",
@@ -4146,7 +4136,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 205,
     "game": "listeyi-tamamla",
@@ -4169,7 +4158,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 206,
     "game": "listeyi-tamamla",
@@ -4198,7 +4186,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 207,
     "game": "listeyi-tamamla",
@@ -4206,7 +4193,6 @@
     "type": "team-eu",
     "activeDate": "2026-11-03",
     "targets": [
-     
       "Braga",
       "Ludogorets",
       "Monchengladbach",
@@ -4218,11 +4204,9 @@
       "Hearts",
       "Rigas FS",
       "Heidenheim"
-     
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 208,
     "game": "listeyi-tamamla",
@@ -4230,18 +4214,15 @@
     "type": "team-tr",
     "activeDate": "2026-11-04",
     "targets": [
-     
       "Kocaelispor",
       "Samsunspor",
       "Başakşehir",
       "Sakaryaspor",
       "Rizespor",
       "Osmanlıspor"
-     
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 209,
     "game": "listeyi-tamamla",
@@ -4249,7 +4230,6 @@
     "type": "team-tr",
     "activeDate": "2026-11-05",
     "targets": [
-     
       "Bursaspor",
       "Antalyaspor",
       "Kayserispor",
@@ -4258,11 +4238,9 @@
       "Iğdır FK",
       "Esenler Erokspor",
       "İstanbulspor"
-     
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 210,
     "game": "listeyi-tamamla",
@@ -4282,7 +4260,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 211,
     "game": "listeyi-tamamla",
@@ -4296,6 +4273,29 @@
       "Dominic Iorfa",
       "Victor Osimhen",
       "Henry Onyekuru"
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 212,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'in ilk 11 haftasında 8 ve üzeri sayıda gol katkısı yapan oyuncular? (Gol + Asist)",
+    "type": "player",
+    "activeDate": "2026-11-10",
+    "targets": [
+      "Gift Orban",
+      "Victor Osimhen",
+      "Dusan Vlahovic",
+      "Mohamed Salah",
+      "Ernest Muçi",
+      "Adrian Benedyczak",
+      "Eldor Shomurodov",
+      "Vedat Muriqi",
+      "Mason Greenwood",
+      "Oğuz Aydın",
+      "Juan Santos",
+      "İrfan Can Kahveci",
+      "Alexandros Kyziridis"
     ],
     "difficulty": "zor"
   }

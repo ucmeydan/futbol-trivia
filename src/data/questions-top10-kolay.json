@@ -3520,7 +3520,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 177,
     "game": "top10",
@@ -3538,11 +3537,9 @@
       "Tarık Çamdal",
       "Serdar Aziz",
       "Olcan Adın"
-     
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 178,
     "game": "top10",
@@ -3550,20 +3547,19 @@
     "type": "player",
     "activeDate": "2026-10-26",
     "targets": [
-     "Lucas Torreira",
-     "Barış Alper Yılmaz",
-     "Victor Osimhen",
-     "Jayden Oosterwolde",
-     "Matteo Guendouzi",
-     "Jhon Duran",
-     "Leroy Sane",
-     "Sebastian Szymanski",
-     "Edin Džeko",
-     "Gabriel Sara"
+      "Lucas Torreira",
+      "Barış Alper Yılmaz",
+      "Victor Osimhen",
+      "Jayden Oosterwolde",
+      "Matteo Guendouzi",
+      "Jhon Duran",
+      "Leroy Sane",
+      "Sebastian Szymanski",
+      "Edin Džeko",
+      "Gabriel Sara"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 179,
     "game": "top10",
@@ -3584,7 +3580,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 180,
     "game": "top10",
@@ -3605,7 +3600,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 181,
     "game": "top10",
@@ -3626,7 +3620,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 182,
     "game": "listeyi-tamamla",
@@ -3634,21 +3627,20 @@
     "type": "player",
     "activeDate": "2026-10-30",
     "targets": [
-     "Arda Güler",
-     "Kenan Yıldız",
-     "Can Uzun",
-     "Ferdi Kadıoğlu",
-     "Barış Alper Yılmaz",
-     "Orkun Kökçü",
-     "Yunus Akgün",
-     "Kerem Aktürkoğlu",
-     "Hakan Çalhanoğlu",
-     "Aral Şimşir"
+      "Arda Güler",
+      "Kenan Yıldız",
+      "Can Uzun",
+      "Ferdi Kadıoğlu",
+      "Barış Alper Yılmaz",
+      "Orkun Kökçü",
+      "Yunus Akgün",
+      "Kerem Aktürkoğlu",
+      "Hakan Çalhanoğlu",
+      "Aral Şimşir"
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 183,
     "game": "top10",
     "title": "Beşiktaş'ın resmi maçlarda karşılaştığı son 10 takım?",
@@ -3668,8 +3660,7 @@
     ],
     "difficulty": "kolay"
   },
-
-   {
+  {
     "id": 184,
     "game": "top10",
     "title": "Okan Buruk'un Galatasaray teknik direktörü olduğu dönemde en yüksek bonservis bedeli ödenerek transfer edilen 10 oyuncu? ",
@@ -3689,7 +3680,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 185,
     "game": "top10",
@@ -3710,7 +3700,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 186,
     "game": "top10",
@@ -3731,7 +3720,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 187,
     "game": "top10",
@@ -3739,20 +3727,19 @@
     "type": "team-all",
     "activeDate": "2026-11-04",
     "targets": [
-     "Arsenal",
-     "Inter",
-     "Dortmund",
-     "Liverpool",
-     "Manchester City",
-     "PSG",
-     "Tottenham",
-     "Juventus",
-     "Atletico Madrid",
-     "Bayern Münih"
+      "Arsenal",
+      "Inter",
+      "Dortmund",
+      "Liverpool",
+      "Manchester City",
+      "PSG",
+      "Tottenham",
+      "Juventus",
+      "Atletico Madrid",
+      "Bayern Münih"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 188,
     "game": "top10",
@@ -3760,20 +3747,19 @@
     "type": "team-all",
     "activeDate": "2026-11-05",
     "targets": [
-     "Real Madrid",
-     "Manchester City",
-     "Arsenal",
-     "PSG",
-     "Barcelona",
-     "Chelsea",
-     "Liverpool",
-     "Bayern Münih",
-     "Manchester United",
-     "Tottenham"
+      "Real Madrid",
+      "Manchester City",
+      "Arsenal",
+      "PSG",
+      "Barcelona",
+      "Chelsea",
+      "Liverpool",
+      "Bayern Münih",
+      "Manchester United",
+      "Tottenham"
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 189,
     "game": "top10",
@@ -3794,12 +3780,11 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 190,
     "game": "top10",
     "title": "Süper Lig'de 2026-27 sezonunun ilk 10 haftasında en fazla şut çeken 10 takım?",
-    "type": "player",
+    "type": "team-tr",
     "activeDate": "2026-11-07",
     "targets": [
       "Galatasaray",
@@ -3814,9 +3799,25 @@
       "Samsunspor"
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 191,
+    "game": "top10",
+    "title": "Süper Lig'de 2026-27 sezonunun ilk 11 haftasında maç başına en fazla isabetli şut çeken 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-11-10",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Göztepe",
+      "Amed SK",
+      "Çorum FK",
+      "Rizespor",
+      "Başakşehir",
+      "Kocaelispor"
+    ],
+    "difficulty": "kolay"
   }
-
-
-
-
 ]
