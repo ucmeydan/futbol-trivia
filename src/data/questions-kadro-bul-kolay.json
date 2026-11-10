@@ -801,5 +801,71 @@
         "answer": "KEREM"
       }
     ]
+  },
+  {
+    "id": 13,
+    "difficulty": "kolay",
+    "activeDate": "2026-11-10",
+    "league": "Dünya Kupası Elemeleri",
+    "season": "2025/26",
+    "homeTeam": "Türkiye",
+    "awayTeam": "İspanya",
+    "homeScore": 0,
+    "awayScore": 6,
+    "matchDate": "07.09.2025",
+    "targetTeam": "İspanya",
+    "teamColor": "#AA151B",
+    "formation": [
+      1,
+      4,
+      3,
+      3
+    ],
+    "players": [
+      {
+        "number": 23,
+        "answer": "SİMON"
+      },
+      {
+        "number": 22,
+        "answer": "CUCURELLA"
+      },
+      {
+        "number": 5,
+        "answer": "HUİJSEN"
+      },
+      {
+        "number": 3,
+        "answer": "LE NORMAND"
+      },
+      {
+        "number": 12,
+        "answer": "PORRO"
+      },
+      {
+        "number": 20,
+        "answer": "PEDRİ"
+      },
+      {
+        "number": 18,
+        "answer": "ZUBİMENDİ"
+      },
+      {
+        "number": 6,
+        "answer": "MERİNO"
+      },
+      {
+        "number": 17,
+        "answer": "WİLLİAMS"
+      },
+      {
+        "number": 21,
+        "answer": "OYARZABAL"
+      },
+      {
+        "number": 19,
+        "answer": "YAMAL"
+      }
+    ]
   }
 ]

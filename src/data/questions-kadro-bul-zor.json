@@ -801,5 +801,73 @@
         "answer": "ROONEY"
       }
     ]
+  },
+  {
+    "id": 13,
+    "difficulty": "zor",
+    "activeDate": "2026-11-10",
+    "league": "Avrupa Şampiyonası",
+    "season": "2007/08",
+    "homeTeam": "Türkiye",
+    "awayTeam": "Hırvatistan",
+    "homeScore": 1,
+    "awayScore": 1,
+    "penaltyNote": "Pen. 4-2",
+    "matchDate": "20.06.2008",
+    "targetTeam": "Hırvatistan",
+    "teamColor": "#003DA5",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "number": 1,
+        "answer": "PLETİKOSA"
+      },
+      {
+        "number": 22,
+        "answer": "PRANJİĆ"
+      },
+      {
+        "number": 3,
+        "answer": "ŠİMUNİĆ"
+      },
+      {
+        "number": 4,
+        "answer": "KOVAČ"
+      },
+      {
+        "number": 5,
+        "answer": "ĆORLUKA"
+      },
+      {
+        "number": 10,
+        "answer": "KOVAČ"
+      },
+      {
+        "number": 14,
+        "answer": "MODRİĆ"
+      },
+      {
+        "number": 7,
+        "answer": "RAKİTİĆ"
+      },
+      {
+        "number": 19,
+        "answer": "KRANJČAR"
+      },
+      {
+        "number": 11,
+        "answer": "SRNA"
+      },
+      {
+        "number": 18,
+        "answer": "OLİĆ"
+      }
+    ]
   }
 ]

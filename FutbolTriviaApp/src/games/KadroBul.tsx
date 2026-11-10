@@ -21,6 +21,7 @@ type MatchData = {
   awayTeam: string;
   homeScore: number;
   awayScore: number;
+  penaltyNote?: string;
   matchDate: string;
   targetTeam: string;
   teamColor: string;
@@ -548,6 +549,7 @@ export default function KadroBul({ difficulty, navigation }: Props) {
             </Text>
             <Text style={{ color: '#94a3b8', fontSize: 13 }}>
               {currentMatch.homeTeam} {currentMatch.homeScore}–{currentMatch.awayScore} {currentMatch.awayTeam}
+              {currentMatch.penaltyNote ? ` (${currentMatch.penaltyNote})` : ''}
             </Text>
             <Text style={{ color: '#475569', fontSize: 11, marginTop: 2 }}>
               {currentMatch.matchDate} · {currentMatch.league}
@@ -650,10 +652,13 @@ export default function KadroBul({ difficulty, navigation }: Props) {
                 <Text style={{ color: 'white', fontWeight: '700', fontSize: 15 }}>{currentMatch.homeTeam}</Text>
                 <Text style={{ color: '#475569', fontSize: 11, marginTop: 2 }}>Ev sahibi</Text>
               </View>
-              <View style={{ marginHorizontal: 12, backgroundColor: '#020617', borderWidth: 1, borderColor: '#1e293b', borderRadius: 12, paddingHorizontal: 14, paddingVertical: 8 }}>
+              <View style={{ marginHorizontal: 12, backgroundColor: '#020617', borderWidth: 1, borderColor: '#1e293b', borderRadius: 12, paddingHorizontal: 14, paddingVertical: 8, alignItems: 'center' }}>
                 <Text style={{ color: 'white', fontWeight: '700', fontSize: 24 }}>
                   {currentMatch.homeScore}–{currentMatch.awayScore}
                 </Text>
+                {currentMatch.penaltyNote && (
+                  <Text style={{ color: '#475569', fontSize: 9, marginTop: 2 }}>{currentMatch.penaltyNote}</Text>
+                )}
               </View>
               <View style={{ flex: 1, alignItems: 'flex-start' }}>
                 <Text style={{ color: 'white', fontWeight: '700', fontSize: 15 }}>{currentMatch.awayTeam}</Text>
@@ -778,6 +783,7 @@ export default function KadroBul({ difficulty, navigation }: Props) {
       </View>
       <Text style={{ color: '#475569', fontSize: 10, textAlign: 'center', marginBottom: 6 }}>
         {currentMatch.matchDate} · {currentMatch.league}
+        {currentMatch.penaltyNote ? ` · ${currentMatch.penaltyNote}` : ''}
       </Text>
 
       {/* Pitch */}

@@ -30,6 +30,7 @@ type MatchData = {
   awayTeam: string;
   homeScore: number;
   awayScore: number;
+  penaltyNote?: string;
   matchDate: string;
   targetTeam: string;
   teamColor: string;
@@ -709,6 +710,7 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
             </p>
             <p className="text-slate-400 text-sm">
               {currentMatch.homeTeam} {currentMatch.homeScore}–{currentMatch.awayScore} {currentMatch.awayTeam}
+              {currentMatch.penaltyNote && <span className="text-slate-500"> ({currentMatch.penaltyNote})</span>}
             </p>
             <p className="text-slate-600 text-xs mt-0.5">
               {currentMatch.matchDate} · {currentMatch.league}
@@ -821,6 +823,9 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
                 <span className="font-bebas text-3xl text-white tracking-wider leading-none">
                   {currentMatch.homeScore}–{currentMatch.awayScore}
                 </span>
+                {currentMatch.penaltyNote && (
+                  <p className="text-[10px] text-slate-500 leading-none mt-1">{currentMatch.penaltyNote}</p>
+                )}
               </div>
 
               <div className="flex-1 text-left">
@@ -984,7 +989,10 @@ export default function KadroBulClient({ difficulty }: { difficulty: 'kolay' | '
           </div>
           <span className="text-sm font-bold text-white">{currentMatch.awayTeam}</span>
         </div>
-        <p className="text-[11px] text-slate-600">{currentMatch.matchDate} · {currentMatch.league}</p>
+        <p className="text-[11px] text-slate-600">
+          {currentMatch.matchDate} · {currentMatch.league}
+          {currentMatch.penaltyNote && <span> · {currentMatch.penaltyNote}</span>}
+        </p>
       </div>
 
       {/* Pitch */}
