@@ -7999,5 +7999,80 @@
         "goals": "1"
       }
     ]
+  },
+  {
+    "id": 199,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-10",
+    "correctPlayer": "Stephane Badji",
+    "career": [
+      {
+        "season": "2009–2011",
+        "team": "Casa Sport",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2011–2013",
+        "team": "Sogndal",
+        "apps": "25",
+        "goals": "0"
+      },
+      {
+        "season": "2013–2015",
+        "team": "Brann",
+        "apps": "55",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Başakşehir",
+        "apps": "39",
+        "goals": "0"
+      },
+      {
+        "season": "2016–2017",
+        "team": "Anderlecht",
+        "apps": "36",
+        "goals": "0"
+      },
+      {
+        "season": "2017–2018",
+        "team": "Kayserispor (kiralık)",
+        "apps": "35",
+        "goals": "3"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Bursaspor",
+        "apps": "30",
+        "goals": "0"
+      },
+      {
+        "season": "2019–2022",
+        "team": "Ludogorets",
+        "apps": "99",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Eyüpspor",
+        "apps": "14",
+        "goals": "0"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Olympiacos Nicosia",
+        "apps": "27",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Omonia Aradippou",
+        "apps": "9",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

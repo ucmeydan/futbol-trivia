@@ -5074,7 +5074,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 176,
     "game": "takim-arkadasi",
@@ -5104,7 +5103,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 177,
     "game": "takim-arkadasi",
@@ -5192,7 +5190,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 180,
     "game": "takim-arkadasi",
@@ -5222,7 +5219,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 181,
     "game": "takim-arkadasi",
@@ -5252,7 +5248,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 182,
     "game": "takim-arkadasi",
@@ -5398,7 +5393,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 187,
     "game": "takim-arkadasi",
@@ -5598,6 +5592,122 @@
       {
         "name": "Wesley Sneijder",
         "info": "2013-17 yılları arasında Galatasaray'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 194,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-10",
+    "correctPlayer": "Mason Greenwood",
+    "teammates": [
+      {
+        "name": "Enes Ünal",
+        "info": "2023-24 sezonunda Getafe'de birlikte oynadılar."
+      },
+      {
+        "name": "Adrien Rabiot",
+        "info": "2024-25 sezonunda Marsilya'da birlikte oynadılar."
+      },
+      {
+        "name": "Harry Maguire",
+        "info": "2019-23 yılları arasında Manchester United'da birlikte oynadılar."
+      },
+      {
+        "name": "Pierre Emerick Aubameyang",
+        "info": "2025-26 sezonunda Marsilya'da birlikte oynadılar"
+      },
+      {
+        "name": "Vedat Muriqi",
+        "info": "2026-27 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 195,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-11",
+    "correctPlayer": "Nani",
+    "teammates": [
+      {
+        "name": "Mario Balotelli",
+        "info": "2023-24 sezonunda Adana Demirspor'da birlikte oynadılar."
+      },
+      {
+        "name": "Simon Kjaer",
+        "info": "2015-16 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Maestro",
+        "info": "2023-24 sezonunda Adana Demirspor'da birlikte oynadılar."
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2007-09 yılları arasında Manchester United'da ve Portekiz Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Volkan Demirel",
+        "info": "2015-16 sezonunda Fenerbahçe'de birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 196,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-12",
+    "correctPlayer": "Nuri Şahin",
+    "teammates": [
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2011-12 sezonunda Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "info": "2010-11 ve 2013-14 sezonunda Dortmund'da birlikte oynadılar"
+      },
+      {
+        "name": "Kaka",
+        "info": "2011-12 sezonunda Real Madrid'de birlikte oynadılar"
+      },
+      {
+        "name": "Lukas Podolski",
+        "info": "2020-21 sezonunda Antalyaspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Steven Gerrard",
+        "info": "2012-13 sezonunda Liverpool'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 197,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-13",
+    "correctPlayer": "Altay Bayındır",
+    "teammates": [
+      {
+        "name": "Tyler Boyd",
+        "info": "2018-19 sezonunda Ankaragücü'de birlikte oynadılar"
+      },
+      {
+        "name": "Casemiro",
+        "info": "2023-26 yılları arasında Manchester United'da birlikte oynadılar"
+      },
+      {
+        "name": "Vedat Muriqi",
+        "info": "2019-20 sezonunda Fenerbahçe'de birlikte oynadılar"
+      },
+      {
+        "name": "Arda Güler",
+        "info": "2021-23 yılları arasında Fenerbahçe'de ve Türk Milli takımında birlikte oynadılar"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "info": "2023-26 yılları arasında Manchester United'da birlikte oynadılar"
       }
     ],
     "difficulty": "kolay"
