@@ -4298,5 +4298,63 @@
       "Alexandros Kyziridis"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 213,
+    "game": "listeyi-tamamla",
+    "title": "Oğulcan Çağlayan'ın Süper Lig kariyerinde forma giydiği takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-11",
+    "targets": [
+     "Gaziantepspor",
+     "Kayseri Erciyesspor",
+     "Kayserispor",
+     "Rizespor",
+     "Galatasaray",
+     "Giresunspor",
+     "Gaziantep FK",
+     "Kasımpaşa",
+     "Kocaelispor"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 217,
+    "game": "listeyi-tamamla",
+    "title": "Zeki Yavru'nun Süper Lig kariyerinde forma giydiği takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-15",
+    "targets": [
+     "Trabzonspor",
+     "Giresunspor",
+     "Samsunspor",
+     "Yeni Malatyaspor",
+     "Denizlispor",
+     "Akhisar Belediyespor",
+     "Gençlerbirliği",
+     "Kayserispor"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 221,
+    "game": "listeyi-tamamla",
+    "title": "Ertuğrul Taşkıran'ın Süper Lig kariyerinde forma giydiği takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-19",
+    "targets": [
+     "Fenerbahçe",
+     "Kayserispor",
+     "Erzurumspor",
+     "Alanyaspor",
+     "Kasımpaşa",
+     "Konyaspor",
+     "Sivasspor",
+     "Samsunspor"
+    ],
+    "difficulty": "zor"
   }
 ]

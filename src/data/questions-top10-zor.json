@@ -4278,5 +4278,69 @@
       "Alexander Nübel"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 218,
+    "game": "top10",
+    "title": "Süper Lig'in son 10 sezonunun toplamında en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-11-12",
+    "targets": [
+      "Mbaye Diagne",
+      "Mame Thiam",
+      "Mauro Icardi",
+      "Emre Akbaba",
+      "Mauro Icardi",
+      "Alexandru Maxim",
+      "Adis Jahović",
+      "Burak Yılmaz",
+      "Umut Nayir",
+      "Victor Osimhen"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 219,
+    "game": "top10",
+    "title": "Süper Lig'in son 10 sezonunda en çok maça çıkan 10 yabancı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-11-13",
+    "targets": [
+      "Edin Visca",
+      "Fernando Muslera",
+      "Haris Hajradinovic",
+      "Alexandru Maxim",
+      "Florent Hadergjonaj",
+      "Guilherme (Haubert Sityá)",
+      "Marko Jevtovic",
+      "Danijel Aleksić",
+      "Amir Hadziahmetovic",
+      "Mame Thiam"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
+    "id": 220,
+    "game": "top10",
+    "title": "Yalçın Ayhan'ın Süper Lig kariyerinde en çok maçta formasını giydiği 10 takım?",
+    "type": "player",
+    "activeDate": "2026-11-14",
+    "targets": [
+      "Başakşehir",
+      "Antalyaspor",
+      "İstanbulspor",
+      "Kasımpaşa",
+      "Orduspor",
+      "Gaziantepspor",
+      "Ankaragücü",
+      "Osmanlıspor",
+      "Yeni Malatyaspor",
+      "Kayseri Erciyesspor"
+
+    ],
+    "difficulty": "zor"
   }
 ]

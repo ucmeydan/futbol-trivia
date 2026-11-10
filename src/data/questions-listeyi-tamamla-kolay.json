@@ -3558,5 +3558,25 @@
       "Alanzinho"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 192,
+    "game": "listeyi-tamamla",
+    "title": "Burak Yılmaz'ın Süper Lig kariyerinde formasını giydiği takımlar?",
+    "type": "player",
+    "activeDate": "2026-11-11",
+    "targets": [
+     "Beşiktaş",
+     "Fenerbahçe",
+     "Galatasaray",
+     "Trabzonspor",
+     "Manisaspor",
+     "Eskişehirspor"
+    ],
+    "difficulty": "kolay"
   }
+
+
+ 
 ]

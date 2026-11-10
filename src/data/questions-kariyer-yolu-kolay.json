@@ -7072,5 +7072,51 @@
         "goals": "0"
       }
     ]
+  },
+
+   {
+    "id": 188,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-10",
+    "correctPlayer": "Raul Meireles",
+    "career": [
+      {
+        "season": "2000–2004",
+        "team": "Boavista",
+        "apps": "29",
+        "goals": "0"
+      },
+      {
+        "season": "2001–2003",
+        "team": "Aves (kiralık)",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2004–2011",
+        "team": "Porto",
+        "apps": "194",
+        "goals": "19"
+      },
+      {
+        "season": "2011–2012",
+        "team": "Liverpool",
+        "apps": "44",
+        "goals": "5"
+      },
+      {
+        "season": "2012–2013",
+        "team": "Chelsea",
+        "apps": "48",
+        "goals": "6"
+      },
+      {
+        "season": "2013-2016",
+        "team": "Fenerbahçe",
+        "apps": "105",
+        "goals": "8"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]
