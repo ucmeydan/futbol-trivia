@@ -933,5 +933,73 @@
         "answer": "KUYT"
       }
     ]
+  },
+  {
+    "id": 15,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-11",
+    "season": "2010/11",
+    "homeTeam": "Türkiye",
+    "awayTeam": "Belçika",
+    "homeScore": 3,
+    "awayScore": 2,
+    "matchDate": "07.09.2010",
+    "competition": "Avrupa Şampiyonası Elemeleri",
+    "targetTeam": "Türkiye",
+    "teamColor": "#E30A17",
+    "formation": [
+      1,
+      4,
+      1,
+      4,
+      1
+    ],
+    "players": [
+      {
+        "name": "VOLKAN",
+        "number": 1
+      },
+      {
+        "name": "İSMAİL",
+        "number": 3
+      },
+      {
+        "name": "SERVET",
+        "number": 2
+      },
+      {
+        "name": "ÖMER",
+        "number": 17
+      },
+      {
+        "name": "SABRİ",
+        "number": 22
+      },
+      {
+        "name": "AURELİO",
+        "number": 15
+      },
+      {
+        "name": "ARDA",
+        "number": 14
+      },
+      {
+        "name": "SELÇUK",
+        "number": 18
+      },
+      {
+        "name": "EMRE",
+        "number": 5
+      },
+      {
+        "name": "HAMİT",
+        "number": 6
+      },
+      {
+        "name": "TUNCAY",
+        "number": 10
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

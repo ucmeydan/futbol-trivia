@@ -936,5 +936,72 @@
         "answer": "CARDOZO"
       }
     ]
+  },
+  {
+    "id": 15,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-11",
+    "season": "2010/11",
+    "homeTeam": "Türkiye",
+    "awayTeam": "Belçika",
+    "homeScore": 3,
+    "awayScore": 2,
+    "matchDate": "07.09.2010",
+    "competition": "Avrupa Şampiyonası Elemeleri",
+    "targetTeam": "Belçika",
+    "teamColor": "#FFD100",
+    "formation": [
+      1,
+      4,
+      4,
+      2
+    ],
+    "players": [
+      {
+        "name": "BAİLLY",
+        "number": 1
+      },
+      {
+        "name": "VERMAELEN",
+        "number": 5
+      },
+      {
+        "name": "KOMPANY",
+        "number": 4
+      },
+      {
+        "name": "VAN BUYTEN",
+        "number": 3
+      },
+      {
+        "name": "ALDERWEIRELD",
+        "number": 2
+      },
+      {
+        "name": "VERTONGHEN",
+        "number": 8
+      },
+      {
+        "name": "FELLAİNİ",
+        "number": 10
+      },
+      {
+        "name": "SİMONS",
+        "number": 6
+      },
+      {
+        "name": "GİLLET",
+        "number": 7
+      },
+      {
+        "name": "LUKAKU",
+        "number": 9
+      },
+      {
+        "name": "DEMBÉLÉ",
+        "number": 11
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
