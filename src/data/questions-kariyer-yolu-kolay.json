@@ -7005,11 +7005,8 @@
         "apps": "44",
         "goals": "32"
       }
-
-
     ]
   },
-
   {
     "id": 187,
     "difficulty": "kolay",
@@ -7073,8 +7070,7 @@
       }
     ]
   },
-
-   {
+  {
     "id": 188,
     "game": "kariyer-yolu",
     "activeDate": "2026-11-10",
@@ -7118,5 +7114,68 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 189,
+    "difficulty": "kolay",
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-11",
+    "correctPlayer": "Georges Kevin N'koudou",
+    "career": [
+      {
+        "team": "Nantes",
+        "season": "2013-2015",
+        "apps": "40",
+        "goals": "3"
+      },
+      {
+        "team": "Olympique Marsilya",
+        "season": "2015-2016",
+        "apps": "41",
+        "goals": "10"
+      },
+      {
+        "team": "Tottenham",
+        "season": "2016-2019",
+        "apps": "27",
+        "goals": "1"
+      },
+      {
+        "team": "Burnley (kiralık)",
+        "season": "2018-2018",
+        "apps": "8",
+        "goals": "0"
+      },
+      {
+        "team": "Monaco (kiralık)",
+        "season": "2019-2019",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "team": "Beşiktaş",
+        "season": "2019-2023",
+        "apps": "108",
+        "goals": "21"
+      },
+      {
+        "team": "Damac",
+        "season": "2023-2025",
+        "apps": "63",
+        "goals": "28"
+      },
+      {
+        "team": "Al-Diriyah",
+        "season": "2025-",
+        "apps": "21",
+        "goals": "3"
+      },
+      {
+        "team": "Abha (kiralık)",
+        "season": "2026-",
+        "apps": "4",
+        "goals": "0"
+      }
+    ]
   }
 ]
