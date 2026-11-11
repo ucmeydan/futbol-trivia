@@ -8074,5 +8074,57 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 200,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-11",
+    "correctPlayer": "Heliton",
+    "career": [
+      {
+        "season": "2019–2021",
+        "team": "EC Santo André",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2019–2020",
+        "team": "Figueirense (kiralık)",
+        "apps": "5",
+        "goals": "0"
+      },
+     
+      {
+        "season": "2020–2021",
+        "team": "ABC FC",
+        "apps": "28",
+        "goals": "4"
+      },
+      {
+        "season": "2021–2022",
+        "team": "SC Covilhã",
+        "apps": "35",
+        "goals": "6"
+      },
+      {
+        "season": "2022–2024",
+        "team": "CSKA 1948",
+        "apps": "53",
+        "goals": "6"
+      },
+      {
+        "season": "2024–2026",
+        "team": "Göztepe",
+        "apps": "90",
+        "goals": "3"
+      },
+      {
+        "season": "2026–",
+        "team": "Karlsruhe",
+        "apps": "2",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
