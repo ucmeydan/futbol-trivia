@@ -8093,7 +8093,6 @@
         "apps": "5",
         "goals": "0"
       },
-     
       {
         "season": "2020–2021",
         "team": "ABC FC",
@@ -8122,6 +8121,46 @@
         "season": "2026–",
         "team": "Karlsruhe",
         "apps": "2",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 201,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-12",
+    "correctPlayer": "Michael Petkovic",
+    "career": [
+    
+      {
+        "season": "1995–2002",
+        "team": "South Melbourne",
+        "apps": "228",
+        "goals": "0"
+      },
+      {
+        "season": "2001–2002",
+        "team": "Lillestrøm SK (kiralık)",
+        "apps": "0",
+        "goals": "0"
+      },
+      {
+        "season": "2002–2005",
+        "team": "Trabzonspor",
+        "apps": "103",
+        "goals": "0"
+      },
+      {
+        "season": "2005–2010",
+        "team": "Sivasspor",
+        "apps": "130",
+        "goals": "1"
+      },
+      {
+        "season": "2010–2011",
+        "team": "Melbourne Victory",
+        "apps": "33",
         "goals": "0"
       }
     ],

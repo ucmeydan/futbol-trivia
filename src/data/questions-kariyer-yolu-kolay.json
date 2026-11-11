@@ -7177,5 +7177,51 @@
         "goals": "0"
       }
     ]
+  },
+  {
+    "id": 190,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-12",
+    "correctPlayer": "Ömer Erdoğan",
+    "career": [
+   
+      {
+        "season": "1997–1998",
+        "team": "FC St. Pauli",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "1998–2001",
+        "team": "Erzurumspor",
+        "apps": "92",
+        "goals": "4"
+      },
+      {
+        "season": "2001–2003",
+        "team": "Diyarbakırspor",
+        "apps": "63",
+        "goals": "2"
+      },
+      {
+        "season": "2003–2004",
+        "team": "Galatasaray",
+        "apps": "20",
+        "goals": "2"
+      },
+      {
+        "season": "2004–2006",
+        "team": "Malatyaspor",
+        "apps": "58",
+        "goals": "4"
+      },
+      {
+        "season": "2006–2013",
+        "team": "Bursaspor",
+        "apps": "216",
+        "goals": "16"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]
