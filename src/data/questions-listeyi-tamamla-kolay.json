@@ -3575,6 +3575,39 @@
      "Eskişehirspor"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 193,
+    "game": "listeyi-tamamla",
+    "title": "Okan Buruk'un Süper Lig'de teknik direktör olarak görev aldığı takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-12",
+    "targets": [
+     "Galatasaray",
+     "Başakşehir",
+     "Elazığspor",
+     "Akhisar Belediyespor",
+     "Gaziantepspor",
+     "Rizespor",
+     "Sivasspor"
+    ],
+    "difficulty": "kolay"
+  },
+
+   {
+    "id": 194,
+    "game": "listeyi-tamamla",
+    "title": "21.yüzyılda Süper Lig'de şampiyonluk yaşamış yabancı teknik direktörler?",
+    "type": "td",
+    "activeDate": "2026-11-13",
+    "targets": [
+     "Christoph Daum",
+     "Mircea Lucescu",
+     "Eric Gerets",
+     "Zico"
+    ],
+    "difficulty": "kolay"
   }
 
 

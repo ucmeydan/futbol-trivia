@@ -3843,6 +3843,27 @@
   },
 
   {
+    "id": 193,
+    "game": "top10",
+    "title": "Galatasaray'ın başında Süper Lig şampiyonluğu yaşayan son 10 teknik direktör?",
+    "type": "td",
+    "activeDate": "2026-11-12",
+    "targets": [
+      "Okan Buruk",
+      "Fatih Terim",
+      "Hamza Hamzaoğlu",
+      "Cevat Güler",
+      "Eric Gerets",
+      "Mircea Lucescu",
+      "Reiner Hollmann",
+      "Karl Heinz Feldkamp",
+      "Mustafa Denizli",
+      "Jupp Derwall"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
     "id": 196,
     "game": "top10",
     "title": "Galatasaray'ın Süper Lig tarihinde en çok mağlup ettiği 10 takım?",

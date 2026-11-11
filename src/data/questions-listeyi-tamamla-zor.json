@@ -4321,6 +4321,28 @@
   },
 
   {
+    "id": 214,
+    "game": "listeyi-tamamla",
+    "title": "2011 yılında piyasa değeri 7M€ ve üzerinde olan Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-11-12",
+    "targets": [
+    "Nuri Şahin",
+    "Arda Turan",
+    "Gökhan Gönül",
+    "Volkan Demirel",
+    "Mehmet Topal",
+    "Emre Belözoğlu",
+    "Mevlüt Erdinç",
+    "Selçuk İnan",
+    "Mehmet Topuz",
+    "İbrahim Toraman",
+    "Burak Yılmaz"
+    ],
+    "difficulty": "zor"
+  },
+
+  {
     "id": 217,
     "game": "listeyi-tamamla",
     "title": "Zeki Yavru'nun Süper Lig kariyerinde forma giydiği takımlar?",
