@@ -869,5 +869,72 @@
         "answer": "OLİC"
       }
     ]
+  },
+  {
+    "id": 14,
+    "difficulty": "zor",
+    "activeDate": "2026-11-11",
+    "league": "Avrupa Ligi",
+    "season": "2012/13",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Benfica",
+    "homeScore": 1,
+    "awayScore": 0,
+    "matchDate": "25.04.2013",
+    "targetTeam": "Benfica",
+    "teamColor": "#E21017",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "number": 1,
+        "answer": "MORAES"
+      },
+      {
+        "number": 25,
+        "answer": "MELGAREJO"
+      },
+      {
+        "number": 33,
+        "answer": "JARDEL"
+      },
+      {
+        "number": 24,
+        "answer": "GARAY"
+      },
+      {
+        "number": 14,
+        "answer": "PEREİRA"
+      },
+      {
+        "number": 89,
+        "answer": "GOMES"
+      },
+      {
+        "number": 21,
+        "answer": "MATİĆ"
+      },
+      {
+        "number": 15,
+        "answer": "JOHN"
+      },
+      {
+        "number": 10,
+        "answer": "AİMAR"
+      },
+      {
+        "number": 18,
+        "answer": "SALVİO"
+      },
+      {
+        "number": 7,
+        "answer": "CARDOZO"
+      }
+    ]
   }
 ]
