@@ -5948,5 +5948,64 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 207,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-12",
+    "correctPlayer": "Vincent Aboubakar",
+    "teammates": [
+      {
+        "name": "Alex Sandro",
+        "info": "2014-15 sezonunda Porto'da birlikte oynadılar"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "info": "2022-23 sezonunda Al Nassr'da birlikte oynadılar"
+      },
+      {
+        "name": "Sergio Oliveira",
+        "info": "2017-20 yılları arasında Porto'da birlikte oynadılar"
+      },
+      {
+        "name": "Erce Kardeşler",
+        "info": "2024-25 sezonunda Hatayspor'da birlikte oynadılar"
+      },
+      {
+        "name": "Rachid Ghezzal",
+        "info": "2020-21 ve 2022-23 sezonlarında Beşiktaş'ta birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 208,
+    "game": "takim-arkadasi",
+    "activeDate": "2026-11-13",
+    "correctPlayer": "John Carew",
+    "teammates": [
+      {
+        "name": "Pablo Aimar",
+        "info": "2001-2003 yılları arasında Valencia'da birlikte oynadılar"
+      },
+      {
+        "name": "Ashley Young",
+        "info": "2007-11 yılları arasında Aston Villa'da birlikte oynadılar"
+      },
+      {
+        "name": "İbrahim Akın",
+        "info": "2004-05 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Oscar Cordoba",
+        "info": "2004-05 sezonunda Beşiktaş'ta birlikte oynadılar"
+      },
+      {
+        "name": "Juninho Pernambucano",
+        "info": "2005-07 yılları arasında Lyon'da birlikte oynadılar"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
