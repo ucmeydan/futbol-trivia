@@ -1001,5 +1001,73 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 16,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-13",
+    "season": "2018/19",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Başakşehir",
+    "homeScore": 2,
+    "awayScore": 1,
+    "matchDate": "19.05.2019",
+    "competition": "Süper Lig",
+    "targetTeam": "Galatasaray",
+    "teamColor": "#E30A17",
+    "formation": [
+      1,
+      4,
+      1,
+      4,
+      1
+    ],
+    "players": [
+      {
+        "name": "MUSLERA",
+        "number": 1
+      },
+      {
+        "name": "NAGATOMO",
+        "number": 55
+      },
+      {
+        "name": "MARCÃO",
+        "number": 45
+      },
+      {
+        "name": "LUYİNDAMA",
+        "number": 27
+      },
+      {
+        "name": "MARİANO",
+        "number": 2
+      },
+      {
+        "name": "DONK",
+        "number": 15
+      },
+      {
+        "name": "ONYEKURU",
+        "number": 21
+      },
+      {
+        "name": "BELHANDA",
+        "number": 10
+      },
+      {
+        "name": "FERNANDO",
+        "number": 25
+      },
+      {
+        "name": "FEGHOULI",
+        "number": 89
+      },
+      {
+        "name": "DİAGNE",
+        "number": 91
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

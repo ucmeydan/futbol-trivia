@@ -1003,5 +1003,73 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 16,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-13",
+    "season": "2025/26",
+    "homeTeam": "Samsunspor",
+    "awayTeam": "Dinamo Kiev",
+    "homeScore": 3,
+    "awayScore": 0,
+    "matchDate": "23.10.2025",
+    "competition": "Konferans Ligi",
+    "targetTeam": "Samsunspor",
+    "teamColor": "#E30A17",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "name": "KOCUK",
+        "number": 1
+      },
+      {
+        "name": "TÓMASSON",
+        "number": 17
+      },
+      {
+        "name": "VAN DRONGELEN",
+        "number": 4
+      },
+      {
+        "name": "SATKA",
+        "number": 37
+      },
+      {
+        "name": "YAVRU",
+        "number": 18
+      },
+      {
+        "name": "YÜKSEL",
+        "number": 5
+      },
+      {
+        "name": "MAKOUMBOU",
+        "number": 29
+      },
+      {
+        "name": "MUSABA",
+        "number": 7
+      },
+      {
+        "name": "HOLSE",
+        "number": 21
+      },
+      {
+        "name": "COULIBALY",
+        "number": 70
+      },
+      {
+        "name": "MOUANDİLMADJİ",
+        "number": 9
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
