@@ -7184,7 +7184,6 @@
     "activeDate": "2026-11-12",
     "correctPlayer": "Ömer Erdoğan",
     "career": [
-   
       {
         "season": "1997–1998",
         "team": "FC St. Pauli",
@@ -7220,6 +7219,69 @@
         "team": "Bursaspor",
         "apps": "216",
         "goals": "16"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 191,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-13",
+    "correctPlayer": "Eldor Shomurodov",
+    "career": [
+      {
+        "season": "2014–2015",
+        "team": "Mash'al Mubarek",
+        "apps": "9",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2017",
+        "team": "Bunyodkor",
+        "apps": "87",
+        "goals": "21"
+      },
+      {
+        "season": "2017–2020",
+        "team": "FC Rostov",
+        "apps": "91",
+        "goals": "18"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Genoa",
+        "apps": "32",
+        "goals": "8"
+      },
+      {
+        "season": "2021–2026",
+        "team": "Roma",
+        "apps": "85",
+        "goals": "13"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Spezia Calcio (kiralık)",
+        "apps": "16",
+        "goals": "1"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Cagliari Calcio (kiralık)",
+        "apps": "24",
+        "goals": "3"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Başakşehir (kiralık)",
+        "apps": "44",
+        "goals": "23"
+      },
+      {
+        "season": "2026–",
+        "team": "Başakşehir",
+        "apps": "13",
+        "goals": "8"
       }
     ],
     "difficulty": "kolay"

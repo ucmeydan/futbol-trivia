@@ -8132,7 +8132,6 @@
     "activeDate": "2026-11-12",
     "correctPlayer": "Michael Petkovic",
     "career": [
-    
       {
         "season": "1995–2002",
         "team": "South Melbourne",
@@ -8162,6 +8161,51 @@
         "team": "Melbourne Victory",
         "apps": "33",
         "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 202,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-13",
+    "correctPlayer": "Michal Pazdan",
+    "career": [
+      {
+        "season": "2007–2012",
+        "team": "Górnik Zabrze",
+        "apps": "130",
+        "goals": "3"
+      },
+      {
+        "season": "2012–2015",
+        "team": "Jagiellonia",
+        "apps": "96",
+        "goals": "3"
+      },
+      {
+        "season": "2015–2019",
+        "team": "Legia Varşova",
+        "apps": "122",
+        "goals": "1"
+      },
+      {
+        "season": "2019–2021",
+        "team": "Ankaragücü",
+        "apps": "60",
+        "goals": "2"
+      },
+      {
+        "season": "2021–2023",
+        "team": "Jagiellonia",
+        "apps": "43",
+        "goals": "1"
+      },
+      {
+        "season": "2023–2026",
+        "team": "Wieczysta Krakow",
+        "apps": "85",
+        "goals": "6"
       }
     ],
     "difficulty": "zor"
