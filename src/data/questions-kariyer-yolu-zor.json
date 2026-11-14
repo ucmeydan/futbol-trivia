@@ -8209,5 +8209,45 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 203,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-15",
+    "correctPlayer": "Sander Van de Streek",
+    "career": [
+      {
+        "season": "2011-2014",
+        "team": "Vitesse U21",
+        "apps": "21",
+        "goals": "6"
+      },
+      {
+        "season": "2013-2013",
+        "team": "Flora (kiralık)",
+        "apps": "38",
+        "goals": "10"
+      },
+      {
+        "season": "2014-2017",
+        "team": "Cambuur",
+        "apps": "105",
+        "goals": "34"
+      },
+      {
+        "season": "2017-2023",
+        "team": "Utrecht",
+        "apps": "212",
+        "goals": "57"
+      },
+      {
+        "season": "2023-",
+        "team": "Antalyaspor",
+        "apps": "119",
+        "goals": "17"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

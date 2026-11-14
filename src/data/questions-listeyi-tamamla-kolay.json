@@ -3608,6 +3608,34 @@
      "Zico"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 195,
+    "game": "listeyi-tamamla",
+    "title": "Şampiyonlar Ligi (Şampiyon Kulüpler Kupası dahil) tarihinde 100 ve üzeri sayıda maç kazanan takımlar?",
+    "type": "team-all",
+    "activeDate": "2026-11-15",
+    "targets": [
+      "Real Madrid",
+      "Bayern Münih",
+      "Barcelona",
+      "Juventus",
+      "Manchester United",
+      "Liverpool",
+      "Benfica",
+      "Milan",
+      "Porto",
+      "Arsenal",
+      "Inter",
+      "Ajax",
+      "Dinamo Kiev",
+      "Chelsea",
+      "Celtic",
+      "PSG",
+      "Dortmund"
+    ],
+    "difficulty": "kolay"
   }
 
 

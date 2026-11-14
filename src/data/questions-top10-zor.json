@@ -4342,5 +4342,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 221,
+    "game": "top10",
+    "title": "Beşiktaş'ın Avrupa kupalarında karşılaştığı son 10 takım?",
+    "type": "team-eu",
+    "activeDate": "2026-11-15",
+    "targets": [
+      
+      "Celtic",
+      "Crystal Palace",
+      "Hoffenheim",
+      "Marsilya",
+      "Hradec Kralove",
+      "Kauno Zalgiris",
+      "Midtjylland",
+      "Lausanne",
+      "St. Patricks Athletic",
+      "Shakhtar"
+      
+    ],
+    "difficulty": "zor"
   }
 ]

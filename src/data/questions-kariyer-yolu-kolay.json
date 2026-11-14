@@ -7285,5 +7285,46 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 54,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-15",
+    "correctPlayer": "Felipe Augusto",
+    "career": [
+      {
+        "season": "2022–2023",
+        "team": "Corinthians U20",
+        "apps": "38",
+        "goals": "11"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Corinthians",
+        "apps": "29",
+        "goals": "2"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Cercle Brugge",
+        "apps": "66",
+        "goals": "9"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Trabzonspor",
+        "apps": "40",
+        "goals": "15"
+      },
+      {
+        "season": "2026-",
+        "team": "Zenit",
+        "apps": "19",
+        "goals": "4"
+      }
+
+    ],
+    "difficulty": "kolay"
   }
 ]
