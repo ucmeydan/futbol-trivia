@@ -1069,5 +1069,73 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 17,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-15",
+    "season": "2017/18",
+    "homeTeam": "Trabzonspor",
+    "awayTeam": "Beşiktaş",
+    "homeScore": 0,
+    "awayScore": 2,
+    "matchDate": "05.03.2018",
+    "competition": "Süper Lig",
+    "targetTeam": "Beşiktaş",
+    "teamColor": "#1C1C1C",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "name": "FABRİ",
+        "number": 1
+      },
+      {
+        "name": "ADRİANO",
+        "number": 3
+      },
+      {
+        "name": "TOSİC",
+        "number": 6
+      },
+      {
+        "name": "MEDEL",
+        "number": 12
+      },
+      {
+        "name": "GÖKHAN",
+        "number": 77
+      },
+      {
+        "name": "HUTCHİNSON",
+        "number": 13
+      },
+      {
+        "name": "TOLGAY",
+        "number": 18
+      },
+      {
+        "name": "BABEL",
+        "number": 8
+      },
+      {
+        "name": "TALİSCA",
+        "number": 94
+      },
+      {
+        "name": "LENS",
+        "number": 17
+      },
+      {
+        "name": "VÁGNER LOVE",
+        "number": 30
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

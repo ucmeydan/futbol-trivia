@@ -1071,5 +1071,74 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 17,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-15",
+    "season": "2007/08",
+    "homeTeam": "Gençlerbirliği",
+    "awayTeam": "Kayserispor",
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyNote": "Pen. 10-11",
+    "matchDate": "07.05.2008",
+    "competition": "Türkiye Kupası",
+    "targetTeam": "Kayserispor",
+    "teamColor": "#FFD700",
+    "formation": [
+      1,
+      4,
+      4,
+      1,
+      1
+    ],
+    "players": [
+      {
+        "name": "İVANKOV",
+        "number": 27
+      },
+      {
+        "name": "TOLEDO",
+        "number": 12
+      },
+      {
+        "name": "ALİ",
+        "number": 5
+      },
+      {
+        "name": "AYDIN",
+        "number": 25
+      },
+      {
+        "name": "KORAY",
+        "number": 51
+      },
+      {
+        "name": "MEHMET EREN",
+        "number": 67
+      },
+      {
+        "name": "SAİDOU",
+        "number": 20
+      },
+      {
+        "name": "RAGIP",
+        "number": 8
+      },
+      {
+        "name": "MEHMET",
+        "number": 66
+      },
+      {
+        "name": "CANGELE",
+        "number": 19
+      },
+      {
+        "name": "İGLESİAS",
+        "number": 7
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
