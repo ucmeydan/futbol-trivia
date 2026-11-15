@@ -4378,5 +4378,33 @@
      "Samsunspor"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 222,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "Hem Liverpool hem de Süper Lig'deki 3 büyük takımdan herhangi birinde oynamış futbolcular?",
+    "activeDate": "2026-11-16",
+    "targets": [
+      "Nicolas Anelka",
+      "Ryan Kent",
+      "Dirk Kuyt",
+      "Lazar Markovic",
+      "Victor Moses",
+      "Martin Skrtel",
+      "Raul Meireles",
+      "Loris Karius",
+      "Alex Oxlade Chamberlain",
+      "Ryan Babel",
+      "Milan Baros",
+      "Emiliano Insua",
+      "Ozan Kabak",
+      "Harry Kewell",
+      "Albert Riera",
+      "Rigobert Song",
+      "Abel Xavier"
+    ],
+    "difficulty": "zor"
   }
 ]

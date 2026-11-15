@@ -3636,6 +3636,33 @@
       "Dortmund"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 196,
+    "game": "listeyi-tamamla",
+    "title": "2026 Dünya Kupası'nda yer alan Avrupa ülkeleri? ",
+    "type": "country",
+    "activeDate": "2026-11-16",
+    "targets": [
+      "İspanya",
+      "İngiltere",
+      "Almanya",
+      "Fransa",
+      "Portekiz",
+      "Belçika",
+      "Hollanda",
+      "Türkiye",
+      "Hırvatistan",
+      "Çekya",
+      "İsviçre",
+      "İsveç",
+      "Norveç",
+      "İskoçya",
+      "Bosna Hersek",
+      "Avusturya"
+    ],
+    "difficulty": "kolay"
   }
 
 

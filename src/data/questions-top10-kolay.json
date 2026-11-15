@@ -3885,6 +3885,27 @@
   },
 
   {
+    "id": 197,
+    "game": "top10",
+    "title": "Süper Lig'de güncel piyasa değeri en yüksek 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-11-16",
+    "targets": [
+      "Galatasaray",
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Başakşehir",
+      "Göztepe",
+      "Çorum FK",
+      "Samsunspor",
+      "Rizespor",
+      "Kasımpaşa"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
     "id": 204,
     "game": "top10",
     "title": "Fenerbahçe'nin Süper Lig tarihinde en çok gol attığı 10 takım?",

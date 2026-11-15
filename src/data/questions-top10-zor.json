@@ -4365,5 +4365,26 @@
       
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 222,
+    "game": "top10",
+    "title": "Michy Batshuayi'nin futbolculuk kariyerinde en çok maça çıktığı 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-11-16",
+    "targets": [
+      "Standard",
+      "Marsilya",
+      "Chelsea",
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Crystal Palace",
+      "Galatasaray",
+      "Valencia",
+      "Frankfurt",
+      "Dortmund"
+    ],
+    "difficulty": "zor"
   }
 ]

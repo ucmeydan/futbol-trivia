@@ -1137,5 +1137,73 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 18,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-16",
+    "season": "2021/22",
+    "homeTeam": "Beşiktaş",
+    "awayTeam": "Dortmund",
+    "homeScore": 1,
+    "awayScore": 2,
+    "matchDate": "15.09.2021",
+    "competition": "Şampiyonlar Ligi",
+    "targetTeam": "Beşiktaş",
+    "teamColor": "#1C1C1C",
+    "formation": [
+      1,
+      4,
+      1,
+      4,
+      1
+    ],
+    "players": [
+      {
+        "name": "ERSİN",
+        "number": 30
+      },
+      {
+        "name": "N'SAKALA",
+        "number": 21
+      },
+      {
+        "name": "MONTERO",
+        "number": 4
+      },
+      {
+        "name": "WELİNTON",
+        "number": 23
+      },
+      {
+        "name": "ROSİER",
+        "number": 2
+      },
+      {
+        "name": "SOUZA",
+        "number": 5
+      },
+      {
+        "name": "LARİN",
+        "number": 17
+      },
+      {
+        "name": "PJANİĆ",
+        "number": 15
+      },
+      {
+        "name": "HUTCHİNSON",
+        "number": 13
+      },
+      {
+        "name": "GHEZZAL",
+        "number": 18
+      },
+      {
+        "name": "BATSHUAYİ",
+        "number": 9
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

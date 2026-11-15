@@ -1140,5 +1140,72 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 18,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-16",
+    "season": "2024/25",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Tottenham",
+    "homeScore": 3,
+    "awayScore": 2,
+    "matchDate": "07.11.2024",
+    "competition": "Avrupa Ligi",
+    "targetTeam": "Tottenham",
+    "teamColor": "#FFFFFF",
+    "formation": [
+      1,
+      4,
+      3,
+      3
+    ],
+    "players": [
+      {
+        "name": "FORSTER",
+        "number": 20
+      },
+      {
+        "name": "GRAY",
+        "number": 14
+      },
+      {
+        "name": "DAVİES",
+        "number": 33
+      },
+      {
+        "name": "DRĂGUSIN",
+        "number": 6
+      },
+      {
+        "name": "PORRO",
+        "number": 23
+      },
+      {
+        "name": "BİSSOUMA",
+        "number": 8
+      },
+      {
+        "name": "MADDİSON",
+        "number": 10
+      },
+      {
+        "name": "BERGVALL",
+        "number": 15
+      },
+      {
+        "name": "SON",
+        "number": 7
+      },
+      {
+        "name": "LANKSHEAR",
+        "number": 42
+      },
+      {
+        "name": "JOHNSON",
+        "number": 22
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

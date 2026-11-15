@@ -8210,7 +8210,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 203,
     "game": "kariyer-yolu",
@@ -8246,6 +8245,51 @@
         "team": "Antalyaspor",
         "apps": "119",
         "goals": "17"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 204,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-16",
+    "correctPlayer": "Miroslav Karhan",
+    "career": [
+      {
+        "season": "1994–1999",
+        "team": "Spartak Trnava",
+        "apps": "152",
+        "goals": "21"
+      },
+      {
+        "season": "1999–2000",
+        "team": "Real Betis",
+        "apps": "34",
+        "goals": "2"
+      },
+      {
+        "season": "2000–2001",
+        "team": "Beşiktaş",
+        "apps": "37",
+        "goals": "3"
+      },
+      {
+        "season": "2001–2007",
+        "team": "VfL Wolfsburg",
+        "apps": "201",
+        "goals": "13"
+      },
+      {
+        "season": "2007–2011",
+        "team": "1.FSV Mainz 05",
+        "apps": "119",
+        "goals": "11"
+      },
+      {
+        "season": "2011–2013",
+        "team": "Spartak Trnava",
+        "apps": "90",
+        "goals": "8"
       }
     ],
     "difficulty": "zor"
