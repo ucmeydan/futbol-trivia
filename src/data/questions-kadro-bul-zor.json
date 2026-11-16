@@ -1207,5 +1207,73 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 19,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-17",
+    "season": "2012/13",
+    "homeTeam": "Bursaspor",
+    "awayTeam": "Twente",
+    "homeScore": 3,
+    "awayScore": 1,
+    "matchDate": "23.08.2012",
+    "competition": "Avrupa Ligi",
+    "targetTeam": "Bursaspor",
+    "teamColor": "#FFFFFF",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "name": "CARSON",
+        "number": 17
+      },
+      {
+        "name": "WEDERSON",
+        "number": 6
+      },
+      {
+        "name": "SERDAR",
+        "number": 23
+      },
+      {
+        "name": "İBRAHİM",
+        "number": 38
+      },
+      {
+        "name": "CHRETİEN",
+        "number": 20
+      },
+      {
+        "name": "N'DİAYE",
+        "number": 8
+      },
+      {
+        "name": "MUSA",
+        "number": 35
+      },
+      {
+        "name": "OZAN",
+        "number": 33
+      },
+      {
+        "name": "BATALLA",
+        "number": 10
+      },
+      {
+        "name": "SESTAK",
+        "number": 9
+      },
+      {
+        "name": "PİNTO",
+        "number": 11
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

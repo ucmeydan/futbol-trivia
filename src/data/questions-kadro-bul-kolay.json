@@ -1205,5 +1205,72 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 19,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-17",
+    "season": "2007/08",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Chelsea",
+    "homeScore": 2,
+    "awayScore": 1,
+    "matchDate": "02.04.2008",
+    "competition": "Şampiyonlar Ligi",
+    "targetTeam": "Chelsea",
+    "teamColor": "#034694",
+    "formation": [
+      1,
+      4,
+      3,
+      3
+    ],
+    "players": [
+      {
+        "name": "CUDİCİNİ",
+        "number": 23
+      },
+      {
+        "name": "COLE",
+        "number": 3
+      },
+      {
+        "name": "CARVALHO",
+        "number": 6
+      },
+      {
+        "name": "TERRY",
+        "number": 26
+      },
+      {
+        "name": "ESSİEN",
+        "number": 5
+      },
+      {
+        "name": "MAKELELE",
+        "number": 4
+      },
+      {
+        "name": "LAMPARD",
+        "number": 8
+      },
+      {
+        "name": "BALLACK",
+        "number": 13
+      },
+      {
+        "name": "MALOUDA",
+        "number": 15
+      },
+      {
+        "name": "DROGBA",
+        "number": 11
+      },
+      {
+        "name": "COLE",
+        "number": 10
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

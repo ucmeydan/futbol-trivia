@@ -4386,5 +4386,26 @@
       "Dortmund"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 223,
+    "game": "top10",
+    "title": "Fenerbahçe formasıyla resmi maça çıkan son 10 kaleci?",
+    "type": "player",
+    "activeDate": "2026-11-17",
+    "targets": [
+      "Ederson",
+      "Mert Günok",
+      "Tarık Çetin",
+      "İrfan Can Eğribayat",
+      "Dominik Livakovic",
+      "Ertuğrul Çetin",
+      "Altay Bayındır",
+      "Furkan Akyüz",
+      "Berke Özer",
+      "Harun Tekin"
+    ],
+    "difficulty": "zor"
   }
 ]

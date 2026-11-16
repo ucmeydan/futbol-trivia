@@ -8293,5 +8293,38 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 205,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-17",
+    "correctPlayer": "Ousseynou Ba",
+    "career": [
+      {
+        "season": "2017–2019",
+        "team": "GFC Ajaccio",
+        "apps": "66",
+        "goals": "1"
+      },
+      {
+        "season": "2019–2024",
+        "team": "Olympiakos",
+        "apps": "113",
+        "goals": "1"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Başakşehir (kiralık)",
+        "apps": "25",
+        "goals": "0"
+      },
+      {
+        "season": "2024–",
+        "team": "Başakşehir",
+        "apps": "65",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

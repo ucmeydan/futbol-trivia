@@ -3906,6 +3906,27 @@
   },
 
   {
+    "id": 198,
+    "game": "top10",
+    "title": "Aktif futbol kariyeri devam eden oyuncular arasında Türkiye A Milli takım formasıyla en çok maça çıkan 10 futbolcu? ",
+    "type": "player",
+    "activeDate": "2026-11-17",
+    "targets": [
+      "Hakan Çalhanoğlu",
+      "Kaan Ayhan",
+      "Merih Demiral",
+      "Zeki Çelik",
+      "Ozan Tufan",
+      "Çağlar Söyüncü",
+      "Kerem Aktürkoğlu",
+      "Orkun Kökçü",
+      "Cenk Tosun",
+      "Cengiz Ünder"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
     "id": 204,
     "game": "top10",
     "title": "Fenerbahçe'nin Süper Lig tarihinde en çok gol attığı 10 takım?",

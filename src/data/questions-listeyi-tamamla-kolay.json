@@ -3663,6 +3663,24 @@
       "Avusturya"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 197,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Avrupa kupalarında mücadele eden İtalyan takımları? (Ön elemeler dahil)",
+    "type": "team-eu",
+    "activeDate": "2026-11-17",
+    "targets": [
+      "Inter",
+      "Napoli",
+      "Como",
+      "Roma",
+      "Milan",
+      "Juventus",
+      "Atalanta"
+    ],
+    "difficulty": "kolay"
   }
 
 
