@@ -4407,5 +4407,26 @@
       "Harun Tekin"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 224,
+    "game": "top10",
+    "title": "Galatasaray'ın resmi maçlarda bir maçta 5 ve üzeri sayıda gol attığı son 10 takım?",
+    "type": "team-all",
+    "activeDate": "2026-11-18",
+    "targets": [
+      "Juventus",
+      "Eyüpspor",
+      "Konyaspor",
+      "Kayserispor",
+      "Adana Demirspor",
+      "Sivasspor",
+      "Rizespor",
+      "Trabzonspor",
+      "Başakşehir",
+      "Kastamonuspor"
+    ],
+    "difficulty": "zor"
   }
 ]

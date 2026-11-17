@@ -1272,5 +1272,72 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 20,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-18",
+    "season": "2024/25",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Manchester United",
+    "homeScore": 1,
+    "awayScore": 1,
+    "matchDate": "24.10.2024",
+    "competition": "Avrupa Ligi",
+    "targetTeam": "Fenerbahçe",
+    "teamColor": "#FFED00",
+    "formation": [
+      1,
+      4,
+      3,
+      3
+    ],
+    "players": [
+      {
+        "name": "LİVAKOVİC",
+        "number": 40
+      },
+      {
+        "name": "MERT",
+        "number": 16
+      },
+      {
+        "name": "ÇAĞLAR",
+        "number": 4
+      },
+      {
+        "name": "DJİKU",
+        "number": 6
+      },
+      {
+        "name": "OSAYİ-SAMUEL",
+        "number": 21
+      },
+      {
+        "name": "AMRABAT",
+        "number": 34
+      },
+      {
+        "name": "FRED",
+        "number": 13
+      },
+      {
+        "name": "SZYMANSKI",
+        "number": 53
+      },
+      {
+        "name": "SAINT-MAXİMİN",
+        "number": 97
+      },
+      {
+        "name": "EN-NESYRİ",
+        "number": 19
+      },
+      {
+        "name": "TADİĆ",
+        "number": 10
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

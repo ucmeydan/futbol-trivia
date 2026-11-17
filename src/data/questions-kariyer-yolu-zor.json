@@ -8326,5 +8326,74 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 206,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-18",
+    "correctPlayer": "David Akintola",
+    "career": [
+      {
+        "season": "2015–2021",
+        "team": "FC Midtjylland",
+        "apps": "3",
+        "goals": "0"
+      },
+      {
+        "season": "2016–2017",
+        "team": "FK Jerv (kiralık)",
+        "apps": "28",
+        "goals": "9"
+      },
+      {
+        "season": "2017–2018",
+        "team": "FK Haugesund (kiralık)",
+        "apps": "34",
+        "goals": "9"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Rosenborg BK (kiralık)",
+        "apps": "36",
+        "goals": "8"
+      },
+      {
+        "season": "2019–2020",
+        "team": "Omonia Lefkoşa (kiralık)",
+        "apps": "7",
+        "goals": "1"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Hatayspor (kiralık)",
+        "apps": "37",
+        "goals": "7"
+      },
+      {
+        "season": "2021–2024",
+        "team": "Adana Demirspor",
+        "apps": "77",
+        "goals": "13"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Çaykur Rizespor",
+        "apps": "49",
+        "goals": "4"
+      },
+      {
+        "season": "2025–2026",
+        "team": "Hull City",
+        "apps": "22",
+        "goals": "1"
+      },
+      {
+        "season": "2026–",
+        "team": "Omonia Lefkoşa",
+        "apps": "3",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

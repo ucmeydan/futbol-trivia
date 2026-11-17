@@ -1275,5 +1275,73 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 20,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-18",
+    "season": "2024/25",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Manchester United",
+    "homeScore": 1,
+    "awayScore": 1,
+    "matchDate": "24.10.2024",
+    "competition": "Avrupa Ligi",
+    "targetTeam": "Manchester United",
+    "teamColor": "#DA291C",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "name": "ONANA",
+        "number": 24
+      },
+      {
+        "name": "MARTİNEZ",
+        "number": 6
+      },
+      {
+        "name": "DE LİGT",
+        "number": 4
+      },
+      {
+        "name": "LİNDELOF",
+        "number": 2
+      },
+      {
+        "name": "DALOT",
+        "number": 20
+      },
+      {
+        "name": "UGARTE",
+        "number": 25
+      },
+      {
+        "name": "ERİKSEN",
+        "number": 14
+      },
+      {
+        "name": "GARNACHO",
+        "number": 17
+      },
+      {
+        "name": "MAZRAOUI",
+        "number": 3
+      },
+      {
+        "name": "RASHFORD",
+        "number": 10
+      },
+      {
+        "name": "ZİRKZEE",
+        "number": 11
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

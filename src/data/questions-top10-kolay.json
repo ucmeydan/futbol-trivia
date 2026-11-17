@@ -3927,6 +3927,28 @@
   },
 
   {
+    "id": 199,
+    "game": "top10",
+    "title": "Beşiktaş'ın resmi maçlarda mağlup olduğu son 10 takım? ",
+    "type": "team-all",
+    "activeDate": "2026-11-18",
+    "targets": [
+      "Celtic",
+      "Trabzonspor",
+      "Amed SK",
+      "Kauno Zalgiris",
+      "Alanyaspor",
+      "Konyaspor",
+      "Samsunspor",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Gençlerbirliği"
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
     "id": 204,
     "game": "top10",
     "title": "Fenerbahçe'nin Süper Lig tarihinde en çok gol attığı 10 takım?",
