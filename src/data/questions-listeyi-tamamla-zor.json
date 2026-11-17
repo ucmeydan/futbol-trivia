@@ -4422,5 +4422,25 @@
       "Danylo Sikan"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 223,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "2026 yılında Süper Lig'de hattrick yapan futbolcular?",
+    "activeDate": "2026-11-18",
+    "targets": [
+      "Mauro Icardi",
+      "Dorgeles Nene",
+      "Anderson Talisca",
+      "Dusan Vlahovic",
+      "Gift Orban",
+      "Mohamed Salah",
+      "Vedat Muriqi",
+      "Andre Henrique",
+      "Samuel Ballet"
+    ],
+    "difficulty": "zor"
   }
 ]

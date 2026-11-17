@@ -3681,6 +3681,22 @@
       "Atalanta"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 198,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Galatasaray'ın oynadığı 15 resmi maçın tamamında süre alan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-11-18",
+    "targets": [
+      "Davinson Sanchez",
+      "Yunus Akgün",
+      "Leroy Sane",
+      "Gabriel Sara",
+      "Eren Elmalı"
+    ],
+    "difficulty": "kolay"
   }
 
 
