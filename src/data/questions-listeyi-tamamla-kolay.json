@@ -3714,6 +3714,28 @@
       "Oğuz Aydın"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 200,
+    "game": "listeyi-tamamla",
+    "title": "3 büyük takımın mevcut kadrolarında yer alan Afrikalı futbolcular?",
+    "type": "player",
+    "activeDate": "2026-11-20",
+    "targets": [
+      "Ismael Jakobs",
+      "Wilfried Singo",
+      "Mario Lemina",
+      "Renato Nhaga",
+      "Victor Osimhen",
+      "Kojo Peprah Oppong",
+      "Dorgeles Nene",
+      "Kassoum Ouattara",
+      "Emmanuel Agbadou",
+      "Junior Olaitan",
+      "Wilfred Ndidi"
+    ],
+    "difficulty": "kolay"
   }
 
 

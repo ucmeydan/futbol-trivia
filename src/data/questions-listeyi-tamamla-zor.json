@@ -4458,5 +4458,21 @@
      "Krzysztof Piatek"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 225,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "Kariyerinde hem Fenerbahçe hem de Milan forması giymiş oyuncular?",
+    "activeDate": "2026-11-20",
+    "targets": [
+     "Simon Kjaer",
+     "Rade Krunic",
+     "Leonardo Bonucci",
+     "Adil Rami",
+     "Jose Sosa"
+    ],
+    "difficulty": "zor"
   }
 ]

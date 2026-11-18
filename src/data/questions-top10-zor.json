@@ -4449,5 +4449,26 @@
       "Enis Destan"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 226,
+    "game": "top10",
+    "title": "Galatasaray formasıyla en çok maça çıkan 10 Güney Amerikalı futbolcu?",
+    "type": "player",
+    "activeDate": "2026-11-20",
+    "targets": [
+      "Fernando Muslera",
+      "Faryd Mondragon",
+      "Lucas Torreira",
+      "Felipe Melo",
+      "Claudio Taffarel",
+      "Marcao",
+      "Davinson Sanchez",
+      "Mauro Icardi",
+      "Capone",
+      "Mariano"
+    ],
+    "difficulty": "zor"
   }
 ]

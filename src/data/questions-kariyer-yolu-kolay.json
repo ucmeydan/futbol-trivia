@@ -7504,5 +7504,44 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 197,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-20",
+    "correctPlayer": "Nelson Semedo",
+    "career": [
+      {
+        "season": "2013–2015",
+        "team": "Benfica B",
+        "apps": "66",
+        "goals": "5"
+      },
+      {
+        "season": "2015–2017",
+        "team": "Benfica",
+        "apps": "65",
+        "goals": "3"
+      },
+      {
+        "season": "2017–2020",
+        "team": "Barcelona",
+        "apps": "124",
+        "goals": "2"
+      },
+      {
+        "season": "2020–2025",
+        "team": "Wolverhampton Wanderers",
+        "apps": "182",
+        "goals": "3"
+      },
+      {
+        "season": "2025–",
+        "team": "Fenerbahçe",
+        "apps": "60",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

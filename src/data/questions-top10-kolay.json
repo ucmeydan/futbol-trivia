@@ -3970,6 +3970,28 @@
     "difficulty": "kolay"
   },
 
+   {
+    "id": 201,
+    "game": "top10",
+    "title": "Süper Lig'de 2024-25 sezonundan bu yana son 3 sezonun toplamında en fazla puan toplayan 10 takım? ",
+    "type": "player",
+    "activeDate": "2026-11-20",
+    "targets": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor",
+      "Beşiktaş",
+      "Başakşehir",
+      "Samsunspor",
+      "Göztepe",
+      "Rizespor",
+      "Kasımpaşa",
+      "Alanyaspor"
+
+    ],
+    "difficulty": "kolay"
+  },
+
   {
     "id": 204,
     "game": "top10",
