@@ -1410,5 +1410,72 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 22,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-20",
+    "season": "2009/10",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Atletico Madrid",
+    "homeScore": 1,
+    "awayScore": 2,
+    "matchDate": "25.02.2010",
+    "competition": "Avrupa Ligi",
+    "targetTeam": "Galatasaray",
+    "teamColor": "#E8192C",
+    "formation": [
+      1,
+      4,
+      5,
+      1
+    ],
+    "players": [
+      {
+        "name": "LEO FRANCO",
+        "number": 25
+      },
+      {
+        "name": "HAKAN",
+        "number": 22
+      },
+      {
+        "name": "ÇETİN",
+        "number": 76
+      },
+      {
+        "name": "UÇAR",
+        "number": 3
+      },
+      {
+        "name": "NEİLL",
+        "number": 12
+      },
+      {
+        "name": "CANER",
+        "number": 88
+      },
+      {
+        "name": "SARP",
+        "number": 16
+      },
+      {
+        "name": "ELANO",
+        "number": 9
+      },
+      {
+        "name": "MEHMET",
+        "number": 14
+      },
+      {
+        "name": "ARDA",
+        "number": 10
+      },
+      {
+        "name": "KEİTA",
+        "number": 11
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

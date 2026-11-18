@@ -1406,5 +1406,73 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 22,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-20",
+    "season": "2021/22",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Trabzonspor",
+    "homeScore": 1,
+    "awayScore": 2,
+    "matchDate": "23.01.2022",
+    "competition": "Süper Lig",
+    "targetTeam": "Trabzonspor",
+    "teamColor": "#7B1E34",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "name": "UĞURCAN",
+        "number": 1
+      },
+      {
+        "name": "PUCHACZ",
+        "number": 72
+      },
+      {
+        "name": "DENSWİL",
+        "number": 24
+      },
+      {
+        "name": "VİTOR HUGO",
+        "number": 13
+      },
+      {
+        "name": "BRUNO PERES",
+        "number": 33
+      },
+      {
+        "name": "BERAT",
+        "number": 5
+      },
+      {
+        "name": "DORUKHAN",
+        "number": 8
+      },
+      {
+        "name": "NWAKAEME",
+        "number": 9
+      },
+      {
+        "name": "BAKASETAS",
+        "number": 11
+      },
+      {
+        "name": "VİSCA",
+        "number": 18
+      },
+      {
+        "name": "CORNELİUS",
+        "number": 14
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

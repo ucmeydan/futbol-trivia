@@ -3948,6 +3948,28 @@
     "difficulty": "kolay"
   },
 
+   {
+    "id": 200,
+    "game": "top10",
+    "title": "A Milli futbol takımımızın 2026 Uluslar Ligi maçlarında en çok süre alan 10 futbolcu? ",
+    "type": "player",
+    "activeDate": "2026-11-19",
+    "targets": [
+      "Arda Güler",
+      "İsmail Yüksek",
+      "Merih Demiral",
+      "Abdülkerim Bardakcı",
+      "Zeki Çelik",
+      "Barış Alper Yılmaz",
+      "Ferdi Kadıoğlu",
+      "Uğurcan Çakır",
+      "Salih Özcan",
+      "Oğuz Aydın"
+
+    ],
+    "difficulty": "kolay"
+  },
+
   {
     "id": 204,
     "game": "top10",

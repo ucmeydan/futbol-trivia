@@ -3697,6 +3697,23 @@
       "Eren Elmalı"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 199,
+    "game": "listeyi-tamamla",
+    "title": "Fenerbahçe'nin bu sezon oynadığı tüm Süper Lig maçlarında süre alan futbolcular?",
+    "type": "player",
+    "activeDate": "2026-11-19",
+    "targets": [
+      "Milan Skriniar",
+      "N'golo Kante",
+      "Nelson Semedo",
+      "Vedat Muriqi",
+      "Matteo Guendouzi",
+      "Oğuz Aydın"
+    ],
+    "difficulty": "kolay"
   }
 
 
