@@ -1339,5 +1339,72 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 21,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-19",
+    "season": "2001/02",
+    "homeTeam": "Brezilya",
+    "awayTeam": "Türkiye",
+    "homeScore": 2,
+    "awayScore": 1,
+    "matchDate": "03.06.2002",
+    "competition": "Dünya Kupası",
+    "targetTeam": "Brezilya",
+    "teamColor": "#FCBE00",
+    "formation": [
+      1,
+      3,
+      5,
+      2
+    ],
+    "players": [
+      {
+        "name": "MARCOS",
+        "number": 1
+      },
+      {
+        "name": "ROQUE JÚNIOR",
+        "number": 4
+      },
+      {
+        "name": "LÚCIO",
+        "number": 3
+      },
+      {
+        "name": "EDMİLSON",
+        "number": 5
+      },
+      {
+        "name": "ROBERTO CARLOS",
+        "number": 6
+      },
+      {
+        "name": "JUNİNHO PAULİSTA",
+        "number": 19
+      },
+      {
+        "name": "GİLBERTO SİLVA",
+        "number": 8
+      },
+      {
+        "name": "RİVALDO",
+        "number": 10
+      },
+      {
+        "name": "CAFU",
+        "number": 2
+      },
+      {
+        "name": "RONALDİNHO",
+        "number": 11
+      },
+      {
+        "name": "RONALDO",
+        "number": 9
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

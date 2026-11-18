@@ -7286,7 +7286,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 192,
     "game": "kariyer-yolu",
@@ -7323,11 +7322,9 @@
         "apps": "19",
         "goals": "4"
       }
-
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 193,
     "game": "kariyer-yolu",
@@ -7367,7 +7364,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 194,
     "game": "kariyer-yolu",
@@ -7407,7 +7403,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 195,
     "game": "kariyer-yolu",
@@ -7449,6 +7444,63 @@
         "team": "Ludogorets",
         "apps": "7",
         "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 196,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-19",
+    "correctPlayer": "DeAndre Yedlin",
+    "career": [
+      {
+        "season": "2013–2015",
+        "team": "Seattle Sounders",
+        "apps": "69",
+        "goals": "3"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Tottenham",
+        "apps": "1",
+        "goals": "0"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Sunderland (kiralık)",
+        "apps": "25",
+        "goals": "0"
+      },
+      {
+        "season": "2016–2021",
+        "team": "Newcastle United",
+        "apps": "125",
+        "goals": "3"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Galatasaray",
+        "apps": "36",
+        "goals": "1"
+      },
+      {
+        "season": "2022–2024",
+        "team": "Inter Miami",
+        "apps": "82",
+        "goals": "0"
+      },
+      {
+        "season": "2024–2025",
+        "team": "FC Cincinnati",
+        "apps": "67",
+        "goals": "1"
+      },
+      {
+        "season": "2025–",
+        "team": "Real Salt Lake",
+        "apps": "35",
+        "goals": "1"
       }
     ],
     "difficulty": "kolay"

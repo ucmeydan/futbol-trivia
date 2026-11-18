@@ -1343,5 +1343,72 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 21,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-18",
+    "season": "2024/25",
+    "homeTeam": "Ajax",
+    "awayTeam": "Beşiktaş",
+    "homeScore": 4,
+    "awayScore": 0,
+    "matchDate": "26.09.2024",
+    "competition": "Avrupa Ligi",
+    "targetTeam": "Ajax",
+    "teamColor": "#FFFFFF",
+    "formation": [
+      1,
+      4,
+      3,
+      3
+    ],
+    "players": [
+      {
+        "name": "PASVEER",
+        "number": 22
+      },
+      {
+        "name": "HATO",
+        "number": 4
+      },
+      {
+        "name": "BAAS",
+        "number": 15
+      },
+      {
+        "name": "SUTALO",
+        "number": 37
+      },
+      {
+        "name": "RENSCH",
+        "number": 2
+      },
+      {
+        "name": "FITZ JİM",
+        "number": 28
+      },
+      {
+        "name": "HENDERSON",
+        "number": 6
+      },
+      {
+        "name": "TAYLOR",
+        "number": 8
+      },
+      {
+        "name": "GODTS",
+        "number": 11
+      },
+      {
+        "name": "BROBBEY",
+        "number": 9
+      },
+      {
+        "name": "TRAORÉ",
+        "number": 20
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

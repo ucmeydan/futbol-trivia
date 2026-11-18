@@ -4442,5 +4442,21 @@
       "Samuel Ballet"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 224,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "Süper Lig kariyerinde 4 ve üzeri sayıda hattrick yapmış yabancı futbolcular?",
+    "activeDate": "2026-11-19",
+    "targets": [
+     "Alex De Souza",
+     "Mbaye Diagne",
+     "Milan Baros",
+     "Shota Arveladze",
+     "Krzysztof Piatek"
+    ],
+    "difficulty": "zor"
   }
 ]

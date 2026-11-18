@@ -8395,5 +8395,113 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 207,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-19",
+    "correctPlayer": "Deniz Kadah",
+    "career": [
+      {
+        "season": "2005–2006",
+        "team": "Rotenburger SV",
+        "apps": "26",
+        "goals": "8"
+      },
+      {
+        "season": "2006–2007",
+        "team": "TuS Heeslingen",
+        "apps": "24",
+        "goals": "13"
+      },
+      {
+        "season": "2007–2008",
+        "team": "VfB Lübeck",
+        "apps": "29",
+        "goals": "6"
+      },
+      {
+        "season": "2008–2010",
+        "team": "Fortuna Düsseldorf",
+        "apps": "39",
+        "goals": "8"
+      },
+      {
+        "season": "2010–2011",
+        "team": "FC Oberneuland",
+        "apps": "15",
+        "goals": "2"
+      },
+      {
+        "season": "2011–2012",
+        "team": "VfB Lübeck",
+        "apps": "26",
+        "goals": "20"
+      },
+      {
+        "season": "2012–2013",
+        "team": "Hannover 96 II",
+        "apps": "31",
+        "goals": "30"
+      },
+      {
+        "season": "2013–2014",
+        "team": "Hannover 96",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2014–2016",
+        "team": "Çaykur Rizespor",
+        "apps": "92",
+        "goals": "30"
+      },
+      {
+        "season": "2016–2018",
+        "team": "Antalyaspor",
+        "apps": "60",
+        "goals": "20"
+      },
+      {
+        "season": "2018–2020",
+        "team": "Göztepe",
+        "apps": "47",
+        "goals": "9"
+      },
+      {
+        "season": "2021–",
+        "team": "Altay SK",
+        "apps": "103",
+        "goals": "14"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 208,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-20",
+    "correctPlayer": "Devrim Şahin",
+    "career": [
+      {
+        "season": "2024–2025",
+        "team": "Beşiktaş U19",
+        "apps": "42",
+        "goals": "15"
+      },
+      {
+        "season": "2025–",
+        "team": "Beşiktaş",
+        "apps": "6",
+        "goals": "0"
+      },
+      {
+        "season": "2026–",
+        "team": "Bodrum FK (kiralık)",
+        "apps": "5",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
