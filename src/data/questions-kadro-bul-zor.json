@@ -1477,5 +1477,142 @@
     ],
     "difficulty": "zor",
     "league": "Avrupa Ligi"
+  },
+  {
+    "id": 23,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-21",
+    "season": "2008/09",
+    "homeTeam": "Kocaelispor",
+    "awayTeam": "Fenerbahçe",
+    "homeScore": 2,
+    "awayScore": 3,
+    "matchDate": "18.10.2008",
+    "league": "Süper Lig",
+    "targetTeam": "Fenerbahçe",
+    "teamColor": "#FFDD00",
+    "formation": [
+      1,
+      4,
+      1,
+      2,
+      1,
+      2
+    ],
+    "players": [
+      {
+        "answer": "VOLKAN",
+        "number": 1
+      },
+      {
+        "answer": "ROBERTO CARLOS",
+        "number": 3
+      },
+      {
+        "answer": "LUGANO",
+        "number": 2
+      },
+      {
+        "answer": "EDU DRACENA",
+        "number": 4
+      },
+      {
+        "answer": "ÖNDER",
+        "number": 19
+      },
+      {
+        "answer": "SELÇUK",
+        "number": 21
+      },
+      {
+        "answer": "UĞUR",
+        "number": 25
+      },
+      {
+        "answer": "COLİN KAZIM",
+        "number": 8
+      },
+      {
+        "answer": "ALEX",
+        "number": 10
+      },
+      {
+        "answer": "GÜİZA",
+        "number": 14
+      },
+      {
+        "answer": "SEMİH",
+        "number": 23
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 24,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-22",
+    "season": "2017/18",
+    "homeTeam": "Beşiktaş",
+    "awayTeam": "Konyaspor",
+    "homeScore": 1,
+    "awayScore": 2,
+    "matchDate": "06.08.2017",
+    "league": "Süper Kupa",
+    "targetTeam": "Konyaspor",
+    "teamColor": "#FFFFFF",
+    "formation": [
+      1,
+      4,
+      2,
+      2,
+      2
+    ],
+    "players": [
+      {
+        "answer": "SERKAN",
+        "number": 1
+      },
+      {
+        "answer": "FERHAT",
+        "number": 87
+      },
+      {
+        "answer": "ALİ",
+        "number": 4
+      },
+      {
+        "answer": "MOKE",
+        "number": 19
+      },
+      {
+        "answer": "SKUBİC",
+        "number": 89
+      },
+      {
+        "answer": "ALİ",
+        "number": 8
+      },
+      {
+        "answer": "BOURABİA",
+        "number": 68
+      },
+      {
+        "answer": "FOFANA",
+        "number": 21
+      },
+      {
+        "answer": "ÖMER ALİ",
+        "number": 7
+      },
+      {
+        "answer": "MİLOSEVİC",
+        "number": 11
+      },
+      {
+        "answer": "TRAORÉ",
+        "number": 12
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
