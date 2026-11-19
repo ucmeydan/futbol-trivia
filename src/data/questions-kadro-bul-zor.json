@@ -947,7 +947,6 @@
     "homeScore": 3,
     "awayScore": 2,
     "matchDate": "07.09.2010",
-    "competition": "Avrupa Şampiyonası Elemeleri",
     "targetTeam": "Belçika",
     "teamColor": "#FFD100",
     "formation": [
@@ -958,51 +957,52 @@
     ],
     "players": [
       {
-        "name": "BAİLLY",
-        "number": 1
+        "number": 1,
+        "answer": "BAİLLY"
       },
       {
-        "name": "VERMAELEN",
-        "number": 5
+        "number": 5,
+        "answer": "VERMAELEN"
       },
       {
-        "name": "KOMPANY",
-        "number": 4
+        "number": 4,
+        "answer": "KOMPANY"
       },
       {
-        "name": "VAN BUYTEN",
-        "number": 3
+        "number": 3,
+        "answer": "VAN BUYTEN"
       },
       {
-        "name": "ALDERWEIRELD",
-        "number": 2
+        "number": 2,
+        "answer": "ALDERWEIRELD"
       },
       {
-        "name": "VERTONGHEN",
-        "number": 8
+        "number": 8,
+        "answer": "VERTONGHEN"
       },
       {
-        "name": "FELLAİNİ",
-        "number": 10
+        "number": 10,
+        "answer": "FELLAİNİ"
       },
       {
-        "name": "SİMONS",
-        "number": 6
+        "number": 6,
+        "answer": "SİMONS"
       },
       {
-        "name": "GİLLET",
-        "number": 7
+        "number": 7,
+        "answer": "GİLLET"
       },
       {
-        "name": "LUKAKU",
-        "number": 9
+        "number": 9,
+        "answer": "LUKAKU"
       },
       {
-        "name": "DEMBÉLÉ",
-        "number": 11
+        "number": 11,
+        "answer": "DEMBÉLÉ"
       }
     ],
-    "difficulty": "zor"
+    "difficulty": "zor",
+    "league": "Avrupa Şampiyonası Elemeleri"
   },
   {
     "id": 16,
@@ -1014,7 +1014,6 @@
     "homeScore": 3,
     "awayScore": 0,
     "matchDate": "23.10.2025",
-    "competition": "Konferans Ligi",
     "targetTeam": "Samsunspor",
     "teamColor": "#E30A17",
     "formation": [
@@ -1026,51 +1025,52 @@
     ],
     "players": [
       {
-        "name": "KOCUK",
-        "number": 1
+        "number": 1,
+        "answer": "KOCUK"
       },
       {
-        "name": "TÓMASSON",
-        "number": 17
+        "number": 17,
+        "answer": "TÓMASSON"
       },
       {
-        "name": "VAN DRONGELEN",
-        "number": 4
+        "number": 4,
+        "answer": "VAN DRONGELEN"
       },
       {
-        "name": "SATKA",
-        "number": 37
+        "number": 37,
+        "answer": "SATKA"
       },
       {
-        "name": "YAVRU",
-        "number": 18
+        "number": 18,
+        "answer": "YAVRU"
       },
       {
-        "name": "YÜKSEL",
-        "number": 5
+        "number": 5,
+        "answer": "YÜKSEL"
       },
       {
-        "name": "MAKOUMBOU",
-        "number": 29
+        "number": 29,
+        "answer": "MAKOUMBOU"
       },
       {
-        "name": "MUSABA",
-        "number": 7
+        "number": 7,
+        "answer": "MUSABA"
       },
       {
-        "name": "HOLSE",
-        "number": 21
+        "number": 21,
+        "answer": "HOLSE"
       },
       {
-        "name": "COULIBALY",
-        "number": 70
+        "number": 70,
+        "answer": "COULIBALY"
       },
       {
-        "name": "MOUANDİLMADJİ",
-        "number": 9
+        "number": 9,
+        "answer": "MOUANDİLMADJİ"
       }
     ],
-    "difficulty": "zor"
+    "difficulty": "zor",
+    "league": "Konferans Ligi"
   },
   {
     "id": 17,
@@ -1083,7 +1083,6 @@
     "awayScore": 0,
     "penaltyNote": "Pen. 10-11",
     "matchDate": "07.05.2008",
-    "competition": "Türkiye Kupası",
     "targetTeam": "Kayserispor",
     "teamColor": "#FFD700",
     "formation": [
@@ -1095,51 +1094,52 @@
     ],
     "players": [
       {
-        "name": "İVANKOV",
-        "number": 27
+        "number": 27,
+        "answer": "İVANKOV"
       },
       {
-        "name": "TOLEDO",
-        "number": 12
+        "number": 12,
+        "answer": "TOLEDO"
       },
       {
-        "name": "ALİ",
-        "number": 5
+        "number": 5,
+        "answer": "ALİ"
       },
       {
-        "name": "AYDIN",
-        "number": 25
+        "number": 25,
+        "answer": "AYDIN"
       },
       {
-        "name": "KORAY",
-        "number": 51
+        "number": 51,
+        "answer": "KORAY"
       },
       {
-        "name": "MEHMET EREN",
-        "number": 67
+        "number": 67,
+        "answer": "MEHMET EREN"
       },
       {
-        "name": "SAİDOU",
-        "number": 20
+        "number": 20,
+        "answer": "SAİDOU"
       },
       {
-        "name": "RAGIP",
-        "number": 8
+        "number": 8,
+        "answer": "RAGIP"
       },
       {
-        "name": "MEHMET",
-        "number": 66
+        "number": 66,
+        "answer": "MEHMET"
       },
       {
-        "name": "CANGELE",
-        "number": 19
+        "number": 19,
+        "answer": "CANGELE"
       },
       {
-        "name": "İGLESİAS",
-        "number": 7
+        "number": 7,
+        "answer": "İGLESİAS"
       }
     ],
-    "difficulty": "zor"
+    "difficulty": "zor",
+    "league": "Türkiye Kupası"
   },
   {
     "id": 18,
@@ -1151,7 +1151,6 @@
     "homeScore": 3,
     "awayScore": 2,
     "matchDate": "07.11.2024",
-    "competition": "Avrupa Ligi",
     "targetTeam": "Tottenham",
     "teamColor": "#FFFFFF",
     "formation": [
@@ -1162,51 +1161,52 @@
     ],
     "players": [
       {
-        "name": "FORSTER",
-        "number": 20
+        "number": 20,
+        "answer": "FORSTER"
       },
       {
-        "name": "GRAY",
-        "number": 14
+        "number": 14,
+        "answer": "GRAY"
       },
       {
-        "name": "DAVİES",
-        "number": 33
+        "number": 33,
+        "answer": "DAVİES"
       },
       {
-        "name": "DRĂGUSIN",
-        "number": 6
+        "number": 6,
+        "answer": "DRĂGUSIN"
       },
       {
-        "name": "PORRO",
-        "number": 23
+        "number": 23,
+        "answer": "PORRO"
       },
       {
-        "name": "BİSSOUMA",
-        "number": 8
+        "number": 8,
+        "answer": "BİSSOUMA"
       },
       {
-        "name": "MADDİSON",
-        "number": 10
+        "number": 10,
+        "answer": "MADDİSON"
       },
       {
-        "name": "BERGVALL",
-        "number": 15
+        "number": 15,
+        "answer": "BERGVALL"
       },
       {
-        "name": "SON",
-        "number": 7
+        "number": 7,
+        "answer": "SON"
       },
       {
-        "name": "LANKSHEAR",
-        "number": 42
+        "number": 42,
+        "answer": "LANKSHEAR"
       },
       {
-        "name": "JOHNSON",
-        "number": 22
+        "number": 22,
+        "answer": "JOHNSON"
       }
     ],
-    "difficulty": "zor"
+    "difficulty": "zor",
+    "league": "Avrupa Ligi"
   },
   {
     "id": 19,
@@ -1218,7 +1218,6 @@
     "homeScore": 3,
     "awayScore": 1,
     "matchDate": "23.08.2012",
-    "competition": "Avrupa Ligi",
     "targetTeam": "Bursaspor",
     "teamColor": "#FFFFFF",
     "formation": [
@@ -1230,51 +1229,52 @@
     ],
     "players": [
       {
-        "name": "CARSON",
-        "number": 17
+        "number": 17,
+        "answer": "CARSON"
       },
       {
-        "name": "WEDERSON",
-        "number": 6
+        "number": 6,
+        "answer": "WEDERSON"
       },
       {
-        "name": "SERDAR",
-        "number": 23
+        "number": 23,
+        "answer": "SERDAR"
       },
       {
-        "name": "İBRAHİM",
-        "number": 38
+        "number": 38,
+        "answer": "İBRAHİM"
       },
       {
-        "name": "CHRETİEN",
-        "number": 20
+        "number": 20,
+        "answer": "CHRETİEN"
       },
       {
-        "name": "N'DİAYE",
-        "number": 8
+        "number": 8,
+        "answer": "N'DİAYE"
       },
       {
-        "name": "MUSA",
-        "number": 35
+        "number": 35,
+        "answer": "MUSA"
       },
       {
-        "name": "OZAN",
-        "number": 33
+        "number": 33,
+        "answer": "OZAN"
       },
       {
-        "name": "BATALLA",
-        "number": 10
+        "number": 10,
+        "answer": "BATALLA"
       },
       {
-        "name": "SESTAK",
-        "number": 9
+        "number": 9,
+        "answer": "SESTAK"
       },
       {
-        "name": "PİNTO",
-        "number": 11
+        "number": 11,
+        "answer": "PİNTO"
       }
     ],
-    "difficulty": "zor"
+    "difficulty": "zor",
+    "league": "Avrupa Ligi"
   },
   {
     "id": 20,
@@ -1286,7 +1286,6 @@
     "homeScore": 1,
     "awayScore": 1,
     "matchDate": "24.10.2024",
-    "competition": "Avrupa Ligi",
     "targetTeam": "Manchester United",
     "teamColor": "#DA291C",
     "formation": [
@@ -1298,51 +1297,52 @@
     ],
     "players": [
       {
-        "name": "ONANA",
-        "number": 24
+        "number": 24,
+        "answer": "ONANA"
       },
       {
-        "name": "MARTİNEZ",
-        "number": 6
+        "number": 6,
+        "answer": "MARTİNEZ"
       },
       {
-        "name": "DE LİGT",
-        "number": 4
+        "number": 4,
+        "answer": "DE LİGT"
       },
       {
-        "name": "LİNDELOF",
-        "number": 2
+        "number": 2,
+        "answer": "LİNDELOF"
       },
       {
-        "name": "DALOT",
-        "number": 20
+        "number": 20,
+        "answer": "DALOT"
       },
       {
-        "name": "UGARTE",
-        "number": 25
+        "number": 25,
+        "answer": "UGARTE"
       },
       {
-        "name": "ERİKSEN",
-        "number": 14
+        "number": 14,
+        "answer": "ERİKSEN"
       },
       {
-        "name": "GARNACHO",
-        "number": 17
+        "number": 17,
+        "answer": "GARNACHO"
       },
       {
-        "name": "MAZRAOUI",
-        "number": 3
+        "number": 3,
+        "answer": "MAZRAOUI"
       },
       {
-        "name": "RASHFORD",
-        "number": 10
+        "number": 10,
+        "answer": "RASHFORD"
       },
       {
-        "name": "ZİRKZEE",
-        "number": 11
+        "number": 11,
+        "answer": "ZİRKZEE"
       }
     ],
-    "difficulty": "zor"
+    "difficulty": "zor",
+    "league": "Avrupa Ligi"
   },
   {
     "id": 21,
@@ -1354,7 +1354,6 @@
     "homeScore": 4,
     "awayScore": 0,
     "matchDate": "26.09.2024",
-    "competition": "Avrupa Ligi",
     "targetTeam": "Ajax",
     "teamColor": "#FFFFFF",
     "formation": [
@@ -1365,51 +1364,52 @@
     ],
     "players": [
       {
-        "name": "PASVEER",
-        "number": 22
+        "number": 22,
+        "answer": "PASVEER"
       },
       {
-        "name": "HATO",
-        "number": 4
+        "number": 4,
+        "answer": "HATO"
       },
       {
-        "name": "BAAS",
-        "number": 15
+        "number": 15,
+        "answer": "BAAS"
       },
       {
-        "name": "SUTALO",
-        "number": 37
+        "number": 37,
+        "answer": "SUTALO"
       },
       {
-        "name": "RENSCH",
-        "number": 2
+        "number": 2,
+        "answer": "RENSCH"
       },
       {
-        "name": "FITZ JİM",
-        "number": 28
+        "number": 28,
+        "answer": "FITZ JİM"
       },
       {
-        "name": "HENDERSON",
-        "number": 6
+        "number": 6,
+        "answer": "HENDERSON"
       },
       {
-        "name": "TAYLOR",
-        "number": 8
+        "number": 8,
+        "answer": "TAYLOR"
       },
       {
-        "name": "GODTS",
-        "number": 11
+        "number": 11,
+        "answer": "GODTS"
       },
       {
-        "name": "BROBBEY",
-        "number": 9
+        "number": 9,
+        "answer": "BROBBEY"
       },
       {
-        "name": "TRAORÉ",
-        "number": 20
+        "number": 20,
+        "answer": "TRAORÉ"
       }
     ],
-    "difficulty": "zor"
+    "difficulty": "zor",
+    "league": "Avrupa Ligi"
   },
   {
     "id": 22,
@@ -1421,7 +1421,6 @@
     "homeScore": 1,
     "awayScore": 2,
     "matchDate": "25.02.2010",
-    "competition": "Avrupa Ligi",
     "targetTeam": "Galatasaray",
     "teamColor": "#E8192C",
     "formation": [
@@ -1432,50 +1431,51 @@
     ],
     "players": [
       {
-        "name": "LEO FRANCO",
-        "number": 25
+        "number": 25,
+        "answer": "LEO FRANCO"
       },
       {
-        "name": "HAKAN",
-        "number": 22
+        "number": 22,
+        "answer": "HAKAN"
       },
       {
-        "name": "SERVET",
-        "number": 76
+        "number": 76,
+        "answer": "SERVET"
       },
       {
-        "name": "UĞUR",
-        "number": 3
+        "number": 3,
+        "answer": "UĞUR"
       },
       {
-        "name": "NEİLL",
-        "number": 12
+        "number": 12,
+        "answer": "NEİLL"
       },
       {
-        "name": "CANER",
-        "number": 88
+        "number": 88,
+        "answer": "CANER"
       },
       {
-        "name": "MUSTAFA",
-        "number": 16
+        "number": 16,
+        "answer": "MUSTAFA"
       },
       {
-        "name": "ELANO",
-        "number": 9
+        "number": 9,
+        "answer": "ELANO"
       },
       {
-        "name": "MEHMET",
-        "number": 14
+        "number": 14,
+        "answer": "MEHMET"
       },
       {
-        "name": "ARDA",
-        "number": 10
+        "number": 10,
+        "answer": "ARDA"
       },
       {
-        "name": "KEİTA",
-        "number": 11
+        "number": 11,
+        "answer": "KEİTA"
       }
     ],
-    "difficulty": "zor"
+    "difficulty": "zor",
+    "league": "Avrupa Ligi"
   }
 ]

@@ -944,7 +944,6 @@
     "homeScore": 3,
     "awayScore": 2,
     "matchDate": "07.09.2010",
-    "competition": "Avrupa Şampiyonası Elemeleri",
     "targetTeam": "Türkiye",
     "teamColor": "#E30A17",
     "formation": [
@@ -956,51 +955,52 @@
     ],
     "players": [
       {
-        "name": "VOLKAN",
-        "number": 1
+        "number": 1,
+        "answer": "VOLKAN"
       },
       {
-        "name": "İSMAİL",
-        "number": 3
+        "number": 3,
+        "answer": "İSMAİL"
       },
       {
-        "name": "SERVET",
-        "number": 2
+        "number": 2,
+        "answer": "SERVET"
       },
       {
-        "name": "ÖMER",
-        "number": 17
+        "number": 17,
+        "answer": "ÖMER"
       },
       {
-        "name": "SABRİ",
-        "number": 22
+        "number": 22,
+        "answer": "SABRİ"
       },
       {
-        "name": "AURELİO",
-        "number": 15
+        "number": 15,
+        "answer": "AURELİO"
       },
       {
-        "name": "ARDA",
-        "number": 14
+        "number": 14,
+        "answer": "ARDA"
       },
       {
-        "name": "SELÇUK",
-        "number": 18
+        "number": 18,
+        "answer": "SELÇUK"
       },
       {
-        "name": "EMRE",
-        "number": 5
+        "number": 5,
+        "answer": "EMRE"
       },
       {
-        "name": "HAMİT",
-        "number": 6
+        "number": 6,
+        "answer": "HAMİT"
       },
       {
-        "name": "TUNCAY",
-        "number": 10
+        "number": 10,
+        "answer": "TUNCAY"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "kolay",
+    "league": "Avrupa Şampiyonası Elemeleri"
   },
   {
     "id": 16,
@@ -1012,7 +1012,6 @@
     "homeScore": 2,
     "awayScore": 1,
     "matchDate": "19.05.2019",
-    "competition": "Süper Lig",
     "targetTeam": "Galatasaray",
     "teamColor": "#E30A17",
     "formation": [
@@ -1024,51 +1023,52 @@
     ],
     "players": [
       {
-        "name": "MUSLERA",
-        "number": 1
+        "number": 1,
+        "answer": "MUSLERA"
       },
       {
-        "name": "NAGATOMO",
-        "number": 55
+        "number": 55,
+        "answer": "NAGATOMO"
       },
       {
-        "name": "MARCÃO",
-        "number": 45
+        "number": 45,
+        "answer": "MARCÃO"
       },
       {
-        "name": "LUYİNDAMA",
-        "number": 27
+        "number": 27,
+        "answer": "LUYİNDAMA"
       },
       {
-        "name": "MARİANO",
-        "number": 2
+        "number": 2,
+        "answer": "MARİANO"
       },
       {
-        "name": "DONK",
-        "number": 15
+        "number": 15,
+        "answer": "DONK"
       },
       {
-        "name": "ONYEKURU",
-        "number": 21
+        "number": 21,
+        "answer": "ONYEKURU"
       },
       {
-        "name": "BELHANDA",
-        "number": 10
+        "number": 10,
+        "answer": "BELHANDA"
       },
       {
-        "name": "FERNANDO",
-        "number": 25
+        "number": 25,
+        "answer": "FERNANDO"
       },
       {
-        "name": "FEGHOULI",
-        "number": 89
+        "number": 89,
+        "answer": "FEGHOULI"
       },
       {
-        "name": "DİAGNE",
-        "number": 91
+        "number": 91,
+        "answer": "DİAGNE"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "kolay",
+    "league": "Süper Lig"
   },
   {
     "id": 17,
@@ -1080,7 +1080,6 @@
     "homeScore": 0,
     "awayScore": 2,
     "matchDate": "05.03.2018",
-    "competition": "Süper Lig",
     "targetTeam": "Beşiktaş",
     "teamColor": "#1C1C1C",
     "formation": [
@@ -1092,51 +1091,52 @@
     ],
     "players": [
       {
-        "name": "FABRİ",
-        "number": 1
+        "number": 1,
+        "answer": "FABRİ"
       },
       {
-        "name": "ADRİANO",
-        "number": 3
+        "number": 3,
+        "answer": "ADRİANO"
       },
       {
-        "name": "TOSİC",
-        "number": 6
+        "number": 6,
+        "answer": "TOSİC"
       },
       {
-        "name": "MEDEL",
-        "number": 12
+        "number": 12,
+        "answer": "MEDEL"
       },
       {
-        "name": "GÖKHAN",
-        "number": 77
+        "number": 77,
+        "answer": "GÖKHAN"
       },
       {
-        "name": "HUTCHİNSON",
-        "number": 13
+        "number": 13,
+        "answer": "HUTCHİNSON"
       },
       {
-        "name": "TOLGAY",
-        "number": 18
+        "number": 18,
+        "answer": "TOLGAY"
       },
       {
-        "name": "BABEL",
-        "number": 8
+        "number": 8,
+        "answer": "BABEL"
       },
       {
-        "name": "TALİSCA",
-        "number": 94
+        "number": 94,
+        "answer": "TALİSCA"
       },
       {
-        "name": "LENS",
-        "number": 17
+        "number": 17,
+        "answer": "LENS"
       },
       {
-        "name": "VÁGNER LOVE",
-        "number": 30
+        "number": 30,
+        "answer": "VÁGNER LOVE"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "kolay",
+    "league": "Süper Lig"
   },
   {
     "id": 18,
@@ -1148,7 +1148,6 @@
     "homeScore": 1,
     "awayScore": 2,
     "matchDate": "15.09.2021",
-    "competition": "Şampiyonlar Ligi",
     "targetTeam": "Beşiktaş",
     "teamColor": "#1C1C1C",
     "formation": [
@@ -1160,51 +1159,52 @@
     ],
     "players": [
       {
-        "name": "ERSİN",
-        "number": 30
+        "number": 30,
+        "answer": "ERSİN"
       },
       {
-        "name": "N'SAKALA",
-        "number": 21
+        "number": 21,
+        "answer": "N'SAKALA"
       },
       {
-        "name": "MONTERO",
-        "number": 4
+        "number": 4,
+        "answer": "MONTERO"
       },
       {
-        "name": "WELİNTON",
-        "number": 23
+        "number": 23,
+        "answer": "WELİNTON"
       },
       {
-        "name": "ROSİER",
-        "number": 2
+        "number": 2,
+        "answer": "ROSİER"
       },
       {
-        "name": "SOUZA",
-        "number": 5
+        "number": 5,
+        "answer": "SOUZA"
       },
       {
-        "name": "LARİN",
-        "number": 17
+        "number": 17,
+        "answer": "LARİN"
       },
       {
-        "name": "PJANİĆ",
-        "number": 15
+        "number": 15,
+        "answer": "PJANİĆ"
       },
       {
-        "name": "HUTCHİNSON",
-        "number": 13
+        "number": 13,
+        "answer": "HUTCHİNSON"
       },
       {
-        "name": "GHEZZAL",
-        "number": 18
+        "number": 18,
+        "answer": "GHEZZAL"
       },
       {
-        "name": "BATSHUAYİ",
-        "number": 9
+        "number": 9,
+        "answer": "BATSHUAYİ"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "kolay",
+    "league": "Şampiyonlar Ligi"
   },
   {
     "id": 19,
@@ -1216,7 +1216,6 @@
     "homeScore": 2,
     "awayScore": 1,
     "matchDate": "02.04.2008",
-    "competition": "Şampiyonlar Ligi",
     "targetTeam": "Chelsea",
     "teamColor": "#034694",
     "formation": [
@@ -1227,51 +1226,52 @@
     ],
     "players": [
       {
-        "name": "CUDİCİNİ",
-        "number": 23
+        "number": 23,
+        "answer": "CUDİCİNİ"
       },
       {
-        "name": "COLE",
-        "number": 3
+        "number": 3,
+        "answer": "COLE"
       },
       {
-        "name": "CARVALHO",
-        "number": 6
+        "number": 6,
+        "answer": "CARVALHO"
       },
       {
-        "name": "TERRY",
-        "number": 26
+        "number": 26,
+        "answer": "TERRY"
       },
       {
-        "name": "ESSİEN",
-        "number": 5
+        "number": 5,
+        "answer": "ESSİEN"
       },
       {
-        "name": "MAKELELE",
-        "number": 4
+        "number": 4,
+        "answer": "MAKELELE"
       },
       {
-        "name": "LAMPARD",
-        "number": 8
+        "number": 8,
+        "answer": "LAMPARD"
       },
       {
-        "name": "BALLACK",
-        "number": 13
+        "number": 13,
+        "answer": "BALLACK"
       },
       {
-        "name": "MALOUDA",
-        "number": 15
+        "number": 15,
+        "answer": "MALOUDA"
       },
       {
-        "name": "DROGBA",
-        "number": 11
+        "number": 11,
+        "answer": "DROGBA"
       },
       {
-        "name": "COLE",
-        "number": 10
+        "number": 10,
+        "answer": "COLE"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "kolay",
+    "league": "Şampiyonlar Ligi"
   },
   {
     "id": 20,
@@ -1283,7 +1283,6 @@
     "homeScore": 1,
     "awayScore": 1,
     "matchDate": "24.10.2024",
-    "competition": "Avrupa Ligi",
     "targetTeam": "Fenerbahçe",
     "teamColor": "#FFED00",
     "formation": [
@@ -1294,51 +1293,52 @@
     ],
     "players": [
       {
-        "name": "LİVAKOVİC",
-        "number": 40
+        "number": 40,
+        "answer": "LİVAKOVİC"
       },
       {
-        "name": "MERT",
-        "number": 16
+        "number": 16,
+        "answer": "MERT"
       },
       {
-        "name": "ÇAĞLAR",
-        "number": 4
+        "number": 4,
+        "answer": "ÇAĞLAR"
       },
       {
-        "name": "DJİKU",
-        "number": 6
+        "number": 6,
+        "answer": "DJİKU"
       },
       {
-        "name": "OSAYİ-SAMUEL",
-        "number": 21
+        "number": 21,
+        "answer": "OSAYİ-SAMUEL"
       },
       {
-        "name": "AMRABAT",
-        "number": 34
+        "number": 34,
+        "answer": "AMRABAT"
       },
       {
-        "name": "FRED",
-        "number": 13
+        "number": 13,
+        "answer": "FRED"
       },
       {
-        "name": "SZYMANSKI",
-        "number": 53
+        "number": 53,
+        "answer": "SZYMANSKI"
       },
       {
-        "name": "SAINT-MAXİMİN",
-        "number": 97
+        "number": 97,
+        "answer": "SAINT-MAXİMİN"
       },
       {
-        "name": "EN-NESYRİ",
-        "number": 19
+        "number": 19,
+        "answer": "EN-NESYRİ"
       },
       {
-        "name": "TADİĆ",
-        "number": 10
+        "number": 10,
+        "answer": "TADİĆ"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "kolay",
+    "league": "Avrupa Ligi"
   },
   {
     "id": 21,
@@ -1350,7 +1350,6 @@
     "homeScore": 2,
     "awayScore": 1,
     "matchDate": "03.06.2002",
-    "competition": "Dünya Kupası",
     "targetTeam": "Brezilya",
     "teamColor": "#FCBE00",
     "formation": [
@@ -1361,51 +1360,52 @@
     ],
     "players": [
       {
-        "name": "MARCOS",
-        "number": 1
+        "number": 1,
+        "answer": "MARCOS"
       },
       {
-        "name": "ROQUE JÚNIOR",
-        "number": 4
+        "number": 4,
+        "answer": "ROQUE JÚNIOR"
       },
       {
-        "name": "LÚCIO",
-        "number": 3
+        "number": 3,
+        "answer": "LÚCIO"
       },
       {
-        "name": "EDMİLSON",
-        "number": 5
+        "number": 5,
+        "answer": "EDMİLSON"
       },
       {
-        "name": "ROBERTO CARLOS",
-        "number": 6
+        "number": 6,
+        "answer": "ROBERTO CARLOS"
       },
       {
-        "name": "JUNİNHO PAULİSTA",
-        "number": 19
+        "number": 19,
+        "answer": "JUNİNHO PAULİSTA"
       },
       {
-        "name": "GİLBERTO SİLVA",
-        "number": 8
+        "number": 8,
+        "answer": "GİLBERTO SİLVA"
       },
       {
-        "name": "RİVALDO",
-        "number": 10
+        "number": 10,
+        "answer": "RİVALDO"
       },
       {
-        "name": "CAFU",
-        "number": 2
+        "number": 2,
+        "answer": "CAFU"
       },
       {
-        "name": "RONALDİNHO",
-        "number": 11
+        "number": 11,
+        "answer": "RONALDİNHO"
       },
       {
-        "name": "RONALDO",
-        "number": 9
+        "number": 9,
+        "answer": "RONALDO"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "kolay",
+    "league": "Dünya Kupası"
   },
   {
     "id": 22,
@@ -1417,7 +1417,6 @@
     "homeScore": 1,
     "awayScore": 2,
     "matchDate": "23.01.2022",
-    "competition": "Süper Lig",
     "targetTeam": "Trabzonspor",
     "teamColor": "#7B1E34",
     "formation": [
@@ -1429,50 +1428,119 @@
     ],
     "players": [
       {
-        "name": "UĞURCAN",
-        "number": 1
+        "number": 1,
+        "answer": "UĞURCAN"
       },
       {
-        "name": "PUCHACZ",
-        "number": 72
+        "number": 72,
+        "answer": "PUCHACZ"
       },
       {
-        "name": "DENSWİL",
-        "number": 24
+        "number": 24,
+        "answer": "DENSWİL"
       },
       {
-        "name": "VİTOR HUGO",
-        "number": 13
+        "number": 13,
+        "answer": "VİTOR HUGO"
       },
       {
-        "name": "BRUNO PERES",
-        "number": 33
+        "number": 33,
+        "answer": "BRUNO PERES"
       },
       {
-        "name": "BERAT",
-        "number": 5
+        "number": 5,
+        "answer": "BERAT"
       },
       {
-        "name": "DORUKHAN",
-        "number": 8
+        "number": 8,
+        "answer": "DORUKHAN"
       },
       {
-        "name": "NWAKAEME",
-        "number": 9
+        "number": 9,
+        "answer": "NWAKAEME"
       },
       {
-        "name": "BAKASETAS",
-        "number": 11
+        "number": 11,
+        "answer": "BAKASETAS"
       },
       {
-        "name": "VİSCA",
-        "number": 18
+        "number": 18,
+        "answer": "VİSCA"
       },
       {
-        "name": "CORNELİUS",
-        "number": 14
+        "number": 14,
+        "answer": "CORNELİUS"
       }
     ],
-    "difficulty": "kolay"
+    "difficulty": "kolay",
+    "league": "Süper Lig"
+  },
+  {
+    "id": 23,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-21",
+    "season": "2023/24",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Samsunspor",
+    "homeScore": 4,
+    "awayScore": 2,
+    "matchDate": "16.09.2023",
+    "targetTeam": "Galatasaray",
+    "teamColor": "#E8192C",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "number": 1,
+        "answer": "MUSLERA"
+      },
+      {
+        "number": 3,
+        "answer": "ANGELİNO"
+      },
+      {
+        "number": 42,
+        "answer": "ABDULKERİM"
+      },
+      {
+        "number": 25,
+        "answer": "NELSSON"
+      },
+      {
+        "number": 93,
+        "answer": "BOEY"
+      },
+      {
+        "number": 34,
+        "answer": "TORREİRA"
+      },
+      {
+        "number": 8,
+        "answer": "KEREM"
+      },
+      {
+        "number": 7,
+        "answer": "KEREM"
+      },
+      {
+        "number": 10,
+        "answer": "MERTENS"
+      },
+      {
+        "number": 20,
+        "answer": "TETE"
+      },
+      {
+        "number": 9,
+        "answer": "İCARDİ"
+      }
+    ],
+    "difficulty": "kolay",
+    "league": "Süper Lig"
   }
 ]
