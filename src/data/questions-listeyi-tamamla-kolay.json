@@ -3736,6 +3736,25 @@
       "Wilfred Ndidi"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 201,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Avrupa kupalarında mücadele eden İspanyol takımları? (Ön elemeler dahil)",
+    "type": "team-eu",
+    "activeDate": "2026-11-21",
+    "targets": [
+      "Real Madrid",
+      "Atletico Madrid",
+      "Barcelona",
+      "Real Betis",
+      "Real Sociedad",
+      "Celta Vigo",
+      "Villarreal",
+      "Getafe"
+    ],
+    "difficulty": "kolay"
   }
 
 

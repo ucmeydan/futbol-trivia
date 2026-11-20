@@ -8503,5 +8503,50 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 209,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-21",
+    "correctPlayer": "Mustafa Fettahoğlu",
+    "career": [
+      {
+        "season": "2018–2021",
+        "team": "Galatasaray U19",
+        "apps": "38",
+        "goals": "9"
+      },
+      {
+        "season": "2021–2024",
+        "team": "Ankara Demirspor",
+        "apps": "63",
+        "goals": "9"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Arnavutköy Bld (kiralık)",
+        "apps": "15",
+        "goals": "0"
+      },
+      {
+        "season": "2022–2023",
+        "team": "Bayrampaşa (kiralık)",
+        "apps": "13",
+        "goals": "4"
+      },
+      {
+        "season": "2024–",
+        "team": "Erzurumspor FK",
+        "apps": "55",
+        "goals": "11"
+      },
+      {
+        "season": "2025–2025",
+        "team": "1461 Trabzon FK (kiralık)",
+        "apps": "16",
+        "goals": "2"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

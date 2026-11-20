@@ -4470,5 +4470,28 @@
       "Mariano"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 227,
+    "game": "top10",
+    "title": "Şenol Güneş'in teknik direktörlük kariyerinde satışından en yüksek bonservis geliri elde edilen 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-11-21",
+    "targets": [
+      "Cenk Tosun",
+      "Demba Ba",
+      "Jose Sosa",
+      "Marcelo",
+      "Burak Yılmaz",
+      "Ersan Gülüm",
+      "Atınç Nukan",
+      "Fabri",
+      "Jaja",
+      "Dusko Tosic"
+    ],
+    "difficulty": "zor"
   }
+
+  
 ]

@@ -7543,5 +7543,50 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 198,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-21",
+    "correctPlayer": "Mehmet Topal",
+    "career": [
+      {
+        "season": "2004–2006",
+        "team": "Dardanelspor",
+        "apps": "40",
+        "goals": "4"
+      },
+      {
+        "season": "2006–2010",
+        "team": "Galatasaray",
+        "apps": "126",
+        "goals": "4"
+      },
+      {
+        "season": "2010–2012",
+        "team": "Valencia",
+        "apps": "59",
+        "goals": "3"
+      },
+      {
+        "season": "2012–2019",
+        "team": "Fenerbahçe",
+        "apps": "298",
+        "goals": "24"
+      },
+      {
+        "season": "2019–2021",
+        "team": "Başakşehir",
+        "apps": "64",
+        "goals": "3"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Beşiktaş",
+        "apps": "10",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

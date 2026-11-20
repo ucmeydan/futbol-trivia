@@ -3992,6 +3992,27 @@
     "difficulty": "kolay"
   },
 
+   {
+    "id": 202,
+    "game": "top10",
+    "title": "Türkiye Kupasını kazanan son 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-11-21",
+    "targets": [
+      "Trabzonspor",
+      "Galatasaray",
+      "Beşiktaş",
+      "Fenerbahçe",
+      "Sivasspor",
+      "Akhisar Belediyespor",
+      "Konyaspor",
+      "Kayserispor",
+      "Kocaelispor",
+      "Gençlerbirliği"
+    ],
+    "difficulty": "kolay"
+  },
+
   {
     "id": 204,
     "game": "top10",
@@ -4117,6 +4138,8 @@
     ],
     "difficulty": "kolay"
   }
+
+ 
 
 
 ]

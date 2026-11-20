@@ -4474,5 +4474,23 @@
      "Jose Sosa"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 226,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "Kariyerinde Beşiktaş forması giymiş Hırvat futbolcular?",
+    "activeDate": "2026-11-21",
+    "targets": [
+     "Marjan Mrmic",
+     "Domagoj Vida",
+     "Vedran Runje",
+     "Gordon Schildenfeld",
+     "Anthony Seric",
+     "Matej Mitrovic",
+     "Ante Rebic"
+    ],
+    "difficulty": "zor"
   }
 ]
