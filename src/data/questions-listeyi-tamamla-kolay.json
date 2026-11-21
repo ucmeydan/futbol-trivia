@@ -3755,6 +3755,26 @@
       "Getafe"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 202,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Süper Lig'de mücadele eden ve logosunda siyah renk bulunan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-22",
+    "targets": [
+      "Beşiktaş",
+      "Çorum FK",
+      "Samsunspor",
+      "Alanyaspor",
+      "Kocaelispor",
+      "Konyaspor",
+      "Gaziantep FK",
+      "Gençlerbirliği",
+      "Erzurumspor"
+    ],
+    "difficulty": "kolay"
   }
 
 

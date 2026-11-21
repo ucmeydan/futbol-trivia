@@ -4491,6 +4491,27 @@
       "Dusko Tosic"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 228,
+    "game": "top10",
+    "title": "Süper Lig'de 2022/23 sezonunda en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-11-22",
+    "targets": [
+      "Enner Valencia",
+      "Mbaye Diagne",
+      "Mauro Icardi",
+      "Fabio Borini",
+      "Umut Nayir",
+      "Cenk Tosun",
+      "Haji Wright",
+      "Riad Bajic",
+      "Vincent Aboubakar",
+      "Ali Sowe"
+    ],
+    "difficulty": "zor"
   }
 
   

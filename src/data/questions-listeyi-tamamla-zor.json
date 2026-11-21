@@ -4492,5 +4492,27 @@
      "Ante Rebic"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 227,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "Kariyerinde hem Galatasaray hem de Benfica forması giymiş oyuncular?",
+    "activeDate": "2026-11-22",
+    "targets": [
+     "Gedson Fernandes",
+     "Fernando Meira",
+     "Kerem Aktürkoğlu",
+     "Bruma",
+     "Lionel Carole",
+     "Kostas Mitroglou",
+     "Haris Seferovic",
+     "Carlos Vinicius",
+     "Abel Xavier"
+    ],
+    "difficulty": "zor"
   }
+
+
 ]

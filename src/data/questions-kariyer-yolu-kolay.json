@@ -7588,5 +7588,45 @@
       }
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 199,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-22",
+    "correctPlayer": "Emmanuel Eboue",
+    "career": [
+      {
+        "season": "2001–2002",
+        "team": "Mimosas",
+        "apps": "25",
+        "goals": "3"
+      },
+      {
+        "season": "2002–2005",
+        "team": "Beveren",
+        "apps": "85",
+        "goals": "4"
+      },
+      {
+        "season": "2005–2011",
+        "team": "Arsenal",
+        "apps": "214",
+        "goals": "10"
+      },
+      {
+        "season": "2011–2015",
+        "team": "Galatasaray",
+        "apps": "101",
+        "goals": "5"
+      },
+      {
+        "season": "2016–2016",
+        "team": "Sunderland",
+        "apps": "0",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

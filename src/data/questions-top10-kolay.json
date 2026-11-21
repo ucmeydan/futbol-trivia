@@ -4014,6 +4014,27 @@
   },
 
   {
+    "id": 203,
+    "game": "top10",
+    "title": "Süper Lig'de 2016-17 sezonunu ilk 10 sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-22",
+    "targets": [
+      "Beşiktaş",
+      "Başakşehir",
+      "Fenerbahçe",
+      "Galatasaray",
+      "Antalyaspor",
+      "Trabzonspor",
+      "Akhisar Belediyespor",
+      "Gençlerbirliği",
+      "Konyaspor",
+      "Kasımpaşa"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
     "id": 204,
     "game": "top10",
     "title": "Fenerbahçe'nin Süper Lig tarihinde en çok gol attığı 10 takım?",
@@ -4138,6 +4159,9 @@
     ],
     "difficulty": "kolay"
   }
+
+  
+
 
  
 
