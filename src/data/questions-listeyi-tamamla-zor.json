@@ -4547,5 +4547,24 @@
       "Sidny Lopes Cabral"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 226,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "Konyaspor'un mevcut kadrosunda daha önce SÜper Lig'deki 4 büyük takımın herhangi birinde oynamış futbolcular?",
+    "activeDate": "2026-11-25",
+    "targets": [
+      "Mostafa Mohamed",
+      "Deniz Türüç",
+      "Jackson Muleka",
+      "Enis Destan",
+      "Enis Bardhi",
+      "Arif Boşluk",
+      "Arthur Masuaku",
+      "Rayyan Baniya"
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -7729,5 +7729,62 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 202,
+    "game": "kariyer-yolu-kolay",
+    "activeDate": "2026-11-25",
+    "correctPlayer": "Vaclav Cerný",
+    "career": [
+      {
+        "season": "2014–2016",
+        "team": "Ajax U19",
+        "apps": "43",
+        "goals": "19"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Ajax U21",
+        "apps": "69",
+        "goals": "31"
+      },
+      {
+        "season": "2016–2019",
+        "team": "Ajax",
+        "apps": "29",
+        "goals": "4"
+      },
+      {
+        "season": "2019–2020",
+        "team": "FC Utrecht",
+        "apps": "16",
+        "goals": "0"
+      },
+      {
+        "season": "2020–2023",
+        "team": "FC Twente",
+        "apps": "78",
+        "goals": "22"
+      },
+      {
+        "season": "2023–2025",
+        "team": "VfL Wolfsburg",
+        "apps": "28",
+        "goals": "6"
+      },
+      {
+        "season": "2024–2025",
+        "team": "Rangers (kiralık)",
+        "apps": "52",
+        "goals": "18"
+      },
+      {
+        "season": "2025–",
+        "team": "Beşiktaş",
+        "apps": "54",
+        "goals": "12"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

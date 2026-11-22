@@ -4554,6 +4554,28 @@
       "Porto"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 231,
+    "game": "top10",
+    "title": "Süper Lig tarihinde 2000-01 ile 2009-10 arasındaki 10 sezonluk dönemde en çok gol atan 10 oyuncu?",
+    "type": "player",
+    "activeDate": "2026-11-25",
+    "targets": [
+      "Fatih Tekke",
+      "Ümit Karan",
+      "Cenk İşler",
+      "Necati Ateş",
+      "Alex De Souza",
+      "Umut Bulut",
+      "Okan Yılmaz",
+      "Gökhan Ünal",
+      "Veysel Cihan",
+      "Marcio Nobre"
+
+    ],
+    "difficulty": "zor"
   }
 
   

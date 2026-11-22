@@ -4076,6 +4076,28 @@
     "difficulty": "kolay"
   },
 
+  {
+    "id": 206,
+    "game": "top10",
+    "title": "Bu sezon Beşiktaş formasıyla resmi maçlarda en çok gol atan 10 oyuncu? (Eşitlik durumunda daha az süre alan oyuncu üst sırada yer alır)",
+    "type": "player",
+    "activeDate": "2026-11-25",
+    "targets": [
+      "Dusan Vlahovic",
+      "Orkun Kökçü",
+      "Vaclav Cerny",
+      "Hyeon Gyu Oh",
+      "Amir Murillo",
+      "İlhan Fakılı",
+      "Leandro Trossard",
+      "Junior Olaitan",
+      "Ernest Poku",
+      "Milot Rashica"
+
+    ],
+    "difficulty": "kolay"
+  },
+
    {
     "id": 208,
     "game": "top10",

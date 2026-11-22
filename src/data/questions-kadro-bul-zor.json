@@ -1750,5 +1750,73 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 27,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-25",
+    "season": "2015/16",
+    "homeTeam": "Shakhtar Donetsk",
+    "awayTeam": "Fenerbahçe",
+    "homeScore": 3,
+    "awayScore": 0,
+    "matchDate": "05.08.2015",
+    "league": "Şampiyonlar Ligi Elemeleri",
+    "targetTeam": "Shakhtar Donetsk",
+    "teamColor": "#F57000",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "answer": "PYATOV",
+        "number": 30
+      },
+      {
+        "answer": "SHEVCHUK",
+        "number": 13
+      },
+      {
+        "answer": "RAKİTSKYİ",
+        "number": 44
+      },
+      {
+        "answer": "ORDETS",
+        "number": 18
+      },
+      {
+        "answer": "SRNA",
+        "number": 33
+      },
+      {
+        "answer": "FRED",
+        "number": 8
+      },
+      {
+        "answer": "STEPANENKO",
+        "number": 6
+      },
+      {
+        "answer": "TAİSON",
+        "number": 28
+      },
+      {
+        "answer": "ALEX TEİXEİRA",
+        "number": 29
+      },
+      {
+        "answer": "MARLOS",
+        "number": 11
+      },
+      {
+        "answer": "GLADKYİ",
+        "number": 21
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

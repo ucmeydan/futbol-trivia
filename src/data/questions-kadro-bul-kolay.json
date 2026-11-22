@@ -1746,5 +1746,73 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 27,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-25",
+    "season": "2015/16",
+    "homeTeam": "Shakhtar Donetsk",
+    "awayTeam": "Fenerbahçe",
+    "homeScore": 3,
+    "awayScore": 0,
+    "matchDate": "05.08.2015",
+    "league": "Şampiyonlar Ligi Elemeleri",
+    "targetTeam": "Fenerbahçe",
+    "teamColor": "#FFDD00",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "answer": "VOLKAN",
+        "number": 1
+      },
+      {
+        "answer": "CANER",
+        "number": 88
+      },
+      {
+        "answer": "ALVES",
+        "number": 22
+      },
+      {
+        "answer": "KJAER",
+        "number": 4
+      },
+      {
+        "answer": "ŞENER",
+        "number": 19
+      },
+      {
+        "answer": "SOUZA",
+        "number": 6
+      },
+      {
+        "answer": "MEİRELES",
+        "number": 14
+      },
+      {
+        "answer": "SOW",
+        "number": 7
+      },
+      {
+        "answer": "DİEGO",
+        "number": 10
+      },
+      {
+        "answer": "NANİ",
+        "number": 17
+      },
+      {
+        "answer": "FERNANDAO",
+        "number": 9
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]
