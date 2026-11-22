@@ -8549,7 +8549,6 @@
     ],
     "difficulty": "zor"
   },
-
   {
     "id": 69,
     "game": "kariyer-yolu",
@@ -8573,6 +8572,63 @@
         "team": "Kasımpaşa",
         "apps": "31",
         "goals": "3"
+      }
+    ],
+    "difficulty": "zor"
+  },
+  {
+    "id": 210,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-23",
+    "correctPlayer": "Makana Baku",
+    "career": [
+      {
+        "season": "2017–2019",
+        "team": "SG Sonnenhof Großaspach",
+        "apps": "72",
+        "goals": "6"
+      },
+      {
+        "season": "2019–2021",
+        "team": "Holstein Kiel",
+        "apps": "22",
+        "goals": "7"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Warta Poznań (kiralık)",
+        "apps": "13",
+        "goals": "6"
+      },
+      {
+        "season": "2021–2022",
+        "team": "Göztepe",
+        "apps": "22",
+        "goals": "3"
+      },
+      {
+        "season": "2022–2024",
+        "team": "Legia Varşova",
+        "apps": "40",
+        "goals": "1"
+      },
+      {
+        "season": "2023–2024",
+        "team": "OFI Girit (kiralık)",
+        "apps": "17",
+        "goals": "2"
+      },
+      {
+        "season": "2024–2026",
+        "team": "Atromitos",
+        "apps": "74",
+        "goals": "20"
+      },
+      {
+        "season": "2026–",
+        "team": "Kocaelispor",
+        "apps": "13",
+        "goals": "1"
       }
     ],
     "difficulty": "zor"

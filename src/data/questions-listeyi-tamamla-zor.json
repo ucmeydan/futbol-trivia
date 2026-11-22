@@ -4507,5 +4507,22 @@
       "Abel Xavier"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 224,
+    "game": "listeyi-tamamla",
+    "type": "td",
+    "title": "Şu anda herhangi bir Süper Lig takımını çalıştırmakta olan yabancı teknik direktörler?",
+    "activeDate": "2026-11-23",
+    "targets": [
+      "Thomas Reis",
+      "Stanimir Stoilov",
+      "Nenad Bjelica",
+      "Besnik Hasi",
+      "Alfred Schreuder",
+      "Bernd Storck"
+    ],
+    "difficulty": "zor"
   }
 ]

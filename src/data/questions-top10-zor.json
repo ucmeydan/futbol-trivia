@@ -4512,6 +4512,27 @@
       "Ali Sowe"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 229,
+    "game": "top10",
+    "title": "Süper Lig'de 2025-26 sezonunda en çok asist yapan 10 futbolcu? (Eşitlik durumunda daha az maça çıkan oyuncu üst sırada yer alır)",
+    "type": "player",
+    "activeDate": "2026-11-23",
+    "targets": [
+      "Marco Asensio",
+      "Oleksandr Zubkov",
+      "Barış Alper Yılmaz",
+      "Yunus Akgün",
+      "Florent Hadergjonaj",
+      "Orkun Kökçü",
+      "Drissa Camara",
+      "Qazim Laçi",
+      "Vaclav Cerny",
+      "Yusuf Sarı"
+    ],
+    "difficulty": "zor"
   }
 
   

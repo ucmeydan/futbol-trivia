@@ -7589,7 +7589,6 @@
     ],
     "difficulty": "kolay"
   },
-
   {
     "id": 199,
     "game": "kariyer-yolu",
@@ -7625,6 +7624,57 @@
         "team": "Sunderland",
         "apps": "0",
         "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 200,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-23",
+    "correctPlayer": "Simao Sabrosa",
+    "career": [
+      {
+        "season": "1997–1999",
+        "team": "Sporting CP",
+        "apps": "62",
+        "goals": "12"
+      },
+      {
+        "season": "1999–2001",
+        "team": "Barcelona",
+        "apps": "70",
+        "goals": "4"
+      },
+      {
+        "season": "2001–2007",
+        "team": "Benfica",
+        "apps": "228",
+        "goals": "95"
+      },
+      {
+        "season": "2007–2011",
+        "team": "Atletico Madrid",
+        "apps": "168",
+        "goals": "31"
+      },
+      {
+        "season": "2010–2012",
+        "team": "Beşiktaş",
+        "apps": "62",
+        "goals": "13"
+      },
+      {
+        "season": "2012–2014",
+        "team": "Espanyol",
+        "apps": "63",
+        "goals": "5"
+      },
+      {
+        "season": "2015–2016",
+        "team": "NorthEast United FC",
+        "apps": "10",
+        "goals": "3"
       }
     ],
     "difficulty": "kolay"

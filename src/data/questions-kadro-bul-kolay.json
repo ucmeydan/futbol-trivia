@@ -1610,5 +1610,73 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 25,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-23",
+    "season": "2018/19",
+    "homeTeam": "Türkiye",
+    "awayTeam": "Fransa",
+    "homeScore": 2,
+    "awayScore": 0,
+    "matchDate": "08.06.2019",
+    "league": "Avrupa Şampiyonası Elemeleri",
+    "targetTeam": "Türkiye",
+    "teamColor": "#E30A17",
+    "formation": [
+      1,
+      4,
+      1,
+      4,
+      1
+    ],
+    "players": [
+      {
+        "answer": "MERT",
+        "number": 12
+      },
+      {
+        "answer": "HASAN ALİ",
+        "number": 3
+      },
+      {
+        "answer": "KAAN",
+        "number": 22
+      },
+      {
+        "answer": "MERİH",
+        "number": 16
+      },
+      {
+        "answer": "ZEKİ",
+        "number": 2
+      },
+      {
+        "answer": "MAHMUT",
+        "number": 14
+      },
+      {
+        "answer": "KENAN",
+        "number": 9
+      },
+      {
+        "answer": "DORUKHAN",
+        "number": 5
+      },
+      {
+        "answer": "İRFAN CAN",
+        "number": 21
+      },
+      {
+        "answer": "CENGİZ",
+        "number": 7
+      },
+      {
+        "answer": "BURAK",
+        "number": 17
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

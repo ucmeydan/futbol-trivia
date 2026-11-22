@@ -3775,7 +3775,25 @@
       "Erzurumspor"
     ],
     "difficulty": "kolay"
+  },
+
+   {
+    "id": 203,
+    "game": "listeyi-tamamla",
+    "title": "Süper Lig'in son 10 sezonunda, bir sezonda 25 ve üzeri sayıda gol atan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-11-23",
+    "targets": [
+     "Victor Osimhen",
+     "Mauro Icardi",
+     "Enner Valencia",
+     "Mbaye Diagne",
+     "Bafetimbi Gomis"
+    ],
+    "difficulty": "kolay"
   }
+
+  
 
 
  

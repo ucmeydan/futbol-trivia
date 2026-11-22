@@ -1614,5 +1614,74 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 25,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-23",
+    "season": "1999/00",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Arsenal",
+    "homeScore": 0,
+    "awayScore": 0,
+    "penaltyNote": "Pen. 4-1",
+    "matchDate": "17.05.2000",
+    "league": "UEFA Kupası",
+    "targetTeam": "Arsenal",
+    "teamColor": "#EF0107",
+    "formation": [
+      1,
+      4,
+      2,
+      2,
+      2
+    ],
+    "players": [
+      {
+        "answer": "SEAMAN",
+        "number": 1
+      },
+      {
+        "answer": "SYLVİNHO",
+        "number": 16
+      },
+      {
+        "answer": "ADAMS",
+        "number": 6
+      },
+      {
+        "answer": "KEOWN",
+        "number": 5
+      },
+      {
+        "answer": "DİXON",
+        "number": 2
+      },
+      {
+        "answer": "VİEİRA",
+        "number": 4
+      },
+      {
+        "answer": "PETİT",
+        "number": 17
+      },
+      {
+        "answer": "OVERMARS",
+        "number": 11
+      },
+      {
+        "answer": "PARLOUR",
+        "number": 15
+      },
+      {
+        "answer": "BERGKAMP",
+        "number": 10
+      },
+      {
+        "answer": "HENRY",
+        "number": 14
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
