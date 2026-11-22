@@ -1683,5 +1683,72 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 26,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-24",
+    "season": "2003/04",
+    "homeTeam": "Chelsea",
+    "awayTeam": "Beşiktaş",
+    "homeScore": 0,
+    "awayScore": 2,
+    "matchDate": "01.10.2003",
+    "league": "Şampiyonlar Ligi",
+    "targetTeam": "Chelsea",
+    "teamColor": "#034694",
+    "formation": [
+      1,
+      3,
+      5,
+      2
+    ],
+    "players": [
+      {
+        "answer": "CUDİCİNİ",
+        "number": 23
+      },
+      {
+        "answer": "GALLAS",
+        "number": 13
+      },
+      {
+        "answer": "DESAİLLY",
+        "number": 6
+      },
+      {
+        "answer": "TERRY",
+        "number": 26
+      },
+      {
+        "answer": "BABAYARO",
+        "number": 3
+      },
+      {
+        "answer": "MAKELELE",
+        "number": 4
+      },
+      {
+        "answer": "VERON",
+        "number": 20
+      },
+      {
+        "answer": "LAMPARD",
+        "number": 8
+      },
+      {
+        "answer": "GEREMİ",
+        "number": 14
+      },
+      {
+        "answer": "CRESPO",
+        "number": 21
+      },
+      {
+        "answer": "MUTU",
+        "number": 7
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

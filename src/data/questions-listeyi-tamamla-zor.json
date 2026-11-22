@@ -4524,5 +4524,28 @@
       "Bernd Storck"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 225,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "Süper Lig'de güncel piyasa değeri 10M€ ve üzerinde olan Afrikalı futbolcular?",
+    "activeDate": "2026-11-24",
+    "targets": [
+      "Victor Osimhen",
+      "Franculino Dju",
+      "Dorgeles Nene",
+      "Wilfried Singo",
+      "Chibuike Nwaiwu",
+      "Mohamed Salah",
+      "Emmanuel Agbadou",
+      "Kassoum Ouattara",
+      "Kojo Peprah Oppong",
+      "Wagner Pina",
+      "Junior Olaitan",
+      "Sidny Lopes Cabral"
+    ],
+    "difficulty": "zor"
   }
 ]

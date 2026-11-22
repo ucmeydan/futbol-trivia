@@ -4055,6 +4055,27 @@
     "difficulty": "kolay"
   },
 
+  {
+    "id": 205,
+    "game": "top10",
+    "title": "Süper Lig'de mevcut piyasa değeri en yüksek 10 orta saha oyuncusu?",
+    "type": "player",
+    "activeDate": "2026-11-24",
+    "targets": [
+      "Aleksey Batrakov",
+      "Orkun Kökçü",
+      "Gabriel Sara",
+      "Matteo Guendouzi",
+      "Lesley Ugochukwu",
+      "Fabio Miretti",
+      "İsmail Yüksek",
+      "Junior Olaitan",
+      "Marco Asensio",
+      "Ernest Muçi"
+    ],
+    "difficulty": "kolay"
+  },
+
    {
     "id": 208,
     "game": "top10",

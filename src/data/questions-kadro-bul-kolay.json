@@ -1678,5 +1678,73 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 26,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-24",
+    "season": "2013/14",
+    "homeTeam": "Fenerbahçe",
+    "awayTeam": "Salzburg",
+    "homeScore": 3,
+    "awayScore": 1,
+    "matchDate": "06.08.2013",
+    "league": "Şampiyonlar Ligi Elemeleri",
+    "targetTeam": "Fenerbahçe",
+    "teamColor": "#FFDD00",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "answer": "VOLKAN",
+        "number": 1
+      },
+      {
+        "answer": "KADLEC",
+        "number": 24
+      },
+      {
+        "answer": "ALVES",
+        "number": 22
+      },
+      {
+        "answer": "YOBO",
+        "number": 6
+      },
+      {
+        "answer": "MEHMET",
+        "number": 38
+      },
+      {
+        "answer": "MEHMET",
+        "number": 5
+      },
+      {
+        "answer": "MEİRELES",
+        "number": 14
+      },
+      {
+        "answer": "SOW",
+        "number": 7
+      },
+      {
+        "answer": "BARONİ",
+        "number": 16
+      },
+      {
+        "answer": "KUYT",
+        "number": 11
+      },
+      {
+        "answer": "WEBO",
+        "number": 99
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

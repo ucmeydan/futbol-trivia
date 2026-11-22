@@ -4533,6 +4533,27 @@
       "Yusuf Sarı"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 230,
+    "game": "top10",
+    "title": "UEFA Avrupa Ligi'nin son 10 şampiyonu?",
+    "type": "team-all",
+    "activeDate": "2026-11-24",
+    "targets": [
+      "Aston Villa",
+      "Tottenham",
+      "Atalanta",
+      "Sevilla",
+      "Frankfurt",
+      "Villarreal",
+      "Chelsea",
+      "Atletico Madrid",
+      "Manchester United",
+      "Porto"
+    ],
+    "difficulty": "zor"
   }
 
   

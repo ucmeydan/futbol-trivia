@@ -7678,5 +7678,56 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 201,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-24",
+    "correctPlayer": "Thomas Meunier",
+    "career": [
+      {
+        "season": "2009–2011",
+        "team": "Excelsior Virton",
+        "apps": "6",
+        "goals": "1"
+      },
+      {
+        "season": "2011–2016",
+        "team": "Club Brugge",
+        "apps": "198",
+        "goals": "20"
+      },
+      {
+        "season": "2016–2020",
+        "team": "Paris Saint-Germain",
+        "apps": "128",
+        "goals": "13"
+      },
+      {
+        "season": "2020–2024",
+        "team": "Borussia Dortmund",
+        "apps": "83",
+        "goals": "3"
+      },
+      {
+        "season": "2023–2024",
+        "team": "Trabzonspor",
+        "apps": "19",
+        "goals": "1"
+      },
+      {
+        "season": "2024–2026",
+        "team": "LOSC Lille",
+        "apps": "81",
+        "goals": "4"
+      },
+      {
+        "season": "2026–",
+        "team": "Sunderland AFC",
+        "apps": "13",
+        "goals": "0"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

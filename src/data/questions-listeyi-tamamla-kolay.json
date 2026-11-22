@@ -3791,6 +3791,50 @@
      "Bafetimbi Gomis"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 204,
+    "game": "listeyi-tamamla",
+    "title": "Galatasaray'ın Avrupa kupalarında karşılaştığı İngiliz takımları?",
+    "type": "team-eu",
+    "activeDate": "2026-11-24",
+    "targets": [
+     "Liverpool",
+     "Manchester United",
+     "Arsenal",
+     "Tottenham",
+     "Chelsea",
+     "Manchester City",
+     "Leeds United",
+     "West Brom"
+
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
+    "id": 205,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon resmi maçlarda Galatasaray formasıyla gol atan oyuncular?",
+    "type": "player",
+    "activeDate": "2026-11-25",
+    "targets": [
+     "Victor Osimhen",
+     "Aleksey Batrakov",
+     "Yunus Akgün",
+     "Barış Alper Yılmaz",
+     "Gabriel Sara",
+     "Lucas Torreira",
+     "Abdülkerim Bardakcı",
+     "Rafael Leao",
+     "Davinson Sanchez",
+     "Roland Sallai",
+     "Mario Lemina",
+     "Deniz Gül"
+
+    ],
+    "difficulty": "kolay"
   }
 
   

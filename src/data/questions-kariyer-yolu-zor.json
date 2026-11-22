@@ -8632,5 +8632,56 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 211,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-24",
+    "correctPlayer": "Tom De Sutter",
+    "career": [
+      {
+        "season": "2006–2009",
+        "team": "Cercle Brugge",
+        "apps": "66",
+        "goals": "26"
+      },
+      {
+        "season": "2009–2013",
+        "team": "RSC Anderlecht",
+        "apps": "159",
+        "goals": "48"
+      },
+      {
+        "season": "2013–2015",
+        "team": "Club Brugge",
+        "apps": "89",
+        "goals": "31"
+      },
+      {
+        "season": "2015–2016",
+        "team": "Bursaspor",
+        "apps": "17",
+        "goals": "2"
+      },
+      {
+        "season": "2016–2018",
+        "team": "KSC Lokeren",
+        "apps": "65",
+        "goals": "12"
+      },
+      {
+        "season": "2018–2019",
+        "team": "KV Oostende",
+        "apps": "18",
+        "goals": "4"
+      },
+      {
+        "season": "2019–2020",
+        "team": "R Knokke FC",
+        "apps": "21",
+        "goals": "15"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]
