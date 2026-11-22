@@ -4340,11 +4340,11 @@
     "difficulty": "zor"
   },
   {
-    "id": 217,
+    "id": 215,
     "game": "listeyi-tamamla",
     "title": "Zeki Yavru'nun Süper Lig kariyerinde forma giydiği takımlar?",
     "type": "team-tr",
-    "activeDate": "2026-11-15",
+    "activeDate": "2026-11-13",
     "targets": [
       "Trabzonspor",
       "Giresunspor",
@@ -4358,11 +4358,11 @@
     "difficulty": "zor"
   },
   {
-    "id": 221,
+    "id": 216,
     "game": "listeyi-tamamla",
     "title": "Ertuğrul Taşkıran'ın Süper Lig kariyerinde forma giydiği takımlar?",
     "type": "team-tr",
-    "activeDate": "2026-11-19",
+    "activeDate": "2026-11-14",
     "targets": [
       "Fenerbahçe",
       "Kayserispor",
@@ -4376,11 +4376,11 @@
     "difficulty": "zor"
   },
   {
-    "id": 222,
+    "id": 217,
     "game": "listeyi-tamamla",
     "type": "player",
     "title": "Hem Liverpool hem de Süper Lig'deki 3 büyük takımdan herhangi birinde oynamış futbolcular?",
-    "activeDate": "2026-11-16",
+    "activeDate": "2026-11-15",
     "targets": [
       "Nicolas Anelka",
       "Ryan Kent",
@@ -4403,11 +4403,11 @@
     "difficulty": "zor"
   },
   {
-    "id": 223,
+    "id": 218,
     "game": "listeyi-tamamla",
     "type": "player",
     "title": "Trabzonspor tarihinde 6 Milyon € ve üzerinde bonservis bedeli ödenerek transfer edilen oyuncular?",
-    "activeDate": "2026-11-17",
+    "activeDate": "2026-11-16",
     "targets": [
       "Franculino Dju",
       "Aral Şimşir",
@@ -4423,13 +4423,12 @@
     ],
     "difficulty": "zor"
   },
-
   {
-    "id": 223,
+    "id": 219,
     "game": "listeyi-tamamla",
     "type": "player",
     "title": "2026 yılında Süper Lig'de hattrick yapan futbolcular?",
-    "activeDate": "2026-11-18",
+    "activeDate": "2026-11-17",
     "targets": [
       "Mauro Icardi",
       "Dorgeles Nene",
@@ -4443,76 +4442,70 @@
     ],
     "difficulty": "zor"
   },
-
-   {
-    "id": 224,
+  {
+    "id": 220,
     "game": "listeyi-tamamla",
     "type": "player",
     "title": "Süper Lig kariyerinde 4 ve üzeri sayıda hattrick yapmış yabancı futbolcular?",
-    "activeDate": "2026-11-19",
+    "activeDate": "2026-11-18",
     "targets": [
-     "Alex De Souza",
-     "Mbaye Diagne",
-     "Milan Baros",
-     "Shota Arveladze",
-     "Krzysztof Piatek"
+      "Alex De Souza",
+      "Mbaye Diagne",
+      "Milan Baros",
+      "Shota Arveladze",
+      "Krzysztof Piatek"
     ],
     "difficulty": "zor"
   },
-
   {
-    "id": 225,
+    "id": 221,
     "game": "listeyi-tamamla",
     "type": "player",
     "title": "Kariyerinde hem Fenerbahçe hem de Milan forması giymiş oyuncular?",
     "activeDate": "2026-11-20",
     "targets": [
-     "Simon Kjaer",
-     "Rade Krunic",
-     "Leonardo Bonucci",
-     "Adil Rami",
-     "Jose Sosa"
+      "Simon Kjaer",
+      "Rade Krunic",
+      "Leonardo Bonucci",
+      "Adil Rami",
+      "Jose Sosa"
     ],
     "difficulty": "zor"
   },
-
-   {
-    "id": 226,
+  {
+    "id": 222,
     "game": "listeyi-tamamla",
     "type": "player",
     "title": "Kariyerinde Beşiktaş forması giymiş Hırvat futbolcular?",
     "activeDate": "2026-11-21",
     "targets": [
-     "Marjan Mrmic",
-     "Domagoj Vida",
-     "Vedran Runje",
-     "Gordon Schildenfeld",
-     "Anthony Seric",
-     "Matej Mitrovic",
-     "Ante Rebic"
+      "Marjan Mrmic",
+      "Domagoj Vida",
+      "Vedran Runje",
+      "Gordon Schildenfeld",
+      "Anthony Seric",
+      "Matej Mitrovic",
+      "Ante Rebic"
     ],
     "difficulty": "zor"
   },
-
   {
-    "id": 227,
+    "id": 223,
     "game": "listeyi-tamamla",
     "type": "player",
     "title": "Kariyerinde hem Galatasaray hem de Benfica forması giymiş oyuncular?",
     "activeDate": "2026-11-22",
     "targets": [
-     "Gedson Fernandes",
-     "Fernando Meira",
-     "Kerem Aktürkoğlu",
-     "Bruma",
-     "Lionel Carole",
-     "Kostas Mitroglou",
-     "Haris Seferovic",
-     "Carlos Vinicius",
-     "Abel Xavier"
+      "Gedson Fernandes",
+      "Fernando Meira",
+      "Kerem Aktürkoğlu",
+      "Bruma",
+      "Lionel Carole",
+      "Kostas Mitroglou",
+      "Haris Seferovic",
+      "Carlos Vinicius",
+      "Abel Xavier"
     ],
     "difficulty": "zor"
   }
-
-
 ]
