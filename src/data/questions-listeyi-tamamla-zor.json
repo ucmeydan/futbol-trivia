@@ -4566,5 +4566,23 @@
       "Rayyan Baniya"
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 227,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "Süper Lig tarihinde 50 ve üzeri sayıda gol atmış Brezilyalı futbolcular?",
+    "activeDate": "2026-11-26",
+    "targets": [
+      "Alex De Souza",
+      "Marcio Nobre",
+      "Bobo",
+      "Fernandao",
+      "Tita",
+      "Anderson Talisca",
+      "Jaba"
+    ],
+    "difficulty": "zor"
   }
 ]

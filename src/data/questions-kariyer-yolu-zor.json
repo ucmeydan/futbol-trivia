@@ -8722,5 +8722,68 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 213,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-26",
+    "correctPlayer": "Gökhan Güleç",
+    "career": [
+      {
+        "season": "2003–2005",
+        "team": "İnegölspor",
+        "apps": "28",
+        "goals": "11"
+      },
+      {
+        "season": "2005–2006",
+        "team": "Gaziantepspor",
+        "apps": "20",
+        "goals": "6"
+      },
+      {
+        "season": "2006–2008",
+        "team": "Beşiktaş",
+        "apps": "48",
+        "goals": "14"
+      },
+      {
+        "season": "2007–2008",
+        "team": "Denizlispor (kiralık)",
+        "apps": "16",
+        "goals": "3"
+      },
+      {
+        "season": "2008–2009",
+        "team": "Bursaspor",
+        "apps": "32",
+        "goals": "6"
+      },
+      {
+        "season": "2009–2012",
+        "team": "Kasımpaşa",
+        "apps": "75",
+        "goals": "18"
+      },
+      {
+        "season": "2012–2013",
+        "team": "Şanlıurfaspor",
+        "apps": "16",
+        "goals": "2"
+      },
+      {
+        "season": "2013–2013",
+        "team": "Hazar Lenkeran",
+        "apps": "11",
+        "goals": "2"
+      },
+      {
+        "season": "2013–2015",
+        "team": "İnegölspor",
+        "apps": "21",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -4576,6 +4576,28 @@
 
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 231,
+    "game": "top10",
+    "title": "Süper Lig tarihinde 2000-01 ile 2009-10 arasındaki 10 sezonluk dönemde en çok galibiyet alan 10 takım?",
+    "type": "team-tr",
+    "activeDate": "2026-11-26",
+    "targets": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor",
+      "Gaziantepspor",
+      "Gençlerbirliği",
+      "Ankaragücü",
+      "Denizlispor",
+      "Bursaspor",
+      "Kayserispor"
+
+    ],
+    "difficulty": "zor"
   }
 
   

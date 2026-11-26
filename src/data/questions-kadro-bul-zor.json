@@ -1818,5 +1818,72 @@
       }
     ],
     "difficulty": "zor"
+  },
+  {
+    "id": 28,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-26",
+    "season": "2021/22",
+    "homeTeam": "Galatasaray",
+    "awayTeam": "Barcelona",
+    "homeScore": 1,
+    "awayScore": 2,
+    "matchDate": "17.03.2022",
+    "league": "Avrupa Ligi",
+    "targetTeam": "Barcelona",
+    "teamColor": "#004D98",
+    "formation": [
+      1,
+      4,
+      3,
+      3
+    ],
+    "players": [
+      {
+        "answer": "TER STEGEN",
+        "number": 1
+      },
+      {
+        "answer": "ALBA",
+        "number": 18
+      },
+      {
+        "answer": "GARCIA",
+        "number": 24
+      },
+      {
+        "answer": "PİQUE",
+        "number": 3
+      },
+      {
+        "answer": "DEST",
+        "number": 2
+      },
+      {
+        "answer": "BUSQUETS",
+        "number": 5
+      },
+      {
+        "answer": "PEDRİ",
+        "number": 16
+      },
+      {
+        "answer": "DE JONG",
+        "number": 21
+      },
+      {
+        "answer": "TORRES",
+        "number": 19
+      },
+      {
+        "answer": "AUBAMEYANG",
+        "number": 25
+      },
+      {
+        "answer": "TRAORE",
+        "number": 11
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

@@ -3835,6 +3835,22 @@
 
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 206,
+    "game": "listeyi-tamamla",
+    "title": "Kariyerinde Milan ya da Juventus'ta oynamış Türk futbolcular?",
+    "type": "player",
+    "activeDate": "2026-11-26",
+    "targets": [
+      "Kenan Yıldız",
+      "Merih Demiral",
+      "Zeki Çelik",
+      "Hakan Çalhanoğlu",
+      "Ümit Davala"
+    ],
+    "difficulty": "kolay"
   }
 
   

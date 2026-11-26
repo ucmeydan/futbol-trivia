@@ -7786,5 +7786,68 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 203,
+    "game": "kariyer-yolu-kolay",
+    "activeDate": "2026-11-26",
+    "correctPlayer": "Nigel de Jong",
+    "career": [
+      {
+        "season": "2002–2006",
+        "team": "Ajax",
+        "apps": "133",
+        "goals": "13"
+      },
+      {
+        "season": "2006–2009",
+        "team": "Hamburger SV",
+        "apps": "94",
+        "goals": "5"
+      },
+      {
+        "season": "2009–2012",
+        "team": "Manchester City",
+        "apps": "137",
+        "goals": "2"
+      },
+      {
+        "season": "2012–2016",
+        "team": "AC Milan",  
+        "apps": "96",
+        "goals": "7"
+      },
+      {
+        "season": "2016–2016",
+        "team": "Los Angeles Galaxy",
+        "apps": "21",
+        "goals": "0"
+      },
+      {
+        "season": "2016–2018",
+        "team": "Galatasaray",
+        "apps": "24",
+        "goals": "1"
+      },
+      {
+        "season": "2018–2018",
+        "team": "1.FSV Mainz 05",
+        "apps": "12",
+        "goals": "0"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Al-Ahli SC",
+        "apps": "21",
+        "goals": "4"
+      },
+      {
+        "season": "2019–2021",
+        "team": "Al-Shahania SC",
+        "apps": "35",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

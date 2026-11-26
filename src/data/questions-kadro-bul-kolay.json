@@ -1814,5 +1814,73 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 28,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-26",
+    "season": "2016/17",
+    "homeTeam": "Beşiktaş",
+    "awayTeam": "Hapoel Beer Sheva",
+    "homeScore": 2,
+    "awayScore": 1,
+    "matchDate": "23.02.2017",
+    "league": "Avrupa Ligi",
+    "targetTeam": "Beşiktaş",
+    "teamColor": "#1a1a1a",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "answer": "FABRİ",
+        "number": 1
+      },
+      {
+        "answer": "TOSİC",
+        "number": 6
+      },
+      {
+        "answer": "ATINÇ",
+        "number": 33
+      },
+      {
+        "answer": "MARCELO",
+        "number": 30
+      },
+      {
+        "answer": "BECK",
+        "number": 32
+      },
+      {
+        "answer": "NECİP",
+        "number": 20
+      },
+      {
+        "answer": "GÖKHAN",
+        "number": 80
+      },
+      {
+        "answer": "BABEL",
+        "number": 49
+      },
+      {
+        "answer": "TALİSCA",
+        "number": 94
+      },
+      {
+        "answer": "QUARESMA",
+        "number": 7
+      },
+      {
+        "answer": "ABOUBAKAR",
+        "number": 9
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

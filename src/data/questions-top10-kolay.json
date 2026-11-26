@@ -4099,6 +4099,28 @@
   },
 
    {
+    "id": 207,
+    "game": "top10",
+    "title": "Fenerbahçe'nin Avrupa kupalarında mağlup ettiği son 10 takım? (Ön elemeler dahil)",
+    "type": "team-eu",
+    "activeDate": "2026-11-26",
+    "targets": [
+      "Shakhtar",
+      "Liverpool",
+      "Lyon",
+      "Sturm Graz",
+      "Gornik Zabrze",
+      "Nottingham Forest",
+      "Brann",
+      "Stuttgart",
+      "Nice",
+      "Feyenoord"
+
+    ],
+    "difficulty": "kolay"
+  },
+
+   {
     "id": 208,
     "game": "top10",
     "title": "Galatasaray'ın Süper Lig tarihinde en çok gol attığı 10 takım?",
