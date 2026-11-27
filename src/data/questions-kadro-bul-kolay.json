@@ -1882,5 +1882,73 @@
       }
     ],
     "difficulty": "kolay"
+  },
+  {
+    "id": 29,
+    "game": "kadro-bul",
+    "activeDate": "2026-11-27",
+    "season": "2000/01",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Galatasaray",
+    "homeScore": 1,
+    "awayScore": 2,
+    "matchDate": "25.08.2000",
+    "league": "Avrupa Süper Kupası",
+    "targetTeam": "Galatasaray",
+    "teamColor": "#E8192C",
+    "formation": [
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "players": [
+      {
+        "answer": "TAFFAREL",
+        "number": 1
+      },
+      {
+        "answer": "HAKAN",
+        "number": 57
+      },
+      {
+        "answer": "BÜLENT",
+        "number": 3
+      },
+      {
+        "answer": "POPESCU",
+        "number": 4
+      },
+      {
+        "answer": "CAPONE",
+        "number": 35
+      },
+      {
+        "answer": "SUAT",
+        "number": 8
+      },
+      {
+        "answer": "EMRE",
+        "number": 5
+      },
+      {
+        "answer": "ÜMİT",
+        "number": 22
+      },
+      {
+        "answer": "HAGİ",
+        "number": 10
+      },
+      {
+        "answer": "OKAN",
+        "number": 7
+      },
+      {
+        "answer": "JARDEL",
+        "number": 9
+      }
+    ],
+    "difficulty": "kolay"
   }
 ]

@@ -8785,5 +8785,57 @@
       }
     ],
     "difficulty": "zor"
+  },
+
+  {
+    "id": 214,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-27",
+    "correctPlayer": "Ramazan Civelek",
+    "career": [
+      {
+        "season": "2014–2019",
+        "team": "Fenerbahçe",
+        "apps": "18",
+        "goals": "4"
+      },
+      {
+        "season": "2017–2017",
+        "team": "Gaziantep BB (kiralık)",
+        "apps": "15",
+        "goals": "3"
+      },
+      {
+        "season": "2017–2018",
+        "team": "Sakaryaspor (kiralık)",
+        "apps": "21",
+        "goals": "0"
+      },
+      {
+        "season": "2018–2019",
+        "team": "Fatih Karagümrük (kiralık)",
+        "apps": "34",
+        "goals": "4"
+      },
+      {
+        "season": "2019–2021",
+        "team": "Fatih Karagümrük",
+        "apps": "52",
+        "goals": "6"
+      },
+      {
+        "season": "2021–2026",
+        "team": "Kayserispor",
+        "apps": "178",
+        "goals": "7"
+      },
+      {
+        "season": "2026–",
+        "team": "Fatih Karagümrük",
+        "apps": "12",
+        "goals": "1"
+      }
+    ],
+    "difficulty": "zor"
   }
 ]

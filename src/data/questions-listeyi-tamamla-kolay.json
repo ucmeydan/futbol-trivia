@@ -3851,6 +3851,26 @@
       "Ümit Davala"
     ],
     "difficulty": "kolay"
+  },
+
+  {
+    "id": 207,
+    "game": "listeyi-tamamla",
+    "title": "Bu sezon Şampiyonlar Ligi lig aşamasında en az iki takımla temsil edilen ülkeler?",
+    "type": "country",
+    "activeDate": "2026-11-27",
+    "targets": [
+      "İngiltere",
+      "Almanya",
+      "İtalya",
+      "Fransa",
+      "İspanya",
+      "Portekiz",
+      "Türkiye",
+      "Hollanda"
+
+    ],
+    "difficulty": "kolay"
   }
 
   

@@ -4584,5 +4584,21 @@
       "Jaba"
     ],
     "difficulty": "zor"
+  },
+
+   {
+    "id": 228,
+    "game": "listeyi-tamamla",
+    "type": "player",
+    "title": "Bu sezon Süper Lig'de oynanan 12 haftanın tamamında 90 dakika süre alan kaleciler?",
+    "activeDate": "2026-11-27",
+    "targets": [
+      "Alexander Nübel",
+      "Andre Onana",
+      "Alban Lafont",
+      "İrfan Can Eğribayat",
+      "Serhat Öztaşdelen"
+    ],
+    "difficulty": "zor"
   }
 ]
