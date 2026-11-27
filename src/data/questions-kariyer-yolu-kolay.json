@@ -7789,7 +7789,7 @@
   },
   {
     "id": 203,
-    "game": "kariyer-yolu-kolay",
+    "game": "kariyer-yolu",
     "activeDate": "2026-11-26",
     "correctPlayer": "Nigel de Jong",
     "career": [
@@ -7813,7 +7813,7 @@
       },
       {
         "season": "2012–2016",
-        "team": "AC Milan",  
+        "team": "AC Milan",
         "apps": "96",
         "goals": "7"
       },
@@ -7845,6 +7845,69 @@
         "season": "2019–2021",
         "team": "Al-Shahania SC",
         "apps": "35",
+        "goals": "4"
+      }
+    ],
+    "difficulty": "kolay"
+  },
+  {
+    "id": 204,
+    "game": "kariyer-yolu",
+    "activeDate": "2026-11-27",
+    "correctPlayer": "Pedro Franco",
+    "career": [
+      {
+        "season": "2009–2013",
+        "team": "Millonarios",
+        "apps": "121",
+        "goals": "8"
+      },
+      {
+        "season": "2013–2018",
+        "team": "Beşiktaş",
+        "apps": "59",
+        "goals": "1"
+      },
+      {
+        "season": "2015–2016",
+        "team": "CA San Lorenzo (kiralık)",
+        "apps": "4",
+        "goals": "0"
+      },
+      {
+        "season": "2016–2017",
+        "team": "Millonarios (kiralık)",
+        "apps": "39",
+        "goals": "1"
+      },
+      {
+        "season": "2017–2018",
+        "team": "Boluspor (kiralık)",
+        "apps": "14",
+        "goals": "1"
+      },
+      {
+        "season": "2018–2019",
+        "team": "CD América de Cali",
+        "apps": "49",
+        "goals": "5"
+      },
+      {
+        "season": "2020–2021",
+        "team": "Club Blooming",
+        "apps": "4",
+        "goals": "0"
+      },
+      {
+        "season": "2021–2023",
+        "team": "Fortaleza CEIF",
+        "apps": "55",
+        "goals": "1"
+      },
+      {
+        "season": "2023–",
+        "team": "Alianza FC",
+        "apps": "150",
         "goals": "4"
       }
     ],

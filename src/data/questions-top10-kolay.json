@@ -4142,6 +4142,27 @@
   },
 
   {
+    "id": 209,
+    "game": "top10",
+    "title": "Süper Lig'de 2017-18 sezonunu ilk 10 sırada tamamlayan takımlar?",
+    "type": "team-tr",
+    "activeDate": "2026-11-28",
+    "targets": [
+     "Galatasaray",
+     "Fenerbahçe",
+     "Başakşehir",
+     "Beşiktaş",
+     "Trabzonspor",
+     "Göztepe",
+     "Sivasspor",
+     "Kasımpaşa",
+     "Kayserispor",
+     "Yeni Malatyaspor"
+    ],
+    "difficulty": "kolay"
+  },
+
+  {
     "id": 216,
     "game": "top10",
     "title": "Fenerbahçe'nin Süper Lig tarihinde en çok mağlup olduğu 10 takım?",
